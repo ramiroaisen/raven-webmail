@@ -1,0 +1,31 @@
+# Port to run the server on
+# @number (required)
+port=8635
+
+# use ssl
+# @boolean (required)
+ssl=false
+
+# Path to ssl cert
+# @string (required if ssl=true)
+# ssl_certificate="/path/to/ssl/cert.pem"
+
+# Path to ssl public key
+# @string (required if ssl=true)
+# ssl_certificate_key="/path/to/ssl/key.pem"
+
+# secret token (change it will invalidate sessions)
+# @string (required)
+secret_token="some super secret value"
+
+# mongodb url
+# @string (required)
+mongodb_url="mongodb://localhost:27017/wildgoose-webmail"
+
+# wildduck api url (it could be in another server too and http or https)
+# @string (required)
+wildduck_api_url="http://localhost:8080"
+
+# wildduck api token
+# @string (required)
+wildduck_api_token="same as in wildduck config"
