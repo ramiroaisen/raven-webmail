@@ -25,7 +25,11 @@ export const ws = (srv: Server, config: Config, session: any) => {
 
   server.on("connection", (ws: Ws, req: IncomingMessage, session: Express.Session) => {
     
-    const client = new Client({host: config.wildduck_api_url, accessToken: session.accessToken});
+    const client = new Client({
+      host: config.wildduck_api_url,
+      accessToken: session.accessToken,
+      apiToken: config.wildduck_api_token
+    });
 
     const send = (msg: Outgoing.Message) => {
       ws.send(JSON.stringify(msg));

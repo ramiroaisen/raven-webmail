@@ -1,5 +1,5 @@
 {
-  "name": "wilgoose-webmail-client",
+  "name": "raven-webmail-client",
   "version": "0.0.1",
   "scripts": {
     "clean": "rimraf public/build/**",

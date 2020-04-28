@@ -7,21 +7,10 @@ const node_fetch_1 = __importDefault(require("node-fetch"));
 const eventsource_1 = __importDefault(require("eventsource"));
 const http_1 = __importDefault(require("http"));
 const https_1 = __importDefault(require("https"));
-const root = "45887645c2ce2d1d7230b6c75bd953a64fd3f221";
 const agentOpts = { keepAlive: true };
 const local = true;
 const httpAgent = new http_1.default.Agent({ keepAlive: true });
 const httpsAgent = new https_1.default.Agent({ keepAlive: true });
-/*
-type Sub = Pick<Client, "get" | "post" | "put" | "del">
-const sub = (client: Client, base: string): Sub => {
-  const get = (path: string) => client.get(base);
-  const post = (path: string, body: any) => client.post(base + path, body);
-  const put = (path: string, body: any) => client.put(base + path, body);
-  const del = (path: string) => client.del(base + path)
-  return {get, post, put, del};
-}
-*/
 class Client {
     constructor(opts) {
         this.opts = Object.assign({}, opts);
@@ -35,10 +24,10 @@ class Client {
         opts.headers = opts.headers || {};
         opts.headers["Content-Type"] = "application/json";
         if (path === "/authenticate") {
-            opts.headers["x-access-token"] = "QE9yaW1hcjEyMw==";
+            opts.headers["x-access-token"] = this.opts.apiToken;
         }
         else if (this.opts.accessToken) {
-            opts.headers["x-access-token"] = this.opts.accessToken;
+            opts.headers["x-access-token"] = this.opts.accessToken || "";
         }
         const json = await node_fetch_1.default(url, { ...opts, agent: this.opts.agent }).then(res => res.json());
         if (!json.success) {

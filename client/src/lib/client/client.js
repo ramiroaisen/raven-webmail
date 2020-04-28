@@ -24,7 +24,7 @@ const ws = new Promise((resolve, reject) => {
                 case "resolve":
                     const awaiter = awaiters.get(msg.replyTo);
                     if (awaiter == null) {
-                        console.warn("[Mailer] Call resolve to empty awaiter");
+                        console.warn("[WS] Call resolve to empty awaiter");
                     }
                     else {
                         const [resolve] = awaiter;
@@ -35,7 +35,7 @@ const ws = new Promise((resolve, reject) => {
                 case "call":
                     const fn = callbacks.get(msg.callId);
                     if (fn == null) {
-                        console.warn("[Mailer] Call call to empty callback");
+                        console.warn("[WS] Call call to empty callback");
                     }
                     else {
                         fn(msg.arg);
@@ -44,7 +44,7 @@ const ws = new Promise((resolve, reject) => {
                 case "reject":
                     const aw = awaiters.get(msg.replyTo);
                     if (aw == null || aw[1] == null) {
-                        console.warn("[Mailer] Call reject to empty awaiter");
+                        console.warn("[WS] Call reject to empty awaiter");
                     }
                     else {
                         const [_, reject] = aw;
@@ -53,7 +53,7 @@ const ws = new Promise((resolve, reject) => {
                     awaiters.delete(msg.replyTo);
                     break;
                 case "error":
-                    console.warn(`[Mailer] Error from backend: ${msg.message}`);
+                    console.warn(`[WS] Error from backend: ${msg.message}`);
                     break;
                 case "ping":
                     send({ id: uid(), type: "pong", replyTo: msg.id });
@@ -76,23 +76,10 @@ const ws = new Promise((resolve, reject) => {
 });
 export const ready = ws.then(() => void 0);
 export const send = async (msg) => {
-    switch (msg.type) {
-        case "get":
-        case "post":
-        case "put":
-        case "del":
-            console.log(`[${msg.type.toUpperCase()}] ${msg.path}`, msg.body || "");
-    }
-    const log = (resolve) => {
-        return (reply) => {
-            console.log("[RESOLVE]", reply);
-            resolve(reply);
-        };
-    };
     (await ws).send(JSON.stringify(msg));
     return {
         then: (resolve, reject) => {
-            awaiters.set(msg.id, [log(resolve), reject]);
+            awaiters.set(msg.id, [resolve, reject]);
         }
     };
 };
@@ -105,7 +92,7 @@ export const login = async ({ username, password }, goto = "/") => {
     if (json.error) {
         throw new Error(json.error.message);
     }
-    location.assign(goto);
+    location.replace(goto);
     return json;
 };
 export const logout = async () => {
@@ -130,7 +117,7 @@ export const watch = async (fn) => {
     if (!watching) {
         watching = true;
         const onChange = (change) => {
-            console.log("[CHANGE]", change);
+            console.log("[WS] Change", change);
             for (const fn of watchers) {
                 fn(change);
             }

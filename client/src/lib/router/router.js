@@ -1,7 +1,8 @@
 import { writable } from "../../lib/store";
 import { match as _match } from "path-to-regexp";
 export const createRouter = (inp = {}, session = writable(null), { dev = true } = { dev: true }) => {
-    const log = dev ? console.log : () => { };
+    //const log = dev ? console.log : () => {};
+    const log = (...args) => { };
     const routes = [];
     const page = writable(null);
     const _render = writable(null);

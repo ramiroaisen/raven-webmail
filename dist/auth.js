@@ -11,7 +11,7 @@ exports.auth = (config) => {
     router.post("/login", async (req, res) => {
         const username = req.body.username || "";
         const password = req.body.password || "";
-        const client = new client_1.Client({ host: config.wildduck_api_url });
+        const client = new client_1.Client({ apiToken: config.wildduck_api_token, host: config.wildduck_api_url });
         try {
             const token = await client.login(username, password);
             req.session.accessToken = token;

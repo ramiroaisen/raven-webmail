@@ -8,7 +8,6 @@
 
 <script>
   export let res;
-  console.log(res);
 </script>
 
 <pre>{JSON.stringify(res, null, 2)}</pre>

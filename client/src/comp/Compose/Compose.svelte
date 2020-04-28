@@ -269,7 +269,6 @@
   const saveIf = async () => {
     let current = createPostableDraft($self);
     if (!deepEqual(saved, current)) {
-      console.log("[SAVING] draft");
       saving = true;
       const id = await saveDraft($self);
       $self.id = id;

@@ -81,7 +81,6 @@
 
   const {page} = getContext("router");
   const hasDrawer = derived(page, page => page.path !== "/login");
-  console.log("hasDrawer", $hasDrawer)
 
   setContext("dash", {toggleDrawer, isMobile, drawerOpenMobile, drawerOpenDesktop, hasDrawer});
 

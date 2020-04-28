@@ -386,7 +386,7 @@
         "signature": "58c30380900062509a564aac830c2c0371b04cf1c519cf93c6088a508c0a04b1"
       },
       "./src/client/client.ts": {
-        "version": "bc9589da7340a3fb2a66447ee0998d71c08676c8a1d6d4cc6373e8c0f693e1bc"
+        "version": "ef0072688b846fbaf4d53f3af9bf3eca6ef8e5a05fd28cc945e9a3bbd80fa1f8"
       },
       "./node_modules/typescript-is/index.d.ts": {
         "version": "fa65dd3308b80c1dfb71cf57191a0eebe077f62c6e65d61a07c6c00f6309278f",
@@ -404,7 +404,7 @@
         "version": "bb52adecc4e5fa60191b5c16909bc1ecca804755385c808ddaedd96c8f3f9c1a"
       },
       "./src/auth.ts": {
-        "version": "6540b175f94fa10c3a87a18b1fe7bf8ed9c40e62f1e63c199848cfc28452f452"
+        "version": "52462caf946f39fc8666b5279fdea48919c93484e9a773872550a2bd5be8b448"
       },
       "./src/download.ts": {
         "version": "25e21ec2758c3164a0e06f9c12f31936a56961b32677674aa2b4f0369c73bf1d"
@@ -448,10 +448,10 @@
         "signature": "c2325f321f029ce11920f4865f42452fc06de6d79f60c828149ca0005ed8b3e7"
       },
       "./src/session.ts": {
-        "version": "4262d7155dedc5422971bcd5287373c3c52a3a25485122825db201e1e4065ece"
+        "version": "ef995e15b21875383fb10560e36c2e2db1ee501d361abbb1c6350cac4f924fd1"
       },
       "./src/client/ws.ts": {
-        "version": "ea601216435e96365c3e743a5836a987b5d47f330612f843da2ff27030636060"
+        "version": "ca4c954484c1a3e9949909e93532720d2cc3941f527fca3fafaa33d330be92ea"
       },
       "./src/upload.ts": {
         "version": "14ffbf4ad12c522f115cb09c77f0937e02d914f752830455964becacace06a55"
@@ -1192,9 +1192,9 @@
         "./node_modules/@types/node-fetch/index.d.ts",
         "./node_modules/@types/eventsource/index.d.ts",
         "./node_modules/@types/node/https.d.ts",
-        "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/typescript-is/index.d.ts": [
@@ -2285,7 +2285,6 @@
       "./node_modules/toml/index.d.ts",
       "./node_modules/chalk/index.d.ts",
       "./src/config.ts",
-      "./src/auth.ts",
       "./src/download.ts",
       "./node_modules/commander/typings/index.d.ts",
       "./src/raven.ts",
@@ -2301,6 +2300,7 @@
       "./src/client/ws.ts",
       "./src/upload.ts",
       "./node_modules/@types/compression/index.d.ts",
+      "./src/auth.ts",
       "./src/server.ts"
     ]
   },

@@ -27,8 +27,9 @@ export type Match = {
 
 export const createRouter = (inp: Record<string, () => Promise<Component>> = {}, session: Writable<any> = writable(null), {dev = true} = {dev: true}) => {
   
-  const log = dev ? console.log : () => {};
-  
+  //const log = dev ? console.log : () => {};
+  const log = (...args: any[]) => {}
+
   const routes: Route[] = [];
 
   const page = writable<Page>(null as unknown as Page);

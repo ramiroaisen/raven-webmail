@@ -52,7 +52,7 @@
         headers: {"content-type": "application/json"},
         body: JSON.stringify({username, password})
       }).then(res => res.json());
-      console.log(user);
+
       if(user.error) {
         throw new Error(user.error.message);
       }

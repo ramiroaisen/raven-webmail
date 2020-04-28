@@ -35,7 +35,8 @@ export const session = (config: Config) => {
         
         const client = new Client({
           host: config.wildduck_api_url,
-          accessToken: req.session!.accessToken
+          accessToken: req.session!.accessToken,
+          apiToken: config.wildduck_api_token
         });
 
         try {
