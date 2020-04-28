@@ -28,6 +28,14 @@ raven start [-c --config="./config.toml"]
 
 ---
 
+### TODO
+- [ ] Localization
+- [ ] Create / Remove folders
+- [ ] Create / Remove aliases
+- [ ] Create / Remove filters
+
+---
+
 ### Development
 ./src contains server side and cli typescript code that get compiled to ./dist
 
