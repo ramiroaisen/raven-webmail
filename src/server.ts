@@ -49,19 +49,18 @@ export const start = async (config: Config) => {
   app.use(helmet());
   app.use(compression())
 
-  const index = readFileSync(path.resolve(__dirname, "../client/public/index.html"), "utf8");
+  const index = readFileSync(path.resolve(__dirname, "../client/template.html"), "utf8");
   const vars = {};
   const json = (vars: any) => `JSON.parse(${JSON.stringify(JSON.stringify(vars)).replace(/<\//g, "<\\/")})`;
-  const scripts = `<script>__WILDGOOSE__=${json(vars)};</script>`;
+  const scripts = `<script>__RAVEN__=${json(vars)};</script>`;
 
   app.get("/", (req, res) => {
     res.header("content-type", "text/html");
     res.header("vary", "accept-language");
-    res.end(index.replace("%mailer.scripts%", scripts));
+    res.end(index.replace("%raven.scripts%", scripts));
   })
 
-  app.use(serve(path.resolve(__dirname, "../../client/public")));
-
+  app.use(serve(path.resolve(__dirname, "../client/public")));
 
   app.use(body.json());
   app.use(sess);

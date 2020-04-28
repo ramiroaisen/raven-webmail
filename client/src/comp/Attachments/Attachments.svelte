@@ -32,7 +32,6 @@
   export let mailbox;
   export let message;
   export let attachments;
-  export let open = false;
 
   import Paperclip from "svelte-material-icons/Paperclip.svelte";
   import {Ripple, Menuitem} from "svelte-mui";

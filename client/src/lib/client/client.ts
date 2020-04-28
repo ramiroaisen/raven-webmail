@@ -1,4 +1,4 @@
-import {Incomming as Outgoing, Outgoing as Incomming} from "../../../../server/src/client/io";
+import {Incomming as Outgoing, Outgoing as Incomming} from  "../../../.././src/client/io";
 import {User, Message, Mailbox} from "../api";
 import { writable, Writable } from "../store";
 import * as mailboxes from "./mailboxes";

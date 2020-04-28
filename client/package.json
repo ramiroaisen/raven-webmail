@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "scripts": {
     "clean": "rimraf public/build/**",
-    "build": "npm run clean && rollup -c",
-    "dev": "run-p clean && rollup -c -w"
+    "build": "npm run clean && tsc && rollup -c",
+    "dev:tsc": "tsc -w",
+    "dev:rollup": "rollup -c -w",
+    "dev": "run-p dev:tsc dev:rollup"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.0",

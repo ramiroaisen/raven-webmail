@@ -5,12 +5,12 @@
 		<meta charset='utf8'>
 		<meta name='viewport' content='width=device-width'>
 
-		<title>Wildgoose Webmail</title>
+		<title>Raven Webmail</title>
 
-		<link rel='icon' type='image/png' href='favicon.png'>
-		<link rel='stylesheet' href='global.css'>
-		<link rel='stylesheet' href='build/bundle.css'>
-		
+		<link rel='icon' type='image/png' href='public/favicon.png'>
+		<link rel='stylesheet' href='/global.css'>
+		<link rel='stylesheet' href='/build/bundle.css'>
+
 		<style>
 			@keyframes CircularProgressCircleIndeterminate{0%{stroke-dasharray:1px, 200px;stroke-dashoffset:0px;}50%{stroke-dasharray:100px, 200px;stroke-dashoffset:-15px;}100%{stroke-dasharray:100px, 200px;stroke-dashoffset:-125px;}}@keyframes CircularProgressRotate{100%{transform:rotate(360deg);}}.loading{display:flex;color:var(--pc);animation:CircularProgressRotate 1.4s linear infinite;}.loading .circle.indeterminate{animation:CircularProgressCircleIndeterminate 1.4s ease-in-out infinite;stroke-dasharray:80px, 200px;stroke-dashoffset:0px;}
 			x-loading-wrap {display: flex; flex: 1; align-items: center; justify-content: center}
@@ -32,7 +32,8 @@
 
 		<div class="font-preload">A</div>
 		<div class="font-preload" style="font-weight: 700;">A</div>
-		
-		<script type="module" src='build/main.js'></script>
+
+		%raven.scripts%
+		<script type="module" src='/build/main.js'></script>
 	</body>
 </html>

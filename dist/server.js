@@ -42,16 +42,16 @@ exports.start = async (config) => {
     dev && app.use(morgan_1.default("dev"));
     app.use(helmet_1.default());
     app.use(compression_1.default());
-    const index = fs_1.readFileSync(path_1.default.resolve(__dirname, "../client/public/index.html"), "utf8");
+    const index = fs_1.readFileSync(path_1.default.resolve(__dirname, "../client/template.html"), "utf8");
     const vars = {};
     const json = (vars) => `JSON.parse(${JSON.stringify(JSON.stringify(vars)).replace(/<\//g, "<\\/")})`;
-    const scripts = `<script>__WILDGOOSE__=${json(vars)};</script>`;
+    const scripts = `<script>__RAVEN__=${json(vars)};</script>`;
     app.get("/", (req, res) => {
         res.header("content-type", "text/html");
         res.header("vary", "accept-language");
-        res.end(index.replace("%mailer.scripts%", scripts));
+        res.end(index.replace("%raven.scripts%", scripts));
     });
-    app.use(serve_static_1.default(path_1.default.resolve(__dirname, "../../client/public")));
+    app.use(serve_static_1.default(path_1.default.resolve(__dirname, "../client/public")));
     app.use(body_parser_1.default.json());
     app.use(sess);
     app.use(auth_1.auth(config));

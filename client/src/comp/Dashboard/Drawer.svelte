@@ -90,7 +90,7 @@
     <div class="title">
       <MenuButton dark />
       <span class="label">
-        GoosyMail
+        Raven
       </span>
     </div>
     <MailboxList />

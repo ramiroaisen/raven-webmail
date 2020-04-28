@@ -461,7 +461,7 @@
         "signature": "12509b418cf3a93cf601026f9a82c496da31e355cd30b10bdd46c9e50a3e81c5"
       },
       "./src/server.ts": {
-        "version": "cf600afc1ec987098e54e5317047f561ee74331a6dd49eb5bce92d0b5b674cd2"
+        "version": "ed9e38216c8df686e7b6eef2a31ef55018db3296433a76d942030aefdb66356a"
       }
     },
     "options": {
@@ -2288,6 +2288,7 @@
       "./src/auth.ts",
       "./src/download.ts",
       "./node_modules/commander/typings/index.d.ts",
+      "./src/raven.ts",
       "./node_modules/@types/morgan/index.d.ts",
       "./node_modules/@types/helmet/index.d.ts",
       "./node_modules/@types/ws/index.d.ts",
@@ -2300,8 +2301,7 @@
       "./src/client/ws.ts",
       "./src/upload.ts",
       "./node_modules/@types/compression/index.d.ts",
-      "./src/server.ts",
-      "./src/raven.ts"
+      "./src/server.ts"
     ]
   },
   "version": "3.8.3"

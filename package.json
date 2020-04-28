@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ttsc",
+    "build:client": "cd client && npm run build",
     "dev": "ttsc -w"
   },
   "bin": {
