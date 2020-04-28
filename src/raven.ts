@@ -7,9 +7,6 @@ import path from "path";
 
 import * as config from "./config";
 
-console.log(__dirname);
-console.log(path.join(__dirname + ".,/config.sample.json"));
-
 const createConfig = (opts: {output: string}) => {
   console.log("> Creating config file in " + chalk.yellow(opts.output));
   const sample = path.join(__dirname, "../config.sample.toml");

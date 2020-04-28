@@ -20,7 +20,7 @@ secret_token="some super secret value"
 
 # mongodb url
 # @string (required)
-mongodb_url="mongodb://localhost:27017/wildgoose-webmail"
+mongodb_url="mongodb://localhost:27017/raven-webmail"
 
 # wildduck api url (it could be in another server too and http or https)
 # @string (required)

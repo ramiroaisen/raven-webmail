@@ -414,7 +414,7 @@
         "signature": "c72b982add26c5ddf410899bcafe3f47253a5d274d4b93d2ef67850d4af4545b"
       },
       "./src/raven.ts": {
-        "version": "53a4b65a310c99716c782e1e31e52ec8bb4033d3acc775a0c066d7e8763f08c8"
+        "version": "65c3b90b4f50900968aae338f55efa0e3eda35c6fdbfee20f4f813098d591aa4"
       },
       "./node_modules/@types/morgan/index.d.ts": {
         "version": "7b38866aa1fa86de989e91cccf2680fed5a4de0d6e48ea559331cb50bfb3a615",
@@ -461,7 +461,7 @@
         "signature": "12509b418cf3a93cf601026f9a82c496da31e355cd30b10bdd46c9e50a3e81c5"
       },
       "./src/server.ts": {
-        "version": "6a004dd7ab6cdcf73c70d5ff70921c9a0f1aa40ca6f41228deff2032b30f02be"
+        "version": "cf600afc1ec987098e54e5317047f561ee74331a6dd49eb5bce92d0b5b674cd2"
       }
     },
     "options": {
@@ -2288,7 +2288,6 @@
       "./src/auth.ts",
       "./src/download.ts",
       "./node_modules/commander/typings/index.d.ts",
-      "./src/raven.ts",
       "./node_modules/@types/morgan/index.d.ts",
       "./node_modules/@types/helmet/index.d.ts",
       "./node_modules/@types/ws/index.d.ts",
@@ -2301,7 +2300,8 @@
       "./src/client/ws.ts",
       "./src/upload.ts",
       "./node_modules/@types/compression/index.d.ts",
-      "./src/server.ts"
+      "./src/server.ts",
+      "./src/raven.ts"
     ]
   },
   "version": "3.8.3"

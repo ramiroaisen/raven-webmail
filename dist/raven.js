@@ -16,8 +16,6 @@ const chalk_1 = __importDefault(require("chalk"));
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 const config = __importStar(require("./config"));
-console.log(__dirname);
-console.log(path_1.default.join(__dirname + ".,/config.sample.json"));
 const createConfig = (opts) => {
     console.log("> Creating config file in " + chalk_1.default.yellow(opts.output));
     const sample = path_1.default.join(__dirname, "../config.sample.toml");

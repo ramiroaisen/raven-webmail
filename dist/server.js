@@ -30,7 +30,7 @@ exports.start = async (config) => {
             server = https_1.default.createServer({ key, cert }, app);
         }
         catch (e) {
-            console.error("Error loading ssl cert and key:", e.message);
+            console.error(chalk_1.default.red("Error loading ssl cert and key:"), chalk_1.default.yellow(e.message));
             return process.exit(1);
         }
     }
@@ -58,6 +58,6 @@ exports.start = async (config) => {
     app.post("/upload", await upload_1.upload(config));
     app.get("/download/:mailbox/:message/:attachment", await download_1.download(config));
     server.listen(config.port, () => {
-        console.log(`> http server listening on port ${chalk_1.default.yellow(config.port)}`);
+        console.log(`> http${config.ssl ? "s" : ""} server listening on port ${chalk_1.default.yellow(config.port)}`);
     });
 };
