@@ -33,6 +33,7 @@ raven start [-c --config="./config.toml"]
 - [ ] Create / Remove folders
 - [ ] Create / Remove aliases
 - [ ] Create / Remove filters
+- [ ] Choose sender address (currently uses user default address)
 
 ---
 
