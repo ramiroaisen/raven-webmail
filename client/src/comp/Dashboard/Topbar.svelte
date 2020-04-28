@@ -36,7 +36,7 @@
 
 <x-topbar>
   <MenuButton light hidden={!$hasDrawer} />
-  <x-logo>Raven Webmail</x-logo>
+  <x-logo>Raven</x-logo>
   {#if $user}
     <div class="account-button">
       <AccountButton user={$user} dark />
