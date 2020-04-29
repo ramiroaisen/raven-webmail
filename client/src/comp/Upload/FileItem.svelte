@@ -86,6 +86,7 @@
     left: -1em;
     transform: translate(-100%, -50%);
   }
+
 </style>
 
 <script>
@@ -120,6 +121,8 @@
       }
     }
   }
+
+  export let removeTooltip;
 </script>
 
 
@@ -142,7 +145,7 @@
       <Error />
     </x-state>
   {/if}
-  <x-action class="remove btn-dark" data-tooltip="Eliminar" on:click={() => remove(file)}>
+  <x-action class="remove btn-dark" data-tooltip={removeTooltip} on:click={() => remove(file)}>
     <Remove />
     <Ripple />
   </x-action>

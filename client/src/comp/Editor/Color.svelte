@@ -15,20 +15,22 @@
   import ColorGroup from "./ColorGroup.svelte";
 
   import Menu from "svelte-mui/src/Menu.svelte";
+
+  export let locale;
 </script>
 
 <x-command-group>
   <Menu origin="bottom left" dy={25}>
-    <x-command slot="activator" class="multiple" data-tooltip="Color">
+    <x-command slot="activator" class="multiple" data-tooltip={locale.tooltip}>
       <Fill />
     </x-command>
 
     <x-color>
       {#if has("foreColor")}
-        <ColorGroup variant="foreColor" label="Texto" />
+        <ColorGroup variant="foreColor" label={locale.foreColor} />
       {/if}
       {#if has("backColor")}
-        <ColorGroup variant="backColor" label="Fondo" />
+        <ColorGroup variant="backColor" label={locale.backColor} />
       {/if}
     </x-color>
   </Menu>

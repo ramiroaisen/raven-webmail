@@ -166,13 +166,15 @@
       ctx.open.update(o => !o);
     }
   }
+
+  export let locale;
 </script>
 
 <x-upload>
   
   <input bind:this={input} on:change={change} type="file" name="0-upload" id="0-upload" multiple>
   
-  <x-action class="upload btn-dark" data-tooltip={open ? null : "Adjuntar"} on:click={click}>
+  <x-action class="upload btn-dark" data-tooltip={open ? null : locale.tooltip} on:click={click}>
     <Clip/>
     <Ripple />
     {#if loading}
@@ -195,12 +197,12 @@
       <x-popup-body>
         <x-scroll>
           {#each $ctxFiles as file (file)}
-            <FileItem {file} />
+            <FileItem {file} removeTooltip={locale.remove} />
           {/each}
         </x-scroll>
         <x-popup-top>
           <x-label></x-label>
-          <Button on:click={() => input.click()}>Agregar</Button>
+          <Button on:click={() => input.click()}>{locale.add}</Button>
         </x-popup-top>
       </x-popup-body>
     </x-popup>

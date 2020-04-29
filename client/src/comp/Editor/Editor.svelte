@@ -118,7 +118,7 @@
 </style>
 
 <script>
-  import {setContext, createEventDispatcher} from "svelte";
+  import {setContext, getContext, createEventDispatcher} from "svelte";
   const dispatch = createEventDispatcher();
 
   export let html = "";
@@ -155,6 +155,9 @@
   //import {Button} from "svelte-mui";
   import {getNotifier} from "comp@Notify/notify.js";
   import ProgressButton from "comp@ProgressButton.svelte";
+
+  const {locale: l} = getContext("app");
+  export let locale = $l.editor;
 </script>
 
 <x-editor>
@@ -165,10 +168,10 @@
 
       {#if all("undo", "redo")}
       <x-command-group>
-        <x-command data-tooltip="Deshacer (Ctrl+Z)" on:click={() => cmd("undo")}>
+        <x-command data-tooltip={locale.cmd.undo} on:click={() => cmd("undo")}>
           <Undo />
         </x-command>
-        <x-command data-tooltip="Rehacer (Ctrl+Y)" on:click={() => cmd("redo")}>
+        <x-command data-tooltip={locale.cmd.redo} on:click={() => cmd("redo")}>
           <Redo />
         </x-command>
       </x-command-group>
@@ -176,32 +179,32 @@
 
       {#if has("fontName")}
         <x-command-group>
-          <FontFamily />
+          <FontFamily tooltip={locale.cmd.fontName} />
         </x-command-group>
       {/if}
 
       {#if has("fontSize")}
         <x-command-group>
-          <FontSize />
+          <FontSize tooltip={locale.cmd.fontSize}/>
         </x-command-group>
       {/if}
       
       {#if any("bold", "italic", "underline")}
         <x-command-group>
           {#if has("bold")}
-            <x-command data-tooltip="Negrita (Ctrl+B)" on:click={() => cmd("bold")}>
+            <x-command data-tooltip={locale.cmd.bold} on:click={() => cmd("bold")}>
               <Bold />
             </x-command>
           {/if}
 
           {#if has("italic")}
-            <x-command data-tooltip="Itálica (Ctrl+I)" on:click={() => cmd("italic")}>
+            <x-command data-tooltip={locale.cmd.italic} on:click={() => cmd("italic")}>
               <Italic />
             </x-command>
           {/if}
 
           {#if has("underline")}
-            <x-command data-tooltip="Subrayado (Ctrl+U)" on:click={() => cmd("underline")}>
+            <x-command data-tooltip={locale.cmd.underline} on:click={() => cmd("underline")}>
               <Underline />
             </x-command>
           {/if}
@@ -209,23 +212,23 @@
       {/if}
 
       {#if any("foreColor", "backColor")}
-        <Color />
+        <Color locale={locale.color} />
       {/if}
 
       {#if any("justifyLeft", "justifyCenter", "justifyRight")}
         <x-command-group>
           {#if has("justifyLeft")}
-            <x-command data-tooltip="Alinear a la izquierda" on:click={() => cmd("justifyLeft")}>
+            <x-command data-tooltip={locale.cmd.justifyLeft} on:click={() => cmd("justifyLeft")}>
               <JustifyLeft />
             </x-command>
           {/if}
           {#if has("justifyCenter")}
-            <x-command data-tooltip="Alinear al centro" on:click={() => cmd("justifyCenter")}>
+            <x-command data-tooltip={locale.cmd.justifyCenter} on:click={() => cmd("justifyCenter")}>
               <JustifyCenter />
             </x-command>
           {/if}
           {#if has("justifyRight")}
-            <x-command data-tooltip="Alinear a la derecha" on:click={() => cmd("justifyRight")}>
+            <x-command data-tooltip={locale.cmd.justifyRight} on:click={() => cmd("justifyRight")}>
               <JustifyRight />
             </x-command>
           {/if}
@@ -235,12 +238,12 @@
       {#if any("insertUnorderedList", "insertOrderedList")}
         <x-command-group>
           {#if has("insertUnorderedList")}
-            <x-command data-tooltip="Lista con viñetas" on:click={() => cmd("insertUnorderedList")}>
+            <x-command data-tooltip={locale.cmd.insertUnorderedList} on:click={() => cmd("insertUnorderedList")}>
               <ListBulleted />
             </x-command>
           {/if}
           {#if has("insertOrderedList")}
-            <x-command data-tooltip="Lista numerada" on:click={() => cmd("insertOrderedList")}>
+            <x-command data-tooltip={locale.cmd.insertOrderedList} on:click={() => cmd("insertOrderedList")}>
               <ListNumbered />
             </x-command>
           {/if}
@@ -249,7 +252,7 @@
 
       {#if has("removeFormat")}
         <x-command-group>
-          <x-command data-tooltip="Borrar formato" on:click={() => cmd("removeFormat")}>
+          <x-command data-tooltip={locale.cmd.removeFormat} on:click={() => cmd("removeFormat")}>
             <RemoveFormat />
           </x-command>
         </x-command-group>
@@ -257,10 +260,10 @@
     </x-toolbar>
   
     <x-end>
-      <Upload bind:files/>
+      <Upload locale={locale.upload} bind:files/>
       <x-send>
         <ProgressButton color="#4273e8" progress={{size: "1.5em"}} raised inprogress={sending} on:click={() => dispatch("send")}>
-          <span style="text-transform: none; font-size:1.1em">Enviar</span>
+          <span style="text-transform: none; font-size:1.1em">{locale.send}</span>
         </ProgressButton>
       </x-send>
     </x-end>

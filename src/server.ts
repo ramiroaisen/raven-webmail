@@ -15,6 +15,7 @@ import body from "body-parser";
 
 import { ws } from "./client/ws";
 import { auth } from "./auth";
+import { i18n } from "./i18n/i18n";
 import { session } from "./session";
 import { upload } from "./upload";
 import { readFileSync } from "fs";
@@ -49,15 +50,24 @@ export const start = async (config: Config) => {
   app.use(helmet());
   app.use(compression())
 
-  const index = readFileSync(path.resolve(__dirname, "../client/template.html"), "utf8");
-  const vars = {};
-  const json = (vars: any) => `JSON.parse(${JSON.stringify(JSON.stringify(vars)).replace(/<\//g, "<\\/")})`;
-  const scripts = `<script>__RAVEN__=${json(vars)};</script>`;
+  app.use(i18n());
 
-  app.get("/", (req, res) => {
+  const template = readFileSync(path.resolve(__dirname, "../client/template.html"), "utf8");
+
+  app.get("/", (req: Request, res: Response) => {
     res.header("content-type", "text/html");
     res.header("vary", "accept-language");
-    res.end(index.replace("%raven.scripts%", scripts));
+
+    const vars = {
+      lang: req.lang,
+      locale: req.locale,
+    };
+
+    const json = (vars: any) => `JSON.parse(${JSON.stringify(JSON.stringify(vars)).replace(/<\//g, "<\\/")})`;
+    const scripts = `<script>__RAVEN__=${json(vars)};</script>`;
+
+
+    res.end(template.replace("%raven.scripts%", scripts));
   })
 
   app.use(serve(path.resolve(__dirname, "../client/public")));

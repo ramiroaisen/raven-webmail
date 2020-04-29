@@ -453,6 +453,19 @@
       "./src/client/ws.ts": {
         "version": "ca4c954484c1a3e9949909e93532720d2cc3941f527fca3fafaa33d330be92ea"
       },
+      "./node_modules/@types/accept-language-parser/index.d.ts": {
+        "version": "ed0a377b42878dbdcf450d60925172d34495ca972bffc2a6c330ee2c24bec0bb",
+        "signature": "ed0a377b42878dbdcf450d60925172d34495ca972bffc2a6c330ee2c24bec0bb"
+      },
+      "./src/i18n/src/es.ts": {
+        "version": "3ab07f93c2961d89ce2e912bbdf85253e2c74192a999023804723b5bc0f99f84"
+      },
+      "./src/i18n/types.ts": {
+        "version": "26b8ab6e64d0176cc894fd86b3dc7da0f03f42e965f21bf231320871f4967a0c"
+      },
+      "./src/i18n/i18n.ts": {
+        "version": "e18e721a89c4736975edbf048d43b1ab6ce684cc7f90a0b330ca46bd07f94b14"
+      },
       "./src/upload.ts": {
         "version": "14ffbf4ad12c522f115cb09c77f0937e02d914f752830455964becacace06a55"
       },
@@ -461,7 +474,10 @@
         "signature": "12509b418cf3a93cf601026f9a82c496da31e355cd30b10bdd46c9e50a3e81c5"
       },
       "./src/server.ts": {
-        "version": "ed9e38216c8df686e7b6eef2a31ef55018db3296433a76d942030aefdb66356a"
+        "version": "096c459f22dde0462b9542c4248b43775383c4d0d8628eac76bf096e88615ec6"
+      },
+      "./src/i18n/src/en.ts": {
+        "version": "cfd09b0570009fa32a1bc65ab7fd0d4989b5cecb1f6cfaf51652dabd2034b1b2"
       }
     },
     "options": {
@@ -1335,6 +1351,7 @@
         "./node_modules/@types/express/index.d.ts",
         "./src/client/client.ts",
         "./src/config.ts",
+        "./src/i18n/i18n.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1351,6 +1368,38 @@
         "./node_modules/@types/express/index.d.ts",
         "./src/config.ts",
         "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/accept-language-parser/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/src/es.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/types.ts": [
+        "./src/i18n/src/es.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/i18n.ts": [
+        "./node_modules/@types/node/path.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/typescript-is/index.d.ts",
+        "./node_modules/chalk/index.d.ts",
+        "./node_modules/@types/express/index.d.ts",
+        "./node_modules/@types/accept-language-parser/index.d.ts",
+        "./src/i18n/types.ts",
+        "./src/session.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
@@ -1383,12 +1432,20 @@
         "./node_modules/@types/body-parser/index.d.ts",
         "./src/client/ws.ts",
         "./src/auth.ts",
+        "./src/i18n/i18n.ts",
         "./src/session.ts",
         "./src/upload.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/compression/index.d.ts",
         "./src/config.ts",
         "./src/download.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/src/en.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
@@ -2175,6 +2232,12 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./node_modules/@types/accept-language-parser/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./node_modules/@types/compression/index.d.ts": [
         "./node_modules/@types/express/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -2285,6 +2348,7 @@
       "./node_modules/toml/index.d.ts",
       "./node_modules/chalk/index.d.ts",
       "./src/config.ts",
+      "./src/auth.ts",
       "./src/download.ts",
       "./node_modules/commander/typings/index.d.ts",
       "./src/raven.ts",
@@ -2296,12 +2360,16 @@
       "./node_modules/@types/bson/index.d.ts",
       "./node_modules/@types/mongodb/index.d.ts",
       "./node_modules/@types/connect-mongodb-session/index.d.ts",
-      "./src/session.ts",
-      "./src/client/ws.ts",
+      "./node_modules/@types/accept-language-parser/index.d.ts",
       "./src/upload.ts",
       "./node_modules/@types/compression/index.d.ts",
-      "./src/auth.ts",
-      "./src/server.ts"
+      "./src/i18n/src/es.ts",
+      "./src/i18n/types.ts",
+      "./src/i18n/src/en.ts",
+      "./src/i18n/i18n.ts",
+      "./src/server.ts",
+      "./src/session.ts",
+      "./src/client/ws.ts"
     ]
   },
   "version": "3.8.3"

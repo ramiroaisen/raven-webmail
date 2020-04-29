@@ -13,11 +13,12 @@ npm i -g raven-webmail
 ---
 
 ### Configure
-create a default config file
+Create a default config file
+- config file is auto-documented
+
 ```
 raven create-config [-o --output="./config.toml"]
 ```
-config file is auto-documented
 
 ---
 
@@ -76,4 +77,4 @@ node raven start
 ```
 ---
 
-##### If you find a bug or have a feature request start a issue in this repo
+##### If you find a bug or have a feature request start an issue in this repo

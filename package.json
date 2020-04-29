@@ -34,6 +34,8 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "@types/accept-language-parser": "^1.5.1",
+    "accept-language-parser": "^1.5.0",
     "body-parser": "^1.19.0",
     "chalk": "^4.0.0",
     "commander": "^5.0.0",

@@ -133,13 +133,20 @@
   import MoveTo from "../MoveTo.svelte";
   const gotoBox = () => setTimeout((() => location.hash = `#!/mailbox/${$mailbox.id}`), 250);
 
-  import Attachments from "comp@Attachments/Attachments.svelte"
+  import Attachments from "comp@Attachments/Attachments.svelte";
+
+  const {locale: l} = getContext("app");
+  export let locale = $l;
 </script>
+
+<svelte:head>
+  <title>{$message.subject}</title>
+</svelte:head>
 
 <Tab>
   <Topbar scrolled={$scroll !== 0}>
     <x-action-group>
-      <a class="x-action btn-dark" href="#!/mailbox/{$mailbox.id}" data-tooltip="Volver al buzón">
+      <a class="x-action btn-dark" href="#!/mailbox/{$mailbox.id}" data-tooltip={locale.actions.backToMailbox}>
         <GoBack />
         <Ripple />
       </a>
@@ -148,7 +155,7 @@
     <x-action-group>
       <x-action 
         class="btn-dark"
-        data-tooltip={$message.seen ? "Marcar como no leí­do" : "Marcar como leído"}
+        data-tooltip={$message.seen ? locale.actions.markAsUnread : locale.actions.markAsRead}
         on:click={seen}
       >
         <Ripple />
@@ -160,31 +167,35 @@
       </x-action>
 
       {#if isJunk}
-        <x-action class="btn-dark" data-tooltip="No es spam" on:click={spam}>
+        <x-action class="btn-dark" data-tooltip={locale.actions.unMarkAsSpam} on:click={spam}>
           <UnMarkSpam />
           <Ripple />
         </x-action>
       {:else if !isDraft && !isSent && !isTrash}
-        <x-action class="btn-dark" data-tooltip="Marcar como spam" on:click={spam}>
+        <x-action class="btn-dark" data-tooltip={locale.actions.markAsSpam} on:click={spam}>
           <MarkSpam />
           <Ripple />
         </x-action>
       {/if}
 
-      <x-action class="btn-dark" data-tooltip={isDraft ? "Descartar borrador" : isTrash ? "Eliminar definitivamente" : "Eliminar"} on:click={del}>
+      <x-action class="btn-dark" data-tooltip={
+          isTrash ? locale.actions.deletePermanently :
+          isDraft ? locale.actions.discardDrafts :
+          locale.actions.delete
+      } on:click={del}>
         <Delete />
         <Ripple />
       </x-action>
     </x-action-group>
 
     <x-action-group>
-      <x-action class="btn-dark" data-tooltip="Reenviar" on:click={forward}>
+      <x-action class="btn-dark" data-tooltip={locale.actions.forward} on:click={forward}>
         <Resend />
         <Ripple />
       </x-action>
 
       {#if !isDraft && !isSent}
-        <x-action class="btn-dark" data-tooltip="Responder" on:click={reply}>
+        <x-action class="btn-dark" data-tooltip={locale.actions.reply} on:click={reply}>
           <Reply />
           <Ripple />
         </x-action>
@@ -192,12 +203,12 @@
     </x-action-group>
 
     <x-action-group>
-      <MoveTo {mailbox} selection={writable([message])} on:moved={gotoBox}/>
+      <MoveTo {mailbox} selection={writable([message])} on:moved={gotoBox} tooltip={locale.actions.moveTo} />
     </x-action-group>
 
     {#if $message.attachments && $message.attachments.length}
       <x-action-group>
-        <Attachments {mailbox} {message} attachments={$message.attachments} />
+        <Attachments {mailbox} {message} attachments={$message.attachments} tooltip={locale.actions.attachments} />
       </x-action-group>
     {/if}
   </Topbar>
@@ -209,11 +220,11 @@
       {#if $message.from}
         <x-message-from>       
           {#if $message.from.name}
-            De: 
+            {locale.message.labels.from}
             <span class="from-main">{$message.from.name}</span>
             {"<"}{$message.from.address}{">"}
           {:else}
-            De:
+            {locale.message.labels.from}
             <span class="from-main">
               {$message.from.address} 
             </span>
@@ -223,7 +234,7 @@
       
       {#if $message.to}
         <x-message-to>
-          Para: {$message.to.map(to => {
+          {locale.message.labels.to} {$message.to.map(to => {
               return `<${to.address}>`
             }).join(", ")}
         </x-message-to>
@@ -231,7 +242,7 @@
       
       {#if $message.date}
         <x-message-date>
-          Enviado: {new Date($message.date).toLocaleString()}
+          {locale.message.labels.date} {new Date($message.date).toLocaleString()}
         </x-message-date>
       {/if}
     </x-message-info>

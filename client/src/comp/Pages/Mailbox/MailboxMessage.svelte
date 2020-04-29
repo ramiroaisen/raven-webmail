@@ -128,6 +128,7 @@
   export let message;
   export let mailbox;
 
+  let isDraft, isSent, selected;
   $: isDraft = mailbox === drafts;
   $: isSent = mailbox === sent;
   $: selected = $isSelected(message);
@@ -159,6 +160,8 @@
 
   onDestroy(() => unsub && unsub())
 
+   const {locale: l} = getContext("app");
+  export let locale = $l.mailboxMessage;
 </script>
 
 <a href="#!/mailbox/{$mailbox.id}/message/{$message.id}" class="na message" class:selected class:unseen={!$message.seen} on:click={click}>
@@ -183,7 +186,7 @@
 
   <x-cell class="from">
     {#if isSent || isDraft}
-      <span class="for">Para: </span>{($message.to || []).map(to => to.name || to.address).filter(Boolean).join(", ")}
+      <span class="for">{locale.to} </span>{($message.to || []).map(to => to.name || to.address).filter(Boolean).join(", ")}
     {:else}
       {$message.from.name || $message.from.address || ""}
     {/if}
@@ -199,10 +202,4 @@
   <x-cell class="date">
     {$message.date && date($message.date)}
   </x-cell>
-
-  <!--
-    <x-cell class="show-hover btn-dark icon"></x-cell>
-    <x-cell class="show-hover btn-dark icon"></x-cell>
-    <x-cell class="show-hover btn-dark icon"></x-cell>
-  -->
 </a>

@@ -12,20 +12,31 @@ import Junk from "svelte-material-icons/AlertDecagramOutline.svelte";
 import Drafts from "svelte-material-icons/FileDocumentEditOutline.svelte";
 import Other from "svelte-material-icons/FolderOutline.svelte";
 
-const inbox = {label: "Recibidos", icon: Inbox};
+type id = "inbox" | "drafts" | "junk" | "sent" | "trash";
+const inbox = ["inbox", Inbox] as [id, SvelteComponent];
 
-const map = {
-  "\\Drafts": {label: "Borradores", icon: Drafts},
-  "\\Junk": {label: "Spam", icon: Junk},
-  "\\Sent": {label: "Enviados", icon: Sent},
-  "\\Trash": {label: "Papelera", icon: Trash}
+const map: Record<string, [id, SvelteComponent]> = {
+  "\\Drafts": ["drafts", Drafts],
+  "\\Junk": ["junk", Junk],
+  "\\Sent": ["sent", Sent],
+  "\\Trash": ["trash", Trash]
 }
 
 export type Meta = {label: string, icon: SvelteComponent};
 
-export const mailboxMeta = (mailbox: Mailbox): Meta => {
-  return mailbox.path === "INBOX" ? inbox :
-    mailbox.specialUse && map[mailbox.specialUse as keyof typeof map] || {label: mailbox.name, icon: Other};
+export const mailboxMeta = (mailbox: Mailbox, labels: Record<id, string>): Meta => {
+
+  if (mailbox.path === "INBOX") {
+    const [id, icon] = inbox;
+    return {label: labels[id], icon};
+
+  } else if (mailbox.specialUse && map[mailbox.specialUse] !== null) {
+    const [id, icon] = map[mailbox.specialUse];
+    return {label: labels[id], icon}
+
+  } else {
+    return {label: mailbox.name, icon: Other};
+  }
 }
 
 export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));

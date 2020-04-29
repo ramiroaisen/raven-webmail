@@ -89,13 +89,17 @@
   }
   
   let minimize = () => current.set(null);
+
+  import {getContext} from "svelte";
+  const {locale: l} = getContext("app");
+  export let locale = $l.compose.tabs;
 </script>
 
 {#if $wins.length}
   <x-tabs>
     {#each $wins as self (self)}
       <x-tab class:current={self === $current} transition:fade={{duration: 300}} animate:flip={{duration: 300}} on:click={() => open(self)}>
-        <x-tab-title>{"Mensaje nuevo"}</x-tab-title>
+        <x-tab-title>{locale.newMessageTitle}</x-tab-title>
         <x-tab-close on:click|stopPropagation={() => close(self)}>
           <Close />
         </x-tab-close>

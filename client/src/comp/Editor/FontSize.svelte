@@ -2,10 +2,12 @@
   import Size from "svelte-material-icons/FormatSize.svelte";
   import Menu from "svelte-mui/src/Menu.svelte";
   import {Menuitem} from "svelte-mui";
+
+  export let tooltip;
 </script>
 
 <Menu origin="bottom left" dx={0} dy={25}>
-  <x-command slot="activator" class="multiple" data-tooltip="Tamaño de fuente">
+  <x-command slot="activator" class="multiple" data-tooltip={tooltip}>
     <Size />
   </x-command>
 

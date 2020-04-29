@@ -27,6 +27,10 @@
   import {Menuitem, Ripple} from "svelte-mui";
   import Menu from "svelte-mui/src/Menu.svelte";
 
+  import {getContext} from "svelte";
+  const {locale: l} = getContext("app");
+  export let locale = $l;
+
   let folders = [];
   $: {
     if(mailbox === inbox) {
@@ -52,7 +56,8 @@
     }
   }
 
-  $: metas = folders.map(f => mailboxMeta(f.get()));
+  let metas, ids;
+  $: metas = folders.map(f => mailboxMeta(f.get(), $l.mailbox.title));
   $: ids = $selection.map(m => m.get().id);
 
   const to = (to) => {
@@ -63,7 +68,7 @@
 
 {#if folders.length}
   <Menu origin="top right" class="move-to-menu">
-    <x-action slot="activator" class="btn-dark" data-tooltip="Mover a">
+    <x-action slot="activator" class="btn-dark" data-tooltip={locale.actions.moveTo}>
       <MoveTo/>
       <Ripple />
     </x-action>

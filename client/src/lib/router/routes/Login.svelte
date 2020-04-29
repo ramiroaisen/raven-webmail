@@ -62,20 +62,26 @@
     }
   }
 
+  const {locale: l} = getContext("app");
+  export let locale = $l.login;
+
 </script>
 
-<h1>Ingresar</h1>
+<svelte:head>
+  <title>{locale.title}</title>
+</svelte:head>
+
+<h1>{locale.title}</h1>
 <form action="#!/login" method="post" on:submit={handleSubmit}>
   <div class="field">
-    <TextField bind:value={username} name="username" label="Usuario"/>
+    <TextField bind:value={username} name="username" label={locale.labels.username}/>
   </div>
   <div class="field">
-    <Password bind:value={password} name="password" label="Contraseña"/>
+    <Password bind:value={password} name="password" label={locale.labels.password}/>
   </div>
   <div class="button">
-    <!--<Button type="submit" variant="primary" value="Ingresar"/>-->
     <Button color="var(--pc)" raised>
-      Ingresar
+      {locale.action}
     </Button>
   </div>
 </form>

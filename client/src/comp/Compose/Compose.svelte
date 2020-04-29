@@ -328,6 +328,10 @@
       sending = false;
     }
   }
+
+  import {getContext} from "svelte";
+  const {locale: l} = getContext("app");
+  export let locale = $l.compose;
 </script>
 
 {#if self === $current}
@@ -345,38 +349,39 @@
     <x-compose>
       
       <x-metadata>
-        <label class="label-input" for="from">
-          <x-label>Para:</x-label>
-          <AddrInput name="from" id="from" bind:addrs={$self.to} />
+        <label class="label-input">
+          <x-label>{locale.labels.to}</x-label>
+          <AddrInput name="to" bind:addrs={$self.to} />
           <x-toggle-cc>
             {#if !showCc}
-              <span on:click|preventDefault={() => {showCc = true; setTimeout(() => {cc && cc.focus()}, 1)}}>Cc:</span>
+              <span on:click|preventDefault={() => {showCc = true; setTimeout(() => {cc && cc.focus()}, 1)}}>{locale.labels.cc}</span>
             {/if}
             {#if !showBcc}
-              <span on:click|preventDefault={() => {showBcc = true; setTimeout(() => {bcc && bcc.focus()}, 1)}}>Bcc:</span>
+              <span on:click|preventDefault={() => {showBcc = true; setTimeout(() => {bcc && bcc.focus()}, 1)}}>{locale.labels.bcc}</span>
             {/if}
           </x-toggle-cc>
         </label>
         {#if showCc}
-          <label class="label-input" for="cc">
-            <x-label>Cc:</x-label>
-            <AddrInput name="cc" id="cc" bind:addrs={$self.cc} bind:input={cc} />
+          <label class="label-input">
+            <x-label>{locale.labels.cc}</x-label>
+            <AddrInput name="cc" bind:addrs={$self.cc} bind:input={cc} />
           </label>  
         {/if}
         {#if showBcc}
-          <label class="label-input" for="bcc">
-            <x-label>Bcc:</x-label>
-            <AddrInput name="bcc" id="bcc" bind:addrs={$self.bcc} bind:input={bcc} />
+          <label class="label-input">
+            <x-label>{locale.labels.bcc}</x-label>
+            <AddrInput name="bcc" bind:addrs={$self.bcc} bind:input={bcc} />
           </label>  
         {/if}
         <label class="label-input" for="subject">
-          <x-label>Asunto:</x-label>
+          <x-label>{locale.labels.subject}</x-label>
           <input type="text" name="subject" id="subject" autocomplete="off" bind:value={$self.subject}>
         </label>
       </x-metadata>
       
       <x-center>
-        <Editor 
+        <Editor
+          locale={locale.editor}
           bind:this={editor}
           bind:html={$self.html}
           bind:text={$self.text}

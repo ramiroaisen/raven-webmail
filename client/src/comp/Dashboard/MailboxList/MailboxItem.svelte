@@ -43,11 +43,14 @@
 
   const {drawerOpenMobile} = getContext("dash")
 
+  const {locale} = getContext("app");
+
+  let current, meta;
   $: current = $page.params.mailbox === $mailbox.id;
-  $: meta = mailboxMeta($mailbox);
+  $: meta = mailboxMeta($mailbox, $locale.mailbox.title);
 </script>
 
-<a href="#!/mailbox/{$mailbox.id}" class="na btn-dark" class:current on:click={() => $drawerOpenMobile = false}>
+<a href="#!/mailbox/{$mailbox.id}" class="na btn-dark" class:current on:click={() => $drawerOpenMobile.set(false)}>
   <span class="icon">
     <svelte:component this={meta.icon} />
   </span>

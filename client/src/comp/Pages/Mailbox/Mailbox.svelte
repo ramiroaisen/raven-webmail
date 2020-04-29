@@ -76,6 +76,7 @@
 
   x-loadmore-button {
     cursor: pointer;
+    border-radius: 50%;
   }
 
   x-mailbox-message {
@@ -145,6 +146,7 @@
   import {junk, trash, drafts, sent} from "../../../lib/client/mailboxes";
   import * as mess from "../../../lib/client/messages";
 
+  let isJunk, isTrash, isDraft, isSent;
   $: isJunk = mailbox === junk;
   $: isTrash = mailbox === trash;
   $: isDraft = mailbox === drafts;
@@ -238,13 +240,24 @@
     node.classList.add("removed");
     return {duration: 150}
   }
+
+  const {locale: l, trans} = getContext("app");
+  export let locale = $l;
+
+  import {mailboxMeta} from "../../../lib/util";
+  let meta;
+  $: meta = mailboxMeta($mailbox, locale.mailbox.title);
 </script>
+
+<svelte:head>
+  <title>{$mailbox.unseen ? `(${$mailbox.unseen}) ` : ""}{meta.label}</title>
+</svelte:head>
 
 <Tab>
   <Topbar scrolled={$scroll !== 0}>
 
     <x-action-group class="select">
-      <x-action class="btn-dark" data-tooltip="Seleccionar" on:click={handleSelection}>
+      <x-action class="btn-dark" data-tooltip={locale.actions.select} on:click={handleSelection}>
         <Ripple />
         {#if $selection.length === 0}
           <CheckNone />
@@ -255,7 +268,7 @@
         {/if}
       </x-action>
 
-      <x-action class="btn-dark reload" data-tooltip="Actualizar" on:click={reload}>
+      <x-action class="btn-dark reload" data-tooltip={locale.actions.reload} on:click={reload}>
         <div style="display: flex; transition: transform 300ms ease; transform: rotate({360 * reloadTimes}deg)">
           <Refresh  />
         </div>
@@ -267,30 +280,34 @@
       <div class="only-when-selection" transition:fade|local={{duration: 150}}>
         <x-action-group>
           {#if $selection.every(m => !m.get().seen)}
-            <x-action  class="btn-dark" data-tooltip="Marcar como leído" on:click={() => updateSeen(true)}>
+            <x-action  class="btn-dark" data-tooltip={locale.actions.markAsRead} on:click={() => updateSeen(true)}>
               <MarkSeen />
               <Ripple />
             </x-action>
           {:else}
-            <x-action class="btn-dark" data-tooltip="Marcar como no leído" on:click={() => updateSeen(false)}>
+            <x-action class="btn-dark" data-tooltip={locale.actions.markAsUnread} on:click={() => updateSeen(false)}>
               <MarkUnSeen />
               <Ripple />
             </x-action>
           {/if}
 
           {#if isJunk}
-            <x-action class="btn-dark" data-tooltip="No es spam" on:click={() => markAsSpam(false)}>
+            <x-action class="btn-dark" data-tooltip={locale.actions.unMarkAsSpam} on:click={() => markAsSpam(false)}>
               <UnMarkSpam />
               <Ripple />
             </x-action>
           {:else if !isDraft && !isSent && !isTrash}
-            <x-action class="btn-dark" data-tooltip="Marcar como spam" on:click={() => markAsSpam(true)}>
+            <x-action class="btn-dark" data-tooltip={locale.actions.markAsSpam} on:click={() => markAsSpam(true)}>
               <MarkSpam />
               <Ripple />
             </x-action>
           {/if}
 
-          <x-action class="btn-dark" data-tooltip={isTrash ? "Eliminar definitivamente" : isDraft ? "Descartar borradores" : "Eliminar"} on:click={() => del()}>
+          <x-action class="btn-dark" data-tooltip={
+              isTrash ? locale.actions.deletePermanently :
+              isDraft ? locale.actions.discardDrafts :
+              locale.actions.delete
+          } on:click={() => del()}>
             <Delete />
             <Ripple />
           </x-action>
@@ -302,7 +319,8 @@
         </x-action-group>
   
         <x-selection-info>
-          <Check /> <span>{$selection.length} {$selection.length === 1 ? "mensaje" : "mensajes"}</span>
+          <Check />
+          <span>{$trans("selection.title", {n: $selection.length})}</span>
         </x-selection-info>
       </div>
     {/if}
@@ -331,6 +349,7 @@
         {:else if $next}
           <x-loadmore-button in:fade|local={{delay: 150, duration: 150}} class="btn-dark" on:click={loadMore}>
             <More />
+            <Ripple />
           </x-loadmore-button>
         {/if}
       </x-loadmore>

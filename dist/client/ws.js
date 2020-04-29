@@ -39,7 +39,7 @@ exports.ws = (srv, config, session) => {
         ws.on("message", async (m) => {
             try {
                 const json = JSON.parse(m.toString());
-                const msg = typescript_is_1.assertType(json, object => { var path = ["json"]; function _2427(object) { ; if (object !== "login")
+                const msg = typescript_is_1.assertType(json, object => { var path = ["json"]; function _2634(object) { ; if (object !== "login")
                     return { message: "validation failed at " + path.join(".") + ": expected string 'login'", path: path.slice(), reason: { type: "string-literal", value: "login" } };
                 else
                     return null; } function _string(object) { ; if (typeof object !== "string")
@@ -48,11 +48,11 @@ exports.ws = (srv, config, session) => {
                     return null; } function _number(object) { ; if (typeof object !== "number")
                     return { message: "validation failed at " + path.join(".") + ": expected a number", path: path.slice(), reason: { type: "number" } };
                 else
-                    return null; } function _2417(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+                    return null; } function _2624(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
                     return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
                     if ("type" in object) {
                         path.push("type");
-                        var error = _2427(object["type"]);
+                        var error = _2634(object["type"]);
                         path.pop();
                         if (error)
                             return error;
@@ -89,14 +89,14 @@ exports.ws = (srv, config, session) => {
                     }
                     else
                         return { message: "validation failed at " + path.join(".") + ": expected 'id' in object", path: path.slice(), reason: { type: "missing-property", property: "id" } };
-                } return null; } function _2429(object) { ; if (object !== "get")
+                } return null; } function _1027(object) { ; if (object !== "get")
                     return { message: "validation failed at " + path.join(".") + ": expected string 'get'", path: path.slice(), reason: { type: "string-literal", value: "get" } };
                 else
-                    return null; } function _2419(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+                    return null; } function _2626(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
                     return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
                     if ("type" in object) {
                         path.push("type");
-                        var error = _2429(object["type"]);
+                        var error = _1027(object["type"]);
                         path.pop();
                         if (error)
                             return error;
@@ -123,21 +123,21 @@ exports.ws = (srv, config, session) => {
                     }
                     else
                         return { message: "validation failed at " + path.join(".") + ": expected 'id' in object", path: path.slice(), reason: { type: "missing-property", property: "id" } };
-                } return null; } function _1782(object) { ; if (object !== "post")
+                } return null; } function _2107(object) { ; if (object !== "post")
                     return { message: "validation failed at " + path.join(".") + ": expected string 'post'", path: path.slice(), reason: { type: "string-literal", value: "post" } };
                 else
-                    return null; } function _any() { return null; } function _2435(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+                    return null; } function _any() { return null; } function _2636(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
                     return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; for (const key of Object.keys(object)) {
                     path.push(key);
                     var error = _any(object[key]);
                     path.pop();
                     if (error)
                         return error;
-                } return null; } function _2420(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+                } return null; } function _2627(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
                     return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
                     if ("type" in object) {
                         path.push("type");
-                        var error = _1782(object["type"]);
+                        var error = _2107(object["type"]);
                         path.pop();
                         if (error)
                             return error;
@@ -157,7 +157,7 @@ exports.ws = (srv, config, session) => {
                 } {
                     if ("body" in object) {
                         path.push("body");
-                        var error = _2435(object["body"]);
+                        var error = _2636(object["body"]);
                         path.pop();
                         if (error)
                             return error;
@@ -174,14 +174,14 @@ exports.ws = (srv, config, session) => {
                     }
                     else
                         return { message: "validation failed at " + path.join(".") + ": expected 'id' in object", path: path.slice(), reason: { type: "missing-property", property: "id" } };
-                } return null; } function _2437(object) { ; if (object !== "put")
+                } return null; } function _2638(object) { ; if (object !== "put")
                     return { message: "validation failed at " + path.join(".") + ": expected string 'put'", path: path.slice(), reason: { type: "string-literal", value: "put" } };
                 else
-                    return null; } function _2421(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+                    return null; } function _2628(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
                     return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
                     if ("type" in object) {
                         path.push("type");
-                        var error = _2437(object["type"]);
+                        var error = _2638(object["type"]);
                         path.pop();
                         if (error)
                             return error;
@@ -201,7 +201,7 @@ exports.ws = (srv, config, session) => {
                 } {
                     if ("body" in object) {
                         path.push("body");
-                        var error = _2435(object["body"]);
+                        var error = _2636(object["body"]);
                         path.pop();
                         if (error)
                             return error;
@@ -218,14 +218,14 @@ exports.ws = (srv, config, session) => {
                     }
                     else
                         return { message: "validation failed at " + path.join(".") + ": expected 'id' in object", path: path.slice(), reason: { type: "missing-property", property: "id" } };
-                } return null; } function _2439(object) { ; if (object !== "del")
+                } return null; } function _2640(object) { ; if (object !== "del")
                     return { message: "validation failed at " + path.join(".") + ": expected string 'del'", path: path.slice(), reason: { type: "string-literal", value: "del" } };
                 else
-                    return null; } function _2422(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+                    return null; } function _2629(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
                     return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
                     if ("type" in object) {
                         path.push("type");
-                        var error = _2439(object["type"]);
+                        var error = _2640(object["type"]);
                         path.pop();
                         if (error)
                             return error;
@@ -252,14 +252,14 @@ exports.ws = (srv, config, session) => {
                     }
                     else
                         return { message: "validation failed at " + path.join(".") + ": expected 'id' in object", path: path.slice(), reason: { type: "missing-property", property: "id" } };
-                } return null; } function _2441(object) { ; if (object !== "ping")
+                } return null; } function _2642(object) { ; if (object !== "ping")
                     return { message: "validation failed at " + path.join(".") + ": expected string 'ping'", path: path.slice(), reason: { type: "string-literal", value: "ping" } };
                 else
-                    return null; } function _2423(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+                    return null; } function _2630(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
                     return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
                     if ("type" in object) {
                         path.push("type");
-                        var error = _2441(object["type"]);
+                        var error = _2642(object["type"]);
                         path.pop();
                         if (error)
                             return error;
@@ -276,14 +276,14 @@ exports.ws = (srv, config, session) => {
                     }
                     else
                         return { message: "validation failed at " + path.join(".") + ": expected 'id' in object", path: path.slice(), reason: { type: "missing-property", property: "id" } };
-                } return null; } function _2443(object) { ; if (object !== "pong")
+                } return null; } function _2644(object) { ; if (object !== "pong")
                     return { message: "validation failed at " + path.join(".") + ": expected string 'pong'", path: path.slice(), reason: { type: "string-literal", value: "pong" } };
                 else
-                    return null; } function _2424(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+                    return null; } function _2631(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
                     return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
                     if ("type" in object) {
                         path.push("type");
-                        var error = _2443(object["type"]);
+                        var error = _2644(object["type"]);
                         path.pop();
                         if (error)
                             return error;
@@ -310,14 +310,14 @@ exports.ws = (srv, config, session) => {
                     }
                     else
                         return { message: "validation failed at " + path.join(".") + ": expected 'id' in object", path: path.slice(), reason: { type: "missing-property", property: "id" } };
-                } return null; } function _2445(object) { ; if (object !== "watch")
+                } return null; } function _2646(object) { ; if (object !== "watch")
                     return { message: "validation failed at " + path.join(".") + ": expected string 'watch'", path: path.slice(), reason: { type: "string-literal", value: "watch" } };
                 else
-                    return null; } function _2425(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+                    return null; } function _2632(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
                     return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
                     if ("type" in object) {
                         path.push("type");
-                        var error = _2445(object["type"]);
+                        var error = _2646(object["type"]);
                         path.pop();
                         if (error)
                             return error;
@@ -344,11 +344,11 @@ exports.ws = (srv, config, session) => {
                     }
                     else
                         return { message: "validation failed at " + path.join(".") + ": expected 'id' in object", path: path.slice(), reason: { type: "missing-property", property: "id" } };
-                } return null; } function su__2417__2419__2420__2421__2422__2423__2424__2425_eu(object) { var conditions = [_2417, _2419, _2420, _2421, _2422, _2423, _2424, _2425]; for (const condition of conditions) {
+                } return null; } function su__2624__2626__2627__2628__2629__2630__2631__2632_eu(object) { var conditions = [_2624, _2626, _2627, _2628, _2629, _2630, _2631, _2632]; for (const condition of conditions) {
                     var error = condition(object);
                     if (!error)
                         return null;
-                } return { message: "validation failed at " + path.join(".") + ": there are no valid alternatives", path: path.slice(), reason: { type: "union" } }; } var error = su__2417__2419__2420__2421__2422__2423__2424__2425_eu(object); return error; });
+                } return { message: "validation failed at " + path.join(".") + ": there are no valid alternatives", path: path.slice(), reason: { type: "union" } }; } var error = su__2624__2626__2627__2628__2629__2630__2631__2632_eu(object); return error; });
                 try {
                     switch (msg.type) {
                         case "login":

@@ -37,6 +37,9 @@
   import {Ripple, Menuitem} from "svelte-mui";
   import Menu from "svelte-mui/src/Menu.svelte";
   import {url} from "lib@fileIcons.js";
+
+  import {getContext} from "svelte";
+  const {trans} = getContext("app");
 </script>
 
 <Menu origin="top right">

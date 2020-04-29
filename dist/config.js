@@ -17,7 +17,7 @@ exports.load = (filename) => {
             return null; } function _string(object) { ; if (typeof object !== "string")
             return { message: "validation failed at " + path.join(".") + ": expected a string", path: path.slice(), reason: { type: "string" } };
         else
-            return null; } function _386(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+            return null; } function _387(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
             return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
             if ("port" in object) {
                 path.push("port");
@@ -79,7 +79,7 @@ exports.load = (filename) => {
         } return null; } function _false(object) { ; if (object !== false)
             return { message: "validation failed at " + path.join(".") + ": expected false", path: path.slice(), reason: { type: "boolean-literal", value: false } };
         else
-            return null; } function _387(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+            return null; } function _388(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
             return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
             if ("ssl" in object) {
                 path.push("ssl");
@@ -90,14 +90,14 @@ exports.load = (filename) => {
             }
             else
                 return { message: "validation failed at " + path.join(".") + ": expected 'ssl' in object", path: path.slice(), reason: { type: "missing-property", property: "ssl" } };
-        } return null; } function si__386__387_ei(object) { var conditions = [_386, _387]; for (const condition of conditions) {
+        } return null; } function si__387__388_ei(object) { var conditions = [_387, _388]; for (const condition of conditions) {
             var error = condition(object);
             if (error)
                 return error;
         } return null; } function _true(object) { ; if (object !== true)
             return { message: "validation failed at " + path.join(".") + ": expected true", path: path.slice(), reason: { type: "boolean-literal", value: true } };
         else
-            return null; } function _388(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+            return null; } function _389(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
             return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
             if ("ssl" in object) {
                 path.push("ssl");
@@ -128,15 +128,15 @@ exports.load = (filename) => {
             }
             else
                 return { message: "validation failed at " + path.join(".") + ": expected 'ssl_certificate_key' in object", path: path.slice(), reason: { type: "missing-property", property: "ssl_certificate_key" } };
-        } return null; } function si__386__388_ei(object) { var conditions = [_386, _388]; for (const condition of conditions) {
+        } return null; } function si__387__389_ei(object) { var conditions = [_387, _389]; for (const condition of conditions) {
             var error = condition(object);
             if (error)
                 return error;
-        } return null; } function su_si__386__387_ei_si__386__388_ei_eu(object) { var conditions = [si__386__387_ei, si__386__388_ei]; for (const condition of conditions) {
+        } return null; } function su_si__387__388_ei_si__387__389_ei_eu(object) { var conditions = [si__387__388_ei, si__387__389_ei]; for (const condition of conditions) {
             var error = condition(object);
             if (!error)
                 return null;
-        } return { message: "validation failed at " + path.join(".") + ": there are no valid alternatives", path: path.slice(), reason: { type: "union" } }; } var error = su_si__386__387_ei_si__386__388_ei_eu(object); return error; });
+        } return { message: "validation failed at " + path.join(".") + ": there are no valid alternatives", path: path.slice(), reason: { type: "union" } }; } var error = su_si__387__388_ei_si__387__389_ei_eu(object); return error; });
         return config;
     }
     catch (e) {

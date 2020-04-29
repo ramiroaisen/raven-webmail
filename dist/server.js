@@ -14,6 +14,7 @@ const helmet_1 = __importDefault(require("helmet"));
 const body_parser_1 = __importDefault(require("body-parser"));
 const ws_1 = require("./client/ws");
 const auth_1 = require("./auth");
+const i18n_1 = require("./i18n/i18n");
 const session_1 = require("./session");
 const upload_1 = require("./upload");
 const fs_1 = require("fs");
@@ -42,14 +43,18 @@ exports.start = async (config) => {
     dev && app.use(morgan_1.default("dev"));
     app.use(helmet_1.default());
     app.use(compression_1.default());
-    const index = fs_1.readFileSync(path_1.default.resolve(__dirname, "../client/template.html"), "utf8");
-    const vars = {};
-    const json = (vars) => `JSON.parse(${JSON.stringify(JSON.stringify(vars)).replace(/<\//g, "<\\/")})`;
-    const scripts = `<script>__RAVEN__=${json(vars)};</script>`;
+    app.use(i18n_1.i18n());
+    const template = fs_1.readFileSync(path_1.default.resolve(__dirname, "../client/template.html"), "utf8");
     app.get("/", (req, res) => {
         res.header("content-type", "text/html");
         res.header("vary", "accept-language");
-        res.end(index.replace("%raven.scripts%", scripts));
+        const vars = {
+            lang: req.lang,
+            locale: req.locale,
+        };
+        const json = (vars) => `JSON.parse(${JSON.stringify(JSON.stringify(vars)).replace(/<\//g, "<\\/")})`;
+        const scripts = `<script>__RAVEN__=${json(vars)};</script>`;
+        res.end(template.replace("%raven.scripts%", scripts));
     });
     app.use(serve_static_1.default(path_1.default.resolve(__dirname, "../client/public")));
     app.use(body_parser_1.default.json());

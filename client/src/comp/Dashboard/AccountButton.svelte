@@ -16,6 +16,10 @@
   import Menu from "svelte-mui/src/Menu.svelte";
 
   export let user;
+
+  import {getContext} from "svelte";
+  const {locale: l} = getContext("app");
+  export let locale = $l.accountButton;
 </script>
 
 <Menu origin="top right" dy={40}>
@@ -23,5 +27,5 @@
     <Button color="#fff">{user.address}</Button>
   </div>
   
-  <Menuitem on:click={() => location.assign("/logout")}>Cerrar sesión</Menuitem>
+  <Menuitem on:click={() => location.replace("/logout")}>{locale.logout}</Menuitem>
 </Menu>
