@@ -1,6 +1,6 @@
 {
   "name": "raven-webmail",
-  "version": "0.0.3-1",
+  "version": "0.0.3-3",
   "description": "A webmail for the wildduck mail server",
   "main": "./dist/server.js",
   "scripts": {
@@ -51,5 +51,7 @@
     "toml": "^3.0.0",
     "typescript-is": "^0.15.0",
     "ws": "^7.2.3"
-  }
+  },
+
+  "keywords": ["wildduck", "webmail", "raven"]
 }
