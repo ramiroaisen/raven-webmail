@@ -29,13 +29,20 @@ raven start [-c --config="./config.toml"]
 
 ---
 
+### Localization
+Available locales
+- en English (default) - full
+- es Spanish - full
+
+---
+
 ### TODO
-- [ ] Localization
+- [ ] Localization: (help wanted) 
 - [ ] Create / Remove folders
 - [ ] Create / Remove aliases
 - [ ] Create / Remove filters
 - [ ] Choose sender address (currently uses user default address)
-- [ ] Better page titles
+- [x] Better page titles
 
 ---
 
