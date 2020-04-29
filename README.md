@@ -31,8 +31,11 @@ raven start [-c --config="./config.toml"]
 
 ### Localization
 Available locales
-- en English (default) - full
-- es Spanish - full
+
+- ✓ en, English (default) - full
+- ✓ es, Spanish - full
+
+user locale is getted from "accept-language" header
 
 ---
 
