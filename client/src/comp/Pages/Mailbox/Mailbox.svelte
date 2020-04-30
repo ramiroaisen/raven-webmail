@@ -335,7 +335,7 @@
     {:else}
       {#if !loadingMore}
         <x-mailbox-empty>
-          <span class="label">No hay mensajes en esta carpeta</span>
+          <span class="label">{locale.mailbox.empty}</span>
         </x-mailbox-empty>
       {/if}
     {/each}
