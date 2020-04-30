@@ -1,6 +1,26 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
+  "mailbox": {
+    "title": {
+      "inbox": "इनबक्स",
+      "sent": "पठाइयो",
+      "drafts": "ड्राफ्ट्स",
+      "trash": "रद्दी टोकरी",
+      "junk": "स्पाम"
+    },
+    "empty": "यो मेलबक्स खाली छ"
+  },
+  "message": {
+    "labels": {
+      "from": "बाट:",
+      "to": "लाई:",
+      "date": "पठाइयो:"
+    }
+  },
+  "mailboxMessage": {
+    "to": "लाई:"
+  },
   "login": {
     "title": "साईन ईन गर्नुहोस्",
     "action": "साईन ईन गर्नुहोस्",
@@ -13,63 +33,43 @@ const locale: Locale = {
     "logout": "साइन आउट गर्नुहोस्"
   },
   "compose": {
-    "tabs": {
-      "newMessageTitle": "नयाँ सन्देश"
-    },
     "labels": {
       "to": "लाई:",
       "subject": "विषय:",
-      "bcc": "Bcc:",
-      "cc": "बोधार्थ:"
-    }
-  },
-  "mailboxMessage": {
-    "to": "लाई:"
-  },
-  "message": {
-    "labels": {
-      "date": "पठाइयो:",
-      "to": "लाई:",
-      "from": "बाट:"
-    }
-  },
-  "mailbox": {
-    "empty": "यो मेलबक्स खाली छ",
-    "title": {
-      "inbox": "इनबक्स",
-      "sent": "पठाइयो",
-      "junk": "स्पाम",
-      "drafts": "ड्राफ्ट्स",
-      "trash": "रद्दी टोकरी"
+      "cc": "बोधार्थ:",
+      "bcc": "Bcc:"
+    },
+    "tabs": {
+      "newMessageTitle": "नयाँ सन्देश"
     }
   },
   "editor": {
-    "color": {
-      "foreColor": "पाठ",
-      "backColor": "पृष्ठभूमि",
-      "tooltip": "रंग"
-    },
-    "send": "पठाउनुहोस्",
     "cmd": {
       "undo": "अन्डु गर्नुहोस्",
       "redo": "फेरि गर्नुहोस्",
-      "underline": "रेखांकित",
       "fontName": "फन्ट प्रकार",
+      "fontSize": "फन्ट आकार",
       "bold": "बोल्ड",
-      "justifyCenter": "बीचमा पign्क्तिबद्ध गर्नुहोस्",
       "italic": "ईटालिक",
+      "underline": "रेखांकित",
       "justifyLeft": "बाँया पign्क्तिबद्ध गर्नुहोस्",
+      "justifyCenter": "बीचमा पign्क्तिबद्ध गर्नुहोस्",
       "justifyRight": "दाँया पign्क्तिबद्ध गर्नुहोस्",
       "insertUnorderedList": "सूची",
-      "removeFormat": "ढाँचा हटाउनुहोस्",
-      "fontSize": "फन्ट आकार",
-      "insertOrderedList": "संख्यागत सूची"
+      "insertOrderedList": "संख्यागत सूची",
+      "removeFormat": "ढाँचा हटाउनुहोस्"
+    },
+    "color": {
+      "tooltip": "रंग",
+      "foreColor": "पाठ",
+      "backColor": "पृष्ठभूमि"
     },
     "upload": {
       "tooltip": "संलग्न गर्नुहोस्",
       "add": "थप्नुहोस्",
       "remove": "हटाउनुहोस्"
-    }
+    },
+    "send": "पठाउनुहोस्"
   },
   "selection": {
     "title": [
@@ -79,20 +79,43 @@ const locale: Locale = {
     ]
   },
   "actions": {
-    "select": "चयन गर्नुहोस्",
-    "markAsRead": "पढिसकेको अंकित गर्नुहोस्",
     "backToMailbox": "मेलबक्समा फिर्ता",
-    "delete": "मेटाउन",
+    "reload": "पुन: लोड गर्नुहोस्",
+    "select": "चयन गर्नुहोस्",
     "markAsUnread": "पढिएको छैन भनेर चिन्ह लगाउनुहोस्",
-    "markAsSpam": "स्पामको रूपमा मार्क गर्नुहोस्",
-    "reply": "जवाफ दिनुहोस्",
+    "markAsRead": "पढिसकेको अंकित गर्नुहोस्",
+    "moveTo": "सार्नुहोस्",
+    "delete": "मेटाउन",
     "deletePermanently": "स्थायी रूपमा मेटाउनुहोस्",
     "discardDrafts": "ड्राफ्ट खारेज गर्नुहोस्",
-    "forward": "अगाडि",
+    "markAsSpam": "स्पामको रूपमा मार्क गर्नुहोस्",
     "unMarkAsSpam": "यो स्पाम होईन",
-    "moveTo": "सार्नुहोस्",
-    "reload": "पुन: लोड गर्नुहोस्",
+    "forward": "अगाडि",
+    "reply": "जवाफ दिनुहोस्",
     "attachments": "संलग्नकहरू"
+  },
+  "weekDays": {
+    "0": "आइतवार",
+    "1": "सोमबार",
+    "2": "मंगलबार",
+    "3": "बुधवार",
+    "4": "बिहीबार",
+    "5": "शुक्रवार",
+    "6": "शनिबार"
+  },
+  "months": {
+    "0": "जनवरी",
+    "1": "फेब्रुअरी",
+    "2": "मार्च",
+    "3": "अप्रिल",
+    "4": "सक्छ",
+    "5": "जुन",
+    "6": "जुलाई",
+    "7": "अगस्त",
+    "8": "सेप्टेम्बर",
+    "9": "अक्टुबर",
+    "10": "नोभेम्बर",
+    "11": "डिसेम्बर"
   }
 };
 

@@ -2,23 +2,31 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
     "mailbox": {
-        "empty": "ଏହି ମେଲବାକ୍ସ ଖାଲି ଅଛି |",
         "title": {
+            "inbox": "ଇନବକ୍ସ |",
+            "sent": "ପଠାଯାଇଛି",
             "drafts": "ଡ୍ରାଫ୍ଟଗୁଡିକ",
             "trash": "ଆବର୍ଜନା |",
-            "sent": "ପଠାଯାଇଛି",
-            "inbox": "ଇନବକ୍ସ |",
             "junk": "ସ୍ପାମ୍"
+        },
+        "empty": "ଏହି ମେଲବାକ୍ସ ଖାଲି ଅଛି |"
+    },
+    "message": {
+        "labels": {
+            "from": "ଠାରୁ:",
+            "to": "କୁ:",
+            "date": "ପଠାଯାଇଛି:"
         }
     },
     "mailboxMessage": {
         "to": "କୁ:"
     },
-    "message": {
+    "login": {
+        "title": "ଚୁକ୍ତି କରିବା",
+        "action": "ଚୁକ୍ତି କରିବା",
         "labels": {
-            "date": "ପଠାଯାଇଛି:",
-            "to": "କୁ:",
-            "from": "ଠାରୁ:"
+            "username": "ଉପଯୋଗକର୍ତ୍ତା ନାମ",
+            "password": "ପାସୱାର୍ଡ"
         }
     },
     "accountButton": {
@@ -27,21 +35,41 @@ const locale = {
     "compose": {
         "labels": {
             "to": "କୁ:",
-            "cc": "Cc:",
             "subject": "ବିଷୟ:",
+            "cc": "Cc:",
             "bcc": "Bcc:"
         },
         "tabs": {
             "newMessageTitle": "ନୂତନ ବାର୍ତ୍ତା |"
         }
     },
-    "login": {
-        "action": "ଚୁକ୍ତି କରିବା",
-        "title": "ଚୁକ୍ତି କରିବା",
-        "labels": {
-            "password": "ପାସୱାର୍ଡ",
-            "username": "ଉପଯୋଗକର୍ତ୍ତା ନାମ"
-        }
+    "editor": {
+        "cmd": {
+            "undo": "ପୂର୍ବବତ୍ କରନ୍ତୁ |",
+            "redo": "ପୁନର୍ବାର କରନ୍ତୁ |",
+            "fontName": "ଫଣ୍ଟ ପ୍ରକାର",
+            "fontSize": "ଅକ୍ଷର ଆକାର",
+            "bold": "ବୋଲ୍ଡ |",
+            "italic": "ଇଟାଲିକ୍ |",
+            "underline": "ଅଣ୍ଡରଲାଇନ୍ |",
+            "justifyLeft": "ବାମକୁ ଆଲାଇନ୍ କରନ୍ତୁ |",
+            "justifyCenter": "ମ middle ିରେ ଆଲାଇନ୍ କରନ୍ତୁ |",
+            "justifyRight": "ଡାହାଣକୁ ଆଲାଇନ୍ କରନ୍ତୁ |",
+            "insertUnorderedList": "ତାଲିକା |",
+            "insertOrderedList": "ସଂଖ୍ୟାଯୁକ୍ତ ତାଲିକା |",
+            "removeFormat": "ଫର୍ମାଟ୍ ଅପସାରଣ କରନ୍ତୁ |"
+        },
+        "color": {
+            "tooltip": "ରଙ୍ଗ",
+            "foreColor": "ପାଠ",
+            "backColor": "ପୃଷ୍ଠଭୂମି"
+        },
+        "upload": {
+            "tooltip": "ସଂଲଗ୍ନ କରନ୍ତୁ |",
+            "add": "ଯୋଡନ୍ତୁ |",
+            "remove": "ଅପସାରଣ କରନ୍ତୁ |"
+        },
+        "send": "ପଠାନ୍ତୁ |"
     },
     "selection": {
         "title": [
@@ -50,49 +78,44 @@ const locale = {
             "{n} ସନ୍ଦେଶ |"
         ]
     },
-    "editor": {
-        "send": "ପଠାନ୍ତୁ |",
-        "upload": {
-            "tooltip": "ସଂଲଗ୍ନ କରନ୍ତୁ |",
-            "add": "ଯୋଡନ୍ତୁ |",
-            "remove": "ଅପସାରଣ କରନ୍ତୁ |"
-        },
-        "cmd": {
-            "undo": "ପୂର୍ବବତ୍ କରନ୍ତୁ |",
-            "fontSize": "ଅକ୍ଷର ଆକାର",
-            "justifyLeft": "ବାମକୁ ଆଲାଇନ୍ କରନ୍ତୁ |",
-            "underline": "ଅଣ୍ଡରଲାଇନ୍ |",
-            "bold": "ବୋଲ୍ଡ |",
-            "italic": "ଇଟାଲିକ୍ |",
-            "insertUnorderedList": "ତାଲିକା |",
-            "justifyRight": "ଡାହାଣକୁ ଆଲାଇନ୍ କରନ୍ତୁ |",
-            "removeFormat": "ଫର୍ମାଟ୍ ଅପସାରଣ କରନ୍ତୁ |",
-            "redo": "ପୁନର୍ବାର କରନ୍ତୁ |",
-            "fontName": "ଫଣ୍ଟ ପ୍ରକାର",
-            "justifyCenter": "ମ middle ିରେ ଆଲାଇନ୍ କରନ୍ତୁ |",
-            "insertOrderedList": "ସଂଖ୍ୟାଯୁକ୍ତ ତାଲିକା |"
-        },
-        "color": {
-            "tooltip": "ରଙ୍ଗ",
-            "foreColor": "ପାଠ",
-            "backColor": "ପୃଷ୍ଠଭୂମି"
-        }
-    },
     "actions": {
         "backToMailbox": "ମେଲବାକ୍ସକୁ ଫେରନ୍ତୁ |",
         "reload": "ପୁନ elo ଲୋଡ୍ କରନ୍ତୁ |",
-        "moveTo": "ଯାଅନ୍ତୁ",
+        "select": "ଚୟନ କରନ୍ତୁ |",
         "markAsUnread": "ପ read ିନଥିବା ପରି ଚିହ୍ନିତ କର |",
-        "discardDrafts": "ଡ୍ରାଫ୍ଟଗୁଡିକ ପରିତ୍ୟାଗ କରନ୍ତୁ |",
+        "markAsRead": "ପ read ଼ିବା ପରି ଚିହ୍ନିତ କର |",
+        "moveTo": "ଯାଅନ୍ତୁ",
         "delete": "ବିଲୋପ କରନ୍ତୁ |",
         "deletePermanently": "ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ କରନ୍ତୁ |",
-        "forward": "ଅଗ୍ରଗାମୀ",
+        "discardDrafts": "ଡ୍ରାଫ୍ଟଗୁଡିକ ପରିତ୍ୟାଗ କରନ୍ତୁ |",
+        "markAsSpam": "ସ୍ପାମ୍ ଭାବରେ ଚିହ୍ନିତ କରନ୍ତୁ |",
         "unMarkAsSpam": "ଏହା ସ୍ପାମ୍ ନୁହେଁ |",
-        "attachments": "ସଂଲଗ୍ନକ",
-        "select": "ଚୟନ କରନ୍ତୁ |",
-        "markAsRead": "ପ read ଼ିବା ପରି ଚିହ୍ନିତ କର |",
+        "forward": "ଅଗ୍ରଗାମୀ",
         "reply": "ଉତ୍ତର ଦିଅ",
-        "markAsSpam": "ସ୍ପାମ୍ ଭାବରେ ଚିହ୍ନିତ କରନ୍ତୁ |"
+        "attachments": "ସଂଲଗ୍ନକ"
+    },
+    "weekDays": {
+        "0": "ରବିବାର",
+        "1": "ସୋମବାର",
+        "2": "ମଙ୍ଗଳବାର |",
+        "3": "ବୁଧବାର",
+        "4": "ଗୁରୁବାର",
+        "5": "ଶୁକ୍ରବାର |",
+        "6": "ଶନିବାର"
+    },
+    "months": {
+        "0": "ଜାନୁଆରୀ",
+        "1": "ଫେବୃଆରୀ",
+        "2": "ମାର୍ଚ୍ଚ",
+        "3": "ଏପ୍ରିଲ୍",
+        "4": "ମେ",
+        "5": "ଜୁନ୍ |",
+        "6": "ଜୁଲାଇ",
+        "7": "ଅଗଷ୍ଟ",
+        "8": "ସେପ୍ଟେମ୍ବର |",
+        "9": "ଅକ୍ଟୋବର",
+        "10": "ନଭେମ୍ବର",
+        "11": "ଡିସେମ୍ବର"
     }
 };
 exports.default = locale;

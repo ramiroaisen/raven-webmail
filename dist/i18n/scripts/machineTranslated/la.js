@@ -93,6 +93,29 @@ const locale = {
         "forward": "ante",
         "reply": "Respondeo",
         "attachments": "attachiamenta"
+    },
+    "weekDays": {
+        "0": "Solis",
+        "1": "dies Lunae",
+        "2": "Martis",
+        "3": "Mercurii",
+        "4": "Iovis",
+        "5": "Veneris",
+        "6": "Saturni"
+    },
+    "months": {
+        "0": "Ianuarii",
+        "1": "Februarius",
+        "2": "Martii",
+        "3": "Aprilis",
+        "4": "May",
+        "5": "Iun",
+        "6": "Iulii",
+        "7": "August",
+        "8": "September",
+        "9": "Octobris",
+        "10": "November",
+        "11": "December"
     }
 };
 exports.default = locale;

@@ -93,6 +93,29 @@ const locale = {
         "forward": "Napred",
         "reply": "Odgovori",
         "attachments": "Prilozi"
+    },
+    "weekDays": {
+        "0": "Nedjelja",
+        "1": "Ponedeljak",
+        "2": "Utorak",
+        "3": "Srijeda",
+        "4": "Četvrtak",
+        "5": "Petak",
+        "6": "Subota"
+    },
+    "months": {
+        "0": "Januar",
+        "1": "februar",
+        "2": "Marta",
+        "3": "Aprila",
+        "4": "Maja",
+        "5": "Jun",
+        "6": "Jula",
+        "7": "Avgusta",
+        "8": "Septembra",
+        "9": "Oktobar",
+        "10": "Novembra",
+        "11": "Prosinca"
     }
 };
 exports.default = locale;

@@ -93,6 +93,29 @@ const locale = {
         "forward": "Aurrera",
         "reply": "Erantzun",
         "attachments": "eranskinak"
+    },
+    "weekDays": {
+        "0": "Igandea",
+        "1": "Astelehena",
+        "2": "Asteartea",
+        "3": "Asteazkena",
+        "4": "Osteguna",
+        "5": "Ostirala",
+        "6": "Larunbata"
+    },
+    "months": {
+        "0": "Urtarrila",
+        "1": "Otsaila",
+        "2": "martxoa",
+        "3": "April",
+        "4": "Maiatza",
+        "5": "Jun",
+        "6": "uztailean",
+        "7": "Abuztu",
+        "8": "iraila",
+        "9": "urria",
+        "10": "Azaroa",
+        "11": "abendua"
     }
 };
 exports.default = locale;

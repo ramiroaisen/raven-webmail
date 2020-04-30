@@ -104,7 +104,6 @@
 </style>
 
 <script>
-  import {date} from "lib@formatter.js";
   import {writable} from "lib@store.js";
   import {slide, fly} from "svelte/transition";
 
@@ -160,8 +159,10 @@
 
   onDestroy(() => unsub && unsub())
 
-   const {locale: l} = getContext("app");
-  export let locale = $l.mailboxMessage;
+  import {date} from "lib@formatter.js";
+
+  const {locale: l} = getContext("app");
+  export let locale = $l;
 </script>
 
 <a href="#!/mailbox/{$mailbox.id}/message/{$message.id}" class="na message" class:selected class:unseen={!$message.seen} on:click={click}>
@@ -186,7 +187,7 @@
 
   <x-cell class="from">
     {#if isSent || isDraft}
-      <span class="for">{locale.to} </span>{($message.to || []).map(to => to.name || to.address).filter(Boolean).join(", ")}
+      <span class="for">{locale.mailboxMessage.to} </span>{($message.to || []).map(to => to.name || to.address).filter(Boolean).join(", ")}
     {:else}
       {$message.from.name || $message.from.address || ""}
     {/if}
@@ -200,6 +201,6 @@
 
 
   <x-cell class="date">
-    {$message.date && date($message.date)}
+    {$message.date && date($message.date, locale)}
   </x-cell>
 </a>

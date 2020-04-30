@@ -1,36 +1,75 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
+  "mailbox": {
+    "title": {
+      "inbox": "Вхідні",
+      "sent": "Надісланий",
+      "drafts": "Чернетки",
+      "trash": "Сміття",
+      "junk": "Спам"
+    },
+    "empty": "Ця поштова скринька порожня"
+  },
+  "message": {
+    "labels": {
+      "from": "Від:",
+      "to": "До:",
+      "date": "Надісланий:"
+    }
+  },
   "mailboxMessage": {
     "to": "До:"
+  },
+  "login": {
+    "title": "Увійти",
+    "action": "Увійти",
+    "labels": {
+      "username": "Ім'я користувача",
+      "password": "Пароль"
+    }
   },
   "accountButton": {
     "logout": "Вийти з аккаунта"
   },
-  "login": {
-    "action": "Увійти",
-    "title": "Увійти",
+  "compose": {
     "labels": {
-      "password": "Пароль",
-      "username": "Ім'я користувача"
+      "to": "До:",
+      "subject": "Тема:",
+      "cc": "Копія:",
+      "bcc": "Код:"
+    },
+    "tabs": {
+      "newMessageTitle": "Нове повідомлення"
     }
   },
-  "mailbox": {
-    "empty": "Ця поштова скринька порожня",
-    "title": {
-      "trash": "Сміття",
-      "junk": "Спам",
-      "inbox": "Вхідні",
-      "drafts": "Чернетки",
-      "sent": "Надісланий"
-    }
-  },
-  "message": {
-    "labels": {
-      "date": "Надісланий:",
-      "from": "Від:",
-      "to": "До:"
-    }
+  "editor": {
+    "cmd": {
+      "undo": "Скасувати",
+      "redo": "Повторити",
+      "fontName": "Тип шрифту",
+      "fontSize": "Розмір шрифту",
+      "bold": "Сміливий",
+      "italic": "Курсив",
+      "underline": "Підкресли",
+      "justifyLeft": "Вирівняйте ліворуч",
+      "justifyCenter": "Вирівняти середину",
+      "justifyRight": "Вирівняти правильно",
+      "insertUnorderedList": "Список",
+      "insertOrderedList": "Пронумерований список",
+      "removeFormat": "Видалити формат"
+    },
+    "color": {
+      "tooltip": "Колір",
+      "foreColor": "Текст",
+      "backColor": "Фон"
+    },
+    "upload": {
+      "tooltip": "Прикріпити",
+      "add": "Додайте",
+      "remove": "Видалити"
+    },
+    "send": "Надіслати"
   },
   "selection": {
     "title": [
@@ -39,60 +78,44 @@ const locale: Locale = {
       "{n} повідомлення"
     ]
   },
-  "compose": {
-    "tabs": {
-      "newMessageTitle": "Нове повідомлення"
-    },
-    "labels": {
-      "to": "До:",
-      "cc": "Копія:",
-      "bcc": "Код:",
-      "subject": "Тема:"
-    }
-  },
-  "editor": {
-    "upload": {
-      "remove": "Видалити",
-      "add": "Додайте",
-      "tooltip": "Прикріпити"
-    },
-    "color": {
-      "foreColor": "Текст",
-      "backColor": "Фон",
-      "tooltip": "Колір"
-    },
-    "cmd": {
-      "fontSize": "Розмір шрифту",
-      "undo": "Скасувати",
-      "redo": "Повторити",
-      "fontName": "Тип шрифту",
-      "justifyRight": "Вирівняти правильно",
-      "justifyLeft": "Вирівняйте ліворуч",
-      "underline": "Підкресли",
-      "removeFormat": "Видалити формат",
-      "insertUnorderedList": "Список",
-      "justifyCenter": "Вирівняти середину",
-      "italic": "Курсив",
-      "bold": "Сміливий",
-      "insertOrderedList": "Пронумерований список"
-    },
-    "send": "Надіслати"
-  },
   "actions": {
-    "reload": "Перезавантажити",
     "backToMailbox": "Повернутися до поштової скриньки",
+    "reload": "Перезавантажити",
     "select": "Виберіть",
-    "moveTo": "Рухатися",
     "markAsUnread": "Позначити як не прочитане",
+    "markAsRead": "Відзначити як прочитане",
+    "moveTo": "Рухатися",
     "delete": "Видалити",
-    "discardDrafts": "Відкиньте протяги",
     "deletePermanently": "Видалити назавжди",
-    "reply": "Відповісти",
-    "attachments": "Вкладення",
+    "discardDrafts": "Відкиньте протяги",
     "markAsSpam": "Позначити як спам",
     "unMarkAsSpam": "Це не спам",
     "forward": "Вперед",
-    "markAsRead": "Відзначити як прочитане"
+    "reply": "Відповісти",
+    "attachments": "Вкладення"
+  },
+  "weekDays": {
+    "0": "Неділя",
+    "1": "Понеділок",
+    "2": "Вівторок",
+    "3": "Середа",
+    "4": "Четвер",
+    "5": "П’ятниця",
+    "6": "Субота"
+  },
+  "months": {
+    "0": "Січень",
+    "1": "Лютий",
+    "2": "Березень",
+    "3": "Квітень",
+    "4": "Може",
+    "5": "Червень",
+    "6": "Липень",
+    "7": "Серпень",
+    "8": "Вересень",
+    "9": "Жовтень",
+    "10": "Листопад",
+    "11": "Грудень"
   }
 };
 

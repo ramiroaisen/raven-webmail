@@ -5,71 +5,51 @@ import path from "path";
 import {Agent} from "https";
 import chalk from "chalk";
 
+import rimraf from "rimraf";
+
+import pLimit from "p-limit";
+
+const concurrency = 25;
 const override = false;
+const queue = pLimit(concurrency);
 
 const key = process.env.GOOGLE_API_KEY ||
     fs.readFileSync(process.env.HOME + "/google_api_key.txt", "utf8").trim();
-
-
-/*
-export const translate = async ({src, to}: {src: string, to: string}): Promise<string> => src;
-
-export const generate = (to: string, base: Locale): Locale => {
-
-    const target = Object.create(null) as Locale;
-
-    const map = async (source: Record<string, any>): Record<string, any> => {
-
-        const target = Object.create(null) as Record<string, any>;
-
-        for(const [key, value] of Object.entries(source)) {
-            if (typeof value === "string") {
-                target[key] = await translate({src: value, to});
-
-            } else if(value instanceof Array) {
-                const v = [];
-                for(const item of value) {
-                    v.push(await translate({src: item, to}));
-                }
-
-                target[key] = v;
-
-            } else {
-
-                target[key] = await map(target[key]);
-
-            }
-        }
-    }
-
-    map(dest, base);
-
-    return target;
-}
-*/
 
 const destDir = path.join(__dirname, "machineTranslated");
 const srcLang = "en";
 import base from "../src/en";
 
-const translateString = async ({src, to}: {src: string, to: string}): Promise<string> => {
-    const json = await fetch(
-        `https://translation.googleapis.com/language/translate/v2?key=${key}`,
-        {
-            method: "POST",
-            body: JSON.stringify({
-                q: src,
-                source: srcLang,
-                target: to,
-                format: "text"
-            })
-        }).then(res => res.json());
+let totalRequests = 0;
+let doneRequests = 0;
 
-    return json.data.translations[0].translatedText;
+const translateString = async ({src, to}: {src: string, to: string}): Promise<string> => {
+
+    totalRequests++;
+
+    return queue(async () => {
+        const json = await fetch(
+            `https://translation.googleapis.com/language/translate/v2?key=${key}`,
+            {
+                method: "POST",
+                body: JSON.stringify({
+                    q: src,
+                    source: srcLang,
+                    target: to,
+                    format: "text"
+                })
+            }).then(res => res.json());
+
+        doneRequests++;
+
+        return json.data.translations[0].translatedText;
+
+    })
 }
 
 const translateArray = async ({src, to}: {src: string[], to: string}): Promise<string[]> => {
     const ps: Promise<string>[] = [];
+    const dest: string[] = []
     for(const item of src) {
         ps.push(translateString({src: item, to}));
     }
@@ -77,16 +57,18 @@ const translateArray = async ({src, to}: {src: string[], to: string}): Promise<s
 }
 
 const translateMap = async <T extends LocaleMap>({src, to}: {src: T, to: string}): Promise<T> => {
-    const ps: Promise<void>[] = [];
     const target = Object.create(null) as LocaleMap;
+    const ps = Object.create(null) as any;
+
     for(const [key, value] of Object.entries(src)) {
-        ps.push(new Promise(async (resolve) => {
-            target[key] = await translateAny({src: value, to});
-            resolve()
-        }))
+        ps[key] = translateAny({src: value, to});
     }
 
-    await Promise.all(ps);
+    await Promise.all(Object.values(ps));
+
+    for(const [key, value] of Object.entries(ps)) {
+        (target as any)[key] = await value;
+    }
 
     return target as any;
 }
@@ -113,7 +95,7 @@ const listLanguages = async (): Promise<string[]> => {
     return json.data.languages.map((o: any) => o.language);
 }
 
-const render = (locale: Locale): string => {
+const renderLocale = (locale: Locale): string => {
     return `\
 import { Locale } from "../../types";
  
@@ -127,25 +109,58 @@ async function main() {
     console.log(res.length, "languages");
 
     //fs.writeFileSync("./machineTranslatedList.json", JSON.stringify(res, null, 2));
+    if(override) {
+        console.log("> Cleaning directory " + chalk.yellow(destDir));
+        await new Promise((resolve, reject) => rimraf(destDir + "/*.ts", (err) => {
+            if(err) reject(err);
+            else resolve();
+        }));
+    }
+
+    const doneLangs: string[] = [];
+    const skippedLangs: string[] = [];
 
     const langs = res.filter(code => code !== srcLang);
 
-    const total = langs.length;
-    let count = 0;
-
-    for(const lang of langs) {
-        const filename = `${lang}.ts`;
-        const dest = path.join(destDir, filename);
-        console.log(">" , ++count, "/", total, `translating ${chalk.yellow(lang)}`);
-        if(fs.existsSync(dest) && !override) {
-            console.log(" Skipping: file already exists ")
-            continue;
+    const render = () => {
+        process.stdout.cursorTo(0, 0);
+        process.stdout.clearScreenDown();
+        console.log("=".repeat(process.stdout.getWindowSize()[1]))
+        if(override) {
+            console.log(`> Cleared directory ${chalk.yellow(destDir)}`);
         }
-        const target = await translateMap({src: base, to: lang});
-        fs.writeFileSync(dest, render(target));
-        console.log("> Written to " + chalk.yellow(dest));
+        console.log("> Translating locales: " + langs.map(lang => chalk.yellow(lang)).join(", "));
+        console.log("=".repeat(process.stdout.getWindowSize()[0]))
+        console.log(`> Concurrency: ${concurrency}`)
+        console.log("=".repeat(process.stdout.getWindowSize()[0]))
+        console.log(`> Total requests: ${chalk.yellow(totalRequests)}`)
+        console.log(`> Active requests: ${chalk.yellow(queue.activeCount)}`)
+        console.log(`> Done requests: ${chalk.yellow(doneRequests)}`)
+        console.log(`> Pending requests: ${chalk.yellow(queue.pendingCount)}`)
+        console.log("=".repeat(process.stdout.getWindowSize()[0]))
+        console.log(`> Langs: ${chalk.yellow(doneLangs.length + skippedLangs.length)} / ${chalk.yellow(langs.length)}`);
+        console.log(`> Skipped: ${skippedLangs.map(lang => chalk.yellow(lang)).join(", ")}`)
+        console.log(`> Done: ${doneLangs.map(lang => chalk.yellow(lang)).join(", ")}`)
     }
 
+
+    const ps = langs.map(async lang => {
+        const filename = `${lang}.ts`;
+        const dest = path.join(destDir, filename);
+        if(fs.existsSync(dest) && !override) {
+            skippedLangs.push(lang);
+            return;
+        }
+        const target = await translateMap({src: base, to: lang});
+        fs.writeFileSync(dest, renderLocale(target));
+        doneLangs.push(lang);
+    })
+
+    setInterval(render, 250);
+
+    await Promise.all(ps)
+
+    render();
     console.log("> Done!");
 }
 

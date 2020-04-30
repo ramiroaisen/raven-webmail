@@ -1,4 +1,4 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
   "mailbox": {
@@ -93,6 +93,29 @@ const locale: Locale = {
     "forward": "Pêşve",
     "reply": "Bersiv",
     "attachments": "Attachments"
+  },
+  "weekDays": {
+    "0": "Yekşem",
+    "1": "Duşem",
+    "2": "Sêşem",
+    "3": "Çarşem",
+    "4": "Pêncşem",
+    "5": "În",
+    "6": "Şemî"
+  },
+  "months": {
+    "0": "Rêbendan",
+    "1": "Reşemî",
+    "2": "Adar",
+    "3": "Avrêl",
+    "4": "Gulan",
+    "5": "Jun",
+    "6": "Tîrmeh",
+    "7": "Tebax",
+    "8": "Îlon",
+    "9": "Cotmeh",
+    "10": "Mijdar",
+    "11": "Berfanbar"
   }
 };
 

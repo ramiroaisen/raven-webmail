@@ -93,6 +93,29 @@ const locale = {
         "forward": "Foarút",
         "reply": "Antwurdzje",
         "attachments": "Taheaksels"
+    },
+    "weekDays": {
+        "0": "snein",
+        "1": "moandei",
+        "2": "tiisdei",
+        "3": "woansdei",
+        "4": "tongersdei",
+        "5": "freed",
+        "6": "sneon"
+    },
+    "months": {
+        "0": "jannewaris",
+        "1": "febrewaris",
+        "2": "maart",
+        "3": "april",
+        "4": "Meie",
+        "5": "Jun",
+        "6": "july",
+        "7": "augustus",
+        "8": "spetimber",
+        "9": "oktober",
+        "10": "novimber",
+        "11": "desimber"
     }
 };
 exports.default = locale;

@@ -1,75 +1,75 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
-  "mailboxMessage": {
-    "to": "သို့:"
+  "mailbox": {
+    "title": {
+      "inbox": "Inbox",
+      "sent": "ပို့ခဲ့သည်",
+      "drafts": "မူကြမ်းများ",
+      "trash": "အမှိုက်ပုံး",
+      "junk": "Spam များကို"
+    },
+    "empty": "ဤစာတိုက်ပုံးသည်ဗလာဖြစ်သည်"
   },
   "message": {
     "labels": {
       "from": "မှ:",
-      "date": "ပို့ပြီး",
-      "to": "သို့:"
+      "to": "သို့:",
+      "date": "ပို့ပြီး"
+    }
+  },
+  "mailboxMessage": {
+    "to": "သို့:"
+  },
+  "login": {
+    "title": "ဆိုင်းအင်လုပ်ခြင်း",
+    "action": "ဆိုင်းအင်လုပ်ခြင်း",
+    "labels": {
+      "username": "အသုံးပြုသူအမည်",
+      "password": "စကားဝှက်"
     }
   },
   "accountButton": {
     "logout": "ဆိုင်းအောက်"
   },
+  "compose": {
+    "labels": {
+      "to": "သို့:",
+      "subject": "ဘာသာရပ် -",
+      "cc": "စီစီ:",
+      "bcc": "ဘီစီ:"
+    },
+    "tabs": {
+      "newMessageTitle": "မက်ဆေ့ခ်ျအသစ်"
+    }
+  },
   "editor": {
     "cmd": {
       "undo": "ပယ်ဖျက်",
-      "fontSize": "စာလုံးအရွယ်အစား",
       "redo": "Redo",
+      "fontName": "စာလုံးပုံစံ",
+      "fontSize": "စာလုံးအရွယ်အစား",
       "bold": "ရဲရင့်",
       "italic": "စာလုံးစောင်း",
-      "fontName": "စာလုံးပုံစံ",
+      "underline": "မျဉ်းကြောင်း",
       "justifyLeft": "left align လုပ်ပါ",
       "justifyCenter": "အလယ်ကို align",
-      "underline": "မျဉ်းကြောင်း",
       "justifyRight": "ညာဘက် align",
-      "removeFormat": "format ဖယ်ရှားပါ",
+      "insertUnorderedList": "စာရင်း",
       "insertOrderedList": "စာရင်းစာရင်း",
-      "insertUnorderedList": "စာရင်း"
-    },
-    "send": "ပို့ပါ",
-    "upload": {
-      "remove": "ဖယ်ရှားပါ",
-      "add": "ထည့်ပါ",
-      "tooltip": "ပူးတွဲပါ"
+      "removeFormat": "format ဖယ်ရှားပါ"
     },
     "color": {
-      "foreColor": "စာသား",
       "tooltip": "အရောင်",
+      "foreColor": "စာသား",
       "backColor": "နောက်ခံ"
-    }
-  },
-  "mailbox": {
-    "empty": "ဤစာတိုက်ပုံးသည်ဗလာဖြစ်သည်",
-    "title": {
-      "sent": "ပို့ခဲ့သည်",
-      "inbox": "Inbox",
-      "drafts": "မူကြမ်းများ",
-      "trash": "အမှိုက်ပုံး",
-      "junk": "Spam များကို"
-    }
-  },
-  "login": {
-    "action": "ဆိုင်းအင်လုပ်ခြင်း",
-    "title": "ဆိုင်းအင်လုပ်ခြင်း",
-    "labels": {
-      "password": "စကားဝှက်",
-      "username": "အသုံးပြုသူအမည်"
-    }
-  },
-  "compose": {
-    "tabs": {
-      "newMessageTitle": "မက်ဆေ့ခ်ျအသစ်"
     },
-    "labels": {
-      "to": "သို့:",
-      "bcc": "ဘီစီ:",
-      "cc": "စီစီ:",
-      "subject": "ဘာသာရပ် -"
-    }
+    "upload": {
+      "tooltip": "ပူးတွဲပါ",
+      "add": "ထည့်ပါ",
+      "remove": "ဖယ်ရှားပါ"
+    },
+    "send": "ပို့ပါ"
   },
   "selection": {
     "title": [
@@ -79,20 +79,43 @@ const locale: Locale = {
     ]
   },
   "actions": {
-    "reload": "ပြန်တင်ပါ",
     "backToMailbox": "စာတိုက်ပုံးသို့ပြန်သွားပါ",
-    "delete": "ဖျက်ပါ",
-    "markAsUnread": "မဖတ်ရအဖြစ်မှတ်သားပါ",
+    "reload": "ပြန်တင်ပါ",
     "select": "ရွေးချယ်ပါ",
-    "deletePermanently": "အမြဲတမ်းဖျက်ပါ",
-    "moveTo": "သို့ရွှေ့ပါ",
+    "markAsUnread": "မဖတ်ရအဖြစ်မှတ်သားပါ",
     "markAsRead": "ဖတ်ပြီးသည့်အတိုင်းမှတ်သားပါ",
-    "reply": "ပြန်ကြားရေး",
+    "moveTo": "သို့ရွှေ့ပါ",
+    "delete": "ဖျက်ပါ",
+    "deletePermanently": "အမြဲတမ်းဖျက်ပါ",
     "discardDrafts": "မူကြမ်းများကိုဖယ်ရှားပါ",
-    "attachments": "ပူးတွဲဖိုင်များ",
-    "forward": "ရှေ့သို့",
+    "markAsSpam": "spam အဖြစ်မှတ်သားပါ",
     "unMarkAsSpam": "ဒီဟာ spam မဟုတ်ပါ",
-    "markAsSpam": "spam အဖြစ်မှတ်သားပါ"
+    "forward": "ရှေ့သို့",
+    "reply": "ပြန်ပြောပါ",
+    "attachments": "ပူးတွဲဖိုင်များ"
+  },
+  "weekDays": {
+    "0": "တနင်္ဂနွေနေ့",
+    "1": "တနင်္လာနေ့",
+    "2": "အင်္ဂါနေ့",
+    "3": "ဗုဒ္ဓဟူးနေ့",
+    "4": "ကြာသပတေးနေ့",
+    "5": "သောကြာနေ့",
+    "6": "စနေနေ့"
+  },
+  "months": {
+    "0": "ဇန်နဝါရီလ",
+    "1": "ဖေဖော်ဝါရီလ",
+    "2": "မတ်လ",
+    "3": "ပြီလ",
+    "4": "မေလ",
+    "5": "ဇွန်",
+    "6": "ဇူလိုင်လ",
+    "7": "သြဂုတ်လ",
+    "8": "စက်တင်ဘာ",
+    "9": "အောက်တိုဘာ",
+    "10": "နိုဝင်ဘာ",
+    "11": "ဒီဇင်ဘာ"
   }
 };
 

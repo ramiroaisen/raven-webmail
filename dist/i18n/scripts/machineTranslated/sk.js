@@ -1,28 +1,25 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
-    "mailboxMessage": {
-        "to": "Ak chcete:"
-    },
     "mailbox": {
         "title": {
-            "junk": "Nevyžiadaná pošta",
-            "trash": "Smeti",
-            "drafts": "dáma",
             "inbox": "Doručená pošta",
-            "sent": "odoslané"
+            "sent": "odoslané",
+            "drafts": "dáma",
+            "trash": "Smeti",
+            "junk": "Nevyžiadaná pošta"
         },
         "empty": "Táto poštová schránka je prázdna"
     },
     "message": {
         "labels": {
-            "to": "Ak chcete:",
             "from": "od:",
+            "to": "Ak chcete:",
             "date": "zaslané:"
         }
     },
-    "accountButton": {
-        "logout": "Odhlásiť Sa"
+    "mailboxMessage": {
+        "to": "Ak chcete:"
     },
     "login": {
         "title": "Prihlásiť sa",
@@ -31,6 +28,9 @@ const locale = {
             "username": "užívateľské meno",
             "password": "heslo"
         }
+    },
+    "accountButton": {
+        "logout": "Odhlásiť Sa"
     },
     "compose": {
         "labels": {
@@ -44,32 +44,32 @@ const locale = {
         }
     },
     "editor": {
-        "send": "send",
-        "color": {
-            "foreColor": "text",
-            "backColor": "Pozadie",
-            "tooltip": "farba"
-        },
         "cmd": {
             "undo": "Vrátenie späť",
+            "redo": "redo",
             "fontName": "Typ písma",
             "fontSize": "Veľkosť písma",
-            "underline": "Zdôrazniť",
             "bold": "smelý",
+            "italic": "kurzíva",
+            "underline": "Zdôrazniť",
             "justifyLeft": "Zarovnať doľava",
-            "insertUnorderedList": "zoznam",
             "justifyCenter": "Zarovnať stred",
             "justifyRight": "Zarovnať vpravo",
+            "insertUnorderedList": "zoznam",
             "insertOrderedList": "Číslovaný zoznam",
-            "removeFormat": "Odstráňte formát",
-            "redo": "redo",
-            "italic": "kurzíva"
+            "removeFormat": "Odstráňte formát"
+        },
+        "color": {
+            "tooltip": "farba",
+            "foreColor": "text",
+            "backColor": "Pozadie"
         },
         "upload": {
             "tooltip": "priložiť",
-            "remove": "Remove",
-            "add": "pridať"
-        }
+            "add": "pridať",
+            "remove": "Remove"
+        },
+        "send": "send"
     },
     "selection": {
         "title": [
@@ -82,17 +82,40 @@ const locale = {
         "backToMailbox": "Späť do schránky",
         "reload": "reload",
         "select": "vybrať",
+        "markAsUnread": "Označiť ako neprečítané",
+        "markAsRead": "Označiť ako prečítané",
         "moveTo": "Presunúť do",
         "delete": "delete",
-        "markAsRead": "Označiť ako prečítané",
-        "markAsUnread": "Označiť ako neprečítané",
-        "reply": "odpoveď",
-        "forward": "vpred",
-        "unMarkAsSpam": "Toto nie je spam",
         "deletePermanently": "Natrvalo odstrániť",
         "discardDrafts": "Zahodiť koncepty",
-        "attachments": "prílohy",
-        "markAsSpam": "označiť ako spam"
+        "markAsSpam": "označiť ako spam",
+        "unMarkAsSpam": "Toto nie je spam",
+        "forward": "vpred",
+        "reply": "odpoveď",
+        "attachments": "prílohy"
+    },
+    "weekDays": {
+        "0": "nedeľa",
+        "1": "pondelok",
+        "2": "utorok",
+        "3": "streda",
+        "4": "štvrtok",
+        "5": "piatok",
+        "6": "sobota"
+    },
+    "months": {
+        "0": "január",
+        "1": "február",
+        "2": "marec",
+        "3": "apríl",
+        "4": "Smieť",
+        "5": "júna",
+        "6": "júl",
+        "7": "august",
+        "8": "septembra",
+        "9": "október",
+        "10": "november",
+        "11": "December"
     }
 };
 exports.default = locale;

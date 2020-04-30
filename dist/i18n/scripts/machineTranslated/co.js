@@ -93,6 +93,29 @@ const locale = {
         "forward": "Forward",
         "reply": "Rispondi",
         "attachments": "Anexioni"
+    },
+    "weekDays": {
+        "0": "Dumenica",
+        "1": "Luni",
+        "2": "Marti",
+        "3": "Marcuri",
+        "4": "Ghjovi",
+        "5": "Vennari",
+        "6": "Sabatu"
+    },
+    "months": {
+        "0": "Ghjinnaghju",
+        "1": "Febbraiu",
+        "2": "Marzu",
+        "3": "Aprile",
+        "4": "Maghju",
+        "5": "Ghjugnu",
+        "6": "Lugliu",
+        "7": "Aostu",
+        "8": "Sittembre",
+        "9": "Ottobre",
+        "10": "Nuvembre",
+        "11": "Dicembre"
     }
 };
 exports.default = locale;

@@ -1,6 +1,16 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
+    "mailbox": {
+        "title": {
+            "inbox": "Xabarlar qutisi",
+            "sent": "Yuborildi",
+            "drafts": "Qoralamalar",
+            "trash": "Axlat",
+            "junk": "Spam"
+        },
+        "empty": "Ushbu pochta qutisi bo'sh"
+    },
     "message": {
         "labels": {
             "from": "Kimdan:",
@@ -10,6 +20,14 @@ const locale = {
     },
     "mailboxMessage": {
         "to": "Kimga:"
+    },
+    "login": {
+        "title": "tizimga kirish",
+        "action": "tizimga kirish",
+        "labels": {
+            "username": "Foydalanuvchi ismi",
+            "password": "Parol"
+        }
     },
     "accountButton": {
         "logout": "Chiqish"
@@ -25,67 +43,33 @@ const locale = {
             "newMessageTitle": "Yangi xabar"
         }
     },
-    "mailbox": {
-        "empty": "Ushbu pochta qutisi bo'sh",
-        "title": {
-            "junk": "Spam",
-            "trash": "Axlat",
-            "sent": "Yuborildi",
-            "inbox": "Xabarlar qutisi",
-            "drafts": "Qoralamalar"
-        }
-    },
     "editor": {
         "cmd": {
-            "redo": "Qayta urinish",
             "undo": "Bekor qilish",
-            "bold": "Qalin",
+            "redo": "Qayta urinish",
             "fontName": "Shrift turi",
             "fontSize": "Shrift hajmi",
+            "bold": "Qalin",
+            "italic": "Kursiv",
+            "underline": "Pastga chizish",
             "justifyLeft": "Chapga tekislang",
             "justifyCenter": "O'rtani tekislang",
-            "underline": "Pastga chizish",
-            "italic": "Kursiv",
-            "insertUnorderedList": "Ro‘yxat",
             "justifyRight": "O'ng tomonga tekislang",
+            "insertUnorderedList": "Ro‘yxat",
             "insertOrderedList": "Raqamlangan ro'yxat",
             "removeFormat": "Formatni olib tashlash"
         },
         "color": {
+            "tooltip": "Rangi",
             "foreColor": "Matn",
-            "backColor": "Fon",
-            "tooltip": "Rangi"
+            "backColor": "Fon"
         },
         "upload": {
+            "tooltip": "Ilova qiling",
             "add": "Qo'shing",
-            "remove": "Olib tashlang",
-            "tooltip": "Ilova qiling"
+            "remove": "Olib tashlang"
         },
         "send": "Yuborish"
-    },
-    "login": {
-        "title": "tizimga kirish",
-        "action": "tizimga kirish",
-        "labels": {
-            "username": "Foydalanuvchi ismi",
-            "password": "Parol"
-        }
-    },
-    "actions": {
-        "backToMailbox": "Pochta qutisiga qaytish",
-        "markAsUnread": "O'qilmagan deb belgilang",
-        "reload": "Qayta yuklang",
-        "markAsRead": "O'qilgan deb belgilang",
-        "select": "Tanlang",
-        "delete": "Yo'q qilish",
-        "discardDrafts": "Qoralamalarni bekor qiling",
-        "moveTo": "Ga ko‘chirish",
-        "deletePermanently": "Butunlay yo'q qiling",
-        "reply": "Javob bering",
-        "unMarkAsSpam": "Bu spam emas",
-        "markAsSpam": "Spam deb belgilang",
-        "attachments": "Ilovalar",
-        "forward": "Oldinga"
     },
     "selection": {
         "title": [
@@ -93,6 +77,45 @@ const locale = {
             "{n} habar",
             "{n} xabarlar"
         ]
+    },
+    "actions": {
+        "backToMailbox": "Pochta qutisiga qaytish",
+        "reload": "Qayta yuklang",
+        "select": "Tanlang",
+        "markAsUnread": "O'qilmagan deb belgilang",
+        "markAsRead": "O'qilgan deb belgilang",
+        "moveTo": "Ga ko‘chirish",
+        "delete": "Yo'q qilish",
+        "deletePermanently": "Butunlay yo'q qiling",
+        "discardDrafts": "Qoralamalarni bekor qiling",
+        "markAsSpam": "Spam deb belgilang",
+        "unMarkAsSpam": "Bu spam emas",
+        "forward": "Oldinga",
+        "reply": "Javob bering",
+        "attachments": "Ilovalar"
+    },
+    "weekDays": {
+        "0": "yakshanba",
+        "1": "Dushanba",
+        "2": "Seshanba",
+        "3": "Chorshanba",
+        "4": "Payshanba",
+        "5": "Juma",
+        "6": "Shanba"
+    },
+    "months": {
+        "0": "Yanvar",
+        "1": "fevral",
+        "2": "Mart",
+        "3": "Aprel",
+        "4": "May",
+        "5": "Iyun",
+        "6": "Iyul",
+        "7": "Avgust",
+        "8": "Sentyabr",
+        "9": "Oktyabr",
+        "10": "Noyabr",
+        "11": "Dekabr"
     }
 };
 exports.default = locale;

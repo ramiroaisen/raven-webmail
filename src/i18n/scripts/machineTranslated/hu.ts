@@ -1,4 +1,4 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
   "mailbox": {
@@ -93,6 +93,29 @@ const locale: Locale = {
     "forward": "Előre",
     "reply": "Válasz",
     "attachments": "Mellékletek"
+  },
+  "weekDays": {
+    "0": "vasárnap",
+    "1": "hétfő",
+    "2": "kedd",
+    "3": "szerda",
+    "4": "csütörtök",
+    "5": "péntek",
+    "6": "szombat"
+  },
+  "months": {
+    "0": "január",
+    "1": "február",
+    "2": "március",
+    "3": "április",
+    "4": "Lehet",
+    "5": "Június",
+    "6": "július",
+    "7": "augusztus",
+    "8": "szeptember",
+    "9": "október",
+    "10": "november",
+    "11": "december"
   }
 };
 

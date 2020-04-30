@@ -1,4 +1,4 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
   "mailbox": {
@@ -93,6 +93,29 @@ const locale: Locale = {
     "forward": "Moimua",
     "reply": "Whakautu",
     "attachments": "Tuhinga o mua"
+  },
+  "weekDays": {
+    "0": "Rātapu",
+    "1": "Ite",
+    "2": "Rātapu",
+    "3": "Wenerei",
+    "4": "Rāpare",
+    "5": "Paraire",
+    "6": "Hatarei"
+  },
+  "months": {
+    "0": "Hanuere",
+    "1": "Hui-tanguru",
+    "2": "Poutu-te-Rangi",
+    "3": "Paenga-whāwhā",
+    "4": "Mei",
+    "5": "Jun",
+    "6": "Hurae",
+    "7": "Akuhata",
+    "8": "Mahuru",
+    "9": "Oketopa",
+    "10": "Whiringa",
+    "11": "Hakihea"
   }
 };
 

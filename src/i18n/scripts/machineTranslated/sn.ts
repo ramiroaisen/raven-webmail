@@ -1,11 +1,32 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
+  "mailbox": {
+    "title": {
+      "inbox": "Inbox",
+      "sent": "Kutumwa",
+      "drafts": "Zviridzwa",
+      "trash": "Marara",
+      "junk": "Spam"
+    },
+    "empty": "Iri bhokisi retsamba harina chinhu"
+  },
   "message": {
     "labels": {
       "from": "Kubva:",
-      "date": "Kutumwa:",
-      "to": "Ku:"
+      "to": "Ku:",
+      "date": "Kutumwa:"
+    }
+  },
+  "mailboxMessage": {
+    "to": "Ku:"
+  },
+  "login": {
+    "title": "Nyorera mu",
+    "action": "Nyorera mu",
+    "labels": {
+      "username": "Username",
+      "password": "Pasiwedhi"
     }
   },
   "accountButton": {
@@ -22,6 +43,34 @@ const locale: Locale = {
       "newMessageTitle": "New message"
     }
   },
+  "editor": {
+    "cmd": {
+      "undo": "Unndo",
+      "redo": "Redo",
+      "fontName": "Font Type",
+      "fontSize": "Kukura kwemavara",
+      "bold": "Bold",
+      "italic": "Italic",
+      "underline": "Dzvanya",
+      "justifyLeft": "Gadziridza kuruboshwe",
+      "justifyCenter": "Tungamira pakati",
+      "justifyRight": "Gadzirisa chaipo",
+      "insertUnorderedList": "Rondedzero",
+      "insertOrderedList": "Nhamba yakanyorwa",
+      "removeFormat": "Bvisa chimiro"
+    },
+    "color": {
+      "tooltip": "Ruvara",
+      "foreColor": "Zvinyorwa",
+      "backColor": "Shure"
+    },
+    "upload": {
+      "tooltip": "Batanidza",
+      "add": "Wedzera",
+      "remove": "Bvisa"
+    },
+    "send": "Tumira"
+  },
   "selection": {
     "title": [
       "{n} mameseji",
@@ -29,70 +78,44 @@ const locale: Locale = {
       "{n} mameseji"
     ]
   },
-  "mailboxMessage": {
-    "to": "Ku:"
-  },
-  "mailbox": {
-    "empty": "Iri bhokisi retsamba harina chinhu",
-    "title": {
-      "sent": "Kutumwa",
-      "inbox": "Inbox",
-      "trash": "Marara",
-      "junk": "Spam",
-      "drafts": "Zviridzwa"
-    }
-  },
-  "login": {
-    "title": "Nyorera mu",
-    "action": "Nyorera mu",
-    "labels": {
-      "username": "Username",
-      "password": "Pasiwedhi"
-    }
-  },
-  "editor": {
-    "cmd": {
-      "undo": "Unndo",
-      "fontSize": "Kukura kwemavara",
-      "fontName": "Font Type",
-      "redo": "Redo",
-      "italic": "Italic",
-      "underline": "Dzvanya",
-      "bold": "Bold",
-      "justifyLeft": "Gadziridza kuruboshwe",
-      "insertOrderedList": "Nhamba yakanyorwa",
-      "insertUnorderedList": "Rondedzero",
-      "justifyCenter": "Tungamira pakati",
-      "justifyRight": "Gadzirisa chaipo",
-      "removeFormat": "Bvisa chimiro"
-    },
-    "send": "Tumira",
-    "upload": {
-      "tooltip": "Batanidza",
-      "remove": "Bvisa",
-      "add": "Wedzera"
-    },
-    "color": {
-      "foreColor": "Zvinyorwa",
-      "tooltip": "Ruvara",
-      "backColor": "Shure"
-    }
-  },
   "actions": {
-    "select": "Sarudza",
     "backToMailbox": "Dzokera kubhokisi retsamba",
-    "moveTo": "Fambisa kuenda",
-    "discardDrafts": "Rasa zvinyorwa",
-    "deletePermanently": "Delete zvachose",
-    "markAsSpam": "Maka se spam",
-    "reply": "Pindura",
-    "attachments": "Zvisungo",
-    "forward": "Pamberi",
-    "unMarkAsSpam": "Izvi hazvisi spam",
-    "delete": "Delete",
-    "markAsUnread": "Maka kunge usinga verengi",
     "reload": "Reload",
-    "markAsRead": "Maka sekuverenga"
+    "select": "Sarudza",
+    "markAsUnread": "Maka kunge usinga verengi",
+    "markAsRead": "Maka sekuverenga",
+    "moveTo": "Fambisa kuenda",
+    "delete": "Delete",
+    "deletePermanently": "Delete zvachose",
+    "discardDrafts": "Rasa zvinyorwa",
+    "markAsSpam": "Maka se spam",
+    "unMarkAsSpam": "Izvi hazvisi spam",
+    "forward": "Pamberi",
+    "reply": "Pindura",
+    "attachments": "Zvisungo"
+  },
+  "weekDays": {
+    "0": "Svondo",
+    "1": "Muvhuro",
+    "2": "Chipiri",
+    "3": "Chitatu",
+    "4": "China",
+    "5": "Chishanu",
+    "6": "Mugovera"
+  },
+  "months": {
+    "0": "Ndira",
+    "1": "Kukadzi",
+    "2": "Kurume",
+    "3": "Kubvumbi",
+    "4": "Chivabvu",
+    "5": "Jun",
+    "6": "Chikunguru",
+    "7": "Nyamavhuvhu",
+    "8": "Gunyana",
+    "9": "Gumiguru",
+    "10": "Mbudzi",
+    "11": "Zvita"
   }
 };
 

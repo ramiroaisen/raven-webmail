@@ -1,15 +1,33 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
+    "mailbox": {
+        "title": {
+            "inbox": "Ibhokisi lokungenayo",
+            "sent": "Kuthunyelwe",
+            "drafts": "Okusalungiswa",
+            "trash": "Udoti",
+            "junk": "Ogaxekile"
+        },
+        "empty": "Leli bhokisi leposi alinalutho"
+    },
     "message": {
         "labels": {
+            "from": "Kusuka ku:",
             "to": "Iya ku:",
-            "date": "Kuthunyelwe:",
-            "from": "Kusuka ku:"
+            "date": "Kuthunyelwe:"
         }
     },
     "mailboxMessage": {
         "to": "Iya ku:"
+    },
+    "login": {
+        "title": "Ngena ngemvume",
+        "action": "Ngena ngemvume",
+        "labels": {
+            "username": "Igama lomsebenzisi",
+            "password": "Iphasiwedi"
+        }
     },
     "accountButton": {
         "logout": "sayinela ukuphuma"
@@ -17,75 +35,41 @@ const locale = {
     "compose": {
         "labels": {
             "to": "Iya ku:",
-            "cc": "Cc:",
             "subject": "Isihloko:",
+            "cc": "Cc:",
             "bcc": "Bcc:"
         },
         "tabs": {
             "newMessageTitle": "Umlayezo omusha"
         }
     },
-    "mailbox": {
-        "empty": "Leli bhokisi leposi alinalutho",
-        "title": {
-            "inbox": "Ibhokisi lokungenayo",
-            "trash": "Udoti",
-            "drafts": "Okusalungiswa",
-            "junk": "Ogaxekile",
-            "sent": "Kuthunyelwe"
-        }
-    },
-    "login": {
-        "action": "Ngena ngemvume",
-        "labels": {
-            "username": "Igama lomsebenzisi",
-            "password": "Iphasiwedi"
-        },
-        "title": "Ngena ngemvume"
-    },
     "editor": {
         "cmd": {
             "undo": "Hlehlisa",
+            "redo": "Phinda wenze",
             "fontName": "Uhlobo lwefonti",
+            "fontSize": "Usayizi wefonti",
             "bold": "Bold",
+            "italic": "Omalukeke",
             "underline": "Dwebela",
             "justifyLeft": "Qondanisa kwesokunxele",
             "justifyCenter": "Qondanisa maphakathi",
             "justifyRight": "Qondanisa kwesokudla",
-            "removeFormat": "Susa ifomethi",
-            "insertOrderedList": "Uhlu olunezinombolo",
             "insertUnorderedList": "Uhlu",
-            "redo": "Phinda wenze",
-            "fontSize": "Usayizi wefonti",
-            "italic": "Omalukeke"
+            "insertOrderedList": "Uhlu olunezinombolo",
+            "removeFormat": "Susa ifomethi"
         },
         "color": {
-            "foreColor": "Umbhalo",
             "tooltip": "Umbala",
+            "foreColor": "Umbhalo",
             "backColor": "Isendlalelo"
         },
-        "send": "Thumela",
         "upload": {
-            "add": "Faka",
             "tooltip": "Namathisela",
+            "add": "Faka",
             "remove": "Susa"
-        }
-    },
-    "actions": {
-        "backToMailbox": "Buyela ebhokisini leposi",
-        "select": "Khetha",
-        "markAsUnread": "Maka njengokungafundiwe",
-        "moveTo": "Dlulela ku",
-        "markAsRead": "Maka njengokufundiwe",
-        "delete": "Susa",
-        "deletePermanently": "Susa unaphakade",
-        "markAsSpam": "Maka njengogaxekile",
-        "unMarkAsSpam": "Lokhu akuyona ogaxekile",
-        "reply": "Phendula",
-        "forward": "Dlulisela",
-        "reload": "Phinda ulayishe",
-        "attachments": "Izinamathiseli",
-        "discardDrafts": "Lahla okusalungiswa"
+        },
+        "send": "Thumela"
     },
     "selection": {
         "title": [
@@ -93,6 +77,45 @@ const locale = {
             "{n} umlayezo",
             "{n} imilayezo"
         ]
+    },
+    "actions": {
+        "backToMailbox": "Buyela ebhokisini leposi",
+        "reload": "Phinda ulayishe",
+        "select": "Khetha",
+        "markAsUnread": "Maka njengokungafundiwe",
+        "markAsRead": "Maka njengokufundiwe",
+        "moveTo": "Dlulela ku",
+        "delete": "Susa",
+        "deletePermanently": "Susa unaphakade",
+        "discardDrafts": "Lahla okusalungiswa",
+        "markAsSpam": "Maka njengogaxekile",
+        "unMarkAsSpam": "Lokhu akuyona ogaxekile",
+        "forward": "Dlulisela",
+        "reply": "Phendula",
+        "attachments": "Izinamathiseli"
+    },
+    "weekDays": {
+        "0": "ISonto",
+        "1": "UMsombuluko",
+        "2": "NgoLwesibili",
+        "3": "NgoLwesithathu",
+        "4": "Lwesine",
+        "5": "NgoLwesihlanu",
+        "6": "NgoMgqibelo"
+    },
+    "months": {
+        "0": "Janawari",
+        "1": "UFebhuwari",
+        "2": "Mashi",
+        "3": "Ephreli",
+        "4": "Meyi",
+        "5": "Jun",
+        "6": "Julayi",
+        "7": "Agasti",
+        "8": "Septhemba",
+        "9": "Okthoba",
+        "10": "Novemba",
+        "11": "Disemba"
     }
 };
 exports.default = locale;

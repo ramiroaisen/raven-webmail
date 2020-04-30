@@ -1,8 +1,15 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
-  "mailboxMessage": {
-    "to": "至："
+  "mailbox": {
+    "title": {
+      "inbox": "收件箱",
+      "sent": "已发送",
+      "drafts": "草稿",
+      "trash": "垃圾",
+      "junk": "垃圾邮件"
+    },
+    "empty": "这个邮箱是空的"
   },
   "message": {
     "labels": {
@@ -10,6 +17,9 @@ const locale: Locale = {
       "to": "至：",
       "date": "发送："
     }
+  },
+  "mailboxMessage": {
+    "to": "至："
   },
   "login": {
     "title": "登入",
@@ -23,25 +33,43 @@ const locale: Locale = {
     "logout": "登出"
   },
   "compose": {
-    "tabs": {
-      "newMessageTitle": "新消息"
-    },
     "labels": {
+      "to": "至：",
       "subject": "学科：",
       "cc": "抄送：",
-      "bcc": "密件副本：",
-      "to": "至："
+      "bcc": "密件副本："
+    },
+    "tabs": {
+      "newMessageTitle": "新消息"
     }
   },
-  "mailbox": {
-    "empty": "这个邮箱是空的",
-    "title": {
-      "sent": "已发送",
-      "inbox": "收件箱",
-      "trash": "垃圾",
-      "drafts": "草稿",
-      "junk": "垃圾邮件"
-    }
+  "editor": {
+    "cmd": {
+      "undo": "撤消",
+      "redo": "重做",
+      "fontName": "字体类型",
+      "fontSize": "字体大小",
+      "bold": "胆大",
+      "italic": "斜体",
+      "underline": "强调",
+      "justifyLeft": "左对齐",
+      "justifyCenter": "中间对齐",
+      "justifyRight": "右对齐",
+      "insertUnorderedList": "清单",
+      "insertOrderedList": "编号清单",
+      "removeFormat": "删除格式"
+    },
+    "color": {
+      "tooltip": "颜色",
+      "foreColor": "文本",
+      "backColor": "背景"
+    },
+    "upload": {
+      "tooltip": "连接",
+      "add": "加",
+      "remove": "去掉"
+    },
+    "send": "发送"
   },
   "selection": {
     "title": [
@@ -50,49 +78,44 @@ const locale: Locale = {
       "{n}条消息"
     ]
   },
-  "editor": {
-    "color": {
-      "foreColor": "文本",
-      "tooltip": "颜色",
-      "backColor": "背景"
-    },
-    "cmd": {
-      "redo": "重做",
-      "fontName": "字体类型",
-      "fontSize": "字体大小",
-      "undo": "撤消",
-      "bold": "胆大",
-      "underline": "强调",
-      "italic": "斜体",
-      "justifyLeft": "左对齐",
-      "justifyCenter": "中间对齐",
-      "justifyRight": "右对齐",
-      "insertOrderedList": "编号清单",
-      "removeFormat": "删除格式",
-      "insertUnorderedList": "清单"
-    },
-    "upload": {
-      "tooltip": "连接",
-      "remove": "去掉",
-      "add": "加"
-    },
-    "send": "发送"
-  },
   "actions": {
-    "select": "选择",
-    "reload": "重装",
     "backToMailbox": "返回信箱",
+    "reload": "重装",
+    "select": "选择",
     "markAsUnread": "标记为未读",
-    "moveTo": "搬去",
     "markAsRead": "标记为已读",
+    "moveTo": "搬去",
     "delete": "删除",
-    "markAsSpam": "标记为垃圾邮件",
-    "discardDrafts": "丢弃草稿",
-    "reply": "回复",
     "deletePermanently": "永久删除",
-    "attachments": "附件",
+    "discardDrafts": "丢弃草稿",
+    "markAsSpam": "标记为垃圾邮件",
     "unMarkAsSpam": "这不是垃圾邮件",
-    "forward": "向前"
+    "forward": "向前",
+    "reply": "回复",
+    "attachments": "附件"
+  },
+  "weekDays": {
+    "0": "星期日",
+    "1": "星期一",
+    "2": "星期二",
+    "3": "星期三",
+    "4": "星期四",
+    "5": "星期五",
+    "6": "星期六"
+  },
+  "months": {
+    "0": "一月",
+    "1": "二月",
+    "2": "游行",
+    "3": "四月",
+    "4": "可以",
+    "5": "君",
+    "6": "七月",
+    "7": "八月",
+    "8": "九月",
+    "9": "十月",
+    "10": "十一月",
+    "11": "十二月"
   }
 };
 

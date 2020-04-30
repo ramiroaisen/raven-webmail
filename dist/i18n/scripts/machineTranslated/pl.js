@@ -11,27 +11,65 @@ const locale = {
         },
         "empty": "Ta skrzynka pocztowa jest pusta"
     },
+    "message": {
+        "labels": {
+            "from": "Od:",
+            "to": "Do:",
+            "date": "Wysłano:"
+        }
+    },
     "mailboxMessage": {
         "to": "Do:"
     },
     "login": {
-        "action": "Zaloguj się",
         "title": "Zaloguj się",
+        "action": "Zaloguj się",
         "labels": {
             "username": "Nazwa Użytkownika",
             "password": "Hasło"
         }
     },
+    "accountButton": {
+        "logout": "Wyloguj się"
+    },
     "compose": {
+        "labels": {
+            "to": "Do:",
+            "subject": "Przedmiot:",
+            "cc": "DW:",
+            "bcc": "UDW:"
+        },
         "tabs": {
             "newMessageTitle": "Nowa wiadomość"
-        },
-        "labels": {
-            "subject": "Przedmiot:",
-            "to": "Do:",
-            "bcc": "UDW:",
-            "cc": "DW:"
         }
+    },
+    "editor": {
+        "cmd": {
+            "undo": "Cofnij",
+            "redo": "Przerobić",
+            "fontName": "Typ czcionki",
+            "fontSize": "Rozmiar czcionki",
+            "bold": "Pogrubienie",
+            "italic": "italski",
+            "underline": "Podkreślać",
+            "justifyLeft": "Wyrównaj do lewej",
+            "justifyCenter": "Wyrównaj do środka",
+            "justifyRight": "Wyrównaj do prawej",
+            "insertUnorderedList": "Lista",
+            "insertOrderedList": "Lista numerowana",
+            "removeFormat": "Usuń format"
+        },
+        "color": {
+            "tooltip": "Kolor",
+            "foreColor": "Tekst",
+            "backColor": "tło"
+        },
+        "upload": {
+            "tooltip": "Dołączać",
+            "add": "Dodaj",
+            "remove": "Usunąć"
+        },
+        "send": "Wysłać"
     },
     "selection": {
         "title": [
@@ -40,59 +78,44 @@ const locale = {
             "{n} wiadomości"
         ]
     },
-    "message": {
-        "labels": {
-            "to": "Do:",
-            "date": "Wysłano:",
-            "from": "Od:"
-        }
-    },
-    "accountButton": {
-        "logout": "Wyloguj się"
-    },
-    "editor": {
-        "upload": {
-            "add": "Dodaj",
-            "tooltip": "Dołączać",
-            "remove": "Usunąć"
-        },
-        "send": "Wysłać",
-        "color": {
-            "foreColor": "Tekst",
-            "tooltip": "Kolor",
-            "backColor": "tło"
-        },
-        "cmd": {
-            "fontName": "Typ czcionki",
-            "fontSize": "Rozmiar czcionki",
-            "redo": "Przerobić",
-            "bold": "Pogrubienie",
-            "underline": "Podkreślać",
-            "justifyCenter": "Wyrównaj do środka",
-            "justifyRight": "Wyrównaj do prawej",
-            "justifyLeft": "Wyrównaj do lewej",
-            "insertOrderedList": "Lista numerowana",
-            "undo": "Cofnij",
-            "italic": "italski",
-            "insertUnorderedList": "Lista",
-            "removeFormat": "Usuń format"
-        }
-    },
     "actions": {
+        "backToMailbox": "Powrót do skrzynki pocztowej",
         "reload": "Przeładować",
-        "markAsRead": "Oznacz jako przeczytane",
-        "delete": "Usunąć",
-        "moveTo": "Przenieś do",
-        "markAsUnread": "Oznacz jako nie przeczytane",
-        "deletePermanently": "Usuń trwale",
-        "markAsSpam": "Oznacz jako spam",
-        "forward": "Naprzód",
-        "discardDrafts": "Odrzuć wersje robocze",
-        "reply": "Odpowiadać",
-        "attachments": "Załączniki",
-        "unMarkAsSpam": "To nie jest spam",
         "select": "Wybierz",
-        "backToMailbox": "Powrót do skrzynki pocztowej"
+        "markAsUnread": "Oznacz jako nie przeczytane",
+        "markAsRead": "Oznacz jako przeczytane",
+        "moveTo": "Przenieś do",
+        "delete": "Usunąć",
+        "deletePermanently": "Usuń trwale",
+        "discardDrafts": "Odrzuć wersje robocze",
+        "markAsSpam": "Oznacz jako spam",
+        "unMarkAsSpam": "To nie jest spam",
+        "forward": "Naprzód",
+        "reply": "Odpowiadać",
+        "attachments": "Załączniki"
+    },
+    "weekDays": {
+        "0": "niedziela",
+        "1": "poniedziałek",
+        "2": "wtorek",
+        "3": "środa",
+        "4": "czwartek",
+        "5": "piątek",
+        "6": "sobota"
+    },
+    "months": {
+        "0": "styczeń",
+        "1": "luty",
+        "2": "Marsz",
+        "3": "kwiecień",
+        "4": "Może",
+        "5": "Jun",
+        "6": "lipiec",
+        "7": "sierpień",
+        "8": "wrzesień",
+        "9": "październik",
+        "10": "listopad",
+        "11": "grudzień"
     }
 };
 exports.default = locale;

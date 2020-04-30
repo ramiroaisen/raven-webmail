@@ -1,8 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
-    "mailboxMessage": {
-        "to": "Kwa:"
+    "mailbox": {
+        "title": {
+            "inbox": "Kikasha",
+            "sent": "Imetumwa",
+            "drafts": "Rasimu",
+            "trash": "Takataka",
+            "junk": "Spam"
+        },
+        "empty": "Sanduku la barua ni tupu"
     },
     "message": {
         "labels": {
@@ -11,33 +18,19 @@ const locale = {
             "date": "Iliyotumwa:"
         }
     },
-    "mailbox": {
-        "empty": "Sanduku la barua ni tupu",
-        "title": {
-            "sent": "Imetumwa",
-            "trash": "Takataka",
-            "drafts": "Rasimu",
-            "inbox": "Kikasha",
-            "junk": "Spam"
-        }
-    },
-    "accountButton": {
-        "logout": "Toka"
-    },
-    "selection": {
-        "title": [
-            "ujumbe wa {n}",
-            "{n} ujumbe",
-            "ujumbe wa {n}"
-        ]
+    "mailboxMessage": {
+        "to": "Kwa:"
     },
     "login": {
         "title": "Weka sahihi",
         "action": "Weka sahihi",
         "labels": {
-            "password": "Nywila",
-            "username": "Jina la mtumiaji"
+            "username": "Jina la mtumiaji",
+            "password": "Nywila"
         }
+    },
+    "accountButton": {
+        "logout": "Toka"
     },
     "compose": {
         "labels": {
@@ -51,48 +44,78 @@ const locale = {
         }
     },
     "editor": {
-        "upload": {
-            "add": "Ongeza",
-            "remove": "Ondoa",
-            "tooltip": "Ambatisha"
-        },
         "cmd": {
             "undo": "Tendua",
+            "redo": "Rudia",
             "fontName": "Aina ya herufi",
             "fontSize": "Saizi ya herufi",
-            "italic": "Italia",
             "bold": "Jasiri",
-            "justifyCenter": "Panga katikati",
+            "italic": "Italia",
             "underline": "Sisitiza",
-            "removeFormat": "Ondoa muundo",
+            "justifyLeft": "Panga kushoto",
+            "justifyCenter": "Panga katikati",
             "justifyRight": "Panga sawa",
             "insertUnorderedList": "Orodha",
-            "justifyLeft": "Panga kushoto",
             "insertOrderedList": "Orodha ya nambari",
-            "redo": "Rudia"
+            "removeFormat": "Ondoa muundo"
         },
-        "send": "Tuma",
         "color": {
             "tooltip": "Rangi",
-            "backColor": "Asili",
-            "foreColor": "Maandishi"
-        }
+            "foreColor": "Maandishi",
+            "backColor": "Asili"
+        },
+        "upload": {
+            "tooltip": "Ambatisha",
+            "add": "Ongeza",
+            "remove": "Ondoa"
+        },
+        "send": "Tuma"
+    },
+    "selection": {
+        "title": [
+            "ujumbe wa {n}",
+            "{n} ujumbe",
+            "ujumbe wa {n}"
+        ]
     },
     "actions": {
-        "select": "Chagua",
         "backToMailbox": "Rudi kwa sanduku la barua",
         "reload": "Pakia tena",
+        "select": "Chagua",
+        "markAsUnread": "Weka alama kama haujasomwa",
+        "markAsRead": "Weka alama kama unavyosoma",
+        "moveTo": "Sogeza kwa",
         "delete": "Futa",
         "deletePermanently": "Futa kabisa",
-        "reply": "Jibu",
-        "unMarkAsSpam": "Hii sio spam",
-        "markAsSpam": "Weka alama kama taka",
-        "attachments": "Viambatisho",
-        "markAsRead": "Weka alama kama unavyosoma",
-        "markAsUnread": "Weka alama kama haujasomwa",
-        "moveTo": "Sogeza kwa",
         "discardDrafts": "Tupa rasimu",
-        "forward": "Mbele"
+        "markAsSpam": "Weka alama kama taka",
+        "unMarkAsSpam": "Hii sio spam",
+        "forward": "Mbele",
+        "reply": "Jibu",
+        "attachments": "Viambatisho"
+    },
+    "weekDays": {
+        "0": "Jumapili",
+        "1": "Jumatatu",
+        "2": "Jumanne",
+        "3": "Jumatano",
+        "4": "Alhamisi",
+        "5": "Ijumaa",
+        "6": "Jumamosi"
+    },
+    "months": {
+        "0": "Januari",
+        "1": "Februari",
+        "2": "Machi",
+        "3": "Aprili",
+        "4": "Mei",
+        "5": "Jun",
+        "6": "Julai",
+        "7": "Agosti",
+        "8": "Septemba",
+        "9": "Oktoba",
+        "10": "Novemba",
+        "11": "Desemba"
     }
 };
 exports.default = locale;

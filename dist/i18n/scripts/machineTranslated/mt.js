@@ -1,8 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
-    "mailboxMessage": {
-        "to": "Lil:"
+    "mailbox": {
+        "title": {
+            "inbox": "Inbox",
+            "sent": "Mibgħut",
+            "drafts": "Abbozzi",
+            "trash": "Trash",
+            "junk": "Spam"
+        },
+        "empty": "Din il-kaxxa tal-posta hija vojta"
     },
     "message": {
         "labels": {
@@ -11,26 +18,8 @@ const locale = {
             "date": "Mibgħut:"
         }
     },
-    "compose": {
-        "labels": {
-            "to": "Lil:",
-            "cc": "Ċċ:",
-            "bcc": "Bcc:",
-            "subject": "Suġġett:"
-        },
-        "tabs": {
-            "newMessageTitle": "Messaġġ ġdid"
-        }
-    },
-    "mailbox": {
-        "empty": "Din il-kaxxa tal-posta hija vojta",
-        "title": {
-            "drafts": "Abbozzi",
-            "junk": "Spam",
-            "trash": "Trash",
-            "sent": "Mibgħut",
-            "inbox": "Inbox"
-        }
+    "mailboxMessage": {
+        "to": "Lil:"
     },
     "login": {
         "title": "Idħol",
@@ -43,33 +32,44 @@ const locale = {
     "accountButton": {
         "logout": "Itlaq"
     },
+    "compose": {
+        "labels": {
+            "to": "Lil:",
+            "subject": "Suġġett:",
+            "cc": "Ċċ:",
+            "bcc": "Bcc:"
+        },
+        "tabs": {
+            "newMessageTitle": "Messaġġ ġdid"
+        }
+    },
     "editor": {
-        "upload": {
-            "add": "Żid",
-            "tooltip": "Ehmeż",
-            "remove": "Neħħi"
-        },
-        "color": {
-            "tooltip": "Kulur",
-            "backColor": "Sfond",
-            "foreColor": "Test"
-        },
-        "send": "Ibgħat",
         "cmd": {
             "undo": "Annulla",
             "redo": "Erġa 'għamla",
             "fontName": "Tip ta 'font",
+            "fontSize": "Daqs tal-font",
+            "bold": "Bold",
             "italic": "Italiku",
-            "justifyCenter": "Tallinja nofs",
-            "insertOrderedList": "Lista numerata",
+            "underline": "Issottolinja",
             "justifyLeft": "Tallinja xellug",
+            "justifyCenter": "Tallinja nofs",
             "justifyRight": "Tallinja dritt",
             "insertUnorderedList": "Lista",
-            "removeFormat": "Neħħi l-format",
-            "bold": "Bold",
-            "fontSize": "Daqs tal-font",
-            "underline": "Issottolinja"
-        }
+            "insertOrderedList": "Lista numerata",
+            "removeFormat": "Neħħi l-format"
+        },
+        "color": {
+            "tooltip": "Kulur",
+            "foreColor": "Test",
+            "backColor": "Sfond"
+        },
+        "upload": {
+            "tooltip": "Ehmeż",
+            "add": "Żid",
+            "remove": "Neħħi"
+        },
+        "send": "Ibgħat"
     },
     "selection": {
         "title": [
@@ -81,18 +81,41 @@ const locale = {
     "actions": {
         "backToMailbox": "Lura għall-kaxxa tal-posta",
         "reload": "Reload",
-        "markAsRead": "Immarka kif qrajt",
         "select": "Agħżel",
         "markAsUnread": "Immarka kif ma taqrax",
-        "discardDrafts": "Armi l-abbozzi",
-        "reply": "Irrispondi",
-        "delete": "Ħassar",
+        "markAsRead": "Immarka kif qrajt",
         "moveTo": "Nimxu lejn",
-        "markAsSpam": "Immarka bħala spam",
+        "delete": "Ħassar",
         "deletePermanently": "Ħassar b'mod permanenti",
+        "discardDrafts": "Armi l-abbozzi",
+        "markAsSpam": "Immarka bħala spam",
         "unMarkAsSpam": "Dan mhux spam",
         "forward": "’Il quddiem",
+        "reply": "Irrispondi",
         "attachments": "Mehmużin"
+    },
+    "weekDays": {
+        "0": "Ħadd",
+        "1": "It-Tnejn",
+        "2": "It-Tlieta",
+        "3": "L-Erbgħa",
+        "4": "Il-Ħamis",
+        "5": "Nhar il-Ġimgħa",
+        "6": "Is-Sibt"
+    },
+    "months": {
+        "0": "Jannar",
+        "1": "Frar",
+        "2": "Marzu",
+        "3": "April",
+        "4": "Mejju",
+        "5": "Ġunju",
+        "6": "Lulju",
+        "7": "Awissu",
+        "8": "Settembru",
+        "9": "Ottubru",
+        "10": "Novembru",
+        "11": "Diċembru"
     }
 };
 exports.default = locale;

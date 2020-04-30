@@ -1,6 +1,23 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
+  "mailbox": {
+    "title": {
+      "inbox": "กล่องขาเข้า",
+      "sent": "ส่ง",
+      "drafts": "ร่าง",
+      "trash": "ขยะ",
+      "junk": "สแปม"
+    },
+    "empty": "กล่องจดหมายนี้ว่างเปล่า"
+  },
+  "message": {
+    "labels": {
+      "from": "จาก:",
+      "to": "ถึง:",
+      "date": "ส่ง:"
+    }
+  },
   "mailboxMessage": {
     "to": "ถึง:"
   },
@@ -15,61 +32,44 @@ const locale: Locale = {
   "accountButton": {
     "logout": "ออกจากระบบ"
   },
-  "mailbox": {
-    "title": {
-      "inbox": "กล่องขาเข้า",
-      "sent": "ส่ง",
-      "drafts": "ร่าง",
-      "junk": "สแปม",
-      "trash": "ขยะ"
-    },
-    "empty": "กล่องจดหมายนี้ว่างเปล่า"
-  },
-  "message": {
-    "labels": {
-      "from": "จาก:",
-      "to": "ถึง:",
-      "date": "ส่ง:"
-    }
-  },
   "compose": {
     "labels": {
+      "to": "ถึง:",
       "subject": "เรื่อง:",
-      "bcc": "สำเนาลับ:",
       "cc": "สำเนา:",
-      "to": "ถึง:"
+      "bcc": "สำเนาลับ:"
     },
     "tabs": {
       "newMessageTitle": "ข้อความใหม่"
     }
   },
   "editor": {
-    "send": "ส่ง",
-    "upload": {
-      "remove": "ลบ",
-      "add": "เพิ่ม",
-      "tooltip": "แนบ"
-    },
     "cmd": {
-      "redo": "ทำซ้ำ",
       "undo": "เลิกทำ",
-      "bold": "กล้า",
-      "fontSize": "ขนาดตัวอักษร",
-      "underline": "ขีดเส้นใต้",
+      "redo": "ทำซ้ำ",
       "fontName": "ประเภทตัวอักษร",
+      "fontSize": "ขนาดตัวอักษร",
+      "bold": "กล้า",
       "italic": "ตัวเอียง",
+      "underline": "ขีดเส้นใต้",
       "justifyLeft": "จัดชิดซ้าย",
-      "insertUnorderedList": "รายการ",
-      "removeFormat": "ลบรูปแบบ",
       "justifyCenter": "จัดกึ่งกลาง",
+      "justifyRight": "จัดชิดขวา",
+      "insertUnorderedList": "รายการ",
       "insertOrderedList": "รายการลำดับเลข",
-      "justifyRight": "จัดชิดขวา"
+      "removeFormat": "ลบรูปแบบ"
     },
     "color": {
       "tooltip": "สี",
       "foreColor": "ข้อความ",
       "backColor": "พื้นหลัง"
-    }
+    },
+    "upload": {
+      "tooltip": "แนบ",
+      "add": "เพิ่ม",
+      "remove": "ลบ"
+    },
+    "send": "ส่ง"
   },
   "selection": {
     "title": [
@@ -79,20 +79,43 @@ const locale: Locale = {
     ]
   },
   "actions": {
+    "backToMailbox": "กลับไปที่กล่องจดหมาย",
     "reload": "โหลด",
     "select": "เลือก",
-    "markAsRead": "ทำเครื่องหมายว่าอ่านแล้ว",
-    "backToMailbox": "กลับไปที่กล่องจดหมาย",
-    "delete": "ลบ",
     "markAsUnread": "ทำเครื่องหมายว่าไม่ได้อ่าน",
+    "markAsRead": "ทำเครื่องหมายว่าอ่านแล้ว",
     "moveTo": "ย้ายไปที่",
+    "delete": "ลบ",
+    "deletePermanently": "ลบอย่างถาวร",
+    "discardDrafts": "ยกเลิกร่างจดหมาย",
+    "markAsSpam": "ทำเครื่องหมายว่าเป็นจดหมายขยะ",
+    "unMarkAsSpam": "นี่ไม่ใช่สแปม",
     "forward": "ข้างหน้า",
     "reply": "ตอบ",
-    "discardDrafts": "ยกเลิกร่างจดหมาย",
-    "unMarkAsSpam": "นี่ไม่ใช่สแปม",
-    "markAsSpam": "ทำเครื่องหมายว่าเป็นจดหมายขยะ",
-    "attachments": "สิ่งที่แนบมา",
-    "deletePermanently": "ลบอย่างถาวร"
+    "attachments": "สิ่งที่แนบมา"
+  },
+  "weekDays": {
+    "0": "วันอาทิตย์",
+    "1": "วันจันทร์",
+    "2": "วันอังคาร",
+    "3": "วันพุธ",
+    "4": "วันพฤหัสบดี",
+    "5": "วันศุกร์",
+    "6": "วันเสาร์"
+  },
+  "months": {
+    "0": "มกราคม",
+    "1": "กุมภาพันธ์",
+    "2": "มีนาคม",
+    "3": "เมษายน",
+    "4": "อาจ",
+    "5": "มิถุนายน",
+    "6": "กรกฎาคม",
+    "7": "สิงหาคม",
+    "8": "กันยายน",
+    "9": "ตุลาคม",
+    "10": "พฤศจิกายน",
+    "11": "ธันวาคม"
   }
 };
 

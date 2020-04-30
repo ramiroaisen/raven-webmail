@@ -93,6 +93,29 @@ const locale = {
         "forward": "Rau pem hauv ntej",
         "reply": "Teb",
         "attachments": "Daim Ntawv Txuas"
+    },
+    "weekDays": {
+        "0": "Hnub Sunday",
+        "1": "Hnub Monday",
+        "2": "Hnub Tuesday",
+        "3": "Hnub Wednesday",
+        "4": "Hnub Thursday",
+        "5": "Hnub Friday",
+        "6": "Hnub Saturday"
+    },
+    "months": {
+        "0": "Lub Ib Hlis",
+        "1": "Lub ob hlis ntuj",
+        "2": "Lub peb hlis ntuj",
+        "3": "Plaub Hlis Ntuj",
+        "4": "Lub 5 Hlis",
+        "5": "Lub Rau Hli",
+        "6": "Lub Xya Hli",
+        "7": "Lub yim hli ntuj",
+        "8": "Lub Cuaj Hli",
+        "9": "Lub kaum hli ntuj",
+        "10": "Kaum ib hlis",
+        "11": "Lub Kaum Ob Hlis"
     }
 };
 exports.default = locale;

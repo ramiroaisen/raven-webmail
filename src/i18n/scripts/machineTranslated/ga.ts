@@ -1,4 +1,4 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
   "mailbox": {
@@ -93,6 +93,29 @@ const locale: Locale = {
     "forward": "Ar aghaidh",
     "reply": "Freagra",
     "attachments": "Ceangaltáin"
+  },
+  "weekDays": {
+    "0": "Dé Domhnaigh",
+    "1": "Dé Luain",
+    "2": "Dé Máirt",
+    "3": "Dé Céadaoin",
+    "4": "Déardaoin",
+    "5": "Dé hAoine",
+    "6": "Dé Sathairn"
+  },
+  "months": {
+    "0": "Eanáir",
+    "1": "Feabhra",
+    "2": "Márta",
+    "3": "Aibreán",
+    "4": "Bealtaine",
+    "5": "Meitheamh",
+    "6": "Iúil",
+    "7": "Lúnasa",
+    "8": "Meán Fómhair",
+    "9": "Deireadh Fómhair",
+    "10": "Samhain",
+    "11": "Nollaig"
   }
 };
 

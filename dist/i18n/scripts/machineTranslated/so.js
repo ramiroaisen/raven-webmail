@@ -1,26 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
-    "accountButton": {
-        "logout": "Ka bax"
-    },
-    "mailboxMessage": {
-        "to": "Ku:"
-    },
-    "login": {
-        "title": "Gal",
-        "labels": {
-            "username": "Adeegsade",
-            "password": "Furaha"
+    "mailbox": {
+        "title": {
+            "inbox": "Inbox",
+            "sent": "Diray",
+            "drafts": "Qoraallada",
+            "trash": "Qashinka",
+            "junk": "Khayaamo"
         },
-        "action": "Gal"
-    },
-    "selection": {
-        "title": [
-            "{n} farriimaha",
-            "{n} farriin",
-            "{n} farriimaha"
-        ]
+        "empty": "Sanduuqa boosta waa faaruq"
     },
     "message": {
         "labels": {
@@ -29,70 +18,104 @@ const locale = {
             "date": "Diray:"
         }
     },
-    "mailbox": {
-        "empty": "Sanduuqa boosta waa faaruq",
-        "title": {
-            "drafts": "Qoraallada",
-            "inbox": "Inbox",
-            "trash": "Qashinka",
-            "junk": "Khayaamo",
-            "sent": "Diray"
+    "mailboxMessage": {
+        "to": "Ku:"
+    },
+    "login": {
+        "title": "Gal",
+        "action": "Gal",
+        "labels": {
+            "username": "Adeegsade",
+            "password": "Furaha"
         }
     },
+    "accountButton": {
+        "logout": "Ka bax"
+    },
     "compose": {
-        "tabs": {
-            "newMessageTitle": "Farriin cusub"
-        },
         "labels": {
             "to": "Ku:",
             "subject": "Mawduuca:",
-            "bcc": "Bcc",
-            "cc": "Og:"
+            "cc": "Og:",
+            "bcc": "Bcc"
+        },
+        "tabs": {
+            "newMessageTitle": "Farriin cusub"
         }
     },
     "editor": {
-        "send": "Dir",
-        "upload": {
-            "add": "Kudar",
-            "tooltip": "Ku lifaaq",
-            "remove": "Ka saar"
-        },
-        "color": {
-            "backColor": "Asalka",
-            "tooltip": "Midab",
-            "foreColor": "Qoraal"
-        },
         "cmd": {
+            "undo": "Ka gaabso",
             "redo": "Redo",
             "fontName": "Nooca Font",
-            "underline": "Hoosta ka xariiq",
             "fontSize": "Cabbirka foornada",
-            "justifyLeft": "Bidix bidix",
             "bold": "Caano",
-            "justifyRight": "Ku toosi midig",
-            "justifyCenter": "Dhex dhexaad",
-            "insertOrderedList": "Liiska nambarada",
-            "undo": "Ka gaabso",
             "italic": "Waa farqi",
+            "underline": "Hoosta ka xariiq",
+            "justifyLeft": "Bidix bidix",
+            "justifyCenter": "Dhex dhexaad",
+            "justifyRight": "Ku toosi midig",
             "insertUnorderedList": "Liiska",
+            "insertOrderedList": "Liiska nambarada",
             "removeFormat": "Ka saar qaabka"
-        }
+        },
+        "color": {
+            "tooltip": "Midab",
+            "foreColor": "Qoraal",
+            "backColor": "Asalka"
+        },
+        "upload": {
+            "tooltip": "Ku lifaaq",
+            "add": "Kudar",
+            "remove": "Ka saar"
+        },
+        "send": "Dir"
+    },
+    "selection": {
+        "title": [
+            "{n} farriimaha",
+            "{n} farriin",
+            "{n} farriimaha"
+        ]
     },
     "actions": {
         "backToMailbox": "Ku laabo sanduuqa boostada",
         "reload": "Dib u dajin",
-        "markAsUnread": "Calaamadee sida aan la aqrin",
-        "delete": "Tirtir",
-        "unMarkAsSpam": "Tani maahan spam",
-        "markAsSpam": "Ku calaamadee spam ahaan",
-        "attachments": "Ku lifaaqan",
-        "deletePermanently": "Tirtir si joogto ah",
-        "reply": "Jawaab",
-        "forward": "Hore u soco",
-        "markAsRead": "Calaamadee sida loo akhriyay",
-        "discardDrafts": "Tuur qoraalada",
         "select": "Xullo",
-        "moveTo": "U dhaqaaq"
+        "markAsUnread": "Calaamadee sida aan la aqrin",
+        "markAsRead": "Calaamadee sida loo akhriyay",
+        "moveTo": "U dhaqaaq",
+        "delete": "Tirtir",
+        "deletePermanently": "Tirtir si joogto ah",
+        "discardDrafts": "Tuur qoraalada",
+        "markAsSpam": "Ku calaamadee spam ahaan",
+        "unMarkAsSpam": "Tani maahan spam",
+        "forward": "Hore u soco",
+        "reply": "Jawaab",
+        "attachments": "Ku lifaaqan"
+    },
+    "weekDays": {
+        "0": "Axad",
+        "1": "Isniinta",
+        "2": "Talaado",
+        "3": "Arbacada",
+        "4": "Khamiista",
+        "5": "Jimce",
+        "6": "Sabti"
+    },
+    "months": {
+        "0": "Janawari",
+        "1": "Febraayo",
+        "2": "Maarso",
+        "3": "Abriil",
+        "4": "Laga yaabaa",
+        "5": "Jun",
+        "6": "Luulyo",
+        "7": "Ogast",
+        "8": "Sebtember",
+        "9": "Oktoobar",
+        "10": "Nofeembar",
+        "11": "Diseembar"
     }
 };
 exports.default = locale;

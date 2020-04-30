@@ -1,25 +1,36 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
-  "accountButton": {
-    "logout": "Sohoka"
-  },
   "mailbox": {
-    "empty": "Agasanduku k'iposita karimo ubusa",
     "title": {
       "inbox": "Inbox",
       "sent": "Yoherejwe",
       "drafts": "Inyandiko",
-      "junk": "Spam",
-      "trash": "Imyanda"
-    }
+      "trash": "Imyanda",
+      "junk": "Spam"
+    },
+    "empty": "Agasanduku k'iposita karimo ubusa"
   },
   "message": {
     "labels": {
-      "date": "Yoherejwe:",
+      "from": "Kuva:",
       "to": "Kuri:",
-      "from": "Kuva:"
+      "date": "Yoherejwe:"
     }
+  },
+  "mailboxMessage": {
+    "to": "Kuri:"
+  },
+  "login": {
+    "title": "Injira",
+    "action": "Injira",
+    "labels": {
+      "username": "Izina ryukoresha",
+      "password": "Ijambobanga"
+    }
+  },
+  "accountButton": {
+    "logout": "Sohoka"
   },
   "compose": {
     "labels": {
@@ -32,8 +43,33 @@ const locale: Locale = {
       "newMessageTitle": "Ubutumwa bushya"
     }
   },
-  "mailboxMessage": {
-    "to": "Kuri:"
+  "editor": {
+    "cmd": {
+      "undo": "Kuraho",
+      "redo": "Ongera",
+      "fontName": "Ubwoko bw'imyandikire",
+      "fontSize": "Ingano yimyandikire",
+      "bold": "Ubutinyutsi",
+      "italic": "Ubutaliyani",
+      "underline": "Shyira umurongo",
+      "justifyLeft": "Huza ibumoso",
+      "justifyCenter": "Huza hagati",
+      "justifyRight": "Huza iburyo",
+      "insertUnorderedList": "Urutonde",
+      "insertOrderedList": "Urutonde",
+      "removeFormat": "Kuraho imiterere"
+    },
+    "color": {
+      "tooltip": "Ibara",
+      "foreColor": "Inyandiko",
+      "backColor": "Amavu n'amavuko"
+    },
+    "upload": {
+      "tooltip": "Ongeraho",
+      "add": "Ongeraho",
+      "remove": "Kuraho"
+    },
+    "send": "Ohereza"
   },
   "selection": {
     "title": [
@@ -42,57 +78,44 @@ const locale: Locale = {
       "{n} ubutumwa"
     ]
   },
-  "login": {
-    "labels": {
-      "username": "Izina ryukoresha",
-      "password": "Ijambobanga"
-    },
-    "action": "Injira",
-    "title": "Injira"
-  },
-  "editor": {
-    "color": {
-      "tooltip": "Ibara",
-      "foreColor": "Inyandiko",
-      "backColor": "Amavu n'amavuko"
-    },
-    "send": "Ohereza",
-    "cmd": {
-      "redo": "Ongera",
-      "undo": "Kuraho",
-      "fontName": "Ubwoko bw'imyandikire",
-      "italic": "Ubutaliyani",
-      "fontSize": "Ingano yimyandikire",
-      "justifyCenter": "Huza hagati",
-      "bold": "Ubutinyutsi",
-      "underline": "Shyira umurongo",
-      "insertOrderedList": "Urutonde",
-      "justifyRight": "Huza iburyo",
-      "removeFormat": "Kuraho imiterere",
-      "justifyLeft": "Huza ibumoso",
-      "insertUnorderedList": "Urutonde"
-    },
-    "upload": {
-      "add": "Ongeraho",
-      "remove": "Kuraho",
-      "tooltip": "Ongeraho"
-    }
-  },
   "actions": {
     "backToMailbox": "Subira ku gasanduku k'iposita",
     "reload": "Ongera usubiremo",
     "select": "Hitamo",
-    "markAsRead": "Shyira akamenyetso nkuko wasomwe",
     "markAsUnread": "Shyira akamenyetso ko udasomwe",
+    "markAsRead": "Shyira akamenyetso nkuko wasomwe",
     "moveTo": "Himura kuri",
     "delete": "Siba",
+    "deletePermanently": "Siba burundu",
     "discardDrafts": "Hagarika imishinga",
-    "attachments": "Umugereka",
+    "markAsSpam": "Shyira ahagaragara spam",
     "unMarkAsSpam": "Iyi ntabwo ari spam",
     "forward": "Imbere",
     "reply": "Subiza",
-    "deletePermanently": "Siba burundu",
-    "markAsSpam": "Shyira ahagaragara spam"
+    "attachments": "Umugereka"
+  },
+  "weekDays": {
+    "0": "Ku cyumweru",
+    "1": "Ku wa mbere",
+    "2": "Ku wa kabiri",
+    "3": "Ku wa gatatu",
+    "4": "Ku wa kane",
+    "5": "Ku wa gatanu",
+    "6": "Ku wa gatandatu"
+  },
+  "months": {
+    "0": "Mutarama",
+    "1": "Gashyantare",
+    "2": "Werurwe",
+    "3": "Mata",
+    "4": "Gicurasi",
+    "5": "Jun",
+    "6": "Nyakanga",
+    "7": "Kanama",
+    "8": "Nzeri",
+    "9": "Ukwakira",
+    "10": "Ugushyingo",
+    "11": "Kigarama"
   }
 };
 

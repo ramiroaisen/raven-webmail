@@ -1,6 +1,23 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
+  "mailbox": {
+    "title": {
+      "inbox": "Қуттии",
+      "sent": "Фиристода",
+      "drafts": "Лоиҳаҳо",
+      "trash": "Ахлот",
+      "junk": "Ангалнома"
+    },
+    "empty": "Ин паёмдони холӣ холӣ аст"
+  },
+  "message": {
+    "labels": {
+      "from": "Аз:",
+      "to": "Ба:",
+      "date": "Фиристод:"
+    }
+  },
   "mailboxMessage": {
     "to": "Ба:"
   },
@@ -15,61 +32,44 @@ const locale: Locale = {
   "accountButton": {
     "logout": "баромадан"
   },
-  "mailbox": {
-    "empty": "Ин паёмдони холӣ холӣ аст",
-    "title": {
-      "sent": "Фиристода",
-      "junk": "Ангалнома",
-      "drafts": "Лоиҳаҳо",
-      "trash": "Ахлот",
-      "inbox": "Қуттии"
-    }
-  },
-  "message": {
-    "labels": {
-      "from": "Аз:",
-      "to": "Ба:",
-      "date": "Фиристод:"
-    }
-  },
   "compose": {
+    "labels": {
+      "to": "Ба:",
+      "subject": "Мавзӯъ:",
+      "cc": "Нусха:",
+      "bcc": "Нусха аз:"
+    },
     "tabs": {
       "newMessageTitle": "Паёми нав"
-    },
-    "labels": {
-      "to": "Ба:",
-      "bcc": "Нусха аз:",
-      "subject": "Мавзӯъ:",
-      "cc": "Нусха:"
     }
   },
   "editor": {
-    "send": "Ирсол",
+    "cmd": {
+      "undo": "Бекор кардан",
+      "redo": "Такрор кунед",
+      "fontName": "Навъи ҳарф",
+      "fontSize": "Андозаи ҳарф",
+      "bold": "Далер",
+      "italic": "Курси",
+      "underline": "Нишон диҳед",
+      "justifyLeft": "Ҳамроҳ кунед",
+      "justifyCenter": "Миёна ҳамоҳанг кунед",
+      "justifyRight": "Ба рост рост кунед",
+      "insertUnorderedList": "Рӯйхат",
+      "insertOrderedList": "Рӯйхати рақамгузорӣ",
+      "removeFormat": "Форматро нест кунед"
+    },
     "color": {
       "tooltip": "Ранг",
       "foreColor": "Матн",
       "backColor": "Замина"
     },
-    "cmd": {
-      "undo": "Бекор кардан",
-      "redo": "Такрор кунед",
-      "fontSize": "Андозаи ҳарф",
-      "fontName": "Навъи ҳарф",
-      "bold": "Далер",
-      "justifyLeft": "Ҳамроҳ кунед",
-      "justifyCenter": "Миёна ҳамоҳанг кунед",
-      "underline": "Нишон диҳед",
-      "insertUnorderedList": "Рӯйхат",
-      "justifyRight": "Ба рост рост кунед",
-      "removeFormat": "Форматро нест кунед",
-      "insertOrderedList": "Рӯйхати рақамгузорӣ",
-      "italic": "Курси"
-    },
     "upload": {
+      "tooltip": "Замима кунед",
       "add": "Илова кунед",
-      "remove": "Хориҷ кунед",
-      "tooltip": "Замима кунед"
-    }
+      "remove": "Хориҷ кунед"
+    },
+    "send": "Ирсол"
   },
   "selection": {
     "title": [
@@ -79,20 +79,43 @@ const locale: Locale = {
     ]
   },
   "actions": {
-    "select": "Интихоб кунед",
     "backToMailbox": "Бозгашт ба паёмдони почта",
     "reload": "Бозсозӣ",
-    "delete": "Нест кардан",
-    "discardDrafts": "Нақшаҳоро партоед",
-    "moveTo": "Ҷойивазкунӣ ба",
-    "markAsSpam": "Ҳамчун спам қайд кунед",
-    "forward": "Форвард",
-    "unMarkAsSpam": "Ин спам нест",
-    "attachments": "Замимаҳо",
-    "reply": "Ҷавоб додан",
-    "markAsRead": "Ҳамчун хондашуда қайд кунед",
+    "select": "Интихоб кунед",
     "markAsUnread": "Ҳамчун хондашуда қайд кунед",
-    "deletePermanently": "Ҳамешагӣ нест кунед"
+    "markAsRead": "Ҳамчун хондашуда қайд кунед",
+    "moveTo": "Ҷойивазкунӣ ба",
+    "delete": "Нест кардан",
+    "deletePermanently": "Ҳамешагӣ нест кунед",
+    "discardDrafts": "Нақшаҳоро партоед",
+    "markAsSpam": "Ҳамчун спам қайд кунед",
+    "unMarkAsSpam": "Ин спам нест",
+    "forward": "Форвард",
+    "reply": "Ҷавоб додан",
+    "attachments": "Замимаҳо"
+  },
+  "weekDays": {
+    "0": "Якшанбе",
+    "1": "Душанбе",
+    "2": "Сешанбе",
+    "3": "Чоршанбе",
+    "4": "Панҷшанбе",
+    "5": "Ҷумъа",
+    "6": "Шанбе"
+  },
+  "months": {
+    "0": "Январ",
+    "1": "Феврал",
+    "2": "Март",
+    "3": "Апрел",
+    "4": "Май",
+    "5": "Июн",
+    "6": "Июл",
+    "7": "Август",
+    "8": "сентябр",
+    "9": "Октябр",
+    "10": "Ноябр",
+    "11": "Декабр"
   }
 };
 

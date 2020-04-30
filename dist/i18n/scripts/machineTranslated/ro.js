@@ -1,23 +1,75 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
+    "mailbox": {
+        "title": {
+            "inbox": "Inbox",
+            "sent": "Trimis",
+            "drafts": "Schițe",
+            "trash": "Gunoi",
+            "junk": "Spam"
+        },
+        "empty": "Această căsuță poștală este goală"
+    },
     "message": {
         "labels": {
-            "to": "La:",
             "from": "Din:",
+            "to": "La:",
             "date": "Trimis:"
         }
+    },
+    "mailboxMessage": {
+        "to": "La:"
     },
     "login": {
         "title": "conectare",
         "action": "conectare",
         "labels": {
-            "password": "Parola",
-            "username": "Nume de utilizator"
+            "username": "Nume de utilizator",
+            "password": "Parola"
         }
     },
     "accountButton": {
         "logout": "Sign out"
+    },
+    "compose": {
+        "labels": {
+            "to": "La:",
+            "subject": "Subiect:",
+            "cc": "Cc:",
+            "bcc": "Bcc:"
+        },
+        "tabs": {
+            "newMessageTitle": "Mesaj nou"
+        }
+    },
+    "editor": {
+        "cmd": {
+            "undo": "Anula",
+            "redo": "A reface",
+            "fontName": "Tipul fontului",
+            "fontSize": "Marimea fontului",
+            "bold": "Îndrăzneţ",
+            "italic": "Cursiv",
+            "underline": "subliniere",
+            "justifyLeft": "Alinia la stânga",
+            "justifyCenter": "Aliniați mijlocul",
+            "justifyRight": "Aliniați dreapta",
+            "insertUnorderedList": "Listă",
+            "insertOrderedList": "Lista numerotată",
+            "removeFormat": "Ștergeți formatul"
+        },
+        "color": {
+            "tooltip": "Culoare",
+            "foreColor": "Text",
+            "backColor": "fundal"
+        },
+        "upload": {
+            "tooltip": "atașa",
+            "add": "Adăuga",
+            "remove": "Elimina"
+        },
+        "send": "Trimite"
     },
     "selection": {
         "title": [
@@ -26,73 +78,44 @@ const locale = {
             "{n} mesaje"
         ]
     },
-    "mailbox": {
-        "empty": "Această căsuță poștală este goală",
-        "title": {
-            "sent": "Trimis",
-            "inbox": "Inbox",
-            "junk": "Spam",
-            "trash": "Gunoi",
-            "drafts": "Schițe"
-        }
-    },
-    "mailboxMessage": {
-        "to": "La:"
-    },
-    "compose": {
-        "tabs": {
-            "newMessageTitle": "Mesaj nou"
-        },
-        "labels": {
-            "subject": "Subiect:",
-            "to": "La:",
-            "bcc": "Bcc:",
-            "cc": "Cc:"
-        }
-    },
-    "editor": {
-        "send": "Trimite",
-        "cmd": {
-            "redo": "A reface",
-            "undo": "Anula",
-            "bold": "Îndrăzneţ",
-            "fontSize": "Marimea fontului",
-            "italic": "Cursiv",
-            "underline": "subliniere",
-            "justifyLeft": "Alinia la stânga",
-            "insertUnorderedList": "Listă",
-            "justifyRight": "Aliniați dreapta",
-            "justifyCenter": "Aliniați mijlocul",
-            "insertOrderedList": "Lista numerotată",
-            "fontName": "Tipul fontului",
-            "removeFormat": "Ștergeți formatul"
-        },
-        "color": {
-            "tooltip": "Culoare",
-            "backColor": "fundal",
-            "foreColor": "Text"
-        },
-        "upload": {
-            "remove": "Elimina",
-            "add": "Adăuga",
-            "tooltip": "atașa"
-        }
-    },
     "actions": {
-        "select": "Selectați",
-        "reload": "Reîncarcă",
-        "markAsRead": "marcheaza ca citit",
         "backToMailbox": "Înapoi la căsuța poștală",
-        "reply": "Răspuns",
-        "unMarkAsSpam": "Acesta nu este spam",
-        "deletePermanently": "Sterge Permanent",
-        "attachments": "Fișiere atașate",
-        "markAsSpam": "marchează ca spam",
-        "moveTo": "Treceți la",
-        "forward": "Redirecţiona",
+        "reload": "Reîncarcă",
+        "select": "Selectați",
         "markAsUnread": "Marcați cum nu ați citit",
+        "markAsRead": "marcheaza ca citit",
+        "moveTo": "Treceți la",
+        "delete": "Șterge",
+        "deletePermanently": "Sterge Permanent",
         "discardDrafts": "Renunțați la schițele",
-        "delete": "Șterge"
+        "markAsSpam": "marchează ca spam",
+        "unMarkAsSpam": "Acesta nu este spam",
+        "forward": "Redirecţiona",
+        "reply": "Răspuns",
+        "attachments": "Fișiere atașate"
+    },
+    "weekDays": {
+        "0": "duminică",
+        "1": "luni",
+        "2": "marţi",
+        "3": "miercuri",
+        "4": "joi",
+        "5": "vineri",
+        "6": "sâmbătă"
+    },
+    "months": {
+        "0": "ianuarie",
+        "1": "februarie",
+        "2": "Martie",
+        "3": "Aprilie",
+        "4": "Mai",
+        "5": "Iunie",
+        "6": "iulie",
+        "7": "August",
+        "8": "Septembrie",
+        "9": "octombrie",
+        "10": "noiembrie",
+        "11": "decembrie"
     }
 };
 exports.default = locale;

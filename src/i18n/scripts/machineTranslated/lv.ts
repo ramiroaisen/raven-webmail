@@ -1,4 +1,4 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
   "mailbox": {
@@ -93,6 +93,29 @@ const locale: Locale = {
     "forward": "Uz priekšu",
     "reply": "Atbildi",
     "attachments": "Pielikumi"
+  },
+  "weekDays": {
+    "0": "Svētdien",
+    "1": "Pirmdien",
+    "2": "Otrdiena",
+    "3": "Trešdien",
+    "4": "Ceturtdiena",
+    "5": "Piektdiena",
+    "6": "Sestdien"
+  },
+  "months": {
+    "0": "Janvārī",
+    "1": "Februāris",
+    "2": "Martā",
+    "3": "Aprīlī",
+    "4": "Maijā",
+    "5": "Jūnijs",
+    "6": "Jūlijs",
+    "7": "augusts",
+    "8": "Septembrī",
+    "9": "Oktobris",
+    "10": "Novembrī",
+    "11": "Decembrī"
   }
 };
 

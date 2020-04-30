@@ -93,6 +93,29 @@ const locale = {
         "forward": "Virun",
         "reply": "Äntwerten",
         "attachments": "Uschlëss"
+    },
+    "weekDays": {
+        "0": "Sonndeg",
+        "1": "Méindeg",
+        "2": "Dënschdeg",
+        "3": "Mëttwoch",
+        "4": "Donneschdeg",
+        "5": "Freideg",
+        "6": "Samschdeg"
+    },
+    "months": {
+        "0": "Januar",
+        "1": "Februar",
+        "2": "Mäerz",
+        "3": "Abrëll",
+        "4": "Mee",
+        "5": "Jun",
+        "6": "Juli",
+        "7": "August",
+        "8": "September",
+        "9": "Oktober",
+        "10": "November",
+        "11": "Dezember"
     }
 };
 exports.default = locale;

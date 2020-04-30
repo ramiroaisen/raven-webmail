@@ -1,75 +1,75 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
+  "mailbox": {
+    "title": {
+      "inbox": "Makulidwe",
+      "sent": "Kutumizidwa",
+      "drafts": "Zojambula",
+      "trash": "Zinyalala",
+      "junk": "Sipamu"
+    },
+    "empty": "Bokosi ili ndilopanda kanthu"
+  },
   "message": {
     "labels": {
       "from": "Kuchokera:",
-      "date": "Kutumizidwa:",
-      "to": "Ku:"
+      "to": "Ku:",
+      "date": "Kutumizidwa:"
     }
   },
   "mailboxMessage": {
     "to": "Ku:"
   },
-  "accountButton": {
-    "logout": "Tulukani"
-  },
-  "mailbox": {
-    "empty": "Bokosi ili ndilopanda kanthu",
-    "title": {
-      "junk": "Sipamu",
-      "drafts": "Zojambula",
-      "inbox": "Makulidwe",
-      "trash": "Zinyalala",
-      "sent": "Kutumizidwa"
-    }
-  },
   "login": {
     "title": "Lowani muakaunti",
     "action": "Lowani muakaunti",
     "labels": {
-      "password": "Achinsinsi",
-      "username": "Zogwiritsa ntchito"
+      "username": "Zogwiritsa ntchito",
+      "password": "Achinsinsi"
     }
   },
+  "accountButton": {
+    "logout": "Tulukani"
+  },
   "compose": {
-    "tabs": {
-      "newMessageTitle": "Uthenga watsopano"
-    },
     "labels": {
       "to": "Ku:",
-      "bcc": "Bcc:",
+      "subject": "Mutu:",
       "cc": "Cc:",
-      "subject": "Mutu:"
+      "bcc": "Bcc:"
+    },
+    "tabs": {
+      "newMessageTitle": "Uthenga watsopano"
     }
   },
   "editor": {
+    "cmd": {
+      "undo": "Chotsa",
+      "redo": "Redo",
+      "fontName": "Mtundu wamafayilo",
+      "fontSize": "Kukula kwa mawonekedwe",
+      "bold": "Cholimba",
+      "italic": "Kanyenye",
+      "underline": "Lembani",
+      "justifyLeft": "Gwirizanani kumanzere",
+      "justifyCenter": "Gwirizani pakati",
+      "justifyRight": "Gwirizanani molondola",
+      "insertUnorderedList": "Mndandanda",
+      "insertOrderedList": "Mndandanda wowerengeka",
+      "removeFormat": "Chotsani mtundu"
+    },
     "color": {
-      "foreColor": "Zolemba",
       "tooltip": "Mtundu",
+      "foreColor": "Zolemba",
       "backColor": "Mbiri"
     },
     "upload": {
+      "tooltip": "Aphatikize",
       "add": "Onjezani",
-      "remove": "Chotsani",
-      "tooltip": "Aphatikize"
+      "remove": "Chotsani"
     },
-    "send": "Tumizani",
-    "cmd": {
-      "undo": "Chotsa",
-      "fontName": "Mtundu wamafayilo",
-      "bold": "Cholimba",
-      "fontSize": "Kukula kwa mawonekedwe",
-      "italic": "Kanyenye",
-      "justifyLeft": "Gwirizanani kumanzere",
-      "justifyRight": "Gwirizanani molondola",
-      "justifyCenter": "Gwirizani pakati",
-      "removeFormat": "Chotsani mtundu",
-      "insertUnorderedList": "Mndandanda",
-      "insertOrderedList": "Mndandanda wowerengeka",
-      "redo": "Redo",
-      "underline": "Lembani"
-    }
+    "send": "Tumizani"
   },
   "selection": {
     "title": [
@@ -81,18 +81,41 @@ const locale: Locale = {
   "actions": {
     "backToMailbox": "Kubwerera ku bokosi la makalata",
     "reload": "Konzanso",
-    "markAsUnread": "Maka ngati osawerengedwa",
-    "delete": "Chotsani",
-    "moveTo": "Pitani ku",
     "select": "Sankhani",
-    "discardDrafts": "Tayani zolemba",
-    "unMarkAsSpam": "Izi sizopanda pake",
-    "markAsSpam": "Maka ngati sipamu",
+    "markAsUnread": "Maka ngati osawerengedwa",
     "markAsRead": "Maka ngati awerengedwa",
-    "reply": "Yankhani",
-    "forward": "Pitilizani",
+    "moveTo": "Pitani ku",
+    "delete": "Chotsani",
     "deletePermanently": "Fufutani kwathunthu",
+    "discardDrafts": "Tayani zolemba",
+    "markAsSpam": "Maka ngati sipamu",
+    "unMarkAsSpam": "Izi sizopanda pake",
+    "forward": "Pitilizani",
+    "reply": "Yankhani",
     "attachments": "Zophatikiza"
+  },
+  "weekDays": {
+    "0": "Lamlungu",
+    "1": "Lolemba",
+    "2": "Lachiwiri",
+    "3": "Lachitatu",
+    "4": "Lachinayi",
+    "5": "Lachisanu",
+    "6": "Loweruka"
+  },
+  "months": {
+    "0": "Januware",
+    "1": "February",
+    "2": "Marichi",
+    "3": "Epulo",
+    "4": "Meyi",
+    "5": "Jun",
+    "6": "Julayi",
+    "7": "Ogasiti",
+    "8": "Seputembala",
+    "9": "Okutobala",
+    "10": "Novembala",
+    "11": "Disembala"
   }
 };
 

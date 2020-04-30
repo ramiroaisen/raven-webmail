@@ -93,6 +93,29 @@ const locale = {
         "forward": "Avanse",
         "reply": "Reply",
         "attachments": "Dokiman siplemantè"
+    },
+    "weekDays": {
+        "0": "Dimanch",
+        "1": "Lendi",
+        "2": "Madi",
+        "3": "Mèkredi",
+        "4": "Jedi",
+        "5": "Vandredi",
+        "6": "Samdi"
+    },
+    "months": {
+        "0": "Janvye",
+        "1": "fevriye",
+        "2": "Mas",
+        "3": "Avril",
+        "4": "Me",
+        "5": "Jun",
+        "6": "Jiyè",
+        "7": "Out",
+        "8": "Septanm",
+        "9": "Oktòb",
+        "10": "Novanm",
+        "11": "Desanm"
     }
 };
 exports.default = locale;

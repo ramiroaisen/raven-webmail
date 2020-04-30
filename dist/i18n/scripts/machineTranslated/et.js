@@ -93,6 +93,29 @@ const locale = {
         "forward": "Edasi",
         "reply": "Vasta",
         "attachments": "Lisad"
+    },
+    "weekDays": {
+        "0": "Pühapäeval",
+        "1": "Esmaspäev",
+        "2": "Teisipäev",
+        "3": "Kolmapäev",
+        "4": "Neljapäev",
+        "5": "Reede",
+        "6": "Laupäev"
+    },
+    "months": {
+        "0": "Jaanuaril",
+        "1": "Veebruaril",
+        "2": "Märtsil",
+        "3": "Aprillil",
+        "4": "Mai",
+        "5": "Juuni",
+        "6": "Juuli",
+        "7": "august",
+        "8": "Septembril",
+        "9": "Oktoobril",
+        "10": "Novembril",
+        "11": "Detsembril"
     }
 };
 exports.default = locale;

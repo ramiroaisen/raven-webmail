@@ -93,6 +93,29 @@ const locale = {
         "forward": "Naua",
         "reply": "Kau pane",
         "attachments": "Hoʻopono"
+    },
+    "weekDays": {
+        "0": "Lāpule",
+        "1": "Pōʻakahi",
+        "2": "Pōʻalua",
+        "3": "Pōʻakolu",
+        "4": "Pōʻahā",
+        "5": "Pōʻalima",
+        "6": "Pōʻaono"
+    },
+    "months": {
+        "0": "Ianuali",
+        "1": "Pepeluali",
+        "2": "Malaki",
+        "3": "Apelila",
+        "4": "Mei",
+        "5": "Jun",
+        "6": "Iulai",
+        "7": "Aukake",
+        "8": "Kepakemapa",
+        "9": "Okakopa",
+        "10": "Nowemapa",
+        "11": "Kekemapa"
     }
 };
 exports.default = locale;

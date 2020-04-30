@@ -1,4 +1,4 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
   "mailbox": {
@@ -93,6 +93,29 @@ const locale: Locale = {
     "forward": "Ymlaen",
     "reply": "Ymateb",
     "attachments": "Atodiadau"
+  },
+  "weekDays": {
+    "0": "Dydd Sul",
+    "1": "Dydd Llun",
+    "2": "Dydd Mawrth",
+    "3": "Dydd Mercher",
+    "4": "Dydd Iau",
+    "5": "Dydd Gwener",
+    "6": "Dydd Sadwrn"
+  },
+  "months": {
+    "0": "Ionawr",
+    "1": "Chwefror",
+    "2": "Mawrth",
+    "3": "Ebrill",
+    "4": "Mai",
+    "5": "Meh",
+    "6": "Gorffennaf",
+    "7": "Awst",
+    "8": "Medi",
+    "9": "Hydref",
+    "10": "Tachwedd",
+    "11": "Rhagfyr"
   }
 };
 

@@ -93,6 +93,29 @@ const locale = {
         "forward": "Sa unahan",
         "reply": "Tubag",
         "attachments": "Mga gilakip"
+    },
+    "weekDays": {
+        "0": "Domingo",
+        "1": "Lunes",
+        "2": "Martes",
+        "3": "Miyerkules",
+        "4": "Huwebes",
+        "5": "Biyernes",
+        "6": "Sabado"
+    },
+    "months": {
+        "0": "Enero",
+        "1": "Pebrero",
+        "2": "Marso",
+        "3": "Abril",
+        "4": "Mayo",
+        "5": "Jun",
+        "6": "Hulyo",
+        "7": "Agosto",
+        "8": "Septyembre",
+        "9": "Oktubre",
+        "10": "Nobyembre",
+        "11": "Disyembre"
     }
 };
 exports.default = locale;

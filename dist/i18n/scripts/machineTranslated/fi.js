@@ -93,6 +93,29 @@ const locale = {
         "forward": "Eteenpäin",
         "reply": "Vastaa",
         "attachments": "Liitteet"
+    },
+    "weekDays": {
+        "0": "sunnuntai",
+        "1": "maanantai",
+        "2": "tiistai",
+        "3": "keskiviikko",
+        "4": "torstai",
+        "5": "perjantai",
+        "6": "lauantai"
+    },
+    "months": {
+        "0": "tammikuu",
+        "1": "helmikuu",
+        "2": "maaliskuu",
+        "3": "huhtikuu",
+        "4": "saattaa",
+        "5": "kesäkuu",
+        "6": "heinäkuu",
+        "7": "elokuu",
+        "8": "syyskuu",
+        "9": "lokakuu",
+        "10": "marraskuu",
+        "11": "joulukuu"
     }
 };
 exports.default = locale;

@@ -93,6 +93,29 @@ const locale = {
         "forward": "Inoltrare",
         "reply": "rispondere",
         "attachments": "allegati"
+    },
+    "weekDays": {
+        "0": "Domenica",
+        "1": "Lunedi",
+        "2": "martedì",
+        "3": "mercoledì",
+        "4": "giovedi",
+        "5": "Venerdì",
+        "6": "Sabato"
+    },
+    "months": {
+        "0": "gennaio",
+        "1": "febbraio",
+        "2": "marzo",
+        "3": "aprile",
+        "4": "Maggio",
+        "5": "giugno",
+        "6": "luglio",
+        "7": "agosto",
+        "8": "settembre",
+        "9": "ottobre",
+        "10": "novembre",
+        "11": "dicembre"
     }
 };
 exports.default = locale;

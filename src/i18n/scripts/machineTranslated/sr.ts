@@ -1,28 +1,25 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
-  "mailboxMessage": {
-    "to": "До:"
-  },
   "mailbox": {
     "title": {
-      "sent": "Послано",
       "inbox": "Инбок",
-      "junk": "Спам",
+      "sent": "Послано",
+      "drafts": "Скице",
       "trash": "Смеће",
-      "drafts": "Скице"
+      "junk": "Спам"
     },
     "empty": "Овај поштански сандучић је празан"
   },
   "message": {
     "labels": {
-      "to": "До:",
       "from": "Од:",
+      "to": "До:",
       "date": "Послано:"
     }
   },
-  "accountButton": {
-    "logout": "Одјава"
+  "mailboxMessage": {
+    "to": "До:"
   },
   "login": {
     "title": "Пријавите се",
@@ -32,17 +29,39 @@ const locale: Locale = {
       "password": "Лозинка"
     }
   },
-  "selection": {
-    "title": [
-      "{н} поруке",
-      "{н} порука",
-      "{н} поруке"
-    ]
+  "accountButton": {
+    "logout": "Одјава"
+  },
+  "compose": {
+    "labels": {
+      "to": "До:",
+      "subject": "Предмет:",
+      "cc": "Цц:",
+      "bcc": "Скривена копија:"
+    },
+    "tabs": {
+      "newMessageTitle": "Нова порука"
+    }
   },
   "editor": {
+    "cmd": {
+      "undo": "Поништи",
+      "redo": "Редо",
+      "fontName": "Тип фонта",
+      "fontSize": "Величина слова",
+      "bold": "Одважан",
+      "italic": "Италиц",
+      "underline": "Подвући",
+      "justifyLeft": "Поравнати лево",
+      "justifyCenter": "Поравнајте средину",
+      "justifyRight": "Поравнајте право",
+      "insertUnorderedList": "Листа",
+      "insertOrderedList": "Нумерисана листа",
+      "removeFormat": "Уклони формат"
+    },
     "color": {
-      "foreColor": "Текст",
       "tooltip": "Боја",
+      "foreColor": "Текст",
       "backColor": "Позадина"
     },
     "upload": {
@@ -50,49 +69,53 @@ const locale: Locale = {
       "add": "Додати",
       "remove": "Уклони"
     },
-    "cmd": {
-      "bold": "Одважан",
-      "fontName": "Тип фонта",
-      "redo": "Редо",
-      "underline": "Подвући",
-      "justifyLeft": "Поравнати лево",
-      "fontSize": "Величина слова",
-      "italic": "Италиц",
-      "justifyCenter": "Поравнајте средину",
-      "justifyRight": "Поравнајте право",
-      "insertOrderedList": "Нумерисана листа",
-      "removeFormat": "Уклони формат",
-      "undo": "Поништи",
-      "insertUnorderedList": "Листа"
-    },
     "send": "Пошаљи"
+  },
+  "selection": {
+    "title": [
+      "{н} поруке",
+      "{н} порука",
+      "{н} поруке"
+    ]
   },
   "actions": {
     "backToMailbox": "Назад у поштанско сандуче",
-    "moveTo": "Померити у",
+    "reload": "Освежи",
     "select": "Изаберите",
     "markAsUnread": "Означи као прочитано",
-    "delete": "Избриши",
     "markAsRead": "Означи као прочитано",
+    "moveTo": "Померити у",
+    "delete": "Избриши",
     "deletePermanently": "Трајно избришите",
-    "reply": "Одговорити",
-    "attachments": "Прилози",
-    "forward": "Напред",
-    "unMarkAsSpam": "Ово није спам",
+    "discardDrafts": "Одбаците скице",
     "markAsSpam": "Означи као нежељену пошту",
-    "reload": "Освежи",
-    "discardDrafts": "Одбаците скице"
+    "unMarkAsSpam": "Ово није спам",
+    "forward": "Напред",
+    "reply": "Одговорити",
+    "attachments": "Прилози"
   },
-  "compose": {
-    "tabs": {
-      "newMessageTitle": "Нова порука"
-    },
-    "labels": {
-      "subject": "Предмет:",
-      "cc": "Цц:",
-      "bcc": "Скривена копија:",
-      "to": "До:"
-    }
+  "weekDays": {
+    "0": "Недеља",
+    "1": "Понедељак",
+    "2": "Уторак",
+    "3": "Среда",
+    "4": "Четвртак",
+    "5": "Петак",
+    "6": "Субота"
+  },
+  "months": {
+    "0": "Јануара",
+    "1": "Фебруара",
+    "2": "Март",
+    "3": "Април",
+    "4": "Може",
+    "5": "Јун",
+    "6": "Јули",
+    "7": "Август",
+    "8": "септембар",
+    "9": "Октобар",
+    "10": "Новембар",
+    "11": "Децембар"
   }
 };
 

@@ -1,75 +1,75 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
+  "mailbox": {
+    "title": {
+      "inbox": "Hộp thư đến",
+      "sent": "Gởi",
+      "drafts": "Dự thảo",
+      "trash": "Rác",
+      "junk": "Thư rác"
+    },
+    "empty": "Hộp thư này trống"
+  },
   "message": {
     "labels": {
       "from": "Từ:",
-      "date": "Gởi:",
-      "to": "Đến:"
-    }
-  },
-  "accountButton": {
-    "logout": "Đăng xuất"
-  },
-  "login": {
-    "action": "Đăng nhập",
-    "title": "Đăng nhập",
-    "labels": {
-      "username": "tên tài khoản",
-      "password": "Mật khẩu"
-    }
-  },
-  "mailbox": {
-    "empty": "Hộp thư này trống",
-    "title": {
-      "inbox": "Hộp thư đến",
-      "trash": "Rác",
-      "drafts": "Dự thảo",
-      "sent": "Gởi",
-      "junk": "Thư rác"
+      "to": "Đến:",
+      "date": "Gởi:"
     }
   },
   "mailboxMessage": {
     "to": "Đến:"
   },
-  "compose": {
-    "tabs": {
-      "newMessageTitle": "Tin nhắn mới"
-    },
+  "login": {
+    "title": "Đăng nhập",
+    "action": "Đăng nhập",
     "labels": {
+      "username": "tên tài khoản",
+      "password": "Mật khẩu"
+    }
+  },
+  "accountButton": {
+    "logout": "Đăng xuất"
+  },
+  "compose": {
+    "labels": {
+      "to": "Đến:",
       "subject": "Môn học:",
       "cc": "Cc:",
-      "bcc": "Bcc:",
-      "to": "Đến:"
+      "bcc": "Bcc:"
+    },
+    "tabs": {
+      "newMessageTitle": "Tin nhắn mới"
     }
   },
   "editor": {
-    "color": {
-      "foreColor": "Bản văn",
-      "tooltip": "Màu sắc",
-      "backColor": "Lý lịch"
-    },
-    "send": "Gửi",
-    "upload": {
-      "add": "Thêm vào",
-      "remove": "Tẩy",
-      "tooltip": "Đính kèm"
-    },
     "cmd": {
       "undo": "Hoàn tác",
-      "fontSize": "Cỡ chữ",
       "redo": "Làm lại",
+      "fontName": "Kiểu chữ",
+      "fontSize": "Cỡ chữ",
       "bold": "Dũng cảm",
-      "justifyRight": "Sắp xếp đúng",
-      "justifyCenter": "Căn giữa",
+      "italic": "In nghiêng",
       "underline": "Gạch chân",
+      "justifyLeft": "Căn trái",
+      "justifyCenter": "Căn giữa",
+      "justifyRight": "Sắp xếp đúng",
       "insertUnorderedList": "Danh sách",
       "insertOrderedList": "Danh sách đánh số",
-      "justifyLeft": "Căn trái",
-      "removeFormat": "Xóa định dạng",
-      "fontName": "Kiểu chữ",
-      "italic": "In nghiêng"
-    }
+      "removeFormat": "Xóa định dạng"
+    },
+    "color": {
+      "tooltip": "Màu sắc",
+      "foreColor": "Bản văn",
+      "backColor": "Lý lịch"
+    },
+    "upload": {
+      "tooltip": "Đính kèm",
+      "add": "Thêm vào",
+      "remove": "Tẩy"
+    },
+    "send": "Gửi"
   },
   "selection": {
     "title": [
@@ -79,20 +79,43 @@ const locale: Locale = {
     ]
   },
   "actions": {
-    "select": "Lựa chọn",
-    "reload": "Tải lại",
     "backToMailbox": "Quay lại hộp thư",
+    "reload": "Tải lại",
+    "select": "Lựa chọn",
     "markAsUnread": "Đánh dấu là không đọc",
-    "delete": "Xóa bỏ",
-    "moveTo": "Chuyển tới",
-    "markAsSpam": "đánh dấu spam",
-    "reply": "Đáp lại",
-    "discardDrafts": "Loại bỏ bản nháp",
-    "forward": "Ở đằng trước",
-    "unMarkAsSpam": "Đây không phải là thư rác",
-    "attachments": "Tài liệu đính kèm",
     "markAsRead": "đánh dấu là đã đọc",
-    "deletePermanently": "Xóa vĩnh viễn"
+    "moveTo": "Chuyển tới",
+    "delete": "Xóa bỏ",
+    "deletePermanently": "Xóa vĩnh viễn",
+    "discardDrafts": "Loại bỏ bản nháp",
+    "markAsSpam": "đánh dấu spam",
+    "unMarkAsSpam": "Đây không phải là thư rác",
+    "forward": "Ở đằng trước",
+    "reply": "Đáp lại",
+    "attachments": "Tài liệu đính kèm"
+  },
+  "weekDays": {
+    "0": "chủ nhật",
+    "1": "Thứ hai",
+    "2": "Thứ ba",
+    "3": "Thứ tư",
+    "4": "Thứ năm",
+    "5": "Thứ sáu",
+    "6": "ngày thứ bảy"
+  },
+  "months": {
+    "0": "tháng Giêng",
+    "1": "Tháng hai",
+    "2": "tháng Ba",
+    "3": "Tháng 4",
+    "4": "có thể",
+    "5": "Tháng sáu",
+    "6": "Tháng 7",
+    "7": "tháng Tám",
+    "8": "Tháng Chín",
+    "9": "Tháng Mười",
+    "10": "Tháng 11",
+    "11": "Tháng 12"
   }
 };
 

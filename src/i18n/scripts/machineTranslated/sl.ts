@@ -1,6 +1,26 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
+  "mailbox": {
+    "title": {
+      "inbox": "Prejeto",
+      "sent": "Poslano",
+      "drafts": "Osnutki",
+      "trash": "Smeti",
+      "junk": "Nezaželena pošta"
+    },
+    "empty": "Ta nabiralnik je prazen"
+  },
+  "message": {
+    "labels": {
+      "from": "Od:",
+      "to": "Za:",
+      "date": "Poslano:"
+    }
+  },
+  "mailboxMessage": {
+    "to": "Za:"
+  },
   "login": {
     "title": "Prijaviti",
     "action": "Prijaviti",
@@ -9,18 +29,47 @@ const locale: Locale = {
       "password": "Geslo"
     }
   },
-  "message": {
-    "labels": {
-      "date": "Poslano:",
-      "from": "Od:",
-      "to": "Za:"
-    }
-  },
-  "mailboxMessage": {
-    "to": "Za:"
-  },
   "accountButton": {
     "logout": "Odjava"
+  },
+  "compose": {
+    "labels": {
+      "to": "Za:",
+      "subject": "Zadeva:",
+      "cc": "Cc:",
+      "bcc": "Skrbniški račun:"
+    },
+    "tabs": {
+      "newMessageTitle": "Novo sporočilo"
+    }
+  },
+  "editor": {
+    "cmd": {
+      "undo": "Razveljavi",
+      "redo": "Redo",
+      "fontName": "Vrsta pisave",
+      "fontSize": "Velikost pisave",
+      "bold": "Drzno",
+      "italic": "Italik",
+      "underline": "Podčrtaj",
+      "justifyLeft": "Poravnajte levo",
+      "justifyCenter": "Poravnajte sredino",
+      "justifyRight": "Poravnajte desno",
+      "insertUnorderedList": "Seznam",
+      "insertOrderedList": "Oštevilčen seznam",
+      "removeFormat": "Odstrani obliko"
+    },
+    "color": {
+      "tooltip": "Barva",
+      "foreColor": "Besedilo",
+      "backColor": "Ozadje"
+    },
+    "upload": {
+      "tooltip": "Pripni",
+      "add": "Dodaj",
+      "remove": "Odstrani"
+    },
+    "send": "Pošlji"
   },
   "selection": {
     "title": [
@@ -29,70 +78,44 @@ const locale: Locale = {
       "{n} sporočila"
     ]
   },
-  "mailbox": {
-    "empty": "Ta nabiralnik je prazen",
-    "title": {
-      "sent": "Poslano",
-      "junk": "Nezaželena pošta",
-      "trash": "Smeti",
-      "inbox": "Prejeto",
-      "drafts": "Osnutki"
-    }
-  },
-  "compose": {
-    "tabs": {
-      "newMessageTitle": "Novo sporočilo"
-    },
-    "labels": {
-      "to": "Za:",
-      "bcc": "Skrbniški račun:",
-      "subject": "Zadeva:",
-      "cc": "Cc:"
-    }
-  },
-  "editor": {
-    "cmd": {
-      "undo": "Razveljavi",
-      "fontName": "Vrsta pisave",
-      "redo": "Redo",
-      "fontSize": "Velikost pisave",
-      "italic": "Italik",
-      "bold": "Drzno",
-      "justifyRight": "Poravnajte desno",
-      "justifyCenter": "Poravnajte sredino",
-      "justifyLeft": "Poravnajte levo",
-      "underline": "Podčrtaj",
-      "removeFormat": "Odstrani obliko",
-      "insertOrderedList": "Oštevilčen seznam",
-      "insertUnorderedList": "Seznam"
-    },
-    "send": "Pošlji",
-    "color": {
-      "tooltip": "Barva",
-      "backColor": "Ozadje",
-      "foreColor": "Besedilo"
-    },
-    "upload": {
-      "remove": "Odstrani",
-      "tooltip": "Pripni",
-      "add": "Dodaj"
-    }
-  },
   "actions": {
+    "backToMailbox": "Nazaj na nabiralnik",
+    "reload": "Ponovno naloži",
     "select": "Izberite",
     "markAsUnread": "Označi kot ne prebrano",
-    "reload": "Ponovno naloži",
     "markAsRead": "Označi kot prebrano",
     "moveTo": "Premakni na",
-    "forward": "Naprej",
-    "attachments": "Priloge",
-    "reply": "Odgovori",
+    "delete": "Izbriši",
+    "deletePermanently": "Trajno izbrišite",
+    "discardDrafts": "Zaprite osnutke",
     "markAsSpam": "Označi kot neželeno pošto",
     "unMarkAsSpam": "To ni neželena pošta",
-    "deletePermanently": "Trajno izbrišite",
-    "delete": "Izbriši",
-    "backToMailbox": "Nazaj na nabiralnik",
-    "discardDrafts": "Zaprite osnutke"
+    "forward": "Naprej",
+    "reply": "Odgovori",
+    "attachments": "Priloge"
+  },
+  "weekDays": {
+    "0": "Nedelja",
+    "1": "Ponedeljek",
+    "2": "Torek",
+    "3": "Sreda",
+    "4": "Četrtek",
+    "5": "Petek",
+    "6": "Sobota"
+  },
+  "months": {
+    "0": "Januarja",
+    "1": "Februarja",
+    "2": "Marec",
+    "3": "April",
+    "4": "Maj",
+    "5": "Junij",
+    "6": "Julija",
+    "7": "Avgust",
+    "8": "Septembra",
+    "9": "Oktober",
+    "10": "Novembra",
+    "11": "December"
   }
 };
 

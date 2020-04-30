@@ -1,8 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
-    "mailboxMessage": {
-        "to": "Кемгә:"
+    "mailbox": {
+        "title": {
+            "inbox": "Керү",
+            "sent": "Sentибәрелгән",
+            "drafts": "Каралама",
+            "trash": "Чүп",
+            "junk": "Спам"
+        },
+        "empty": "Бу почта тартмасы буш"
     },
     "message": {
         "labels": {
@@ -11,13 +18,58 @@ const locale = {
             "date": "Sentибәрелгән:"
         }
     },
+    "mailboxMessage": {
+        "to": "Кемгә:"
+    },
     "login": {
         "title": "Керегез",
         "action": "Керегез",
         "labels": {
-            "password": "Серсүз",
-            "username": "Кулланучы исеме"
+            "username": "Кулланучы исеме",
+            "password": "Серсүз"
         }
+    },
+    "accountButton": {
+        "logout": "Чыгарга"
+    },
+    "compose": {
+        "labels": {
+            "to": "Кемгә:",
+            "subject": "Тема:",
+            "cc": "Cc:",
+            "bcc": "Bcc:"
+        },
+        "tabs": {
+            "newMessageTitle": "Яңа хәбәр"
+        }
+    },
+    "editor": {
+        "cmd": {
+            "undo": "Кире кайтару",
+            "redo": "Кабатлау",
+            "fontName": "Шрифт төре",
+            "fontSize": "Хәреф зурлыгы",
+            "bold": "Калын",
+            "italic": "Италик",
+            "underline": "Сызу",
+            "justifyLeft": "Сулга тигезләнегез",
+            "justifyCenter": "Урта тигезләгез",
+            "justifyRight": "Уңга тигезләнегез",
+            "insertUnorderedList": "Исемлек",
+            "insertOrderedList": "Санлы исемлек",
+            "removeFormat": "Форматны бетерегез"
+        },
+        "color": {
+            "tooltip": "Төс",
+            "foreColor": "Текст",
+            "backColor": "Фон"
+        },
+        "upload": {
+            "tooltip": "Беркетегез",
+            "add": "Кушу",
+            "remove": "Чыгар"
+        },
+        "send": "Sendибәр"
     },
     "selection": {
         "title": [
@@ -26,73 +78,44 @@ const locale = {
             "{n} хәбәрләр"
         ]
     },
-    "mailbox": {
-        "empty": "Бу почта тартмасы буш",
-        "title": {
-            "junk": "Спам",
-            "trash": "Чүп",
-            "sent": "Sentибәрелгән",
-            "inbox": "Керү",
-            "drafts": "Каралама"
-        }
-    },
-    "accountButton": {
-        "logout": "Чыгарга"
-    },
-    "compose": {
-        "tabs": {
-            "newMessageTitle": "Яңа хәбәр"
-        },
-        "labels": {
-            "to": "Кемгә:",
-            "bcc": "Bcc:",
-            "cc": "Cc:",
-            "subject": "Тема:"
-        }
-    },
-    "editor": {
-        "send": "Sendибәр",
-        "color": {
-            "foreColor": "Текст",
-            "tooltip": "Төс",
-            "backColor": "Фон"
-        },
-        "cmd": {
-            "undo": "Кире кайтару",
-            "redo": "Кабатлау",
-            "italic": "Италик",
-            "bold": "Калын",
-            "justifyCenter": "Урта тигезләгез",
-            "fontName": "Шрифт төре",
-            "justifyLeft": "Сулга тигезләнегез",
-            "underline": "Сызу",
-            "insertOrderedList": "Санлы исемлек",
-            "insertUnorderedList": "Исемлек",
-            "justifyRight": "Уңга тигезләнегез",
-            "removeFormat": "Форматны бетерегез",
-            "fontSize": "Хәреф зурлыгы"
-        },
-        "upload": {
-            "tooltip": "Беркетегез",
-            "add": "Кушу",
-            "remove": "Чыгар"
-        }
-    },
     "actions": {
-        "reload": "Йөкләү",
         "backToMailbox": "Почта тартмасына кире кайту",
+        "reload": "Йөкләү",
         "select": "Сайлагыз",
-        "moveTo": "Күчерегез",
         "markAsUnread": "Укылмаган дип билгеләргә",
         "markAsRead": "Укылганча билгеләргә",
-        "forward": "FORWARD",
-        "discardDrafts": "Караламадан баш тарту",
-        "unMarkAsSpam": "Бу спам түгел",
-        "markAsSpam": "Спам дип билгеләргә",
-        "reply": "Lyавап бир",
-        "attachments": "Кушымчалар",
+        "moveTo": "Күчерегез",
+        "delete": "Бетерү",
         "deletePermanently": "Даими бетерегез",
-        "delete": "Бетерү"
+        "discardDrafts": "Караламадан баш тарту",
+        "markAsSpam": "Спам дип билгеләргә",
+        "unMarkAsSpam": "Бу спам түгел",
+        "forward": "FORWARD",
+        "reply": "Lyавап бир",
+        "attachments": "Кушымчалар"
+    },
+    "weekDays": {
+        "0": "Якшәмбе",
+        "1": "Дүшәмбе",
+        "2": "Сишәмбе",
+        "3": "Чәршәмбе",
+        "4": "Пәнҗешәмбе",
+        "5": "Fridayомга",
+        "6": "Шимбә"
+    },
+    "months": {
+        "0": "Гыйнвар",
+        "1": "Февраль",
+        "2": "Март",
+        "3": "Апрель",
+        "4": "Май",
+        "5": "Июнь",
+        "6": "Июль",
+        "7": "Август",
+        "8": "Сентябрь",
+        "9": "Октябрь",
+        "10": "Ноябрь",
+        "11": "Декабрь"
     }
 };
 exports.default = locale;

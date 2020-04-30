@@ -1,13 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
-    "login": {
-        "title": "ننوزئ",
-        "labels": {
-            "password": "رمز",
-            "username": "کارن نوم"
+    "mailbox": {
+        "title": {
+            "inbox": "Inbox",
+            "sent": "لیږل شوی",
+            "drafts": "مسودې",
+            "trash": "کثافات",
+            "junk": "سپیم"
         },
-        "action": "ننوزئ"
+        "empty": "دا میل بکس خالي دی"
     },
     "message": {
         "labels": {
@@ -16,25 +18,16 @@ const locale = {
             "date": "لیږل شوی:"
         }
     },
-    "selection": {
-        "title": [
-            "} n} پېغامونه",
-            "n} پيغام",
-            "} n} پېغامونه"
-        ]
-    },
-    "mailbox": {
-        "empty": "دا میل بکس خالي دی",
-        "title": {
-            "sent": "لیږل شوی",
-            "drafts": "مسودې",
-            "junk": "سپیم",
-            "trash": "کثافات",
-            "inbox": "Inbox"
-        }
-    },
     "mailboxMessage": {
         "to": "ته:"
+    },
+    "login": {
+        "title": "ننوزئ",
+        "action": "ننوزئ",
+        "labels": {
+            "username": "کارن نوم",
+            "password": "رمز"
+        }
     },
     "accountButton": {
         "logout": "وتون"
@@ -43,56 +36,86 @@ const locale = {
         "labels": {
             "to": "ته:",
             "subject": "موضوع:",
-            "bcc": "بي سي سي:",
-            "cc": "سي سي:"
+            "cc": "سي سي:",
+            "bcc": "بي سي سي:"
         },
         "tabs": {
             "newMessageTitle": "نوی پیغام"
         }
     },
     "editor": {
-        "send": "ولېږئ",
+        "cmd": {
+            "undo": "ړنګول",
+            "redo": "بیا یې کړئ",
+            "fontName": "د لیکب .ې ډول",
+            "fontSize": "د لیکب .ې اندازه",
+            "bold": "بولډ",
+            "italic": "ایټالیک",
+            "underline": "لاندینۍ کرښه",
+            "justifyLeft": "کي left اړخ کې سمول",
+            "justifyCenter": "وچ برابر",
+            "justifyRight": "ښي لاس ته ځي",
+            "insertUnorderedList": "لیست",
+            "insertOrderedList": "لمبر لیست",
+            "removeFormat": "ب Removeه لرې کړئ"
+        },
         "color": {
             "tooltip": "رنګ",
             "foreColor": "متن",
             "backColor": "شالید"
         },
         "upload": {
+            "tooltip": "ضمیمه کړئ",
             "add": "اضافه کول",
-            "remove": "لرې کړئ",
-            "tooltip": "ضمیمه کړئ"
+            "remove": "لرې کړئ"
         },
-        "cmd": {
-            "redo": "بیا یې کړئ",
-            "undo": "ړنګول",
-            "fontName": "د لیکب .ې ډول",
-            "italic": "ایټالیک",
-            "bold": "بولډ",
-            "underline": "لاندینۍ کرښه",
-            "justifyRight": "ښي لاس ته ځي",
-            "justifyCenter": "وچ برابر",
-            "insertOrderedList": "لمبر لیست",
-            "justifyLeft": "کي left اړخ کې سمول",
-            "fontSize": "د لیکب .ې اندازه",
-            "insertUnorderedList": "لیست",
-            "removeFormat": "ب Removeه لرې کړئ"
-        }
+        "send": "ولېږئ"
+    },
+    "selection": {
+        "title": [
+            "} n} پېغامونه",
+            "n} پيغام",
+            "} n} پېغامونه"
+        ]
     },
     "actions": {
         "backToMailbox": "بیرته میل باکس ته",
         "reload": "بیا ولولئ",
         "select": "وټاکئ",
         "markAsUnread": "په لوستلو سره یې نښه کړئ",
+        "markAsRead": "د لوستلو په توګه نښه کړئ",
+        "moveTo": "ته خوځول",
         "delete": "ړنګول",
         "deletePermanently": "د تل لپاره ړنګ کړئ",
-        "markAsRead": "د لوستلو په توګه نښه کړئ",
         "discardDrafts": "مسودې رد کړئ",
-        "reply": "ځواب ورکړئ",
-        "forward": "فارورډ",
+        "markAsSpam": "د سپیم په توګه نښه کړئ",
         "unMarkAsSpam": "دا سپیم ندی",
-        "moveTo": "ته خوځول",
-        "attachments": "ضمیمه",
-        "markAsSpam": "د سپیم په توګه نښه کړئ"
+        "forward": "فارورډ",
+        "reply": "ځواب ورکړئ",
+        "attachments": "ضمیمه"
+    },
+    "weekDays": {
+        "0": "یک شنبه",
+        "1": "دوشنبه",
+        "2": "سه شنبه",
+        "3": "چهارشنبه",
+        "4": "پنجشنبه",
+        "5": "جمعه",
+        "6": "شنبه"
+    },
+    "months": {
+        "0": "جنوري",
+        "1": "فبروري",
+        "2": "مارچ",
+        "3": "اپریل",
+        "4": "می",
+        "5": "جون",
+        "6": "جولای",
+        "7": "اګست",
+        "8": "سپتمبر",
+        "9": "اکتوبر",
+        "10": "نومبر",
+        "11": "دسمبر"
     }
 };
 exports.default = locale;

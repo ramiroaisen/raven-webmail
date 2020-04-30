@@ -93,6 +93,29 @@ const locale = {
         "forward": "Nach vorne",
         "reply": "Antworten",
         "attachments": "Anhänge"
+    },
+    "weekDays": {
+        "0": "Sonntag",
+        "1": "Montag",
+        "2": "Dienstag",
+        "3": "Mittwoch",
+        "4": "Donnerstag",
+        "5": "Freitag",
+        "6": "Samstag"
+    },
+    "months": {
+        "0": "Januar",
+        "1": "Februar",
+        "2": "März",
+        "3": "April",
+        "4": "Kann",
+        "5": "Jun",
+        "6": "Juli",
+        "7": "August",
+        "8": "September",
+        "9": "Oktober",
+        "10": "November",
+        "11": "Dezember"
     }
 };
 exports.default = locale;

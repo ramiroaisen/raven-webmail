@@ -3,34 +3,73 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
     "mailbox": {
         "title": {
-            "junk": "Ispemu",
             "inbox": "Inbox",
-            "drafts": "Uyilo",
             "sent": "Kuthunyelwe",
-            "trash": "Inkunkuma"
+            "drafts": "Uyilo",
+            "trash": "Inkunkuma",
+            "junk": "Ispemu"
         },
         "empty": "Le bhokisi yeposi ayinanto"
+    },
+    "message": {
+        "labels": {
+            "from": "Isuka:",
+            "to": "Iya:",
+            "date": "Ithunyelwe:"
+        }
     },
     "mailboxMessage": {
         "to": "Iya:"
     },
-    "message": {
-        "labels": {
-            "to": "Iya:",
-            "from": "Isuka:",
-            "date": "Ithunyelwe:"
-        }
-    },
     "login": {
-        "action": "Ngena",
         "title": "Ngena",
+        "action": "Ngena",
         "labels": {
-            "password": "Inombolo yokuvula",
-            "username": "Igama lomsebenzisi"
+            "username": "Igama lomsebenzisi",
+            "password": "Inombolo yokuvula"
         }
     },
     "accountButton": {
         "logout": "Phuma"
+    },
+    "compose": {
+        "labels": {
+            "to": "Iya:",
+            "subject": "Umxholo:",
+            "cc": "Cc:",
+            "bcc": "Bcc:"
+        },
+        "tabs": {
+            "newMessageTitle": "Umyalezo omtsha"
+        }
+    },
+    "editor": {
+        "cmd": {
+            "undo": "Hlehlisa",
+            "redo": "Phinda wenze",
+            "fontName": "Uhlobo lwefonti",
+            "fontSize": "Isayizi yefonti",
+            "bold": "Bold",
+            "italic": "Ithalal",
+            "underline": "Krwela umgca",
+            "justifyLeft": "Lungelelanisa ngasekhohlo",
+            "justifyCenter": "Lungelelanisa phakathi",
+            "justifyRight": "Lungelelanisa ngokuchanekileyo",
+            "insertUnorderedList": "Uluhlu",
+            "insertOrderedList": "Uluhlu olunamanani",
+            "removeFormat": "Susa ifomathi"
+        },
+        "color": {
+            "tooltip": "Umbala",
+            "foreColor": "Isicatshulwa",
+            "backColor": "Imvelaphi"
+        },
+        "upload": {
+            "tooltip": "Qhoboshela",
+            "add": "Yongeza",
+            "remove": "Susa"
+        },
+        "send": "Thumela"
     },
     "selection": {
         "title": [
@@ -39,60 +78,44 @@ const locale = {
             "{n} imiyalezo"
         ]
     },
-    "compose": {
-        "tabs": {
-            "newMessageTitle": "Umyalezo omtsha"
-        },
-        "labels": {
-            "to": "Iya:",
-            "subject": "Umxholo:",
-            "cc": "Cc:",
-            "bcc": "Bcc:"
-        }
-    },
-    "editor": {
-        "color": {
-            "tooltip": "Umbala",
-            "foreColor": "Isicatshulwa",
-            "backColor": "Imvelaphi"
-        },
-        "send": "Thumela",
-        "cmd": {
-            "fontSize": "Isayizi yefonti",
-            "undo": "Hlehlisa",
-            "redo": "Phinda wenze",
-            "fontName": "Uhlobo lwefonti",
-            "bold": "Bold",
-            "justifyLeft": "Lungelelanisa ngasekhohlo",
-            "underline": "Krwela umgca",
-            "italic": "Ithalal",
-            "justifyRight": "Lungelelanisa ngokuchanekileyo",
-            "justifyCenter": "Lungelelanisa phakathi",
-            "insertUnorderedList": "Uluhlu",
-            "insertOrderedList": "Uluhlu olunamanani",
-            "removeFormat": "Susa ifomathi"
-        },
-        "upload": {
-            "add": "Yongeza",
-            "tooltip": "Qhoboshela",
-            "remove": "Susa"
-        }
-    },
     "actions": {
         "backToMailbox": "Buyela kwibhokisi yeposi",
         "reload": "Phinda ulayishe",
         "select": "Khetha",
+        "markAsUnread": "Phawula njengengafundwanga",
         "markAsRead": "Phawula njengokufundiweyo",
         "moveTo": "Dlulela ku",
         "delete": "Cima",
-        "reply": "Phendula",
-        "markAsSpam": "Phawula njengogaxekile",
-        "discardDrafts": "Lahla uyilo",
         "deletePermanently": "Cima isigxina",
+        "discardDrafts": "Lahla uyilo",
+        "markAsSpam": "Phawula njengogaxekile",
         "unMarkAsSpam": "Ayisiyogaxekile",
         "forward": "Phambili",
-        "attachments": "Okuqhotyoshelwe apha",
-        "markAsUnread": "Phawula njengengafundwanga"
+        "reply": "Phendula",
+        "attachments": "Okuqhotyoshelwe apha"
+    },
+    "weekDays": {
+        "0": "iCawe",
+        "1": "uMvulo",
+        "2": "uLwesibini",
+        "3": "uLwesithathu",
+        "4": "uLwesine",
+        "5": "uLwesihlanu",
+        "6": "uMgqibelo"
+    },
+    "months": {
+        "0": "EyoMqungu",
+        "1": "EyoMdumba",
+        "2": "EyoKwindla",
+        "3": "UTshazimpuzi",
+        "4": "UCanzibe",
+        "5": "Jun",
+        "6": "EyeKhala",
+        "7": "EyeThupha",
+        "8": "EyoMsintsi",
+        "9": "EyeDwarha",
+        "10": "EyeNkanga",
+        "11": "EtiMnga"
     }
 };
 exports.default = locale;

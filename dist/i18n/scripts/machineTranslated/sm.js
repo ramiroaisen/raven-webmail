@@ -1,75 +1,75 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
-    "accountButton": {
-        "logout": "Saini ese"
-    },
-    "compose": {
-        "tabs": {
-            "newMessageTitle": "Savali fou"
-        },
-        "labels": {
-            "to": "I:",
-            "subject": "Mataupu:",
-            "bcc": "Maile:",
-            "cc": "Cc:"
-        }
-    },
     "mailbox": {
-        "empty": "E gaogao le pusameli lea",
         "title": {
-            "trash": "O lapisi",
-            "drafts": "Tusi ata",
-            "junk": "Spam",
+            "inbox": "Falevalu",
             "sent": "Auina",
-            "inbox": "Falevalu"
-        }
-    },
-    "login": {
-        "title": "Saini ese j",
-        "labels": {
-            "username": "Igoa Igoa",
-            "password": "Numera e le iloa e sesi"
+            "drafts": "Tusi ata",
+            "trash": "O lapisi",
+            "junk": "Spam"
         },
-        "action": "Saini ese j"
+        "empty": "E gaogao le pusameli lea"
+    },
+    "message": {
+        "labels": {
+            "from": "Mai:",
+            "to": "I:",
+            "date": "Auina:"
+        }
     },
     "mailboxMessage": {
         "to": "I:"
     },
-    "message": {
+    "login": {
+        "title": "Saini ese j",
+        "action": "Saini ese j",
+        "labels": {
+            "username": "Igoa Igoa",
+            "password": "Numera e le iloa e sesi"
+        }
+    },
+    "accountButton": {
+        "logout": "Saini ese"
+    },
+    "compose": {
         "labels": {
             "to": "I:",
-            "date": "Auina:",
-            "from": "Mai:"
+            "subject": "Mataupu:",
+            "cc": "Cc:",
+            "bcc": "Maile:"
+        },
+        "tabs": {
+            "newMessageTitle": "Savali fou"
         }
     },
     "editor": {
-        "upload": {
-            "remove": "Aveese",
-            "tooltip": "Faapipiʻi",
-            "add": "Faaopopo"
-        },
-        "send": "Lafo",
         "cmd": {
             "undo": "Sōloia",
+            "redo": "Toe fai",
             "fontName": "Ituaiga oka",
-            "bold": "Lototele",
             "fontSize": "Tele ogalaau",
+            "bold": "Lototele",
+            "italic": "Atili",
+            "underline": "Lafoga",
             "justifyLeft": "Faasaʻo tauagavale",
             "justifyCenter": "Ogatasi va",
-            "removeFormat": "Aveese le fausaga",
             "justifyRight": "Faasaʻo taumatau",
+            "insertUnorderedList": "Lisi",
             "insertOrderedList": "Faitauina lisi",
-            "redo": "Toe fai",
-            "underline": "Lafoga",
-            "italic": "Atili",
-            "insertUnorderedList": "Lisi"
+            "removeFormat": "Aveese le fausaga"
         },
         "color": {
             "tooltip": "Valivali",
             "foreColor": "Tusitusiga",
             "backColor": "Talaaga"
-        }
+        },
+        "upload": {
+            "tooltip": "Faapipiʻi",
+            "add": "Faaopopo",
+            "remove": "Aveese"
+        },
+        "send": "Lafo"
     },
     "selection": {
         "title": [
@@ -79,20 +79,43 @@ const locale = {
         ]
     },
     "actions": {
-        "reload": "Toe sii",
         "backToMailbox": "Toe foi i le pusa meli",
+        "reload": "Toe sii",
         "select": "Filifili",
-        "delete": "Tapē",
-        "moveTo": "Alu ile",
-        "markAsRead": "Faailoga e pei ona faitauina",
         "markAsUnread": "Faailoga e leʻi faitauina",
+        "markAsRead": "Faailoga e pei ona faitauina",
+        "moveTo": "Alu ile",
+        "delete": "Tapē",
         "deletePermanently": "Tapē tumau",
         "discardDrafts": "Tuuese ni ata",
-        "forward": "O i luma",
         "markAsSpam": "Faailoga o se spam",
-        "attachments": "Aufaʻi",
         "unMarkAsSpam": "E le o le spam",
-        "reply": "Tali"
+        "forward": "O i luma",
+        "reply": "Tali",
+        "attachments": "Aufaʻi"
+    },
+    "weekDays": {
+        "0": "Aso Sa",
+        "1": "Aso Gafua",
+        "2": "Aso Lua",
+        "3": "Aso Lulu",
+        "4": "Aso Tofi",
+        "5": "Aso Faralie",
+        "6": "Aso Tonaʻi"
+    },
+    "months": {
+        "0": "Ianuari",
+        "1": "Fepuari",
+        "2": "Mati",
+        "3": "Apelila",
+        "4": "Mae",
+        "5": "Iuni",
+        "6": "Iuli",
+        "7": "Aukuso",
+        "8": "Setema",
+        "9": "Okitopa",
+        "10": "Novema",
+        "11": "Tesema"
     }
 };
 exports.default = locale;

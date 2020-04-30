@@ -2,35 +2,74 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
     "mailbox": {
-        "empty": "דעם בריווקאַסטן איז ליידיק",
         "title": {
-            "sent": "געשיקט",
             "inbox": "Inbox",
+            "sent": "געשיקט",
             "drafts": "דראַפץ",
-            "junk": "ספּאַם",
-            "trash": "אָפּפאַל"
-        }
+            "trash": "אָפּפאַל",
+            "junk": "ספּאַם"
+        },
+        "empty": "דעם בריווקאַסטן איז ליידיק"
     },
     "message": {
         "labels": {
+            "from": "פֿון:",
             "to": "צו:",
-            "date": "געשיקט:",
-            "from": "פֿון:"
+            "date": "געשיקט:"
         }
     },
     "mailboxMessage": {
         "to": "צו:"
     },
     "login": {
-        "action": "סיין אריין",
         "title": "סיין אריין",
+        "action": "סיין אריין",
         "labels": {
-            "password": "שפּריכוואָרט",
-            "username": "נאמען"
+            "username": "נאמען",
+            "password": "שפּריכוואָרט"
         }
     },
     "accountButton": {
         "logout": "צייכן אויס"
+    },
+    "compose": {
+        "labels": {
+            "to": "צו:",
+            "subject": "טעמע:",
+            "cc": "Cc:",
+            "bcc": "Bcc:"
+        },
+        "tabs": {
+            "newMessageTitle": "נייַע אָנזאָג"
+        }
+    },
+    "editor": {
+        "cmd": {
+            "undo": "ופמאַכן",
+            "redo": "רעדאָ",
+            "fontName": "שריפֿט טיפּ",
+            "fontSize": "שריפֿט גרייס",
+            "bold": "דרייסט",
+            "italic": "ייטאַל",
+            "underline": "אַנדערליין",
+            "justifyLeft": "ייַנרייען לינקס",
+            "justifyCenter": "ייַנרייען מיטן",
+            "justifyRight": "ייַנרייען רעכט",
+            "insertUnorderedList": "רשימה",
+            "insertOrderedList": "געציילט רשימה",
+            "removeFormat": "אַראָפּנעמען פֿאָרמאַט"
+        },
+        "color": {
+            "tooltip": "פאַרב",
+            "foreColor": "טעקסט",
+            "backColor": "הינטערגרונט"
+        },
+        "upload": {
+            "tooltip": "צוטשעפּען",
+            "add": "לייג צו",
+            "remove": "אַראָפּנעמען"
+        },
+        "send": "שיקן"
     },
     "selection": {
         "title": [
@@ -39,60 +78,44 @@ const locale = {
             "{n} אַרטיקלען"
         ]
     },
-    "compose": {
-        "tabs": {
-            "newMessageTitle": "נייַע אָנזאָג"
-        },
-        "labels": {
-            "to": "צו:",
-            "subject": "טעמע:",
-            "bcc": "Bcc:",
-            "cc": "Cc:"
-        }
-    },
-    "editor": {
-        "cmd": {
-            "fontName": "שריפֿט טיפּ",
-            "undo": "ופמאַכן",
-            "redo": "רעדאָ",
-            "fontSize": "שריפֿט גרייס",
-            "italic": "ייטאַל",
-            "bold": "דרייסט",
-            "justifyLeft": "ייַנרייען לינקס",
-            "underline": "אַנדערליין",
-            "justifyCenter": "ייַנרייען מיטן",
-            "justifyRight": "ייַנרייען רעכט",
-            "insertUnorderedList": "רשימה",
-            "insertOrderedList": "געציילט רשימה",
-            "removeFormat": "אַראָפּנעמען פֿאָרמאַט"
-        },
-        "upload": {
-            "remove": "אַראָפּנעמען",
-            "tooltip": "צוטשעפּען",
-            "add": "לייג צו"
-        },
-        "send": "שיקן",
-        "color": {
-            "tooltip": "פאַרב",
-            "backColor": "הינטערגרונט",
-            "foreColor": "טעקסט"
-        }
-    },
     "actions": {
         "backToMailbox": "צוריק צו בריווקאַסטן",
+        "reload": "Reload",
+        "select": "סעלעקטירן",
+        "markAsUnread": "מארק ווי ניט לייענען",
+        "markAsRead": "מארק ווי לייענען",
         "moveTo": "גיי אריבער צו",
         "delete": "ויסמעקן",
-        "markAsUnread": "מארק ווי ניט לייענען",
-        "reload": "Reload",
-        "markAsRead": "מארק ווי לייענען",
-        "reply": "ענטפער",
+        "deletePermanently": "ויסמעקן פּערמאַנאַנטלי",
         "discardDrafts": "אַוועקוואַרפן דראַפץ",
         "markAsSpam": "מארק ווי ספּאַם",
-        "deletePermanently": "ויסמעקן פּערמאַנאַנטלי",
-        "attachments": "אַטאַטשמאַנץ",
+        "unMarkAsSpam": "דאָס איז נישט ספּאַם",
         "forward": "פֿאָרווערטס",
-        "select": "סעלעקטירן",
-        "unMarkAsSpam": "דאָס איז נישט ספּאַם"
+        "reply": "ענטפער",
+        "attachments": "אַטאַטשמאַנץ"
+    },
+    "weekDays": {
+        "0": "זונטיק",
+        "1": "מאנטאג",
+        "2": "דינסטאג",
+        "3": "מיטוואך",
+        "4": "דאָנערשטיק",
+        "5": "פרייטיק",
+        "6": "שבת"
+    },
+    "months": {
+        "0": "יאנואר",
+        "1": "פעברואר",
+        "2": "מאַרץ",
+        "3": "אפריל",
+        "4": "מאי",
+        "5": "יוני",
+        "6": "יולי",
+        "7": "אויגוסט",
+        "8": "סעפטעמבער",
+        "9": "אקטאבער",
+        "10": "נאוועמבער",
+        "11": "דעצעמבער"
     }
 };
 exports.default = locale;

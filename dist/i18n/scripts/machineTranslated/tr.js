@@ -1,23 +1,75 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
+    "mailbox": {
+        "title": {
+            "inbox": "Gelen kutusu",
+            "sent": "Gönderilen",
+            "drafts": "Taslaklar",
+            "trash": "Çöp",
+            "junk": "İstenmeyen e"
+        },
+        "empty": "Bu posta kutusu boş"
+    },
     "message": {
         "labels": {
-            "to": "Kime:",
             "from": "Gönderen:",
+            "to": "Kime:",
             "date": "Gönderilen:"
+        }
+    },
+    "mailboxMessage": {
+        "to": "Kime:"
+    },
+    "login": {
+        "title": "oturum aç",
+        "action": "oturum aç",
+        "labels": {
+            "username": "Kullanıcı adı",
+            "password": "Parola"
         }
     },
     "accountButton": {
         "logout": "oturumu Kapat"
     },
-    "login": {
-        "action": "oturum aç",
-        "title": "oturum aç",
+    "compose": {
         "labels": {
-            "username": "Kullanıcı adı",
-            "password": "Parola"
+            "to": "Kime:",
+            "subject": "Konu:",
+            "cc": "cc:",
+            "bcc": "Gizli:"
+        },
+        "tabs": {
+            "newMessageTitle": "Yeni Mesaj"
         }
+    },
+    "editor": {
+        "cmd": {
+            "undo": "Geri alma",
+            "redo": "Yeniden",
+            "fontName": "Yazı tipi",
+            "fontSize": "Yazı Boyutu",
+            "bold": "cesur",
+            "italic": "İtalik",
+            "underline": "Altını çizmek",
+            "justifyLeft": "Sola hizalamak",
+            "justifyCenter": "Ortaya hizala",
+            "justifyRight": "Sağa hizala",
+            "insertUnorderedList": "Liste",
+            "insertOrderedList": "Numaralı liste",
+            "removeFormat": "Biçimi kaldır"
+        },
+        "color": {
+            "tooltip": "Renk",
+            "foreColor": "Metin",
+            "backColor": "Arka fon"
+        },
+        "upload": {
+            "tooltip": "iliştirmek",
+            "add": "Ekle",
+            "remove": "Kaldırmak"
+        },
+        "send": "Gönder"
     },
     "selection": {
         "title": [
@@ -26,73 +78,44 @@ const locale = {
             "{n} mesaj"
         ]
     },
-    "mailbox": {
-        "empty": "Bu posta kutusu boş",
-        "title": {
-            "inbox": "Gelen kutusu",
-            "sent": "Gönderilen",
-            "junk": "İstenmeyen e",
-            "trash": "Çöp",
-            "drafts": "Taslaklar"
-        }
-    },
-    "mailboxMessage": {
-        "to": "Kime:"
-    },
-    "compose": {
-        "tabs": {
-            "newMessageTitle": "Yeni Mesaj"
-        },
-        "labels": {
-            "to": "Kime:",
-            "subject": "Konu:",
-            "bcc": "Gizli:",
-            "cc": "cc:"
-        }
-    },
-    "editor": {
-        "color": {
-            "tooltip": "Renk",
-            "backColor": "Arka fon",
-            "foreColor": "Metin"
-        },
-        "send": "Gönder",
-        "cmd": {
-            "undo": "Geri alma",
-            "redo": "Yeniden",
-            "fontSize": "Yazı Boyutu",
-            "fontName": "Yazı tipi",
-            "bold": "cesur",
-            "underline": "Altını çizmek",
-            "italic": "İtalik",
-            "justifyLeft": "Sola hizalamak",
-            "insertUnorderedList": "Liste",
-            "justifyCenter": "Ortaya hizala",
-            "justifyRight": "Sağa hizala",
-            "insertOrderedList": "Numaralı liste",
-            "removeFormat": "Biçimi kaldır"
-        },
-        "upload": {
-            "add": "Ekle",
-            "remove": "Kaldırmak",
-            "tooltip": "iliştirmek"
-        }
-    },
     "actions": {
-        "reload": "Tekrar yükle",
-        "markAsRead": "Okundu olarak işaretle",
-        "select": "seçmek",
         "backToMailbox": "Posta kutusuna dön",
+        "reload": "Tekrar yükle",
+        "select": "seçmek",
+        "markAsUnread": "Okunmadı olarak işaretle",
+        "markAsRead": "Okundu olarak işaretle",
         "moveTo": "Taşınmak",
         "delete": "Sil",
         "deletePermanently": "Kalıcı olarak sil",
         "discardDrafts": "Taslakları sil",
         "markAsSpam": "spam olarak işaretle",
+        "unMarkAsSpam": "Bu spam değil",
         "forward": "ileri",
         "reply": "cevap",
-        "attachments": "Ekler",
-        "unMarkAsSpam": "Bu spam değil",
-        "markAsUnread": "Okunmadı olarak işaretle"
+        "attachments": "Ekler"
+    },
+    "weekDays": {
+        "0": "Pazar",
+        "1": "Pazartesi",
+        "2": "Salı",
+        "3": "Çarşamba",
+        "4": "Perşembe",
+        "5": "Cuma",
+        "6": "Cumartesi"
+    },
+    "months": {
+        "0": "Ocak",
+        "1": "Şubat",
+        "2": "Mart",
+        "3": "Nisan",
+        "4": "Mayıs",
+        "5": "Haziran",
+        "6": "Temmuz",
+        "7": "Ağustos",
+        "8": "Eylül",
+        "9": "Ekim",
+        "10": "Kasım",
+        "11": "Aralık"
     }
 };
 exports.default = locale;

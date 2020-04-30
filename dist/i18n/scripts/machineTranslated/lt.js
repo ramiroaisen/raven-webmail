@@ -93,6 +93,29 @@ const locale = {
         "forward": "Persiųsti",
         "reply": "Atsakyk",
         "attachments": "Priedai"
+    },
+    "weekDays": {
+        "0": "Sekmadienis",
+        "1": "Pirmadienis",
+        "2": "Antradienis",
+        "3": "Trečiadienis",
+        "4": "Ketvirtadienis",
+        "5": "Penktadienis",
+        "6": "Šeštadienis"
+    },
+    "months": {
+        "0": "Sausio mėn",
+        "1": "Vasario mėn",
+        "2": "Kovas",
+        "3": "Balandis",
+        "4": "Gegužė",
+        "5": "Birželio mėn",
+        "6": "Liepa",
+        "7": "Rugpjūtis",
+        "8": "Rugsėjo mėn",
+        "9": "Spalio mėn",
+        "10": "Lapkritį",
+        "11": "Gruodį"
     }
 };
 exports.default = locale;

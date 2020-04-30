@@ -3,13 +3,20 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
     "mailbox": {
         "title": {
-            "sent": "موڪليل",
-            "trash": "ترڪيب",
             "inbox": "انباڪس",
+            "sent": "موڪليل",
             "drafts": "مسودا",
+            "trash": "ترڪيب",
             "junk": "اسپام"
         },
         "empty": "هي ميل بڪس خالي آهي"
+    },
+    "message": {
+        "labels": {
+            "from": "کان:",
+            "to": "جي طرف:",
+            "date": "موڪليو:"
+        }
     },
     "mailboxMessage": {
         "to": "جي طرف:"
@@ -18,22 +25,8 @@ const locale = {
         "title": "سائن ان ڪريو",
         "action": "سائن ان ڪريو",
         "labels": {
-            "password": "پاسورڊ",
-            "username": "کاتي جو نالو"
-        }
-    },
-    "selection": {
-        "title": [
-            "{n} نياپا",
-            "{n} پيغام",
-            "{n} نياپا"
-        ]
-    },
-    "message": {
-        "labels": {
-            "date": "موڪليو:",
-            "to": "جي طرف:",
-            "from": "کان:"
+            "username": "کاتي جو نالو",
+            "password": "پاسورڊ"
         }
     },
     "accountButton": {
@@ -42,57 +35,87 @@ const locale = {
     "compose": {
         "labels": {
             "to": "جي طرف:",
-            "bcc": "بي سي سي:",
             "subject": "مضمون:",
-            "cc": "سي سي:"
+            "cc": "سي سي:",
+            "bcc": "بي سي سي:"
         },
         "tabs": {
             "newMessageTitle": "نئون پيغام"
         }
     },
     "editor": {
-        "color": {
-            "foreColor": "لکت",
-            "tooltip": "رنگ",
-            "backColor": "پسمنظر"
-        },
         "cmd": {
-            "fontName": "فونٽ جو قسم",
-            "redo": "ٻيهر ڪريو",
             "undo": "ڪٽيو",
-            "underline": "انڊرلائن",
+            "redo": "ٻيهر ڪريو",
+            "fontName": "فونٽ جو قسم",
+            "fontSize": "فانٽ سائيز",
             "bold": "بولڊ",
             "italic": "اٽلي",
+            "underline": "انڊرلائن",
             "justifyLeft": "ڇڏي ويو کاٻي",
-            "insertUnorderedList": "لسٽ",
             "justifyCenter": "وچ ۾ اڏايو",
-            "insertOrderedList": "نمبر واري فهرست",
             "justifyRight": "سڌو هلي",
-            "removeFormat": "فارميٽ هٽايو",
-            "fontSize": "فانٽ سائيز"
+            "insertUnorderedList": "لسٽ",
+            "insertOrderedList": "نمبر واري فهرست",
+            "removeFormat": "فارميٽ هٽايو"
+        },
+        "color": {
+            "tooltip": "رنگ",
+            "foreColor": "لکت",
+            "backColor": "پسمنظر"
         },
         "upload": {
             "tooltip": "منسلڪ ڪريو",
-            "remove": "هٽايو",
-            "add": "جوڙيو"
+            "add": "جوڙيو",
+            "remove": "هٽايو"
         },
         "send": "موڪليو"
     },
+    "selection": {
+        "title": [
+            "{n} نياپا",
+            "{n} پيغام",
+            "{n} نياپا"
+        ]
+    },
     "actions": {
-        "markAsRead": "پڙهيل طور نشان لڳايو",
-        "moveTo": "ڏانھن منتقل",
         "backToMailbox": "ميل بڪ ڏانهن واپس ٿيو",
         "reload": "ٻيهر لوڊ ڪريو",
-        "delete": "ختم ڪريو",
-        "forward": "اڳتي",
-        "markAsSpam": "اسپام طور نشان لڳايو",
-        "unMarkAsSpam": "هي اسپام ناهي",
-        "attachments": "منسلڪات",
-        "reply": "جواب لکو",
         "select": "چونڊيو",
         "markAsUnread": "پڙهيل نه نشان طور",
+        "markAsRead": "پڙهيل طور نشان لڳايو",
+        "moveTo": "ڏانھن منتقل",
+        "delete": "ختم ڪريو",
         "deletePermanently": "مستقل طور ختم ڪريو",
-        "discardDrafts": "مسودو رد ڪريو"
+        "discardDrafts": "مسودو رد ڪريو",
+        "markAsSpam": "اسپام طور نشان لڳايو",
+        "unMarkAsSpam": "هي اسپام ناهي",
+        "forward": "اڳتي",
+        "reply": "جواب لکو",
+        "attachments": "منسلڪات"
+    },
+    "weekDays": {
+        "0": "آچر",
+        "1": "سومر",
+        "2": "اڱارو",
+        "3": "اربع",
+        "4": "خميس",
+        "5": "جمع",
+        "6": "ڇنڇر"
+    },
+    "months": {
+        "0": "جنوري",
+        "1": "فيبروري",
+        "2": "مارچ",
+        "3": "اپريل",
+        "4": "مئي",
+        "5": "جون",
+        "6": "جولاء",
+        "7": "آگسٽ",
+        "8": "سيپٽمبر",
+        "9": "آڪٽوبر",
+        "10": "نومبر",
+        "11": "ڊسمبر"
     }
 };
 exports.default = locale;

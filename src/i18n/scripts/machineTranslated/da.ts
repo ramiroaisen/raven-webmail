@@ -1,4 +1,4 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
   "mailbox": {
@@ -93,6 +93,29 @@ const locale: Locale = {
     "forward": "Frem",
     "reply": "Svar",
     "attachments": "Vedhæftede filer"
+  },
+  "weekDays": {
+    "0": "Søndag",
+    "1": "Mandag",
+    "2": "tirsdag",
+    "3": "onsdag",
+    "4": "torsdag",
+    "5": "Fredag",
+    "6": "lørdag"
+  },
+  "months": {
+    "0": "januar",
+    "1": "februar",
+    "2": "marts",
+    "3": "April",
+    "4": "Kan",
+    "5": "juni",
+    "6": "juli",
+    "7": "august",
+    "8": "september",
+    "9": "oktober",
+    "10": "november",
+    "11": "december"
   }
 };
 

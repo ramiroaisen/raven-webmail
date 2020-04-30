@@ -1,47 +1,75 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
-    "mailboxMessage": {
-        "to": "Til:"
-    },
     "mailbox": {
         "title": {
-            "trash": "Søppel",
-            "junk": "spam",
-            "sent": "Sendt",
             "inbox": "Innboks",
-            "drafts": "utkast"
+            "sent": "Sendt",
+            "drafts": "utkast",
+            "trash": "Søppel",
+            "junk": "spam"
         },
         "empty": "Denne postkassen er tom"
     },
     "message": {
         "labels": {
-            "date": "Sendt:",
+            "from": "Fra:",
             "to": "Til:",
-            "from": "Fra:"
+            "date": "Sendt:"
         }
     },
+    "mailboxMessage": {
+        "to": "Til:"
+    },
     "login": {
-        "action": "Logg inn",
         "title": "Logg inn",
+        "action": "Logg inn",
         "labels": {
-            "password": "Passord",
-            "username": "Brukernavn"
+            "username": "Brukernavn",
+            "password": "Passord"
         }
     },
     "accountButton": {
         "logout": "Logg ut"
     },
     "compose": {
-        "tabs": {
-            "newMessageTitle": "Ny melding"
-        },
         "labels": {
+            "to": "Til:",
             "subject": "Emne:",
             "cc": "Cc:",
-            "bcc": "Blindkopi:",
-            "to": "Til:"
+            "bcc": "Blindkopi:"
+        },
+        "tabs": {
+            "newMessageTitle": "Ny melding"
         }
+    },
+    "editor": {
+        "cmd": {
+            "undo": "Angre",
+            "redo": "Gjøre om",
+            "fontName": "Fonttype",
+            "fontSize": "Skriftstørrelse",
+            "bold": "Modig",
+            "italic": "kursiv",
+            "underline": "understreking",
+            "justifyLeft": "Juster til venstre",
+            "justifyCenter": "Juster midten",
+            "justifyRight": "Juster rett",
+            "insertUnorderedList": "Liste",
+            "insertOrderedList": "Nummerert liste",
+            "removeFormat": "Fjern format"
+        },
+        "color": {
+            "tooltip": "Farge",
+            "foreColor": "Tekst",
+            "backColor": "Bakgrunn"
+        },
+        "upload": {
+            "tooltip": "Feste",
+            "add": "Legge til",
+            "remove": "Ta vekk"
+        },
+        "send": "Sende"
     },
     "selection": {
         "title": [
@@ -50,49 +78,44 @@ const locale = {
             "{n} meldinger"
         ]
     },
-    "editor": {
-        "upload": {
-            "tooltip": "Feste",
-            "add": "Legge til",
-            "remove": "Ta vekk"
-        },
-        "cmd": {
-            "redo": "Gjøre om",
-            "fontSize": "Skriftstørrelse",
-            "bold": "Modig",
-            "italic": "kursiv",
-            "underline": "understreking",
-            "insertOrderedList": "Nummerert liste",
-            "justifyRight": "Juster rett",
-            "justifyLeft": "Juster til venstre",
-            "insertUnorderedList": "Liste",
-            "justifyCenter": "Juster midten",
-            "removeFormat": "Fjern format",
-            "undo": "Angre",
-            "fontName": "Fonttype"
-        },
-        "color": {
-            "tooltip": "Farge",
-            "foreColor": "Tekst",
-            "backColor": "Bakgrunn"
-        },
-        "send": "Sende"
-    },
     "actions": {
-        "select": "Å velge",
         "backToMailbox": "Tilbake til postkassen",
-        "moveTo": "Flytte til",
-        "delete": "Slett",
+        "reload": "Reload",
+        "select": "Å velge",
         "markAsUnread": "Merk som ikke lest",
         "markAsRead": "Merk som lest",
-        "markAsSpam": "Marker som spam",
-        "discardDrafts": "Kast utkast",
+        "moveTo": "Flytte til",
+        "delete": "Slett",
         "deletePermanently": "Slett permanent",
-        "reply": "Svare",
-        "attachments": "vedlegg",
+        "discardDrafts": "Kast utkast",
+        "markAsSpam": "Marker som spam",
         "unMarkAsSpam": "Dette er ikke spam",
-        "reload": "Reload",
-        "forward": "Framover"
+        "forward": "Framover",
+        "reply": "Svare",
+        "attachments": "vedlegg"
+    },
+    "weekDays": {
+        "0": "søndag",
+        "1": "mandag",
+        "2": "tirsdag",
+        "3": "onsdag",
+        "4": "Torsdag",
+        "5": "fredag",
+        "6": "lørdag"
+    },
+    "months": {
+        "0": "januar",
+        "1": "februar",
+        "2": "mars",
+        "3": "april",
+        "4": "Kan",
+        "5": "juni",
+        "6": "juli",
+        "7": "august",
+        "8": "september",
+        "9": "oktober",
+        "10": "november",
+        "11": "desember"
     }
 };
 exports.default = locale;

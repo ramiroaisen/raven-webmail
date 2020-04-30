@@ -93,6 +93,29 @@ const locale = {
         "forward": "Gaanụ",
         "reply": "Zaghachi",
         "attachments": "Mgbakwunye"
+    },
+    "weekDays": {
+        "0": "Sọnde",
+        "1": "Mọnde",
+        "2": "Tuzdee",
+        "3": "Wenezde",
+        "4": "Tọzdee",
+        "5": "Fraide",
+        "6": "Satọde"
+    },
+    "months": {
+        "0": "Jenụwarị",
+        "1": "Febụwarị",
+        "2": "Machị",
+        "3": "Eprel",
+        "4": "Mee",
+        "5": "Jun",
+        "6": "Julaị",
+        "7": "Ọgọstụ",
+        "8": "Septemba",
+        "9": "Ọktoba",
+        "10": "Nọvemba",
+        "11": "Disemba"
     }
 };
 exports.default = locale;

@@ -93,6 +93,29 @@ const locale = {
         "forward": "Vers l'avant",
         "reply": "Réponse",
         "attachments": "Pièces jointes"
+    },
+    "weekDays": {
+        "0": "dimanche",
+        "1": "Lundi",
+        "2": "Mardi",
+        "3": "Mercredi",
+        "4": "Jeudi",
+        "5": "Vendredi",
+        "6": "samedi"
+    },
+    "months": {
+        "0": "janvier",
+        "1": "février",
+        "2": "Mars",
+        "3": "avril",
+        "4": "Mai",
+        "5": "Juin",
+        "6": "juillet",
+        "7": "août",
+        "8": "septembre",
+        "9": "octobre",
+        "10": "novembre",
+        "11": "décembre"
     }
 };
 exports.default = locale;

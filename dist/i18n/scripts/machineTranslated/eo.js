@@ -93,6 +93,29 @@ const locale = {
         "forward": "Antaŭen",
         "reply": "Respondu",
         "attachments": "Aldonaĵoj"
+    },
+    "weekDays": {
+        "0": "dimanĉo",
+        "1": "Lundon",
+        "2": "Marde",
+        "3": "Merkredo",
+        "4": "Ĵaŭdo",
+        "5": "Vendredo",
+        "6": "Sabato"
+    },
+    "months": {
+        "0": "Januaro",
+        "1": "Februaro",
+        "2": "Marto",
+        "3": "Aprilo",
+        "4": "Majo",
+        "5": "Jun",
+        "6": "Julio",
+        "7": "Aŭgusto",
+        "8": "Septembro",
+        "9": "Oktobro",
+        "10": "Novembro",
+        "11": "Decembro"
     }
 };
 exports.default = locale;

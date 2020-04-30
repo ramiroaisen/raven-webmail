@@ -1,6 +1,23 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
+  "mailbox": {
+    "title": {
+      "inbox": "Inbox",
+      "sent": "E rometsoe",
+      "drafts": "Litlhaku",
+      "trash": "Litšila",
+      "junk": "Spam"
+    },
+    "empty": "Lebokose lena la poso ha le na letho"
+  },
+  "message": {
+    "labels": {
+      "from": "E tsoa ho:",
+      "to": "Ho:",
+      "date": "E rometsoe:"
+    }
+  },
   "mailboxMessage": {
     "to": "Ho:"
   },
@@ -15,23 +32,6 @@ const locale: Locale = {
   "accountButton": {
     "logout": "tsoaha"
   },
-  "mailbox": {
-    "empty": "Lebokose lena la poso ha le na letho",
-    "title": {
-      "sent": "E rometsoe",
-      "junk": "Spam",
-      "trash": "Litšila",
-      "inbox": "Inbox",
-      "drafts": "Litlhaku"
-    }
-  },
-  "message": {
-    "labels": {
-      "from": "E tsoa ho:",
-      "to": "Ho:",
-      "date": "E rometsoe:"
-    }
-  },
   "compose": {
     "labels": {
       "to": "Ho:",
@@ -44,32 +44,32 @@ const locale: Locale = {
     }
   },
   "editor": {
-    "color": {
-      "foreColor": "Mongolo",
-      "backColor": "Semelo",
-      "tooltip": "Mmala"
+    "cmd": {
+      "undo": "Pheta",
+      "redo": "Redo",
+      "fontName": "Mofuta oa mofuta",
+      "fontSize": "Boholo ba fonte",
+      "bold": "Sebete",
+      "italic": "Mongolo o tšekaletseng",
+      "underline": "Hatella",
+      "justifyLeft": "Kopanya ka ho le letšehali",
+      "justifyCenter": "Kopanya bohareng",
+      "justifyRight": "Kopanya ka nepo",
+      "insertUnorderedList": "Lenane",
+      "insertOrderedList": "Lenane le ngotsoeng",
+      "removeFormat": "Tlosa sebopeho"
     },
-    "send": "Romella",
+    "color": {
+      "tooltip": "Mmala",
+      "foreColor": "Mongolo",
+      "backColor": "Semelo"
+    },
     "upload": {
       "tooltip": "Qobella",
       "add": "Eketsa",
       "remove": "Tlosa"
     },
-    "cmd": {
-      "undo": "Pheta",
-      "fontName": "Mofuta oa mofuta",
-      "bold": "Sebete",
-      "redo": "Redo",
-      "italic": "Mongolo o tšekaletseng",
-      "fontSize": "Boholo ba fonte",
-      "justifyRight": "Kopanya ka nepo",
-      "justifyCenter": "Kopanya bohareng",
-      "underline": "Hatella",
-      "insertOrderedList": "Lenane le ngotsoeng",
-      "justifyLeft": "Kopanya ka ho le letšehali",
-      "removeFormat": "Tlosa sebopeho",
-      "insertUnorderedList": "Lenane"
-    }
+    "send": "Romella"
   },
   "selection": {
     "title": [
@@ -79,20 +79,43 @@ const locale: Locale = {
     ]
   },
   "actions": {
+    "backToMailbox": "Khutlela lebokoseng la poso",
     "reload": "Pheta hape",
     "select": "Khetha",
-    "backToMailbox": "Khutlela lebokoseng la poso",
-    "delete": "Tlosa",
-    "moveTo": "Tsamaisetsa ho",
+    "markAsUnread": "Tšoaea eka ha e bale",
     "markAsRead": "Tšoaea joalo ka ha u baliloe",
-    "reply": "Karabo",
-    "markAsSpam": "Tšoaea joalo ka spam",
+    "moveTo": "Tsamaisetsa ho",
+    "delete": "Tlosa",
     "deletePermanently": "Tlosa ka ho sa feleng",
     "discardDrafts": "Lahla ngollano",
-    "forward": "E fetisetsa",
+    "markAsSpam": "Tšoaea joalo ka spam",
     "unMarkAsSpam": "Sena ha se spam",
-    "markAsUnread": "Tšoaea eka ha e bale",
+    "forward": "E fetisetsa",
+    "reply": "Karabo",
     "attachments": "Lits'oants'o"
+  },
+  "weekDays": {
+    "0": "Sontaha",
+    "1": "Mantaha",
+    "2": "Labobeli",
+    "3": "Laboraro",
+    "4": "Labone",
+    "5": "Labohlano",
+    "6": "Moqebelo"
+  },
+  "months": {
+    "0": "Pherekhong",
+    "1": "Hlakola",
+    "2": "Mots'eanong",
+    "3": "Mmesa",
+    "4": "Mots'eanong",
+    "5": "Jun",
+    "6": "Phupu",
+    "7": "Phato",
+    "8": "Loetse",
+    "9": "Mphalane",
+    "10": "Pulungoana",
+    "11": "Mots'eanong"
   }
 };
 

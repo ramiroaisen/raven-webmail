@@ -1,40 +1,15 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
-  "mailboxMessage": {
-    "to": "Pikeun:"
-  },
-  "compose": {
-    "tabs": {
-      "newMessageTitle": "Pesen anyar"
-    },
-    "labels": {
-      "to": "Pikeun:",
-      "subject": "Judul:",
-      "cc": "Cc:",
-      "bcc": "Bcc:"
-    }
-  },
   "mailbox": {
-    "empty": "Kotak surat ieu kosong",
     "title": {
-      "sent": "Dikirim",
-      "junk": "EMAIL sampah",
-      "trash": "Jarian",
       "inbox": "Koropak",
-      "drafts": "Drafna"
-    }
-  },
-  "login": {
-    "title": "Daptar",
-    "labels": {
-      "password": "Kecap aksés",
-      "username": "Username"
+      "sent": "Dikirim",
+      "drafts": "Drafna",
+      "trash": "Jarian",
+      "junk": "EMAIL sampah"
     },
-    "action": "Daptar"
-  },
-  "accountButton": {
-    "logout": "kaluar"
+    "empty": "Kotak surat ieu kosong"
   },
   "message": {
     "labels": {
@@ -42,6 +17,59 @@ const locale: Locale = {
       "to": "Pikeun:",
       "date": "Dikirim:"
     }
+  },
+  "mailboxMessage": {
+    "to": "Pikeun:"
+  },
+  "login": {
+    "title": "Daptar",
+    "action": "Daptar",
+    "labels": {
+      "username": "Username",
+      "password": "Kecap aksés"
+    }
+  },
+  "accountButton": {
+    "logout": "kaluar"
+  },
+  "compose": {
+    "labels": {
+      "to": "Pikeun:",
+      "subject": "Judul:",
+      "cc": "Cc:",
+      "bcc": "Bcc:"
+    },
+    "tabs": {
+      "newMessageTitle": "Pesen anyar"
+    }
+  },
+  "editor": {
+    "cmd": {
+      "undo": "Undo",
+      "redo": "Redo",
+      "fontName": "Jenis font",
+      "fontSize": "Ukuran font",
+      "bold": "Tebas",
+      "italic": "Tiasa",
+      "underline": "Garis luhur",
+      "justifyLeft": "Berangkat kénca",
+      "justifyCenter": "Éja tengah",
+      "justifyRight": "Saluyukeun leres",
+      "insertUnorderedList": "Daptar",
+      "insertOrderedList": "Daptar béréndélan",
+      "removeFormat": "Hapus pormat"
+    },
+    "color": {
+      "tooltip": "Warna",
+      "foreColor": "Téks",
+      "backColor": "Latar latar"
+    },
+    "upload": {
+      "tooltip": "Kantét",
+      "add": "Tambihkeun",
+      "remove": "Leungitkeun"
+    },
+    "send": "Ngirim"
   },
   "selection": {
     "title": [
@@ -51,48 +79,43 @@ const locale: Locale = {
     ]
   },
   "actions": {
-    "select": "Pilih",
-    "reload": "Reload",
-    "markAsRead": "Tandaan salaku maca",
-    "delete": "Mupus",
-    "markAsSpam": "Tandaan spam",
-    "discardDrafts": "Piceun Draf",
-    "forward": "Teraskeun",
-    "unMarkAsSpam": "Ieu sanés lepat spam",
-    "attachments": "Gantelkeun",
-    "reply": "Walon",
     "backToMailbox": "Balik deui ka kotak surat",
-    "moveTo": "Mindahkeun ka",
+    "reload": "Reload",
+    "select": "Pilih",
     "markAsUnread": "Tandaan anu henteu kabaca",
-    "deletePermanently": "Hapus permanén"
+    "markAsRead": "Tandaan salaku maca",
+    "moveTo": "Mindahkeun ka",
+    "delete": "Mupus",
+    "deletePermanently": "Hapus permanén",
+    "discardDrafts": "Piceun Draf",
+    "markAsSpam": "Tandaan spam",
+    "unMarkAsSpam": "Ieu sanés lepat spam",
+    "forward": "Teraskeun",
+    "reply": "Walon",
+    "attachments": "Gantelkeun"
   },
-  "editor": {
-    "upload": {
-      "tooltip": "Kantét",
-      "add": "Tambihkeun",
-      "remove": "Leungitkeun"
-    },
-    "send": "Ngirim",
-    "color": {
-      "tooltip": "Warna",
-      "backColor": "Latar latar",
-      "foreColor": "Téks"
-    },
-    "cmd": {
-      "undo": "Undo",
-      "fontName": "Jenis font",
-      "underline": "Garis luhur",
-      "justifyLeft": "Berangkat kénca",
-      "justifyRight": "Saluyukeun leres",
-      "insertUnorderedList": "Daptar",
-      "insertOrderedList": "Daptar béréndélan",
-      "removeFormat": "Hapus pormat",
-      "fontSize": "Ukuran font",
-      "redo": "Redo",
-      "bold": "Tebas",
-      "justifyCenter": "Éja tengah",
-      "italic": "Tiasa"
-    }
+  "weekDays": {
+    "0": "Minggu",
+    "1": "Senén",
+    "2": "Salasa",
+    "3": "Rebo",
+    "4": "Kemis",
+    "5": "Jumuah",
+    "6": "Saptu"
+  },
+  "months": {
+    "0": "Januari",
+    "1": "Pebruari",
+    "2": "Maret",
+    "3": "April",
+    "4": "Mei",
+    "5": "Jun",
+    "6": "Juli",
+    "7": "Agustus",
+    "8": "Séptémber",
+    "9": "Oktober",
+    "10": "Nopémber",
+    "11": "Désémber"
   }
 };
 

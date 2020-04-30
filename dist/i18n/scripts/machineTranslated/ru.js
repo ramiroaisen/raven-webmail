@@ -1,6 +1,16 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
+    "mailbox": {
+        "title": {
+            "inbox": "входящие",
+            "sent": "Отправлено",
+            "drafts": "Черновики",
+            "trash": "дрянь",
+            "junk": "Спам"
+        },
+        "empty": "Этот почтовый ящик пуст"
+    },
     "message": {
         "labels": {
             "from": "От:",
@@ -11,65 +21,55 @@ const locale = {
     "mailboxMessage": {
         "to": "Для того, чтобы:"
     },
+    "login": {
+        "title": "войти в систему",
+        "action": "войти в систему",
+        "labels": {
+            "username": "имя пользователя",
+            "password": "пароль"
+        }
+    },
     "accountButton": {
         "logout": "выход"
     },
-    "mailbox": {
-        "empty": "Этот почтовый ящик пуст",
-        "title": {
-            "inbox": "входящие",
-            "drafts": "Черновики",
-            "trash": "дрянь",
-            "junk": "Спам",
-            "sent": "Отправлено"
-        }
-    },
-    "login": {
-        "title": "войти в систему",
-        "labels": {
-            "password": "пароль",
-            "username": "имя пользователя"
-        },
-        "action": "войти в систему"
-    },
     "compose": {
-        "tabs": {
-            "newMessageTitle": "Новое сообщение"
-        },
         "labels": {
             "to": "Для того, чтобы:",
+            "subject": "Тема:",
             "cc": "Cc:",
-            "bcc": "Bcc:",
-            "subject": "Тема:"
+            "bcc": "Bcc:"
+        },
+        "tabs": {
+            "newMessageTitle": "Новое сообщение"
         }
     },
     "editor": {
-        "color": {
-            "foreColor": "Текст",
-            "tooltip": "цвет",
-            "backColor": "Фон"
-        },
-        "send": "послать",
         "cmd": {
             "undo": "Отменить",
             "redo": "Redo",
-            "bold": "Смелый",
-            "underline": "Подчеркнутый",
-            "italic": "курсивный",
-            "insertUnorderedList": "Список",
-            "insertOrderedList": "Нумерованный список",
-            "removeFormat": "Удалить формат",
-            "justifyCenter": "Выровнять середину",
             "fontName": "Тип шрифта",
             "fontSize": "Размер шрифта",
+            "bold": "Смелый",
+            "italic": "курсивный",
+            "underline": "Подчеркнутый",
             "justifyLeft": "Выровнять по левому краю",
-            "justifyRight": "Выровнять право"
+            "justifyCenter": "Выровнять середину",
+            "justifyRight": "Выровнять право",
+            "insertUnorderedList": "Список",
+            "insertOrderedList": "Нумерованный список",
+            "removeFormat": "Удалить формат"
+        },
+        "color": {
+            "tooltip": "цвет",
+            "foreColor": "Текст",
+            "backColor": "Фон"
         },
         "upload": {
-            "remove": "Удалить",
             "tooltip": "Прикреплять",
-            "add": "Добавить"
-        }
+            "add": "Добавить",
+            "remove": "Удалить"
+        },
+        "send": "послать"
     },
     "selection": {
         "title": [
@@ -80,19 +80,42 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Вернуться к почтовому ящику",
-        "select": "Выбрать",
-        "delete": "удалять",
-        "markAsRead": "пометить, как прочитанное",
-        "markAsUnread": "Пометить как не прочитанное",
-        "moveTo": "Переместить в",
-        "forward": "Вперед",
-        "markAsSpam": "Отметить как спам",
         "reload": "Reload",
+        "select": "Выбрать",
+        "markAsUnread": "Пометить как не прочитанное",
+        "markAsRead": "пометить, как прочитанное",
+        "moveTo": "Переместить в",
+        "delete": "удалять",
+        "deletePermanently": "Удалить навсегда",
         "discardDrafts": "Отменить черновики",
-        "reply": "Ответить",
-        "attachments": "Вложения",
+        "markAsSpam": "Отметить как спам",
         "unMarkAsSpam": "Это не спам",
-        "deletePermanently": "Удалить навсегда"
+        "forward": "Вперед",
+        "reply": "Ответить",
+        "attachments": "Вложения"
+    },
+    "weekDays": {
+        "0": "Воскресенье",
+        "1": "понедельник",
+        "2": "вторник",
+        "3": "среда",
+        "4": "Четверг",
+        "5": "пятница",
+        "6": "суббота"
+    },
+    "months": {
+        "0": "январь",
+        "1": "февраль",
+        "2": "марш",
+        "3": "апреля",
+        "4": "май",
+        "5": "июнь",
+        "6": "июль",
+        "7": "августейший",
+        "8": "сентябрь",
+        "9": "октября",
+        "10": "ноябрь",
+        "11": "Декабрь"
     }
 };
 exports.default = locale;

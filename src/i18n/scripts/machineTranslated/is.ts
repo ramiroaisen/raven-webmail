@@ -1,4 +1,4 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
   "mailbox": {
@@ -93,6 +93,29 @@ const locale: Locale = {
     "forward": "Áfram",
     "reply": "Svaraðu",
     "attachments": "Viðhengi"
+  },
+  "weekDays": {
+    "0": "Sunnudag",
+    "1": "Mánudagur",
+    "2": "Þriðjudag",
+    "3": "Miðvikudag",
+    "4": "Fimmtudag",
+    "5": "Föstudag",
+    "6": "Laugardag"
+  },
+  "months": {
+    "0": "Janúar",
+    "1": "Febrúar",
+    "2": "Mars",
+    "3": "Apríl",
+    "4": "Maí",
+    "5": "Júní",
+    "6": "Júlí",
+    "7": "Ágúst",
+    "8": "September",
+    "9": "október",
+    "10": "Nóvember",
+    "11": "Desember"
   }
 };
 

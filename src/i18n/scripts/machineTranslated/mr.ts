@@ -1,6 +1,23 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
+  "mailbox": {
+    "title": {
+      "inbox": "इनबॉक्स",
+      "sent": "पाठविले",
+      "drafts": "मसुदे",
+      "trash": "कचरा",
+      "junk": "स्पॅम"
+    },
+    "empty": "हा मेलबॉक्स रिक्त आहे"
+  },
+  "message": {
+    "labels": {
+      "from": "कडून:",
+      "to": "प्रतिः",
+      "date": "पाठविला:"
+    }
+  },
   "mailboxMessage": {
     "to": "प्रतिः"
   },
@@ -8,68 +25,51 @@ const locale: Locale = {
     "title": "साइन इन करा",
     "action": "साइन इन करा",
     "labels": {
-      "password": "संकेतशब्द",
-      "username": "वापरकर्तानाव"
-    }
-  },
-  "message": {
-    "labels": {
-      "to": "प्रतिः",
-      "from": "कडून:",
-      "date": "पाठविला:"
+      "username": "वापरकर्तानाव",
+      "password": "संकेतशब्द"
     }
   },
   "accountButton": {
     "logout": "साइन आउट करा"
   },
-  "mailbox": {
-    "empty": "हा मेलबॉक्स रिक्त आहे",
-    "title": {
-      "sent": "पाठविले",
-      "inbox": "इनबॉक्स",
-      "junk": "स्पॅम",
-      "drafts": "मसुदे",
-      "trash": "कचरा"
-    }
-  },
   "compose": {
-    "tabs": {
-      "newMessageTitle": "नवीन संदेश"
-    },
     "labels": {
+      "to": "प्रतिः",
       "subject": "विषय:",
       "cc": "सीसी:",
-      "to": "प्रतिः",
       "bcc": "Bcc:"
+    },
+    "tabs": {
+      "newMessageTitle": "नवीन संदेश"
     }
   },
   "editor": {
-    "send": "पाठवा",
+    "cmd": {
+      "undo": "पूर्ववत करा",
+      "redo": "पुन्हा करा",
+      "fontName": "फॉन्ट प्रकार",
+      "fontSize": "अक्षराचा आकार",
+      "bold": "धीट",
+      "italic": "तिर्यक",
+      "underline": "अधोरेखित",
+      "justifyLeft": "डावीकडे संरेखित करा",
+      "justifyCenter": "मध्यभागी संरेखित करा",
+      "justifyRight": "उजवीकडे संरेखित करा",
+      "insertUnorderedList": "यादी",
+      "insertOrderedList": "क्रमांकित यादी",
+      "removeFormat": "स्वरूप काढा"
+    },
     "color": {
       "tooltip": "रंग",
       "foreColor": "मजकूर",
       "backColor": "पार्श्वभूमी"
     },
-    "cmd": {
-      "undo": "पूर्ववत करा",
-      "redo": "पुन्हा करा",
-      "bold": "धीट",
-      "fontName": "फॉन्ट प्रकार",
-      "italic": "तिर्यक",
-      "justifyLeft": "डावीकडे संरेखित करा",
-      "justifyCenter": "मध्यभागी संरेखित करा",
-      "insertUnorderedList": "यादी",
-      "removeFormat": "स्वरूप काढा",
-      "insertOrderedList": "क्रमांकित यादी",
-      "fontSize": "अक्षराचा आकार",
-      "underline": "अधोरेखित",
-      "justifyRight": "उजवीकडे संरेखित करा"
-    },
     "upload": {
-      "remove": "काढा",
       "tooltip": "संलग्न करा",
-      "add": "जोडा"
-    }
+      "add": "जोडा",
+      "remove": "काढा"
+    },
+    "send": "पाठवा"
   },
   "selection": {
     "title": [
@@ -79,20 +79,43 @@ const locale: Locale = {
     ]
   },
   "actions": {
-    "select": "निवडा",
-    "reload": "रीलोड करा",
     "backToMailbox": "मेलबॉक्सकडे परत",
+    "reload": "रीलोड करा",
+    "select": "निवडा",
+    "markAsUnread": "वाचले नाही म्हणून चिन्हांकित करा",
     "markAsRead": "वाचलेले म्हणून चिन्हांकित करा",
     "moveTo": "पुढे व्हा",
-    "deletePermanently": "कायमचे हटवा",
-    "markAsUnread": "वाचले नाही म्हणून चिन्हांकित करा",
-    "unMarkAsSpam": "हे स्पॅम नाही",
-    "discardDrafts": "मसुदे टाकून द्या",
-    "attachments": "जोड",
-    "forward": "पुढे",
     "delete": "हटवा",
+    "deletePermanently": "कायमचे हटवा",
+    "discardDrafts": "मसुदे टाकून द्या",
     "markAsSpam": "स्पॅम म्हणून चिन्हांकित करा",
-    "reply": "प्रत्युत्तर द्या"
+    "unMarkAsSpam": "हे स्पॅम नाही",
+    "forward": "पुढे",
+    "reply": "प्रत्युत्तर द्या",
+    "attachments": "जोड"
+  },
+  "weekDays": {
+    "0": "रविवारी",
+    "1": "सोमवार",
+    "2": "मंगळवार",
+    "3": "बुधवार",
+    "4": "गुरुवार",
+    "5": "शुक्रवार",
+    "6": "शनिवार"
+  },
+  "months": {
+    "0": "जानेवारी",
+    "1": "फेब्रुवारी",
+    "2": "मार्च",
+    "3": "एप्रिल",
+    "4": "मे",
+    "5": "जून",
+    "6": "जुलै",
+    "7": "ऑगस्ट",
+    "8": "सप्टेंबर",
+    "9": "ऑक्टोबर",
+    "10": "नोव्हेंबर",
+    "11": "डिसेंबर"
   }
 };
 

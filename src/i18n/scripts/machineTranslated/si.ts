@@ -1,75 +1,75 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
-  "mailboxMessage": {
-    "to": "වෙත:"
+  "mailbox": {
+    "title": {
+      "inbox": "එන ලිපි",
+      "sent": "යවන ලදි",
+      "drafts": "කෙටුම්පත්",
+      "trash": "කුණු කූඩය",
+      "junk": "ආයාචිත තැපැල්"
+    },
+    "empty": "මෙම තැපැල් පෙට්ටිය හිස් ය"
   },
   "message": {
     "labels": {
-      "to": "වෙත:",
       "from": "සිට:",
+      "to": "වෙත:",
       "date": "යවන ලද්දේ:"
+    }
+  },
+  "mailboxMessage": {
+    "to": "වෙත:"
+  },
+  "login": {
+    "title": "පුරන්න",
+    "action": "පුරන්න",
+    "labels": {
+      "username": "පරිශීලක නාමය",
+      "password": "මුරපදය"
     }
   },
   "accountButton": {
     "logout": "වරන්න"
   },
-  "mailbox": {
-    "empty": "මෙම තැපැල් පෙට්ටිය හිස් ය",
-    "title": {
-      "inbox": "එන ලිපි",
-      "drafts": "කෙටුම්පත්",
-      "trash": "කුණු කූඩය",
-      "sent": "යවන ලදි",
-      "junk": "ආයාචිත තැපැල්"
-    }
-  },
-  "login": {
-    "labels": {
-      "password": "මුරපදය",
-      "username": "පරිශීලක නාමය"
-    },
-    "action": "පුරන්න",
-    "title": "පුරන්න"
-  },
   "compose": {
-    "tabs": {
-      "newMessageTitle": "නව පණිවිඩය"
-    },
     "labels": {
       "to": "වෙත:",
       "subject": "විෂය:",
       "cc": "සීසී:",
       "bcc": "Bcc:"
+    },
+    "tabs": {
+      "newMessageTitle": "නව පණිවිඩය"
     }
   },
   "editor": {
-    "send": "යවන්න",
+    "cmd": {
+      "undo": "අහෝසි කරන්න",
+      "redo": "නැවත කරන්න",
+      "fontName": "අකුරු වර්ගය",
+      "fontSize": "අකුරු ප්‍රමාණය",
+      "bold": "නිර්භීත",
+      "italic": "ඇල අකුරු",
+      "underline": "යටි ඉරි",
+      "justifyLeft": "වමට පෙළගස්වන්න",
+      "justifyCenter": "මැදට පෙළගස්වන්න",
+      "justifyRight": "දකුණට පෙළගස්වන්න",
+      "insertUnorderedList": "ලැයිස්තුව",
+      "insertOrderedList": "අංකිත ලැයිස්තුව",
+      "removeFormat": "ආකෘතිය ඉවත් කරන්න"
+    },
+    "color": {
+      "tooltip": "වර්ණ",
+      "foreColor": "පෙළ",
+      "backColor": "පසුබිම"
+    },
     "upload": {
       "tooltip": "අමුණන්න",
       "add": "එකතු කරන්න",
       "remove": "ඉවත් කරන්න"
     },
-    "cmd": {
-      "undo": "අහෝසි කරන්න",
-      "fontName": "අකුරු වර්ගය",
-      "redo": "නැවත කරන්න",
-      "bold": "නිර්භීත",
-      "insertUnorderedList": "ලැයිස්තුව",
-      "justifyLeft": "වමට පෙළගස්වන්න",
-      "justifyCenter": "මැදට පෙළගස්වන්න",
-      "justifyRight": "දකුණට පෙළගස්වන්න",
-      "removeFormat": "ආකෘතිය ඉවත් කරන්න",
-      "insertOrderedList": "අංකිත ලැයිස්තුව",
-      "italic": "ඇල අකුරු",
-      "fontSize": "අකුරු ප්‍රමාණය",
-      "underline": "යටි ඉරි"
-    },
-    "color": {
-      "backColor": "පසුබිම",
-      "foreColor": "පෙළ",
-      "tooltip": "වර්ණ"
-    }
+    "send": "යවන්න"
   },
   "selection": {
     "title": [
@@ -79,20 +79,43 @@ const locale: Locale = {
     ]
   },
   "actions": {
-    "reload": "නැවත පූරණය කරන්න",
     "backToMailbox": "තැපැල් පෙට්ටියට ආපසු",
-    "moveTo": "වෙත යන්න",
-    "deletePermanently": "ස්ථිරවම මකන්න",
-    "markAsUnread": "කියවා නැති බව සලකුණු කරන්න",
-    "discardDrafts": "කෙටුම්පත් ඉවතලන්න",
-    "forward": "ඉදිරියට",
-    "attachments": "ඇමුණුම්",
-    "unMarkAsSpam": "මෙය අයාචිත තැපැල් නොවේ",
+    "reload": "නැවත පූරණය කරන්න",
     "select": "තෝරන්න",
+    "markAsUnread": "කියවා නැති බව සලකුණු කරන්න",
     "markAsRead": "කියවූ බවට සලකුණු කරන්න",
+    "moveTo": "වෙත යන්න",
     "delete": "මකන්න",
+    "deletePermanently": "ස්ථිරවම මකන්න",
+    "discardDrafts": "කෙටුම්පත් ඉවතලන්න",
     "markAsSpam": "අයාචිත තැපැල් ලෙස සලකුණු කරන්න",
-    "reply": "පිලිතුරු"
+    "unMarkAsSpam": "මෙය අයාචිත තැපැල් නොවේ",
+    "forward": "ඉදිරියට",
+    "reply": "පිලිතුරු",
+    "attachments": "ඇමුණුම්"
+  },
+  "weekDays": {
+    "0": "ඉරිදා",
+    "1": "සඳුදා",
+    "2": "අඟහරුවාදා",
+    "3": "බදාදා",
+    "4": "බ්‍රහස්පතින්දා",
+    "5": "සිකුරාදා",
+    "6": "සෙනසුරාදා"
+  },
+  "months": {
+    "0": "ජනවාරි",
+    "1": "පෙබරවාරි",
+    "2": "මාර්තු",
+    "3": "අප්රේල්",
+    "4": "මැයි",
+    "5": "ජුනි",
+    "6": "ජුලි",
+    "7": "අගෝස්තු",
+    "8": "සැප්තැම්බර්",
+    "9": "ඔක්තෝම්බර්",
+    "10": "නොවැම්බර්",
+    "11": "දෙසැම්බර්"
   }
 };
 

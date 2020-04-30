@@ -1,19 +1,75 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const locale = {
+    "mailbox": {
+        "title": {
+            "inbox": "Postvak IN",
+            "sent": "Verzonden",
+            "drafts": "Concepten",
+            "trash": "Prullenbak",
+            "junk": "Spam"
+        },
+        "empty": "Deze mailbox is leeg"
+    },
+    "message": {
+        "labels": {
+            "from": "Van:",
+            "to": "Naar:",
+            "date": "Verzonden:"
+        }
+    },
     "mailboxMessage": {
         "to": "Naar:"
-    },
-    "accountButton": {
-        "logout": "Afmelden"
     },
     "login": {
         "title": "Log in",
         "action": "Log in",
         "labels": {
-            "password": "Wachtwoord",
-            "username": "Gebruikersnaam"
+            "username": "Gebruikersnaam",
+            "password": "Wachtwoord"
         }
+    },
+    "accountButton": {
+        "logout": "Afmelden"
+    },
+    "compose": {
+        "labels": {
+            "to": "Naar:",
+            "subject": "Onderwerpen:",
+            "cc": "CC:",
+            "bcc": "Bcc:"
+        },
+        "tabs": {
+            "newMessageTitle": "Nieuw bericht"
+        }
+    },
+    "editor": {
+        "cmd": {
+            "undo": "Ongedaan maken",
+            "redo": "Opnieuw doen",
+            "fontName": "Lettertype",
+            "fontSize": "Lettertypegrootte",
+            "bold": "Stoutmoedig",
+            "italic": "Cursief",
+            "underline": "Onderstrepen",
+            "justifyLeft": "Links uitlijnen",
+            "justifyCenter": "Lijn het midden uit",
+            "justifyRight": "Rechts uitlijnen",
+            "insertUnorderedList": "Lijst",
+            "insertOrderedList": "Genummerde lijst",
+            "removeFormat": "Formaat verwijderen"
+        },
+        "color": {
+            "tooltip": "Kleur",
+            "foreColor": "Tekst",
+            "backColor": "Achtergrond"
+        },
+        "upload": {
+            "tooltip": "Vastmaken",
+            "add": "Toevoegen",
+            "remove": "Verwijderen"
+        },
+        "send": "Sturen"
     },
     "selection": {
         "title": [
@@ -22,77 +78,44 @@ const locale = {
             "{n} berichten"
         ]
     },
-    "message": {
-        "labels": {
-            "from": "Van:",
-            "date": "Verzonden:",
-            "to": "Naar:"
-        }
-    },
-    "mailbox": {
-        "empty": "Deze mailbox is leeg",
-        "title": {
-            "inbox": "Postvak IN",
-            "sent": "Verzonden",
-            "junk": "Spam",
-            "drafts": "Concepten",
-            "trash": "Prullenbak"
-        }
-    },
-    "compose": {
-        "tabs": {
-            "newMessageTitle": "Nieuw bericht"
-        },
-        "labels": {
-            "to": "Naar:",
-            "bcc": "Bcc:",
-            "cc": "CC:",
-            "subject": "Onderwerpen:"
-        }
-    },
-    "editor": {
-        "color": {
-            "foreColor": "Tekst",
-            "tooltip": "Kleur",
-            "backColor": "Achtergrond"
-        },
-        "upload": {
-            "tooltip": "Vastmaken",
-            "add": "Toevoegen",
-            "remove": "Verwijderen"
-        },
-        "send": "Sturen",
-        "cmd": {
-            "fontName": "Lettertype",
-            "italic": "Cursief",
-            "undo": "Ongedaan maken",
-            "underline": "Onderstrepen",
-            "justifyRight": "Rechts uitlijnen",
-            "justifyCenter": "Lijn het midden uit",
-            "justifyLeft": "Links uitlijnen",
-            "insertUnorderedList": "Lijst",
-            "removeFormat": "Formaat verwijderen",
-            "insertOrderedList": "Genummerde lijst",
-            "redo": "Opnieuw doen",
-            "fontSize": "Lettertypegrootte",
-            "bold": "Stoutmoedig"
-        }
-    },
     "actions": {
-        "select": "Selecteer",
-        "markAsRead": "Markeer als gelezen",
+        "backToMailbox": "Terug naar mailbox",
         "reload": "Herladen",
+        "select": "Selecteer",
+        "markAsUnread": "Markeer als niet gelezen",
+        "markAsRead": "Markeer als gelezen",
+        "moveTo": "Ga naar",
         "delete": "Verwijderen",
         "deletePermanently": "Permanent verwijderen",
-        "markAsUnread": "Markeer als niet gelezen",
-        "moveTo": "Ga naar",
-        "markAsSpam": "Markeer als spam",
-        "attachments": "Bijlagen",
-        "reply": "Antwoord",
         "discardDrafts": "Gooi concepten weg",
-        "backToMailbox": "Terug naar mailbox",
+        "markAsSpam": "Markeer als spam",
+        "unMarkAsSpam": "Dit is geen spam",
         "forward": "Vooruit",
-        "unMarkAsSpam": "Dit is geen spam"
+        "reply": "Antwoord",
+        "attachments": "Bijlagen"
+    },
+    "weekDays": {
+        "0": "zondag",
+        "1": "maandag",
+        "2": "dinsdag",
+        "3": "woensdag",
+        "4": "donderdag",
+        "5": "vrijdag",
+        "6": "zaterdag"
+    },
+    "months": {
+        "0": "januari",
+        "1": "februari",
+        "2": "maart",
+        "3": "april",
+        "4": "mei",
+        "5": "Jun",
+        "6": "juli",
+        "7": "augustus",
+        "8": "september",
+        "9": "oktober",
+        "10": "November",
+        "11": "december"
     }
 };
 exports.default = locale;

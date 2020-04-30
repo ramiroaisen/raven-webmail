@@ -1,6 +1,16 @@
-import {Locale} from "../../types";
+import { Locale } from "../../types";
  
 const locale: Locale = {
+  "mailbox": {
+    "title": {
+      "inbox": "Apo-iwọle",
+      "sent": "Ti firanṣẹ",
+      "drafts": "Awọn Akọpamọ",
+      "trash": "Idọti",
+      "junk": "Àwúrúju"
+    },
+    "empty": "Apoti meeli yii ti ṣofo"
+  },
   "message": {
     "labels": {
       "from": "Lati:",
@@ -8,17 +18,29 @@ const locale: Locale = {
       "date": "Ti firanṣẹ:"
     }
   },
+  "mailboxMessage": {
+    "to": "Si:"
+  },
+  "login": {
+    "title": "wọle",
+    "action": "wọle",
+    "labels": {
+      "username": "Olumulo",
+      "password": "Ọrọ aṣina"
+    }
+  },
   "accountButton": {
     "logout": "ifowosi jada"
   },
-  "mailbox": {
-    "empty": "Apoti meeli yii ti ṣofo",
-    "title": {
-      "sent": "Ti firanṣẹ",
-      "trash": "Idọti",
-      "drafts": "Awọn Akọpamọ",
-      "junk": "Àwúrúju",
-      "inbox": "Apo-iwọle"
+  "compose": {
+    "labels": {
+      "to": "Si:",
+      "subject": "Koko-ọrọ:",
+      "cc": "Cc:",
+      "bcc": "Bcc"
+    },
+    "tabs": {
+      "newMessageTitle": "Ifiranṣẹ tuntun"
     }
   },
   "editor": {
@@ -26,39 +48,28 @@ const locale: Locale = {
       "undo": "Mu kuro",
       "redo": "Redo",
       "fontName": "Font iru",
-      "bold": "Bójú",
       "fontSize": "Font iwọn",
+      "bold": "Bójú",
       "italic": "Italic",
-      "justifyLeft": "Parapọ osi",
-      "justifyRight": "Parapọ ọtun",
-      "justifyCenter": "Parapọ aarin",
       "underline": "Si underline",
+      "justifyLeft": "Parapọ osi",
+      "justifyCenter": "Parapọ aarin",
+      "justifyRight": "Parapọ ọtun",
       "insertUnorderedList": "Atokọ",
-      "removeFormat": "Mu ọna kika yọ",
-      "insertOrderedList": "Atokọ atokọ"
+      "insertOrderedList": "Atokọ atokọ",
+      "removeFormat": "Mu ọna kika yọ"
     },
     "color": {
       "tooltip": "Awọ",
       "foreColor": "Ọrọ",
       "backColor": "Abẹlẹ"
     },
-    "send": "Firanṣẹ",
     "upload": {
-      "add": "Ṣafikun",
       "tooltip": "Sopọ",
+      "add": "Ṣafikun",
       "remove": "Yọọ kuro"
-    }
-  },
-  "mailboxMessage": {
-    "to": "Si:"
-  },
-  "login": {
-    "action": "wọle",
-    "labels": {
-      "username": "Olumulo",
-      "password": "Ọrọ aṣina"
     },
-    "title": "wọle"
+    "send": "Firanṣẹ"
   },
   "selection": {
     "title": [
@@ -67,32 +78,44 @@ const locale: Locale = {
       "{n} awọn ifiranṣẹ"
     ]
   },
-  "compose": {
-    "tabs": {
-      "newMessageTitle": "Ifiranṣẹ tuntun"
-    },
-    "labels": {
-      "to": "Si:",
-      "bcc": "Bcc",
-      "cc": "Cc:",
-      "subject": "Koko-ọrọ:"
-    }
-  },
   "actions": {
+    "backToMailbox": "Pada si apoti leta",
     "reload": "Tun gbee si",
     "select": "Yan",
-    "delete": "Paarẹ",
+    "markAsUnread": "Saami bi a ko ti ka",
     "markAsRead": "Samisi bi kika",
     "moveTo": "Gbe si",
-    "markAsUnread": "Saami bi a ko ti ka",
-    "backToMailbox": "Pada si apoti leta",
+    "delete": "Paarẹ",
+    "deletePermanently": "Paarẹ patapata",
     "discardDrafts": "Sọ awọn dakọ",
     "markAsSpam": "Samisi bi àwúrúju",
     "unMarkAsSpam": "Eyi kii ṣe àwúrúju",
-    "reply": "Fesi",
     "forward": "Siwaju",
-    "attachments": "Awọn asomọ",
-    "deletePermanently": "Paarẹ patapata"
+    "reply": "Fesi",
+    "attachments": "Awọn asomọ"
+  },
+  "weekDays": {
+    "0": "Ọjọ Sundee",
+    "1": "Ọjọ Mọndee",
+    "2": "Ọjọru",
+    "3": "Ọjọru",
+    "4": "Ọjọbọ",
+    "5": "Ọjọru",
+    "6": "Satide"
+  },
+  "months": {
+    "0": "Oṣu Kini",
+    "1": "Oṣu Kínní",
+    "2": "Oṣu Kẹta",
+    "3": "Oṣu Kẹrin",
+    "4": "Oṣu Karun",
+    "5": "Oṣu Kẹta",
+    "6": "Oṣu Keje",
+    "7": "Oṣu Kẹjọ",
+    "8": "Oṣu Kẹsan",
+    "9": "Oṣu Kẹwa",
+    "10": "Oṣu kọkanla",
+    "11": "Oṣu kejila"
   }
 };
 
