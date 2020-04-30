@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "خەت ساندۇقىغا قايتىش",
-        "reload": "قايتا يۈكلەڭ",
+        "reload": "يېڭىلاش",
         "select": "تاللاڭ",
         "markAsUnread": "ئوقۇمىغاندەك بەلگە قويۇڭ",
         "markAsRead": "ئوقۇغاندەك بەلگە قويۇڭ",

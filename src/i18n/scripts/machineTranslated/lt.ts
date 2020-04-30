@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Grįžti į pašto dėžutę",
-    "reload": "Perkrauti iš naujo",
+    "reload": "Atnaujinkite",
     "select": "Pasirinkite",
     "markAsUnread": "Pažymėti kaip neskaitytą",
     "markAsRead": "Žymėti kaip skaitytas",

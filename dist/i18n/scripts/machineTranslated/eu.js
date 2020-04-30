@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Itzuli postontzira",
-        "reload": "Birkargatu",
+        "reload": "Freskatu",
         "select": "Aukeratu",
         "markAsUnread": "Markatu irakurri gabe",
         "markAsRead": "Markatu irakurri ahala",

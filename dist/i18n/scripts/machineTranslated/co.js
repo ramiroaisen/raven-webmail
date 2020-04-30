@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Torna à a mailbox",
-        "reload": "Ricaricà",
+        "reload": "Rinnovà",
         "select": "Selezziunate",
         "markAsUnread": "Marca cum'è micca lettu",
         "markAsRead": "Marca cum'è leghje",

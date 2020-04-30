@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Επιστροφή στο γραμματοκιβώτιο",
-    "reload": "Φορτώνω πάλι",
+    "reload": "Φρεσκάρω",
     "select": "Επιλέγω",
     "markAsUnread": "Επισήμανση ως μη αναγνωσμένου",
     "markAsRead": "Σημείωσε ως διαβασμένο",

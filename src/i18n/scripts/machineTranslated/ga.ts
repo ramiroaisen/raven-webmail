@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Ar ais sa bhosca poist",
-    "reload": "Athlódáil",
+    "reload": "Athnuachan",
     "select": "Roghnaigh",
     "markAsUnread": "Marcáil nár léadh",
     "markAsRead": "Marcáil mar atá léite",

@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Pada si apoti leta",
-        "reload": "Tun gbee si",
+        "reload": "Sọ",
         "select": "Yan",
         "markAsUnread": "Saami bi a ko ti ka",
         "markAsRead": "Samisi bi kika",

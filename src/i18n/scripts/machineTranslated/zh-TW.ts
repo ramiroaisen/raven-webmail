@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "返回信箱",
-    "reload": "重裝",
+    "reload": "刷新",
     "select": "選擇",
     "markAsUnread": "標記為未讀",
     "markAsRead": "標記為已讀",

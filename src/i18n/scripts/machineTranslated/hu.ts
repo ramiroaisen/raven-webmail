@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Vissza a postafiókba",
-    "reload": "Reload",
+    "reload": "Frissítés",
     "select": "választ",
     "markAsUnread": "Jelölje meg nem olvasottként",
     "markAsRead": "jelölje meg olvasottként",

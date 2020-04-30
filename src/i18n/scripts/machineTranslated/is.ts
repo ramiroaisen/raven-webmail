@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Aftur í pósthólfið",
-    "reload": "Endurhlaða",
+    "reload": "Endurnærðu",
     "select": "Veldu",
     "markAsUnread": "Merktu sem ekki lesið",
     "markAsRead": "merkja sem lesið",

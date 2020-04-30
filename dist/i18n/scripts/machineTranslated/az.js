@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Geri poçt qutusuna",
-        "reload": "Yenidən yükləyin",
+        "reload": "təzələmək",
         "select": "Seçin",
         "markAsUnread": "Oxunmamış kimi işarələyin",
         "markAsRead": "Oxunmuş kimi qeyd edin",

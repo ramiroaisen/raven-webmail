@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "میل باکس پر واپس جائیں",
-    "reload": "دوبارہ لوڈ کریں",
+    "reload": "ریفریش",
     "select": "منتخب کریں",
     "markAsUnread": "نہ پڑھے ہوئے کے طور پر نشان زد کریں",
     "markAsRead": "پڑھے ہوئے کے بطور نشان زد کریں",

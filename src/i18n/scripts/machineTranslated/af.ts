@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Terug na die posbus",
-    "reload": "Reload",
+    "reload": "Verfris",
     "select": "Kies",
     "markAsUnread": "Merk as nie gelees nie",
     "markAsRead": "merk as gelees",

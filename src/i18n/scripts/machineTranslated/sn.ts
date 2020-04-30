@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Dzokera kubhokisi retsamba",
-    "reload": "Reload",
+    "reload": "Zorodza",
     "select": "Sarudza",
     "markAsUnread": "Maka kunge usinga verengi",
     "markAsRead": "Maka sekuverenga",

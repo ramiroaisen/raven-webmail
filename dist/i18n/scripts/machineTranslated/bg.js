@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Обратно към пощенската кутия",
-        "reload": "Презареждане",
+        "reload": "Обновяване",
         "select": "Изберете",
         "markAsUnread": "Маркирайте като непрочетени",
         "markAsRead": "Маркирай като прочетено",

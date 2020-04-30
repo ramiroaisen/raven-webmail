@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Pochta qutisiga qaytish",
-        "reload": "Qayta yuklang",
+        "reload": "Yangilang",
         "select": "Tanlang",
         "markAsUnread": "O'qilmagan deb belgilang",
         "markAsRead": "O'qilgan deb belgilang",

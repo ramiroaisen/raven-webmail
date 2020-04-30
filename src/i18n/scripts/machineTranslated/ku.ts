@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Vegere şîfreya paşnavê",
-    "reload": "Rûniştin kirin",
+    "reload": "Hênikkirin",
     "select": "Neqandin",
     "markAsUnread": "Mîna ku nehat xwendin",
     "markAsRead": "Mîna ku hate xwendin",

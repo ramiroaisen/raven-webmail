@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "ወደ የመልዕክት ሳጥን ተመለስ",
-    "reload": "እንደገና ጫን",
+    "reload": "አድስ",
     "select": "ይምረጡ",
     "markAsUnread": "እንዳልተነበበ ምልክት ያድርጉበት",
     "markAsRead": "እንደተነበበ ምልክት ያድርጉበት",

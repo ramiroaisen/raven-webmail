@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Ku laabo sanduuqa boostada",
-        "reload": "Dib u dajin",
+        "reload": "Nasiin",
         "select": "Xullo",
         "markAsUnread": "Calaamadee sida aan la aqrin",
         "markAsRead": "Calaamadee sida loo akhriyay",

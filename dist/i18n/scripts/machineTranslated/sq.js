@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Kthehu tek kutia postare",
-        "reload": "Ringarkoj",
+        "reload": "freskoj",
         "select": "zgjedh",
         "markAsUnread": "Shëno si nuk lexohet",
         "markAsRead": "Shëno si të lexuar",

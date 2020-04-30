@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "กลับไปที่กล่องจดหมาย",
-    "reload": "โหลด",
+    "reload": "รีเฟรช",
     "select": "เลือก",
     "markAsUnread": "ทำเครื่องหมายว่าไม่ได้อ่าน",
     "markAsRead": "ทำเครื่องหมายว่าอ่านแล้ว",

@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "ກັບໄປທີ່ກ່ອງຈົດ ໝາຍ",
-        "reload": "ໂຫຼດ ໃໝ່",
+        "reload": "ໂຫຼດຫນ້າຈໍຄືນ",
         "select": "ເລືອກ",
         "markAsUnread": "ໝາຍ ໄວ້ວ່າບໍ່ໄດ້ອ່ານ",
         "markAsRead": "ໝາຍ ວ່າອ່ານແລ້ວ",

@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Վերադառնալ փոստարկղին",
-    "reload": "Վերաբեռնել",
+    "reload": "Թարմացրեք",
     "select": "Ընտրեք",
     "markAsUnread": "Նշեք որպես չկարդացված",
     "markAsRead": "Նշեք որպես կարդալ",

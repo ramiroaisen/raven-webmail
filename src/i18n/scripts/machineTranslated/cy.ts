@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Yn ôl i'r blwch post",
-    "reload": "Ail-lwytho",
+    "reload": "Adnewyddu",
     "select": "Dewiswch",
     "markAsUnread": "Marciwch fel na ddarllenwyd",
     "markAsRead": "Marciwch fel y'i darllenwyd",

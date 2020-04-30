@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Бозгашт ба паёмдони почта",
-        "reload": "Бозсозӣ",
+        "reload": "Рафикон",
         "select": "Интихоб кунед",
         "markAsUnread": "Ҳамчун хондашуда қайд кунед",
         "markAsRead": "Ҳамчун хондашуда қайд кунед",

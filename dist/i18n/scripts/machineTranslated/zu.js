@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Buyela ebhokisini leposi",
-        "reload": "Phinda ulayishe",
+        "reload": "Qala kabusha",
         "select": "Khetha",
         "markAsUnread": "Maka njengokungafundiwe",
         "markAsRead": "Maka njengokufundiwe",

@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "საფოსტო ყუთში დაბრუნება",
-        "reload": "გადატვირთვა",
+        "reload": "განახლება",
         "select": "შეარჩიეთ",
         "markAsUnread": "მონიშნეთ, როგორც არ წაკითხული",
         "markAsRead": "მონიშნეთ წაკითხული",

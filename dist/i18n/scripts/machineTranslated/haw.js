@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Hoʻi i ka leka uila",
-        "reload": "Hoʻolaha",
+        "reload": "Hoʻohālikelike",
         "select": "Koho",
         "markAsUnread": "Mākau ʻole ma ka heluhelu ʻole ʻia",
         "markAsRead": "Heluhelu ʻia e heluhelu",

@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Kembali ke kotak surat",
-        "reload": "Muat ulang",
+        "reload": "Menyegarkan",
         "select": "Pilih",
         "markAsUnread": "Tandai sebagai tidak dibaca",
         "markAsRead": "tandai sebagai membaca",

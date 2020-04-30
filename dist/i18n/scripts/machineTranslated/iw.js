@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "חזרה לתיבת הדואר",
-        "reload": "טען מחדש",
+        "reload": "רענן",
         "select": "בחר",
         "markAsUnread": "סמן שלא נקרא",
         "markAsRead": "סמן כנקרא",

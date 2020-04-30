@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Tilbake til postkassen",
-        "reload": "Reload",
+        "reload": "Forfriske",
         "select": "Å velge",
         "markAsUnread": "Merk som ikke lest",
         "markAsRead": "Merk som lest",

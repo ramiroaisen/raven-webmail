@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "ಅಂಚೆಪೆಟ್ಟಿಗೆಗೆ ಹಿಂತಿರುಗಿ",
-        "reload": "ಮರುಲೋಡ್ ಮಾಡಿ",
+        "reload": "ರಿಫ್ರೆಶ್ ಮಾಡಿ",
         "select": "ಆಯ್ಕೆ ಮಾಡಿ",
         "markAsUnread": "ಓದಿಲ್ಲ ಎಂದು ಗುರುತಿಸಿ",
         "markAsRead": "ಓದಿರುವುದಾಗಿ ಗುರುತಿಸು",

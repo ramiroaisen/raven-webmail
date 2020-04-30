@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "அஞ்சல் பெட்டிக்குத் திரும்பு",
-        "reload": "ஏற்றவும்",
+        "reload": "புதுப்பிப்பு",
         "select": "தேர்ந்தெடு",
         "markAsUnread": "படிக்கவில்லை எனக் குறிக்கவும்",
         "markAsRead": "படித்ததாக",

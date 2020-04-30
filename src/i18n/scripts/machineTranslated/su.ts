@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Balik deui ka kotak surat",
-    "reload": "Reload",
+    "reload": "Refresh",
     "select": "Pilih",
     "markAsUnread": "Tandaan anu henteu kabaca",
     "markAsRead": "Tandaan salaku maca",

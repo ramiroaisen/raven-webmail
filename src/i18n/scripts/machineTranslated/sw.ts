@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Rudi kwa sanduku la barua",
-    "reload": "Pakia tena",
+    "reload": "Sasisha",
     "select": "Chagua",
     "markAsUnread": "Weka alama kama haujasomwa",
     "markAsRead": "Weka alama kama unavyosoma",

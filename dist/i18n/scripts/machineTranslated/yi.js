@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "צוריק צו בריווקאַסטן",
-        "reload": "Reload",
+        "reload": "דערפרישן",
         "select": "סעלעקטירן",
         "markAsUnread": "מארק ווי ניט לייענען",
         "markAsRead": "מארק ווי לייענען",

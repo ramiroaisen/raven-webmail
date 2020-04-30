@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Khutlela lebokoseng la poso",
-        "reload": "Pheta hape",
+        "reload": "Ntlafatsa",
         "select": "Khetha",
         "markAsUnread": "Tšoaea eka ha e bale",
         "markAsRead": "Tšoaea joalo ka ha u baliloe",

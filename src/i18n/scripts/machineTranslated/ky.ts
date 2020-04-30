@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Почта ящикке кайтуу",
-    "reload": "кайра жүктөө",
+    "reload": "сергитүү",
     "select": "тандоо",
     "markAsUnread": "Окулган эмес деп белгилөө",
     "markAsRead": "окулган деп белгилөө",

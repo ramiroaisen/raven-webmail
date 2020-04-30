@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "ମେଲବାକ୍ସକୁ ଫେରନ୍ତୁ |",
-        "reload": "ପୁନ elo ଲୋଡ୍ କରନ୍ତୁ |",
+        "reload": "ସତେଜ କରନ୍ତୁ |",
         "select": "ଚୟନ କରନ୍ତୁ |",
         "markAsUnread": "ପ read ିନଥିବା ପରି ଚିହ୍ନିତ କର |",
         "markAsRead": "ପ read ଼ିବା ପରି ଚିହ୍ନିତ କର |",

@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Rov qab mus mailbox",
-        "reload": "Rov pib dua",
+        "reload": "Kho Siab",
         "select": "Xaiv",
         "markAsUnread": "Khij raws li tsis nyeem",
         "markAsRead": "Khij raws li nyeem",

@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Quay lại hộp thư",
-        "reload": "Tải lại",
+        "reload": "Làm tươi",
         "select": "Lựa chọn",
         "markAsUnread": "Đánh dấu là không đọc",
         "markAsRead": "đánh dấu là đã đọc",

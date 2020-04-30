@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "بازگشت به صندوق پستی",
-        "reload": "بارگیری مجدد",
+        "reload": "تازه کردن",
         "select": "انتخاب کنید",
         "markAsUnread": "علامت گذاری به عنوان خوانده نشده است",
         "markAsRead": "به عنوان خوانده شده علامت بزن",

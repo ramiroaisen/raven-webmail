@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Retour à la boîte aux lettres",
-        "reload": "Recharger",
+        "reload": "Rafraîchir",
         "select": "Sélectionner",
         "markAsUnread": "Marquer comme non lu",
         "markAsRead": "Marquer comme lu",

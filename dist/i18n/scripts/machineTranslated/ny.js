@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Kubwerera ku bokosi la makalata",
-        "reload": "Konzanso",
+        "reload": "Tsitsimutsani",
         "select": "Sankhani",
         "markAsUnread": "Maka ngati osawerengedwa",
         "markAsRead": "Maka ngati awerengedwa",

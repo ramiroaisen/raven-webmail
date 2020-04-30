@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "メールボックスに戻る",
-        "reload": "リロード",
+        "reload": "リフレッシュ",
         "select": "選択する",
         "markAsUnread": "未読にする",
         "markAsRead": "既読にする",

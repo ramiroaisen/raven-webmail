@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Balik sa mailbox",
-        "reload": "Pag-usab",
+        "reload": "Refresh",
         "select": "Pagpili",
         "markAsUnread": "Markahan ingon nga dili mabasa",
         "markAsRead": "Markahi ingon magbasa",

@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Lura għall-kaxxa tal-posta",
-    "reload": "Reload",
+    "reload": "Aġġorna",
     "select": "Agħżel",
     "markAsUnread": "Immarka kif ma taqrax",
     "markAsRead": "Immarka kif qrajt",

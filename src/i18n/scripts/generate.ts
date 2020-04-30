@@ -10,8 +10,14 @@ import rimraf from "rimraf";
 import pLimit from "p-limit";
 
 const concurrency = 25;
-const override = false;
+const override = true;
 const queue = pLimit(concurrency);
+
+type Cache = Record<string, Record<string, string>>;
+const cacheFile = path.join(__dirname, "./cache.json");
+let cache: Cache = {};
+try { cache = require(cacheFile); } catch(e) {}
+const destCache: Cache = {...cache};
 
 const key = process.env.GOOGLE_API_KEY ||
     fs.readFileSync(process.env.HOME + "/google_api_key.txt", "utf8").trim();
@@ -22,10 +28,21 @@ import base from "../src/en";
 
 let totalRequests = 0;
 let doneRequests = 0;
+let cachedRequests = 0;
 
 const translateString = async ({src, to}: {src: string, to: string}): Promise<string> => {
 
     totalRequests++;
+
+    const cached = cache[to] && cache[to][src];
+
+    if (cached != null) {
+        doneRequests++;
+        cachedRequests++;
+        destCache[to] = destCache[to] || {};
+        destCache[to][src] = cached;
+        return cached;
+    }
 
     return queue(async () => {
         const json = await fetch(
@@ -42,7 +59,12 @@ const translateString = async ({src, to}: {src: string, to: string}): Promise<st
 
         doneRequests++;
 
-        return json.data.translations[0].translatedText;
+        const value = json.data.translations[0].translatedText;
+
+        destCache[to] = destCache[to] || {};
+        destCache[to][src] = value;
+
+        return value;
 
     })
 }
@@ -135,6 +157,7 @@ async function main() {
         console.log("=".repeat(process.stdout.getWindowSize()[0]))
         console.log(`> Total requests: ${chalk.yellow(totalRequests)}`)
         console.log(`> Active requests: ${chalk.yellow(queue.activeCount)}`)
+        console.log(`> Cached responses: ${chalk.yellow(cachedRequests)}`)
         console.log(`> Done requests: ${chalk.yellow(doneRequests)}`)
         console.log(`> Pending requests: ${chalk.yellow(queue.pendingCount)}`)
         console.log("=".repeat(process.stdout.getWindowSize()[0]))
@@ -142,7 +165,6 @@ async function main() {
         console.log(`> Skipped: ${skippedLangs.map(lang => chalk.yellow(lang)).join(", ")}`)
         console.log(`> Done: ${doneLangs.map(lang => chalk.yellow(lang)).join(", ")}`)
     }
-
 
     const ps = langs.map(async lang => {
         const filename = `${lang}.ts`;
@@ -156,12 +178,47 @@ async function main() {
         doneLangs.push(lang);
     })
 
-    setInterval(render, 250);
+    const renderInterval = setInterval(render, 250);
 
     await Promise.all(ps)
 
+
     render();
+
+    clearInterval(renderInterval);
+
+    fs.writeFileSync(cacheFile, JSON.stringify(destCache, null, 2));
+    console.log("Cache written to " + chalk.yellow(cacheFile));
     console.log("> Done!");
 }
 
 main();
+
+/*
+(() => {
+    const cache = {} as any;
+    const files = fs.readdirSync(destDir);
+    for(const file of files) {
+        const lang = file.replace(".ts", "");
+        const locale = require(path.join(destDir, file)).default;
+        cache[lang] = {};
+        const add = (src: any, value: any) => {
+            if(typeof src === "string") {
+                cache[lang][src] = value;
+            } else if(src instanceof Array) {
+                for (let i = 0; i < src.length; i++){
+                    cache[lang][src[i]] = value[i];
+                }
+            } else {
+                for(const key in src) {
+                    add(src[key], value[key]);
+                }
+            }
+        }
+
+        add(base, locale);
+
+        fs.writeFileSync(cacheFile, JSON.stringify(cache, null, 2));
+    }
+})()
+ */

@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Retounen nan bwat postal",
-    "reload": "Reload",
+    "reload": "Rafrechi",
     "select": "Chwazi",
     "markAsUnread": "Make kòm li pa li",
     "markAsRead": "Make kòm li",

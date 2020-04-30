@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Poçta gutusyna dolan",
-    "reload": "Gaýtadan ýükläň",
+    "reload": "Täzele",
     "select": "Saýlaň",
     "markAsUnread": "Okalmadyk diýip belläň",
     "markAsRead": "Okalan ýaly belläň",

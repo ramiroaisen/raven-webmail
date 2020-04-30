@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Înapoi la căsuța poștală",
-    "reload": "Reîncarcă",
+    "reload": "Reîmprospăta",
     "select": "Selectați",
     "markAsUnread": "Marcați cum nu ați citit",
     "markAsRead": "marcheaza ca citit",

@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Air ais chun bhogsa puist",
-    "reload": "Ath-luchdaich",
+    "reload": "Ùraich",
     "select": "Tagh",
     "markAsUnread": "Comharraich mar nach deach a leughadh",
     "markAsRead": "Comharraich mar a chaidh a leughadh",

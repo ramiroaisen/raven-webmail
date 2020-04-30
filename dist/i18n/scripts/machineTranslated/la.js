@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Ad mailbox",
-        "reload": "Reload",
+        "reload": "Renovare",
         "select": "select",
         "markAsUnread": "Non quasi signum legere",
         "markAsRead": "quod signum legere",

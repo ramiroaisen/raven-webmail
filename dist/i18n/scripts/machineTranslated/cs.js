@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Zpět do poštovní schránky",
-        "reload": "Znovu načíst",
+        "reload": "Obnovit",
         "select": "Vybrat",
         "markAsUnread": "Označit jako nepřečtené",
         "markAsRead": "Označit jako přečtené",

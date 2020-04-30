@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Werom nei postfak",
-        "reload": "Ferfarskje",
+        "reload": "Opfrisse",
         "select": "Útkieze",
         "markAsUnread": "Markearje as net lêzen",
         "markAsRead": "Markearje as lêzen",

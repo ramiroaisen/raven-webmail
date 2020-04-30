@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Subira ku gasanduku k'iposita",
-    "reload": "Ongera usubiremo",
+    "reload": "Ongera",
     "select": "Hitamo",
     "markAsUnread": "Shyira akamenyetso ko udasomwe",
     "markAsRead": "Shyira akamenyetso nkuko wasomwe",

@@ -80,7 +80,7 @@ const locale = {
     },
     "actions": {
         "backToMailbox": "Miverina amin'ny boaty mailaka",
-        "reload": "Reload",
+        "reload": "Refresh",
         "select": "Select",
         "markAsUnread": "Mariho fa tsy novakiana",
         "markAsRead": "Mariho raha vakiana",

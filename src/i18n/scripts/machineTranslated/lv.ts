@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Atpakaļ uz pastkasti",
-    "reload": "Pārlādēt",
+    "reload": "atjaunot",
     "select": "Izvēlieties",
     "markAsUnread": "Atzīmēt kā nelasītu",
     "markAsRead": "Atzīmēt kā lasītu",

@@ -80,7 +80,7 @@ const locale: Locale = {
   },
   "actions": {
     "backToMailbox": "Buyela kwibhokisi yeposi",
-    "reload": "Phinda ulayishe",
+    "reload": "Qalela ngokutsha",
     "select": "Khetha",
     "markAsUnread": "Phawula njengengafundwanga",
     "markAsRead": "Phawula njengokufundiweyo",
