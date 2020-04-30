@@ -7,7 +7,7 @@
     flex-direction: row;
     align-items: center;
     border-top:#d8dcdf 1px solid;
-    padding: 0.5em 1em;
+    padding: 0.25em 1em;
   }
 
   .show-hover {
@@ -121,6 +121,8 @@
       flex-direction: column;
       overflow: hidden;
       margin-inline-start: 0.5em;
+      padding-top: 0.25em;
+      padding-bottom: 0.25em;
     }
 
    .from-subject-date > x-cell{
