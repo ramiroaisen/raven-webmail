@@ -23,34 +23,45 @@ export type LocaleMeta = {
     script?: string | null
 }
 
+const localeDirs = [
+    path.join(__dirname, "src"),
+    path.join(__dirname, "scripts/machineTranslated"),
+]
+
 export const load = (): Record<string, {locale: Locale, meta: LocaleMeta}> => {
     
     let locales: Record<string, {locale: Locale, meta: LocaleMeta}> = Object.create(null);
 
-    const srcDir = path.join(__dirname, "src");
+    for (const dir of localeDirs) {
 
-    const filenames = fs.readdirSync(srcDir);
-    
-    for(const filename of filenames) {
-        
-        if(path.extname(filename) !== ".js") {
-            continue;
-        }
+        const filenames = fs.readdirSync(dir);
 
-        const key = filename.split(".")[0];
-        const locale = require(path.join(srcDir, key)).default as Locale;
-        const {code, region, script} = parser.parse(key)[0];
-        const meta = {key, code, region, script};
+        for(const filename of filenames) {
 
-        try {
-            //assertType<Locale>(locale);
-            locales[key] = {locale, meta};
-        } catch(e) {
-            console.error(chalk.red(`Type error in locale ${chalk.yellow(code)}:` + e.message));
-            console.log("Ignoring locale " + chalk.yellow(code));
+            if(path.extname(filename) !== ".js") {
+                continue;
+            }
+
+            const key = filename.split(".")[0];
+
+            if(key in locales) {
+                continue;
+            }
+
+            const locale = require(path.join(dir, key)).default as Locale;
+            const {code, region, script} = parser.parse(key)[0];
+            const meta = {key, code, region, script};
+
+            try {
+                //assertType<Locale>(locale);
+                locales[key] = {locale, meta};
+            } catch(e) {
+                console.error(chalk.red(`Type error in locale ${chalk.yellow(code)}:` + e.message));
+                console.log("Ignoring locale " + chalk.yellow(code));
+            }
         }
     }
-    
+
     return locales;
 }
 
@@ -61,6 +72,8 @@ const checkLocale = (locale: Locale) => {
 export const i18n = ({byDefault = "en"} = {}) => {
     
     const locales = load();
+
+    console.log(">", Object.keys(locales).length, "locales loaded, default: " + chalk.yellow(byDefault));
 
     const router = Router();
 

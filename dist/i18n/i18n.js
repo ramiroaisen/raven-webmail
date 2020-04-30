@@ -8,25 +8,33 @@ const fs_1 = __importDefault(require("fs"));
 const chalk_1 = __importDefault(require("chalk"));
 const express_1 = require("express");
 const accept_language_parser_1 = __importDefault(require("accept-language-parser"));
+const localeDirs = [
+    path_1.default.join(__dirname, "src"),
+    path_1.default.join(__dirname, "scripts/machineTranslated"),
+];
 exports.load = () => {
     let locales = Object.create(null);
-    const srcDir = path_1.default.join(__dirname, "src");
-    const filenames = fs_1.default.readdirSync(srcDir);
-    for (const filename of filenames) {
-        if (path_1.default.extname(filename) !== ".js") {
-            continue;
-        }
-        const key = filename.split(".")[0];
-        const locale = require(path_1.default.join(srcDir, key)).default;
-        const { code, region, script } = accept_language_parser_1.default.parse(key)[0];
-        const meta = { key, code, region, script };
-        try {
-            //assertType<Locale>(locale);
-            locales[key] = { locale, meta };
-        }
-        catch (e) {
-            console.error(chalk_1.default.red(`Type error in locale ${chalk_1.default.yellow(code)}:` + e.message));
-            console.log("Ignoring locale " + chalk_1.default.yellow(code));
+    for (const dir of localeDirs) {
+        const filenames = fs_1.default.readdirSync(dir);
+        for (const filename of filenames) {
+            if (path_1.default.extname(filename) !== ".js") {
+                continue;
+            }
+            const key = filename.split(".")[0];
+            if (key in locales) {
+                continue;
+            }
+            const locale = require(path_1.default.join(dir, key)).default;
+            const { code, region, script } = accept_language_parser_1.default.parse(key)[0];
+            const meta = { key, code, region, script };
+            try {
+                //assertType<Locale>(locale);
+                locales[key] = { locale, meta };
+            }
+            catch (e) {
+                console.error(chalk_1.default.red(`Type error in locale ${chalk_1.default.yellow(code)}:` + e.message));
+                console.log("Ignoring locale " + chalk_1.default.yellow(code));
+            }
         }
     }
     return locales;
@@ -35,6 +43,7 @@ const checkLocale = (locale) => {
 };
 exports.i18n = ({ byDefault = "en" } = {}) => {
     const locales = exports.load();
+    console.log(">", Object.keys(locales).length, "locales loaded, default: " + chalk_1.default.yellow(byDefault));
     const router = express_1.Router();
     router.use((req, res, next) => {
         const accept = req.headers["accept-language"];

@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = {
-    lang: "es",
     mailbox: {
         title: {
             inbox: "Recibidos",

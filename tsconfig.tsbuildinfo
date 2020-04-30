@@ -458,13 +458,13 @@
         "signature": "ed0a377b42878dbdcf450d60925172d34495ca972bffc2a6c330ee2c24bec0bb"
       },
       "./src/i18n/src/es.ts": {
-        "version": "3ab07f93c2961d89ce2e912bbdf85253e2c74192a999023804723b5bc0f99f84"
+        "version": "f3115e37404221071b2bb92d5b3d84d26a517d1bda63b2d809e4ace31f37cbb4"
       },
       "./src/i18n/types.ts": {
         "version": "26b8ab6e64d0176cc894fd86b3dc7da0f03f42e965f21bf231320871f4967a0c"
       },
       "./src/i18n/i18n.ts": {
-        "version": "e18e721a89c4736975edbf048d43b1ab6ce684cc7f90a0b330ca46bd07f94b14"
+        "version": "4cabd1f1b95f66311dcc5103dbdad1b5b541b1da5b22327f7b857f260305d9bf"
       },
       "./src/upload.ts": {
         "version": "14ffbf4ad12c522f115cb09c77f0937e02d914f752830455964becacace06a55"
@@ -477,7 +477,334 @@
         "version": "096c459f22dde0462b9542c4248b43775383c4d0d8628eac76bf096e88615ec6"
       },
       "./src/i18n/src/en.ts": {
-        "version": "cfd09b0570009fa32a1bc65ab7fd0d4989b5cecb1f6cfaf51652dabd2034b1b2"
+        "version": "3766416264d300b021a2c5bdbfca3948b90955663c459620f56ca8289da24f98"
+      },
+      "./src/i18n/scripts/generate.ts": {
+        "version": "6c5e08027e5b1218a1ab0f9b940f97bf598a9bc877426b52b53f9594e4ec607f"
+      },
+      "./src/i18n/scripts/machineTranslated/af.ts": {
+        "version": "9b8d50bc1df38d3731a520e1fd38d01ee203034676d06df99f97f683d5b5ff06"
+      },
+      "./src/i18n/scripts/machineTranslated/am.ts": {
+        "version": "7544622347e765bce2a4a51632d7f0ff3ad3f3cc7c853e62d3afa2e9bfa95490"
+      },
+      "./src/i18n/scripts/machineTranslated/ar.ts": {
+        "version": "2e93dfa2003b04f4685df0e742a4378034821f35fd503b4176654f56adffe902"
+      },
+      "./src/i18n/scripts/machineTranslated/az.ts": {
+        "version": "02b94a3b12a6de3ffaec26c2f6df5fd3f02e01f60958a74fed5fd012c619c14b"
+      },
+      "./src/i18n/scripts/machineTranslated/be.ts": {
+        "version": "16041e57154e5880044d89ba1faa0ca042e6ddd5560eee15f94e4caa205cf510"
+      },
+      "./src/i18n/scripts/machineTranslated/bg.ts": {
+        "version": "6384308776fa2f65f41a9f2697ed67637bd1c71216350517b17ad0fc41e6f06d"
+      },
+      "./src/i18n/scripts/machineTranslated/bn.ts": {
+        "version": "a2d264b0166629b384d3d0488852584a2fa45eca2dca4aaea53e8d03917d53e1"
+      },
+      "./src/i18n/scripts/machineTranslated/bs.ts": {
+        "version": "71fe3596f3bdb4c5c1e2b869115bdb5294de377f7684ca09144f7596b884c27a"
+      },
+      "./src/i18n/scripts/machineTranslated/ca.ts": {
+        "version": "f465093e24e47a1b3aa53e054a98588949b5774059defd4009d1bf3a4359a144"
+      },
+      "./src/i18n/scripts/machineTranslated/ceb.ts": {
+        "version": "322da4cdf73644a1bb63255316e4b0c38a95c83ebdb30d0f390475b5e4b4159a"
+      },
+      "./src/i18n/scripts/machineTranslated/co.ts": {
+        "version": "ab620bb6d54108985955b89ad23a3a1bc4ac154e01ee9f395cac80694c09de1d"
+      },
+      "./src/i18n/scripts/machineTranslated/cs.ts": {
+        "version": "8261f3d3a88253866251587c095c69862bd28c0062123172466c91ce09cd10bd"
+      },
+      "./src/i18n/scripts/machineTranslated/cy.ts": {
+        "version": "68f9db93d21f6cd92a633a2a28d33b2f54b466c492d91f17b4de7f214831a0d9"
+      },
+      "./src/i18n/scripts/machineTranslated/da.ts": {
+        "version": "703ceb1e9113e63234f4998f755718758cd3355f852564d0e10628f3b8dfd114"
+      },
+      "./src/i18n/scripts/machineTranslated/de.ts": {
+        "version": "f3414df32b27d49f896a1d6467c0f6359fc58cee4f053c9885f9b371dc99e710"
+      },
+      "./src/i18n/scripts/machineTranslated/el.ts": {
+        "version": "5aee0b34d76543ecd9966505df34af8f6277d412cd422cd26ba78e9921b0010e"
+      },
+      "./src/i18n/scripts/machineTranslated/eo.ts": {
+        "version": "153e6b3a16a411ddda9ead1318a338b6b57dfdcbc21bf3d040c2149a37f3d26f"
+      },
+      "./src/i18n/scripts/machineTranslated/es.ts": {
+        "version": "f95b8fc638a38ce8e3b50d9afe1c676c2711c4162231574f939012e8c1a6e977"
+      },
+      "./src/i18n/scripts/machineTranslated/et.ts": {
+        "version": "f1298d24071442082a4630852a52e4bbd447b0409855dd45b636a959f6af18e3"
+      },
+      "./src/i18n/scripts/machineTranslated/eu.ts": {
+        "version": "91e4189b67d92db0ef4e1ed225c450366f04850086179688565cefbfdfad5c9e"
+      },
+      "./src/i18n/scripts/machineTranslated/fa.ts": {
+        "version": "a5799b1ee942346d95bbdf083e25ce1d56f0f9bdfe1e20599157d8d5aa838869"
+      },
+      "./src/i18n/scripts/machineTranslated/fi.ts": {
+        "version": "188be44f451172f66f946ef82219dbe542f15e2f6406c8468ee305ea67720bff"
+      },
+      "./src/i18n/scripts/machineTranslated/fr.ts": {
+        "version": "6cde731105e7230c56a80991d5d56dec581f62f937f216ed20048aec4721ccea"
+      },
+      "./src/i18n/scripts/machineTranslated/fy.ts": {
+        "version": "7686856b48cb22e5da8100e0df421e6b8610ba7d4307784eba9d44f41aecfcf7"
+      },
+      "./src/i18n/scripts/machineTranslated/ga.ts": {
+        "version": "a0130aac6332057c0ff490ae32934eb7042f82ddc88004d22c122dc1fb03c675"
+      },
+      "./src/i18n/scripts/machineTranslated/gd.ts": {
+        "version": "c775ae65919c7c7d5f1802933b18f1871f977d1083a2b58504ccb1dec7bad1dc"
+      },
+      "./src/i18n/scripts/machineTranslated/gl.ts": {
+        "version": "093faa741149de62cefb19eab22565002f2c54a3f87ee98aea8eefcfe5ee9068"
+      },
+      "./src/i18n/scripts/machineTranslated/gu.ts": {
+        "version": "f83e7aae8cdac3c10eed7ccc3edc5a0c3fca2f9b51af016f3b7ed69da51216ff"
+      },
+      "./src/i18n/scripts/machineTranslated/ha.ts": {
+        "version": "4327790a6125074e667e8b0827d67ae038b257b9ca3d5fc2b406c65e9acb83a7"
+      },
+      "./src/i18n/scripts/machineTranslated/haw.ts": {
+        "version": "00265b2ab6f16e9e484e9382d5bcdddcbf6be81b0869cefa760d9fd78eadb673"
+      },
+      "./src/i18n/scripts/machineTranslated/hi.ts": {
+        "version": "a38e5b805068707b2ff6313f6b4d425b815e0e4471dd493eaff93d4960b3b051"
+      },
+      "./src/i18n/scripts/machineTranslated/hmn.ts": {
+        "version": "fa794f3c64f8adfd615e81b207a2b2a96c167ffdd32cb9290ae9b116acd63261"
+      },
+      "./src/i18n/scripts/machineTranslated/hr.ts": {
+        "version": "b566d732db4a958ab372051342e977438e3621ee8cf2b238e3c6f09aae8051a0"
+      },
+      "./src/i18n/scripts/machineTranslated/ht.ts": {
+        "version": "9ac634b0d43e39edb4ef4029e0b2f38c673df81da14c1dc2b7d97693dbceeefc"
+      },
+      "./src/i18n/scripts/machineTranslated/hu.ts": {
+        "version": "05387c3e5147c93ef5fea4ffc491de546faf4061913ad27e10a56925178e42d8"
+      },
+      "./src/i18n/scripts/machineTranslated/hy.ts": {
+        "version": "5b79d10f729fc03e46bc047c62791319e9469f11f0d96d241351d0fb47164960"
+      },
+      "./src/i18n/scripts/machineTranslated/id.ts": {
+        "version": "0dfbf60901e6652f07220eebfa3af519a560ed0a552cd0d047e79d884010d3f9"
+      },
+      "./src/i18n/scripts/machineTranslated/ig.ts": {
+        "version": "adc8fdfad2993fd436b9f0baea3e1df866e0153a8d0457aba89ff08b60dcbfcc"
+      },
+      "./src/i18n/scripts/machineTranslated/is.ts": {
+        "version": "3183eeca0792ef9ffe25251a3ce6edc1c2e92c749f4c30d5fb09aa4d334c2d55"
+      },
+      "./src/i18n/scripts/machineTranslated/it.ts": {
+        "version": "8d5e196efb31d8c8d4f6ac944add402eec59440b705186955af9423a008f8852"
+      },
+      "./src/i18n/scripts/machineTranslated/iw.ts": {
+        "version": "0fc336b81d234c3858dd8674808ee759789df9e1fe479f07ecd2608c97d9e423"
+      },
+      "./src/i18n/scripts/machineTranslated/ja.ts": {
+        "version": "cc169cf43dbdadcdfabe6d28b984b772d7feba014e2ead8d513d3bec2e732394"
+      },
+      "./src/i18n/scripts/machineTranslated/jw.ts": {
+        "version": "b8a163685fae47ab9681809411874f402edaae86acbf5fc8f848045b2fae101e"
+      },
+      "./src/i18n/scripts/machineTranslated/ka.ts": {
+        "version": "3a231682295cd98fdf3cfd4465a920870a370e68c19524432599bf3137a665fa"
+      },
+      "./src/i18n/scripts/machineTranslated/kk.ts": {
+        "version": "809dfa26db70b2acabe106f8c1bc9c93c332b1db59fb33f4a75241c5953fed17"
+      },
+      "./src/i18n/scripts/machineTranslated/km.ts": {
+        "version": "139c280d2c17532590e72bc3337a1df4d57b106d0e87d8fb156bec605d1af897"
+      },
+      "./src/i18n/scripts/machineTranslated/kn.ts": {
+        "version": "861429e6374715d51104f4304f6d4910843ca5567ce601192e2eedeb463873a0"
+      },
+      "./src/i18n/scripts/machineTranslated/ko.ts": {
+        "version": "cfd477753c00293fa75931142460cfb28948b3781b69098e714cd734e47d795c"
+      },
+      "./src/i18n/scripts/machineTranslated/ku.ts": {
+        "version": "0ed1c1ec1780c0472ea95aba6da9522f4196109c702ca78300bf13749cae7dbc"
+      },
+      "./src/i18n/scripts/machineTranslated/ky.ts": {
+        "version": "6b449b3f58d8e33366cdf030b1468620cfe63c2fea8a6b606d4cf292fd775113"
+      },
+      "./src/i18n/scripts/machineTranslated/la.ts": {
+        "version": "c5e820648d9297045a76d9da48328b801bf7db2b3f01d3ca7cd74f96f36d0c5a"
+      },
+      "./src/i18n/scripts/machineTranslated/lb.ts": {
+        "version": "29595b4cd1a80173d1bfb81f36d139e124a05fc50284afc9a457471b7c5e683a"
+      },
+      "./src/i18n/scripts/machineTranslated/lo.ts": {
+        "version": "833dcc7e2b2d0e841a44c760e4e1aab5b074773252e32481a0a72b2852526f83"
+      },
+      "./src/i18n/scripts/machineTranslated/lt.ts": {
+        "version": "cfa71db183dda78aba86c4604d4d249543e53181cf50631e8cdc47690ce13ba1"
+      },
+      "./src/i18n/scripts/machineTranslated/lv.ts": {
+        "version": "87dd6ae3318f48ca8125c23b8df7add680c73d6639450cafd5877aa573888eb7"
+      },
+      "./src/i18n/scripts/machineTranslated/mg.ts": {
+        "version": "f0e464f5cb9af95a8d19e308d139fb19460a63be0c69be27418c81b8da627147"
+      },
+      "./src/i18n/scripts/machineTranslated/mi.ts": {
+        "version": "cce1ea744498336ab6b316432cebbdfd850e299a2f5765d62189c87311d72802"
+      },
+      "./src/i18n/scripts/machineTranslated/mk.ts": {
+        "version": "089ca6ea234546d18ad17fffeb99ff1f9a78976e6c1eb0b08032ebdc9b28e122"
+      },
+      "./src/i18n/scripts/machineTranslated/ml.ts": {
+        "version": "60f2a8795ac570133f7083af83456d346319cb7a46998f2461d2958f3b80bac8"
+      },
+      "./src/i18n/scripts/machineTranslated/mn.ts": {
+        "version": "f8a1a4c066710b3520db266022102885784affc2688ab00198f3950ef8d38d0d"
+      },
+      "./src/i18n/scripts/machineTranslated/mr.ts": {
+        "version": "b451eeec394ccefb5c4ed172a4bddf1a95ef379c412765c09d0d225280bd0ee5"
+      },
+      "./src/i18n/scripts/machineTranslated/ms.ts": {
+        "version": "93e997079b7d590ac439e194be057083db506c0bfef9bd55d3a922d610a9d3e8"
+      },
+      "./src/i18n/scripts/machineTranslated/mt.ts": {
+        "version": "03e2cfcffaf53f62ad32db34ad4e982e72260a07a17e810c1b881c4c225436b9"
+      },
+      "./src/i18n/scripts/machineTranslated/my.ts": {
+        "version": "36b099ae96aa8b9c0a0eae2092615d3c2125ccd13fbb3d59ed0c4a898d67823e"
+      },
+      "./src/i18n/scripts/machineTranslated/ne.ts": {
+        "version": "02d07710c11fa2503545b01f4d993e8bbf7e1a65c652af1738575141d8a4939e"
+      },
+      "./src/i18n/scripts/machineTranslated/nl.ts": {
+        "version": "9795368defd94dc2592640ac6f81663354cc2e95ea82241572d6ce4bb1aee5d4"
+      },
+      "./src/i18n/scripts/machineTranslated/no.ts": {
+        "version": "d2b0d7386866cb60e1d0ed1a9a57a0ebcd74fe3ee2db12b6f9a12310b736eae4"
+      },
+      "./src/i18n/scripts/machineTranslated/ny.ts": {
+        "version": "8bcb50470e2aa0b4a7a46da2733f60be6caff00fac8ac2a48bd54248b5ff6e92"
+      },
+      "./src/i18n/scripts/machineTranslated/or.ts": {
+        "version": "4c1690f59f3e1e6ef121d515b58df1d5c6c7c003eb39dfa4a69a9681a6b441e1"
+      },
+      "./src/i18n/scripts/machineTranslated/pa.ts": {
+        "version": "cb8071fd23e07f846689b5e7460ac01b203459aa254385feeaa2dbc5a1779152"
+      },
+      "./src/i18n/scripts/machineTranslated/pl.ts": {
+        "version": "52e675acb1b6c0b76c54e7df6bc33e06c4e213c427715735401d6954e6e78035"
+      },
+      "./src/i18n/scripts/machineTranslated/ps.ts": {
+        "version": "2242c36984c2d4c8deda62805226d48704736239f982e3993dff1c12c0e2b278"
+      },
+      "./src/i18n/scripts/machineTranslated/pt.ts": {
+        "version": "fd703d234aed286f02f626944444f9c53dce25001ff5c632ef3c1f44c68cab7a"
+      },
+      "./src/i18n/scripts/machineTranslated/ro.ts": {
+        "version": "d20157cc95885a8c239c9e000056de2ee22ade7fd88a90bdb306eb2f2a30af9a"
+      },
+      "./src/i18n/scripts/machineTranslated/ru.ts": {
+        "version": "283642c32aec8a3acb114fc259ce564a07013e5886464706c88580663e8da617"
+      },
+      "./src/i18n/scripts/machineTranslated/rw.ts": {
+        "version": "810e19a96d576c0316cd0d107681424b827b8a3f0380d2278e88d7fc2795b964"
+      },
+      "./src/i18n/scripts/machineTranslated/sd.ts": {
+        "version": "a64ea4220f6b540b29ea20983e99a77aec6da6d19641fd3adaa1e5a2ce236941"
+      },
+      "./src/i18n/scripts/machineTranslated/si.ts": {
+        "version": "d0e5cf9780bedbe14e9e921da9c2002b866232d6da517304a033b0deeb87356d"
+      },
+      "./src/i18n/scripts/machineTranslated/sk.ts": {
+        "version": "497735e7afbb8b541cd1d296d8976d8190e3d7c000ffc2d011815db328758bff"
+      },
+      "./src/i18n/scripts/machineTranslated/sl.ts": {
+        "version": "46ab7483157492bc41eae4977e67758dc9487f60762c88845dfb7144c10ec4b4"
+      },
+      "./src/i18n/scripts/machineTranslated/sm.ts": {
+        "version": "d2caac5e728fe5bed510855c3341b1038f08dc76e4804c955d56ab64c579bdb2"
+      },
+      "./src/i18n/scripts/machineTranslated/sn.ts": {
+        "version": "40814bd6766a38f57a6353181a77d2424dcfbd3f4c256950dbba9020bc16d863"
+      },
+      "./src/i18n/scripts/machineTranslated/so.ts": {
+        "version": "b80edd81c0d2aeb0e770a75634b5f60f5e3e18880158c14efbd9c3d560ba0daa"
+      },
+      "./src/i18n/scripts/machineTranslated/sq.ts": {
+        "version": "da94d6fa486b9959bccbafc0b69cac3928710d8f80573b1eb4884028893b9e18"
+      },
+      "./src/i18n/scripts/machineTranslated/sr.ts": {
+        "version": "334092b1a7979fe965e478651abfe5b309c20e22039a2d71d0d86e516005666c"
+      },
+      "./src/i18n/scripts/machineTranslated/st.ts": {
+        "version": "f26ede16f31ac7461a42eee09d7f57693fb68eb26b935b5b29e9d5f8e4fffbe8"
+      },
+      "./src/i18n/scripts/machineTranslated/su.ts": {
+        "version": "212b59322168866bc86f0f9f6964fbeda2ea28448d029a13da195ff3377c1404"
+      },
+      "./src/i18n/scripts/machineTranslated/sv.ts": {
+        "version": "275ec36b8d3ec3b37b8b15ea9390b7b454f92648dd1187fde80ece577c0081f5"
+      },
+      "./src/i18n/scripts/machineTranslated/sw.ts": {
+        "version": "bf177d5b370b531b226f649898a7f5c957d12216ca727283c616787a8d67f098"
+      },
+      "./src/i18n/scripts/machineTranslated/ta.ts": {
+        "version": "89a8f224201e106a94d1e02ec8468310d07d2c73118d88e7f62ad233571eb2de"
+      },
+      "./src/i18n/scripts/machineTranslated/te.ts": {
+        "version": "49f864768fed70b256cdb5726d2a4b1ef25fb1cc6997ab96c1ad5f99a4a77343"
+      },
+      "./src/i18n/scripts/machineTranslated/tg.ts": {
+        "version": "02eb5d9c92a91bb27a93878d53d7b02b2ea7fccacba80e47907357816cc27338"
+      },
+      "./src/i18n/scripts/machineTranslated/th.ts": {
+        "version": "8ebc5852a7539cb8ffebdc94fcf683849297cbad6733502ef2e0c7af9f64ef9f"
+      },
+      "./src/i18n/scripts/machineTranslated/tk.ts": {
+        "version": "aa3123a04454a0219c7aeed0f534a423a60d1736d052ed43ce94411a666ca7ce"
+      },
+      "./src/i18n/scripts/machineTranslated/tl.ts": {
+        "version": "c9de7c430e1671929a280c7ab68035beaddda7f214c1997970ddfd65d81ab2ba"
+      },
+      "./src/i18n/scripts/machineTranslated/tr.ts": {
+        "version": "3c9cf2cb289a7ffcfcd3a75f479bf97838474afe13d0a3a57efe6a014a6e388b"
+      },
+      "./src/i18n/scripts/machineTranslated/tt.ts": {
+        "version": "2b03706ef00ae3274998103730462b4fdfdf0a886bfb547ee8e095a44c0517d7"
+      },
+      "./src/i18n/scripts/machineTranslated/ug.ts": {
+        "version": "19017c78f51737cddca4f8d88e99cab9af6e15b92ccd39b3a1f4d64feb4e8076"
+      },
+      "./src/i18n/scripts/machineTranslated/uk.ts": {
+        "version": "319fb79843bcf3cf937f94125cc5ad89819c731ab7e1f9072e5bce39da8edab1"
+      },
+      "./src/i18n/scripts/machineTranslated/ur.ts": {
+        "version": "475a9b9154821fc0a794b779335e5e3d6d3f62fb37276da42d821e346c16fff3"
+      },
+      "./src/i18n/scripts/machineTranslated/uz.ts": {
+        "version": "61e6051ba8e06e47e3d9b178f12aedfb8a12e9aa28d55ac0df0f142adf5bbca8"
+      },
+      "./src/i18n/scripts/machineTranslated/vi.ts": {
+        "version": "6ef7eb280e6ad6ecbe8773b868ce16f4b265ad0dac4cf4b0d12f5cc040a1e3e7"
+      },
+      "./src/i18n/scripts/machineTranslated/xh.ts": {
+        "version": "6eefd43e30822b7a690d3e871ef8bd7803d64e335fdd84acc0d39ded2182c845"
+      },
+      "./src/i18n/scripts/machineTranslated/yi.ts": {
+        "version": "65f7986cacbe5e285b2fb82ef475004a71797cdbc56fc7871a62266bbfc5b759"
+      },
+      "./src/i18n/scripts/machineTranslated/yo.ts": {
+        "version": "dedb7e28b88203b2aff77d2617515b8ee2f4c624b64fa46d681c2049d863c26e"
+      },
+      "./src/i18n/scripts/machineTranslated/zh-TW.ts": {
+        "version": "4a02051a6bcec1ccc638b843db3ef5091b23ffe6363a65b0080ac33fa5cfd088"
+      },
+      "./src/i18n/scripts/machineTranslated/zh.ts": {
+        "version": "314cc71bf0b75a8c7e36aca14b9bb4467ebb9d2194755cb73432eacce543e9db"
+      },
+      "./src/i18n/scripts/machineTranslated/zu.ts": {
+        "version": "6c08e1bb01fce492f26c30392b3c2fa7df74401620f4406e16889384e33255b3"
       }
     },
     "options": {
@@ -1449,6 +1776,774 @@
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/generate.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node-fetch/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/path.d.ts",
+        "./node_modules/@types/node/https.d.ts",
+        "./node_modules/chalk/index.d.ts",
+        "./src/i18n/src/en.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/af.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/am.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ar.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/az.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/be.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/bg.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/bn.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/bs.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ca.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ceb.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/co.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/cs.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/cy.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/da.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/de.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/el.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/eo.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/es.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/et.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/eu.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/fa.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/fi.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/fr.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/fy.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ga.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/gd.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/gl.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/gu.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ha.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/haw.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/hi.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/hmn.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/hr.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ht.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/hu.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/hy.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/id.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ig.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/is.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/it.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/iw.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ja.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/jw.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ka.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/kk.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/km.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/kn.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ko.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ku.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ky.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/la.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/lb.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/lo.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/lt.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/lv.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/mg.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/mi.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/mk.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ml.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/mn.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/mr.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ms.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/mt.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/my.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ne.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/nl.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/no.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ny.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/or.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/pa.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/pl.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ps.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/pt.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ro.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ru.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/rw.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/sd.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/si.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/sk.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/sl.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/sm.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/sn.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/so.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/sq.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/sr.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/st.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/su.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/sv.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/sw.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ta.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/te.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/tg.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/th.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/tk.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/tl.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/tr.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/tt.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ug.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/uk.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/ur.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/uz.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/vi.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/xh.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/yi.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/yo.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/zh-TW.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/zh.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/zu.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -2361,11 +3456,120 @@
       "./node_modules/@types/mongodb/index.d.ts",
       "./node_modules/@types/connect-mongodb-session/index.d.ts",
       "./node_modules/@types/accept-language-parser/index.d.ts",
-      "./src/upload.ts",
-      "./node_modules/@types/compression/index.d.ts",
       "./src/i18n/src/es.ts",
       "./src/i18n/types.ts",
+      "./src/upload.ts",
+      "./node_modules/@types/compression/index.d.ts",
       "./src/i18n/src/en.ts",
+      "./src/i18n/scripts/generate.ts",
+      "./src/i18n/scripts/machineTranslated/af.ts",
+      "./src/i18n/scripts/machineTranslated/am.ts",
+      "./src/i18n/scripts/machineTranslated/ar.ts",
+      "./src/i18n/scripts/machineTranslated/az.ts",
+      "./src/i18n/scripts/machineTranslated/be.ts",
+      "./src/i18n/scripts/machineTranslated/bg.ts",
+      "./src/i18n/scripts/machineTranslated/bn.ts",
+      "./src/i18n/scripts/machineTranslated/bs.ts",
+      "./src/i18n/scripts/machineTranslated/ca.ts",
+      "./src/i18n/scripts/machineTranslated/ceb.ts",
+      "./src/i18n/scripts/machineTranslated/co.ts",
+      "./src/i18n/scripts/machineTranslated/cs.ts",
+      "./src/i18n/scripts/machineTranslated/cy.ts",
+      "./src/i18n/scripts/machineTranslated/da.ts",
+      "./src/i18n/scripts/machineTranslated/de.ts",
+      "./src/i18n/scripts/machineTranslated/el.ts",
+      "./src/i18n/scripts/machineTranslated/eo.ts",
+      "./src/i18n/scripts/machineTranslated/es.ts",
+      "./src/i18n/scripts/machineTranslated/et.ts",
+      "./src/i18n/scripts/machineTranslated/eu.ts",
+      "./src/i18n/scripts/machineTranslated/fa.ts",
+      "./src/i18n/scripts/machineTranslated/fi.ts",
+      "./src/i18n/scripts/machineTranslated/fr.ts",
+      "./src/i18n/scripts/machineTranslated/fy.ts",
+      "./src/i18n/scripts/machineTranslated/ga.ts",
+      "./src/i18n/scripts/machineTranslated/gd.ts",
+      "./src/i18n/scripts/machineTranslated/gl.ts",
+      "./src/i18n/scripts/machineTranslated/gu.ts",
+      "./src/i18n/scripts/machineTranslated/ha.ts",
+      "./src/i18n/scripts/machineTranslated/haw.ts",
+      "./src/i18n/scripts/machineTranslated/hi.ts",
+      "./src/i18n/scripts/machineTranslated/hmn.ts",
+      "./src/i18n/scripts/machineTranslated/hr.ts",
+      "./src/i18n/scripts/machineTranslated/ht.ts",
+      "./src/i18n/scripts/machineTranslated/hu.ts",
+      "./src/i18n/scripts/machineTranslated/hy.ts",
+      "./src/i18n/scripts/machineTranslated/id.ts",
+      "./src/i18n/scripts/machineTranslated/ig.ts",
+      "./src/i18n/scripts/machineTranslated/is.ts",
+      "./src/i18n/scripts/machineTranslated/it.ts",
+      "./src/i18n/scripts/machineTranslated/iw.ts",
+      "./src/i18n/scripts/machineTranslated/ja.ts",
+      "./src/i18n/scripts/machineTranslated/jw.ts",
+      "./src/i18n/scripts/machineTranslated/ka.ts",
+      "./src/i18n/scripts/machineTranslated/kk.ts",
+      "./src/i18n/scripts/machineTranslated/km.ts",
+      "./src/i18n/scripts/machineTranslated/kn.ts",
+      "./src/i18n/scripts/machineTranslated/ko.ts",
+      "./src/i18n/scripts/machineTranslated/ku.ts",
+      "./src/i18n/scripts/machineTranslated/ky.ts",
+      "./src/i18n/scripts/machineTranslated/la.ts",
+      "./src/i18n/scripts/machineTranslated/lb.ts",
+      "./src/i18n/scripts/machineTranslated/lo.ts",
+      "./src/i18n/scripts/machineTranslated/lt.ts",
+      "./src/i18n/scripts/machineTranslated/lv.ts",
+      "./src/i18n/scripts/machineTranslated/mg.ts",
+      "./src/i18n/scripts/machineTranslated/mi.ts",
+      "./src/i18n/scripts/machineTranslated/mk.ts",
+      "./src/i18n/scripts/machineTranslated/ml.ts",
+      "./src/i18n/scripts/machineTranslated/mn.ts",
+      "./src/i18n/scripts/machineTranslated/mr.ts",
+      "./src/i18n/scripts/machineTranslated/ms.ts",
+      "./src/i18n/scripts/machineTranslated/mt.ts",
+      "./src/i18n/scripts/machineTranslated/my.ts",
+      "./src/i18n/scripts/machineTranslated/ne.ts",
+      "./src/i18n/scripts/machineTranslated/nl.ts",
+      "./src/i18n/scripts/machineTranslated/no.ts",
+      "./src/i18n/scripts/machineTranslated/ny.ts",
+      "./src/i18n/scripts/machineTranslated/or.ts",
+      "./src/i18n/scripts/machineTranslated/pa.ts",
+      "./src/i18n/scripts/machineTranslated/pl.ts",
+      "./src/i18n/scripts/machineTranslated/ps.ts",
+      "./src/i18n/scripts/machineTranslated/pt.ts",
+      "./src/i18n/scripts/machineTranslated/ro.ts",
+      "./src/i18n/scripts/machineTranslated/ru.ts",
+      "./src/i18n/scripts/machineTranslated/rw.ts",
+      "./src/i18n/scripts/machineTranslated/sd.ts",
+      "./src/i18n/scripts/machineTranslated/si.ts",
+      "./src/i18n/scripts/machineTranslated/sk.ts",
+      "./src/i18n/scripts/machineTranslated/sl.ts",
+      "./src/i18n/scripts/machineTranslated/sm.ts",
+      "./src/i18n/scripts/machineTranslated/sn.ts",
+      "./src/i18n/scripts/machineTranslated/so.ts",
+      "./src/i18n/scripts/machineTranslated/sq.ts",
+      "./src/i18n/scripts/machineTranslated/sr.ts",
+      "./src/i18n/scripts/machineTranslated/st.ts",
+      "./src/i18n/scripts/machineTranslated/su.ts",
+      "./src/i18n/scripts/machineTranslated/sv.ts",
+      "./src/i18n/scripts/machineTranslated/sw.ts",
+      "./src/i18n/scripts/machineTranslated/ta.ts",
+      "./src/i18n/scripts/machineTranslated/te.ts",
+      "./src/i18n/scripts/machineTranslated/tg.ts",
+      "./src/i18n/scripts/machineTranslated/th.ts",
+      "./src/i18n/scripts/machineTranslated/tk.ts",
+      "./src/i18n/scripts/machineTranslated/tl.ts",
+      "./src/i18n/scripts/machineTranslated/tr.ts",
+      "./src/i18n/scripts/machineTranslated/tt.ts",
+      "./src/i18n/scripts/machineTranslated/ug.ts",
+      "./src/i18n/scripts/machineTranslated/uk.ts",
+      "./src/i18n/scripts/machineTranslated/ur.ts",
+      "./src/i18n/scripts/machineTranslated/uz.ts",
+      "./src/i18n/scripts/machineTranslated/vi.ts",
+      "./src/i18n/scripts/machineTranslated/xh.ts",
+      "./src/i18n/scripts/machineTranslated/yi.ts",
+      "./src/i18n/scripts/machineTranslated/yo.ts",
+      "./src/i18n/scripts/machineTranslated/zh-TW.ts",
+      "./src/i18n/scripts/machineTranslated/zh.ts",
+      "./src/i18n/scripts/machineTranslated/zu.ts",
       "./src/i18n/i18n.ts",
       "./src/server.ts",
       "./src/session.ts",

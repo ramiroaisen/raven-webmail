@@ -30,22 +30,27 @@ raven start [-c --config="./config.toml"]
 ---
 
 ### Localization
-Available locales
+
+##### Human generated locales
 
 - ✓ en, English (default) - full
 - ✓ es, Spanish - full
 
-user locale is getted from "accept-language" header
+##### Machine generated locales (ISO codes)
+  af,   am,   ar,   az,   be,   bg,   bn,   bs,   ca,   ceb,   co,   cs,   cy,   da,   de,   el,   eo,   et,   eu,   fa,   fi,   fr,   fy,   ga,   gd,   gl,   gu,   ha,   haw,   hi,   hmn,   hr,   ht,   hu,   hy,   id,   ig,   is,   it,   iw,   ja,   jw,   ka,   kk,   km,   kn,   ko,   ku,   ky,   la,   lb,   lo,   lt,   lv,   mg,   mi,   mk,   ml,   mn,   mr,   ms,   mt,   my,   ne,   nl,   no,   ny,   or,   pa,   pl,   ps,   pt,   ro,   ru,   rw,   sd,   si,   sk,   sl,   sm,   sn,   so,   sq,   sr,   st,   su,   sv,   sw,   ta,   te,   tg,   th,   tk,   tl,   tr,   tt,   ug,   uk,   ur,   uz,   vi,   xh,   yi,   yo,   zh, zh-TW,  zu
+
+
+###### User locale is detected from Accept-Language http header
 
 ---
 
 ### TODO
-- [ ] Localization: (help wanted) 
+- [x] Better page titles
+- [x] Localization 
 - [ ] Create / Remove folders
 - [ ] Create / Remove aliases
 - [ ] Create / Remove filters
 - [ ] Choose sender address (currently uses user default address)
-- [x] Better page titles
 
 ---
 

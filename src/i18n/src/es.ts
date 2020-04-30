@@ -1,7 +1,5 @@
 export default {
 
-    lang: "es",
-
     mailbox: {
         title: {
             inbox: "Recibidos",

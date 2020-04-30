@@ -2,8 +2,6 @@ import {Locale} from "../types";
 
 const locale: Locale = {
 
-    lang: "en",
-
     mailbox:  {
         title: {
             inbox: "Inbox",
