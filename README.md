@@ -48,6 +48,8 @@ Note that until we reach version 1 locale entries may change between versions
 
 Locales will be checked and start time and preety warnings will be logged if any 
 
+Custom locales will override existing ones for the same ISO code
+
 ```sh
 raven create-locale [-c --config="./config.toml"] --code ISOCode
 ```
