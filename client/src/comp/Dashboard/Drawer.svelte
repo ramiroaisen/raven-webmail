@@ -83,7 +83,7 @@
 
 {#if $hasDrawer}
   {#if $drawerOpenMobile}
-    <x-overlay transition:fade={{duration: 300}} on:click={() => $drawerOpenMobile = false} />
+    <x-overlay transition:fade={{duration: 300}} on:click={() => drawerOpenMobile.set(false)} />
   {/if}
 
   <x-drawer class:mobile-open={$drawerOpenMobile} class:desktop-open={$drawerOpenDesktop}>
