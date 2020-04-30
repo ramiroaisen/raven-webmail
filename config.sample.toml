@@ -29,3 +29,11 @@ wildduck_api_url="http://localhost:8080"
 # wildduck api token
 # @string (required)
 wildduck_api_token="same as in wildduck config"
+
+
+# extra locales directories
+# @string[] (optional)
+# By removing this comment you can add custom locales
+# Run `raven create-locale --code "ISO Code" to create a default locale file
+# Directories are relative to this file
+# extra_locales_dirs=["./locales"]

@@ -1,0 +1,8 @@
+{
+  "someProp": ["asd", "asd", "asd"],
+  "mailbox": {
+      "title": {
+          "sent": ["hola"]
+      }
+  }
+}

@@ -30,6 +30,7 @@ raven start [-c --config="./config.toml"]
 ---
 
 ### Localization
+###### User locale is detected from Accept-Language http header
 
 ##### Human generated locales
 
@@ -39,8 +40,19 @@ raven start [-c --config="./config.toml"]
 ##### Machine generated locales (ISO codes)
   af,   am,   ar,   az,   be,   bg,   bn,   bs,   ca,   ceb,   co,   cs,   cy,   da,   de,   el,   eo,   et,   eu,   fa,   fi,   fr,   fy,   ga,   gd,   gl,   gu,   ha,   haw,   hi,   hmn,   hr,   ht,   hu,   hy,   id,   ig,   is,   it,   iw,   ja,   jw,   ka,   kk,   km,   kn,   ko,   ku,   ky,   la,   lb,   lo,   lt,   lv,   mg,   mi,   mk,   ml,   mn,   mr,   ms,   mt,   my,   ne,   nl,   no,   ny,   or,   pa,   pl,   ps,   pt,   ro,   ru,   rw,   sd,   si,   sk,   sl,   sm,   sn,   so,   sq,   sr,   st,   su,   sv,   sw,   ta,   te,   tg,   th,   tk,   tl,   tr,   tt,   ug,   uk,   ur,   uz,   vi,   xh,   yi,   yo,   zh, zh-TW,  zu
 
+##### Add custom locales
+Uncomment the "custom_locale_dirs" entry in the config file 
+and run this command to generate a default locale file that you can edit
 
-###### User locale is detected from Accept-Language http header
+Note that until we reach version 1 locale entries may change between versions
+
+Locales will be checked and start time and preety warnings will be logged if any 
+
+```sh
+raven create-locale [-c --config="./config.toml"] --code ISOCode
+```
+
+Please if you create a locale for your language make a PR or an issue and I will add it to the available locales
 
 ---
 

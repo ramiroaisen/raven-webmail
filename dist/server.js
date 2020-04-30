@@ -43,7 +43,7 @@ exports.start = async (config) => {
     dev && app.use(morgan_1.default("dev"));
     app.use(helmet_1.default());
     app.use(compression_1.default());
-    app.use(i18n_1.i18n());
+    app.use(i18n_1.i18n(config));
     const template = fs_1.readFileSync(path_1.default.resolve(__dirname, "../client/template.html"), "utf8");
     app.get("/", (req, res) => {
         res.header("content-type", "text/html");

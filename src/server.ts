@@ -50,7 +50,7 @@ export const start = async (config: Config) => {
   app.use(helmet());
   app.use(compression())
 
-  app.use(i18n());
+  app.use(i18n(config));
 
   const template = readFileSync(path.resolve(__dirname, "../client/template.html"), "utf8");
 

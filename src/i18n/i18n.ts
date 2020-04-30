@@ -1,6 +1,9 @@
 import path from "path";
 import fs from "fs";
 
+export const defaultLang = "en";
+export const base = require("./src/en").default as Locale;
+
 import { assertType } from "typescript-is";
 import chalk from "chalk";
 import {Request, Response, NextFunction, Router} from "express";
@@ -8,6 +11,7 @@ import {Request, Response, NextFunction, Router} from "express";
 import parser from "accept-language-parser";
 
 import {Locale} from "./types";
+import {Config} from "../config";
 
 declare module "express" {
     interface Request {
@@ -24,21 +28,128 @@ export type LocaleMeta = {
 }
 
 const localeDirs = [
-    path.join(__dirname, "src"),
-    path.join(__dirname, "scripts/machineTranslated"),
+    [path.join(__dirname, "src"), ".js", "human generated locales"],
+    [path.join(__dirname, "scripts/machineTranslated"), ".js", "machine generated locales"],
 ]
 
-export const load = (): Record<string, {locale: Locale, meta: LocaleMeta}> => {
+const imp = (path: string): Locale => {
+    const helper = require(path);
+    return helper.__esModule ? helper.default : helper;
+}
+
+interface Value extends Record<string, string | string[] | Value> {}
+
+const flat = (locale: Locale): Record<string, string | string[]> => {
+
+    const target: Record<string, string | string[]> = {};
+
+    const add = (parent: string | null, map: Value) => {
+        for (const [key, value] of Object.entries(map)) {
+            const k = parent ? `${parent}.${key}` : key;
+            if (typeof value === "string" || value instanceof Array) {
+                target[k] = value;
+            } else {
+                add(k, value);
+            }
+        }
+    }
+
+    add(null, locale);
+
+    return target;
+}
+
+const clone = (locale: Locale): Locale => {
+    const clone = <T extends Value>(value: T): T => {
+        if(typeof value === "string") {
+            return value;
+        } else if (value instanceof Array) {
+            return [...value] as any;
+        } else {
+            return Object.fromEntries(Object.entries(value).map(([key, value]) => {
+                return [key, clone(value as any)];
+            }))
+        }
+    }
+
+    return clone(locale);
+}
+
+const flattedBase = flat(base);
+
+const merge = (locale: Locale, meta: LocaleMeta): Locale => {
+
+    const flatted = flat(locale);
+
+    for(const [k, v1] of Object.entries(flattedBase)) {
+        const v2 = flatted[k as any];
+        if (v2 == null) {
+            console.warn(`> ${chalk.red("[WARN]")}: locale ${chalk.yellow(meta.key)} => missing key ${chalk.yellow(`"${k}"`)}: filling from default (${chalk.yellow(defaultLang)})`)
+
+        } else if (typeof v1 === "string" && typeof v2 !== "string") {
+            console.warn(`> ${chalk.red("[WARN]")}: locale ${chalk.yellow(meta.key)} => key ${chalk.yellow(`"${k}"`)} should be a string: replacing with value from default (${chalk.yellow(defaultLang)})`)
+
+        } else if(v1 instanceof Array && !(v2 instanceof Array)) {
+            console.warn(`> ${chalk.red("[WARN]")}: locale ${chalk.yellow(meta.key)} => key ${chalk.yellow(`"${k}"`)} should be an array: replacing with value from default (${chalk.yellow(defaultLang)})`)
+        }
+
+    }
+
+    for(const [k, v2] of Object.entries(flatted)) {
+        const v1 = flattedBase[k as any];
+        if (v1 == null) {
+            console.warn(`> ${chalk.red("[WARN]")}: locale ${chalk.yellow(meta.key)} => unrecognized key ${chalk.yellow(`"${k}"`)}: removing`);
+        }
+    }
+
+    const cloned = clone(base);
+
+    const merge = (target: Record<string, Value>, parents: string[]) => {
+        for(const [key, value] of Object.entries(target)) {
+            const k = [...parents, key].join(".");
+            const v = flatted[k];
+            if (typeof value === "string") {
+                if(typeof v === "string"){
+                    (target[key] as any) = v;
+                }
+            } else if (value instanceof Array){
+                if(v instanceof Array) {
+                    (target[key] as any) = v;
+                }
+            } else {
+               merge(target[key] as any, [...parents, key]);
+            }
+        }
+    }
+
+    merge(cloned, []);
+
+    return cloned;
+}
+
+export const load = (config: Config): Record<string, {locale: Locale, meta: LocaleMeta}> => {
     
     let locales: Record<string, {locale: Locale, meta: LocaleMeta}> = Object.create(null);
 
-    for (const dir of localeDirs) {
+    const dirs = [];
+
+    if(config.extra_locales_dirs != null) {
+        for(const dir of config.extra_locales_dirs) {
+            dirs.push([dir, ".json", "custom locales"]);
+        }
+    }
+
+    dirs.push(...localeDirs);
+
+    for (const [dir, ext, title] of dirs) {
+
+        console.log(`> Loading ${chalk.yellow(title)} from ${chalk.yellow(dir)}`);
 
         const filenames = fs.readdirSync(dir);
 
         for(const filename of filenames) {
 
-            if(path.extname(filename) !== ".js") {
+            if (!filename.endsWith(ext)) {
                 continue;
             }
 
@@ -48,32 +159,23 @@ export const load = (): Record<string, {locale: Locale, meta: LocaleMeta}> => {
                 continue;
             }
 
-            const locale = require(path.join(dir, key)).default as Locale;
+            const src = imp(path.join(dir, key));
             const {code, region, script} = parser.parse(key)[0];
             const meta = {key, code, region, script};
+            const locale = merge(src, meta);
 
-            try {
-                //assertType<Locale>(locale);
-                locales[key] = {locale, meta};
-            } catch(e) {
-                console.error(chalk.red(`Type error in locale ${chalk.yellow(code)}:` + e.message));
-                console.log("Ignoring locale " + chalk.yellow(code));
-            }
+            locales[key] = {locale, meta};
         }
     }
 
     return locales;
 }
 
-const checkLocale = (locale: Locale) => {
-
-}
-
-export const i18n = ({byDefault = "en"} = {}) => {
+export const i18n = (config: Config) => {
     
-    const locales = load();
+    const locales = load(config);
 
-    console.log(">", Object.keys(locales).length, "locales loaded, default: " + chalk.yellow(byDefault));
+    console.log(">", Object.keys(locales).length, "locales loaded, default: " + chalk.yellow(defaultLang));
 
     const router = Router();
 
@@ -82,8 +184,8 @@ export const i18n = ({byDefault = "en"} = {}) => {
         const accept = req.headers["accept-language"];
         
         if (accept == null) {
-            req.lang = byDefault;
-            req.locale = locales[byDefault].locale;
+            req.lang = defaultLang;
+            req.locale = locales[defaultLang].locale;
             return next();
         } 
 
@@ -128,8 +230,8 @@ export const i18n = ({byDefault = "en"} = {}) => {
             }
         }
 
-        req.lang = byDefault;
-        req.locale = locales[byDefault].locale;
+        req.lang = defaultLang;
+        req.locale = locales[defaultLang].locale;
         return next();
     })
 
