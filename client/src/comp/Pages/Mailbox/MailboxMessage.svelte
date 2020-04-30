@@ -102,6 +102,7 @@
   }
 
   .from-subject-date {
+    flex: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
