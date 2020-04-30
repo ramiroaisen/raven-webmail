@@ -7,8 +7,7 @@
     flex-direction: row;
     align-items: center;
     border-top:#d8dcdf 1px solid;
-    padding: 0 1em;
-    height: 3em;
+    padding: 0.5em 1em;
   }
 
   .show-hover {
@@ -101,6 +100,53 @@
   .unseen {
     font-weight: 700;
   }
+
+  .from-subject-date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 700px) {
+
+    .message {
+      padding-inline-start: 0.45em;
+    }
+
+    .cell-selected {
+      margin-inline-end: -0.45em;
+    }
+
+    .from-subject-date {
+      flex-direction: column;
+      overflow: hidden;
+      margin-inline-start: 0.5em;
+    }
+
+   .from-subject-date > x-cell{
+      padding: 0;
+    }
+
+    .from-subject-date > x-cell + x-cell{
+      margin-top: 0.35em;
+    }
+
+    .from {
+      align-self: flex-start;
+      margin: 0;
+    }
+
+    .subject-intro {
+      align-self: flex-start;
+      flex: none;
+      width: 100%;
+    }
+
+    .date {
+      align-self: flex-start;
+      margin: 0;
+    }
+  }
 </style>
 
 <script>
@@ -185,22 +231,24 @@
     <Ripple />
   </x-cell>
 
-  <x-cell class="from">
-    {#if isSent || isDraft}
-      <span class="for">{locale.mailboxMessage.to} </span>{($message.to || []).map(to => to.name || to.address).filter(Boolean).join(", ")}
-    {:else}
-      {$message.from.name || $message.from.address || ""}
-    {/if}
-  </x-cell>
+  <x-cell-group class="from-subject-date">
+    <x-cell class="from">
+      {#if isSent || isDraft}
+        <span class="for">{locale.mailboxMessage.to} </span>{($message.to || []).map(to => to.name || to.address).filter(Boolean).join(", ")}
+      {:else}
+        {$message.from.name || $message.from.address || ""}
+      {/if}
+    </x-cell>
 
 
-  <x-cell class="subject-intro">
-    <span class="subject">{$message.subject || ""}</span>
-    <span class="intro">{$message.intro || ""}</span>
-  </x-cell>
+    <x-cell class="subject-intro">
+      <span class="subject">{$message.subject || ""}</span>
+      <span class="intro">{$message.intro || ""}</span>
+    </x-cell>
 
 
-  <x-cell class="date">
-    {$message.date && date($message.date, locale)}
-  </x-cell>
+    <x-cell class="date">
+      {$message.date && date($message.date, locale)}
+    </x-cell>
+  </x-cell-group>
 </a>
