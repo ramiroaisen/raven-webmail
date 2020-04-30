@@ -46,7 +46,7 @@ and run this command to generate a default locale file that you can edit
 
 Note that until we reach version 1 locale entries may change between versions
 
-Locales will be checked and start time and preety warnings will be logged if any 
+Locales will be checked at startup and preety warnings will be logged if any 
 
 Custom locales will override existing ones for the same ISO code
 
