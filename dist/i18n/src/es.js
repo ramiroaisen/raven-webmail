@@ -9,7 +9,7 @@ exports.default = {
             trash: "Papelera",
             junk: "Spam",
         },
-        empty: "No hay mensajes en estar carpeta",
+        empty: "No hay mensajes en esta carpeta",
     },
     mailboxMessage: {
         to: "Para:"

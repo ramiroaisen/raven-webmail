@@ -9,7 +9,7 @@ export default {
             junk: "Spam",
         },
 
-        empty: "No hay mensajes en estar carpeta",
+        empty: "No hay mensajes en esta carpeta",
     },
 
     mailboxMessage: {
