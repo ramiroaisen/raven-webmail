@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Ottobre",
     "10": "Nuvembre",
     "11": "Dicembre"
+  },
+  "notifier": {
+    "messageSent": "Missaghju mandatu"
   }
 };
 

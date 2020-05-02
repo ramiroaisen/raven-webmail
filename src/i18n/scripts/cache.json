@@ -72,7 +72,8 @@
     "October": "Oktober",
     "November": "November",
     "December": "Desember",
-    "Refresh": "Verfris"
+    "Refresh": "Verfris",
+    "Message sent": "Boodskap gestuur"
   },
   "am": {
     "Inbox": "የገቢ መልእክት ሳጥን",
@@ -147,7 +148,8 @@
     "October": "ጥቅምት",
     "November": "ህዳር",
     "December": "ታህሳስ",
-    "Refresh": "አድስ"
+    "Refresh": "አድስ",
+    "Message sent": "መልእክት ተልኳል"
   },
   "ar": {
     "Inbox": "صندوق الوارد",
@@ -222,7 +224,8 @@
     "October": "اكتوبر",
     "November": "شهر نوفمبر",
     "December": "ديسمبر",
-    "Refresh": "تحديث"
+    "Refresh": "تحديث",
+    "Message sent": "تم الارسال"
   },
   "az": {
     "Inbox": "Gələnlər qutusu",
@@ -297,7 +300,8 @@
     "October": "oktyabr",
     "November": "Noyabr",
     "December": "Dekabr",
-    "Refresh": "təzələmək"
+    "Refresh": "təzələmək",
+    "Message sent": "Mesaj göndərildi"
   },
   "be": {
     "Inbox": "Уваходныя",
@@ -372,7 +376,8 @@
     "October": "Кастрычніцкая",
     "November": "Лістапада",
     "December": "Снежань",
-    "Refresh": "Абнавіць"
+    "Refresh": "Абнавіць",
+    "Message sent": "Паведамленне адпраўлена"
   },
   "bg": {
     "Inbox": "Входящи",
@@ -447,7 +452,8 @@
     "October": "октомври",
     "November": "ноември",
     "December": "декември",
-    "Refresh": "Обновяване"
+    "Refresh": "Обновяване",
+    "Message sent": "Съобщението е изпратено"
   },
   "bn": {
     "Inbox": "ইনবক্স",
@@ -522,7 +528,8 @@
     "October": "অক্টোবর",
     "November": "নভেম্বর",
     "December": "ডিসেম্বর",
-    "Refresh": "সতেজ করা"
+    "Refresh": "সতেজ করা",
+    "Message sent": "বার্তা প্রদান"
   },
   "bs": {
     "Inbox": "Inbox",
@@ -597,7 +604,8 @@
     "October": "Oktobar",
     "November": "Novembra",
     "December": "Prosinca",
-    "Refresh": "Osvježiti"
+    "Refresh": "Osvježiti",
+    "Message sent": "Poruka poslana"
   },
   "ca": {
     "Inbox": "Safata d'entrada",
@@ -672,7 +680,8 @@
     "October": "Octubre",
     "November": "de novembre",
     "December": "Desembre",
-    "Refresh": "Actualització"
+    "Refresh": "Actualització",
+    "Message sent": "Missatge enviat"
   },
   "ceb": {
     "Inbox": "Inbox",
@@ -747,7 +756,8 @@
     "October": "Oktubre",
     "November": "Nobyembre",
     "December": "Disyembre",
-    "Refresh": "Refresh"
+    "Refresh": "Refresh",
+    "Message sent": "Gipadala ang mensahe"
   },
   "co": {
     "Inbox": "Inbox",
@@ -822,7 +832,8 @@
     "October": "Ottobre",
     "November": "Nuvembre",
     "December": "Dicembre",
-    "Refresh": "Rinnovà"
+    "Refresh": "Rinnovà",
+    "Message sent": "Missaghju mandatu"
   },
   "cs": {
     "Inbox": "Doručená pošta",
@@ -897,7 +908,8 @@
     "October": "říjen",
     "November": "listopad",
     "December": "prosinec",
-    "Refresh": "Obnovit"
+    "Refresh": "Obnovit",
+    "Message sent": "Zpráva odeslána"
   },
   "cy": {
     "Inbox": "Mewnflwch",
@@ -972,7 +984,8 @@
     "October": "Hydref",
     "November": "Tachwedd",
     "December": "Rhagfyr",
-    "Refresh": "Adnewyddu"
+    "Refresh": "Adnewyddu",
+    "Message sent": "Anfonwyd neges"
   },
   "da": {
     "Inbox": "Indbakke",
@@ -1047,7 +1060,8 @@
     "October": "oktober",
     "November": "november",
     "December": "december",
-    "Refresh": "Opdater"
+    "Refresh": "Opdater",
+    "Message sent": "Besked sendt"
   },
   "de": {
     "Inbox": "Posteingang",
@@ -1122,7 +1136,8 @@
     "October": "Oktober",
     "November": "November",
     "December": "Dezember",
-    "Refresh": "Aktualisierung"
+    "Refresh": "Aktualisierung",
+    "Message sent": "Nachricht gesendet"
   },
   "el": {
     "Inbox": "Inbox",
@@ -1197,7 +1212,8 @@
     "October": "Οκτώβριος",
     "November": "Νοέμβριος",
     "December": "Δεκέμβριος",
-    "Refresh": "Φρεσκάρω"
+    "Refresh": "Φρεσκάρω",
+    "Message sent": "Το μήνυμα στάλθηκε"
   },
   "eo": {
     "Inbox": "Informkesto",
@@ -1272,7 +1288,8 @@
     "October": "Oktobro",
     "November": "Novembro",
     "December": "Decembro",
-    "Refresh": "Refreŝigi"
+    "Refresh": "Refreŝigi",
+    "Message sent": "Mesaĝo sendita"
   },
   "es": {
     "Inbox": "Bandeja de entrada",
@@ -1347,7 +1364,8 @@
     "October": "octubre",
     "November": "noviembre",
     "December": "diciembre",
-    "Refresh": "Actualizar"
+    "Refresh": "Actualizar",
+    "Message sent": "Mensaje enviado"
   },
   "et": {
     "Inbox": "Postkast",
@@ -1422,7 +1440,8 @@
     "October": "Oktoobril",
     "November": "Novembril",
     "December": "Detsembril",
-    "Refresh": "Värskenda"
+    "Refresh": "Värskenda",
+    "Message sent": "Sõnum saadetud"
   },
   "eu": {
     "Inbox": "Sarrerako ontzia",
@@ -1497,7 +1516,8 @@
     "October": "urria",
     "November": "Azaroa",
     "December": "abendua",
-    "Refresh": "Freskatu"
+    "Refresh": "Freskatu",
+    "Message sent": "Mezua bidali da"
   },
   "fa": {
     "Inbox": "صندوق ورودی",
@@ -1572,7 +1592,8 @@
     "October": "اکتبر",
     "November": "نوامبر",
     "December": "دسامبر",
-    "Refresh": "تازه کردن"
+    "Refresh": "تازه کردن",
+    "Message sent": "پیغام فرستاده شد"
   },
   "fi": {
     "Inbox": "Saapuneet",
@@ -1647,7 +1668,8 @@
     "October": "lokakuu",
     "November": "marraskuu",
     "December": "joulukuu",
-    "Refresh": "virkistää"
+    "Refresh": "virkistää",
+    "Message sent": "Viesti lähetetty"
   },
   "fr": {
     "Inbox": "Boîte de réception",
@@ -1722,7 +1744,8 @@
     "October": "octobre",
     "November": "novembre",
     "December": "décembre",
-    "Refresh": "Rafraîchir"
+    "Refresh": "Rafraîchir",
+    "Message sent": "Message envoyé"
   },
   "fy": {
     "Inbox": "Postfek YN",
@@ -1797,7 +1820,8 @@
     "October": "oktober",
     "November": "novimber",
     "December": "desimber",
-    "Refresh": "Opfrisse"
+    "Refresh": "Opfrisse",
+    "Message sent": "Berjocht ferstjoerd"
   },
   "ga": {
     "Inbox": "Bosca Isteach",
@@ -1872,7 +1896,8 @@
     "October": "Deireadh Fómhair",
     "November": "Samhain",
     "December": "Nollaig",
-    "Refresh": "Athnuachan"
+    "Refresh": "Athnuachan",
+    "Message sent": "Teachtaireacht seolta"
   },
   "gd": {
     "Inbox": "Bogsa a-steach",
@@ -1947,7 +1972,8 @@
     "October": "An Dàmhair",
     "November": "An t-Samhain",
     "December": "An Dùbhlachd",
-    "Refresh": "Ùraich"
+    "Refresh": "Ùraich",
+    "Message sent": "Teachdaireachd air a chuir"
   },
   "gl": {
     "Inbox": "Caixa de entrada",
@@ -2022,7 +2048,8 @@
     "October": "Outubro",
     "November": "Novembro",
     "December": "Decembro",
-    "Refresh": "Actualizar"
+    "Refresh": "Actualizar",
+    "Message sent": "Mensaxe enviada"
   },
   "gu": {
     "Inbox": "ઇનબોક્સ",
@@ -2097,7 +2124,8 @@
     "October": "ઓક્ટોબર",
     "November": "નવેમ્બર",
     "December": "ડિસેમ્બર",
-    "Refresh": "તાજું કરો"
+    "Refresh": "તાજું કરો",
+    "Message sent": "સંદેશ મોકલ્યો"
   },
   "ha": {
     "Inbox": "Akwati",
@@ -2172,7 +2200,8 @@
     "October": "Oktoba",
     "November": "Nuwamba",
     "December": "Disamba",
-    "Refresh": "Sanya"
+    "Refresh": "Sanya",
+    "Message sent": "An aika da sako"
   },
   "haw": {
     "Inbox": "Kahu Inikua",
@@ -2247,7 +2276,8 @@
     "October": "Okakopa",
     "November": "Nowemapa",
     "December": "Kekemapa",
-    "Refresh": "Hoʻohālikelike"
+    "Refresh": "Hoʻohālikelike",
+    "Message sent": "Hoʻouna ʻia ka leka"
   },
   "hi": {
     "Inbox": "इनबॉक्स",
@@ -2322,7 +2352,8 @@
     "October": "अक्टूबर",
     "November": "नवंबर",
     "December": "दिसंबर",
-    "Refresh": "ताज़ा करना"
+    "Refresh": "ताज़ा करना",
+    "Message sent": "मैसेज बेजा गया"
   },
   "hmn": {
     "Inbox": "Cov Inbox",
@@ -2397,7 +2428,8 @@
     "October": "Lub kaum hli ntuj",
     "November": "Kaum ib hlis",
     "December": "Lub Kaum Ob Hlis",
-    "Refresh": "Kho Siab"
+    "Refresh": "Kho Siab",
+    "Message sent": "Xa xov"
   },
   "hr": {
     "Inbox": "Ulazni spremnik",
@@ -2472,7 +2504,8 @@
     "October": "listopad",
     "November": "studeni",
     "December": "prosinac",
-    "Refresh": "Osvježiti"
+    "Refresh": "Osvježiti",
+    "Message sent": "Poruka je poslana"
   },
   "ht": {
     "Inbox": "Bwat resepsyon",
@@ -2547,7 +2580,8 @@
     "October": "Oktòb",
     "November": "Novanm",
     "December": "Desanm",
-    "Refresh": "Rafrechi"
+    "Refresh": "Rafrechi",
+    "Message sent": "Mesaj voye"
   },
   "hu": {
     "Inbox": "Bejövő",
@@ -2622,7 +2656,8 @@
     "October": "október",
     "November": "november",
     "December": "december",
-    "Refresh": "Frissítés"
+    "Refresh": "Frissítés",
+    "Message sent": "Üzenet elküldve"
   },
   "hy": {
     "Inbox": "Ներարկղ",
@@ -2697,7 +2732,8 @@
     "October": "Հոկտեմբեր",
     "November": "Նոյեմբեր",
     "December": "Դեկտեմբեր",
-    "Refresh": "Թարմացրեք"
+    "Refresh": "Թարմացրեք",
+    "Message sent": "Նամակը ուղարկված է"
   },
   "id": {
     "Inbox": "Kotak masuk",
@@ -2772,7 +2808,8 @@
     "October": "Oktober",
     "November": "November",
     "December": "Desember",
-    "Refresh": "Menyegarkan"
+    "Refresh": "Menyegarkan",
+    "Message sent": "Pesan terkirim"
   },
   "ig": {
     "Inbox": "Igbe mbata",
@@ -2847,7 +2884,8 @@
     "October": "Ọktoba",
     "November": "Nọvemba",
     "December": "Disemba",
-    "Refresh": "Nwee ume"
+    "Refresh": "Nwee ume",
+    "Message sent": "Ozi zitere"
   },
   "is": {
     "Inbox": "Innhólf",
@@ -2922,7 +2960,8 @@
     "October": "október",
     "November": "Nóvember",
     "December": "Desember",
-    "Refresh": "Endurnærðu"
+    "Refresh": "Endurnærðu",
+    "Message sent": "Skilaboð send"
   },
   "it": {
     "Inbox": "Posta in arrivo",
@@ -2997,7 +3036,8 @@
     "October": "ottobre",
     "November": "novembre",
     "December": "dicembre",
-    "Refresh": "ricaricare"
+    "Refresh": "ricaricare",
+    "Message sent": "Messaggio inviato"
   },
   "iw": {
     "Inbox": "תיבת הדואר הנכנס",
@@ -3072,7 +3112,8 @@
     "October": "אוקטובר",
     "November": "נובמבר",
     "December": "דצמבר",
-    "Refresh": "רענן"
+    "Refresh": "רענן",
+    "Message sent": "הודעה נשלחה"
   },
   "ja": {
     "Inbox": "受信トレイ",
@@ -3147,7 +3188,8 @@
     "October": "10月",
     "November": "11月",
     "December": "12月",
-    "Refresh": "リフレッシュ"
+    "Refresh": "リフレッシュ",
+    "Message sent": "メッセージを送信しました"
   },
   "jw": {
     "Inbox": "Kothak mlebu",
@@ -3222,7 +3264,8 @@
     "October": "Oktober",
     "November": "November",
     "December": "Desember",
-    "Refresh": "Refresh"
+    "Refresh": "Refresh",
+    "Message sent": "Pesen dikirim"
   },
   "ka": {
     "Inbox": "Შემომავალი",
@@ -3297,7 +3340,8 @@
     "October": "ოქტომბერი",
     "November": "ნოემბერი",
     "December": "დეკემბერი",
-    "Refresh": "განახლება"
+    "Refresh": "განახლება",
+    "Message sent": "Შეტყობინება გაგზავნილია"
   },
   "kk": {
     "Inbox": "Кіріс жәшігі",
@@ -3372,7 +3416,8 @@
     "October": "Қазан",
     "November": "Қараша",
     "December": "Желтоқсан",
-    "Refresh": "Сергіту"
+    "Refresh": "Сергіту",
+    "Message sent": "Хабар жіберілді"
   },
   "km": {
     "Inbox": "ប្រអប់ទទួល",
@@ -3447,7 +3492,8 @@
     "October": "តុលា",
     "November": "វិច្ឆិកា",
     "December": "ធ្នូ",
-    "Refresh": "ធ្វើ​ឱ្យ​ស្រស់"
+    "Refresh": "ធ្វើ​ឱ្យ​ស្រស់",
+    "Message sent": "បានផ្ញើសារ"
   },
   "kn": {
     "Inbox": "ಇನ್‌ಬಾಕ್ಸ್",
@@ -3522,7 +3568,8 @@
     "October": "ಅಕ್ಟೋಬರ್",
     "November": "ನವೆಂಬರ್",
     "December": "ಡಿಸೆಂಬರ್",
-    "Refresh": "ರಿಫ್ರೆಶ್ ಮಾಡಿ"
+    "Refresh": "ರಿಫ್ರೆಶ್ ಮಾಡಿ",
+    "Message sent": "ಸಂದೇಶ ಕಳುಹಿಸಲಾಗಿದೆ"
   },
   "ko": {
     "Inbox": "받은 편지함",
@@ -3597,7 +3644,8 @@
     "October": "십월",
     "November": "십일월",
     "December": "12 월",
-    "Refresh": "새롭게 하다"
+    "Refresh": "새롭게 하다",
+    "Message sent": "메시지 전송 됨"
   },
   "ku": {
     "Inbox": "Inbox",
@@ -3672,7 +3720,8 @@
     "October": "Cotmeh",
     "November": "Mijdar",
     "December": "Berfanbar",
-    "Refresh": "Hênikkirin"
+    "Refresh": "Hênikkirin",
+    "Message sent": "Mesaj şandin"
   },
   "ky": {
     "Inbox": "Кирүү кутусу",
@@ -3747,7 +3796,8 @@
     "October": "Октябрь",
     "November": "Ноябрь",
     "December": "Декабрь",
-    "Refresh": "сергитүү"
+    "Refresh": "сергитүү",
+    "Message sent": "Билдирүү жөнөтүлдү"
   },
   "la": {
     "Inbox": "inbuxo",
@@ -3822,7 +3872,8 @@
     "October": "Octobris",
     "November": "November",
     "December": "December",
-    "Refresh": "Renovare"
+    "Refresh": "Renovare",
+    "Message sent": "nuntium misit"
   },
   "lb": {
     "Inbox": "Inbox",
@@ -3897,7 +3948,8 @@
     "October": "Oktober",
     "November": "November",
     "December": "Dezember",
-    "Refresh": "Opfrëschen"
+    "Refresh": "Opfrëschen",
+    "Message sent": "Message geschéckt"
   },
   "lo": {
     "Inbox": "ກ່ອງຈົດ ໝາຍ",
@@ -3972,7 +4024,8 @@
     "October": "ເດືອນຕຸລາ",
     "November": "ພະຈິກ",
     "December": "ທັນວາ",
-    "Refresh": "ໂຫຼດຫນ້າຈໍຄືນ"
+    "Refresh": "ໂຫຼດຫນ້າຈໍຄືນ",
+    "Message sent": "ຂໍ້ຄວາມຖືກສົ່ງແລ້ວ"
   },
   "lt": {
     "Inbox": "Pašto dėžutę",
@@ -4047,7 +4100,8 @@
     "October": "Spalio mėn",
     "November": "Lapkritį",
     "December": "Gruodį",
-    "Refresh": "Atnaujinkite"
+    "Refresh": "Atnaujinkite",
+    "Message sent": "Žinutė išsiųsta"
   },
   "lv": {
     "Inbox": "Iesūtne",
@@ -4122,7 +4176,8 @@
     "October": "Oktobris",
     "November": "Novembrī",
     "December": "Decembrī",
-    "Refresh": "atjaunot"
+    "Refresh": "atjaunot",
+    "Message sent": "Ziņa nosūtīta"
   },
   "mg": {
     "Inbox": "Inbox",
@@ -4197,7 +4252,8 @@
     "October": "Oktobra",
     "November": "Novambra",
     "December": "Desambra",
-    "Refresh": "Refresh"
+    "Refresh": "Refresh",
+    "Message sent": "Hafatra nandefa"
   },
   "mi": {
     "Inbox": "Pouakahu",
@@ -4272,7 +4328,8 @@
     "October": "Oketopa",
     "November": "Whiringa",
     "December": "Hakihea",
-    "Refresh": "Whakahoki"
+    "Refresh": "Whakahoki",
+    "Message sent": "Karere i tukuna"
   },
   "mk": {
     "Inbox": "Инбокс",
@@ -4347,7 +4404,8 @@
     "October": "Октомври",
     "November": "Ноември",
     "December": "Декември",
-    "Refresh": "Освежи"
+    "Refresh": "Освежи",
+    "Message sent": "Пораката е испратена"
   },
   "ml": {
     "Inbox": "ഇൻ‌ബോക്സ്",
@@ -4422,7 +4480,8 @@
     "October": "ഒക്ടോബർ",
     "November": "നവംബർ",
     "December": "ഡിസംബർ",
-    "Refresh": "പുതുക്കുക"
+    "Refresh": "പുതുക്കുക",
+    "Message sent": "സന്ദേശം അയച്ചു"
   },
   "mn": {
     "Inbox": "Ирсэн мэйл",
@@ -4497,7 +4556,8 @@
     "October": "10-р сар",
     "November": "11-р сар",
     "December": "Арванхоёрдугаар сар",
-    "Refresh": "Сэргээнэ үү"
+    "Refresh": "Сэргээнэ үү",
+    "Message sent": "Мессеж илгээгдсэн байна"
   },
   "mr": {
     "Inbox": "इनबॉक्स",
@@ -4572,7 +4632,8 @@
     "October": "ऑक्टोबर",
     "November": "नोव्हेंबर",
     "December": "डिसेंबर",
-    "Refresh": "रीफ्रेश"
+    "Refresh": "रीफ्रेश",
+    "Message sent": "संदेश पाठवला"
   },
   "ms": {
     "Inbox": "Peti Masuk",
@@ -4647,7 +4708,8 @@
     "October": "Oktober",
     "November": "November",
     "December": "Disember",
-    "Refresh": "Segarkan"
+    "Refresh": "Segarkan",
+    "Message sent": "Pesanan dihantar"
   },
   "mt": {
     "Inbox": "Inbox",
@@ -4722,7 +4784,8 @@
     "October": "Ottubru",
     "November": "Novembru",
     "December": "Diċembru",
-    "Refresh": "Aġġorna"
+    "Refresh": "Aġġorna",
+    "Message sent": "Messaġġ mibgħut"
   },
   "my": {
     "Inbox": "Inbox",
@@ -4797,7 +4860,8 @@
     "October": "အောက်တိုဘာ",
     "November": "နိုဝင်ဘာ",
     "December": "ဒီဇင်ဘာ",
-    "Refresh": "Refresh"
+    "Refresh": "Refresh",
+    "Message sent": "မက်ဆေ့ခ်ျပို့ခဲ့သည်"
   },
   "ne": {
     "Inbox": "इनबक्स",
@@ -4872,7 +4936,8 @@
     "October": "अक्टुबर",
     "November": "नोभेम्बर",
     "December": "डिसेम्बर",
-    "Refresh": "रिफ्रेस गर्नुहोस्"
+    "Refresh": "रिफ्रेस गर्नुहोस्",
+    "Message sent": "सन्देश पठाइयो"
   },
   "nl": {
     "Inbox": "Postvak IN",
@@ -4947,7 +5012,8 @@
     "October": "oktober",
     "November": "November",
     "December": "december",
-    "Refresh": "Vernieuwen"
+    "Refresh": "Vernieuwen",
+    "Message sent": "Bericht verzonden"
   },
   "no": {
     "Inbox": "Innboks",
@@ -5022,7 +5088,8 @@
     "October": "oktober",
     "November": "november",
     "December": "desember",
-    "Refresh": "Forfriske"
+    "Refresh": "Forfriske",
+    "Message sent": "Melding sendt"
   },
   "ny": {
     "Inbox": "Makulidwe",
@@ -5097,7 +5164,8 @@
     "October": "Okutobala",
     "November": "Novembala",
     "December": "Disembala",
-    "Refresh": "Tsitsimutsani"
+    "Refresh": "Tsitsimutsani",
+    "Message sent": "Mauthenga atumizidwa"
   },
   "or": {
     "Inbox": "ଇନବକ୍ସ |",
@@ -5172,7 +5240,8 @@
     "October": "ଅକ୍ଟୋବର",
     "November": "ନଭେମ୍ବର",
     "December": "ଡିସେମ୍ବର",
-    "Refresh": "ସତେଜ କରନ୍ତୁ |"
+    "Refresh": "ସତେଜ କରନ୍ତୁ |",
+    "Message sent": "ବାର୍ତ୍ତା ପଠାଯାଇଛି |"
   },
   "pa": {
     "Inbox": "ਇਨਬਾਕਸ",
@@ -5247,7 +5316,8 @@
     "October": "ਅਕਤੂਬਰ",
     "November": "ਨਵੰਬਰ",
     "December": "ਦਸੰਬਰ",
-    "Refresh": "ਤਾਜ਼ਾ ਕਰੋ"
+    "Refresh": "ਤਾਜ਼ਾ ਕਰੋ",
+    "Message sent": "ਸੁਨੇਹਾ ਭੇਜਿਆ ਗਿਆ"
   },
   "pl": {
     "Inbox": "W pudełku",
@@ -5322,7 +5392,8 @@
     "October": "październik",
     "November": "listopad",
     "December": "grudzień",
-    "Refresh": "Odświeżać"
+    "Refresh": "Odświeżać",
+    "Message sent": "Wiadomość wysłana"
   },
   "ps": {
     "Inbox": "Inbox",
@@ -5397,7 +5468,8 @@
     "October": "اکتوبر",
     "November": "نومبر",
     "December": "دسمبر",
-    "Refresh": "تازه کړئ"
+    "Refresh": "تازه کړئ",
+    "Message sent": "پیغام ولیږل شو"
   },
   "pt": {
     "Inbox": "Caixa de entrada",
@@ -5472,7 +5544,8 @@
     "October": "Outubro",
     "November": "novembro",
     "December": "dezembro",
-    "Refresh": "Atualizar"
+    "Refresh": "Atualizar",
+    "Message sent": "Mensagem enviada"
   },
   "ro": {
     "Inbox": "Inbox",
@@ -5547,7 +5620,8 @@
     "October": "octombrie",
     "November": "noiembrie",
     "December": "decembrie",
-    "Refresh": "Reîmprospăta"
+    "Refresh": "Reîmprospăta",
+    "Message sent": "Mesaj trimis"
   },
   "ru": {
     "Inbox": "входящие",
@@ -5622,7 +5696,8 @@
     "October": "октября",
     "November": "ноябрь",
     "December": "Декабрь",
-    "Refresh": "обновление"
+    "Refresh": "обновление",
+    "Message sent": "Сообщение отправлено"
   },
   "rw": {
     "Inbox": "Inbox",
@@ -5697,7 +5772,8 @@
     "October": "Ukwakira",
     "November": "Ugushyingo",
     "December": "Kigarama",
-    "Refresh": "Ongera"
+    "Refresh": "Ongera",
+    "Message sent": "Ubutumwa bwoherejwe"
   },
   "sd": {
     "Inbox": "انباڪس",
@@ -5772,7 +5848,8 @@
     "October": "آڪٽوبر",
     "November": "نومبر",
     "December": "ڊسمبر",
-    "Refresh": "ريفريش"
+    "Refresh": "ريفريش",
+    "Message sent": "پيغام موڪليو ويو"
   },
   "si": {
     "Inbox": "එන ලිපි",
@@ -5847,7 +5924,8 @@
     "October": "ඔක්තෝම්බර්",
     "November": "නොවැම්බර්",
     "December": "දෙසැම්බර්",
-    "Refresh": "නැවුම් කරන්න"
+    "Refresh": "නැවුම් කරන්න",
+    "Message sent": "පණිවිඩය යැව්වා"
   },
   "sk": {
     "Inbox": "Doručená pošta",
@@ -5922,7 +6000,8 @@
     "October": "október",
     "November": "november",
     "December": "December",
-    "Refresh": "Obnoviť"
+    "Refresh": "Obnoviť",
+    "Message sent": "Správa poslaná"
   },
   "sl": {
     "Inbox": "Prejeto",
@@ -5997,7 +6076,8 @@
     "October": "Oktober",
     "November": "Novembra",
     "December": "December",
-    "Refresh": "Osveži"
+    "Refresh": "Osveži",
+    "Message sent": "Sporočilo poslano"
   },
   "sm": {
     "Inbox": "Falevalu",
@@ -6072,7 +6152,8 @@
     "October": "Okitopa",
     "November": "Novema",
     "December": "Tesema",
-    "Refresh": "Faʻafouina"
+    "Refresh": "Faʻafouina",
+    "Message sent": "Savali auina"
   },
   "sn": {
     "Inbox": "Inbox",
@@ -6147,7 +6228,8 @@
     "October": "Gumiguru",
     "November": "Mbudzi",
     "December": "Zvita",
-    "Refresh": "Zorodza"
+    "Refresh": "Zorodza",
+    "Message sent": "Message yatumirwa"
   },
   "so": {
     "Inbox": "Inbox",
@@ -6222,7 +6304,8 @@
     "October": "Oktoobar",
     "November": "Nofeembar",
     "December": "Diseembar",
-    "Refresh": "Nasiin"
+    "Refresh": "Nasiin",
+    "Message sent": "Farriin baa la diray"
   },
   "sq": {
     "Inbox": "Inbox",
@@ -6297,7 +6380,8 @@
     "October": "tetor",
     "November": "nëntor",
     "December": "dhjetor",
-    "Refresh": "freskoj"
+    "Refresh": "freskoj",
+    "Message sent": "Mesazhi u Dergua"
   },
   "sr": {
     "Inbox": "Инбок",
@@ -6372,7 +6456,8 @@
     "October": "Октобар",
     "November": "Новембар",
     "December": "Децембар",
-    "Refresh": "Освјежи"
+    "Refresh": "Освјежи",
+    "Message sent": "Порука послата"
   },
   "st": {
     "Inbox": "Inbox",
@@ -6447,7 +6532,8 @@
     "October": "Mphalane",
     "November": "Pulungoana",
     "December": "Mots'eanong",
-    "Refresh": "Ntlafatsa"
+    "Refresh": "Ntlafatsa",
+    "Message sent": "Ho romelletsoe molaetsa"
   },
   "su": {
     "Inbox": "Koropak",
@@ -6522,7 +6608,8 @@
     "October": "Oktober",
     "November": "Nopémber",
     "December": "Désémber",
-    "Refresh": "Refresh"
+    "Refresh": "Refresh",
+    "Message sent": "Pesen dikirim"
   },
   "sv": {
     "Inbox": "Inkorg",
@@ -6597,7 +6684,8 @@
     "October": "oktober",
     "November": "november",
     "December": "december",
-    "Refresh": "Uppdatera"
+    "Refresh": "Uppdatera",
+    "Message sent": "Meddelande skickat"
   },
   "sw": {
     "Inbox": "Kikasha",
@@ -6672,7 +6760,8 @@
     "October": "Oktoba",
     "November": "Novemba",
     "December": "Desemba",
-    "Refresh": "Sasisha"
+    "Refresh": "Sasisha",
+    "Message sent": "Ujumbe umetumwa"
   },
   "ta": {
     "Inbox": "உட்பெட்டி",
@@ -6747,7 +6836,8 @@
     "October": "அக்டோபர்",
     "November": "நவம்பர்",
     "December": "டிசம்பர்",
-    "Refresh": "புதுப்பிப்பு"
+    "Refresh": "புதுப்பிப்பு",
+    "Message sent": "செய்தி அனுப்பப்பட்டது"
   },
   "te": {
     "Inbox": "ఇన్బాక్స్",
@@ -6822,7 +6912,8 @@
     "October": "అక్టోబర్",
     "November": "నవంబర్",
     "December": "డిసెంబర్",
-    "Refresh": "రిఫ్రెష్"
+    "Refresh": "రిఫ్రెష్",
+    "Message sent": "సందేశం పంపబడింది"
   },
   "tg": {
     "Inbox": "Қуттии",
@@ -6897,7 +6988,8 @@
     "October": "Октябр",
     "November": "Ноябр",
     "December": "Декабр",
-    "Refresh": "Рафикон"
+    "Refresh": "Рафикон",
+    "Message sent": "Хабар фиристода шуд"
   },
   "th": {
     "Inbox": "กล่องขาเข้า",
@@ -6972,7 +7064,8 @@
     "October": "ตุลาคม",
     "November": "พฤศจิกายน",
     "December": "ธันวาคม",
-    "Refresh": "รีเฟรช"
+    "Refresh": "รีเฟรช",
+    "Message sent": "ส่งข้อความ"
   },
   "tk": {
     "Inbox": "Gelýän bukja",
@@ -7047,7 +7140,8 @@
     "October": "Oktýabr",
     "November": "Noýabr",
     "December": "Dekabr",
-    "Refresh": "Täzele"
+    "Refresh": "Täzele",
+    "Message sent": "Habar iberildi"
   },
   "tl": {
     "Inbox": "Inbox",
@@ -7122,7 +7216,8 @@
     "October": "Oktubre",
     "November": "Nobyembre",
     "December": "Disyembre",
-    "Refresh": "Refresh"
+    "Refresh": "Refresh",
+    "Message sent": "Nagpadala ng mensahe"
   },
   "tr": {
     "Inbox": "Gelen kutusu",
@@ -7197,7 +7292,8 @@
     "October": "Ekim",
     "November": "Kasım",
     "December": "Aralık",
-    "Refresh": "Yenile"
+    "Refresh": "Yenile",
+    "Message sent": "Mesajı gönderildi"
   },
   "tt": {
     "Inbox": "Керү",
@@ -7272,7 +7368,8 @@
     "October": "Октябрь",
     "November": "Ноябрь",
     "December": "Декабрь",
-    "Refresh": "Яңарту"
+    "Refresh": "Яңарту",
+    "Message sent": "Хәбәр җибәрелде"
   },
   "ug": {
     "Inbox": "خەت ساندۇقى",
@@ -7347,7 +7444,8 @@
     "October": "ئۆكتەبىر",
     "November": "نويابىر",
     "December": "دېكابىر",
-    "Refresh": "يېڭىلاش"
+    "Refresh": "يېڭىلاش",
+    "Message sent": "ئۇچۇر ئەۋەتىلدى"
   },
   "uk": {
     "Inbox": "Вхідні",
@@ -7422,7 +7520,8 @@
     "October": "Жовтень",
     "November": "Листопад",
     "December": "Грудень",
-    "Refresh": "Оновити"
+    "Refresh": "Оновити",
+    "Message sent": "Повідомлення надіслано"
   },
   "ur": {
     "Inbox": "ان باکس",
@@ -7497,7 +7596,8 @@
     "October": "اکتوبر",
     "November": "نومبر",
     "December": "دسمبر",
-    "Refresh": "ریفریش"
+    "Refresh": "ریفریش",
+    "Message sent": "پیغام چلا گیا"
   },
   "uz": {
     "Inbox": "Xabarlar qutisi",
@@ -7572,7 +7672,8 @@
     "October": "Oktyabr",
     "November": "Noyabr",
     "December": "Dekabr",
-    "Refresh": "Yangilang"
+    "Refresh": "Yangilang",
+    "Message sent": "Xabar yuborildi"
   },
   "vi": {
     "Inbox": "Hộp thư đến",
@@ -7647,7 +7748,8 @@
     "October": "Tháng Mười",
     "November": "Tháng 11",
     "December": "Tháng 12",
-    "Refresh": "Làm tươi"
+    "Refresh": "Làm tươi",
+    "Message sent": "Tin nhắn đã gửi"
   },
   "xh": {
     "Inbox": "Inbox",
@@ -7722,7 +7824,8 @@
     "October": "EyeDwarha",
     "November": "EyeNkanga",
     "December": "EtiMnga",
-    "Refresh": "Qalela ngokutsha"
+    "Refresh": "Qalela ngokutsha",
+    "Message sent": "Umyalezo uthunyelwe"
   },
   "yi": {
     "Inbox": "Inbox",
@@ -7797,7 +7900,8 @@
     "October": "אקטאבער",
     "November": "נאוועמבער",
     "December": "דעצעמבער",
-    "Refresh": "דערפרישן"
+    "Refresh": "דערפרישן",
+    "Message sent": "אָנזאָג געשיקט"
   },
   "yo": {
     "Inbox": "Apo-iwọle",
@@ -7872,7 +7976,8 @@
     "October": "Oṣu Kẹwa",
     "November": "Oṣu kọkanla",
     "December": "Oṣu kejila",
-    "Refresh": "Sọ"
+    "Refresh": "Sọ",
+    "Message sent": "Ti firanṣẹ ranṣẹ"
   },
   "zh-TW": {
     "Inbox": "收件箱",
@@ -7947,7 +8052,8 @@
     "October": "十月",
     "November": "十一月",
     "December": "十二月",
-    "Refresh": "刷新"
+    "Refresh": "刷新",
+    "Message sent": "訊息已發送"
   },
   "zh": {
     "Inbox": "收件箱",
@@ -8022,7 +8128,8 @@
     "October": "十月",
     "November": "十一月",
     "December": "十二月",
-    "Refresh": "刷新"
+    "Refresh": "刷新",
+    "Message sent": "讯息已发送"
   },
   "zu": {
     "Inbox": "Ibhokisi lokungenayo",
@@ -8097,6 +8204,7 @@
     "October": "Okthoba",
     "November": "Novemba",
     "December": "Disemba",
-    "Refresh": "Qala kabusha"
+    "Refresh": "Qala kabusha",
+    "Message sent": "Kuthunyelwe umyalezo"
   }
 }

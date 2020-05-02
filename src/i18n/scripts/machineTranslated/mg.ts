@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Oktobra",
     "10": "Novambra",
     "11": "Desambra"
+  },
+  "notifier": {
+    "messageSent": "Hafatra nandefa"
   }
 };
 

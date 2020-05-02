@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Oktoobar",
     "10": "Nofeembar",
     "11": "Diseembar"
+  },
+  "notifier": {
+    "messageSent": "Farriin baa la diray"
   }
 };
 

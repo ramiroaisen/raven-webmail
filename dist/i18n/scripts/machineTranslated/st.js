@@ -116,6 +116,9 @@ const locale = {
         "9": "Mphalane",
         "10": "Pulungoana",
         "11": "Mots'eanong"
+    },
+    "notifier": {
+        "messageSent": "Ho romelletsoe molaetsa"
     }
 };
 exports.default = locale;

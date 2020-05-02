@@ -116,6 +116,9 @@ const locale = {
         "9": "Ekim",
         "10": "Kasım",
         "11": "Aralık"
+    },
+    "notifier": {
+        "messageSent": "Mesajı gönderildi"
     }
 };
 exports.default = locale;

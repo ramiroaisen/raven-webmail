@@ -116,6 +116,9 @@ const locale = {
         "9": "tetor",
         "10": "nëntor",
         "11": "dhjetor"
+    },
+    "notifier": {
+        "messageSent": "Mesazhi u Dergua"
     }
 };
 exports.default = locale;

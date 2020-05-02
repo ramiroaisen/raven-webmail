@@ -116,6 +116,9 @@ const locale = {
         "9": "Okutobala",
         "10": "Novembala",
         "11": "Disembala"
+    },
+    "notifier": {
+        "messageSent": "Mauthenga atumizidwa"
     }
 };
 exports.default = locale;

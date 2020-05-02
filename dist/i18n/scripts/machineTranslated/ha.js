@@ -116,6 +116,9 @@ const locale = {
         "9": "Oktoba",
         "10": "Nuwamba",
         "11": "Disamba"
+    },
+    "notifier": {
+        "messageSent": "An aika da sako"
     }
 };
 exports.default = locale;

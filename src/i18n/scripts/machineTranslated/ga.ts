@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Deireadh Fómhair",
     "10": "Samhain",
     "11": "Nollaig"
+  },
+  "notifier": {
+    "messageSent": "Teachtaireacht seolta"
   }
 };
 

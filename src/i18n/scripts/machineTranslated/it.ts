@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "ottobre",
     "10": "novembre",
     "11": "dicembre"
+  },
+  "notifier": {
+    "messageSent": "Messaggio inviato"
   }
 };
 

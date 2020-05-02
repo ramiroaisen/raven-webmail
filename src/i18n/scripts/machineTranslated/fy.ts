@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "oktober",
     "10": "novimber",
     "11": "desimber"
+  },
+  "notifier": {
+    "messageSent": "Berjocht ferstjoerd"
   }
 };
 

@@ -116,6 +116,9 @@ const locale = {
         "9": "Кастрычніцкая",
         "10": "Лістапада",
         "11": "Снежань"
+    },
+    "notifier": {
+        "messageSent": "Паведамленне адпраўлена"
     }
 };
 exports.default = locale;

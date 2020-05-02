@@ -116,6 +116,9 @@ const locale = {
         "9": "តុលា",
         "10": "វិច្ឆិកា",
         "11": "ធ្នូ"
+    },
+    "notifier": {
+        "messageSent": "បានផ្ញើសារ"
     }
 };
 exports.default = locale;

@@ -116,6 +116,9 @@ const locale = {
         "9": "십월",
         "10": "십일월",
         "11": "12 월"
+    },
+    "notifier": {
+        "messageSent": "메시지 전송 됨"
     }
 };
 exports.default = locale;

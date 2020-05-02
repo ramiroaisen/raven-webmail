@@ -116,6 +116,9 @@ const locale = {
         "9": "Spalio mėn",
         "10": "Lapkritį",
         "11": "Gruodį"
+    },
+    "notifier": {
+        "messageSent": "Žinutė išsiųsta"
     }
 };
 exports.default = locale;

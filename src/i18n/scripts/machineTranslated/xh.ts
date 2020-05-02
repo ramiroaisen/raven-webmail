@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "EyeDwarha",
     "10": "EyeNkanga",
     "11": "EtiMnga"
+  },
+  "notifier": {
+    "messageSent": "Umyalezo uthunyelwe"
   }
 };
 

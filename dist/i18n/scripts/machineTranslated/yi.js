@@ -116,6 +116,9 @@ const locale = {
         "9": "אקטאבער",
         "10": "נאוועמבער",
         "11": "דעצעמבער"
+    },
+    "notifier": {
+        "messageSent": "אָנזאָג געשיקט"
     }
 };
 exports.default = locale;

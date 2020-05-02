@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Oktobris",
     "10": "Novembrī",
     "11": "Decembrī"
+  },
+  "notifier": {
+    "messageSent": "Ziņa nosūtīta"
   }
 };
 

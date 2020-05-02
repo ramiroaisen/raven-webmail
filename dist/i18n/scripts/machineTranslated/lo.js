@@ -116,6 +116,9 @@ const locale = {
         "9": "ເດືອນຕຸລາ",
         "10": "ພະຈິກ",
         "11": "ທັນວາ"
+    },
+    "notifier": {
+        "messageSent": "ຂໍ້ຄວາມຖືກສົ່ງແລ້ວ"
     }
 };
 exports.default = locale;

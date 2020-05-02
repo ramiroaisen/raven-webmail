@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Cotmeh",
     "10": "Mijdar",
     "11": "Berfanbar"
+  },
+  "notifier": {
+    "messageSent": "Mesaj şandin"
   }
 };
 

@@ -116,6 +116,9 @@ const locale = {
         "9": "Октябр",
         "10": "Ноябр",
         "11": "Декабр"
+    },
+    "notifier": {
+        "messageSent": "Хабар фиристода шуд"
     }
 };
 exports.default = locale;

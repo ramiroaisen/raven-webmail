@@ -116,6 +116,9 @@ const locale = {
         "9": "Okakopa",
         "10": "Nowemapa",
         "11": "Kekemapa"
+    },
+    "notifier": {
+        "messageSent": "Hoʻouna ʻia ka leka"
     }
 };
 exports.default = locale;

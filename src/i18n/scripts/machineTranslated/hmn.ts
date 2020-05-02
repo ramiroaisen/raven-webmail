@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Lub kaum hli ntuj",
     "10": "Kaum ib hlis",
     "11": "Lub Kaum Ob Hlis"
+  },
+  "notifier": {
+    "messageSent": "Xa xov"
   }
 };
 

@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Oṣu Kẹwa",
     "10": "Oṣu kọkanla",
     "11": "Oṣu kejila"
+  },
+  "notifier": {
+    "messageSent": "Ti firanṣẹ ranṣẹ"
   }
 };
 

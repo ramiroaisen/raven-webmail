@@ -116,6 +116,9 @@ const locale = {
         "9": "Қазан",
         "10": "Қараша",
         "11": "Желтоқсан"
+    },
+    "notifier": {
+        "messageSent": "Хабар жіберілді"
     }
 };
 exports.default = locale;

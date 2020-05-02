@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "listopad",
     "10": "studeni",
     "11": "prosinac"
+  },
+  "notifier": {
+    "messageSent": "Poruka je poslana"
   }
 };
 

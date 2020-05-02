@@ -116,6 +116,9 @@ const locale = {
         "9": "Octobris",
         "10": "November",
         "11": "December"
+    },
+    "notifier": {
+        "messageSent": "nuntium misit"
     }
 };
 exports.default = locale;

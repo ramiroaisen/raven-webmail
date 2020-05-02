@@ -116,6 +116,9 @@ const locale = {
         "9": "ئۆكتەبىر",
         "10": "نويابىر",
         "11": "دېكابىر"
+    },
+    "notifier": {
+        "messageSent": "ئۇچۇر ئەۋەتىلدى"
     }
 };
 exports.default = locale;

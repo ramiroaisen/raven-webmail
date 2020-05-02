@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Ọktoba",
     "10": "Nọvemba",
     "11": "Disemba"
+  },
+  "notifier": {
+    "messageSent": "Ozi zitere"
   }
 };
 

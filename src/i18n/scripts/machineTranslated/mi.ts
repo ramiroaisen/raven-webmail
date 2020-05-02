@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Oketopa",
     "10": "Whiringa",
     "11": "Hakihea"
+  },
+  "notifier": {
+    "messageSent": "Karere i tukuna"
   }
 };
 

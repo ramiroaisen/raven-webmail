@@ -116,6 +116,9 @@ const locale = {
         "9": "urria",
         "10": "Azaroa",
         "11": "abendua"
+    },
+    "notifier": {
+        "messageSent": "Mezua bidali da"
     }
 };
 exports.default = locale;

@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "lokakuu",
     "10": "marraskuu",
     "11": "joulukuu"
+  },
+  "notifier": {
+    "messageSent": "Viesti lähetetty"
   }
 };
 

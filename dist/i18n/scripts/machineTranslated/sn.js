@@ -116,6 +116,9 @@ const locale = {
         "9": "Gumiguru",
         "10": "Mbudzi",
         "11": "Zvita"
+    },
+    "notifier": {
+        "messageSent": "Message yatumirwa"
     }
 };
 exports.default = locale;

@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "An Dàmhair",
     "10": "An t-Samhain",
     "11": "An Dùbhlachd"
+  },
+  "notifier": {
+    "messageSent": "Teachdaireachd air a chuir"
   }
 };
 

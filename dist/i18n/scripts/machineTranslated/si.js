@@ -116,6 +116,9 @@ const locale = {
         "9": "ඔක්තෝම්බර්",
         "10": "නොවැම්බර්",
         "11": "දෙසැම්බර්"
+    },
+    "notifier": {
+        "messageSent": "පණිවිඩය යැව්වා"
     }
 };
 exports.default = locale;

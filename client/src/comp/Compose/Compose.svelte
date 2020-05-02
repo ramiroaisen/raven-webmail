@@ -310,17 +310,22 @@
   import {getNotifier} from "comp@Notify/notify.js";
   import {submitDraft, saveDraft} from "lib@client/messages.js";
 
+
+  import {getContext} from "svelte";
+  const {locale: l} = getContext("app");
+  export let locale = $l;
+
   let sending = false;
-  
+
   const sendMessage = async () => {
     if(sending)
       return;
 
     sending = true;
-    
+
     try {
       await submitDraft($self.id);
-      getNotifier().add({variant: "success", text: "Mensaje enviado"});
+      getNotifier().add({variant: "success", text: locale.notifier.messageSent});
       close();
     } catch(e) {
       getNotifier().add({variant: "error", text: e.message});
@@ -329,9 +334,6 @@
     }
   }
 
-  import {getContext} from "svelte";
-  const {locale: l} = getContext("app");
-  export let locale = $l.compose;
 </script>
 
 {#if self === $current}
@@ -350,26 +352,36 @@
       
       <x-metadata>
         <label class="label-input">
-          <x-label>{locale.labels.to}</x-label>
+          <x-label>{locale.compose.labels.to}</x-label>
           <AddrInput name="to" bind:addrs={$self.to} />
           <x-toggle-cc>
             {#if !showCc}
-              <span on:click|preventDefault={() => {showCc = true; setTimeout(() => {cc && cc.focus()}, 1)}}>{locale.labels.cc}</span>
+              <span on:click|preventDefault={() => {
+                showCc = true;
+                setTimeout(() => {
+                  cc && cc.focus()
+                }, 1)
+              }}>{locale.compose.labels.cc}</span>
             {/if}
             {#if !showBcc}
-              <span on:click|preventDefault={() => {showBcc = true; setTimeout(() => {bcc && bcc.focus()}, 1)}}>{locale.labels.bcc}</span>
+              <span on:click|preventDefault={() => {
+                  showBcc = true;
+                  setTimeout(() => {
+                    bcc && bcc.focus()
+                  }, 1)
+              }}>{locale.compose.labels.bcc}</span>
             {/if}
           </x-toggle-cc>
         </label>
         {#if showCc}
           <label class="label-input">
-            <x-label>{locale.labels.cc}</x-label>
+            <x-label>{locale.compose.labels.cc}</x-label>
             <AddrInput name="cc" bind:addrs={$self.cc} bind:input={cc} />
           </label>  
         {/if}
         {#if showBcc}
           <label class="label-input">
-            <x-label>{locale.labels.bcc}</x-label>
+            <x-label>{locale.compose.labels.bcc}</x-label>
             <AddrInput name="bcc" bind:addrs={$self.bcc} bind:input={bcc} />
           </label>  
         {/if}

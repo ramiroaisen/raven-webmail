@@ -116,6 +116,9 @@ const locale = {
         "9": "Hydref",
         "10": "Tachwedd",
         "11": "Rhagfyr"
+    },
+    "notifier": {
+        "messageSent": "Anfonwyd neges"
     }
 };
 exports.default = locale;

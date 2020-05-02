@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Ukwakira",
     "10": "Ugushyingo",
     "11": "Kigarama"
+  },
+  "notifier": {
+    "messageSent": "Ubutumwa bwoherejwe"
   }
 };
 

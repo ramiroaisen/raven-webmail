@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Tháng Mười",
     "10": "Tháng 11",
     "11": "Tháng 12"
+  },
+  "notifier": {
+    "messageSent": "Tin nhắn đã gửi"
   }
 };
 

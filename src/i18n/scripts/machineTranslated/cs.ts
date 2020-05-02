@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "říjen",
     "10": "listopad",
     "11": "prosinec"
+  },
+  "notifier": {
+    "messageSent": "Zpráva odeslána"
   }
 };
 

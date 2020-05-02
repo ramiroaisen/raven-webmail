@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Oktoba",
     "10": "Novemba",
     "11": "Desemba"
+  },
+  "notifier": {
+    "messageSent": "Ujumbe umetumwa"
   }
 };
 

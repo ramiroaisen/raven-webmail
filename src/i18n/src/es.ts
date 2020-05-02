@@ -133,5 +133,9 @@ export default {
         9: "Octubre",
         10: "Noviembre",
         11: "Dociembre",
+    },
+
+    notifier: {
+        messageSent: "Mensaje enviado"
     }
 }

@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "Okitopa",
     "10": "Novema",
     "11": "Tesema"
+  },
+  "notifier": {
+    "messageSent": "Savali auina"
   }
 };
 

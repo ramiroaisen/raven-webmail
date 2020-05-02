@@ -116,6 +116,9 @@ const locale = {
         "9": "Okthoba",
         "10": "Novemba",
         "11": "Disemba"
+    },
+    "notifier": {
+        "messageSent": "Kuthunyelwe umyalezo"
     }
 };
 exports.default = locale;

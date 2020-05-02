@@ -116,6 +116,9 @@ const locale: Locale = {
     "9": "ጥቅምት",
     "10": "ህዳር",
     "11": "ታህሳስ"
+  },
+  "notifier": {
+    "messageSent": "መልእክት ተልኳል"
   }
 };
 
