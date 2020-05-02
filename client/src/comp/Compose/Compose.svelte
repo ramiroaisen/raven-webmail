@@ -386,7 +386,7 @@
           </label>  
         {/if}
         <label class="label-input" for="subject">
-          <x-label>{locale.labels.subject}</x-label>
+          <x-label>{locale.compose.labels.subject}</x-label>
           <input type="text" name="subject" id="subject" autocomplete="off" bind:value={$self.subject}>
         </label>
       </x-metadata>
