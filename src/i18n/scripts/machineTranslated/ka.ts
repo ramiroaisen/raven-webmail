@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Შეტყობინება გაგზავნილია"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Ახალი საქაღალდე",
+      "success": "საქაღალდე შექმნა"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "შექმენით ახალი საქაღალდე",
+      "label": "Საქაღალდის სახელი",
+      "accept": "Შექმნა",
+      "cancel": "გაუქმება"
+    }
   }
 };
 

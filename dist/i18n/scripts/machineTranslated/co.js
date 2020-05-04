@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Missaghju mandatu"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Novu cartulare",
+            "success": "Folder creatu"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Crea un novu cartulare",
+            "label": "Nome cartulare",
+            "accept": "Crea",
+            "cancel": "Annulla"
+        }
     }
 };
 exports.default = locale;

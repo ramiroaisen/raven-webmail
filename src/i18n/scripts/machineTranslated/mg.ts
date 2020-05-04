@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Hafatra nandefa"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Fandraisana vaovao",
+      "success": "Famoronana noforonina"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Mamorona fampirimana vaovao",
+      "label": "Anaran'ny folder",
+      "accept": "mamorona",
+      "cancel": "hanafoana"
+    }
   }
 };
 

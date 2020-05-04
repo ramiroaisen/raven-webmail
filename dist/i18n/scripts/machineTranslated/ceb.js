@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Gipadala ang mensahe"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Bag-ong folder",
+            "success": "Gibuhat ang folder"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Paghimo bag-ong folder",
+            "label": "Ngalan sa folder",
+            "accept": "Paghimo",
+            "cancel": "Pagkansela"
+        }
     }
 };
 exports.default = locale;

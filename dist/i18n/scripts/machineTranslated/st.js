@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Ho romelletsoe molaetsa"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Foldara e ncha",
+            "success": "Folder e thehiloe"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Theha foldara e ncha",
+            "label": "Lebitso la lifoldara",
+            "accept": "Bopa",
+            "cancel": "Hlakola"
+        }
     }
 };
 exports.default = locale;

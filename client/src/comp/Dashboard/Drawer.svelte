@@ -69,6 +69,10 @@
       visibility: visible;
     }
   }
+
+  .actions {
+    margin-top: auto;
+  }
 </style>
 
 <script>
@@ -77,8 +81,11 @@
   import MailboxList from "./MailboxList/MailboxList.svelte";
   import MenuButton from "./MenuButton.svelte";
   import Menu from "svelte-material-icons/Menu.svelte";
+  import DrawerItem from "./DrawerItem.svelte";
 
   const {hasDrawer, toggleDrawer, isMobile, drawerOpenMobile, drawerOpenDesktop} = getContext("dash");
+
+  import DrawerActions from "./DrawerActions.svelte"
 </script>
 
 {#if $hasDrawer}
@@ -93,6 +100,12 @@
         Raven
       </span>
     </div>
+
     <MailboxList />
+
+    <div class="actions">
+      <DrawerActions />
+    </div>
+
   </x-drawer>
 {/if}

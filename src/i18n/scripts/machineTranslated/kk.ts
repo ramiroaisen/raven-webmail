@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Хабар жіберілді"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Жаңа папка",
+      "success": "Қалта жасалды"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Жаңа қалта жасау",
+      "label": "Қалта атауы",
+      "accept": "Жасау",
+      "cancel": "Болдырмау"
+    }
   }
 };
 

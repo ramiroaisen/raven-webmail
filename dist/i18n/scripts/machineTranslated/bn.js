@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "বার্তা প্রদান"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "নতুন ফোল্ডার",
+            "success": "ফোল্ডার তৈরি হয়েছে"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "নতুন ফোল্ডার তৈরি কর",
+            "label": "ফোল্ডারের নাম",
+            "accept": "সৃষ্টি",
+            "cancel": "বাতিল"
+        }
     }
 };
 exports.default = locale;

@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Mesaj trimis"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Dosar nou",
+            "success": "Folder creat"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Creati un folder nou",
+            "label": "Numele fisierului",
+            "accept": "Crea",
+            "cancel": "Anulare"
+        }
     }
 };
 exports.default = locale;

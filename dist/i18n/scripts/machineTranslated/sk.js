@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Správa poslaná"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Nový priečinok",
+            "success": "Priečinok bol vytvorený"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Vytvorte nový priečinok",
+            "label": "Názov priečinka",
+            "accept": "vytvoriť",
+            "cancel": "Zrušiť"
+        }
     }
 };
 exports.default = locale;

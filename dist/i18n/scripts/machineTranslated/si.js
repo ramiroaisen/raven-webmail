@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "පණිවිඩය යැව්වා"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "නව ෆෝල්ඩරය",
+            "success": "ෆෝල්ඩරය සාදන ලදි"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "නව ෆෝල්ඩරයක් සාදන්න",
+            "label": "ෆෝල්ඩරයේ නම",
+            "accept": "සාදන්න",
+            "cancel": "අවලංගු කරන්න"
+        }
     }
 };
 exports.default = locale;

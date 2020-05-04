@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Pesen dikirim"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Folder anyar",
+      "success": "Polder nyiptakeun"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Jieun folder anyar",
+      "label": "Ngaran folder",
+      "accept": "Nyipta",
+      "cancel": "Ngabolaykeun"
+    }
   }
 };
 

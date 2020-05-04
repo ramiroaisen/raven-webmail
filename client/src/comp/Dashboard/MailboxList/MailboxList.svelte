@@ -2,7 +2,7 @@
   x-mailbox-list {
     display: flex;
     flex-direction: column;
-    padding: 0.5em 0;
+    padding-top: 0.5em;
     overflow-y: auto;
     overflow-x: hidden;
   }

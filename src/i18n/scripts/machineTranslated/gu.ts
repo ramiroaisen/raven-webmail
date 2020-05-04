@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "સંદેશ મોકલ્યો"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "નવું ફોલ્ડર",
+      "success": "ફોલ્ડર બનાવ્યું"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "નવું ફોલ્ડર બનાવો",
+      "label": "ફોલ્ડર નામ",
+      "accept": "બનાવો",
+      "cancel": "રદ કરો"
+    }
   }
 };
 

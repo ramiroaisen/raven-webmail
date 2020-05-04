@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "پیغام چلا گیا"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "نیا فولڈر",
+      "success": "فولڈر بنایا گیا"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "نیا فولڈر بنائیں",
+      "label": "فولڈر کا نام",
+      "accept": "بنانا",
+      "cancel": "منسوخ کریں"
+    }
   }
 };
 

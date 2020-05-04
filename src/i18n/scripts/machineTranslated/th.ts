@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "ส่งข้อความ"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "แฟ้มใหม่",
+      "success": "สร้างโฟลเดอร์แล้ว"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "สร้างโฟลเดอร์ใหม่",
+      "label": "ชื่อโฟลเดอร์",
+      "accept": "สร้าง",
+      "cancel": "ยกเลิก"
+    }
   }
 };
 

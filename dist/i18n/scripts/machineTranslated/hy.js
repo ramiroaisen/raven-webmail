@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Նամակը ուղարկված է"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Նոր թղթապանակ",
+            "success": "Թղթապանակը ստեղծվել է"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Ստեղծեք նոր թղթապանակ",
+            "label": "Թղթապանակի անունը",
+            "accept": "Ստեղծել",
+            "cancel": "Չեղարկել"
+        }
     }
 };
 exports.default = locale;

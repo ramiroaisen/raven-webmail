@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Порука послата"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Нова фасцикла",
+            "success": "Фолдер је креиран"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Креирајте нову фасциклу",
+            "label": "Име фасцикле",
+            "accept": "Креирај",
+            "cancel": "Поништити, отказати"
+        }
     }
 };
 exports.default = locale;

@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Xabar yuborildi"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Yangi papka",
+      "success": "Jild yaratildi"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Yangi jild yarating",
+      "label": "Jild nomi",
+      "accept": "Yaratmoq",
+      "cancel": "Bekor qilish"
+    }
   }
 };
 

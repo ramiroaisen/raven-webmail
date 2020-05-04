@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "செய்தி அனுப்பப்பட்டது"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "புதிய அடைவை",
+            "success": "கோப்புறை உருவாக்கப்பட்டது"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "புதிய கோப்புறையை உருவாக்கவும்",
+            "label": "கோப்புறை பெயர்",
+            "accept": "உருவாக்கு",
+            "cancel": "ரத்துசெய்"
+        }
     }
 };
 exports.default = locale;

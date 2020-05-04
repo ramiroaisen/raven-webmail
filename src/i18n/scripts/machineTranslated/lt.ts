@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Žinutė išsiųsta"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Naujas aplankas",
+      "success": "Sukurtas aplankas"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Sukurkite naują aplanką",
+      "label": "Aplanko pavadinimas",
+      "accept": "Sukurti",
+      "cancel": "Atšaukti"
+    }
   }
 };
 

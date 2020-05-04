@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Viesti lähetetty"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Uusi kansio",
+      "success": "Kansio luotu"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Luo uusi kansio",
+      "label": "Kansion nimi",
+      "accept": "Luoda",
+      "cancel": "Peruuttaa"
+    }
   }
 };
 

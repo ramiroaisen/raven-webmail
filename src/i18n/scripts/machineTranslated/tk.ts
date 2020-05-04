@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Habar iberildi"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Täze bukja",
+      "success": "Papka döredildi"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Täze bukja dörediň",
+      "label": "Papkanyň ady",
+      "accept": "Dörediň",
+      "cancel": "Elatyr"
+    }
   }
 };
 

@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "సందేశం పంపబడింది"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "కొత్త అమరిక",
+      "success": "ఫోల్డర్ సృష్టించబడింది"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "క్రొత్త ఫోల్డర్‌ను సృష్టించండి",
+      "label": "ఫోల్డర్ పేరు",
+      "accept": "సృష్టించు",
+      "cancel": "రద్దు చేయండి"
+    }
   }
 };
 

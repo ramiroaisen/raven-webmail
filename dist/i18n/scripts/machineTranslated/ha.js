@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "An aika da sako"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Sabon babban fayil",
+            "success": "Jaka an kirkiro"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Newirƙiri sabon babban fayil",
+            "label": "Sunan babban fayil",
+            "accept": ".Irƙira",
+            "cancel": "Soke"
+        }
     }
 };
 exports.default = locale;

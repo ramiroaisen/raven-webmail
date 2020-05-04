@@ -12,6 +12,7 @@
     font-size: 1.5em;
     font-weight: 600;
     min-height: auto;
+    word-break: break-word;
   }
 
   x-message-content {

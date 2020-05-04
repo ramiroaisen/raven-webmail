@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Teachtaireacht seolta"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Fillteán nua",
+            "success": "Fillteán cruthaithe"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Cruthaigh fillteán nua",
+            "label": "Ainm an fhillteáin",
+            "accept": "Cruthaigh",
+            "cancel": "Cealaigh"
+        }
     }
 };
 exports.default = locale;

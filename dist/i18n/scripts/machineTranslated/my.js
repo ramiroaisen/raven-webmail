@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "မက်ဆေ့ခ်ျပို့ခဲ့သည်"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "ဖိုင်တွဲအသစ်",
+            "success": "ဖိုလ်ဒါဖန်တီးထားသည်"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "ဖိုင်တွဲအသစ်ဖန်တီးပါ",
+            "label": "ဖိုလ်ဒါအမည်",
+            "accept": "ဖန်တီးပါ",
+            "cancel": "ပယ်ဖျက်ပါ"
+        }
     }
 };
 exports.default = locale;

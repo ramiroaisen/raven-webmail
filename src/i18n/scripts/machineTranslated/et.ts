@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Sõnum saadetud"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Uus kaust",
+      "success": "Kaust on loodud"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Looge uus kaust",
+      "label": "Kausta nimi",
+      "accept": "Loo",
+      "cancel": "Tühista"
+    }
   }
 };
 

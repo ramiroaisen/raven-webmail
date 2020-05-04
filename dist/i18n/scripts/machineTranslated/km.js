@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "បានផ្ញើសារ"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "ប្រអប់​ឯកសារ​ថ្មី",
+            "success": "បានបង្កើតថត"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "បង្កើតថតឯកសារថ្មី",
+            "label": "ឈ្មោះថតឯកសារ",
+            "accept": "បង្កើត",
+            "cancel": "បោះបង់"
+        }
     }
 };
 exports.default = locale;

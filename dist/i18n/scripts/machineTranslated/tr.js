@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Mesajı gönderildi"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Yeni dosya",
+            "success": "Klasör oluşturuldu"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Yeni klasör Oluştur",
+            "label": "Klasör adı",
+            "accept": "Oluşturmak",
+            "cancel": "İptal etmek"
+        }
     }
 };
 exports.default = locale;

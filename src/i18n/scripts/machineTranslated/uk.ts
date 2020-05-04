@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Повідомлення надіслано"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Нова папка",
+      "success": "Папка створена"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Створіть нову папку",
+      "label": "Назва папки",
+      "accept": "Створіть",
+      "cancel": "Скасувати"
+    }
   }
 };
 

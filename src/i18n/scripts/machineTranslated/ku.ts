@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Mesaj şandin"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Peldanka nû",
+      "success": "Folder afirandin"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Peldanka nû ava bikin",
+      "label": "Navê peldanka",
+      "accept": "Xûliqandin",
+      "cancel": "Bişûndekirin"
+    }
   }
 };
 

@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Паведамленне адпраўлена"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Новая тэчка",
+            "success": "Папка створана"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Стварыце новую тэчку",
+            "label": "Назва тэчкі",
+            "accept": "Ствары",
+            "cancel": "Адмяніць"
+        }
     }
 };
 exports.default = locale;

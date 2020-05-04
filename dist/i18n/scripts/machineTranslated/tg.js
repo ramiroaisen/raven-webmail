@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Хабар фиристода шуд"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Феҳристи нав",
+            "success": "Папка офаридааст"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Эҷоди ҷузвдони нав",
+            "label": "Номи папка",
+            "accept": "Эҷод",
+            "cancel": "Бекор кардан"
+        }
     }
 };
 exports.default = locale;

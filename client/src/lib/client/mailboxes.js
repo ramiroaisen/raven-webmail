@@ -1,4 +1,4 @@
-import { get, watch } from "./client";
+import { get, post, watch } from "./client";
 import { writable } from "../store";
 export const inbox = writable(null);
 export const sent = writable(null);
@@ -7,6 +7,7 @@ export const trash = writable(null);
 export const junk = writable(null);
 export const all = writable([]);
 export const others = writable([]);
+let watching = false;
 export const load = async () => {
     console.log("[WS] getting mailboxes");
     const res = await get("/users/me/mailboxes?counters=true");
@@ -48,16 +49,23 @@ export const load = async () => {
     }
     all.set($all);
     others.set($others);
-    watch((event) => {
-        if (event.command === "COUNTERS") {
-            const box = _get(event.mailbox);
-            if (box && box.get()) {
-                box.update(box => ({ ...box, total: event.total, unseen: event.unseen }));
+    if (!watching) {
+        watching = true;
+        watch((event) => {
+            if (event.command === "COUNTERS") {
+                const box = _get(event.mailbox);
+                if (box && box.get()) {
+                    box.update(box => ({ ...box, total: event.total, unseen: event.unseen }));
+                }
             }
-        }
-    });
+        });
+    }
 };
 const _get = (id) => {
     return all.get().find(b => b.get().id === id);
+};
+export const createMailbox = async (path) => {
+    await post("/users/me/mailboxes", { path });
+    await load();
 };
 export { _get as get };

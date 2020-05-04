@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Το μήνυμα στάλθηκε"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Νέος φάκελος",
+            "success": "Δημιουργήθηκε φάκελος"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Δημιουργία νέου φακέλου",
+            "label": "Ονομα φακέλου",
+            "accept": "Δημιουργώ",
+            "cancel": "Ματαίωση"
+        }
     }
 };
 exports.default = locale;

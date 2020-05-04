@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Üzenet elküldve"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Új mappa",
+      "success": "A mappa létrehozva"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Hozzon létre új mappát",
+      "label": "Mappa neve",
+      "accept": "teremt",
+      "cancel": "Megszünteti"
+    }
   }
 };
 

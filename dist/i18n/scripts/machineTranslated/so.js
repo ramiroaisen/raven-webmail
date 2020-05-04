@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Farriin baa la diray"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Fayl cusub",
+            "success": "Faylka waa la abuuray"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Abuur fayl cusub",
+            "label": "Magaca faylka",
+            "accept": "Abuur",
+            "cancel": "Tirtir"
+        }
     }
 };
 exports.default = locale;

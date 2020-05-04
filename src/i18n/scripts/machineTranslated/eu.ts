@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Mezua bidali da"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Karpeta berria",
+      "success": "Karpeta sortu da"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Sortu karpeta berria",
+      "label": "Karpetaren izena",
+      "accept": "Sortu",
+      "cancel": "Utzi"
+    }
   }
 };
 

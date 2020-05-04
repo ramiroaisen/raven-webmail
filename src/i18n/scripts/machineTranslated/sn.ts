@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Message yatumirwa"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Nyowani nyowani",
+      "success": "Folda yakagadzirwa"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Gadzira nyowani nyowani",
+      "label": "Folder zita",
+      "accept": "Gadzira",
+      "cancel": "Kanzura"
+    }
   }
 };
 

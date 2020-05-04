@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "تم الارسال"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "ملف جديد",
+            "success": "تم إنشاء المجلد"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "إنشاء مجلد جديد",
+            "label": "إسم الملف",
+            "accept": "خلق",
+            "cancel": "إلغاء"
+        }
     }
 };
 exports.default = locale;

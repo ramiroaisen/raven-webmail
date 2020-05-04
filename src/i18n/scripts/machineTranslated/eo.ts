@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Mesaĝo sendita"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Nova dosierujo",
+      "success": "Dosiero kreita"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Krei novan dosierujon",
+      "label": "Nomo de dosierujo",
+      "accept": "Krei",
+      "cancel": "Nuligi"
+    }
   }
 };
 

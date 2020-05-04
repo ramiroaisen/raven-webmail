@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Hoʻouna ʻia ka leka"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Nā faila hou",
+      "success": "Hoʻokumu ʻia ka file"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "E hana i kahi faila hou",
+      "label": "ʻAla inoa",
+      "accept": "Hana",
+      "cancel": "Hoʻopau"
+    }
   }
 };
 

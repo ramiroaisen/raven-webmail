@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Mesazhi u Dergua"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Dosje e re",
+            "success": "Dosja e krijuar"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Krijoni një dosje të re",
+            "label": "Emri i dosjes",
+            "accept": "krijoj",
+            "cancel": "anuloj"
+        }
     }
 };
 exports.default = locale;

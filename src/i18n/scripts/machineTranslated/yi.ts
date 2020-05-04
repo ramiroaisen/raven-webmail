@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "אָנזאָג געשיקט"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "ניו טעקע",
+      "success": "טעקע באשאפן"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "שאַפֿן נייַע טעקע",
+      "label": "טעקע נאָמען",
+      "accept": "שאַפֿן",
+      "cancel": "באָטל מאַכן"
+    }
   }
 };
 

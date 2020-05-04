@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Mauthenga atumizidwa"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Foda yatsopano",
+      "success": "Fodaida idapangidwa"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Pangani foda yatsopano",
+      "label": "Foda",
+      "accept": "Pangani",
+      "cancel": "Patulani"
+    }
   }
 };
 

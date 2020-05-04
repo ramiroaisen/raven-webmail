@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Berjocht ferstjoerd"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Nije map",
+            "success": "Map oanmakke"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Meitsje nije map",
+            "label": "Foldernamme",
+            "accept": "Meitsje",
+            "cancel": "Ofbrekke"
+        }
     }
 };
 exports.default = locale;

@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "پیغام فرستاده شد"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "پوشه جدید",
+            "success": "پوشه ایجاد شده است"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "پوشه جدید ایجاد کنید",
+            "label": "نام پوشه",
+            "accept": "ایجاد کردن",
+            "cancel": "لغو"
+        }
     }
 };
 exports.default = locale;

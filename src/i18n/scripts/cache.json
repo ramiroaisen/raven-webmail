@@ -73,7 +73,14 @@
     "November": "November",
     "December": "Desember",
     "Refresh": "Verfris",
-    "Message sent": "Boodskap gestuur"
+    "Message sent": "Boodskap gestuur",
+    "New folder": "Nuwe leêr",
+    "Cancel": "kanselleer",
+    "Create": "Skep",
+    "Create new folder": "Skep 'n nuwe lêergids",
+    "Folder name": "Gidsnaam",
+    "Folder {n} created": "Gids {n} is geskep",
+    "Folder created": "Gids geskep"
   },
   "am": {
     "Inbox": "የገቢ መልእክት ሳጥን",
@@ -149,7 +156,14 @@
     "November": "ህዳር",
     "December": "ታህሳስ",
     "Refresh": "አድስ",
-    "Message sent": "መልእክት ተልኳል"
+    "Message sent": "መልእክት ተልኳል",
+    "New folder": "አዲስ ማህደር",
+    "Cancel": "ይቅር",
+    "Folder name": "የአቃፊ ስም",
+    "Create": "ፍጠር",
+    "Create new folder": "አዲስ አቃፊ ፍጠር",
+    "Folder {n} created": "አቃፊ {n} ተፈጥሯል",
+    "Folder created": "አቃፊ ተፈጥሯል"
   },
   "ar": {
     "Inbox": "صندوق الوارد",
@@ -225,7 +239,14 @@
     "November": "شهر نوفمبر",
     "December": "ديسمبر",
     "Refresh": "تحديث",
-    "Message sent": "تم الارسال"
+    "Message sent": "تم الارسال",
+    "New folder": "ملف جديد",
+    "Create new folder": "إنشاء مجلد جديد",
+    "Folder name": "إسم الملف",
+    "Cancel": "إلغاء",
+    "Create": "خلق",
+    "Folder {n} created": "تم إنشاء المجلد {n}",
+    "Folder created": "تم إنشاء المجلد"
   },
   "az": {
     "Inbox": "Gələnlər qutusu",
@@ -301,7 +322,14 @@
     "November": "Noyabr",
     "December": "Dekabr",
     "Refresh": "təzələmək",
-    "Message sent": "Mesaj göndərildi"
+    "Message sent": "Mesaj göndərildi",
+    "New folder": "Yeni qovluq",
+    "Cancel": "Ləğv et",
+    "Folder name": "Qovluq adı",
+    "Create new folder": "Yeni qovluq yaradın",
+    "Create": "Yarat",
+    "Folder {n} created": "Qovluq {n} yaradıldı",
+    "Folder created": "Qovluq yaradıldı"
   },
   "be": {
     "Inbox": "Уваходныя",
@@ -377,7 +405,14 @@
     "November": "Лістапада",
     "December": "Снежань",
     "Refresh": "Абнавіць",
-    "Message sent": "Паведамленне адпраўлена"
+    "Message sent": "Паведамленне адпраўлена",
+    "New folder": "Новая тэчка",
+    "Cancel": "Адмяніць",
+    "Create": "Ствары",
+    "Folder name": "Назва тэчкі",
+    "Create new folder": "Стварыце новую тэчку",
+    "Folder {n} created": "Папка {n} створаная",
+    "Folder created": "Папка створана"
   },
   "bg": {
     "Inbox": "Входящи",
@@ -453,7 +488,14 @@
     "November": "ноември",
     "December": "декември",
     "Refresh": "Обновяване",
-    "Message sent": "Съобщението е изпратено"
+    "Message sent": "Съобщението е изпратено",
+    "New folder": "Нова папка",
+    "Create": "създавам",
+    "Create new folder": "Създайте нова папка",
+    "Folder name": "Име на папка",
+    "Cancel": "Отказ",
+    "Folder {n} created": "Папка {n} е създадена",
+    "Folder created": "Създадена е папка"
   },
   "bn": {
     "Inbox": "ইনবক্স",
@@ -529,7 +571,14 @@
     "November": "নভেম্বর",
     "December": "ডিসেম্বর",
     "Refresh": "সতেজ করা",
-    "Message sent": "বার্তা প্রদান"
+    "Message sent": "বার্তা প্রদান",
+    "New folder": "নতুন ফোল্ডার",
+    "Create new folder": "নতুন ফোল্ডার তৈরি কর",
+    "Folder name": "ফোল্ডারের নাম",
+    "Cancel": "বাতিল",
+    "Create": "সৃষ্টি",
+    "Folder {n} created": "ফোল্ডার {n} তৈরি হয়েছে",
+    "Folder created": "ফোল্ডার তৈরি হয়েছে"
   },
   "bs": {
     "Inbox": "Inbox",
@@ -605,7 +654,14 @@
     "November": "Novembra",
     "December": "Prosinca",
     "Refresh": "Osvježiti",
-    "Message sent": "Poruka poslana"
+    "Message sent": "Poruka poslana",
+    "New folder": "Nova mapa",
+    "Create": "Stvoriti",
+    "Cancel": "Otkaži",
+    "Folder name": "Naziv mape",
+    "Create new folder": "Kreirajte novu mapu",
+    "Folder {n} created": "Mapa {n} je kreirana",
+    "Folder created": "Mapa je kreirana"
   },
   "ca": {
     "Inbox": "Safata d'entrada",
@@ -681,7 +737,14 @@
     "November": "de novembre",
     "December": "Desembre",
     "Refresh": "Actualització",
-    "Message sent": "Missatge enviat"
+    "Message sent": "Missatge enviat",
+    "New folder": "Carpeta nova",
+    "Create": "Crear",
+    "Cancel": "Cancel · lar",
+    "Folder name": "Nom de la carpeta",
+    "Create new folder": "Crea una carpeta nova",
+    "Folder {n} created": "S'ha creat una carpeta {n}",
+    "Folder created": "Carpeta creada"
   },
   "ceb": {
     "Inbox": "Inbox",
@@ -757,7 +820,14 @@
     "November": "Nobyembre",
     "December": "Disyembre",
     "Refresh": "Refresh",
-    "Message sent": "Gipadala ang mensahe"
+    "Message sent": "Gipadala ang mensahe",
+    "New folder": "Bag-ong folder",
+    "Cancel": "Pagkansela",
+    "Create new folder": "Paghimo bag-ong folder",
+    "Create": "Paghimo",
+    "Folder name": "Ngalan sa folder",
+    "Folder {n} created": "Gibuhat ang Folder {n}",
+    "Folder created": "Gibuhat ang folder"
   },
   "co": {
     "Inbox": "Inbox",
@@ -833,7 +903,14 @@
     "November": "Nuvembre",
     "December": "Dicembre",
     "Refresh": "Rinnovà",
-    "Message sent": "Missaghju mandatu"
+    "Message sent": "Missaghju mandatu",
+    "New folder": "Novu cartulare",
+    "Folder name": "Nome cartulare",
+    "Create": "Crea",
+    "Cancel": "Annulla",
+    "Create new folder": "Crea un novu cartulare",
+    "Folder {n} created": "Folder {n} creatu",
+    "Folder created": "Folder creatu"
   },
   "cs": {
     "Inbox": "Doručená pošta",
@@ -909,7 +986,14 @@
     "November": "listopad",
     "December": "prosinec",
     "Refresh": "Obnovit",
-    "Message sent": "Zpráva odeslána"
+    "Message sent": "Zpráva odeslána",
+    "New folder": "Nová složka",
+    "Create new folder": "Vytvořit novou složku",
+    "Folder name": "Název složky",
+    "Create": "Vytvořit",
+    "Cancel": "zrušení",
+    "Folder {n} created": "Složka {n} byla vytvořena",
+    "Folder created": "Složka byla vytvořena"
   },
   "cy": {
     "Inbox": "Mewnflwch",
@@ -985,7 +1069,14 @@
     "November": "Tachwedd",
     "December": "Rhagfyr",
     "Refresh": "Adnewyddu",
-    "Message sent": "Anfonwyd neges"
+    "Message sent": "Anfonwyd neges",
+    "New folder": "Ffolder newydd",
+    "Folder name": "Enw'r ffolder",
+    "Create": "Creu",
+    "Create new folder": "Creu ffolder newydd",
+    "Cancel": "Canslo",
+    "Folder {n} created": "Ffolder {n} wedi'i greu",
+    "Folder created": "Ffolder wedi'i chreu"
   },
   "da": {
     "Inbox": "Indbakke",
@@ -1061,7 +1152,14 @@
     "November": "november",
     "December": "december",
     "Refresh": "Opdater",
-    "Message sent": "Besked sendt"
+    "Message sent": "Besked sendt",
+    "New folder": "Ny mappe",
+    "Cancel": "Afbestille",
+    "Folder name": "Mappenavn",
+    "Create new folder": "Opret ny mappe",
+    "Create": "skab",
+    "Folder {n} created": "Mappe {n} oprettet",
+    "Folder created": "Mappe oprettet"
   },
   "de": {
     "Inbox": "Posteingang",
@@ -1137,7 +1235,14 @@
     "November": "November",
     "December": "Dezember",
     "Refresh": "Aktualisierung",
-    "Message sent": "Nachricht gesendet"
+    "Message sent": "Nachricht gesendet",
+    "New folder": "Neuer Ordner",
+    "Create new folder": "Neuen Ordner erstellen",
+    "Folder name": "Ordnernamen",
+    "Create": "Erstellen",
+    "Cancel": "Stornieren",
+    "Folder {n} created": "Ordner {n} erstellt",
+    "Folder created": "Ordner erstellt"
   },
   "el": {
     "Inbox": "Inbox",
@@ -1213,7 +1318,14 @@
     "November": "Νοέμβριος",
     "December": "Δεκέμβριος",
     "Refresh": "Φρεσκάρω",
-    "Message sent": "Το μήνυμα στάλθηκε"
+    "Message sent": "Το μήνυμα στάλθηκε",
+    "New folder": "Νέος φάκελος",
+    "Folder name": "Ονομα φακέλου",
+    "Cancel": "Ματαίωση",
+    "Create": "Δημιουργώ",
+    "Create new folder": "Δημιουργία νέου φακέλου",
+    "Folder {n} created": "Δημιουργήθηκε φάκελος {n}",
+    "Folder created": "Δημιουργήθηκε φάκελος"
   },
   "eo": {
     "Inbox": "Informkesto",
@@ -1289,7 +1401,14 @@
     "November": "Novembro",
     "December": "Decembro",
     "Refresh": "Refreŝigi",
-    "Message sent": "Mesaĝo sendita"
+    "Message sent": "Mesaĝo sendita",
+    "New folder": "Nova dosierujo",
+    "Create new folder": "Krei novan dosierujon",
+    "Cancel": "Nuligi",
+    "Folder name": "Nomo de dosierujo",
+    "Create": "Krei",
+    "Folder {n} created": "Dosierujo {n} kreita",
+    "Folder created": "Dosiero kreita"
   },
   "es": {
     "Inbox": "Bandeja de entrada",
@@ -1365,7 +1484,14 @@
     "November": "noviembre",
     "December": "diciembre",
     "Refresh": "Actualizar",
-    "Message sent": "Mensaje enviado"
+    "Message sent": "Mensaje enviado",
+    "New folder": "Nueva carpeta",
+    "Folder name": "Nombre de la carpeta",
+    "Cancel": "Cancelar",
+    "Create new folder": "Crear nueva carpeta",
+    "Create": "Crear",
+    "Folder {n} created": "Carpeta {n} creada",
+    "Folder created": "Carpeta creada"
   },
   "et": {
     "Inbox": "Postkast",
@@ -1441,7 +1567,14 @@
     "November": "Novembril",
     "December": "Detsembril",
     "Refresh": "Värskenda",
-    "Message sent": "Sõnum saadetud"
+    "Message sent": "Sõnum saadetud",
+    "New folder": "Uus kaust",
+    "Folder name": "Kausta nimi",
+    "Cancel": "Tühista",
+    "Create": "Loo",
+    "Create new folder": "Looge uus kaust",
+    "Folder {n} created": "Kaust {n} loodud",
+    "Folder created": "Kaust on loodud"
   },
   "eu": {
     "Inbox": "Sarrerako ontzia",
@@ -1517,7 +1650,14 @@
     "November": "Azaroa",
     "December": "abendua",
     "Refresh": "Freskatu",
-    "Message sent": "Mezua bidali da"
+    "Message sent": "Mezua bidali da",
+    "New folder": "Karpeta berria",
+    "Create": "Sortu",
+    "Cancel": "Utzi",
+    "Folder name": "Karpetaren izena",
+    "Create new folder": "Sortu karpeta berria",
+    "Folder {n} created": "Karpeta {n} sortu da",
+    "Folder created": "Karpeta sortu da"
   },
   "fa": {
     "Inbox": "صندوق ورودی",
@@ -1593,7 +1733,14 @@
     "November": "نوامبر",
     "December": "دسامبر",
     "Refresh": "تازه کردن",
-    "Message sent": "پیغام فرستاده شد"
+    "Message sent": "پیغام فرستاده شد",
+    "New folder": "پوشه جدید",
+    "Folder name": "نام پوشه",
+    "Cancel": "لغو",
+    "Create": "ایجاد کردن",
+    "Create new folder": "پوشه جدید ایجاد کنید",
+    "Folder {n} created": "پوشه {n} ایجاد شد",
+    "Folder created": "پوشه ایجاد شده است"
   },
   "fi": {
     "Inbox": "Saapuneet",
@@ -1669,7 +1816,14 @@
     "November": "marraskuu",
     "December": "joulukuu",
     "Refresh": "virkistää",
-    "Message sent": "Viesti lähetetty"
+    "Message sent": "Viesti lähetetty",
+    "New folder": "Uusi kansio",
+    "Create": "Luoda",
+    "Cancel": "Peruuttaa",
+    "Create new folder": "Luo uusi kansio",
+    "Folder name": "Kansion nimi",
+    "Folder {n} created": "Kansio {n} luotu",
+    "Folder created": "Kansio luotu"
   },
   "fr": {
     "Inbox": "Boîte de réception",
@@ -1745,7 +1899,14 @@
     "November": "novembre",
     "December": "décembre",
     "Refresh": "Rafraîchir",
-    "Message sent": "Message envoyé"
+    "Message sent": "Message envoyé",
+    "New folder": "Nouveau dossier",
+    "Cancel": "Annuler",
+    "Create": "Créer",
+    "Folder name": "Nom de dossier",
+    "Create new folder": "Créer un nouveau dossier",
+    "Folder {n} created": "Dossier {n} créé",
+    "Folder created": "Dossier créé"
   },
   "fy": {
     "Inbox": "Postfek YN",
@@ -1821,7 +1982,14 @@
     "November": "novimber",
     "December": "desimber",
     "Refresh": "Opfrisse",
-    "Message sent": "Berjocht ferstjoerd"
+    "Message sent": "Berjocht ferstjoerd",
+    "New folder": "Nije map",
+    "Cancel": "Ofbrekke",
+    "Create": "Meitsje",
+    "Folder name": "Foldernamme",
+    "Create new folder": "Meitsje nije map",
+    "Folder {n} created": "Map {n} oanmakke",
+    "Folder created": "Map oanmakke"
   },
   "ga": {
     "Inbox": "Bosca Isteach",
@@ -1897,7 +2065,14 @@
     "November": "Samhain",
     "December": "Nollaig",
     "Refresh": "Athnuachan",
-    "Message sent": "Teachtaireacht seolta"
+    "Message sent": "Teachtaireacht seolta",
+    "New folder": "Fillteán nua",
+    "Cancel": "Cealaigh",
+    "Folder name": "Ainm an fhillteáin",
+    "Create new folder": "Cruthaigh fillteán nua",
+    "Create": "Cruthaigh",
+    "Folder {n} created": "Fillteán {n} cruthaithe",
+    "Folder created": "Fillteán cruthaithe"
   },
   "gd": {
     "Inbox": "Bogsa a-steach",
@@ -1973,7 +2148,14 @@
     "November": "An t-Samhain",
     "December": "An Dùbhlachd",
     "Refresh": "Ùraich",
-    "Message sent": "Teachdaireachd air a chuir"
+    "Message sent": "Teachdaireachd air a chuir",
+    "New folder": "Pasgan ùr",
+    "Cancel": "Sguir dheth",
+    "Create": "Cruthaich",
+    "Folder name": "Ainm fillte",
+    "Create new folder": "Cruthaich pasgan ùr",
+    "Folder {n} created": "Folder {n} air a chruthachadh",
+    "Folder created": "Folder air a chruthachadh"
   },
   "gl": {
     "Inbox": "Caixa de entrada",
@@ -2049,7 +2231,14 @@
     "November": "Novembro",
     "December": "Decembro",
     "Refresh": "Actualizar",
-    "Message sent": "Mensaxe enviada"
+    "Message sent": "Mensaxe enviada",
+    "New folder": "Nova carpeta",
+    "Cancel": "Cancelar",
+    "Create new folder": "Crear un novo cartafol",
+    "Folder name": "Nome de carpeta",
+    "Create": "Crear",
+    "Folder {n} created": "Creouse unha carpeta {n}",
+    "Folder created": "Carpeta creada"
   },
   "gu": {
     "Inbox": "ઇનબોક્સ",
@@ -2125,7 +2314,14 @@
     "November": "નવેમ્બર",
     "December": "ડિસેમ્બર",
     "Refresh": "તાજું કરો",
-    "Message sent": "સંદેશ મોકલ્યો"
+    "Message sent": "સંદેશ મોકલ્યો",
+    "New folder": "નવું ફોલ્ડર",
+    "Cancel": "રદ કરો",
+    "Create": "બનાવો",
+    "Folder name": "ફોલ્ડર નામ",
+    "Create new folder": "નવું ફોલ્ડર બનાવો",
+    "Folder {n} created": "ફોલ્ડર {n} બનાવ્યું",
+    "Folder created": "ફોલ્ડર બનાવ્યું"
   },
   "ha": {
     "Inbox": "Akwati",
@@ -2201,7 +2397,14 @@
     "November": "Nuwamba",
     "December": "Disamba",
     "Refresh": "Sanya",
-    "Message sent": "An aika da sako"
+    "Message sent": "An aika da sako",
+    "New folder": "Sabon babban fayil",
+    "Create new folder": "Newirƙiri sabon babban fayil",
+    "Cancel": "Soke",
+    "Create": ".Irƙira",
+    "Folder name": "Sunan babban fayil",
+    "Folder {n} created": "Jaka {n} halitta",
+    "Folder created": "Jaka an kirkiro"
   },
   "haw": {
     "Inbox": "Kahu Inikua",
@@ -2277,7 +2480,14 @@
     "November": "Nowemapa",
     "December": "Kekemapa",
     "Refresh": "Hoʻohālikelike",
-    "Message sent": "Hoʻouna ʻia ka leka"
+    "Message sent": "Hoʻouna ʻia ka leka",
+    "New folder": "Nā faila hou",
+    "Folder name": "ʻAla inoa",
+    "Cancel": "Hoʻopau",
+    "Create new folder": "E hana i kahi faila hou",
+    "Create": "Hana",
+    "Folder {n} created": "Kūkā ʻia {n} i hana",
+    "Folder created": "Hoʻokumu ʻia ka file"
   },
   "hi": {
     "Inbox": "इनबॉक्स",
@@ -2353,7 +2563,14 @@
     "November": "नवंबर",
     "December": "दिसंबर",
     "Refresh": "ताज़ा करना",
-    "Message sent": "मैसेज बेजा गया"
+    "Message sent": "मैसेज बेजा गया",
+    "New folder": "नया फोल्डर",
+    "Create new folder": "नया फ़ोल्डर बनाओ",
+    "Create": "सृजन करना",
+    "Cancel": "रद्द करना",
+    "Folder name": "फोल्डर का नाम",
+    "Folder {n} created": "फ़ोल्डर {n} बनाया गया",
+    "Folder created": "फ़ोल्डर बनाया गया"
   },
   "hmn": {
     "Inbox": "Cov Inbox",
@@ -2429,7 +2646,14 @@
     "November": "Kaum ib hlis",
     "December": "Lub Kaum Ob Hlis",
     "Refresh": "Kho Siab",
-    "Message sent": "Xa xov"
+    "Message sent": "Xa xov",
+    "New folder": "Cov ntawv ceev tshiab",
+    "Create new folder": "Tsim daim nplaub tshev tshiab",
+    "Folder name": "Cim npe",
+    "Create": "Tsim",
+    "Cancel": "Ntawv cia Suam teb",
+    "Folder {n} created": "Thaub tsim {n} tsim",
+    "Folder created": "Tsim tsim nplaub tshev"
   },
   "hr": {
     "Inbox": "Ulazni spremnik",
@@ -2505,7 +2729,14 @@
     "November": "studeni",
     "December": "prosinac",
     "Refresh": "Osvježiti",
-    "Message sent": "Poruka je poslana"
+    "Message sent": "Poruka je poslana",
+    "New folder": "Nova mapa",
+    "Create": "Stvoriti",
+    "Cancel": "Otkazati",
+    "Create new folder": "Stvorite novu mapu",
+    "Folder name": "Ime datoteke",
+    "Folder {n} created": "Mapa {n} je kreirana",
+    "Folder created": "Mapa je stvorena"
   },
   "ht": {
     "Inbox": "Bwat resepsyon",
@@ -2581,7 +2812,14 @@
     "November": "Novanm",
     "December": "Desanm",
     "Refresh": "Rafrechi",
-    "Message sent": "Mesaj voye"
+    "Message sent": "Mesaj voye",
+    "New folder": "New folder",
+    "Cancel": "Anile",
+    "Create": "Kreye",
+    "Create new folder": "Kreye nouvo katab",
+    "Folder name": "Non Dosye an",
+    "Folder {n} created": "Dosye {n} kreye",
+    "Folder created": "Dosye ki te kreye"
   },
   "hu": {
     "Inbox": "Bejövő",
@@ -2657,7 +2895,14 @@
     "November": "november",
     "December": "december",
     "Refresh": "Frissítés",
-    "Message sent": "Üzenet elküldve"
+    "Message sent": "Üzenet elküldve",
+    "New folder": "Új mappa",
+    "Create new folder": "Hozzon létre új mappát",
+    "Create": "teremt",
+    "Folder name": "Mappa neve",
+    "Cancel": "Megszünteti",
+    "Folder {n} created": "A (z) {n} mappa létrehozva",
+    "Folder created": "A mappa létrehozva"
   },
   "hy": {
     "Inbox": "Ներարկղ",
@@ -2733,7 +2978,14 @@
     "November": "Նոյեմբեր",
     "December": "Դեկտեմբեր",
     "Refresh": "Թարմացրեք",
-    "Message sent": "Նամակը ուղարկված է"
+    "Message sent": "Նամակը ուղարկված է",
+    "New folder": "Նոր թղթապանակ",
+    "Create new folder": "Ստեղծեք նոր թղթապանակ",
+    "Cancel": "Չեղարկել",
+    "Folder name": "Թղթապանակի անունը",
+    "Create": "Ստեղծել",
+    "Folder {n} created": "Թղթապանակ {n} ստեղծվել է",
+    "Folder created": "Թղթապանակը ստեղծվել է"
   },
   "id": {
     "Inbox": "Kotak masuk",
@@ -2809,7 +3061,14 @@
     "November": "November",
     "December": "Desember",
     "Refresh": "Menyegarkan",
-    "Message sent": "Pesan terkirim"
+    "Message sent": "Pesan terkirim",
+    "New folder": "Folder baru",
+    "Folder name": "Nama folder",
+    "Create": "Membuat",
+    "Cancel": "Membatalkan",
+    "Create new folder": "Buat folder baru",
+    "Folder {n} created": "Folder {n} dibuat",
+    "Folder created": "Folder dibuat"
   },
   "ig": {
     "Inbox": "Igbe mbata",
@@ -2885,7 +3144,14 @@
     "November": "Nọvemba",
     "December": "Disemba",
     "Refresh": "Nwee ume",
-    "Message sent": "Ozi zitere"
+    "Message sent": "Ozi zitere",
+    "New folder": "Nchekwa ọhụrụ",
+    "Create new folder": "Mepụta folda ọhụrụ",
+    "Folder name": "Aha nchekwa",
+    "Create": "Mepụta",
+    "Cancel": "Kagbuo",
+    "Folder {n} created": "Emebere folda",
+    "Folder created": "Emepụtara folda"
   },
   "is": {
     "Inbox": "Innhólf",
@@ -2961,7 +3227,14 @@
     "November": "Nóvember",
     "December": "Desember",
     "Refresh": "Endurnærðu",
-    "Message sent": "Skilaboð send"
+    "Message sent": "Skilaboð send",
+    "New folder": "Ný mappa",
+    "Cancel": "Hætta við",
+    "Create new folder": "Búðu til nýja möppu",
+    "Folder name": "Mappanafn",
+    "Create": "Búa til",
+    "Folder {n} created": "Mappa {n} búin til",
+    "Folder created": "Mappa búin til"
   },
   "it": {
     "Inbox": "Posta in arrivo",
@@ -3037,7 +3310,14 @@
     "November": "novembre",
     "December": "dicembre",
     "Refresh": "ricaricare",
-    "Message sent": "Messaggio inviato"
+    "Message sent": "Messaggio inviato",
+    "New folder": "Nuova cartella",
+    "Create new folder": "Crea una nuova cartella",
+    "Folder name": "Nome della cartella",
+    "Create": "Creare",
+    "Cancel": "Annulla",
+    "Folder {n} created": "Cartella {n} creata",
+    "Folder created": "Cartella creata"
   },
   "iw": {
     "Inbox": "תיבת הדואר הנכנס",
@@ -3113,7 +3393,14 @@
     "November": "נובמבר",
     "December": "דצמבר",
     "Refresh": "רענן",
-    "Message sent": "הודעה נשלחה"
+    "Message sent": "הודעה נשלחה",
+    "New folder": "תיקייה חדשה",
+    "Create new folder": "צור תיקיה חדשה",
+    "Folder name": "שם התיקיה",
+    "Cancel": "בטל",
+    "Create": "צור",
+    "Folder {n} created": "תיקיה {n} נוצרה",
+    "Folder created": "נוצרה תיקיה"
   },
   "ja": {
     "Inbox": "受信トレイ",
@@ -3189,7 +3476,14 @@
     "November": "11月",
     "December": "12月",
     "Refresh": "リフレッシュ",
-    "Message sent": "メッセージを送信しました"
+    "Message sent": "メッセージを送信しました",
+    "New folder": "新しいフォルダ",
+    "Create new folder": "新しいフォルダを作成",
+    "Create": "作成する",
+    "Folder name": "フォルダ名",
+    "Cancel": "キャンセル",
+    "Folder {n} created": "フォルダ{n}が作成されました",
+    "Folder created": "作成されたフォルダ"
   },
   "jw": {
     "Inbox": "Kothak mlebu",
@@ -3265,7 +3559,14 @@
     "November": "November",
     "December": "Desember",
     "Refresh": "Refresh",
-    "Message sent": "Pesen dikirim"
+    "Message sent": "Pesen dikirim",
+    "New folder": "Folder anyar",
+    "Cancel": "Batal",
+    "Create new folder": "Gawe folder anyar",
+    "Create": "Nggawe",
+    "Folder name": "Jeneng folder",
+    "Folder {n} created": "Folder {n} digawe",
+    "Folder created": "Folder digawe"
   },
   "ka": {
     "Inbox": "Შემომავალი",
@@ -3341,7 +3642,14 @@
     "November": "ნოემბერი",
     "December": "დეკემბერი",
     "Refresh": "განახლება",
-    "Message sent": "Შეტყობინება გაგზავნილია"
+    "Message sent": "Შეტყობინება გაგზავნილია",
+    "New folder": "Ახალი საქაღალდე",
+    "Folder name": "Საქაღალდის სახელი",
+    "Create": "Შექმნა",
+    "Cancel": "გაუქმება",
+    "Create new folder": "შექმენით ახალი საქაღალდე",
+    "Folder {n} created": "საქაღალდე {n} შექმნა",
+    "Folder created": "საქაღალდე შექმნა"
   },
   "kk": {
     "Inbox": "Кіріс жәшігі",
@@ -3417,7 +3725,14 @@
     "November": "Қараша",
     "December": "Желтоқсан",
     "Refresh": "Сергіту",
-    "Message sent": "Хабар жіберілді"
+    "Message sent": "Хабар жіберілді",
+    "New folder": "Жаңа папка",
+    "Cancel": "Болдырмау",
+    "Folder name": "Қалта атауы",
+    "Create new folder": "Жаңа қалта жасау",
+    "Create": "Жасау",
+    "Folder {n} created": "{N} қалтасы жасалды",
+    "Folder created": "Қалта жасалды"
   },
   "km": {
     "Inbox": "ប្រអប់ទទួល",
@@ -3493,7 +3808,14 @@
     "November": "វិច្ឆិកា",
     "December": "ធ្នូ",
     "Refresh": "ធ្វើ​ឱ្យ​ស្រស់",
-    "Message sent": "បានផ្ញើសារ"
+    "Message sent": "បានផ្ញើសារ",
+    "New folder": "ប្រអប់​ឯកសារ​ថ្មី",
+    "Create": "បង្កើត",
+    "Cancel": "បោះបង់",
+    "Create new folder": "បង្កើតថតឯកសារថ្មី",
+    "Folder name": "ឈ្មោះថតឯកសារ",
+    "Folder {n} created": "បានបង្កើតថត {n}",
+    "Folder created": "បានបង្កើតថត"
   },
   "kn": {
     "Inbox": "ಇನ್‌ಬಾಕ್ಸ್",
@@ -3569,7 +3891,14 @@
     "November": "ನವೆಂಬರ್",
     "December": "ಡಿಸೆಂಬರ್",
     "Refresh": "ರಿಫ್ರೆಶ್ ಮಾಡಿ",
-    "Message sent": "ಸಂದೇಶ ಕಳುಹಿಸಲಾಗಿದೆ"
+    "Message sent": "ಸಂದೇಶ ಕಳುಹಿಸಲಾಗಿದೆ",
+    "New folder": "ಹೊಸ ಫೋಲ್ಡರ್",
+    "Folder name": "ಫೋಲ್ಡರ್ ಹೆಸರು",
+    "Create new folder": "ಹೊಸ ಫೋಲ್ಡರ್ ರಚಿಸಿ",
+    "Create": "ರಚಿಸಿ",
+    "Cancel": "ರದ್ದುಮಾಡಿ",
+    "Folder {n} created": "ಫೋಲ್ಡರ್ {n} ರಚಿಸಲಾಗಿದೆ",
+    "Folder created": "ಫೋಲ್ಡರ್ ರಚಿಸಲಾಗಿದೆ"
   },
   "ko": {
     "Inbox": "받은 편지함",
@@ -3645,7 +3974,14 @@
     "November": "십일월",
     "December": "12 월",
     "Refresh": "새롭게 하다",
-    "Message sent": "메시지 전송 됨"
+    "Message sent": "메시지 전송 됨",
+    "New folder": "새 폴더",
+    "Folder name": "폴더 이름",
+    "Create new folder": "새 폴더 만들기",
+    "Create": "창조하다",
+    "Cancel": "취소",
+    "Folder {n} created": "{n} 폴더가 생성되었습니다",
+    "Folder created": "폴더 생성"
   },
   "ku": {
     "Inbox": "Inbox",
@@ -3721,7 +4057,14 @@
     "November": "Mijdar",
     "December": "Berfanbar",
     "Refresh": "Hênikkirin",
-    "Message sent": "Mesaj şandin"
+    "Message sent": "Mesaj şandin",
+    "New folder": "Peldanka nû",
+    "Create": "Xûliqandin",
+    "Cancel": "Bişûndekirin",
+    "Create new folder": "Peldanka nû ava bikin",
+    "Folder name": "Navê peldanka",
+    "Folder {n} created": "Folder {n} afirandin",
+    "Folder created": "Folder afirandin"
   },
   "ky": {
     "Inbox": "Кирүү кутусу",
@@ -3797,7 +4140,14 @@
     "November": "Ноябрь",
     "December": "Декабрь",
     "Refresh": "сергитүү",
-    "Message sent": "Билдирүү жөнөтүлдү"
+    "Message sent": "Билдирүү жөнөтүлдү",
+    "New folder": "Жаңы Папка",
+    "Create new folder": "Жаңы Папканы түзүү",
+    "Cancel": "жокко чыгаруу",
+    "Folder name": "Куржундун аты",
+    "Create": "түзүү",
+    "Folder {n} created": "{N} папкасы түзүлдү",
+    "Folder created": "Папка түзүлдү"
   },
   "la": {
     "Inbox": "inbuxo",
@@ -3873,7 +4223,14 @@
     "November": "November",
     "December": "December",
     "Refresh": "Renovare",
-    "Message sent": "nuntium misit"
+    "Message sent": "nuntium misit",
+    "New folder": "Collectorium novum",
+    "Create new folder": "Create novi folder",
+    "Cancel": "Cancel",
+    "Create": "Create",
+    "Folder name": "folder est nomen",
+    "Folder {n} created": "Folder creatus est {n}",
+    "Folder created": "folder creata est"
   },
   "lb": {
     "Inbox": "Inbox",
@@ -3949,7 +4306,14 @@
     "November": "November",
     "December": "Dezember",
     "Refresh": "Opfrëschen",
-    "Message sent": "Message geschéckt"
+    "Message sent": "Message geschéckt",
+    "New folder": "Neien Dossier",
+    "Create new folder": "Neie Dossier erstellen",
+    "Folder name": "Dossier Numm",
+    "Cancel": "Ofbriechen",
+    "Create": "Erstellt",
+    "Folder {n} created": "Dossier {n} erstallt",
+    "Folder created": "Folder erstallt"
   },
   "lo": {
     "Inbox": "ກ່ອງຈົດ ໝາຍ",
@@ -4025,7 +4389,14 @@
     "November": "ພະຈິກ",
     "December": "ທັນວາ",
     "Refresh": "ໂຫຼດຫນ້າຈໍຄືນ",
-    "Message sent": "ຂໍ້ຄວາມຖືກສົ່ງແລ້ວ"
+    "Message sent": "ຂໍ້ຄວາມຖືກສົ່ງແລ້ວ",
+    "New folder": "ໂຟນເດີ ໃໝ່",
+    "Folder name": "ຊື່ແຟ້ມ",
+    "Create new folder": "ສ້າງໂຟນເດີ ໃໝ່",
+    "Cancel": "ຍົກເລີກ",
+    "Create": "ສ້າງ",
+    "Folder {n} created": "ໂຟນເດີ {n} ສ້າງຂື້ນແລ້ວ",
+    "Folder created": "ແຟ້ມສ້າງ"
   },
   "lt": {
     "Inbox": "Pašto dėžutę",
@@ -4101,7 +4472,14 @@
     "November": "Lapkritį",
     "December": "Gruodį",
     "Refresh": "Atnaujinkite",
-    "Message sent": "Žinutė išsiųsta"
+    "Message sent": "Žinutė išsiųsta",
+    "New folder": "Naujas aplankas",
+    "Create new folder": "Sukurkite naują aplanką",
+    "Cancel": "Atšaukti",
+    "Create": "Sukurti",
+    "Folder name": "Aplanko pavadinimas",
+    "Folder {n} created": "Aplankas {n} sukurtas",
+    "Folder created": "Sukurtas aplankas"
   },
   "lv": {
     "Inbox": "Iesūtne",
@@ -4177,7 +4555,14 @@
     "November": "Novembrī",
     "December": "Decembrī",
     "Refresh": "atjaunot",
-    "Message sent": "Ziņa nosūtīta"
+    "Message sent": "Ziņa nosūtīta",
+    "New folder": "Jauna mape",
+    "Create new folder": "Izveidot jaunu mapi",
+    "Cancel": "Atcelt",
+    "Create": "Izveidot",
+    "Folder name": "Mapes nosaukums",
+    "Folder {n} created": "Mape {n} izveidota",
+    "Folder created": "Mape izveidota"
   },
   "mg": {
     "Inbox": "Inbox",
@@ -4253,7 +4638,14 @@
     "November": "Novambra",
     "December": "Desambra",
     "Refresh": "Refresh",
-    "Message sent": "Hafatra nandefa"
+    "Message sent": "Hafatra nandefa",
+    "New folder": "Fandraisana vaovao",
+    "Create new folder": "Mamorona fampirimana vaovao",
+    "Create": "mamorona",
+    "Folder name": "Anaran'ny folder",
+    "Cancel": "hanafoana",
+    "Folder {n} created": "Folder {n} noforonina",
+    "Folder created": "Famoronana noforonina"
   },
   "mi": {
     "Inbox": "Pouakahu",
@@ -4329,7 +4721,14 @@
     "November": "Whiringa",
     "December": "Hakihea",
     "Refresh": "Whakahoki",
-    "Message sent": "Karere i tukuna"
+    "Message sent": "Karere i tukuna",
+    "New folder": "Kōpaki Hou",
+    "Folder name": "Ingoa Kōpaki",
+    "Create new folder": "Waihangahia te kōpaki hou",
+    "Cancel": "Whakakore",
+    "Create": "Te Hanga",
+    "Folder {n} created": "Kōpaki {n} i hangaia",
+    "Folder created": "I hanga te Kōpaki"
   },
   "mk": {
     "Inbox": "Инбокс",
@@ -4405,7 +4804,14 @@
     "November": "Ноември",
     "December": "Декември",
     "Refresh": "Освежи",
-    "Message sent": "Пораката е испратена"
+    "Message sent": "Пораката е испратена",
+    "New folder": "Нова папка",
+    "Create": "Креирај",
+    "Cancel": "Откажи",
+    "Folder name": "Име на папка",
+    "Create new folder": "Создадете нова папка",
+    "Folder {n} created": "Фолдер {n} креирано",
+    "Folder created": "Фолдер е создаден"
   },
   "ml": {
     "Inbox": "ഇൻ‌ബോക്സ്",
@@ -4481,7 +4887,14 @@
     "November": "നവംബർ",
     "December": "ഡിസംബർ",
     "Refresh": "പുതുക്കുക",
-    "Message sent": "സന്ദേശം അയച്ചു"
+    "Message sent": "സന്ദേശം അയച്ചു",
+    "New folder": "പുതിയ ഫോൾഡർ",
+    "Create": "സൃഷ്ടിക്കാൻ",
+    "Cancel": "റദ്ദാക്കുക",
+    "Create new folder": "പുതിയ ഫോൾഡർ സൃഷ്ടിക്കുക",
+    "Folder name": "ഫോൾഡറിന്റെ പേര്",
+    "Folder {n} created": "ഫോൾഡർ {n} സൃഷ്‌ടിച്ചു",
+    "Folder created": "ഫോൾഡർ സൃഷ്‌ടിച്ചു"
   },
   "mn": {
     "Inbox": "Ирсэн мэйл",
@@ -4557,7 +4970,14 @@
     "November": "11-р сар",
     "December": "Арванхоёрдугаар сар",
     "Refresh": "Сэргээнэ үү",
-    "Message sent": "Мессеж илгээгдсэн байна"
+    "Message sent": "Мессеж илгээгдсэн байна",
+    "New folder": "Шинэ хавтас",
+    "Cancel": "Цуцлах",
+    "Create": "Үүсгэх",
+    "Folder name": "Фолдерын нэр",
+    "Create new folder": "Шинэ хавтас үүсгэх",
+    "Folder {n} created": "{N} хавтас үүсгэсэн",
+    "Folder created": "Хавтас үүсгэсэн байна"
   },
   "mr": {
     "Inbox": "इनबॉक्स",
@@ -4633,7 +5053,14 @@
     "November": "नोव्हेंबर",
     "December": "डिसेंबर",
     "Refresh": "रीफ्रेश",
-    "Message sent": "संदेश पाठवला"
+    "Message sent": "संदेश पाठवला",
+    "New folder": "नवीन फोल्डर",
+    "Folder name": "फोल्डर नाव",
+    "Create new folder": "नवीन फोल्डर तयार करा",
+    "Create": "तयार करा",
+    "Cancel": "रद्द करा",
+    "Folder {n} created": "फोल्डर {n {तयार केले",
+    "Folder created": "फोल्डर तयार केला"
   },
   "ms": {
     "Inbox": "Peti Masuk",
@@ -4709,7 +5136,14 @@
     "November": "November",
     "December": "Disember",
     "Refresh": "Segarkan",
-    "Message sent": "Pesanan dihantar"
+    "Message sent": "Pesanan dihantar",
+    "New folder": "Fail baharu",
+    "Create new folder": "Buat folder baru",
+    "Folder name": "Nama folder",
+    "Cancel": "Batal",
+    "Create": "Buat",
+    "Folder {n} created": "Folder {n} dibuat",
+    "Folder created": "Folder dibuat"
   },
   "mt": {
     "Inbox": "Inbox",
@@ -4785,7 +5219,14 @@
     "November": "Novembru",
     "December": "Diċembru",
     "Refresh": "Aġġorna",
-    "Message sent": "Messaġġ mibgħut"
+    "Message sent": "Messaġġ mibgħut",
+    "New folder": "Folder ġdid",
+    "Create new folder": "Oħloq folder ġdid",
+    "Create": "Oħloq",
+    "Folder name": "Isem tal-Folder",
+    "Cancel": "Ikkanċella",
+    "Folder {n} created": "Folder {n} maħluqa",
+    "Folder created": "Folder maħluqa"
   },
   "my": {
     "Inbox": "Inbox",
@@ -4861,7 +5302,14 @@
     "November": "နိုဝင်ဘာ",
     "December": "ဒီဇင်ဘာ",
     "Refresh": "Refresh",
-    "Message sent": "မက်ဆေ့ခ်ျပို့ခဲ့သည်"
+    "Message sent": "မက်ဆေ့ခ်ျပို့ခဲ့သည်",
+    "New folder": "ဖိုင်တွဲအသစ်",
+    "Create new folder": "ဖိုင်တွဲအသစ်ဖန်တီးပါ",
+    "Folder name": "ဖိုလ်ဒါအမည်",
+    "Cancel": "ပယ်ဖျက်ပါ",
+    "Create": "ဖန်တီးပါ",
+    "Folder {n} created": "ဖိုလ်ဒါ {n} ကိုဖန်တီးထားသည်",
+    "Folder created": "ဖိုလ်ဒါဖန်တီးထားသည်"
   },
   "ne": {
     "Inbox": "इनबक्स",
@@ -4937,7 +5385,14 @@
     "November": "नोभेम्बर",
     "December": "डिसेम्बर",
     "Refresh": "रिफ्रेस गर्नुहोस्",
-    "Message sent": "सन्देश पठाइयो"
+    "Message sent": "सन्देश पठाइयो",
+    "New folder": "नयाँ फोल्डर",
+    "Folder name": "फोल्डर नाम",
+    "Create": "सिर्जना गर्नुहोस्",
+    "Create new folder": "नयाँ फोल्डर सिर्जना गर्नुहोस्",
+    "Cancel": "रद्द गर्नुहोस्",
+    "Folder {n} created": "फोल्डर {n} सिर्जना गरियो",
+    "Folder created": "फोल्डर सिर्जना गरियो"
   },
   "nl": {
     "Inbox": "Postvak IN",
@@ -5013,7 +5468,14 @@
     "November": "November",
     "December": "december",
     "Refresh": "Vernieuwen",
-    "Message sent": "Bericht verzonden"
+    "Message sent": "Bericht verzonden",
+    "New folder": "Nieuwe map",
+    "Folder name": "Naam van de map",
+    "Create new folder": "Maak een nieuwe map",
+    "Cancel": "annuleren",
+    "Create": "Creëer",
+    "Folder {n} created": "Map {n} gemaakt",
+    "Folder created": "Map gemaakt"
   },
   "no": {
     "Inbox": "Innboks",
@@ -5089,7 +5551,14 @@
     "November": "november",
     "December": "desember",
     "Refresh": "Forfriske",
-    "Message sent": "Melding sendt"
+    "Message sent": "Melding sendt",
+    "New folder": "Ny mappe",
+    "Folder name": "Mappenavn",
+    "Create": "Skape",
+    "Cancel": "Avbryt",
+    "Create new folder": "Lag ny mappe",
+    "Folder {n} created": "Mappe {n} opprettet",
+    "Folder created": "Mappe opprettet"
   },
   "ny": {
     "Inbox": "Makulidwe",
@@ -5165,7 +5634,14 @@
     "November": "Novembala",
     "December": "Disembala",
     "Refresh": "Tsitsimutsani",
-    "Message sent": "Mauthenga atumizidwa"
+    "Message sent": "Mauthenga atumizidwa",
+    "New folder": "Foda yatsopano",
+    "Folder name": "Foda",
+    "Create new folder": "Pangani foda yatsopano",
+    "Cancel": "Patulani",
+    "Create": "Pangani",
+    "Folder {n} created": "Folder {n} idapangidwa",
+    "Folder created": "Fodaida idapangidwa"
   },
   "or": {
     "Inbox": "ଇନବକ୍ସ |",
@@ -5241,7 +5717,14 @@
     "November": "ନଭେମ୍ବର",
     "December": "ଡିସେମ୍ବର",
     "Refresh": "ସତେଜ କରନ୍ତୁ |",
-    "Message sent": "ବାର୍ତ୍ତା ପଠାଯାଇଛି |"
+    "Message sent": "ବାର୍ତ୍ତା ପଠାଯାଇଛି |",
+    "New folder": "ନୂତନ ଫୋଲ୍ଡର୍ |",
+    "Folder name": "ଫୋଲ୍ଡର ନାମ",
+    "Create new folder": "ନୂତନ ଫୋଲ୍ଡର୍ ସୃଷ୍ଟି କରନ୍ତୁ |",
+    "Create": "ସୃଷ୍ଟି କରନ୍ତୁ |",
+    "Cancel": "ବାତିଲ୍ କରନ୍ତୁ |",
+    "Folder {n} created": "ଫୋଲ୍ଡର {n} ସୃଷ୍ଟି ହୋଇଛି |",
+    "Folder created": "ଫୋଲ୍ଡର ସୃଷ୍ଟି |"
   },
   "pa": {
     "Inbox": "ਇਨਬਾਕਸ",
@@ -5317,7 +5800,14 @@
     "November": "ਨਵੰਬਰ",
     "December": "ਦਸੰਬਰ",
     "Refresh": "ਤਾਜ਼ਾ ਕਰੋ",
-    "Message sent": "ਸੁਨੇਹਾ ਭੇਜਿਆ ਗਿਆ"
+    "Message sent": "ਸੁਨੇਹਾ ਭੇਜਿਆ ਗਿਆ",
+    "New folder": "ਨਵਾਂ ਫੋਲਡਰ",
+    "Create new folder": "ਨਵਾਂ ਫੋਲਡਰ ਬਣਾਓ",
+    "Create": "ਬਣਾਓ",
+    "Folder name": "ਫੋਲਡਰ ਦਾ ਨਾਮ",
+    "Cancel": "ਰੱਦ ਕਰੋ",
+    "Folder {n} created": "ਫੋਲਡਰ {n} ਬਣਾਇਆ ਗਿਆ",
+    "Folder created": "ਫੋਲਡਰ ਬਣਾਇਆ ਗਿਆ"
   },
   "pl": {
     "Inbox": "W pudełku",
@@ -5393,7 +5883,14 @@
     "November": "listopad",
     "December": "grudzień",
     "Refresh": "Odświeżać",
-    "Message sent": "Wiadomość wysłana"
+    "Message sent": "Wiadomość wysłana",
+    "New folder": "Nowy folder",
+    "Create new folder": "Stwórz nowy folder",
+    "Folder name": "Nazwa folderu",
+    "Cancel": "Anuluj",
+    "Create": "Stwórz",
+    "Folder {n} created": "Utworzono folder {n}",
+    "Folder created": "Utworzono folder"
   },
   "ps": {
     "Inbox": "Inbox",
@@ -5469,7 +5966,14 @@
     "November": "نومبر",
     "December": "دسمبر",
     "Refresh": "تازه کړئ",
-    "Message sent": "پیغام ولیږل شو"
+    "Message sent": "پیغام ولیږل شو",
+    "New folder": "نوی پوښۍ",
+    "Create new folder": "نوی فولډر جوړ کړئ",
+    "Folder name": "د پوښی نوم",
+    "Cancel": "لغوه کول",
+    "Create": "جوړول",
+    "Folder {n} created": "پوښی جوړ شو. n}",
+    "Folder created": "پوښی جوړ شو"
   },
   "pt": {
     "Inbox": "Caixa de entrada",
@@ -5545,7 +6049,14 @@
     "November": "novembro",
     "December": "dezembro",
     "Refresh": "Atualizar",
-    "Message sent": "Mensagem enviada"
+    "Message sent": "Mensagem enviada",
+    "New folder": "Nova pasta",
+    "Create new folder": "Criar nova pasta",
+    "Folder name": "Nome da pasta",
+    "Create": "Crio",
+    "Cancel": "Cancelar",
+    "Folder {n} created": "Pasta {n} criada",
+    "Folder created": "Pasta criada"
   },
   "ro": {
     "Inbox": "Inbox",
@@ -5621,7 +6132,14 @@
     "November": "noiembrie",
     "December": "decembrie",
     "Refresh": "Reîmprospăta",
-    "Message sent": "Mesaj trimis"
+    "Message sent": "Mesaj trimis",
+    "New folder": "Dosar nou",
+    "Create new folder": "Creati un folder nou",
+    "Folder name": "Numele fisierului",
+    "Cancel": "Anulare",
+    "Create": "Crea",
+    "Folder {n} created": "Folder {n} creat",
+    "Folder created": "Folder creat"
   },
   "ru": {
     "Inbox": "входящие",
@@ -5697,7 +6215,14 @@
     "November": "ноябрь",
     "December": "Декабрь",
     "Refresh": "обновление",
-    "Message sent": "Сообщение отправлено"
+    "Message sent": "Сообщение отправлено",
+    "New folder": "Новая папка",
+    "Create new folder": "Создать новую папку",
+    "Folder name": "Имя папки",
+    "Create": "Создайте",
+    "Cancel": "Отмена",
+    "Folder {n} created": "Папка {n} создана",
+    "Folder created": "Папка создана"
   },
   "rw": {
     "Inbox": "Inbox",
@@ -5773,7 +6298,14 @@
     "November": "Ugushyingo",
     "December": "Kigarama",
     "Refresh": "Ongera",
-    "Message sent": "Ubutumwa bwoherejwe"
+    "Message sent": "Ubutumwa bwoherejwe",
+    "New folder": "Ububiko bushya",
+    "Cancel": "Kureka",
+    "Create": "Kurema",
+    "Folder name": "Izina ry'ububiko",
+    "Create new folder": "Kora ububiko bushya",
+    "Folder {n} created": "Ububiko {n} bwakozwe",
+    "Folder created": "Ububiko bwakozwe"
   },
   "sd": {
     "Inbox": "انباڪس",
@@ -5849,7 +6381,14 @@
     "November": "نومبر",
     "December": "ڊسمبر",
     "Refresh": "ريفريش",
-    "Message sent": "پيغام موڪليو ويو"
+    "Message sent": "پيغام موڪليو ويو",
+    "New folder": "نئون فولڊر",
+    "Create new folder": "نئون فولڊر ٺاھيو",
+    "Cancel": "رد ڪرڻ",
+    "Folder name": "فولڊر جو نالو",
+    "Create": "ٺاهيو",
+    "Folder {n} created": "فولڊر {n} ٺاھيو ويو",
+    "Folder created": "فولڊر ٺاھيو"
   },
   "si": {
     "Inbox": "එන ලිපි",
@@ -5925,7 +6464,14 @@
     "November": "නොවැම්බර්",
     "December": "දෙසැම්බර්",
     "Refresh": "නැවුම් කරන්න",
-    "Message sent": "පණිවිඩය යැව්වා"
+    "Message sent": "පණිවිඩය යැව්වා",
+    "New folder": "නව ෆෝල්ඩරය",
+    "Cancel": "අවලංගු කරන්න",
+    "Create new folder": "නව ෆෝල්ඩරයක් සාදන්න",
+    "Create": "සාදන්න",
+    "Folder name": "ෆෝල්ඩරයේ නම",
+    "Folder {n} created": "ෆෝල්ඩරය {n} නිර්මාණය කරන ලදි",
+    "Folder created": "ෆෝල්ඩරය සාදන ලදි"
   },
   "sk": {
     "Inbox": "Doručená pošta",
@@ -6001,7 +6547,14 @@
     "November": "november",
     "December": "December",
     "Refresh": "Obnoviť",
-    "Message sent": "Správa poslaná"
+    "Message sent": "Správa poslaná",
+    "New folder": "Nový priečinok",
+    "Create new folder": "Vytvorte nový priečinok",
+    "Create": "vytvoriť",
+    "Folder name": "Názov priečinka",
+    "Cancel": "Zrušiť",
+    "Folder {n} created": "Priečinok {n} bol vytvorený",
+    "Folder created": "Priečinok bol vytvorený"
   },
   "sl": {
     "Inbox": "Prejeto",
@@ -6077,7 +6630,14 @@
     "November": "Novembra",
     "December": "December",
     "Refresh": "Osveži",
-    "Message sent": "Sporočilo poslano"
+    "Message sent": "Sporočilo poslano",
+    "New folder": "Nova mapa",
+    "Create new folder": "Ustvari novo mapo",
+    "Create": "Ustvari",
+    "Folder name": "Ime mape",
+    "Cancel": "Prekliči",
+    "Folder {n} created": "Mapa {n} je bila ustvarjena",
+    "Folder created": "Mapa je ustvarjena"
   },
   "sm": {
     "Inbox": "Falevalu",
@@ -6153,7 +6713,14 @@
     "November": "Novema",
     "December": "Tesema",
     "Refresh": "Faʻafouina",
-    "Message sent": "Savali auina"
+    "Message sent": "Savali auina",
+    "New folder": "Faila fou",
+    "Cancel": "Soloia",
+    "Folder name": "Igoa o le igoa",
+    "Create": "Faia",
+    "Create new folder": "Fausia se faila fou",
+    "Folder {n} created": "Faila {n} faia",
+    "Folder created": "Fatu na fatuina"
   },
   "sn": {
     "Inbox": "Inbox",
@@ -6229,7 +6796,14 @@
     "November": "Mbudzi",
     "December": "Zvita",
     "Refresh": "Zorodza",
-    "Message sent": "Message yatumirwa"
+    "Message sent": "Message yatumirwa",
+    "New folder": "Nyowani nyowani",
+    "Cancel": "Kanzura",
+    "Folder name": "Folder zita",
+    "Create": "Gadzira",
+    "Create new folder": "Gadzira nyowani nyowani",
+    "Folder {n} created": "Folder {n} yakagadzirwa",
+    "Folder created": "Folda yakagadzirwa"
   },
   "so": {
     "Inbox": "Inbox",
@@ -6305,7 +6879,14 @@
     "November": "Nofeembar",
     "December": "Diseembar",
     "Refresh": "Nasiin",
-    "Message sent": "Farriin baa la diray"
+    "Message sent": "Farriin baa la diray",
+    "New folder": "Fayl cusub",
+    "Create new folder": "Abuur fayl cusub",
+    "Create": "Abuur",
+    "Folder name": "Magaca faylka",
+    "Cancel": "Tirtir",
+    "Folder {n} created": "Feyl {n} waa la abuuray",
+    "Folder created": "Faylka waa la abuuray"
   },
   "sq": {
     "Inbox": "Inbox",
@@ -6381,7 +6962,14 @@
     "November": "nëntor",
     "December": "dhjetor",
     "Refresh": "freskoj",
-    "Message sent": "Mesazhi u Dergua"
+    "Message sent": "Mesazhi u Dergua",
+    "New folder": "Dosje e re",
+    "Cancel": "anuloj",
+    "Create new folder": "Krijoni një dosje të re",
+    "Folder name": "Emri i dosjes",
+    "Create": "krijoj",
+    "Folder {n} created": "Dosje {n} krijuar",
+    "Folder created": "Dosja e krijuar"
   },
   "sr": {
     "Inbox": "Инбок",
@@ -6457,7 +7045,14 @@
     "November": "Новембар",
     "December": "Децембар",
     "Refresh": "Освјежи",
-    "Message sent": "Порука послата"
+    "Message sent": "Порука послата",
+    "New folder": "Нова фасцикла",
+    "Cancel": "Поништити, отказати",
+    "Create new folder": "Креирајте нову фасциклу",
+    "Folder name": "Име фасцикле",
+    "Create": "Креирај",
+    "Folder {n} created": "Фолдер {н} је креиран",
+    "Folder created": "Фолдер је креиран"
   },
   "st": {
     "Inbox": "Inbox",
@@ -6533,7 +7128,14 @@
     "November": "Pulungoana",
     "December": "Mots'eanong",
     "Refresh": "Ntlafatsa",
-    "Message sent": "Ho romelletsoe molaetsa"
+    "Message sent": "Ho romelletsoe molaetsa",
+    "New folder": "Foldara e ncha",
+    "Cancel": "Hlakola",
+    "Create": "Bopa",
+    "Create new folder": "Theha foldara e ncha",
+    "Folder name": "Lebitso la lifoldara",
+    "Folder {n} created": "Folder {n} e entsoe",
+    "Folder created": "Folder e thehiloe"
   },
   "su": {
     "Inbox": "Koropak",
@@ -6609,7 +7211,14 @@
     "November": "Nopémber",
     "December": "Désémber",
     "Refresh": "Refresh",
-    "Message sent": "Pesen dikirim"
+    "Message sent": "Pesen dikirim",
+    "New folder": "Folder anyar",
+    "Create new folder": "Jieun folder anyar",
+    "Create": "Nyipta",
+    "Folder name": "Ngaran folder",
+    "Cancel": "Ngabolaykeun",
+    "Folder {n} created": "Folder {n} diciptakeun",
+    "Folder created": "Polder nyiptakeun"
   },
   "sv": {
     "Inbox": "Inkorg",
@@ -6685,7 +7294,14 @@
     "November": "november",
     "December": "december",
     "Refresh": "Uppdatera",
-    "Message sent": "Meddelande skickat"
+    "Message sent": "Meddelande skickat",
+    "New folder": "Ny mapp",
+    "Create": "Skapa",
+    "Folder name": "Mapp namn",
+    "Create new folder": "Skapa ny mapp",
+    "Cancel": "Avbryt",
+    "Folder {n} created": "Mapp {n} skapad",
+    "Folder created": "Mapp skapad"
   },
   "sw": {
     "Inbox": "Kikasha",
@@ -6761,7 +7377,14 @@
     "November": "Novemba",
     "December": "Desemba",
     "Refresh": "Sasisha",
-    "Message sent": "Ujumbe umetumwa"
+    "Message sent": "Ujumbe umetumwa",
+    "New folder": "Folder mpya",
+    "Cancel": "Ghairi",
+    "Create new folder": "Unda folda mpya",
+    "Folder name": "Jina la folda",
+    "Create": "Unda",
+    "Folder {n} created": "Folda {n} imeundwa",
+    "Folder created": "Folda imeundwa"
   },
   "ta": {
     "Inbox": "உட்பெட்டி",
@@ -6837,7 +7460,14 @@
     "November": "நவம்பர்",
     "December": "டிசம்பர்",
     "Refresh": "புதுப்பிப்பு",
-    "Message sent": "செய்தி அனுப்பப்பட்டது"
+    "Message sent": "செய்தி அனுப்பப்பட்டது",
+    "New folder": "புதிய அடைவை",
+    "Folder name": "கோப்புறை பெயர்",
+    "Create": "உருவாக்கு",
+    "Create new folder": "புதிய கோப்புறையை உருவாக்கவும்",
+    "Cancel": "ரத்துசெய்",
+    "Folder {n} created": "கோப்புறை {n} உருவாக்கப்பட்டது",
+    "Folder created": "கோப்புறை உருவாக்கப்பட்டது"
   },
   "te": {
     "Inbox": "ఇన్బాక్స్",
@@ -6913,7 +7543,14 @@
     "November": "నవంబర్",
     "December": "డిసెంబర్",
     "Refresh": "రిఫ్రెష్",
-    "Message sent": "సందేశం పంపబడింది"
+    "Message sent": "సందేశం పంపబడింది",
+    "New folder": "కొత్త అమరిక",
+    "Create": "సృష్టించు",
+    "Cancel": "రద్దు చేయండి",
+    "Create new folder": "క్రొత్త ఫోల్డర్‌ను సృష్టించండి",
+    "Folder name": "ఫోల్డర్ పేరు",
+    "Folder {n} created": "ఫోల్డర్ {n} సృష్టించబడింది",
+    "Folder created": "ఫోల్డర్ సృష్టించబడింది"
   },
   "tg": {
     "Inbox": "Қуттии",
@@ -6989,7 +7626,14 @@
     "November": "Ноябр",
     "December": "Декабр",
     "Refresh": "Рафикон",
-    "Message sent": "Хабар фиристода шуд"
+    "Message sent": "Хабар фиристода шуд",
+    "New folder": "Феҳристи нав",
+    "Cancel": "Бекор кардан",
+    "Folder name": "Номи папка",
+    "Create new folder": "Эҷоди ҷузвдони нав",
+    "Create": "Эҷод",
+    "Folder {n} created": "Папкаи {n} эҷод карда шуд",
+    "Folder created": "Папка офаридааст"
   },
   "th": {
     "Inbox": "กล่องขาเข้า",
@@ -7065,7 +7709,14 @@
     "November": "พฤศจิกายน",
     "December": "ธันวาคม",
     "Refresh": "รีเฟรช",
-    "Message sent": "ส่งข้อความ"
+    "Message sent": "ส่งข้อความ",
+    "New folder": "แฟ้มใหม่",
+    "Create": "สร้าง",
+    "Cancel": "ยกเลิก",
+    "Folder name": "ชื่อโฟลเดอร์",
+    "Create new folder": "สร้างโฟลเดอร์ใหม่",
+    "Folder {n} created": "สร้างโฟลเดอร์ {n} แล้ว",
+    "Folder created": "สร้างโฟลเดอร์แล้ว"
   },
   "tk": {
     "Inbox": "Gelýän bukja",
@@ -7141,7 +7792,14 @@
     "November": "Noýabr",
     "December": "Dekabr",
     "Refresh": "Täzele",
-    "Message sent": "Habar iberildi"
+    "Message sent": "Habar iberildi",
+    "New folder": "Täze bukja",
+    "Cancel": "Elatyr",
+    "Create": "Dörediň",
+    "Folder name": "Papkanyň ady",
+    "Create new folder": "Täze bukja dörediň",
+    "Folder {n} created": "Papka {n} döredildi",
+    "Folder created": "Papka döredildi"
   },
   "tl": {
     "Inbox": "Inbox",
@@ -7217,7 +7875,14 @@
     "November": "Nobyembre",
     "December": "Disyembre",
     "Refresh": "Refresh",
-    "Message sent": "Nagpadala ng mensahe"
+    "Message sent": "Nagpadala ng mensahe",
+    "New folder": "Bagong folder",
+    "Folder name": "Pangalan ng folder",
+    "Cancel": "Pagkansela",
+    "Create": "Lumikha",
+    "Create new folder": "Lumikha ng bagong folder",
+    "Folder {n} created": "Nilikha ang Folder {n}",
+    "Folder created": "Nilikha ang Folder"
   },
   "tr": {
     "Inbox": "Gelen kutusu",
@@ -7293,7 +7958,14 @@
     "November": "Kasım",
     "December": "Aralık",
     "Refresh": "Yenile",
-    "Message sent": "Mesajı gönderildi"
+    "Message sent": "Mesajı gönderildi",
+    "New folder": "Yeni dosya",
+    "Create new folder": "Yeni klasör Oluştur",
+    "Folder name": "Klasör adı",
+    "Create": "Oluşturmak",
+    "Cancel": "İptal etmek",
+    "Folder {n} created": "{N} klasörü oluşturuldu",
+    "Folder created": "Klasör oluşturuldu"
   },
   "tt": {
     "Inbox": "Керү",
@@ -7369,7 +8041,14 @@
     "November": "Ноябрь",
     "December": "Декабрь",
     "Refresh": "Яңарту",
-    "Message sent": "Хәбәр җибәрелде"
+    "Message sent": "Хәбәр җибәрелде",
+    "New folder": "Яңа папка",
+    "Folder name": "Папка исеме",
+    "Create": "Ярат",
+    "Cancel": "Баш тарту",
+    "Create new folder": "Яңа папка ясагыз",
+    "Folder {n} created": "Папка {n} ясалган",
+    "Folder created": "Папка ясалган"
   },
   "ug": {
     "Inbox": "خەت ساندۇقى",
@@ -7445,7 +8124,14 @@
     "November": "نويابىر",
     "December": "دېكابىر",
     "Refresh": "يېڭىلاش",
-    "Message sent": "ئۇچۇر ئەۋەتىلدى"
+    "Message sent": "ئۇچۇر ئەۋەتىلدى",
+    "New folder": "يېڭى ھۆججەت قىسقۇچ",
+    "Cancel": "بىكار قىلىش",
+    "Folder name": "ھۆججەت قىسقۇچنىڭ ئىسمى",
+    "Create new folder": "يېڭى ھۆججەت قىسقۇچ قۇر",
+    "Create": "قۇرۇش",
+    "Folder {n} created": "ھۆججەت قىسقۇچ {n} قۇرۇلدى",
+    "Folder created": "ھۆججەت قىسقۇچ قۇرۇلدى"
   },
   "uk": {
     "Inbox": "Вхідні",
@@ -7521,7 +8207,14 @@
     "November": "Листопад",
     "December": "Грудень",
     "Refresh": "Оновити",
-    "Message sent": "Повідомлення надіслано"
+    "Message sent": "Повідомлення надіслано",
+    "New folder": "Нова папка",
+    "Create": "Створіть",
+    "Cancel": "Скасувати",
+    "Create new folder": "Створіть нову папку",
+    "Folder name": "Назва папки",
+    "Folder {n} created": "Папка {n} створена",
+    "Folder created": "Папка створена"
   },
   "ur": {
     "Inbox": "ان باکس",
@@ -7597,7 +8290,14 @@
     "November": "نومبر",
     "December": "دسمبر",
     "Refresh": "ریفریش",
-    "Message sent": "پیغام چلا گیا"
+    "Message sent": "پیغام چلا گیا",
+    "New folder": "نیا فولڈر",
+    "Cancel": "منسوخ کریں",
+    "Create": "بنانا",
+    "Folder name": "فولڈر کا نام",
+    "Create new folder": "نیا فولڈر بنائیں",
+    "Folder {n} created": "فولڈر {n} تشکیل دیا گیا",
+    "Folder created": "فولڈر بنایا گیا"
   },
   "uz": {
     "Inbox": "Xabarlar qutisi",
@@ -7673,7 +8373,14 @@
     "November": "Noyabr",
     "December": "Dekabr",
     "Refresh": "Yangilang",
-    "Message sent": "Xabar yuborildi"
+    "Message sent": "Xabar yuborildi",
+    "New folder": "Yangi papka",
+    "Create": "Yaratmoq",
+    "Folder name": "Jild nomi",
+    "Create new folder": "Yangi jild yarating",
+    "Cancel": "Bekor qilish",
+    "Folder {n} created": "{N} jild yaratildi",
+    "Folder created": "Jild yaratildi"
   },
   "vi": {
     "Inbox": "Hộp thư đến",
@@ -7749,7 +8456,14 @@
     "November": "Tháng 11",
     "December": "Tháng 12",
     "Refresh": "Làm tươi",
-    "Message sent": "Tin nhắn đã gửi"
+    "Message sent": "Tin nhắn đã gửi",
+    "New folder": "Thư mục mới",
+    "Folder name": "Tên thư mục",
+    "Create": "Tạo nên",
+    "Create new folder": "Tạo thư mục mới",
+    "Cancel": "Hủy bỏ",
+    "Folder {n} created": "Thư mục {n} đã được tạo",
+    "Folder created": "Thư mục đã được tạo"
   },
   "xh": {
     "Inbox": "Inbox",
@@ -7825,7 +8539,14 @@
     "November": "EyeNkanga",
     "December": "EtiMnga",
     "Refresh": "Qalela ngokutsha",
-    "Message sent": "Umyalezo uthunyelwe"
+    "Message sent": "Umyalezo uthunyelwe",
+    "New folder": "Ifolda entsha",
+    "Cancel": "Rhoxisa",
+    "Create": "Yenza",
+    "Create new folder": "Yenza incwadi entsha",
+    "Folder name": "Igama lefolda",
+    "Folder {n} created": "Ifolda {n} yenziwe",
+    "Folder created": "Ifolda yenziwe"
   },
   "yi": {
     "Inbox": "Inbox",
@@ -7901,7 +8622,14 @@
     "November": "נאוועמבער",
     "December": "דעצעמבער",
     "Refresh": "דערפרישן",
-    "Message sent": "אָנזאָג געשיקט"
+    "Message sent": "אָנזאָג געשיקט",
+    "New folder": "ניו טעקע",
+    "Create": "שאַפֿן",
+    "Create new folder": "שאַפֿן נייַע טעקע",
+    "Folder name": "טעקע נאָמען",
+    "Cancel": "באָטל מאַכן",
+    "Folder {n} created": "טעקע {n} באשאפן",
+    "Folder created": "טעקע באשאפן"
   },
   "yo": {
     "Inbox": "Apo-iwọle",
@@ -7977,7 +8705,14 @@
     "November": "Oṣu kọkanla",
     "December": "Oṣu kejila",
     "Refresh": "Sọ",
-    "Message sent": "Ti firanṣẹ ranṣẹ"
+    "Message sent": "Ti firanṣẹ ranṣẹ",
+    "New folder": "Apo tuntun",
+    "Create new folder": "Ṣẹda folda tuntun",
+    "Folder name": "Orukọ folda",
+    "Create": "Ṣẹda",
+    "Cancel": "Fagile",
+    "Folder {n} created": "Ti a ṣẹda folda {n}",
+    "Folder created": "Ti ṣẹda folda"
   },
   "zh-TW": {
     "Inbox": "收件箱",
@@ -8053,7 +8788,14 @@
     "November": "十一月",
     "December": "十二月",
     "Refresh": "刷新",
-    "Message sent": "訊息已發送"
+    "Message sent": "訊息已發送",
+    "New folder": "新建文件夾",
+    "Create new folder": "建立新資料夾",
+    "Cancel": "取消",
+    "Create": "創建",
+    "Folder name": "文件夾名稱",
+    "Folder {n} created": "文件夾{n}已創建",
+    "Folder created": "資料夾已建立"
   },
   "zh": {
     "Inbox": "收件箱",
@@ -8129,7 +8871,14 @@
     "November": "十一月",
     "December": "十二月",
     "Refresh": "刷新",
-    "Message sent": "讯息已发送"
+    "Message sent": "讯息已发送",
+    "New folder": "新建文件夹",
+    "Cancel": "取消",
+    "Create new folder": "建立新资料夹",
+    "Create": "创建",
+    "Folder name": "文件夹名称",
+    "Folder {n} created": "文件夹{n}已创建",
+    "Folder created": "资料夹已建立"
   },
   "zu": {
     "Inbox": "Ibhokisi lokungenayo",
@@ -8205,6 +8954,13 @@
     "November": "Novemba",
     "December": "Disemba",
     "Refresh": "Qala kabusha",
-    "Message sent": "Kuthunyelwe umyalezo"
+    "Message sent": "Kuthunyelwe umyalezo",
+    "New folder": "Ifolda entsha",
+    "Cancel": "Khansela",
+    "Create": "Dala",
+    "Folder name": "Igama lefolda",
+    "Create new folder": "Dala ifolda entsha",
+    "Folder {n} created": "Ifolda {n} idaliwe",
+    "Folder created": "Kwenziwe ifolda"
   }
 }

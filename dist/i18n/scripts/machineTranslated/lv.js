@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Ziņa nosūtīta"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Jauna mape",
+            "success": "Mape izveidota"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Izveidot jaunu mapi",
+            "label": "Mapes nosaukums",
+            "accept": "Izveidot",
+            "cancel": "Atcelt"
+        }
     }
 };
 exports.default = locale;

@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Mesaj voye"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "New folder",
+            "success": "Dosye ki te kreye"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Kreye nouvo katab",
+            "label": "Non Dosye an",
+            "accept": "Kreye",
+            "cancel": "Anile"
+        }
     }
 };
 exports.default = locale;

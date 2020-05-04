@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "nuntium misit"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Collectorium novum",
+            "success": "folder creata est"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Create novi folder",
+            "label": "folder est nomen",
+            "accept": "Create",
+            "cancel": "Cancel"
+        }
     }
 };
 exports.default = locale;

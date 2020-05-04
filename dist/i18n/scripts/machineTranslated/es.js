@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Mensaje enviado"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Nueva carpeta",
+            "success": "Carpeta creada"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Crear nueva carpeta",
+            "label": "Nombre de la carpeta",
+            "accept": "Crear",
+            "cancel": "Cancelar"
+        }
     }
 };
 exports.default = locale;

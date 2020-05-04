@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Xa xov"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Cov ntawv ceev tshiab",
+      "success": "Tsim tsim nplaub tshev"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Tsim daim nplaub tshev tshiab",
+      "label": "Cim npe",
+      "accept": "Tsim",
+      "cancel": "Ntawv cia Suam teb"
+    }
   }
 };
 

@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Tin nhắn đã gửi"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Thư mục mới",
+      "success": "Thư mục đã được tạo"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Tạo thư mục mới",
+      "label": "Tên thư mục",
+      "accept": "Tạo nên",
+      "cancel": "Hủy bỏ"
+    }
   }
 };
 

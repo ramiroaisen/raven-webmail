@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "ବାର୍ତ୍ତା ପଠାଯାଇଛି |"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "ନୂତନ ଫୋଲ୍ଡର୍ |",
+            "success": "ଫୋଲ୍ଡର ସୃଷ୍ଟି |"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "ନୂତନ ଫୋଲ୍ଡର୍ ସୃଷ୍ଟି କରନ୍ତୁ |",
+            "label": "ଫୋଲ୍ଡର ନାମ",
+            "accept": "ସୃଷ୍ଟି କରନ୍ତୁ |",
+            "cancel": "ବାତିଲ୍ କରନ୍ତୁ |"
+        }
     }
 };
 exports.default = locale;

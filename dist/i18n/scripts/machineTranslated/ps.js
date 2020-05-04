@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "پیغام ولیږل شو"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "نوی پوښۍ",
+            "success": "پوښی جوړ شو"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "نوی فولډر جوړ کړئ",
+            "label": "د پوښی نوم",
+            "accept": "جوړول",
+            "cancel": "لغوه کول"
+        }
     }
 };
 exports.default = locale;

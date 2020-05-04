@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "讯息已发送"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "新建文件夹",
+      "success": "资料夹已建立"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "建立新资料夹",
+      "label": "文件夹名称",
+      "accept": "创建",
+      "cancel": "取消"
+    }
   }
 };
 

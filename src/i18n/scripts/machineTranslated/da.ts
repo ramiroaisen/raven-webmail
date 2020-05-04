@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Besked sendt"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Ny mappe",
+      "success": "Mappe oprettet"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Opret ny mappe",
+      "label": "Mappenavn",
+      "accept": "skab",
+      "cancel": "Afbestille"
+    }
   }
 };
 

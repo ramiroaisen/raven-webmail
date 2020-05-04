@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Savali auina"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Faila fou",
+            "success": "Fatu na fatuina"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Fausia se faila fou",
+            "label": "Igoa o le igoa",
+            "accept": "Faia",
+            "cancel": "Soloia"
+        }
     }
 };
 exports.default = locale;

@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "ئۇچۇر ئەۋەتىلدى"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "يېڭى ھۆججەت قىسقۇچ",
+            "success": "ھۆججەت قىسقۇچ قۇرۇلدى"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "يېڭى ھۆججەت قىسقۇچ قۇر",
+            "label": "ھۆججەت قىسقۇچنىڭ ئىسمى",
+            "accept": "قۇرۇش",
+            "cancel": "بىكار قىلىش"
+        }
     }
 };
 exports.default = locale;

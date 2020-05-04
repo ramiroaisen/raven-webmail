@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Poruka je poslana"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Nova mapa",
+            "success": "Mapa je stvorena"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Stvorite novu mapu",
+            "label": "Ime datoteke",
+            "accept": "Stvoriti",
+            "cancel": "Otkazati"
+        }
     }
 };
 exports.default = locale;

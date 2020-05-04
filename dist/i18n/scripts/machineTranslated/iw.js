@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "הודעה נשלחה"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "תיקייה חדשה",
+            "success": "נוצרה תיקיה"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "צור תיקיה חדשה",
+            "label": "שם התיקיה",
+            "accept": "צור",
+            "cancel": "בטל"
+        }
     }
 };
 exports.default = locale;

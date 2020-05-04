@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Bericht verzonden"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Nieuwe map",
+      "success": "Map gemaakt"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Maak een nieuwe map",
+      "label": "Naam van de map",
+      "accept": "Creëer",
+      "cancel": "annuleren"
+    }
   }
 };
 

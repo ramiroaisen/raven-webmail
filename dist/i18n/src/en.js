@@ -119,6 +119,20 @@ const locale = {
     },
     notifier: {
         messageSent: "Message sent"
+    },
+    drawerActions: {
+        createMailbox: {
+            label: "New folder",
+            success: "Folder created"
+        }
+    },
+    dialogs: {
+        createMailbox: {
+            title: "Create new folder",
+            label: "Folder name",
+            accept: "Create",
+            cancel: "Cancel"
+        }
     }
 };
 exports.default = locale;

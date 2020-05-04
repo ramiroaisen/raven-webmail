@@ -119,5 +119,19 @@ exports.default = {
     },
     notifier: {
         messageSent: "Mensaje enviado"
+    },
+    drawerActions: {
+        createMailbox: {
+            label: "Nueva carpeta",
+            success: "Carpeta creada"
+        }
+    },
+    dialogs: {
+        createMailbox: {
+            title: "Crear nueva carpeta",
+            label: "Nombre",
+            accept: "Crear",
+            cancel: "Cancelar",
+        }
     }
 };

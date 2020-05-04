@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Ozi zitere"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Nchekwa ọhụrụ",
+      "success": "Emepụtara folda"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Mepụta folda ọhụrụ",
+      "label": "Aha nchekwa",
+      "accept": "Mepụta",
+      "cancel": "Kagbuo"
+    }
   }
 };
 

@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Karere i tukuna"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Kōpaki Hou",
+      "success": "I hanga te Kōpaki"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Waihangahia te kōpaki hou",
+      "label": "Ingoa Kōpaki",
+      "accept": "Te Hanga",
+      "cancel": "Whakakore"
+    }
   }
 };
 

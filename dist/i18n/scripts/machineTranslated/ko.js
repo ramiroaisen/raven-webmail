@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "메시지 전송 됨"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "새 폴더",
+            "success": "폴더 생성"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "새 폴더 만들기",
+            "label": "폴더 이름",
+            "accept": "창조하다",
+            "cancel": "취소"
+        }
     }
 };
 exports.default = locale;

@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Zpráva odeslána"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Nová složka",
+      "success": "Složka byla vytvořena"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Vytvořit novou složku",
+      "label": "Název složky",
+      "accept": "Vytvořit",
+      "cancel": "zrušení"
+    }
   }
 };
 

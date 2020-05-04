@@ -49,7 +49,7 @@
     } else if ($others.includes(mailbox)) {
       folders = [
         inbox,
-        $others.filter(m => m !== mailbox)
+        ...$others.filter(m => m !== mailbox)
       ].filter(m => m && !!m.get())
     } else {
       folders = [];

@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "پيغام موڪليو ويو"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "نئون فولڊر",
+      "success": "فولڊر ٺاھيو"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "نئون فولڊر ٺاھيو",
+      "label": "فولڊر جو نالو",
+      "accept": "ٺاهيو",
+      "cancel": "رد ڪرڻ"
+    }
   }
 };
 

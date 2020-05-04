@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "メッセージを送信しました"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "新しいフォルダ",
+      "success": "作成されたフォルダ"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "新しいフォルダを作成",
+      "label": "フォルダ名",
+      "accept": "作成する",
+      "cancel": "キャンセル"
+    }
   }
 };
 

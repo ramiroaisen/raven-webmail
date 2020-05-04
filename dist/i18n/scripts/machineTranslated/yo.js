@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Ti firanṣẹ ranṣẹ"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Apo tuntun",
+            "success": "Ti ṣẹda folda"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Ṣẹda folda tuntun",
+            "label": "Orukọ folda",
+            "accept": "Ṣẹda",
+            "cancel": "Fagile"
+        }
     }
 };
 exports.default = locale;

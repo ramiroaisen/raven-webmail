@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Ujumbe umetumwa"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Folder mpya",
+      "success": "Folda imeundwa"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Unda folda mpya",
+      "label": "Jina la folda",
+      "accept": "Unda",
+      "cancel": "Ghairi"
+    }
   }
 };
 

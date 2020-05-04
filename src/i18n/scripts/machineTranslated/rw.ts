@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Ubutumwa bwoherejwe"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Ububiko bushya",
+      "success": "Ububiko bwakozwe"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Kora ububiko bushya",
+      "label": "Izina ry'ububiko",
+      "accept": "Kurema",
+      "cancel": "Kureka"
+    }
   }
 };
 

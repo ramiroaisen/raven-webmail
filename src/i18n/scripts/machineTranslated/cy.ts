@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Anfonwyd neges"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Ffolder newydd",
+      "success": "Ffolder wedi'i chreu"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Creu ffolder newydd",
+      "label": "Enw'r ffolder",
+      "accept": "Creu",
+      "cancel": "Canslo"
+    }
   }
 };
 

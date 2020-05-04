@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Skilaboð send"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Ný mappa",
+            "success": "Mappa búin til"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Búðu til nýja möppu",
+            "label": "Mappanafn",
+            "accept": "Búa til",
+            "cancel": "Hætta við"
+        }
     }
 };
 exports.default = locale;

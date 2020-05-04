@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "ಸಂದೇಶ ಕಳುಹಿಸಲಾಗಿದೆ"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "ಹೊಸ ಫೋಲ್ಡರ್",
+      "success": "ಫೋಲ್ಡರ್ ರಚಿಸಲಾಗಿದೆ"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "ಹೊಸ ಫೋಲ್ಡರ್ ರಚಿಸಿ",
+      "label": "ಫೋಲ್ಡರ್ ಹೆಸರು",
+      "accept": "ರಚಿಸಿ",
+      "cancel": "ರದ್ದುಮಾಡಿ"
+    }
   }
 };
 

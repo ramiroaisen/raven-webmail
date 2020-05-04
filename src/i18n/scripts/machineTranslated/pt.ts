@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Mensagem enviada"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Nova pasta",
+      "success": "Pasta criada"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Criar nova pasta",
+      "label": "Nome da pasta",
+      "accept": "Crio",
+      "cancel": "Cancelar"
+    }
   }
 };
 

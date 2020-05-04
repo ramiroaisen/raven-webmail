@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "መልእክት ተልኳል"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "አዲስ ማህደር",
+      "success": "አቃፊ ተፈጥሯል"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "አዲስ አቃፊ ፍጠር",
+      "label": "የአቃፊ ስም",
+      "accept": "ፍጠር",
+      "cancel": "ይቅር"
+    }
   }
 };
 

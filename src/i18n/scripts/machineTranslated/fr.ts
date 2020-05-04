@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Message envoyé"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Nouveau dossier",
+      "success": "Dossier créé"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Créer un nouveau dossier",
+      "label": "Nom de dossier",
+      "accept": "Créer",
+      "cancel": "Annuler"
+    }
   }
 };
 

@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Boodskap gestuur"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Nuwe leêr",
+            "success": "Gids geskep"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Skep 'n nuwe lêergids",
+            "label": "Gidsnaam",
+            "accept": "Skep",
+            "cancel": "kanselleer"
+        }
     }
 };
 exports.default = locale;

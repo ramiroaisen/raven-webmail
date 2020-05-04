@@ -11,6 +11,8 @@ export const junk: Writable<Mailbox> = writable(null as unknown as Mailbox);
 export const all: Writable<Writable<Mailbox>[]> = writable([]as Writable<Mailbox>[]);
 export const others: Writable<Writable<Mailbox>[]> = writable([] as Writable<Mailbox>[]);
 
+let watching = false;
+
 export const load = async () => {
   
   console.log("[WS] getting mailboxes");
@@ -59,18 +61,26 @@ export const load = async () => {
   all.set($all);
   others.set($others);
 
-  watch((event) => {
-    if ( event.command === "COUNTERS" ) {
-      const box = _get(event.mailbox);
-      if ( box && box.get() ) {
-        box.update(box => ({...box, total: event.total, unseen: event.unseen }) );
+  if(!watching) {
+    watching = true;
+    watch((event) => {
+      if ( event.command === "COUNTERS" ) {
+        const box = _get(event.mailbox);
+        if ( box && box.get() ) {
+          box.update(box => ({...box, total: event.total, unseen: event.unseen }) );
+        }
       }
-    }
-  })
+    })
+  }
 }
 
 const _get = (id: string): Writable<Mailbox> | undefined => {
   return all.get().find(b => b.get().id === id)
+}
+
+export const createMailbox = async (path: string) => {
+  await post("/users/me/mailboxes", {path});
+  await load();
 }
 
 export {_get as get};

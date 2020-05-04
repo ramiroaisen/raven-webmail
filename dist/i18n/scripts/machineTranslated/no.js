@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Melding sendt"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Ny mappe",
+            "success": "Mappe opprettet"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Lag ny mappe",
+            "label": "Mappenavn",
+            "accept": "Skape",
+            "cancel": "Avbryt"
+        }
     }
 };
 exports.default = locale;

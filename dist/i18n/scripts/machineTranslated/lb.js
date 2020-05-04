@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Message geschéckt"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Neien Dossier",
+            "success": "Folder erstallt"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Neie Dossier erstellen",
+            "label": "Dossier Numm",
+            "accept": "Erstellt",
+            "cancel": "Ofbriechen"
+        }
     }
 };
 exports.default = locale;

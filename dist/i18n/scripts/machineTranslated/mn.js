@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Мессеж илгээгдсэн байна"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Шинэ хавтас",
+            "success": "Хавтас үүсгэсэн байна"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Шинэ хавтас үүсгэх",
+            "label": "Фолдерын нэр",
+            "accept": "Үүсгэх",
+            "cancel": "Цуцлах"
+        }
     }
 };
 exports.default = locale;

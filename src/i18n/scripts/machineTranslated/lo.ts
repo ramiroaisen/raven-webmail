@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "ຂໍ້ຄວາມຖືກສົ່ງແລ້ວ"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "ໂຟນເດີ ໃໝ່",
+      "success": "ແຟ້ມສ້າງ"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "ສ້າງໂຟນເດີ ໃໝ່",
+      "label": "ຊື່ແຟ້ມ",
+      "accept": "ສ້າງ",
+      "cancel": "ຍົກເລີກ"
+    }
   }
 };
 

@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Nachricht gesendet"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Neuer Ordner",
+      "success": "Ordner erstellt"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Neuen Ordner erstellen",
+      "label": "Ordnernamen",
+      "accept": "Erstellen",
+      "cancel": "Stornieren"
+    }
   }
 };
 

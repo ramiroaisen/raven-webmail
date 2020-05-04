@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Teachdaireachd air a chuir"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Pasgan ùr",
+      "success": "Folder air a chruthachadh"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Cruthaich pasgan ùr",
+      "label": "Ainm fillte",
+      "accept": "Cruthaich",
+      "cancel": "Sguir dheth"
+    }
   }
 };
 

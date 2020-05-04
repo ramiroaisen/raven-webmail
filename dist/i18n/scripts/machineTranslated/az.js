@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Mesaj göndərildi"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Yeni qovluq",
+            "success": "Qovluq yaradıldı"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Yeni qovluq yaradın",
+            "label": "Qovluq adı",
+            "accept": "Yarat",
+            "cancel": "Ləğv et"
+        }
     }
 };
 exports.default = locale;

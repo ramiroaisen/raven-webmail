@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "സന്ദേശം അയച്ചു"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "പുതിയ ഫോൾഡർ",
+      "success": "ഫോൾഡർ സൃഷ്‌ടിച്ചു"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "പുതിയ ഫോൾഡർ സൃഷ്ടിക്കുക",
+      "label": "ഫോൾഡറിന്റെ പേര്",
+      "accept": "സൃഷ്ടിക്കാൻ",
+      "cancel": "റദ്ദാക്കുക"
+    }
   }
 };
 

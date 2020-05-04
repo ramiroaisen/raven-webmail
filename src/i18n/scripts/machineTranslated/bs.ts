@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Poruka poslana"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Nova mapa",
+      "success": "Mapa je kreirana"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Kreirajte novu mapu",
+      "label": "Naziv mape",
+      "accept": "Stvoriti",
+      "cancel": "Otkaži"
+    }
   }
 };
 

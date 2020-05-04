@@ -119,6 +119,20 @@ const locale = {
     },
     "notifier": {
         "messageSent": "Pesanan dihantar"
+    },
+    "drawerActions": {
+        "createMailbox": {
+            "label": "Fail baharu",
+            "success": "Folder dibuat"
+        }
+    },
+    "dialogs": {
+        "createMailbox": {
+            "title": "Buat folder baru",
+            "label": "Nama folder",
+            "accept": "Buat",
+            "cancel": "Batal"
+        }
     }
 };
 exports.default = locale;

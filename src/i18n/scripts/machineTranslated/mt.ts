@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Messaġġ mibgħut"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Folder ġdid",
+      "success": "Folder maħluqa"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Oħloq folder ġdid",
+      "label": "Isem tal-Folder",
+      "accept": "Oħloq",
+      "cancel": "Ikkanċella"
+    }
   }
 };
 

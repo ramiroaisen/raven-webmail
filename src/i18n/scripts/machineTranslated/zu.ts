@@ -119,6 +119,20 @@ const locale: Locale = {
   },
   "notifier": {
     "messageSent": "Kuthunyelwe umyalezo"
+  },
+  "drawerActions": {
+    "createMailbox": {
+      "label": "Ifolda entsha",
+      "success": "Kwenziwe ifolda"
+    }
+  },
+  "dialogs": {
+    "createMailbox": {
+      "title": "Dala ifolda entsha",
+      "label": "Igama lefolda",
+      "accept": "Dala",
+      "cancel": "Khansela"
+    }
   }
 };
 
