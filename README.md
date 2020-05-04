@@ -61,7 +61,8 @@ Please if you create a locale for your language make a PR or an issue and I will
 ### TODO
 - [x] Better page titles
 - [x] Localization 
-- [ ] Create / Remove folders
+- [x] Create folders
+- [ ] Remove folders
 - [ ] Create / Remove aliases
 - [ ] Create / Remove filters
 - [ ] Choose sender address (currently uses user default address)
