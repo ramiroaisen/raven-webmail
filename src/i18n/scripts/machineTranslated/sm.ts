@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "o le {gb} GB",
+      "messagesUsed": [
+        "{n} feau",
+        "{n} feʻau",
+        "{n} feau"
+      ],
+      "messagesTotal": [
+        "o {n} feau",
+        "o le {n} feʻau",
+        "o {n} feau"
+      ],
       "storage": {
         "title": "Teuina o meaai"
       },
       "imapDownload": {
-        "title": "IMAP Sii mai"
+        "title": "IMAP Sii mai",
+        "comment": "i aso uma"
       },
       "imapUpload": {
-        "title": "IMAP Faʻaopoopo"
+        "title": "IMAP Faʻaopoopo",
+        "comment": "i aso uma"
       },
       "pop3Download": {
-        "title": "Download POP3"
+        "title": "Download POP3",
+        "comment": "i aso uma"
+      },
+      "received": {
+        "title": "Mauaina",
+        "comment": "i le minute"
+      },
+      "recipients": {
+        "title": "Auina",
+        "comment": "i aso uma"
       }
     }
   }

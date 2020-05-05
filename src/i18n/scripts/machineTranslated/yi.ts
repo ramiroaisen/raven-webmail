@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} גיגאבייט",
       "gbTotal": "פון {gb} גיגאבייט",
+      "messagesUsed": [
+        "{n} אַרטיקלען",
+        "{n} אָנזאָג",
+        "{n} אַרטיקלען"
+      ],
+      "messagesTotal": [
+        "פון {n} אַרטיקלען",
+        "פון {n} אָנזאָג",
+        "פון {n} אַרטיקלען"
+      ],
       "storage": {
         "title": "סטאָרידזש"
       },
       "imapDownload": {
-        "title": "IMAP אראפקאפיע"
+        "title": "IMAP אראפקאפיע",
+        "comment": "טעגלעך"
       },
       "imapUpload": {
-        "title": "IMAP צופֿעליקער"
+        "title": "IMAP צופֿעליקער",
+        "comment": "טעגלעך"
       },
       "pop3Download": {
-        "title": "POP3 אראפקאפיע"
+        "title": "POP3 אראפקאפיע",
+        "comment": "טעגלעך"
+      },
+      "received": {
+        "title": "באקומען",
+        "comment": "דורך מינוט"
+      },
+      "recipients": {
+        "title": "געשיקט",
+        "comment": "טעגלעך"
       }
     }
   }

@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} ਜੀ.ਬੀ.",
             "gbTotal": "{gb} ਜੀਬੀ ਦਾ",
+            "messagesUsed": [
+                "{n} ਸੁਨੇਹੇ",
+                "{n} ਸੁਨੇਹਾ",
+                "{n} ਸੁਨੇਹੇ"
+            ],
+            "messagesTotal": [
+                "ਦੇ {n} ਸੁਨੇਹੇ ਹਨ",
+                "{n} ਸੁਨੇਹੇ ਦਾ",
+                "ਦੇ {n} ਸੁਨੇਹੇ ਹਨ"
+            ],
             "storage": {
                 "title": "ਸਟੋਰੇਜ"
             },
             "imapDownload": {
-                "title": "IMAP ਡਾ .ਨਲੋਡ"
+                "title": "IMAP ਡਾ .ਨਲੋਡ",
+                "comment": "ਰੋਜ਼ਾਨਾ"
             },
             "imapUpload": {
-                "title": "IMAP ਅਪਲੋਡ"
+                "title": "IMAP ਅਪਲੋਡ",
+                "comment": "ਰੋਜ਼ਾਨਾ"
             },
             "pop3Download": {
-                "title": "ਪੀਓਪੀ 3 ਡਾ .ਨਲੋਡ ਕਰੋ"
+                "title": "ਪੀਓਪੀ 3 ਡਾ .ਨਲੋਡ ਕਰੋ",
+                "comment": "ਰੋਜ਼ਾਨਾ"
+            },
+            "received": {
+                "title": "ਪ੍ਰਾਪਤ ਹੋਇਆ",
+                "comment": "ਮਿੰਟ ਦੁਆਰਾ"
+            },
+            "recipients": {
+                "title": "ਭੇਜਿਆ",
+                "comment": "ਰੋਜ਼ਾਨਾ"
             }
         }
     }

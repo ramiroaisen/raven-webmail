@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "din {gb} GB",
+      "messagesUsed": [
+        "{1 Mesaje",
+        "{n} mesaj",
+        "{1 Mesaje"
+      ],
+      "messagesTotal": [
+        "din {n} mesaje",
+        "din mesajul {n}",
+        "din {n} mesaje"
+      ],
       "storage": {
         "title": "Depozitare"
       },
       "imapDownload": {
-        "title": "Descărcare IMAP"
+        "title": "Descărcare IMAP",
+        "comment": "zilnic"
       },
       "imapUpload": {
-        "title": "Încărcare IMAP"
+        "title": "Încărcare IMAP",
+        "comment": "zilnic"
       },
       "pop3Download": {
-        "title": "Descărcare POP3"
+        "title": "Descărcare POP3",
+        "comment": "zilnic"
+      },
+      "received": {
+        "title": "Primit",
+        "comment": "la minut"
+      },
+      "recipients": {
+        "title": "Trimis",
+        "comment": "zilnic"
       }
     }
   }

@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "από {gb} GB",
+            "messagesUsed": [
+                "{n} μηνύματα",
+                "{n} μήνυμα",
+                "{n} μηνύματα"
+            ],
+            "messagesTotal": [
+                "από {n} μηνύματα",
+                "από {n} μήνυμα",
+                "από {n} μηνύματα"
+            ],
             "storage": {
                 "title": "Αποθήκευση"
             },
             "imapDownload": {
-                "title": "Λήψη IMAP"
+                "title": "Λήψη IMAP",
+                "comment": "καθημερινά"
             },
             "imapUpload": {
-                "title": "Μεταφόρτωση IMAP"
+                "title": "Μεταφόρτωση IMAP",
+                "comment": "καθημερινά"
             },
             "pop3Download": {
-                "title": "Λήψη POP3"
+                "title": "Λήψη POP3",
+                "comment": "καθημερινά"
+            },
+            "received": {
+                "title": "Λήφθηκε",
+                "comment": "ανά λεπτό"
+            },
+            "recipients": {
+                "title": "Απεσταλμένα",
+                "comment": "καθημερινά"
             }
         }
     }

@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} ГБ",
       "gbTotal": "од {gb} ГБ",
+      "messagesUsed": [
+        "{n} поруке",
+        "{n} порука",
+        "{n} поруке"
+      ],
+      "messagesTotal": [
+        "од {n} порука",
+        "од {n} поруке",
+        "од {n} порука"
+      ],
       "storage": {
         "title": "Складиште"
       },
       "imapDownload": {
-        "title": "Довнлоад ИМАП"
+        "title": "Довнлоад ИМАП",
+        "comment": "дневно"
       },
       "imapUpload": {
-        "title": "ИМАП уплоад"
+        "title": "ИМАП уплоад",
+        "comment": "дневно"
       },
       "pop3Download": {
-        "title": "ПОП3 Довнлоад"
+        "title": "ПОП3 Довнлоад",
+        "comment": "дневно"
+      },
+      "received": {
+        "title": "Примљен",
+        "comment": "по минуту"
+      },
+      "recipients": {
+        "title": "Послано",
+        "comment": "дневно"
       }
     }
   }

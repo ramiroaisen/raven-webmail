@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} ГБ",
       "gbTotal": "{gb} ГБ",
+      "messagesUsed": [
+        "{n} хәбәрләр",
+        "{n} хәбәр",
+        "{n} хәбәрләр"
+      ],
+      "messagesTotal": [
+        "{n} хәбәрләр",
+        "{n} хәбәр",
+        "{n} хәбәрләр"
+      ],
       "storage": {
         "title": "Саклау"
       },
       "imapDownload": {
-        "title": "IMAP йөкләү"
+        "title": "IMAP йөкләү",
+        "comment": "көн саен"
       },
       "imapUpload": {
-        "title": "IMAP йөкләү"
+        "title": "IMAP йөкләү",
+        "comment": "көн саен"
       },
       "pop3Download": {
-        "title": "POP3 Йөкләү"
+        "title": "POP3 Йөкләү",
+        "comment": "көн саен"
+      },
+      "received": {
+        "title": "Кабул ителде",
+        "comment": "минутка"
+      },
+      "recipients": {
+        "title": "Sentибәрелгән",
+        "comment": "көн саен"
       }
     }
   }

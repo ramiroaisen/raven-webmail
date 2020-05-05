@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} ጊባ",
             "gbTotal": "ከ {gb} ጊባ",
+            "messagesUsed": [
+                "{n} መልእክቶች",
+                "{n} መልእክት",
+                "{n} መልእክቶች"
+            ],
+            "messagesTotal": [
+                "ከ {n} መልእክቶች",
+                "ከ {n} መልእክት",
+                "ከ {n} መልእክቶች"
+            ],
             "storage": {
                 "title": "ማከማቻ"
             },
             "imapDownload": {
-                "title": "IMAP ማውረድ"
+                "title": "IMAP ማውረድ",
+                "comment": "በየቀኑ"
             },
             "imapUpload": {
-                "title": "IMAP ጭነት"
+                "title": "IMAP ጭነት",
+                "comment": "በየቀኑ"
             },
             "pop3Download": {
-                "title": "POP3 ማውረድ"
+                "title": "POP3 ማውረድ",
+                "comment": "በየቀኑ"
+            },
+            "received": {
+                "title": "ተቀብሏል",
+                "comment": "በደቂቃ"
+            },
+            "recipients": {
+                "title": "ተልኳል",
+                "comment": "በየቀኑ"
             }
         }
     }

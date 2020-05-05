@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "prej {gb} GB",
+            "messagesUsed": [
+                "{n} mesazhe",
+                "Mesazh {1",
+                "{n} mesazhe"
+            ],
+            "messagesTotal": [
+                "me mesazhe {1",
+                "me mesazh {1",
+                "me mesazhe {1"
+            ],
             "storage": {
                 "title": "ruajtje"
             },
             "imapDownload": {
-                "title": "Shkarkim IMAP"
+                "title": "Shkarkim IMAP",
+                "comment": "i përditshëm"
             },
             "imapUpload": {
-                "title": "Ngarko IMAP"
+                "title": "Ngarko IMAP",
+                "comment": "i përditshëm"
             },
             "pop3Download": {
-                "title": "Shkarkim POP3"
+                "title": "Shkarkim POP3",
+                "comment": "i përditshëm"
+            },
+            "received": {
+                "title": "marrë",
+                "comment": "për minutë"
+            },
+            "recipients": {
+                "title": "Sent",
+                "comment": "i përditshëm"
             }
         }
     }

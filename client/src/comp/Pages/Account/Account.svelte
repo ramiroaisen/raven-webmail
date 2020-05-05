@@ -25,9 +25,10 @@
     }
 
     .main > .end {
+        font-size: 1.1em;
         display: flex;
         flex-direction: column;
-        margin-left: 2em;
+        margin-left: 1.5em;
     }
 
     .main > .end > div {
@@ -86,6 +87,18 @@
     .box {
         margin: calc(var(--spacing) * 0.5) 0;
         flex: none;
+    }
+
+    .box-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .box-title > .comment {
+        font-size: 0.7em;
+        color: #666;
+        margin-inline-start: 0.5em;
     }
 
     .col-2{}
@@ -164,7 +177,9 @@
     <div class="cols">
         <div class="col col-1">
             <div class="box quota storage-quota">
-                <div class="box-title">{locale.limits.storage.title}</div>
+                <div class="box-title">
+                    {locale.limits.storage.title}
+                </div>
                 <div class="quota-body">
                     <CircularGraph>
                         <Arc start={0} end={0.99} stroke="rgba(0,0,0,0.075)" />
@@ -179,7 +194,10 @@
             </div>
 
             <div class="box quota imap-download-quota">
-                <div class="box-title">{locale.limits.imapDownload.title}</div>
+                <div class="box-title">
+                    {locale.limits.imapDownload.title}
+                    <span class="comment">{locale.limits.imapDownload.comment}</span>
+                </div>
                 <div class="quota-body">
                     <CircularGraph>
                         <Arc start={0} end={0.99} stroke="rgba(0,0,0,0.075)" />
@@ -194,7 +212,10 @@
             </div>
 
             <div class="box quota imap-upload-quota">
-                <div class="box-title">{locale.limits.imapUpload.title}</div>
+                <div class="box-title">
+                    {locale.limits.imapUpload.title}
+                    <span class="comment">{locale.limits.imapUpload.comment}</span>
+                </div>
                 <div class="quota-body">
                     <CircularGraph>
                         <Arc start={0} end={0.99} stroke="rgba(0,0,0,0.075)" />
@@ -209,7 +230,10 @@
             </div>
 
             <div class="box quota pop3-download-quota">
-                <div class="box-title">{locale.limits.pop3Download.title}</div>
+                <div class="box-title">
+                    {locale.limits.pop3Download.title}
+                    <span class="comment">{locale.limits.pop3Download.comment}</span>
+                </div>
                 <div class="quota-body">
                     <CircularGraph>
                         <Arc start={0} end={0.99} stroke="rgba(0,0,0,0.075)" />
@@ -222,6 +246,43 @@
                     </div>
                 </div>
             </div>
+
+            <div class="box quota received-quota">
+                <div class="box-title">
+                    {locale.limits.received.title}
+                    <span class="comment">{locale.limits.received.comment}</span>
+                </div>
+                <div class="quota-body">
+                    <CircularGraph>
+                        <Arc start={0} end={0.99} stroke="rgba(0,0,0,0.075)" />
+                        <Arc start={0} end={user.limits.received.used / user.limits.received.allowed} stroke="var(--pc)" />
+                    </CircularGraph>
+                    <div class="quota-desc">
+                        <div class="percent">{Math.round(user.limits.received.used / user.limits.received.allowed * 100)}%</div>
+                        <div class="used">{$trans("myAccount.limits.messagesUsed", {n: user.limits.received.used})}</div>
+                        <div class="total">{$trans("myAccount.limits.messagesTotal", {n: user.limits.received.allowed})}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box quota received-quota">
+                <div class="box-title">
+                    {locale.limits.recipients.title}
+                    <span class="comment">{locale.limits.recipients.comment}</span>
+                </div>
+                <div class="quota-body">
+                    <CircularGraph>
+                        <Arc start={0} end={0.99} stroke="rgba(0,0,0,0.075)" />
+                        <Arc start={0} end={user.limits.recipients.used / user.limits.recipients.allowed} stroke="var(--pc)" />
+                    </CircularGraph>
+                    <div class="quota-desc">
+                        <div class="percent">{Math.round(user.limits.recipients.used / user.limits.recipients.allowed * 100)}%</div>
+                        <div class="used">{$trans("myAccount.limits.messagesUsed", {n: user.limits.recipients.used})}</div>
+                        <div class="total">{$trans("myAccount.limits.messagesTotal", {n: user.limits.recipients.allowed})}</div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 

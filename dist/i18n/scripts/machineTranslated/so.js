@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "ee {gb} GB",
+            "messagesUsed": [
+                "{n} farriimaha",
+                "{n} farriin",
+                "{n} farriimaha"
+            ],
+            "messagesTotal": [
+                "ee {n} farriimaha",
+                "ee {n} farriinta",
+                "ee {n} farriimaha"
+            ],
             "storage": {
                 "title": "Kaydinta"
             },
             "imapDownload": {
-                "title": "Soo dejinta IMAP"
+                "title": "Soo dejinta IMAP",
+                "comment": "maalin kasta"
             },
             "imapUpload": {
-                "title": "Soo dejinta IMAP"
+                "title": "Soo dejinta IMAP",
+                "comment": "maalin kasta"
             },
             "pop3Download": {
-                "title": "Soo dejiso POP3"
+                "title": "Soo dejiso POP3",
+                "comment": "maalin kasta"
+            },
+            "received": {
+                "title": "Helay",
+                "comment": "daqiiqad"
+            },
+            "recipients": {
+                "title": "Diray",
+                "comment": "maalin kasta"
             }
         }
     }

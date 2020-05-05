@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} Gt",
       "gbTotal": "/ {gb} Gt",
+      "messagesUsed": [
+        "{n} viestiä",
+        "{n} viesti",
+        "{n} viestiä"
+      ],
+      "messagesTotal": [
+        "{n} viestistä",
+        "{n} viestistä",
+        "{n} viestistä"
+      ],
       "storage": {
         "title": "varastointi"
       },
       "imapDownload": {
-        "title": "IMAP Lataa"
+        "title": "IMAP Lataa",
+        "comment": "päivittäin"
       },
       "imapUpload": {
-        "title": "IMAP-lähetys"
+        "title": "IMAP-lähetys",
+        "comment": "päivittäin"
       },
       "pop3Download": {
-        "title": "Lataa POP3"
+        "title": "Lataa POP3",
+        "comment": "päivittäin"
+      },
+      "received": {
+        "title": "Otettu vastaan",
+        "comment": "minuutilla"
+      },
+      "recipients": {
+        "title": "Lähetetyt",
+        "comment": "päivittäin"
       }
     }
   }

@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "ng {gb} GB",
+            "messagesUsed": [
+                "{n} mga mensahe",
+                "{n} mensahe",
+                "{n} mga mensahe"
+            ],
+            "messagesTotal": [
+                "ng {n} na mensahe",
+                "ng {n} mensahe",
+                "ng {n} na mensahe"
+            ],
             "storage": {
                 "title": "Imbakan"
             },
             "imapDownload": {
-                "title": "I-download ang IMAP"
+                "title": "I-download ang IMAP",
+                "comment": "araw-araw"
             },
             "imapUpload": {
-                "title": "I-upload ang IMAP"
+                "title": "I-upload ang IMAP",
+                "comment": "araw-araw"
             },
             "pop3Download": {
-                "title": "I-download ang POP3"
+                "title": "I-download ang POP3",
+                "comment": "araw-araw"
+            },
+            "received": {
+                "title": "Natanggap",
+                "comment": "sa pamamagitan ng minuto"
+            },
+            "recipients": {
+                "title": "Ipinadala",
+                "comment": "araw-araw"
             }
         }
     }

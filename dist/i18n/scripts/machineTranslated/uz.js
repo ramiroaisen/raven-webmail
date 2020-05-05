@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "{gb} GB",
+            "messagesUsed": [
+                "{n} habarlar",
+                "{n} habar",
+                "{n} habarlar"
+            ],
+            "messagesTotal": [
+                "{n} xabarlaridan",
+                "{n} habaridan",
+                "{n} xabarlaridan"
+            ],
             "storage": {
                 "title": "Saqlash"
             },
             "imapDownload": {
-                "title": "IMAP yuklab olish"
+                "title": "IMAP yuklab olish",
+                "comment": "kunlik"
             },
             "imapUpload": {
-                "title": "IMAP yuklash"
+                "title": "IMAP yuklash",
+                "comment": "kunlik"
             },
             "pop3Download": {
-                "title": "POP3 yuklab olish"
+                "title": "POP3 yuklab olish",
+                "comment": "kunlik"
+            },
+            "received": {
+                "title": "Qabul qildi",
+                "comment": "daqiqada"
+            },
+            "recipients": {
+                "title": "Yuborildi",
+                "comment": "kunlik"
             }
         }
     }

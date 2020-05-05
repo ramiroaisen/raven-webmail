@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} ГБ",
       "gbTotal": "ад {gb} ГБ",
+      "messagesUsed": [
+        "{n} паведамленні",
+        "{n} паведамленне",
+        "{n} паведамленні"
+      ],
+      "messagesTotal": [
+        "з {n} паведамленняў",
+        "паведамлення {n}",
+        "з {n} паведамленняў"
+      ],
       "storage": {
         "title": "Захоўванне"
       },
       "imapDownload": {
-        "title": "Загрузка IMAP"
+        "title": "Загрузка IMAP",
+        "comment": "штодня"
       },
       "imapUpload": {
-        "title": "Загрузка IMAP"
+        "title": "Загрузка IMAP",
+        "comment": "штодня"
       },
       "pop3Download": {
-        "title": "Спампаваць POP3"
+        "title": "Спампаваць POP3",
+        "comment": "штодня"
+      },
+      "received": {
+        "title": "Паступіла",
+        "comment": "за хвілінай"
+      },
+      "recipients": {
+        "title": "Адпраўлена",
+        "comment": "штодня"
       }
     }
   }

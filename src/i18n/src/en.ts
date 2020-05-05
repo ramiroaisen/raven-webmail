@@ -164,17 +164,40 @@ const locale: Locale = {
             gbUsed: "{gb} GB",
             gbTotal: "of {gb} GB",
 
+            messagesUsed: [
+                "{n} messages",
+                "{n} message",
+                "{n} messages"
+            ],
+
+            messagesTotal: [
+                "of {n} messages",
+                "of {n} message",
+                "of {n} messages"
+            ],
+
             storage: {
                 title: "Storage"
             },
             imapDownload: {
-                title: "IMAP Download"
+                title: "IMAP Download",
+                comment: "daily"
             },
             imapUpload: {
-                title: "IMAP Upload"
+                title: "IMAP Upload",
+                comment: "daily"
             },
             pop3Download: {
-                title: "POP3 Download"
+                title: "POP3 Download",
+                comment: "daily",
+            },
+            received: {
+                title: "Received",
+                comment: "by minute"
+            },
+            recipients: {
+                title: "Sent",
+                comment: "daily"
             }
         }
     }

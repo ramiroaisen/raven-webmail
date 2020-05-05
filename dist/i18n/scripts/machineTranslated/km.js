@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{undefined} ជីកាបៃ",
             "gbTotal": "នៃ {gb} ជីកាបៃ",
+            "messagesUsed": [
+                "{undefined} សារ",
+                "{undefined} សារ",
+                "{undefined} សារ"
+            ],
+            "messagesTotal": [
+                "នៃ {undefined} សារ",
+                "នៃ {n} សារ",
+                "នៃ {undefined} សារ"
+            ],
             "storage": {
                 "title": "ការផ្ទុក"
             },
             "imapDownload": {
-                "title": "ទាញយក IMAP"
+                "title": "ទាញយក IMAP",
+                "comment": "រាល់ថ្ងៃ"
             },
             "imapUpload": {
-                "title": "ផ្ទុកឡើង IMAP"
+                "title": "ផ្ទុកឡើង IMAP",
+                "comment": "រាល់ថ្ងៃ"
             },
             "pop3Download": {
-                "title": "ទាញយក POP3"
+                "title": "ទាញយក POP3",
+                "comment": "រាល់ថ្ងៃ"
+            },
+            "received": {
+                "title": "បានទទួល",
+                "comment": "ដោយនាទី"
+            },
+            "recipients": {
+                "title": "បានផ្ញើ",
+                "comment": "រាល់ថ្ងៃ"
             }
         }
     }

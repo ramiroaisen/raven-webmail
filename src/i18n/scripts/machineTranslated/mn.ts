@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} ГБ байна",
       "gbTotal": "нь {gb} ГБ",
+      "messagesUsed": [
+        "{n} мессеж",
+        "{n} мессеж",
+        "{n} мессеж"
+      ],
+      "messagesTotal": [
+        "{n} мессеж",
+        "{n} мессеж",
+        "{n} мессеж"
+      ],
       "storage": {
         "title": "Хадгалалт"
       },
       "imapDownload": {
-        "title": "IMAP татаж авах"
+        "title": "IMAP татаж авах",
+        "comment": "өдөр бүр"
       },
       "imapUpload": {
-        "title": "IMAP Байршуулах"
+        "title": "IMAP Байршуулах",
+        "comment": "өдөр бүр"
       },
       "pop3Download": {
-        "title": "POP3 татаж авах"
+        "title": "POP3 татаж авах",
+        "comment": "өдөр бүр"
+      },
+      "received": {
+        "title": "Хүлээн авсан",
+        "comment": "минутанд"
+      },
+      "recipients": {
+        "title": "Илгээсэн",
+        "comment": "өдөр бүр"
       }
     }
   }

@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "vun {gb} GB",
+      "messagesUsed": [
+        "{n} Messagen",
+        "{n} Message",
+        "{n} Messagen"
+      ],
+      "messagesTotal": [
+        "vun {n} Messagen",
+        "vum {n} Message",
+        "vun {n} Messagen"
+      ],
       "storage": {
         "title": "Späicheren"
       },
       "imapDownload": {
-        "title": "IMAP Luet"
+        "title": "IMAP Luet",
+        "comment": "deeglech"
       },
       "imapUpload": {
-        "title": "IMAP Eroplueden"
+        "title": "IMAP Eroplueden",
+        "comment": "deeglech"
       },
       "pop3Download": {
-        "title": "POP3 Luet"
+        "title": "POP3 Luet",
+        "comment": "deeglech"
+      },
+      "received": {
+        "title": "Krut",
+        "comment": "pa Minutt"
+      },
+      "recipients": {
+        "title": "Geschéckt",
+        "comment": "deeglech"
       }
     }
   }

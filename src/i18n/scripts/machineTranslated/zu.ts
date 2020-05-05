@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "ka - 1 1 GB",
+      "messagesUsed": [
+        "{n} imilayezo",
+        "{n} umlayezo",
+        "{n} imilayezo"
+      ],
+      "messagesTotal": [
+        "yemilayezo engu- {n}",
+        "komyalezo {n}",
+        "yemilayezo engu- {n}"
+      ],
       "storage": {
         "title": "Isitoreji"
       },
       "imapDownload": {
-        "title": "Ukulanda i-IMAP"
+        "title": "Ukulanda i-IMAP",
+        "comment": "nsuku zonke"
       },
       "imapUpload": {
-        "title": "Ukulayisha kwe-IMAP"
+        "title": "Ukulayisha kwe-IMAP",
+        "comment": "nsuku zonke"
       },
       "pop3Download": {
-        "title": "Ukulanda i-POP3"
+        "title": "Ukulanda i-POP3",
+        "comment": "nsuku zonke"
+      },
+      "received": {
+        "title": "Kwamukelwe",
+        "comment": "ngomzuzu"
+      },
+      "recipients": {
+        "title": "Kuthunyelwe",
+        "comment": "nsuku zonke"
       }
     }
   }

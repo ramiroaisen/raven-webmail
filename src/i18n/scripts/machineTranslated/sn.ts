@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "ye {gb} GB",
+      "messagesUsed": [
+        "{n} mameseji",
+        "{n} meseji",
+        "{n} mameseji"
+      ],
+      "messagesTotal": [
+        "ye {n} mameseji",
+        "ye {n} meseji",
+        "ye {n} mameseji"
+      ],
       "storage": {
         "title": "Kuchengetedza"
       },
       "imapDownload": {
-        "title": "IMAP Download"
+        "title": "IMAP Download",
+        "comment": "zuva nezuva"
       },
       "imapUpload": {
-        "title": "IMAP Kurodha"
+        "title": "IMAP Kurodha",
+        "comment": "zuva nezuva"
       },
       "pop3Download": {
-        "title": "POP3 Download"
+        "title": "POP3 Download",
+        "comment": "zuva nezuva"
+      },
+      "received": {
+        "title": "Takatambirwa",
+        "comment": "neminiti"
+      },
+      "recipients": {
+        "title": "Kutumwa",
+        "comment": "zuva nezuva"
       }
     }
   }

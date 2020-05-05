@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "{gb} GB ကို၏",
+      "messagesUsed": [
+        "{n} သတင်းစကား",
+        "{n} သတင်းစကား",
+        "{n} သတင်းစကား"
+      ],
+      "messagesTotal": [
+        "{n} မက်ဆေ့ခ်ျ၏",
+        "{n} မက်ဆေ့ခ်ျကို၏",
+        "{n} မက်ဆေ့ခ်ျ၏"
+      ],
       "storage": {
         "title": "သိုလှောင်ခြင်း"
       },
       "imapDownload": {
-        "title": "IMAP ဒေါင်းလုပ်"
+        "title": "IMAP ဒေါင်းလုပ်",
+        "comment": "နေ့စဉ်"
       },
       "imapUpload": {
-        "title": "IMAP တင်ပါ"
+        "title": "IMAP တင်ပါ",
+        "comment": "နေ့စဉ်"
       },
       "pop3Download": {
-        "title": "POP3 ဒေါင်းလုပ်"
+        "title": "POP3 ဒေါင်းလုပ်",
+        "comment": "နေ့စဉ်"
+      },
+      "received": {
+        "title": "လက်ခံရရှိခဲ့သည်",
+        "comment": "တစ်မိနစ်"
+      },
+      "recipients": {
+        "title": "ပို့ခဲ့သည်",
+        "comment": "နေ့စဉ်"
       }
     }
   }

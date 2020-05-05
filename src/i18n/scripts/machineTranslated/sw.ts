@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "ya {gb} GB",
+      "messagesUsed": [
+        "Ujumbe wa {n}",
+        "Ujumbe wa {n}",
+        "Ujumbe wa {n}"
+      ],
+      "messagesTotal": [
+        "ya {n} ujumbe",
+        "ya {n} ujumbe",
+        "ya {n} ujumbe"
+      ],
       "storage": {
         "title": "Hifadhi"
       },
       "imapDownload": {
-        "title": "Pakua IMAP"
+        "title": "Pakua IMAP",
+        "comment": "kila siku"
       },
       "imapUpload": {
-        "title": "Upakiaji wa IMAP"
+        "title": "Upakiaji wa IMAP",
+        "comment": "kila siku"
       },
       "pop3Download": {
-        "title": "POP3 Pakua"
+        "title": "POP3 Pakua",
+        "comment": "kila siku"
+      },
+      "received": {
+        "title": "Imepokelewa",
+        "comment": "kwa dakika"
+      },
+      "recipients": {
+        "title": "Imetumwa",
+        "comment": "kila siku"
       }
     }
   }

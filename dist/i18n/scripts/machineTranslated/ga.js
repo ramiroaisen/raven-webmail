@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "de {gb} GB",
+            "messagesUsed": [
+                "{n} teachtaireacht",
+                "{n} teachtaireacht",
+                "{n} teachtaireacht"
+            ],
+            "messagesTotal": [
+                "de {n} teachtaireacht",
+                "de {n} teachtaireacht",
+                "de {n} teachtaireacht"
+            ],
             "storage": {
                 "title": "Stóráil"
             },
             "imapDownload": {
-                "title": "Íoslódáil IMAP"
+                "title": "Íoslódáil IMAP",
+                "comment": "go laethúil"
             },
             "imapUpload": {
-                "title": "Uaslódáil IMAP"
+                "title": "Uaslódáil IMAP",
+                "comment": "go laethúil"
             },
             "pop3Download": {
-                "title": "Íoslódáil POP3"
+                "title": "Íoslódáil POP3",
+                "comment": "go laethúil"
+            },
+            "received": {
+                "title": "Faighte",
+                "comment": "de réir nóiméid"
+            },
+            "recipients": {
+                "title": "Seolta",
+                "comment": "go laethúil"
             }
         }
     }

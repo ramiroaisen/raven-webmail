@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "{gb} GB",
+      "messagesUsed": [
+        "{n}メッセージ",
+        "{n}メッセージ",
+        "{n}メッセージ"
+      ],
+      "messagesTotal": [
+        "{n}件のメッセージ",
+        "{n}メッセージ",
+        "{n}件のメッセージ"
+      ],
       "storage": {
         "title": "ストレージ"
       },
       "imapDownload": {
-        "title": "IMAPダウンロード"
+        "title": "IMAPダウンロード",
+        "comment": "毎日"
       },
       "imapUpload": {
-        "title": "IMAPアップロード"
+        "title": "IMAPアップロード",
+        "comment": "毎日"
       },
       "pop3Download": {
-        "title": "POP3ダウンロード"
+        "title": "POP3ダウンロード",
+        "comment": "毎日"
+      },
+      "received": {
+        "title": "受け取りました",
+        "comment": "分単位で"
+      },
+      "recipients": {
+        "title": "送信しました",
+        "comment": "毎日"
       }
     }
   }

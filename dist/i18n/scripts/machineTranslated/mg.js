@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "amin'ny {gb} GB",
+            "messagesUsed": [
+                "{n} hafatra",
+                "Hafatra 1",
+                "{n} hafatra"
+            ],
+            "messagesTotal": [
+                "amin'ny {n} hafatra",
+                "hafatra {n}",
+                "amin'ny {n} hafatra"
+            ],
             "storage": {
                 "title": "Storage"
             },
             "imapDownload": {
-                "title": "IMAP Download"
+                "title": "IMAP Download",
+                "comment": "isan'andro"
             },
             "imapUpload": {
-                "title": "IMAP Upload"
+                "title": "IMAP Upload",
+                "comment": "isan'andro"
             },
             "pop3Download": {
-                "title": "POP3 Download"
+                "title": "POP3 Download",
+                "comment": "isan'andro"
+            },
+            "received": {
+                "title": "Received",
+                "comment": "amin'ny minitra"
+            },
+            "recipients": {
+                "title": "Sent",
+                "comment": "isan'andro"
             }
         }
     }

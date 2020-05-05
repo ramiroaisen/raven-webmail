@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "{gb} GB",
+      "messagesUsed": [
+        "{n} üzenet",
+        "{n} üzenet",
+        "{n} üzenet"
+      ],
+      "messagesTotal": [
+        "{n} üzenet",
+        "{n} üzenet",
+        "{n} üzenet"
+      ],
       "storage": {
         "title": "Tárolás"
       },
       "imapDownload": {
-        "title": "IMAP letöltés"
+        "title": "IMAP letöltés",
+        "comment": "napi"
       },
       "imapUpload": {
-        "title": "IMAP feltöltés"
+        "title": "IMAP feltöltés",
+        "comment": "napi"
       },
       "pop3Download": {
-        "title": "POP3 letöltése"
+        "title": "POP3 letöltése",
+        "comment": "napi"
+      },
+      "received": {
+        "title": "kapott",
+        "comment": "percekenként"
+      },
+      "recipients": {
+        "title": "Küldött",
+        "comment": "napi"
       }
     }
   }

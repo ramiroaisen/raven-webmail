@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "จาก {gb} GB",
+            "messagesUsed": [
+                "ข้อความ {n} ข้อความ",
+                "ข้อความ {n}",
+                "ข้อความ {n} ข้อความ"
+            ],
+            "messagesTotal": [
+                "จาก {n} ข้อความ",
+                "จาก {n} ข้อความ",
+                "จาก {n} ข้อความ"
+            ],
             "storage": {
                 "title": "การเก็บรักษา"
             },
             "imapDownload": {
-                "title": "ดาวน์โหลด IMAP"
+                "title": "ดาวน์โหลด IMAP",
+                "comment": "ประจำวัน"
             },
             "imapUpload": {
-                "title": "การอัปโหลด IMAP"
+                "title": "การอัปโหลด IMAP",
+                "comment": "ประจำวัน"
             },
             "pop3Download": {
-                "title": "ดาวน์โหลด POP3"
+                "title": "ดาวน์โหลด POP3",
+                "comment": "ประจำวัน"
+            },
+            "received": {
+                "title": "ที่ได้รับ",
+                "comment": "โดยนาที"
+            },
+            "recipients": {
+                "title": "ส่ง",
+                "comment": "ประจำวัน"
             }
         }
     }

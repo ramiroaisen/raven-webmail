@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "ti {gb} GB",
+            "messagesUsed": [
+                "{n} awọn ifiranṣẹ",
+                "{n} ifiranṣẹ",
+                "{n} awọn ifiranṣẹ"
+            ],
+            "messagesTotal": [
+                "ti {n} awọn ifiranṣẹ",
+                "ti ifiranṣẹ {n}",
+                "ti {n} awọn ifiranṣẹ"
+            ],
             "storage": {
                 "title": "Ibi ipamọ"
             },
             "imapDownload": {
-                "title": "Igbasilẹ IMAP"
+                "title": "Igbasilẹ IMAP",
+                "comment": "ojoojumo"
             },
             "imapUpload": {
-                "title": "Ifiranṣẹ IMAP"
+                "title": "Ifiranṣẹ IMAP",
+                "comment": "ojoojumo"
             },
             "pop3Download": {
-                "title": "Gbigba lati ayelujara POP3"
+                "title": "Gbigba lati ayelujara POP3",
+                "comment": "ojoojumo"
+            },
+            "received": {
+                "title": "Gba",
+                "comment": "nipa iseju"
+            },
+            "recipients": {
+                "title": "Ti firanṣẹ",
+                "comment": "ojoojumo"
             }
         }
     }

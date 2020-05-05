@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "1} GB",
             "gbTotal": "{gb} GB",
+            "messagesUsed": [
+                "{n} შეტყობინებები",
+                "{n} გაგზავნა",
+                "{n} შეტყობინებები"
+            ],
+            "messagesTotal": [
+                "{n} შეტყობინებიდან",
+                "{n} გაგზავნისგან",
+                "{n} შეტყობინებიდან"
+            ],
             "storage": {
                 "title": "შენახვა"
             },
             "imapDownload": {
-                "title": "IMAP ჩამოტვირთვა"
+                "title": "IMAP ჩამოტვირთვა",
+                "comment": "ყოველდღიურად"
             },
             "imapUpload": {
-                "title": "IMAP ატვირთვა"
+                "title": "IMAP ატვირთვა",
+                "comment": "ყოველდღიურად"
             },
             "pop3Download": {
-                "title": "POP3 ჩამოტვირთვა"
+                "title": "POP3 ჩამოტვირთვა",
+                "comment": "ყოველდღიურად"
+            },
+            "received": {
+                "title": "მიიღო",
+                "comment": "წუთით"
+            },
+            "recipients": {
+                "title": "Გაგზავნილი",
+                "comment": "ყოველდღიურად"
             }
         }
     }

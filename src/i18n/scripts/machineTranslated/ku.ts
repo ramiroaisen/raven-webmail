@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "ji {gb} GB",
+      "messagesUsed": [
+        "{n} peyamên",
+        "Peyamek {1",
+        "{n} peyamên"
+      ],
+      "messagesTotal": [
+        "ji peyamên {1",
+        "peyama {1",
+        "ji peyamên {1"
+      ],
       "storage": {
         "title": "Embarkirinî"
       },
       "imapDownload": {
-        "title": "Daxistin IMAP"
+        "title": "Daxistin IMAP",
+        "comment": "rojane"
       },
       "imapUpload": {
-        "title": "IMAP Barkirin"
+        "title": "IMAP Barkirin",
+        "comment": "rojane"
       },
       "pop3Download": {
-        "title": "Daxistin POP3"
+        "title": "Daxistin POP3",
+        "comment": "rojane"
+      },
+      "received": {
+        "title": "Hatiye wergirtin",
+        "comment": "bi deqîqe"
+      },
+      "recipients": {
+        "title": "Şandin",
+        "comment": "rojane"
       }
     }
   }

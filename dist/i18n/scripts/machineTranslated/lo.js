@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "ຂອງ {gb} GB",
+            "messagesUsed": [
+                "{n} ຂໍ້ຄວາມ",
+                "{n} ຂໍ້ຄວາມ",
+                "{n} ຂໍ້ຄວາມ"
+            ],
+            "messagesTotal": [
+                "ຂອງ {n} ຂໍ້ຄວາມ",
+                "ຂອງ {n} ຂໍ້ຄວາມ",
+                "ຂອງ {n} ຂໍ້ຄວາມ"
+            ],
             "storage": {
                 "title": "ບ່ອນເກັບມ້ຽນ"
             },
             "imapDownload": {
-                "title": "ດາວໂຫລດ IMAP"
+                "title": "ດາວໂຫລດ IMAP",
+                "comment": "ປະຈໍາວັນ"
             },
             "imapUpload": {
-                "title": "IMAP ອັບໂຫລດ"
+                "title": "IMAP ອັບໂຫລດ",
+                "comment": "ປະຈໍາວັນ"
             },
             "pop3Download": {
-                "title": "POP3 ດາວໂຫລດ"
+                "title": "POP3 ດາວໂຫລດ",
+                "comment": "ປະຈໍາວັນ"
+            },
+            "received": {
+                "title": "ໄດ້ຮັບ",
+                "comment": "ໂດຍນາທີ"
+            },
+            "recipients": {
+                "title": "ສົ່ງແລ້ວ",
+                "comment": "ປະຈໍາວັນ"
             }
         }
     }

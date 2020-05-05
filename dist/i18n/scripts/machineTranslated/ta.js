@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} ஜிபி",
             "gbTotal": "{gb} ஜிபி",
+            "messagesUsed": [
+                "{n} செய்திகள்",
+                "{n} செய்தி",
+                "{n} செய்திகள்"
+            ],
+            "messagesTotal": [
+                "{n} செய்திகளில்",
+                "{n} செய்தியின்",
+                "{n} செய்திகளில்"
+            ],
             "storage": {
                 "title": "சேமிப்பு"
             },
             "imapDownload": {
-                "title": "IMAP பதிவிறக்கம்"
+                "title": "IMAP பதிவிறக்கம்",
+                "comment": "தினசரி"
             },
             "imapUpload": {
-                "title": "IMAP பதிவேற்றம்"
+                "title": "IMAP பதிவேற்றம்",
+                "comment": "தினசரி"
             },
             "pop3Download": {
-                "title": "POP3 பதிவிறக்கம்"
+                "title": "POP3 பதிவிறக்கம்",
+                "comment": "தினசரி"
+            },
+            "received": {
+                "title": "பெறப்பட்டது",
+                "comment": "நிமிடத்தில்"
+            },
+            "recipients": {
+                "title": "அனுப்பப்பட்டது",
+                "comment": "தினசரி"
             }
         }
     }

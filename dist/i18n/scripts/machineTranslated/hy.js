@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "1} ԳԲ",
             "gbTotal": "{gb} ԳԲ-ից",
+            "messagesUsed": [
+                "{n} հաղորդագրություններ",
+                "{n} հաղորդագրություն",
+                "{n} հաղորդագրություններ"
+            ],
+            "messagesTotal": [
+                "{n} հաղորդագրությունից",
+                "{n} հաղորդագրությունից",
+                "{n} հաղորդագրությունից"
+            ],
             "storage": {
                 "title": "Պահեստավորում"
             },
             "imapDownload": {
-                "title": "IMAP ներբեռնումը"
+                "title": "IMAP ներբեռնումը",
+                "comment": "ամեն օր"
             },
             "imapUpload": {
-                "title": "IMAP- ի վերբեռնումը"
+                "title": "IMAP- ի վերբեռնումը",
+                "comment": "ամեն օր"
             },
             "pop3Download": {
-                "title": "POP3 ներբեռնումը"
+                "title": "POP3 ներբեռնումը",
+                "comment": "ամեն օր"
+            },
+            "received": {
+                "title": "Ստացվեց",
+                "comment": "րոպեով"
+            },
+            "recipients": {
+                "title": "Ուղարկվել է",
+                "comment": "ամեն օր"
             }
         }
     }

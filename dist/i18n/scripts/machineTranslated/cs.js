@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "z {gb} GB",
+            "messagesUsed": [
+                "{n} zprávy",
+                "{n} zpráva",
+                "{n} zprávy"
+            ],
+            "messagesTotal": [
+                "z {n} zpráv",
+                "zprávy {n}",
+                "z {n} zpráv"
+            ],
             "storage": {
                 "title": "Úložný prostor"
             },
             "imapDownload": {
-                "title": "Stáhnout IMAP"
+                "title": "Stáhnout IMAP",
+                "comment": "denně"
             },
             "imapUpload": {
-                "title": "Nahrávání IMAP"
+                "title": "Nahrávání IMAP",
+                "comment": "denně"
             },
             "pop3Download": {
-                "title": "Stáhnout POP3"
+                "title": "Stáhnout POP3",
+                "comment": "denně"
+            },
+            "received": {
+                "title": "Přijato",
+                "comment": "za minutu"
+            },
+            "recipients": {
+                "title": "Odesláno",
+                "comment": "denně"
             }
         }
     }

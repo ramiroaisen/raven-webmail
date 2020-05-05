@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "{gb} GB",
+            "messagesUsed": [
+                "{n}条消息",
+                "{n}条消息",
+                "{n}条消息"
+            ],
+            "messagesTotal": [
+                "{n}条消息中",
+                "的{n}条消息",
+                "{n}条消息中"
+            ],
             "storage": {
                 "title": "存储"
             },
             "imapDownload": {
-                "title": "IMAP下载"
+                "title": "IMAP下载",
+                "comment": "日常"
             },
             "imapUpload": {
-                "title": "IMAP上传"
+                "title": "IMAP上传",
+                "comment": "日常"
             },
             "pop3Download": {
-                "title": "POP3下载"
+                "title": "POP3下载",
+                "comment": "日常"
+            },
+            "received": {
+                "title": "已收到",
+                "comment": "按分钟"
+            },
+            "recipients": {
+                "title": "已发送",
+                "comment": "日常"
             }
         }
     }

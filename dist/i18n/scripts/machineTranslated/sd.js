@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} جي بي",
             "gbTotal": "{gb} GB جو",
+            "messagesUsed": [
+                "{n} نياپا",
+                "{n} پيغام",
+                "{n} نياپا"
+            ],
+            "messagesTotal": [
+                "{n} پيغامن جو",
+                "{n} پيغام جو",
+                "{n} پيغامن جو"
+            ],
             "storage": {
                 "title": "اسٽوريج"
             },
             "imapDownload": {
-                "title": "IMAP ڊائون لوڊ ڪريو"
+                "title": "IMAP ڊائون لوڊ ڪريو",
+                "comment": "روزانو"
             },
             "imapUpload": {
-                "title": "IMAP اپ لوڊ"
+                "title": "IMAP اپ لوڊ",
+                "comment": "روزانو"
             },
             "pop3Download": {
-                "title": "POP3 ڊائون لوڊ ڪريو"
+                "title": "POP3 ڊائون لوڊ ڪريو",
+                "comment": "روزانو"
+            },
+            "received": {
+                "title": "حاصل ڪيو",
+                "comment": "منٽ کان"
+            },
+            "recipients": {
+                "title": "موڪليل",
+                "comment": "روزانو"
             }
         }
     }

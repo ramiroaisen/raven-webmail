@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "de {gb} GB",
+            "messagesUsed": [
+                "{n} teachdaireachdan",
+                "{n} teachdaireachd",
+                "{n} teachdaireachdan"
+            ],
+            "messagesTotal": [
+                "de {n} teachdaireachdan",
+                "de {n} teachdaireachd",
+                "de {n} teachdaireachdan"
+            ],
             "storage": {
                 "title": "Stòradh"
             },
             "imapDownload": {
-                "title": "Luchdaich sìos IMAP"
+                "title": "Luchdaich sìos IMAP",
+                "comment": "gach latha"
             },
             "imapUpload": {
-                "title": "Luchdaich suas IMAP"
+                "title": "Luchdaich suas IMAP",
+                "comment": "gach latha"
             },
             "pop3Download": {
-                "title": "Luchdaich sìos POP3"
+                "title": "Luchdaich sìos POP3",
+                "comment": "gach latha"
+            },
+            "received": {
+                "title": "Fhuair",
+                "comment": "sa mhionaid"
+            },
+            "recipients": {
+                "title": "Air a chuir",
+                "comment": "gach latha"
             }
         }
     }

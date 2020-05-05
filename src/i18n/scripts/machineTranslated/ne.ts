@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{undefined} जीबी",
       "gbTotal": "{undefined} जीबीको",
+      "messagesUsed": [
+        "। १} सन्देशहरू",
+        "{undefined} सन्देश",
+        "। १} सन्देशहरू"
+      ],
+      "messagesTotal": [
+        "{n} सन्देशहरूको",
+        "{n} सन्देश को",
+        "{n} सन्देशहरूको"
+      ],
       "storage": {
         "title": "भण्डारण"
       },
       "imapDownload": {
-        "title": "IMAP डाउनलोड गर्नुहोस्"
+        "title": "IMAP डाउनलोड गर्नुहोस्",
+        "comment": "दैनिक"
       },
       "imapUpload": {
-        "title": "IMAP अपलोड"
+        "title": "IMAP अपलोड",
+        "comment": "दैनिक"
       },
       "pop3Download": {
-        "title": "POP3 डाउनलोड गर्नुहोस्"
+        "title": "POP3 डाउनलोड गर्नुहोस्",
+        "comment": "दैनिक"
+      },
+      "received": {
+        "title": "प्राप्त भयो",
+        "comment": "मिनेट द्वारा"
+      },
+      "recipients": {
+        "title": "पठाइयो",
+        "comment": "दैनिक"
       }
     }
   }

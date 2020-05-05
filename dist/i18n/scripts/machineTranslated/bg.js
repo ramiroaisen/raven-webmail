@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "от {gb} GB",
+            "messagesUsed": [
+                "{n} съобщения",
+                "{n} съобщение",
+                "{n} съобщения"
+            ],
+            "messagesTotal": [
+                "от {n} съобщения",
+                "от {n} съобщение",
+                "от {n} съобщения"
+            ],
             "storage": {
                 "title": "съхранение"
             },
             "imapDownload": {
-                "title": "IMAP изтегляне"
+                "title": "IMAP изтегляне",
+                "comment": "ежедневно"
             },
             "imapUpload": {
-                "title": "IMAP качване"
+                "title": "IMAP качване",
+                "comment": "ежедневно"
             },
             "pop3Download": {
-                "title": "POP3 Изтегляне"
+                "title": "POP3 Изтегляне",
+                "comment": "ежедневно"
+            },
+            "received": {
+                "title": "приет",
+                "comment": "по минута"
+            },
+            "recipients": {
+                "title": "Изпратено",
+                "comment": "ежедневно"
             }
         }
     }

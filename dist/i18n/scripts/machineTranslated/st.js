@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "ho {gb} GB",
+            "messagesUsed": [
+                "{n} melaetsa",
+                "{n} molaetsa",
+                "{n} melaetsa"
+            ],
+            "messagesTotal": [
+                "tsa melaetsa e {n}",
+                "tsa {n} molaetsa",
+                "tsa melaetsa e {n}"
+            ],
             "storage": {
                 "title": "Boloka"
             },
             "imapDownload": {
-                "title": "Khoasolla IMAP"
+                "title": "Khoasolla IMAP",
+                "comment": "letsatsi le letsatsi"
             },
             "imapUpload": {
-                "title": "IMAP Tlanya"
+                "title": "IMAP Tlanya",
+                "comment": "letsatsi le letsatsi"
             },
             "pop3Download": {
-                "title": "POP3 Khoasolla"
+                "title": "POP3 Khoasolla",
+                "comment": "letsatsi le letsatsi"
+            },
+            "received": {
+                "title": "E amohetse",
+                "comment": "ka motsotso"
+            },
+            "recipients": {
+                "title": "E rometsoe",
+                "comment": "letsatsi le letsatsi"
             }
         }
     }

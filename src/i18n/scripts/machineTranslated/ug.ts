@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "of 1} GB",
+      "messagesUsed": [
+        "{n} ئۇچۇر",
+        "{n} ئۇچۇر",
+        "{n} ئۇچۇر"
+      ],
+      "messagesTotal": [
+        "of {n} ئۇچۇرلىرى",
+        "of {n} ئۇچۇر",
+        "of {n} ئۇچۇرلىرى"
+      ],
       "storage": {
         "title": "ساقلاش"
       },
       "imapDownload": {
-        "title": "IMAP چۈشۈرۈش"
+        "title": "IMAP چۈشۈرۈش",
+        "comment": "ھەر كۈنى"
       },
       "imapUpload": {
-        "title": "IMAP يۈكلەش"
+        "title": "IMAP يۈكلەش",
+        "comment": "ھەر كۈنى"
       },
       "pop3Download": {
-        "title": "POP3 چۈشۈرۈش"
+        "title": "POP3 چۈشۈرۈش",
+        "comment": "ھەر كۈنى"
+      },
+      "received": {
+        "title": "قوبۇل قىلىندى",
+        "comment": "by minute"
+      },
+      "recipients": {
+        "title": "ئەۋەتىلدى",
+        "comment": "ھەر كۈنى"
       }
     }
   }

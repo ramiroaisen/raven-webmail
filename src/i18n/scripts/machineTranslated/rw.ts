@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "ya {gb} GB",
+      "messagesUsed": [
+        "{n} ubutumwa",
+        "{n} ubutumwa",
+        "{n} ubutumwa"
+      ],
+      "messagesTotal": [
+        "ya {n} ubutumwa",
+        "ya {n} ubutumwa",
+        "ya {n} ubutumwa"
+      ],
       "storage": {
         "title": "Ububiko"
       },
       "imapDownload": {
-        "title": "Gukuramo IMAP"
+        "title": "Gukuramo IMAP",
+        "comment": "buri munsi"
       },
       "imapUpload": {
-        "title": "Kuramo IMAP"
+        "title": "Kuramo IMAP",
+        "comment": "buri munsi"
       },
       "pop3Download": {
-        "title": "POP3 Gukuramo"
+        "title": "POP3 Gukuramo",
+        "comment": "buri munsi"
+      },
+      "received": {
+        "title": "Yakiriwe",
+        "comment": "ku munota"
+      },
+      "recipients": {
+        "title": "Yoherejwe",
+        "comment": "buri munsi"
       }
     }
   }

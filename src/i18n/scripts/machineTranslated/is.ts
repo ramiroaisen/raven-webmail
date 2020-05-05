@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "af {gb} GB",
+      "messagesUsed": [
+        "{n} skilaboð",
+        "{n} skilaboð",
+        "{n} skilaboð"
+      ],
+      "messagesTotal": [
+        "af {n} skilaboðum",
+        "af {n} skilaboðum",
+        "af {n} skilaboðum"
+      ],
       "storage": {
         "title": "Geymsla"
       },
       "imapDownload": {
-        "title": "IMAP niðurhal"
+        "title": "IMAP niðurhal",
+        "comment": "daglega"
       },
       "imapUpload": {
-        "title": "IMAP upphleðsla"
+        "title": "IMAP upphleðsla",
+        "comment": "daglega"
       },
       "pop3Download": {
-        "title": "POP3 niðurhal"
+        "title": "POP3 niðurhal",
+        "comment": "daglega"
+      },
+      "received": {
+        "title": "Móttekið",
+        "comment": "eftir mínútu"
+      },
+      "recipients": {
+        "title": "Sent",
+        "comment": "daglega"
       }
     }
   }

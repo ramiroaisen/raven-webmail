@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "na {gb} GB",
+            "messagesUsed": [
+                "{n} sakonni",
+                "{n} sakon",
+                "{n} sakonni"
+            ],
+            "messagesTotal": [
+                "daga sakonnin {n}",
+                "daga sakon {n}",
+                "daga sakonnin {n}"
+            ],
             "storage": {
                 "title": "Adanawa"
             },
             "imapDownload": {
-                "title": "Sauke IMAP"
+                "title": "Sauke IMAP",
+                "comment": "kullun"
             },
             "imapUpload": {
-                "title": "Hoto IMAP"
+                "title": "Hoto IMAP",
+                "comment": "kullun"
             },
             "pop3Download": {
-                "title": "POP3 Saukewa"
+                "title": "POP3 Saukewa",
+                "comment": "kullun"
+            },
+            "received": {
+                "title": "Aka karba",
+                "comment": "by minti"
+            },
+            "recipients": {
+                "title": "An aika",
+                "comment": "kullun"
             }
         }
     }

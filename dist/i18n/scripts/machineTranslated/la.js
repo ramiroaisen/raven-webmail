@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{undefined} MB",
             "gbTotal": "} {GB ex I",
+            "messagesUsed": [
+                "{undefined} epistulae",
+                "{undefined} nuntius",
+                "{undefined} epistulae"
+            ],
+            "messagesTotal": [
+                "{undefined} ex epistulae",
+                "{undefined} I nuntius",
+                "{undefined} ex epistulae"
+            ],
             "storage": {
                 "title": "storage"
             },
             "imapDownload": {
-                "title": "IMAP Download"
+                "title": "IMAP Download",
+                "comment": "cotidie"
             },
             "imapUpload": {
-                "title": "Index IMAP"
+                "title": "Index IMAP",
+                "comment": "cotidie"
             },
             "pop3Download": {
-                "title": "POP3 Download"
+                "title": "POP3 Download",
+                "comment": "cotidie"
+            },
+            "received": {
+                "title": "suscepit",
+                "comment": "a minute"
+            },
+            "recipients": {
+                "title": "missus",
+                "comment": "cotidie"
             }
         }
     }

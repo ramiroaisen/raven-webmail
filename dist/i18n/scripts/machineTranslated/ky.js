@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} ГБ",
             "gbTotal": "of {gb} ГБ",
+            "messagesUsed": [
+                "{n} билдирүүлөр",
+                "{n} билдирүү",
+                "{n} билдирүүлөр"
+            ],
+            "messagesTotal": [
+                "билдирүүлөрүнүн {n}",
+                "билдирүүсү {n}",
+                "билдирүүлөрүнүн {n}"
+            ],
             "storage": {
                 "title": "сактоочу жай"
             },
             "imapDownload": {
-                "title": "IMAP жүктөө"
+                "title": "IMAP жүктөө",
+                "comment": "күндө"
             },
             "imapUpload": {
-                "title": "IMAP жүктөө"
+                "title": "IMAP жүктөө",
+                "comment": "күндө"
             },
             "pop3Download": {
-                "title": "POP3 Жүктөө"
+                "title": "POP3 Жүктөө",
+                "comment": "күндө"
+            },
+            "received": {
+                "title": "кабыл алынган",
+                "comment": "мүнөт менен"
+            },
+            "recipients": {
+                "title": "жөнөтүлдү",
+                "comment": "күндө"
             }
         }
     }

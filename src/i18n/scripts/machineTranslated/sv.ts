@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "av {gb} GB",
+      "messagesUsed": [
+        "{n} meddelanden",
+        "{n} meddelande",
+        "{n} meddelanden"
+      ],
+      "messagesTotal": [
+        "av {n} meddelanden",
+        "av {n} meddelandet",
+        "av {n} meddelanden"
+      ],
       "storage": {
         "title": "Lagring"
       },
       "imapDownload": {
-        "title": "IMAP-nedladdning"
+        "title": "IMAP-nedladdning",
+        "comment": "dagligen"
       },
       "imapUpload": {
-        "title": "IMAP Upload"
+        "title": "IMAP Upload",
+        "comment": "dagligen"
       },
       "pop3Download": {
-        "title": "POP3 nedladdning"
+        "title": "POP3 nedladdning",
+        "comment": "dagligen"
+      },
+      "received": {
+        "title": "Mottagen",
+        "comment": "efter minut"
+      },
+      "recipients": {
+        "title": "sände",
+        "comment": "dagligen"
       }
     }
   }

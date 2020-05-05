@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "{gb} GB ର |",
+      "messagesUsed": [
+        "{n} ସନ୍ଦେଶ |",
+        "{n} ବାର୍ତ୍ତା |",
+        "{n} ସନ୍ଦେଶ |"
+      ],
+      "messagesTotal": [
+        "{n} ସନ୍ଦେଶଗୁଡ଼ିକର |",
+        "{n} ସନ୍ଦେଶର |",
+        "{n} ସନ୍ଦେଶଗୁଡ଼ିକର |"
+      ],
       "storage": {
         "title": "ଭଣ୍ଡାର"
       },
       "imapDownload": {
-        "title": "IMAP ଡାଉନଲୋଡ୍ |"
+        "title": "IMAP ଡାଉନଲୋଡ୍ |",
+        "comment": "ପ୍ରତିଦିନ |"
       },
       "imapUpload": {
-        "title": "IMAP ଅପଲୋଡ୍ |"
+        "title": "IMAP ଅପଲୋଡ୍ |",
+        "comment": "ପ୍ରତିଦିନ |"
       },
       "pop3Download": {
-        "title": "POP3 ଡାଉନଲୋଡ୍ |"
+        "title": "POP3 ଡାଉନଲୋଡ୍ |",
+        "comment": "ପ୍ରତିଦିନ |"
+      },
+      "received": {
+        "title": "ପ୍ରାପ୍ତ",
+        "comment": "ମିନିଟ୍ ଦ୍ୱାରା"
+      },
+      "recipients": {
+        "title": "ପଠାଯାଇଛି",
+        "comment": "ପ୍ରତିଦିନ |"
       }
     }
   }

@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "o {gb} GB",
+            "messagesUsed": [
+                "{n} neges",
+                "Neges {n}",
+                "{n} neges"
+            ],
+            "messagesTotal": [
+                "o {n} neges",
+                "o {n} neges",
+                "o {n} neges"
+            ],
             "storage": {
                 "title": "Storio"
             },
             "imapDownload": {
-                "title": "Lawrlwytho IMAP"
+                "title": "Lawrlwytho IMAP",
+                "comment": "yn ddyddiol"
             },
             "imapUpload": {
-                "title": "Llwythiad IMAP"
+                "title": "Llwythiad IMAP",
+                "comment": "yn ddyddiol"
             },
             "pop3Download": {
-                "title": "Llwytho i lawr POP3"
+                "title": "Llwytho i lawr POP3",
+                "comment": "yn ddyddiol"
+            },
+            "received": {
+                "title": "Derbyniwyd",
+                "comment": "erbyn munud"
+            },
+            "recipients": {
+                "title": "Anfonwyd",
+                "comment": "yn ddyddiol"
             }
         }
     }

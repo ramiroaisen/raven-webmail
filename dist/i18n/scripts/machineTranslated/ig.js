@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "nke {gb} GB",
+            "messagesUsed": [
+                "{n} ozi",
+                "{n} ozi",
+                "{n} ozi"
+            ],
+            "messagesTotal": [
+                "nke ozi {n}",
+                "nke ozi {n}",
+                "nke ozi {n}"
+            ],
             "storage": {
                 "title": "Nchekwa"
             },
             "imapDownload": {
-                "title": "Budata IMAP"
+                "title": "Budata IMAP",
+                "comment": "kwa ụbọchị"
             },
             "imapUpload": {
-                "title": "Pinye IMAP"
+                "title": "Pinye IMAP",
+                "comment": "kwa ụbọchị"
             },
             "pop3Download": {
-                "title": "POP3 Download"
+                "title": "POP3 Download",
+                "comment": "kwa ụbọchị"
+            },
+            "received": {
+                "title": "Anata",
+                "comment": "Site na nkeji"
+            },
+            "recipients": {
+                "title": "Zigara",
+                "comment": "kwa ụbọchị"
             }
         }
     }

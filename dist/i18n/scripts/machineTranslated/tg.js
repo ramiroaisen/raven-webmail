@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} ГБ",
             "gbTotal": "аз {gb} ГБ",
+            "messagesUsed": [
+                "{n} паёмҳо",
+                "{n} паём",
+                "{n} паёмҳо"
+            ],
+            "messagesTotal": [
+                "аз паёмҳои {n}",
+                "аз {n} паём",
+                "аз паёмҳои {n}"
+            ],
             "storage": {
                 "title": "Захира"
             },
             "imapDownload": {
-                "title": "IMAP зеркашӣ кунед"
+                "title": "IMAP зеркашӣ кунед",
+                "comment": "ҳаррӯза"
             },
             "imapUpload": {
-                "title": "Боркунии IMAP"
+                "title": "Боркунии IMAP",
+                "comment": "ҳаррӯза"
             },
             "pop3Download": {
-                "title": "POP3 зеркашӣ"
+                "title": "POP3 зеркашӣ",
+                "comment": "ҳаррӯза"
+            },
+            "received": {
+                "title": "Гирифтанд",
+                "comment": "бо дақиқа"
+            },
+            "recipients": {
+                "title": "Фиристода",
+                "comment": "ҳаррӯза"
             }
         }
     }

@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "ta '{gb} GB",
+      "messagesUsed": [
+        "{n} messaġġi",
+        "Messaġġ {n}",
+        "{n} messaġġi"
+      ],
+      "messagesTotal": [
+        "messaġġi ta '{n}",
+        "messaġġ ta '{n}",
+        "messaġġi ta '{n}"
+      ],
       "storage": {
         "title": "Ħażna"
       },
       "imapDownload": {
-        "title": "Niżżel IMAP"
+        "title": "Niżżel IMAP",
+        "comment": "kuljum"
       },
       "imapUpload": {
-        "title": "Tella IMAP"
+        "title": "Tella IMAP",
+        "comment": "kuljum"
       },
       "pop3Download": {
-        "title": "Niżżel POP3"
+        "title": "Niżżel POP3",
+        "comment": "kuljum"
+      },
+      "received": {
+        "title": "Waslu",
+        "comment": "bil-minuta"
+      },
+      "recipients": {
+        "title": "Mibgħut",
+        "comment": "kuljum"
       }
     }
   }

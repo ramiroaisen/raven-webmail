@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "ya {gb} GB",
+            "messagesUsed": [
+                "{n} mauthenga",
+                "{n} uthenga",
+                "{n} mauthenga"
+            ],
+            "messagesTotal": [
+                "mwa mauthenga a {n}",
+                "wa {n} uthenga",
+                "mwa mauthenga a {n}"
+            ],
             "storage": {
                 "title": "Kusunga"
             },
             "imapDownload": {
-                "title": "Tsitsani pa IMAP"
+                "title": "Tsitsani pa IMAP",
+                "comment": "tsiku ndi tsiku"
             },
             "imapUpload": {
-                "title": "IMAP Kwezani"
+                "title": "IMAP Kwezani",
+                "comment": "tsiku ndi tsiku"
             },
             "pop3Download": {
-                "title": "Tsitsani POP3"
+                "title": "Tsitsani POP3",
+                "comment": "tsiku ndi tsiku"
+            },
+            "received": {
+                "title": "Zalandiridwa",
+                "comment": "mwa mphindi"
+            },
+            "recipients": {
+                "title": "Kutumizidwa",
+                "comment": "tsiku ndi tsiku"
             }
         }
     }

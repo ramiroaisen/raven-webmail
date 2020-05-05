@@ -15,6 +15,7 @@
     flex-direction: row;
     align-items: center;
     min-width: 10em;
+    pointer-events: none;
   }
 
   .item > :global(svg) {

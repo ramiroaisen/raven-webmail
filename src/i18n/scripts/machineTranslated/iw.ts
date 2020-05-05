@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "מתוך {gb} GB",
+      "messagesUsed": [
+        "{n} הודעות",
+        "{n} הודעה",
+        "{n} הודעות"
+      ],
+      "messagesTotal": [
+        "מתוך {n} הודעות",
+        "של ההודעה {n}",
+        "מתוך {n} הודעות"
+      ],
       "storage": {
         "title": "אחסון"
       },
       "imapDownload": {
-        "title": "הורדת IMAP"
+        "title": "הורדת IMAP",
+        "comment": "יום יומי"
       },
       "imapUpload": {
-        "title": "העלאת IMAP"
+        "title": "העלאת IMAP",
+        "comment": "יום יומי"
       },
       "pop3Download": {
-        "title": "הורדת POP3"
+        "title": "הורדת POP3",
+        "comment": "יום יומי"
+      },
+      "received": {
+        "title": "קיבלו",
+        "comment": "לפי דקה"
+      },
+      "recipients": {
+        "title": "נשלח",
+        "comment": "יום יומי"
       }
     }
   }

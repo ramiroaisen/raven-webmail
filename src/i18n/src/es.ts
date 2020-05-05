@@ -164,17 +164,42 @@ export default {
             gbUsed: "{gb} GB",
             gbTotal: "de {gb} GB",
 
+            messagesUsed: [
+                "{n} mensajes",
+                "{n} mensaje",
+                "{n} mensajes"
+            ],
+
+            messagesTotal: [
+                "de {n} mensajes",
+                "de {n} mensaje",
+                "de {n} mensajes"
+            ],
+
             storage: {
                 title: "Almacenamiento"
             },
             imapDownload: {
-                title: "Descarga IMAP"
+                title: "Descarga IMAP",
+                comment: "por día"
             },
             imapUpload: {
-                title: "Subida IMAP"
+                title: "Subida IMAP",
+                comment: "por día"
             },
             pop3Download: {
-                title: "Descarga POP3"
+                title: "Descarga POP3",
+                comment: "por día"
+            },
+
+            received: {
+                title: "Recibidos",
+                comment: "por minuto"
+            },
+
+            recipients: {
+                title: "Enviados",
+                comment: "por día"
             }
         }
     }

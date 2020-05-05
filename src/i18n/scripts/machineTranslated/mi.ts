@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "o {gb} GB",
+      "messagesUsed": [
+        "{n} karere",
+        "{n} panui",
+        "{n} karere"
+      ],
+      "messagesTotal": [
+        "Tuhinga o mua",
+        "Tuhinga o mua",
+        "Tuhinga o mua"
+      ],
       "storage": {
         "title": "Rokiroki"
       },
       "imapDownload": {
-        "title": "Tukua IMAP"
+        "title": "Tukua IMAP",
+        "comment": "ia rā"
       },
       "imapUpload": {
-        "title": "Tukunga IMAP"
+        "title": "Tukunga IMAP",
+        "comment": "ia rā"
       },
       "pop3Download": {
-        "title": "POP3 Tango mai"
+        "title": "POP3 Tango mai",
+        "comment": "ia rā"
+      },
+      "received": {
+        "title": "Kua riro",
+        "comment": "mā te meneti"
+      },
+      "recipients": {
+        "title": "I tukuna",
+        "comment": "ia rā"
       }
     }
   }

@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "saka {gb} GB",
+      "messagesUsed": [
+        "{n} pesen",
+        "{n} pesen",
+        "{n} pesen"
+      ],
+      "messagesTotal": [
+        "saka {n} pesen",
+        "pesen {n}",
+        "saka {n} pesen"
+      ],
       "storage": {
         "title": "Lumbung"
       },
       "imapDownload": {
-        "title": "Download IMAP"
+        "title": "Download IMAP",
+        "comment": "saben dina"
       },
       "imapUpload": {
-        "title": "Upload Upload IMAP"
+        "title": "Upload Upload IMAP",
+        "comment": "saben dina"
       },
       "pop3Download": {
-        "title": "Download POP3"
+        "title": "Download POP3",
+        "comment": "saben dina"
+      },
+      "received": {
+        "title": "Ditampa",
+        "comment": "dening menit"
+      },
+      "recipients": {
+        "title": "Dikirim",
+        "comment": "saben dina"
       }
     }
   }

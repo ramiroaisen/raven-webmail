@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "{gb} GB",
+            "messagesUsed": [
+                "{n} 메시지",
+                "{n} 메시지",
+                "{n} 메시지"
+            ],
+            "messagesTotal": [
+                "{n} 메시지 중",
+                "{n} 메시지 중",
+                "{n} 메시지 중"
+            ],
             "storage": {
                 "title": "저장"
             },
             "imapDownload": {
-                "title": "IMAP 다운로드"
+                "title": "IMAP 다운로드",
+                "comment": "매일"
             },
             "imapUpload": {
-                "title": "IMAP 업로드"
+                "title": "IMAP 업로드",
+                "comment": "매일"
             },
             "pop3Download": {
-                "title": "POP3 다운로드"
+                "title": "POP3 다운로드",
+                "comment": "매일"
+            },
+            "received": {
+                "title": "받았습니다",
+                "comment": "분 단위"
+            },
+            "recipients": {
+                "title": "보냄",
+                "comment": "매일"
             }
         }
     }

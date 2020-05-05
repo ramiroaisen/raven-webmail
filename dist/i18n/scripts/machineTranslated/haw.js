@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "o {gb} GB",
+            "messagesUsed": [
+                "{n} mau ʻelele",
+                "{n} memo",
+                "{n} mau ʻelele"
+            ],
+            "messagesTotal": [
+                "o nā leka {n}",
+                "o ka [1] memo",
+                "o nā leka {n}"
+            ],
             "storage": {
                 "title": "Laki"
             },
             "imapDownload": {
-                "title": "KāʻI IMAP"
+                "title": "KāʻI IMAP",
+                "comment": "i kēlā me kēia lā"
             },
             "imapUpload": {
-                "title": "Hoʻopuka IMAP"
+                "title": "Hoʻopuka IMAP",
+                "comment": "i kēlā me kēia lā"
             },
             "pop3Download": {
-                "title": "Hoihoi i ka POP3"
+                "title": "Hoihoi i ka POP3",
+                "comment": "i kēlā me kēia lā"
+            },
+            "received": {
+                "title": "Loaʻa",
+                "comment": "i ka minuke"
+            },
+            "recipients": {
+                "title": "Hoʻouna ʻia",
+                "comment": "i kēlā me kēia lā"
             }
         }
     }

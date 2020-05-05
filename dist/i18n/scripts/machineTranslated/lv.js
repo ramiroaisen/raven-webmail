@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "no {gb} GB",
+            "messagesUsed": [
+                "{n} ziņojumi",
+                "{n} ziņojums",
+                "{n} ziņojumi"
+            ],
+            "messagesTotal": [
+                "no {n} ziņojumiem",
+                "no {n} ziņojuma",
+                "no {n} ziņojumiem"
+            ],
             "storage": {
                 "title": "Uzglabāšana"
             },
             "imapDownload": {
-                "title": "IMAP lejupielāde"
+                "title": "IMAP lejupielāde",
+                "comment": "katru dienu"
             },
             "imapUpload": {
-                "title": "IMAP augšupielāde"
+                "title": "IMAP augšupielāde",
+                "comment": "katru dienu"
             },
             "pop3Download": {
-                "title": "POP3 lejupielāde"
+                "title": "POP3 lejupielāde",
+                "comment": "katru dienu"
+            },
+            "received": {
+                "title": "Saņemts",
+                "comment": "pa minūti"
+            },
+            "recipients": {
+                "title": "Nosūtīts",
+                "comment": "katru dienu"
             }
         }
     }

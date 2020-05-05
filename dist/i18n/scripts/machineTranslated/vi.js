@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "của {gb} GB",
+            "messagesUsed": [
+                "{n} tin nhắn",
+                "Tin nhắn {n}",
+                "{n} tin nhắn"
+            ],
+            "messagesTotal": [
+                "trong số {n} tin nhắn",
+                "của {n} tin nhắn",
+                "trong số {n} tin nhắn"
+            ],
             "storage": {
                 "title": "Lưu trữ"
             },
             "imapDownload": {
-                "title": "Tải xuống IMAP"
+                "title": "Tải xuống IMAP",
+                "comment": "hằng ngày"
             },
             "imapUpload": {
-                "title": "Tải lên IMAP"
+                "title": "Tải lên IMAP",
+                "comment": "hằng ngày"
             },
             "pop3Download": {
-                "title": "Tải xuống POP3"
+                "title": "Tải xuống POP3",
+                "comment": "hằng ngày"
+            },
+            "received": {
+                "title": "Nhận",
+                "comment": "theo phút"
+            },
+            "recipients": {
+                "title": "Gởi",
+                "comment": "hằng ngày"
             }
         }
     }

@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "iš {gb} GB",
+      "messagesUsed": [
+        "{n} pranešimai",
+        "{n} pranešimas",
+        "{n} pranešimai"
+      ],
+      "messagesTotal": [
+        "iš {n} pranešimų",
+        "iš {n} pranešimo",
+        "iš {n} pranešimų"
+      ],
       "storage": {
         "title": "Sandėliavimas"
       },
       "imapDownload": {
-        "title": "IMAP atsisiųsti"
+        "title": "IMAP atsisiųsti",
+        "comment": "kasdien"
       },
       "imapUpload": {
-        "title": "IMAP įkėlimas"
+        "title": "IMAP įkėlimas",
+        "comment": "kasdien"
       },
       "pop3Download": {
-        "title": "POP3 atsisiųsti"
+        "title": "POP3 atsisiųsti",
+        "comment": "kasdien"
+      },
+      "received": {
+        "title": "Gauta",
+        "comment": "per minutę"
+      },
+      "recipients": {
+        "title": "Išsiųsta",
+        "comment": "kasdien"
       }
     }
   }

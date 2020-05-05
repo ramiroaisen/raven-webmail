@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "di {gb} GB",
+      "messagesUsed": [
+        "{n} missaghji",
+        "{n} messagiu",
+        "{n} missaghji"
+      ],
+      "messagesTotal": [
+        "di {n} missaghji",
+        "di {n} messagiu",
+        "di {n} missaghji"
+      ],
       "storage": {
         "title": "Storage"
       },
       "imapDownload": {
-        "title": "Scaricamentu di IMAP"
+        "title": "Scaricamentu di IMAP",
+        "comment": "ogni ghjornu"
       },
       "imapUpload": {
-        "title": "Caricatu IMAP"
+        "title": "Caricatu IMAP",
+        "comment": "ogni ghjornu"
       },
       "pop3Download": {
-        "title": "Scaricà POP3"
+        "title": "Scaricà POP3",
+        "comment": "ogni ghjornu"
+      },
+      "received": {
+        "title": "Ricevutu",
+        "comment": "per minutu"
+      },
+      "recipients": {
+        "title": "Mandatu",
+        "comment": "ogni ghjornu"
       }
     }
   }

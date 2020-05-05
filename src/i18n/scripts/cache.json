@@ -89,7 +89,15 @@
     "IMAP Download": "IMAP aflaai",
     "POP3 Download": "POP3 aflaai",
     "of {1} GB": "van {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "POP3 Download (daily)": "POP3-aflaai (daagliks)",
+    "IMAP Download (daily)": "IMAP-aflaai (daagliks)",
+    "IMAP Upload (daily)": "IMAP-oplaai (daagliks)",
+    "daily": "daaglikse",
+    "Received": "ontvang",
+    "by minute": "per minuut",
+    "of {1} message": "van {1} boodskap",
+    "of {1} messages": "van {1} boodskappe"
   },
   "am": {
     "Inbox": "የገቢ መልእክት ሳጥን",
@@ -181,7 +189,15 @@
     "IMAP Upload": "IMAP ጭነት",
     "POP3 Download": "POP3 ማውረድ",
     "{1} GB": "{1} ጊባ",
-    "of {1} GB": "ከ {1} ጊባ"
+    "of {1} GB": "ከ {1} ጊባ",
+    "IMAP Download (daily)": "IMAP ማውረድ (በየቀኑ)",
+    "IMAP Upload (daily)": "IMAP ሰቀላ (በየቀኑ)",
+    "POP3 Download (daily)": "POP3 ማውረድ (በየቀኑ)",
+    "daily": "በየቀኑ",
+    "of {1} message": "ከ {1} መልእክት",
+    "of {1} messages": "ከ {1} መልእክቶች",
+    "Received": "ተቀብሏል",
+    "by minute": "በደቂቃ"
   },
   "ar": {
     "Inbox": "صندوق الوارد",
@@ -273,7 +289,15 @@
     "IMAP Download": "تنزيل IMAP",
     "POP3 Download": "تنزيل POP3",
     "{1} GB": "{1} جيجابايت",
-    "of {1} GB": "من {1} جيجابايت"
+    "of {1} GB": "من {1} جيجابايت",
+    "IMAP Download (daily)": "تنزيل IMAP (يوميًا)",
+    "POP3 Download (daily)": "تنزيل POP3 (يوميًا)",
+    "IMAP Upload (daily)": "تحميل IMAP (يوميًا)",
+    "daily": "اليومي",
+    "of {1} messages": "من {1} من الرسائل",
+    "by minute": "بالدقيقة",
+    "Received": "تم الاستلام",
+    "of {1} message": "من {1} رسالة"
   },
   "az": {
     "Inbox": "Gələnlər qutusu",
@@ -365,7 +389,15 @@
     "IMAP Download": "IMAP yükləyin",
     "POP3 Download": "POP3 Yüklə",
     "{1} GB": "{1} GB",
-    "of {1} GB": "of {1} GB"
+    "of {1} GB": "of {1} GB",
+    "IMAP Upload (daily)": "IMAP yüklə (gündəlik)",
+    "IMAP Download (daily)": "IMAP yüklə (gündəlik)",
+    "POP3 Download (daily)": "POP3 Yüklə (gündəlik)",
+    "daily": "gündəlik",
+    "of {1} messages": "of {1} mesajları",
+    "of {1} message": "of {1} mesajı",
+    "Received": "Alinib",
+    "by minute": "dəqiqə ilə"
   },
   "be": {
     "Inbox": "Уваходныя",
@@ -457,7 +489,15 @@
     "IMAP Upload": "Загрузка IMAP",
     "POP3 Download": "Спампаваць POP3",
     "{1} GB": "{1} ГБ",
-    "of {1} GB": "ад {1} ГБ"
+    "of {1} GB": "ад {1} ГБ",
+    "IMAP Download (daily)": "Загрузка IMAP (штодня)",
+    "IMAP Upload (daily)": "Загрузка IMAP (штодня)",
+    "POP3 Download (daily)": "Спампаваць POP3 (штодня)",
+    "daily": "штодня",
+    "of {1} messages": "з {1} паведамленняў",
+    "Received": "Паступіла",
+    "by minute": "за хвілінай",
+    "of {1} message": "паведамлення {1}"
   },
   "bg": {
     "Inbox": "Входящи",
@@ -549,7 +589,15 @@
     "IMAP Upload": "IMAP качване",
     "POP3 Download": "POP3 Изтегляне",
     "{1} GB": "{1} GB",
-    "of {1} GB": "от {1} GB"
+    "of {1} GB": "от {1} GB",
+    "IMAP Upload (daily)": "IMAP качване (всеки ден)",
+    "IMAP Download (daily)": "IMAP изтегляне (ежедневно)",
+    "POP3 Download (daily)": "Изтегляне POP3 (ежедневно)",
+    "daily": "ежедневно",
+    "of {1} message": "от {1} съобщение",
+    "of {1} messages": "от {1} съобщения",
+    "Received": "приет",
+    "by minute": "по минута"
   },
   "bn": {
     "Inbox": "ইনবক্স",
@@ -641,7 +689,15 @@
     "IMAP Upload": "IMAP আপলোড",
     "POP3 Download": "পিওপি 3 ডাউনলোড করুন",
     "{1} GB": "{1} জিবি",
-    "of {1} GB": "{1} গিগাবাইট"
+    "of {1} GB": "{1} গিগাবাইট",
+    "IMAP Download (daily)": "আইএমএপ ডাউনলোড (প্রতিদিন)",
+    "POP3 Download (daily)": "পিওপি 3 ডাউনলোড করুন (প্রতিদিন)",
+    "IMAP Upload (daily)": "আইএমএপ আপলোড (প্রতিদিন)",
+    "daily": "দৈনন্দিন",
+    "of {1} messages": "{1} বার্তাগুলির",
+    "of {1} message": "{1} বার্তা",
+    "Received": "গৃহীত",
+    "by minute": "মিনিট দ্বারা"
   },
   "bs": {
     "Inbox": "Inbox",
@@ -733,7 +789,15 @@
     "Storage": "Skladištenje",
     "POP3 Download": "Preuzimanje POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "od {1} GB"
+    "of {1} GB": "od {1} GB",
+    "IMAP Download (daily)": "Preuzimanje IMAP-a (svakodnevno)",
+    "IMAP Upload (daily)": "IMAP upload (dnevno)",
+    "POP3 Download (daily)": "Preuzimanje POP3 (svakodnevno)",
+    "daily": "dnevno",
+    "of {1} messages": "od {1} poruka",
+    "of {1} message": "od {1} poruke",
+    "Received": "Primljeno",
+    "by minute": "po minutu"
   },
   "ca": {
     "Inbox": "Safata d'entrada",
@@ -825,7 +889,15 @@
     "IMAP Download": "Baixada IMAP",
     "POP3 Download": "Baixada POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "de {1} GB"
+    "of {1} GB": "de {1} GB",
+    "IMAP Download (daily)": "Descàrrega IMAP (diàriament)",
+    "POP3 Download (daily)": "Descàrrega POP3 (diàriament)",
+    "IMAP Upload (daily)": "Carrega IMAP (diàriament)",
+    "daily": "diàriament",
+    "of {1} messages": "de {1} missatges",
+    "of {1} message": "del missatge {1}",
+    "by minute": "per minut",
+    "Received": "Rebut"
   },
   "ceb": {
     "Inbox": "Inbox",
@@ -917,7 +989,15 @@
     "IMAP Download": "IMAP Pag-download",
     "POP3 Download": "Pag-download sa POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "sa {1} GB"
+    "of {1} GB": "sa {1} GB",
+    "IMAP Download (daily)": "IMAP Download (adlaw-adlaw)",
+    "IMAP Upload (daily)": "Pag-upload sa IMAP (adlaw-adlaw)",
+    "POP3 Download (daily)": "Pag-download sa POP3 (adlaw-adlaw)",
+    "daily": "adlaw-adlaw",
+    "of {1} messages": "sa {1} nga mga mensahe",
+    "of {1} message": "sa {1} nga mensahe",
+    "Received": "Gidawat",
+    "by minute": "sa minuto"
   },
   "co": {
     "Inbox": "Inbox",
@@ -1009,7 +1089,15 @@
     "IMAP Upload": "Caricatu IMAP",
     "POP3 Download": "Scaricà POP3",
     "of {1} GB": "di {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "Scaricamentu IMAP (ogni ghjornu)",
+    "IMAP Upload (daily)": "Caricamentu IMAP (ogni ghjornu)",
+    "POP3 Download (daily)": "Scaricà POP3 (ogni ghjornu)",
+    "daily": "ogni ghjornu",
+    "of {1} messages": "di {1} missaghji",
+    "of {1} message": "di {1} messagiu",
+    "Received": "Ricevutu",
+    "by minute": "per minutu"
   },
   "cs": {
     "Inbox": "Doručená pošta",
@@ -1101,7 +1189,15 @@
     "IMAP Download": "Stáhnout IMAP",
     "POP3 Download": "Stáhnout POP3",
     "of {1} GB": "z {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "Stáhnout IMAP (denně)",
+    "POP3 Download (daily)": "Stáhnout POP3 (denně)",
+    "IMAP Upload (daily)": "Nahrávání IMAP (denně)",
+    "daily": "denně",
+    "of {1} message": "zprávy {1}",
+    "of {1} messages": "z {1} zpráv",
+    "Received": "Přijato",
+    "by minute": "za minutu"
   },
   "cy": {
     "Inbox": "Mewnflwch",
@@ -1193,7 +1289,15 @@
     "IMAP Upload": "Llwythiad IMAP",
     "POP3 Download": "Llwytho i lawr POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "o {1} GB"
+    "of {1} GB": "o {1} GB",
+    "IMAP Upload (daily)": "Llwythiad IMAP (bob dydd)",
+    "POP3 Download (daily)": "Llwytho i lawr POP3 (bob dydd)",
+    "IMAP Download (daily)": "Lawrlwytho IMAP (bob dydd)",
+    "daily": "yn ddyddiol",
+    "of {1} messages": "o {1} neges",
+    "Received": "Derbyniwyd",
+    "by minute": "erbyn munud",
+    "of {1} message": "o {1} neges"
   },
   "da": {
     "Inbox": "Indbakke",
@@ -1285,7 +1389,15 @@
     "IMAP Upload": "IMAP-upload",
     "POP3 Download": "POP3-download",
     "of {1} GB": "på {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Upload (daily)": "IMAP-upload (dagligt)",
+    "IMAP Download (daily)": "IMAP-download (dagligt)",
+    "POP3 Download (daily)": "POP3-download (dagligt)",
+    "daily": "daglige",
+    "Received": "Modtaget",
+    "of {1} messages": "af {1} meddelelser",
+    "by minute": "efter minut",
+    "of {1} message": "af {1} meddelelse"
   },
   "de": {
     "Inbox": "Posteingang",
@@ -1377,7 +1489,15 @@
     "IMAP Upload": "IMAP-Upload",
     "POP3 Download": "POP3 herunterladen",
     "of {1} GB": "von {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Upload (daily)": "IMAP-Upload (täglich)",
+    "IMAP Download (daily)": "IMAP Download (täglich)",
+    "POP3 Download (daily)": "POP3 Download (täglich)",
+    "daily": "Täglich",
+    "of {1} messages": "von {1} Nachrichten",
+    "of {1} message": "von {1} Nachricht",
+    "by minute": "pro Minute",
+    "Received": "Empfangen"
   },
   "el": {
     "Inbox": "Inbox",
@@ -1469,7 +1589,15 @@
     "IMAP Download": "Λήψη IMAP",
     "POP3 Download": "Λήψη POP3",
     "of {1} GB": "από {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "Λήψη IMAP (καθημερινά)",
+    "POP3 Download (daily)": "Λήψη POP3 (καθημερινά)",
+    "IMAP Upload (daily)": "Μεταφόρτωση IMAP (καθημερινά)",
+    "daily": "καθημερινά",
+    "of {1} messages": "από {1} μηνύματα",
+    "of {1} message": "από {1} μήνυμα",
+    "by minute": "ανά λεπτό",
+    "Received": "Λήφθηκε"
   },
   "eo": {
     "Inbox": "Informkesto",
@@ -1561,7 +1689,15 @@
     "IMAP Download": "Elŝuta IMAP",
     "POP3 Download": "Elŝuti POP3",
     "of {1} GB": "de {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Upload (daily)": "Alŝuto de IMAP (ĉiutage)",
+    "POP3 Download (daily)": "Elŝuti POP3 (ĉiutage)",
+    "IMAP Download (daily)": "Elŝutaĵoj IMAP (ĉiutage)",
+    "daily": "ĉiutage",
+    "of {1} messages": "de {1} mesaĝoj",
+    "of {1} message": "de {1} mesaĝo",
+    "Received": "Ricevita",
+    "by minute": "minuton"
   },
   "es": {
     "Inbox": "Bandeja de entrada",
@@ -1653,7 +1789,15 @@
     "IMAP Upload": "Carga de IMAP",
     "POP3 Download": "Descarga POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "de {1} GB"
+    "of {1} GB": "de {1} GB",
+    "IMAP Upload (daily)": "Carga de IMAP (diaria)",
+    "POP3 Download (daily)": "Descarga POP3 (diaria)",
+    "IMAP Download (daily)": "Descarga IMAP (diaria)",
+    "daily": "diario",
+    "of {1} messages": "de {1} mensajes",
+    "of {1} message": "de {1} mensaje",
+    "by minute": "por minuto",
+    "Received": "Recibido"
   },
   "et": {
     "Inbox": "Postkast",
@@ -1745,7 +1889,15 @@
     "IMAP Upload": "IMAP-üleslaadimine",
     "POP3 Download": "POP3 allalaadimine",
     "{1} GB": "{1} GB",
-    "of {1} GB": "{1} GB"
+    "of {1} GB": "{1} GB",
+    "IMAP Download (daily)": "IMAP-i allalaadimine (iga päev)",
+    "IMAP Upload (daily)": "IMAP-üleslaadimine (iga päev)",
+    "POP3 Download (daily)": "POP3 allalaadimine (iga päev)",
+    "daily": "iga päev",
+    "of {1} messages": "{1} sõnumist",
+    "of {1} message": "{1} sõnumist",
+    "Received": "Vastu võetud",
+    "by minute": "minutiga"
   },
   "eu": {
     "Inbox": "Sarrerako ontzia",
@@ -1837,7 +1989,15 @@
     "IMAP Upload": "IMAP igoera",
     "POP3 Download": "POP3 Deskargatu",
     "{1} GB": "{1} GB",
-    "of {1} GB": "de {1} GB"
+    "of {1} GB": "de {1} GB",
+    "IMAP Download (daily)": "IMAP deskargatzea (egunero)",
+    "IMAP Upload (daily)": "Kargatu IMAP (egunero)",
+    "POP3 Download (daily)": "POP3 deskargatu (egunero)",
+    "daily": "eguneroko",
+    "of {1} messages": "{1} mezuetako",
+    "Received": "Jaso",
+    "of {1} message": "{1} mezuaren",
+    "by minute": "minutuz"
   },
   "fa": {
     "Inbox": "صندوق ورودی",
@@ -1929,7 +2089,15 @@
     "IMAP Upload": "آپلود IMAP",
     "POP3 Download": "بارگیری POP3",
     "{1} GB": "{1} گیگابایت",
-    "of {1} GB": "از {1} گیگابایت"
+    "of {1} GB": "از {1} گیگابایت",
+    "IMAP Download (daily)": "بارگیری IMAP (روزانه)",
+    "IMAP Upload (daily)": "بارگیری IMAP (روزانه)",
+    "POP3 Download (daily)": "بارگیری POP3 (روزانه)",
+    "daily": "روزانه",
+    "by minute": "دقیقه",
+    "of {1} messages": "از پیام {1",
+    "of {1} message": "پیام 1 {",
+    "Received": "اخذ شده"
   },
   "fi": {
     "Inbox": "Saapuneet",
@@ -2021,7 +2189,15 @@
     "IMAP Upload": "IMAP-lähetys",
     "POP3 Download": "Lataa POP3",
     "of {1} GB": "/ {1} Gt",
-    "{1} GB": "{1} Gt"
+    "{1} GB": "{1} Gt",
+    "IMAP Download (daily)": "IMAP-lataus (päivittäin)",
+    "IMAP Upload (daily)": "IMAP-lähetys (päivittäin)",
+    "POP3 Download (daily)": "POP3-lataus (päivittäin)",
+    "daily": "päivittäin",
+    "Received": "Otettu vastaan",
+    "of {1} message": "{1} viestistä",
+    "of {1} messages": "{1} viestistä",
+    "by minute": "minuutilla"
   },
   "fr": {
     "Inbox": "Boîte de réception",
@@ -2113,7 +2289,15 @@
     "Storage": "Espace de rangement",
     "POP3 Download": "Téléchargement POP3",
     "{1} GB": "{1} Go",
-    "of {1} GB": "de {1} Go"
+    "of {1} GB": "de {1} Go",
+    "IMAP Upload (daily)": "Téléchargement IMAP (quotidiennement)",
+    "POP3 Download (daily)": "Téléchargement POP3 (tous les jours)",
+    "IMAP Download (daily)": "Téléchargement IMAP (quotidien)",
+    "daily": "du quotidien",
+    "of {1} messages": "de {1} messages",
+    "Received": "Reçu",
+    "of {1} message": "du {1} message",
+    "by minute": "par minute"
   },
   "fy": {
     "Inbox": "Postfek YN",
@@ -2205,7 +2389,15 @@
     "IMAP Download": "IMAP Download",
     "POP3 Download": "POP3 Download",
     "of {1} GB": "fan {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Upload (daily)": "IMAP Upload (deistich)",
+    "POP3 Download (daily)": "POP3 Download (deistich)",
+    "IMAP Download (daily)": "IMAP Download (deistich)",
+    "daily": "deistich",
+    "of {1} messages": "fan {1} berjochten",
+    "of {1} message": "fan {1} berjocht",
+    "Received": "Untfongen",
+    "by minute": "per minuut"
   },
   "ga": {
     "Inbox": "Bosca Isteach",
@@ -2297,7 +2489,15 @@
     "IMAP Upload": "Uaslódáil IMAP",
     "POP3 Download": "Íoslódáil POP3",
     "of {1} GB": "de {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "Íoslódáil IMAP (go laethúil)",
+    "IMAP Upload (daily)": "Uaslódáil IMAP (go laethúil)",
+    "POP3 Download (daily)": "Íoslódáil POP3 (go laethúil)",
+    "daily": "go laethúil",
+    "Received": "Faighte",
+    "of {1} messages": "de {1} teachtaireacht",
+    "of {1} message": "de {1} teachtaireacht",
+    "by minute": "de réir nóiméid"
   },
   "gd": {
     "Inbox": "Bogsa a-steach",
@@ -2389,7 +2589,15 @@
     "IMAP Upload": "Luchdaich suas IMAP",
     "POP3 Download": "Luchdaich sìos POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "de {1} GB"
+    "of {1} GB": "de {1} GB",
+    "IMAP Download (daily)": "Luchdaich sìos IMAP (gach latha)",
+    "POP3 Download (daily)": "Luchdaich sìos POP3 (gach latha)",
+    "IMAP Upload (daily)": "Luchdaich suas IMAP (gach latha)",
+    "daily": "gach latha",
+    "of {1} messages": "de {1} teachdaireachdan",
+    "by minute": "sa mhionaid",
+    "Received": "Fhuair",
+    "of {1} message": "de {1} teachdaireachd"
   },
   "gl": {
     "Inbox": "Caixa de entrada",
@@ -2481,7 +2689,15 @@
     "Storage": "Almacenamento",
     "POP3 Download": "Descarga POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "de {1} GB"
+    "of {1} GB": "de {1} GB",
+    "IMAP Upload (daily)": "Cargar IMAP (diariamente)",
+    "IMAP Download (daily)": "Descarga IMAP (diariamente)",
+    "POP3 Download (daily)": "Descarga POP3 (diariamente)",
+    "daily": "diariamente",
+    "of {1} messages": "de {1} mensaxes",
+    "Received": "Recibido",
+    "of {1} message": "da mensaxe {1}",
+    "by minute": "por minuto"
   },
   "gu": {
     "Inbox": "ઇનબોક્સ",
@@ -2573,7 +2789,15 @@
     "Storage": "સંગ્રહ",
     "POP3 Download": "પીઓપી 3 ડાઉનલોડ કરો",
     "{1} GB": ". 1} જીબી",
-    "of {1} GB": "{1} જીબી"
+    "of {1} GB": "{1} જીબી",
+    "IMAP Download (daily)": "IMAP ડાઉનલોડ કરો (દૈનિક)",
+    "IMAP Upload (daily)": "IMAP અપલોડ (દૈનિક)",
+    "POP3 Download (daily)": "પીઓપી 3 ડાઉનલોડ કરો (દૈનિક)",
+    "daily": "દૈનિક",
+    "of {1} messages": "{1} સંદેશાઓનો",
+    "of {1} message": "{1} સંદેશનો",
+    "Received": "પ્રાપ્ત થયો",
+    "by minute": "મિનિટ દ્વારા"
   },
   "ha": {
     "Inbox": "Akwati",
@@ -2665,7 +2889,15 @@
     "Storage": "Adanawa",
     "POP3 Download": "POP3 Saukewa",
     "of {1} GB": "na {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Upload (daily)": "Ana aikawa IMAP (kullun)",
+    "IMAP Download (daily)": "Sauke IMAP (kullun)",
+    "POP3 Download (daily)": "Zazzagewa na POP3 (kowace rana)",
+    "daily": "kullun",
+    "of {1} messages": "daga sakonnin {1}",
+    "of {1} message": "daga sakon {1}",
+    "by minute": "by minti",
+    "Received": "Aka karba"
   },
   "haw": {
     "Inbox": "Kahu Inikua",
@@ -2757,7 +2989,15 @@
     "IMAP Upload": "Hoʻopuka IMAP",
     "POP3 Download": "Hoihoi i ka POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "o {1} GB"
+    "of {1} GB": "o {1} GB",
+    "IMAP Download (daily)": "Hoʻoiho IMAP (i kēlā me kēia lā)",
+    "IMAP Upload (daily)": "Kālā IMAP (i kēlā me kēia lā)",
+    "POP3 Download (daily)": "Hoʻoiho i ka POP3 (i kēlā me kēia lā)",
+    "daily": "i kēlā me kēia lā",
+    "of {1} messages": "o nā leka {1}",
+    "of {1} message": "o ka [1] memo",
+    "Received": "Loaʻa",
+    "by minute": "i ka minuke"
   },
   "hi": {
     "Inbox": "इनबॉक्स",
@@ -2849,7 +3089,15 @@
     "Storage": "भंडारण",
     "POP3 Download": "POP3 डाउनलोड करें",
     "{1} GB": "{१} जीबी",
-    "of {1} GB": "{1} GB का"
+    "of {1} GB": "{1} GB का",
+    "IMAP Upload (daily)": "IMAP अपलोड (दैनिक)",
+    "IMAP Download (daily)": "IMAP डाउनलोड (दैनिक)",
+    "POP3 Download (daily)": "POP3 डाउनलोड (दैनिक)",
+    "daily": "रोज",
+    "Received": "प्राप्त किया",
+    "of {1} messages": "{1} संदेशों के",
+    "of {1} message": "{1} संदेश का",
+    "by minute": "मिनट के हिसाब से"
   },
   "hmn": {
     "Inbox": "Cov Inbox",
@@ -2941,7 +3189,15 @@
     "IMAP Upload": "IMAP Upload",
     "POP3 Download": "POP3 Rub",
     "of {1} GB": "ntawm {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Upload (daily)": "IMAP Upload (txhua hnub)",
+    "POP3 Download (daily)": "POP3 rub tawm (txhua hnub)",
+    "IMAP Download (daily)": "IMAP rub tawm (txhua hnub)",
+    "daily": "txhua hnub",
+    "of {1} message": "ntawm {1} xov",
+    "of {1} messages": "ntawm {1} xov",
+    "by minute": "los ntawm feeb",
+    "Received": "Tau Txais"
   },
   "hr": {
     "Inbox": "Ulazni spremnik",
@@ -3033,7 +3289,15 @@
     "Storage": "skladištenje",
     "POP3 Download": "Preuzmite POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "od {1} GB"
+    "of {1} GB": "od {1} GB",
+    "IMAP Download (daily)": "Preuzimanje IMAP-a (svakodnevno)",
+    "POP3 Download (daily)": "Preuzimanje POP3 (dnevno)",
+    "IMAP Upload (daily)": "Prijenos IMAP-a (dnevno)",
+    "daily": "dnevno",
+    "of {1} messages": "od {1} poruka",
+    "Received": "primljen",
+    "by minute": "po minutu",
+    "of {1} message": "od {1} poruke"
   },
   "ht": {
     "Inbox": "Bwat resepsyon",
@@ -3125,7 +3389,15 @@
     "IMAP Upload": "IMAP Upload",
     "POP3 Download": "POP3 Download",
     "{1} GB": "{1} GB",
-    "of {1} GB": "nan {1} GB"
+    "of {1} GB": "nan {1} GB",
+    "IMAP Download (daily)": "Download IMAP (chak jou)",
+    "POP3 Download (daily)": "POP3 Download (chak jou)",
+    "IMAP Upload (daily)": "IMAP Upload (chak jou)",
+    "daily": "chak jou",
+    "of {1} messages": "nan {1} mesaj",
+    "Received": "Resevwa",
+    "by minute": "pa minit",
+    "of {1} message": "nan {1} mesaj"
   },
   "hu": {
     "Inbox": "Bejövő",
@@ -3217,7 +3489,15 @@
     "IMAP Upload": "IMAP feltöltés",
     "POP3 Download": "POP3 letöltése",
     "{1} GB": "{1} GB",
-    "of {1} GB": "{1} GB"
+    "of {1} GB": "{1} GB",
+    "POP3 Download (daily)": "POP3 letöltés (naponta)",
+    "IMAP Download (daily)": "IMAP letöltés (naponta)",
+    "IMAP Upload (daily)": "IMAP feltöltés (naponta)",
+    "daily": "napi",
+    "Received": "kapott",
+    "of {1} messages": "{1} üzenet",
+    "of {1} message": "{1} üzenet",
+    "by minute": "percekenként"
   },
   "hy": {
     "Inbox": "Ներարկղ",
@@ -3309,7 +3589,15 @@
     "IMAP Download": "IMAP ներբեռնումը",
     "POP3 Download": "POP3 ներբեռնումը",
     "{1} GB": "1} ԳԲ",
-    "of {1} GB": "{1} ԳԲ-ից"
+    "of {1} GB": "{1} ԳԲ-ից",
+    "IMAP Upload (daily)": "IMAP- ի վերբեռնումը (ամեն օր)",
+    "IMAP Download (daily)": "IMAP ներբեռնումը (ամեն օր)",
+    "POP3 Download (daily)": "POP3 ներբեռնումը (ամեն օր)",
+    "daily": "ամեն օր",
+    "of {1} messages": "{1} հաղորդագրությունից",
+    "Received": "Ստացվեց",
+    "of {1} message": "{1} հաղորդագրությունից",
+    "by minute": "րոպեով"
   },
   "id": {
     "Inbox": "Kotak masuk",
@@ -3401,7 +3689,15 @@
     "IMAP Upload": "Unggah IMAP",
     "POP3 Download": "Unduh POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "dari {1} GB"
+    "of {1} GB": "dari {1} GB",
+    "IMAP Download (daily)": "Unduh IMAP (setiap hari)",
+    "IMAP Upload (daily)": "Unggah IMAP (setiap hari)",
+    "POP3 Download (daily)": "Unduh POP3 (setiap hari)",
+    "daily": "harian",
+    "of {1} messages": "dari {1} pesan",
+    "by minute": "per menit",
+    "Received": "Diterima",
+    "of {1} message": "dari {1} pesan"
   },
   "ig": {
     "Inbox": "Igbe mbata",
@@ -3493,7 +3789,15 @@
     "IMAP Upload": "Pinye IMAP",
     "POP3 Download": "POP3 Download",
     "{1} GB": "{1} GB",
-    "of {1} GB": "nke {1} GB"
+    "of {1} GB": "nke {1} GB",
+    "IMAP Download (daily)": "Budata IMAP (kwa ụbọchị)",
+    "POP3 Download (daily)": "POP3 Budata (kwa ụbọchị)",
+    "IMAP Upload (daily)": "IMAP bulite (kwa ụbọchị)",
+    "daily": "kwa ụbọchị",
+    "Received": "Anata",
+    "of {1} messages": "nke ozi {1}",
+    "by minute": "Site na nkeji",
+    "of {1} message": "nke ozi {1}"
   },
   "is": {
     "Inbox": "Innhólf",
@@ -3585,7 +3889,15 @@
     "IMAP Upload": "IMAP upphleðsla",
     "POP3 Download": "POP3 niðurhal",
     "of {1} GB": "af {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "POP3 Download (daily)": "POP3 niðurhal (daglega)",
+    "IMAP Upload (daily)": "Hleðsla af IMAP (daglega)",
+    "IMAP Download (daily)": "IMAP niðurhal (daglega)",
+    "daily": "daglega",
+    "of {1} messages": "af {1} skilaboðum",
+    "of {1} message": "af {1} skilaboðum",
+    "by minute": "eftir mínútu",
+    "Received": "Móttekið"
   },
   "it": {
     "Inbox": "Posta in arrivo",
@@ -3677,7 +3989,15 @@
     "Storage": "Conservazione",
     "POP3 Download": "Download POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "di {1} GB"
+    "of {1} GB": "di {1} GB",
+    "POP3 Download (daily)": "Scarica POP3 (ogni giorno)",
+    "IMAP Download (daily)": "Download IMAP (giornaliero)",
+    "IMAP Upload (daily)": "Caricamento IMAP (giornaliero)",
+    "daily": "quotidiano",
+    "Received": "ricevuto",
+    "of {1} messages": "di {1} messaggi",
+    "of {1} message": "di {1} messaggio",
+    "by minute": "al minuto"
   },
   "iw": {
     "Inbox": "תיבת הדואר הנכנס",
@@ -3769,7 +4089,15 @@
     "IMAP Upload": "העלאת IMAP",
     "POP3 Download": "הורדת POP3",
     "of {1} GB": "מתוך {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "הורדת IMAP (מדי יום)",
+    "IMAP Upload (daily)": "העלאת IMAP (מדי יום)",
+    "POP3 Download (daily)": "הורדת POP3 (מדי יום)",
+    "daily": "יום יומי",
+    "Received": "קיבלו",
+    "of {1} messages": "מתוך {1} הודעות",
+    "of {1} message": "של ההודעה {1}",
+    "by minute": "לפי דקה"
   },
   "ja": {
     "Inbox": "受信トレイ",
@@ -3861,7 +4189,15 @@
     "IMAP Upload": "IMAPアップロード",
     "POP3 Download": "POP3ダウンロード",
     "{1} GB": "{1} GB",
-    "of {1} GB": "{1} GB"
+    "of {1} GB": "{1} GB",
+    "IMAP Download (daily)": "IMAPダウンロード（毎日）",
+    "IMAP Upload (daily)": "IMAPアップロード（毎日）",
+    "POP3 Download (daily)": "POP3ダウンロード（毎日）",
+    "daily": "毎日",
+    "by minute": "分単位で",
+    "of {1} messages": "{1}件のメッセージ",
+    "Received": "受け取りました",
+    "of {1} message": "{1}メッセージ"
   },
   "jw": {
     "Inbox": "Kothak mlebu",
@@ -3953,7 +4289,15 @@
     "Storage": "Lumbung",
     "POP3 Download": "Download POP3",
     "of {1} GB": "saka {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "Download IMAP (saben dina)",
+    "POP3 Download (daily)": "Download POP3 (saben dina)",
+    "IMAP Upload (daily)": "Upload IMAP (saben dina)",
+    "daily": "saben dina",
+    "of {1} messages": "saka {1} pesen",
+    "Received": "Ditampa",
+    "by minute": "dening menit",
+    "of {1} message": "pesen {1}"
   },
   "ka": {
     "Inbox": "Შემომავალი",
@@ -4045,7 +4389,15 @@
     "IMAP Upload": "IMAP ატვირთვა",
     "POP3 Download": "POP3 ჩამოტვირთვა",
     "of {1} GB": "{1} GB",
-    "{1} GB": "1} GB"
+    "{1} GB": "1} GB",
+    "IMAP Download (daily)": "IMAP ჩამოტვირთვა (ყოველდღიური)",
+    "IMAP Upload (daily)": "IMAP ატვირთვა (ყოველდღიურად)",
+    "POP3 Download (daily)": "POP3 გადმოწერა (ყოველდღიური)",
+    "daily": "ყოველდღიურად",
+    "of {1} message": "{1} გაგზავნისგან",
+    "Received": "მიიღო",
+    "by minute": "წუთით",
+    "of {1} messages": "{1} შეტყობინებიდან"
   },
   "kk": {
     "Inbox": "Кіріс жәшігі",
@@ -4137,7 +4489,15 @@
     "IMAP Upload": "IMAP жүктеу",
     "POP3 Download": "POP3 жүктеу",
     "of {1} GB": "{1} ГБ құрайды",
-    "{1} GB": "{1} ГБ"
+    "{1} GB": "{1} ГБ",
+    "IMAP Download (daily)": "IMAP жүктеу (күн сайын)",
+    "IMAP Upload (daily)": "IMAP жүктеу (күн сайын)",
+    "POP3 Download (daily)": "POP3 жүктеу (күн сайын)",
+    "daily": "күнделікті",
+    "of {1} message": "{1} хабарынан",
+    "of {1} messages": "хабарлар {1}",
+    "Received": "Алынған",
+    "by minute": "минутына"
   },
   "km": {
     "Inbox": "ប្រអប់ទទួល",
@@ -4229,7 +4589,15 @@
     "Storage": "ការផ្ទុក",
     "POP3 Download": "ទាញយក POP3",
     "{1} GB": "{១} ជីកាបៃ",
-    "of {1} GB": "នៃ {1} ជីកាបៃ"
+    "of {1} GB": "នៃ {1} ជីកាបៃ",
+    "IMAP Upload (daily)": "ផ្ទុកឡើង IMAP (ប្រចាំថ្ងៃ)",
+    "POP3 Download (daily)": "ទាញយក POP3 (ប្រចាំថ្ងៃ)",
+    "IMAP Download (daily)": "ទាញយក IMAP (ប្រចាំថ្ងៃ)",
+    "daily": "រាល់ថ្ងៃ",
+    "of {1} messages": "នៃ {១} សារ",
+    "of {1} message": "នៃ {1} សារ",
+    "Received": "បានទទួល",
+    "by minute": "ដោយនាទី"
   },
   "kn": {
     "Inbox": "ಇನ್‌ಬಾಕ್ಸ್",
@@ -4321,7 +4689,15 @@
     "Storage": "ಸಂಗ್ರಹಣೆ",
     "POP3 Download": "POP3 ಡೌನ್‌ಲೋಡ್",
     "of {1} GB": "{1} ಜಿಬಿ",
-    "{1} GB": "{1} ಜಿಬಿ"
+    "{1} GB": "{1} ಜಿಬಿ",
+    "IMAP Download (daily)": "IMAP ಡೌನ್‌ಲೋಡ್ (ದೈನಂದಿನ)",
+    "POP3 Download (daily)": "POP3 ಡೌನ್‌ಲೋಡ್ (ದೈನಂದಿನ)",
+    "IMAP Upload (daily)": "IMAP ಅಪ್‌ಲೋಡ್ (ದೈನಂದಿನ)",
+    "daily": "ದೈನಂದಿನ",
+    "of {1} messages": "{1} ಸಂದೇಶಗಳಲ್ಲಿ",
+    "of {1} message": "{1} ಸಂದೇಶದ",
+    "Received": "ಸ್ವೀಕರಿಸಲಾಗಿದೆ",
+    "by minute": "ನಿಮಿಷದಿಂದ"
   },
   "ko": {
     "Inbox": "받은 편지함",
@@ -4413,7 +4789,15 @@
     "IMAP Upload": "IMAP 업로드",
     "POP3 Download": "POP3 다운로드",
     "of {1} GB": "{1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Upload (daily)": "IMAP 업로드 (매일)",
+    "IMAP Download (daily)": "IMAP 다운로드 (매일)",
+    "POP3 Download (daily)": "POP3 다운로드 (일일)",
+    "daily": "매일",
+    "of {1} messages": "{1} 메시지 중",
+    "of {1} message": "{1} 메시지 중",
+    "Received": "받았습니다",
+    "by minute": "분 단위"
   },
   "ku": {
     "Inbox": "Inbox",
@@ -4505,7 +4889,15 @@
     "IMAP Upload": "IMAP Barkirin",
     "POP3 Download": "Daxistin POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "ji {1} GB"
+    "of {1} GB": "ji {1} GB",
+    "IMAP Download (daily)": "Daxistina IMAP (rojane)",
+    "IMAP Upload (daily)": "IMAP Upload (rojane)",
+    "POP3 Download (daily)": "POP3 Daxistin (rojane)",
+    "daily": "rojane",
+    "of {1} messages": "ji peyamên {1",
+    "of {1} message": "peyama {1",
+    "by minute": "bi deqîqe",
+    "Received": "Hatiye wergirtin"
   },
   "ky": {
     "Inbox": "Кирүү кутусу",
@@ -4597,7 +4989,15 @@
     "Storage": "сактоочу жай",
     "POP3 Download": "POP3 Жүктөө",
     "{1} GB": "{1} ГБ",
-    "of {1} GB": "of {1} ГБ"
+    "of {1} GB": "of {1} ГБ",
+    "IMAP Upload (daily)": "IMAP жүктөө (күн сайын)",
+    "IMAP Download (daily)": "IMAP жүктөө (күн сайын)",
+    "POP3 Download (daily)": "POP3 Жүктөө (күн сайын)",
+    "daily": "күндө",
+    "of {1} messages": "билдирүүлөрүнүн {1}",
+    "Received": "кабыл алынган",
+    "of {1} message": "билдирүүсү {1}",
+    "by minute": "мүнөт менен"
   },
   "la": {
     "Inbox": "inbuxo",
@@ -4689,7 +5089,15 @@
     "IMAP Upload": "Index IMAP",
     "POP3 Download": "POP3 Download",
     "of {1} GB": "} {GB ex I",
-    "{1} GB": "{I} MB"
+    "{1} GB": "{I} MB",
+    "IMAP Upload (daily)": "Index IMAP (daily)",
+    "POP3 Download (daily)": "Download POP3 (daily)",
+    "IMAP Download (daily)": "Download IMAP (daily)",
+    "daily": "cotidie",
+    "of {1} message": "{est} I nuntius",
+    "of {1} messages": "{I} ex epistulae",
+    "by minute": "a minute",
+    "Received": "suscepit"
   },
   "lb": {
     "Inbox": "Inbox",
@@ -4781,7 +5189,15 @@
     "Storage": "Späicheren",
     "POP3 Download": "POP3 Luet",
     "{1} GB": "{1} GB",
-    "of {1} GB": "vun {1} GB"
+    "of {1} GB": "vun {1} GB",
+    "POP3 Download (daily)": "POP3 Eroflueden (deeglech)",
+    "IMAP Download (daily)": "IMAP Luet (deeglech)",
+    "IMAP Upload (daily)": "IMAP Eroplueden (deeglech)",
+    "daily": "deeglech",
+    "of {1} message": "vum {1} Message",
+    "of {1} messages": "vun {1} Messagen",
+    "Received": "Krut",
+    "by minute": "pa Minutt"
   },
   "lo": {
     "Inbox": "ກ່ອງຈົດ ໝາຍ",
@@ -4873,7 +5289,15 @@
     "Storage": "ບ່ອນເກັບມ້ຽນ",
     "POP3 Download": "POP3 ດາວໂຫລດ",
     "{1} GB": "{1} GB",
-    "of {1} GB": "ຂອງ {1} GB"
+    "of {1} GB": "ຂອງ {1} GB",
+    "IMAP Download (daily)": "ດາວໂຫລດ IMAP (ປະ ຈຳ ວັນ)",
+    "POP3 Download (daily)": "ດາວໂຫລດ POP3 (ປະ ຈຳ ວັນ)",
+    "IMAP Upload (daily)": "IMAP ອັບໂຫລດ (ປະ ຈຳ ວັນ)",
+    "daily": "ປະຈໍາວັນ",
+    "of {1} messages": "ຂອງ {1} ຂໍ້ຄວາມ",
+    "of {1} message": "ຂອງ {1} ຂໍ້ຄວາມ",
+    "by minute": "ໂດຍນາທີ",
+    "Received": "ໄດ້ຮັບ"
   },
   "lt": {
     "Inbox": "Pašto dėžutę",
@@ -4965,7 +5389,15 @@
     "IMAP Upload": "IMAP įkėlimas",
     "POP3 Download": "POP3 atsisiųsti",
     "{1} GB": "{1} GB",
-    "of {1} GB": "iš {1} GB"
+    "of {1} GB": "iš {1} GB",
+    "IMAP Download (daily)": "IMAP atsisiuntimas (kasdien)",
+    "IMAP Upload (daily)": "IMAP įkėlimas (kasdien)",
+    "POP3 Download (daily)": "POP3 atsisiųsti (kasdien)",
+    "daily": "kasdien",
+    "of {1} messages": "iš {1} pranešimų",
+    "of {1} message": "iš {1} pranešimo",
+    "Received": "Gauta",
+    "by minute": "per minutę"
   },
   "lv": {
     "Inbox": "Iesūtne",
@@ -5057,7 +5489,15 @@
     "Storage": "Uzglabāšana",
     "POP3 Download": "POP3 lejupielāde",
     "{1} GB": "{1} GB",
-    "of {1} GB": "no {1} GB"
+    "of {1} GB": "no {1} GB",
+    "IMAP Download (daily)": "IMAP lejupielāde (katru dienu)",
+    "IMAP Upload (daily)": "IMAP augšupielāde (katru dienu)",
+    "POP3 Download (daily)": "POP3 lejupielāde (katru dienu)",
+    "daily": "katru dienu",
+    "of {1} messages": "no {1} ziņojumiem",
+    "of {1} message": "no {1} ziņojuma",
+    "by minute": "pa minūti",
+    "Received": "Saņemts"
   },
   "mg": {
     "Inbox": "Inbox",
@@ -5149,7 +5589,15 @@
     "IMAP Download": "IMAP Download",
     "POP3 Download": "POP3 Download",
     "{1} GB": "{1} GB",
-    "of {1} GB": "amin'ny {1} GB"
+    "of {1} GB": "amin'ny {1} GB",
+    "IMAP Download (daily)": "Download IMAP (isan'andro)",
+    "IMAP Upload (daily)": "Upload IMAP (isan'andro)",
+    "POP3 Download (daily)": "Download POP3 (isan'andro)",
+    "daily": "isan'andro",
+    "of {1} messages": "amin'ny {1} hafatra",
+    "Received": "Received",
+    "of {1} message": "hafatra {1}",
+    "by minute": "amin'ny minitra"
   },
   "mi": {
     "Inbox": "Pouakahu",
@@ -5241,7 +5689,15 @@
     "IMAP Upload": "Tukunga IMAP",
     "POP3 Download": "POP3 Tango mai",
     "of {1} GB": "o {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "Tikiake IMAP (ra)",
+    "POP3 Download (daily)": "Tango POP3 (ra)",
+    "IMAP Upload (daily)": "Tukunga IMAP (ra)",
+    "daily": "ia rā",
+    "of {1} messages": "Tuhinga o mua",
+    "of {1} message": "Tuhinga o mua",
+    "by minute": "mā te meneti",
+    "Received": "Kua riro"
   },
   "mk": {
     "Inbox": "Инбокс",
@@ -5333,7 +5789,15 @@
     "IMAP Upload": "Поставете IMAP",
     "POP3 Download": "Преземи POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "од {1} GB"
+    "of {1} GB": "од {1} GB",
+    "IMAP Upload (daily)": "Внеси IMAP (дневно)",
+    "POP3 Download (daily)": "POP3 Преземање (дневно)",
+    "IMAP Download (daily)": "Преземање IMAP (дневно)",
+    "daily": "дневно",
+    "of {1} message": "од {1} порака",
+    "of {1} messages": "од {1} пораки",
+    "by minute": "од минута",
+    "Received": "Прими"
   },
   "ml": {
     "Inbox": "ഇൻ‌ബോക്സ്",
@@ -5425,7 +5889,15 @@
     "Storage": "സംഭരണം",
     "POP3 Download": "POP3 ഡൗൺലോഡ്",
     "{1} GB": "{1} GB",
-    "of {1} GB": "{1} GB"
+    "of {1} GB": "{1} GB",
+    "IMAP Download (daily)": "IMAP ഡൗൺലോഡ് (ദിവസേന)",
+    "IMAP Upload (daily)": "IMAP അപ്‌ലോഡ് (ദിവസേന)",
+    "POP3 Download (daily)": "POP3 ഡ Download ൺ‌ലോഡ് (ദിവസേന)",
+    "daily": "ദിവസേന",
+    "of {1} message": "{1} സന്ദേശത്തിന്റെ",
+    "of {1} messages": "{1} സന്ദേശങ്ങളുടെ",
+    "Received": "ലഭിച്ചു",
+    "by minute": "മിനിറ്റിൽ"
   },
   "mn": {
     "Inbox": "Ирсэн мэйл",
@@ -5517,7 +5989,15 @@
     "IMAP Upload": "IMAP Байршуулах",
     "POP3 Download": "POP3 татаж авах",
     "{1} GB": "{1} ГБ байна",
-    "of {1} GB": "нь {1} ГБ"
+    "of {1} GB": "нь {1} ГБ",
+    "IMAP Download (daily)": "IMAP татаж авах (өдөр бүр)",
+    "IMAP Upload (daily)": "IMAP Байршуулах (өдөр бүр)",
+    "POP3 Download (daily)": "POP3 татаж авах (өдөр бүр)",
+    "daily": "өдөр бүр",
+    "of {1} message": "{1} мессеж",
+    "of {1} messages": "{1} мессеж",
+    "by minute": "минутанд",
+    "Received": "Хүлээн авсан"
   },
   "mr": {
     "Inbox": "इनबॉक्स",
@@ -5609,7 +6089,15 @@
     "Storage": "साठवण",
     "POP3 Download": "पीओपी 3 डाउनलोड करा",
     "{1} GB": ". 1} जीबी",
-    "of {1} GB": "{1. जीबीचे"
+    "of {1} GB": "{1. जीबीचे",
+    "IMAP Download (daily)": "IMAP डाउनलोड (दररोज)",
+    "IMAP Upload (daily)": "आयएमएपी अपलोड (दररोज)",
+    "POP3 Download (daily)": "पीओपी 3 डाउनलोड (दररोज)",
+    "daily": "दररोज",
+    "Received": "मिळाले",
+    "of {1} messages": "{1} संदेशांचे",
+    "of {1} message": "{1} संदेशाचा",
+    "by minute": "मिनिटाने"
   },
   "ms": {
     "Inbox": "Peti Masuk",
@@ -5701,7 +6189,15 @@
     "IMAP Upload": "Muat Naik IMAP",
     "POP3 Download": "Muat turun POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "daripada {1} GB"
+    "of {1} GB": "daripada {1} GB",
+    "IMAP Download (daily)": "Muat turun IMAP (setiap hari)",
+    "IMAP Upload (daily)": "Muat Naik IMAP (setiap hari)",
+    "POP3 Download (daily)": "Muat turun POP3 (setiap hari)",
+    "daily": "setiap hari",
+    "of {1} messages": "daripada {1} mesej",
+    "of {1} message": "daripada {1} mesej",
+    "by minute": "demi minit",
+    "Received": "Menerima"
   },
   "mt": {
     "Inbox": "Inbox",
@@ -5793,7 +6289,15 @@
     "Storage": "Ħażna",
     "POP3 Download": "Niżżel POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "ta '{1} GB"
+    "of {1} GB": "ta '{1} GB",
+    "IMAP Upload (daily)": "Tella IMAP (kuljum)",
+    "POP3 Download (daily)": "Niżżel POP3 (kuljum)",
+    "IMAP Download (daily)": "Niżżel IMAP (kuljum)",
+    "daily": "kuljum",
+    "of {1} messages": "messaġġi ta '{1}",
+    "Received": "Waslu",
+    "of {1} message": "messaġġ ta '{1}",
+    "by minute": "bil-minuta"
   },
   "my": {
     "Inbox": "Inbox",
@@ -5885,7 +6389,15 @@
     "IMAP Upload": "IMAP တင်ပါ",
     "POP3 Download": "POP3 ဒေါင်းလုပ်",
     "of {1} GB": "{1} GB ကို၏",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "IMAP ဒေါင်းလုပ် (နေ့စဉ်)",
+    "IMAP Upload (daily)": "IMAP တင်ခြင်း (နေ့စဉ်)",
+    "POP3 Download (daily)": "POP3 ဒေါင်းလုပ် (နေ့စဉ်)",
+    "daily": "နေ့စဉ်",
+    "of {1} message": "{1} မက်ဆေ့ခ်ျကို၏",
+    "of {1} messages": "{1} မက်ဆေ့ခ်ျ၏",
+    "by minute": "တစ်မိနစ်",
+    "Received": "လက်ခံရရှိခဲ့သည်"
   },
   "ne": {
     "Inbox": "इनबक्स",
@@ -5977,7 +6489,15 @@
     "IMAP Upload": "IMAP अपलोड",
     "POP3 Download": "POP3 डाउनलोड गर्नुहोस्",
     "{1} GB": "{१} जीबी",
-    "of {1} GB": "{१} जीबीको"
+    "of {1} GB": "{१} जीबीको",
+    "IMAP Download (daily)": "IMAP डाउनलोड (दैनिक)",
+    "POP3 Download (daily)": "POP3 डाउनलोड (दैनिक)",
+    "IMAP Upload (daily)": "IMAP अपलोड (दैनिक)",
+    "daily": "दैनिक",
+    "of {1} message": "{1} सन्देश को",
+    "of {1} messages": "{1} सन्देशहरूको",
+    "Received": "प्राप्त भयो",
+    "by minute": "मिनेट द्वारा"
   },
   "nl": {
     "Inbox": "Postvak IN",
@@ -6069,7 +6589,15 @@
     "IMAP Download": "IMAP downloaden",
     "POP3 Download": "POP3 downloaden",
     "of {1} GB": "van {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Upload (daily)": "IMAP-upload (dagelijks)",
+    "IMAP Download (daily)": "IMAP-download (dagelijks)",
+    "POP3 Download (daily)": "POP3-download (dagelijks)",
+    "daily": "dagelijks",
+    "by minute": "per minuut",
+    "of {1} messages": "van {1} berichten",
+    "Received": "Ontvangen",
+    "of {1} message": "van {1} bericht"
   },
   "no": {
     "Inbox": "Innboks",
@@ -6161,7 +6689,15 @@
     "IMAP Upload": "IMAP-opplasting",
     "POP3 Download": "POP3 nedlasting",
     "{1} GB": "{1} GB",
-    "of {1} GB": "på {1} GB"
+    "of {1} GB": "på {1} GB",
+    "IMAP Upload (daily)": "IMAP-opplasting (daglig)",
+    "POP3 Download (daily)": "POP3-nedlasting (daglig)",
+    "IMAP Download (daily)": "IMAP-nedlasting (daglig)",
+    "daily": "daglig",
+    "of {1} messages": "av {1} meldinger",
+    "Received": "Mottatt",
+    "of {1} message": "av {1} melding",
+    "by minute": "etter minutt"
   },
   "ny": {
     "Inbox": "Makulidwe",
@@ -6253,7 +6789,15 @@
     "IMAP Download": "Tsitsani pa IMAP",
     "POP3 Download": "Tsitsani POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "ya {1} GB"
+    "of {1} GB": "ya {1} GB",
+    "IMAP Download (daily)": "Tsitsani IMAP (tsiku ndi tsiku)",
+    "IMAP Upload (daily)": "Kuyika kwa IMAP (tsiku ndi tsiku)",
+    "POP3 Download (daily)": "Tsitsani POP3 (tsiku ndi tsiku)",
+    "daily": "tsiku ndi tsiku",
+    "of {1} messages": "mwa mauthenga a {1}",
+    "by minute": "mwa mphindi",
+    "of {1} message": "wa {1} uthenga",
+    "Received": "Zalandiridwa"
   },
   "or": {
     "Inbox": "ଇନବକ୍ସ |",
@@ -6345,7 +6889,15 @@
     "Storage": "ଭଣ୍ଡାର",
     "POP3 Download": "POP3 ଡାଉନଲୋଡ୍ |",
     "of {1} GB": "{1} GB ର |",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "IMAP ଡାଉନଲୋଡ୍ (ଦ daily ନିକ)",
+    "IMAP Upload (daily)": "IMAP ଅପଲୋଡ୍ (ଦ daily ନିକ)",
+    "POP3 Download (daily)": "POP3 ଡାଉନଲୋଡ୍ (ଦ daily ନିକ)",
+    "daily": "ପ୍ରତିଦିନ |",
+    "of {1} messages": "{1} ସନ୍ଦେଶଗୁଡ଼ିକର |",
+    "by minute": "ମିନିଟ୍ ଦ୍ୱାରା",
+    "of {1} message": "{1} ସନ୍ଦେଶର |",
+    "Received": "ପ୍ରାପ୍ତ"
   },
   "pa": {
     "Inbox": "ਇਨਬਾਕਸ",
@@ -6437,7 +6989,15 @@
     "IMAP Upload": "IMAP ਅਪਲੋਡ",
     "POP3 Download": "ਪੀਓਪੀ 3 ਡਾ .ਨਲੋਡ ਕਰੋ",
     "{1} GB": "{1} ਜੀ.ਬੀ.",
-    "of {1} GB": "{1} ਜੀਬੀ ਦਾ"
+    "of {1} GB": "{1} ਜੀਬੀ ਦਾ",
+    "IMAP Upload (daily)": "IMAP ਅਪਲੋਡ (ਰੋਜ਼ਾਨਾ)",
+    "POP3 Download (daily)": "POP3 ਡਾਉਨਲੋਡ (ਰੋਜ਼ਾਨਾ)",
+    "IMAP Download (daily)": "IMAP ਡਾਉਨਲੋਡ (ਰੋਜ਼ਾਨਾ)",
+    "daily": "ਰੋਜ਼ਾਨਾ",
+    "of {1} messages": "ਦੇ {1} ਸੁਨੇਹੇ ਹਨ",
+    "of {1} message": "{1} ਸੁਨੇਹੇ ਦਾ",
+    "by minute": "ਮਿੰਟ ਦੁਆਰਾ",
+    "Received": "ਪ੍ਰਾਪਤ ਹੋਇਆ"
   },
   "pl": {
     "Inbox": "W pudełku",
@@ -6529,7 +7089,15 @@
     "IMAP Download": "Pobieranie IMAP",
     "POP3 Download": "Pobieranie POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "z {1} GB"
+    "of {1} GB": "z {1} GB",
+    "IMAP Upload (daily)": "Przesyłanie IMAP (codziennie)",
+    "IMAP Download (daily)": "Pobieranie IMAP (codziennie)",
+    "POP3 Download (daily)": "Pobieranie POP3 (codziennie)",
+    "daily": "codziennie",
+    "of {1} messages": "z {1} wiadomości",
+    "of {1} message": "wiadomości {1}",
+    "Received": "Odebrane",
+    "by minute": "za minutę"
   },
   "ps": {
     "Inbox": "Inbox",
@@ -6621,7 +7189,15 @@
     "IMAP Upload": "د IMAP اپلوډ",
     "POP3 Download": "POP3 ډاونلوډ",
     "{1} GB": "{1} GB",
-    "of {1} GB": "د {1} جی بی"
+    "of {1} GB": "د {1} جی بی",
+    "IMAP Download (daily)": "د IMAP ډاونلوډ (ورځنی)",
+    "IMAP Upload (daily)": "د IMAP اپلوډ (ورځنۍ)",
+    "POP3 Download (daily)": "POP3 ډاونلوډ (ورځنۍ)",
+    "daily": "هره ورځ",
+    "of {1} message": "د {1} پيغام",
+    "of {1} messages": "د {1} پیغامونو",
+    "by minute": "دقیقې لخوا",
+    "Received": "ترلاسه شوی"
   },
   "pt": {
     "Inbox": "Caixa de entrada",
@@ -6713,7 +7289,15 @@
     "IMAP Upload": "Upload IMAP",
     "POP3 Download": "Baixar POP3",
     "of {1} GB": "de {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "Download IMAP (diariamente)",
+    "IMAP Upload (daily)": "Upload IMAP (diário)",
+    "POP3 Download (daily)": "Download POP3 (diariamente)",
+    "daily": "diariamente",
+    "of {1} messages": "de {1} mensagens",
+    "Received": "Recebido",
+    "by minute": "por minuto",
+    "of {1} message": "de {1} mensagem"
   },
   "ro": {
     "Inbox": "Inbox",
@@ -6805,7 +7389,15 @@
     "IMAP Upload": "Încărcare IMAP",
     "POP3 Download": "Descărcare POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "din {1} GB"
+    "of {1} GB": "din {1} GB",
+    "POP3 Download (daily)": "Descărcare POP3 (zilnic)",
+    "IMAP Download (daily)": "Descărcare IMAP (zilnic)",
+    "IMAP Upload (daily)": "Încărcare IMAP (zilnic)",
+    "daily": "zilnic",
+    "of {1} messages": "din {1} mesaje",
+    "of {1} message": "din mesajul {1}",
+    "Received": "Primit",
+    "by minute": "la minut"
   },
   "ru": {
     "Inbox": "входящие",
@@ -6897,7 +7489,15 @@
     "IMAP Upload": "IMAP Загрузить",
     "POP3 Download": "POP3 Скачать",
     "{1} GB": "{1} ГБ",
-    "of {1} GB": "{1} ГБ"
+    "of {1} GB": "{1} ГБ",
+    "IMAP Download (daily)": "IMAP Скачать (ежедневно)",
+    "POP3 Download (daily)": "POP3 Скачать (ежедневно)",
+    "IMAP Upload (daily)": "Загрузка IMAP (ежедневно)",
+    "daily": "ежедневно",
+    "of {1} message": "из {1} сообщения",
+    "of {1} messages": "из {1} сообщений",
+    "Received": "Получил",
+    "by minute": "по минутам"
   },
   "rw": {
     "Inbox": "Inbox",
@@ -6989,7 +7589,15 @@
     "IMAP Download": "Gukuramo IMAP",
     "POP3 Download": "POP3 Gukuramo",
     "{1} GB": "{1} GB",
-    "of {1} GB": "ya {1} GB"
+    "of {1} GB": "ya {1} GB",
+    "IMAP Upload (daily)": "Gukuramo IMAP (buri munsi)",
+    "POP3 Download (daily)": "POP3 Gukuramo (buri munsi)",
+    "IMAP Download (daily)": "Gukuramo IMAP (buri munsi)",
+    "daily": "buri munsi",
+    "of {1} message": "ya {1} ubutumwa",
+    "of {1} messages": "ya {1} ubutumwa",
+    "Received": "Yakiriwe",
+    "by minute": "ku munota"
   },
   "sd": {
     "Inbox": "انباڪس",
@@ -7081,7 +7689,15 @@
     "IMAP Upload": "IMAP اپ لوڊ",
     "POP3 Download": "POP3 ڊائون لوڊ ڪريو",
     "{1} GB": "{1} جي بي",
-    "of {1} GB": "{1} GB جو"
+    "of {1} GB": "{1} GB جو",
+    "IMAP Upload (daily)": "IMAP اپ لوڊ (روزاني)",
+    "POP3 Download (daily)": "POP3 ڊائون لوڊ ڪريو (روزاني)",
+    "IMAP Download (daily)": "IMAP ڊائون لوڊ (روزاني)",
+    "daily": "روزانو",
+    "of {1} messages": "{1} پيغامن جو",
+    "of {1} message": "{1} پيغام جو",
+    "Received": "حاصل ڪيو",
+    "by minute": "منٽ کان"
   },
   "si": {
     "Inbox": "එන ලිපි",
@@ -7173,7 +7789,15 @@
     "IMAP Upload": "IMAP උඩුගත කිරීම",
     "POP3 Download": "POP3 බාගත කරන්න",
     "{1} GB": "{1} GB",
-    "of {1} GB": "{1} GB"
+    "of {1} GB": "{1} GB",
+    "IMAP Download (daily)": "IMAP බාගත කිරීම (දිනපතා)",
+    "POP3 Download (daily)": "POP3 බාගත කරන්න (දිනපතා)",
+    "IMAP Upload (daily)": "IMAP උඩුගත කිරීම (දිනපතා)",
+    "daily": "දිනපතා",
+    "of {1} messages": "of 1} පණිවිඩ",
+    "Received": "ලැබුණි",
+    "by minute": "විනාඩියෙන්",
+    "of {1} message": "{1} පණිවිඩයේ"
   },
   "sk": {
     "Inbox": "Doručená pošta",
@@ -7265,7 +7889,15 @@
     "IMAP Download": "Stiahnutie IMAP",
     "POP3 Download": "Stiahnutie POP3",
     "of {1} GB": "z {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Upload (daily)": "Nahrávanie IMAP (denne)",
+    "POP3 Download (daily)": "Stiahnutie POP3 (denne)",
+    "IMAP Download (daily)": "Stiahnutie IMAP (denne)",
+    "daily": "denná",
+    "of {1} message": "z {1} správy",
+    "of {1} messages": "z {1} správ",
+    "Received": "obdržané",
+    "by minute": "za minútu"
   },
   "sl": {
     "Inbox": "Prejeto",
@@ -7357,7 +7989,15 @@
     "Storage": "Skladiščenje",
     "POP3 Download": "Prenos POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "od {1} GB"
+    "of {1} GB": "od {1} GB",
+    "IMAP Download (daily)": "Prenos IMAP (dnevno)",
+    "POP3 Download (daily)": "Prenos POP3 (dnevno)",
+    "IMAP Upload (daily)": "Nalaganje IMAP (dnevno)",
+    "daily": "dnevno",
+    "of {1} message": "od {1} sporočila",
+    "of {1} messages": "od {1} sporočil",
+    "by minute": "za minuto",
+    "Received": "Prejeto"
   },
   "sm": {
     "Inbox": "Falevalu",
@@ -7449,7 +8089,15 @@
     "IMAP Download": "IMAP Sii mai",
     "POP3 Download": "Download POP3",
     "of {1} GB": "o le {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "IMAP Download (i aso uma)",
+    "IMAP Upload (daily)": "IMAP Upload (i aso uma)",
+    "POP3 Download (daily)": "POP3 Download (i aso uma)",
+    "daily": "i aso uma",
+    "Received": "Mauaina",
+    "of {1} messages": "o {1} feau",
+    "by minute": "i le minute",
+    "of {1} message": "o le {1} feʻau"
   },
   "sn": {
     "Inbox": "Inbox",
@@ -7541,7 +8189,15 @@
     "IMAP Upload": "IMAP Kurodha",
     "POP3 Download": "POP3 Download",
     "{1} GB": "{1} GB",
-    "of {1} GB": "ye {1} GB"
+    "of {1} GB": "ye {1} GB",
+    "IMAP Download (daily)": "IMAP Kurodha (zuva nezuva)",
+    "IMAP Upload (daily)": "IMAP Kurodha (zuva nezuva)",
+    "POP3 Download (daily)": "POP3 Kurodha (zuva nezuva)",
+    "daily": "zuva nezuva",
+    "of {1} message": "ye {1} meseji",
+    "of {1} messages": "ye {1} mameseji",
+    "Received": "Takatambirwa",
+    "by minute": "neminiti"
   },
   "so": {
     "Inbox": "Inbox",
@@ -7633,7 +8289,15 @@
     "IMAP Upload": "Soo dejinta IMAP",
     "POP3 Download": "Soo dejiso POP3",
     "of {1} GB": "ee {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "Soo dejinta IMAP (maalin kasta)",
+    "IMAP Upload (daily)": "Soo dejinta IMAP (maalin kasta)",
+    "POP3 Download (daily)": "Soo dejiso POP3 (maalin kasta)",
+    "daily": "maalin kasta",
+    "of {1} messages": "ee {1} farriimaha",
+    "of {1} message": "ee {1} farriinta",
+    "Received": "Helay",
+    "by minute": "daqiiqad"
   },
   "sq": {
     "Inbox": "Inbox",
@@ -7725,7 +8389,15 @@
     "IMAP Upload": "Ngarko IMAP",
     "POP3 Download": "Shkarkim POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "prej {1} GB"
+    "of {1} GB": "prej {1} GB",
+    "POP3 Download (daily)": "Shkarkim POP3 (çdo ditë)",
+    "IMAP Upload (daily)": "Ngarkimi IMAP (çdo ditë)",
+    "IMAP Download (daily)": "Shkarkim IMAP (çdo ditë)",
+    "daily": "i përditshëm",
+    "of {1} message": "me mesazh {1",
+    "Received": "marrë",
+    "of {1} messages": "me mesazhe {1",
+    "by minute": "për minutë"
   },
   "sr": {
     "Inbox": "Инбок",
@@ -7817,7 +8489,15 @@
     "IMAP Upload": "ИМАП уплоад",
     "POP3 Download": "ПОП3 Довнлоад",
     "of {1} GB": "од {1} ГБ",
-    "{1} GB": "{1} ГБ"
+    "{1} GB": "{1} ГБ",
+    "IMAP Upload (daily)": "Учитавање ИМАП-а (дневно)",
+    "IMAP Download (daily)": "Преузимање ИМАП-а (свакодневно)",
+    "POP3 Download (daily)": "Преузимање ПОП3 (свакодневно)",
+    "daily": "дневно",
+    "of {1} messages": "од {1} порука",
+    "Received": "Примљен",
+    "of {1} message": "од {1} поруке",
+    "by minute": "по минуту"
   },
   "st": {
     "Inbox": "Inbox",
@@ -7909,7 +8589,15 @@
     "Storage": "Boloka",
     "POP3 Download": "POP3 Khoasolla",
     "{1} GB": "{1} GB",
-    "of {1} GB": "ho {1} GB"
+    "of {1} GB": "ho {1} GB",
+    "IMAP Upload (daily)": "IMAP upload (letsatsi le letsatsi)",
+    "POP3 Download (daily)": "Khoele ea POP3 (ka mehla)",
+    "IMAP Download (daily)": "Khoele ea IMAP (letsatsi le letsatsi)",
+    "daily": "letsatsi le letsatsi",
+    "of {1} messages": "tsa melaetsa e {1}",
+    "of {1} message": "tsa {1} molaetsa",
+    "by minute": "ka motsotso",
+    "Received": "E amohetse"
   },
   "su": {
     "Inbox": "Koropak",
@@ -8001,7 +8689,15 @@
     "IMAP Upload": "Unggah IMAP",
     "POP3 Download": "Download POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "tina {1} GB"
+    "of {1} GB": "tina {1} GB",
+    "IMAP Download (daily)": "Unduh IMAP (unggal poé)",
+    "IMAP Upload (daily)": "Unggah IMAP (unggal poé)",
+    "POP3 Download (daily)": "Unduh POP3 (unggal poé)",
+    "daily": "sapopoe",
+    "of {1} message": "pesen {1}",
+    "of {1} messages": "tina {1} pesen",
+    "by minute": "ku menit",
+    "Received": "Ditampi"
   },
   "sv": {
     "Inbox": "Inkorg",
@@ -8093,7 +8789,15 @@
     "IMAP Download": "IMAP-nedladdning",
     "POP3 Download": "POP3 nedladdning",
     "{1} GB": "{1} GB",
-    "of {1} GB": "av {1} GB"
+    "of {1} GB": "av {1} GB",
+    "IMAP Download (daily)": "IMAP-nedladdning (dagligen)",
+    "IMAP Upload (daily)": "IMAP-överföring (dagligen)",
+    "POP3 Download (daily)": "POP3-nedladdning (dagligen)",
+    "daily": "dagligen",
+    "of {1} messages": "av {1} meddelanden",
+    "of {1} message": "av {1} meddelandet",
+    "Received": "Mottagen",
+    "by minute": "efter minut"
   },
   "sw": {
     "Inbox": "Kikasha",
@@ -8185,7 +8889,15 @@
     "IMAP Upload": "Upakiaji wa IMAP",
     "POP3 Download": "POP3 Pakua",
     "of {1} GB": "ya {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Upload (daily)": "Upakiaji wa IMAP (kila siku)",
+    "IMAP Download (daily)": "Upakuaji wa IMAP (kila siku)",
+    "POP3 Download (daily)": "Upakuaji wa POP3 (kila siku)",
+    "daily": "kila siku",
+    "of {1} messages": "ya {1} ujumbe",
+    "of {1} message": "ya {1} ujumbe",
+    "Received": "Imepokelewa",
+    "by minute": "kwa dakika"
   },
   "ta": {
     "Inbox": "உட்பெட்டி",
@@ -8277,7 +8989,15 @@
     "IMAP Download": "IMAP பதிவிறக்கம்",
     "POP3 Download": "POP3 பதிவிறக்கம்",
     "{1} GB": "{1} ஜிபி",
-    "of {1} GB": "{1} ஜிபி"
+    "of {1} GB": "{1} ஜிபி",
+    "IMAP Upload (daily)": "IMAP பதிவேற்றம் (தினசரி)",
+    "POP3 Download (daily)": "POP3 பதிவிறக்கம் (தினசரி)",
+    "IMAP Download (daily)": "IMAP பதிவிறக்கம் (தினசரி)",
+    "daily": "தினசரி",
+    "of {1} message": "{1} செய்தியின்",
+    "of {1} messages": "{1} செய்திகளில்",
+    "by minute": "நிமிடத்தில்",
+    "Received": "பெறப்பட்டது"
   },
   "te": {
     "Inbox": "ఇన్బాక్స్",
@@ -8369,7 +9089,15 @@
     "IMAP Upload": "IMAP అప్‌లోడ్",
     "POP3 Download": "POP3 డౌన్‌లోడ్",
     "{1} GB": "{1} GB",
-    "of {1} GB": "{1} GB"
+    "of {1} GB": "{1} GB",
+    "IMAP Upload (daily)": "IMAP అప్‌లోడ్ (రోజువారీ)",
+    "IMAP Download (daily)": "IMAP డౌన్‌లోడ్ (రోజువారీ)",
+    "POP3 Download (daily)": "POP3 డౌన్‌లోడ్ (రోజువారీ)",
+    "daily": "రోజువారీ",
+    "Received": "అందుకుంది",
+    "by minute": "నిమిషానికి",
+    "of {1} message": "{1} సందేశం",
+    "of {1} messages": "{1} సందేశాలలో"
   },
   "tg": {
     "Inbox": "Қуттии",
@@ -8461,7 +9189,15 @@
     "IMAP Upload": "Боркунии IMAP",
     "POP3 Download": "POP3 зеркашӣ",
     "{1} GB": "{1} ГБ",
-    "of {1} GB": "аз {1} ГБ"
+    "of {1} GB": "аз {1} ГБ",
+    "POP3 Download (daily)": "Зеркашии POP3 (ҳаррӯза)",
+    "IMAP Download (daily)": "Бор кардани IMAP (ҳар рӯз)",
+    "IMAP Upload (daily)": "Боркунии IMAP (рӯзона)",
+    "daily": "ҳаррӯза",
+    "of {1} message": "аз {1} паём",
+    "of {1} messages": "аз паёмҳои {1}",
+    "Received": "Гирифтанд",
+    "by minute": "бо дақиқа"
   },
   "th": {
     "Inbox": "กล่องขาเข้า",
@@ -8553,7 +9289,15 @@
     "IMAP Upload": "การอัปโหลด IMAP",
     "POP3 Download": "ดาวน์โหลด POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "จาก {1} GB"
+    "of {1} GB": "จาก {1} GB",
+    "IMAP Upload (daily)": "การอัปโหลด IMAP (รายวัน)",
+    "IMAP Download (daily)": "ดาวน์โหลด IMAP (รายวัน)",
+    "POP3 Download (daily)": "ดาวน์โหลด POP3 (รายวัน)",
+    "daily": "ประจำวัน",
+    "of {1} message": "จาก {1} ข้อความ",
+    "of {1} messages": "จาก {1} ข้อความ",
+    "by minute": "โดยนาที",
+    "Received": "ที่ได้รับ"
   },
   "tk": {
     "Inbox": "Gelýän bukja",
@@ -8645,7 +9389,15 @@
     "Storage": "Saklamak",
     "POP3 Download": "POP3 göçürip al",
     "{1} GB": "{1} GB",
-    "of {1} GB": "{1} GB"
+    "of {1} GB": "{1} GB",
+    "IMAP Upload (daily)": "IMAP ýüklemek (gündelik)",
+    "IMAP Download (daily)": "IMAP göçürip almak (gündelik)",
+    "POP3 Download (daily)": "POP3 göçürip alyň (gündelik)",
+    "daily": "her gün",
+    "of {1} messages": "{1} habarlardan",
+    "by minute": "minutda",
+    "Received": "Alnan",
+    "of {1} message": "{1} habary"
   },
   "tl": {
     "Inbox": "Inbox",
@@ -8737,7 +9489,15 @@
     "IMAP Upload": "I-upload ang IMAP",
     "POP3 Download": "I-download ang POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "ng {1} GB"
+    "of {1} GB": "ng {1} GB",
+    "POP3 Download (daily)": "I-download ang POP3 (araw-araw)",
+    "IMAP Upload (daily)": "I-upload ang IMAP (araw-araw)",
+    "IMAP Download (daily)": "I-download ang IMAP (araw-araw)",
+    "daily": "araw-araw",
+    "of {1} message": "ng {1} mensahe",
+    "of {1} messages": "ng {1} na mensahe",
+    "Received": "Natanggap",
+    "by minute": "sa pamamagitan ng minuto"
   },
   "tr": {
     "Inbox": "Gelen kutusu",
@@ -8829,7 +9589,15 @@
     "IMAP Upload": "IMAP Yüklemesi",
     "POP3 Download": "POP3 İndir",
     "of {1} GB": "{1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Upload (daily)": "IMAP Yüklemesi (günlük)",
+    "IMAP Download (daily)": "IMAP İndirme (günlük)",
+    "POP3 Download (daily)": "POP3 İndir (günlük)",
+    "daily": "günlük",
+    "of {1} message": "{1} iletiden",
+    "of {1} messages": "{1} mesajdan",
+    "by minute": "dakikaya kadar",
+    "Received": "Alınan"
   },
   "tt": {
     "Inbox": "Керү",
@@ -8921,7 +9689,15 @@
     "IMAP Upload": "IMAP йөкләү",
     "POP3 Download": "POP3 Йөкләү",
     "{1} GB": "{1} ГБ",
-    "of {1} GB": "{1} ГБ"
+    "of {1} GB": "{1} ГБ",
+    "IMAP Download (daily)": "IMAP йөкләү (көндәлек)",
+    "IMAP Upload (daily)": "IMAP йөкләү (көндәлек)",
+    "POP3 Download (daily)": "POP3 йөкләү (көн саен)",
+    "daily": "көн саен",
+    "of {1} message": "{1} хәбәр",
+    "of {1} messages": "{1} хәбәрләр",
+    "Received": "Кабул ителде",
+    "by minute": "минутка"
   },
   "ug": {
     "Inbox": "خەت ساندۇقى",
@@ -9013,7 +9789,15 @@
     "Storage": "ساقلاش",
     "POP3 Download": "POP3 چۈشۈرۈش",
     "of {1} GB": "of 1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "IMAP چۈشۈرۈش (كۈندىلىك)",
+    "IMAP Upload (daily)": "IMAP يۈكلەش (كۈندىلىك)",
+    "POP3 Download (daily)": "POP3 چۈشۈرۈش (كۈندىلىك)",
+    "daily": "ھەر كۈنى",
+    "of {1} messages": "of {1} ئۇچۇرلىرى",
+    "of {1} message": "of {1} ئۇچۇر",
+    "Received": "قوبۇل قىلىندى",
+    "by minute": "by minute"
   },
   "uk": {
     "Inbox": "Вхідні",
@@ -9105,7 +9889,15 @@
     "Storage": "Зберігання",
     "POP3 Download": "Завантажити POP3",
     "{1} GB": "{1} Гб",
-    "of {1} GB": "від {1} Гб"
+    "of {1} GB": "від {1} Гб",
+    "IMAP Upload (daily)": "Завантаження IMAP (щодня)",
+    "IMAP Download (daily)": "Завантажити IMAP (щодня)",
+    "POP3 Download (daily)": "Завантаження POP3 (щодня)",
+    "daily": "щодня",
+    "of {1} message": "повідомлення {1}",
+    "of {1} messages": "з {1} повідомлень",
+    "by minute": "за хвилиною",
+    "Received": "Отримано"
   },
   "ur": {
     "Inbox": "ان باکس",
@@ -9197,7 +9989,15 @@
     "IMAP Download": "IMAP ڈاؤن لوڈ کریں",
     "POP3 Download": "POP3 ڈاؤن لوڈ",
     "of {1} GB": "{1} GB کا",
-    "{1} GB": "{1} جی بی"
+    "{1} GB": "{1} جی بی",
+    "POP3 Download (daily)": "POP3 ڈاؤن لوڈ (روزانہ)",
+    "IMAP Upload (daily)": "IMAP اپ لوڈ (روزانہ)",
+    "IMAP Download (daily)": "IMAP ڈاؤن لوڈ (روزانہ)",
+    "daily": "روزانہ",
+    "of {1} messages": "{1} پیغامات کا",
+    "of {1} message": "{1} پیغام کا",
+    "Received": "موصول ہوا",
+    "by minute": "منٹ سے"
   },
   "uz": {
     "Inbox": "Xabarlar qutisi",
@@ -9289,7 +10089,15 @@
     "Storage": "Saqlash",
     "POP3 Download": "POP3 yuklab olish",
     "{1} GB": "{1} GB",
-    "of {1} GB": "{1} GB"
+    "of {1} GB": "{1} GB",
+    "IMAP Upload (daily)": "IMAP yuklash (har kuni)",
+    "POP3 Download (daily)": "POP3 yuklab olish (har kuni)",
+    "IMAP Download (daily)": "IMAP yuklab olish (har kuni)",
+    "daily": "kunlik",
+    "of {1} messages": "{1} xabarlaridan",
+    "Received": "Qabul qildi",
+    "of {1} message": "{1} habaridan",
+    "by minute": "daqiqada"
   },
   "vi": {
     "Inbox": "Hộp thư đến",
@@ -9381,7 +10189,15 @@
     "IMAP Download": "Tải xuống IMAP",
     "POP3 Download": "Tải xuống POP3",
     "of {1} GB": "của {1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Upload (daily)": "Tải lên IMAP (hàng ngày)",
+    "POP3 Download (daily)": "Tải xuống POP3 (hàng ngày)",
+    "IMAP Download (daily)": "Tải xuống IMAP (hàng ngày)",
+    "daily": "hằng ngày",
+    "Received": "Nhận",
+    "of {1} messages": "trong số {1} tin nhắn",
+    "by minute": "theo phút",
+    "of {1} message": "của {1} tin nhắn"
   },
   "xh": {
     "Inbox": "Inbox",
@@ -9473,7 +10289,15 @@
     "IMAP Download": "Ukhuphelo lwe-IMAP",
     "POP3 Download": "POP3 Khuphela",
     "{1} GB": "{1} GB",
-    "of {1} GB": "ye {1} GB"
+    "of {1} GB": "ye {1} GB",
+    "IMAP Download (daily)": "Ukhuphelo lwe-IMAP (mihla le)",
+    "IMAP Upload (daily)": "Ukufakwa kwe-IMAP (yonke imihla)",
+    "POP3 Download (daily)": "Ukhuphelo lwe-POP3 (mihla le)",
+    "daily": "mihla le",
+    "of {1} messages": "yemiyalezo eyi- (1)",
+    "by minute": "ngomzuzu",
+    "Received": "Ifunyenwe",
+    "of {1} message": "yomyalezo {1}"
   },
   "yi": {
     "Inbox": "Inbox",
@@ -9565,7 +10389,15 @@
     "IMAP Upload": "IMAP צופֿעליקער",
     "POP3 Download": "POP3 אראפקאפיע",
     "{1} GB": "{1} גיגאבייט",
-    "of {1} GB": "פון {1} גיגאבייט"
+    "of {1} GB": "פון {1} גיגאבייט",
+    "IMAP Download (daily)": "IMAP אראפקאפיע (טעגלעך)",
+    "IMAP Upload (daily)": "IMAP צופֿעליקער (טעגלעך)",
+    "POP3 Download (daily)": "POP3 אראפקאפיע (טעגלעך)",
+    "daily": "טעגלעך",
+    "of {1} messages": "פון {1} אַרטיקלען",
+    "by minute": "דורך מינוט",
+    "of {1} message": "פון {1} אָנזאָג",
+    "Received": "באקומען"
   },
   "yo": {
     "Inbox": "Apo-iwọle",
@@ -9657,7 +10489,15 @@
     "IMAP Upload": "Ifiranṣẹ IMAP",
     "POP3 Download": "Gbigba lati ayelujara POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "ti {1} GB"
+    "of {1} GB": "ti {1} GB",
+    "IMAP Download (daily)": "Igbasilẹ IMAP (lojoojumọ)",
+    "POP3 Download (daily)": "Ṣe igbasilẹ POP3 (lojoojumọ)",
+    "IMAP Upload (daily)": "Po si IMAP (ojoojumọ)",
+    "daily": "ojoojumo",
+    "of {1} messages": "ti {1} awọn ifiranṣẹ",
+    "Received": "Gba",
+    "of {1} message": "ti ifiranṣẹ {1}",
+    "by minute": "nipa iseju"
   },
   "zh-TW": {
     "Inbox": "收件箱",
@@ -9749,7 +10589,15 @@
     "IMAP Upload": "IMAP上傳",
     "POP3 Download": "POP3下載",
     "of {1} GB": "{1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "IMAP下載（每日）",
+    "POP3 Download (daily)": "POP3下載（每日）",
+    "IMAP Upload (daily)": "IMAP上傳（每天）",
+    "daily": "日常",
+    "of {1} messages": "{1}條消息中",
+    "of {1} message": "的{1}條消息",
+    "Received": "已收到",
+    "by minute": "按分鐘"
   },
   "zh": {
     "Inbox": "收件箱",
@@ -9841,7 +10689,15 @@
     "IMAP Upload": "IMAP上传",
     "POP3 Download": "POP3下载",
     "of {1} GB": "{1} GB",
-    "{1} GB": "{1} GB"
+    "{1} GB": "{1} GB",
+    "IMAP Download (daily)": "IMAP下载（每日）",
+    "IMAP Upload (daily)": "IMAP上传（每天）",
+    "POP3 Download (daily)": "POP3下载（每日）",
+    "daily": "日常",
+    "of {1} messages": "{1}条消息中",
+    "Received": "已收到",
+    "of {1} message": "的{1}条消息",
+    "by minute": "按分钟"
   },
   "zu": {
     "Inbox": "Ibhokisi lokungenayo",
@@ -9933,6 +10789,14 @@
     "IMAP Upload": "Ukulayisha kwe-IMAP",
     "POP3 Download": "Ukulanda i-POP3",
     "{1} GB": "{1} GB",
-    "of {1} GB": "ka - 1 1 GB"
+    "of {1} GB": "ka - 1 1 GB",
+    "IMAP Download (daily)": "Ukulanda kwe-IMAP (nsuku zonke)",
+    "IMAP Upload (daily)": "Ukulayisha kwe-IMAP (nsuku zonke)",
+    "POP3 Download (daily)": "Ukulanda kwe-POP3 (nsuku zonke)",
+    "daily": "nsuku zonke",
+    "of {1} messages": "yemilayezo engu- {1}",
+    "by minute": "ngomzuzu",
+    "of {1} message": "komyalezo {1}",
+    "Received": "Kwamukelwe"
   }
 }

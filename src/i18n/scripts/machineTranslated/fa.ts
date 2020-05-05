@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} گیگابایت",
       "gbTotal": "از {gb} گیگابایت",
+      "messagesUsed": [
+        "{n} پیام",
+        "{n} پیام",
+        "{n} پیام"
+      ],
+      "messagesTotal": [
+        "از پیام {1",
+        "پیام 1 {",
+        "از پیام {1"
+      ],
       "storage": {
         "title": "ذخیره سازی"
       },
       "imapDownload": {
-        "title": "بارگیری IMAP"
+        "title": "بارگیری IMAP",
+        "comment": "روزانه"
       },
       "imapUpload": {
-        "title": "آپلود IMAP"
+        "title": "آپلود IMAP",
+        "comment": "روزانه"
       },
       "pop3Download": {
-        "title": "بارگیری POP3"
+        "title": "بارگیری POP3",
+        "comment": "روزانه"
+      },
+      "received": {
+        "title": "اخذ شده",
+        "comment": "دقیقه"
+      },
+      "recipients": {
+        "title": "ارسال شد",
+        "comment": "روزانه"
       }
     }
   }

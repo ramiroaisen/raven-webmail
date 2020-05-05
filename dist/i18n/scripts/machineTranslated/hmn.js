@@ -140,17 +140,38 @@ const locale = {
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "ntawm {gb} GB",
+            "messagesUsed": [
+                "{n} xov",
+                "{n} xov",
+                "{n} xov"
+            ],
+            "messagesTotal": [
+                "ntawm {n} xov",
+                "ntawm {n} xov",
+                "ntawm {n} xov"
+            ],
             "storage": {
                 "title": "Cia"
             },
             "imapDownload": {
-                "title": "IMAP rub"
+                "title": "IMAP rub",
+                "comment": "txhua hnub"
             },
             "imapUpload": {
-                "title": "IMAP Upload"
+                "title": "IMAP Upload",
+                "comment": "txhua hnub"
             },
             "pop3Download": {
-                "title": "POP3 Rub"
+                "title": "POP3 Rub",
+                "comment": "txhua hnub"
+            },
+            "received": {
+                "title": "Tau Txais",
+                "comment": "los ntawm feeb"
+            },
+            "recipients": {
+                "title": "Xa",
+                "comment": "txhua hnub"
             }
         }
     }

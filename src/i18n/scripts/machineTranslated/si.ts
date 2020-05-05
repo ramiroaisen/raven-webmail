@@ -140,17 +140,38 @@ const locale: Locale = {
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "{gb} GB",
+      "messagesUsed": [
+        "{n} පණිවිඩ",
+        "{n} පණිවිඩය",
+        "{n} පණිවිඩ"
+      ],
+      "messagesTotal": [
+        "of 1} පණිවිඩ",
+        "{n} පණිවිඩයේ",
+        "of 1} පණිවිඩ"
+      ],
       "storage": {
         "title": "ගබඞා"
       },
       "imapDownload": {
-        "title": "IMAP බාගත කිරීම"
+        "title": "IMAP බාගත කිරීම",
+        "comment": "දිනපතා"
       },
       "imapUpload": {
-        "title": "IMAP උඩුගත කිරීම"
+        "title": "IMAP උඩුගත කිරීම",
+        "comment": "දිනපතා"
       },
       "pop3Download": {
-        "title": "POP3 බාගත කරන්න"
+        "title": "POP3 බාගත කරන්න",
+        "comment": "දිනපතා"
+      },
+      "received": {
+        "title": "ලැබුණි",
+        "comment": "විනාඩියෙන්"
+      },
+      "recipients": {
+        "title": "යවන ලදි",
+        "comment": "දිනපතා"
       }
     }
   }
