@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Hasabyňyzdan çykyň"
+    "logout": "Hasabyňyzdan çykyň",
+    "myAccount": "Hasabym"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Papkanyň ady",
       "accept": "Dörediň",
       "cancel": "Elatyr"
+    }
+  },
+  "myAccount": {
+    "title": "Hasabym",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "{gb} GB",
+      "storage": {
+        "title": "Saklamak"
+      },
+      "imapDownload": {
+        "title": "IMAP ýüklemek"
+      },
+      "imapUpload": {
+        "title": "IMAP ýüklemek"
+      },
+      "pop3Download": {
+        "title": "POP3 göçürip al"
+      }
     }
   }
 };

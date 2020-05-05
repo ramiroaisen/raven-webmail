@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Hasi saioa"
+    "logout": "Hasi saioa",
+    "myAccount": "Nire kontua"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Karpetaren izena",
       "accept": "Sortu",
       "cancel": "Utzi"
+    }
+  },
+  "myAccount": {
+    "title": "Nire kontua",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "de {gb} GB",
+      "storage": {
+        "title": "Biltegiratzea"
+      },
+      "imapDownload": {
+        "title": "IMAP deskargatzea"
+      },
+      "imapUpload": {
+        "title": "IMAP igoera"
+      },
+      "pop3Download": {
+        "title": "POP3 Deskargatu"
+      }
     }
   }
 };

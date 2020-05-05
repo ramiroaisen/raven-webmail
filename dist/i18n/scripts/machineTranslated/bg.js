@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Отписване"
+        "logout": "Отписване",
+        "myAccount": "Моята сметка"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Име на папка",
             "accept": "създавам",
             "cancel": "Отказ"
+        }
+    },
+    "myAccount": {
+        "title": "Моята сметка",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "от {gb} GB",
+            "storage": {
+                "title": "съхранение"
+            },
+            "imapDownload": {
+                "title": "IMAP изтегляне"
+            },
+            "imapUpload": {
+                "title": "IMAP качване"
+            },
+            "pop3Download": {
+                "title": "POP3 Изтегляне"
+            }
         }
     }
 };

@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Kijelentkezés"
+    "logout": "Kijelentkezés",
+    "myAccount": "Az én fiókom"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Mappa neve",
       "accept": "teremt",
       "cancel": "Megszünteti"
+    }
+  },
+  "myAccount": {
+    "title": "Az én fiókom",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "{gb} GB",
+      "storage": {
+        "title": "Tárolás"
+      },
+      "imapDownload": {
+        "title": "IMAP letöltés"
+      },
+      "imapUpload": {
+        "title": "IMAP feltöltés"
+      },
+      "pop3Download": {
+        "title": "POP3 letöltése"
+      }
     }
   }
 };

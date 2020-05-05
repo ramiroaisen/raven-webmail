@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "登出"
+    "logout": "登出",
+    "myAccount": "我的帐户"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "文件夹名称",
       "accept": "创建",
       "cancel": "取消"
+    }
+  },
+  "myAccount": {
+    "title": "我的帐户",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "{gb} GB",
+      "storage": {
+        "title": "存储"
+      },
+      "imapDownload": {
+        "title": "IMAP下载"
+      },
+      "imapUpload": {
+        "title": "IMAP上传"
+      },
+      "pop3Download": {
+        "title": "POP3下载"
+      }
     }
   }
 };

@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "hivoaka"
+    "logout": "hivoaka",
+    "myAccount": "Ny kaontiko"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      "hafatra",
-      "hafatra",
-      "hafatra"
+      "{n} hafatra",
+      "Hafatra 1",
+      "{n} hafatra"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Anaran'ny folder",
       "accept": "mamorona",
       "cancel": "hanafoana"
+    }
+  },
+  "myAccount": {
+    "title": "Ny kaontiko",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "amin'ny {gb} GB",
+      "storage": {
+        "title": "Storage"
+      },
+      "imapDownload": {
+        "title": "IMAP Download"
+      },
+      "imapUpload": {
+        "title": "IMAP Upload"
+      },
+      "pop3Download": {
+        "title": "POP3 Download"
+      }
     }
   }
 };

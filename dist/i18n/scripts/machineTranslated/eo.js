@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Elsaluti"
+        "logout": "Elsaluti",
+        "myAccount": "Mia konto"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Nomo de dosierujo",
             "accept": "Krei",
             "cancel": "Nuligi"
+        }
+    },
+    "myAccount": {
+        "title": "Mia konto",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "de {gb} GB",
+            "storage": {
+                "title": "Stokado"
+            },
+            "imapDownload": {
+                "title": "Elŝuta IMAP"
+            },
+            "imapUpload": {
+                "title": "Alŝuto de IMAP"
+            },
+            "pop3Download": {
+                "title": "Elŝuti POP3"
+            }
         }
     }
 };

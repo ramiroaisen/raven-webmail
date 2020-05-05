@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Soidhnig a-mach"
+        "logout": "Soidhnig a-mach",
+        "myAccount": "Mo chunntas"
     },
     "compose": {
         "labels": {
@@ -74,7 +75,7 @@ const locale = {
     "selection": {
         "title": [
             "{n} teachdaireachdan",
-            "teachdaireachd {n}",
+            "{n} teachdaireachd",
             "{n} teachdaireachdan"
         ]
     },
@@ -132,6 +133,25 @@ const locale = {
             "label": "Ainm fillte",
             "accept": "Cruthaich",
             "cancel": "Sguir dheth"
+        }
+    },
+    "myAccount": {
+        "title": "Mo chunntas",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "de {gb} GB",
+            "storage": {
+                "title": "Stòradh"
+            },
+            "imapDownload": {
+                "title": "Luchdaich sìos IMAP"
+            },
+            "imapUpload": {
+                "title": "Luchdaich suas IMAP"
+            },
+            "pop3Download": {
+                "title": "Luchdaich sìos POP3"
+            }
         }
     }
 };

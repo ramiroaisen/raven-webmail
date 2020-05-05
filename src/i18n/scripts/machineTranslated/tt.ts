@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Чыгарга"
+    "logout": "Чыгарга",
+    "myAccount": "Минем хисап язма"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Папка исеме",
       "accept": "Ярат",
       "cancel": "Баш тарту"
+    }
+  },
+  "myAccount": {
+    "title": "Минем хисап язма",
+    "limits": {
+      "gbUsed": "{gb} ГБ",
+      "gbTotal": "{gb} ГБ",
+      "storage": {
+        "title": "Саклау"
+      },
+      "imapDownload": {
+        "title": "IMAP йөкләү"
+      },
+      "imapUpload": {
+        "title": "IMAP йөкләү"
+      },
+      "pop3Download": {
+        "title": "POP3 Йөкләү"
+      }
     }
   }
 };

@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "وتون"
+    "logout": "وتون",
+    "myAccount": "زما حساب"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      "} n} پېغامونه",
-      "n} پيغام",
-      "} n} پېغامونه"
+      "{n} پېغامونه",
+      "{n} پیغام",
+      "{n} پېغامونه"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "د پوښی نوم",
       "accept": "جوړول",
       "cancel": "لغوه کول"
+    }
+  },
+  "myAccount": {
+    "title": "زما حساب",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "د {gb} جی بی",
+      "storage": {
+        "title": "زېرمه"
+      },
+      "imapDownload": {
+        "title": "IMAP ډاونلوډ"
+      },
+      "imapUpload": {
+        "title": "د IMAP اپلوډ"
+      },
+      "pop3Download": {
+        "title": "POP3 ډاونلوډ"
+      }
     }
   }
 };

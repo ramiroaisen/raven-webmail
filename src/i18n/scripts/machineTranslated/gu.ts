@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "સાઇન આઉટ"
+    "logout": "સાઇન આઉટ",
+    "myAccount": "મારું ખાતું"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      ". n} સંદેશા",
-      ". n} સંદેશ",
-      ". n} સંદેશા"
+      "{n} સંદેશા",
+      "{n} સંદેશ",
+      "{n} સંદેશા"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "ફોલ્ડર નામ",
       "accept": "બનાવો",
       "cancel": "રદ કરો"
+    }
+  },
+  "myAccount": {
+    "title": "મારું ખાતું",
+    "limits": {
+      "gbUsed": ". 1} જીબી",
+      "gbTotal": "{gb} જીબી",
+      "storage": {
+        "title": "સંગ્રહ"
+      },
+      "imapDownload": {
+        "title": "IMAP ડાઉનલોડ કરો"
+      },
+      "imapUpload": {
+        "title": "IMAP અપલોડ"
+      },
+      "pop3Download": {
+        "title": "પીઓપી 3 ડાઉનલોડ કરો"
+      }
     }
   }
 };

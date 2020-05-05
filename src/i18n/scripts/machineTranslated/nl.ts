@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Afmelden"
+    "logout": "Afmelden",
+    "myAccount": "Mijn rekening"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Naam van de map",
       "accept": "Creëer",
       "cancel": "annuleren"
+    }
+  },
+  "myAccount": {
+    "title": "Mijn rekening",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "van {gb} GB",
+      "storage": {
+        "title": "Opslag"
+      },
+      "imapDownload": {
+        "title": "IMAP downloaden"
+      },
+      "imapUpload": {
+        "title": "IMAP-upload"
+      },
+      "pop3Download": {
+        "title": "POP3 downloaden"
+      }
     }
   }
 };

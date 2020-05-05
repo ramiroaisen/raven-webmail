@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "چېكىنىش"
+        "logout": "چېكىنىش",
+        "myAccount": "ھېساباتىم"
     },
     "compose": {
         "labels": {
@@ -73,9 +74,9 @@ const locale = {
     },
     "selection": {
         "title": [
-            "{n} ئۇچۇرلىرى",
             "{n} ئۇچۇر",
-            "{n} ئۇچۇرلىرى"
+            "{n} ئۇچۇر",
+            "{n} ئۇچۇر"
         ]
     },
     "actions": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "ھۆججەت قىسقۇچنىڭ ئىسمى",
             "accept": "قۇرۇش",
             "cancel": "بىكار قىلىش"
+        }
+    },
+    "myAccount": {
+        "title": "ھېساباتىم",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "of 1} GB",
+            "storage": {
+                "title": "ساقلاش"
+            },
+            "imapDownload": {
+                "title": "IMAP چۈشۈرۈش"
+            },
+            "imapUpload": {
+                "title": "IMAP يۈكلەش"
+            },
+            "pop3Download": {
+                "title": "POP3 چۈشۈرۈش"
+            }
         }
     }
 };

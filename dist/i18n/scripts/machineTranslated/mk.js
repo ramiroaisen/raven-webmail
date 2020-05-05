@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Одјави се"
+        "logout": "Одјави се",
+        "myAccount": "Мојот акаунт"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Име на папка",
             "accept": "Креирај",
             "cancel": "Откажи"
+        }
+    },
+    "myAccount": {
+        "title": "Мојот акаунт",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "од {gb} GB",
+            "storage": {
+                "title": "Складирање"
+            },
+            "imapDownload": {
+                "title": "Преземање IMAP"
+            },
+            "imapUpload": {
+                "title": "Поставете IMAP"
+            },
+            "pop3Download": {
+                "title": "Преземи POP3"
+            }
         }
     }
 };

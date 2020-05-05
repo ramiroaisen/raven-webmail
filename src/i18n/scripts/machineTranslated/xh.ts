@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Phuma"
+    "logout": "Phuma",
+    "myAccount": "I-akhawunti yam"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Igama lefolda",
       "accept": "Yenza",
       "cancel": "Rhoxisa"
+    }
+  },
+  "myAccount": {
+    "title": "I-akhawunti yam",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "ye {gb} GB",
+      "storage": {
+        "title": "Ukugcina"
+      },
+      "imapDownload": {
+        "title": "Ukhuphelo lwe-IMAP"
+      },
+      "imapUpload": {
+        "title": "Ukulayisha kwe-IMAP"
+      },
+      "pop3Download": {
+        "title": "POP3 Khuphela"
+      }
     }
   }
 };

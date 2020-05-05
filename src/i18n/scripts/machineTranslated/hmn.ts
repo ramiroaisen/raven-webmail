@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Sau npe tawm"
+    "logout": "Sau npe tawm",
+    "myAccount": "Kuv tus lej"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Cim npe",
       "accept": "Tsim",
       "cancel": "Ntawv cia Suam teb"
+    }
+  },
+  "myAccount": {
+    "title": "Kuv tus lej",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "ntawm {gb} GB",
+      "storage": {
+        "title": "Cia"
+      },
+      "imapDownload": {
+        "title": "IMAP rub"
+      },
+      "imapUpload": {
+        "title": "IMAP Upload"
+      },
+      "pop3Download": {
+        "title": "POP3 Rub"
+      }
     }
   }
 };

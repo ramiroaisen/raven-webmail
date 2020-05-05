@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Выйсці"
+        "logout": "Выйсці",
+        "myAccount": "Мой рахунак"
     },
     "compose": {
         "labels": {
@@ -73,9 +74,9 @@ const locale = {
     },
     "selection": {
         "title": [
-            "{n} паведамленняў",
+            "{n} паведамленні",
             "{n} паведамленне",
-            "{n} паведамленняў"
+            "{n} паведамленні"
         ]
     },
     "actions": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Назва тэчкі",
             "accept": "Ствары",
             "cancel": "Адмяніць"
+        }
+    },
+    "myAccount": {
+        "title": "Мой рахунак",
+        "limits": {
+            "gbUsed": "{gb} ГБ",
+            "gbTotal": "ад {gb} ГБ",
+            "storage": {
+                "title": "Захоўванне"
+            },
+            "imapDownload": {
+                "title": "Загрузка IMAP"
+            },
+            "imapUpload": {
+                "title": "Загрузка IMAP"
+            },
+            "pop3Download": {
+                "title": "Спампаваць POP3"
+            }
         }
     }
 };

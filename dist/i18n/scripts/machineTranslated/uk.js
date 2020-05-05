@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Вийти з аккаунта"
+        "logout": "Вийти з аккаунта",
+        "myAccount": "Мій рахунок"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Назва папки",
             "accept": "Створіть",
             "cancel": "Скасувати"
+        }
+    },
+    "myAccount": {
+        "title": "Мій рахунок",
+        "limits": {
+            "gbUsed": "{gb} Гб",
+            "gbTotal": "від {gb} Гб",
+            "storage": {
+                "title": "Зберігання"
+            },
+            "imapDownload": {
+                "title": "Завантажити IMAP"
+            },
+            "imapUpload": {
+                "title": "Завантаження IMAP"
+            },
+            "pop3Download": {
+                "title": "Завантажити POP3"
+            }
         }
     }
 };

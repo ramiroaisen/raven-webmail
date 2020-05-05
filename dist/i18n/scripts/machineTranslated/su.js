@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "kaluar"
+        "logout": "kaluar",
+        "myAccount": "Akun abdi"
     },
     "compose": {
         "labels": {
@@ -73,9 +74,9 @@ const locale = {
     },
     "selection": {
         "title": [
-            "pesen {n}",
-            "pesen {n}",
-            "pesen {n}"
+            "{n} pesen",
+            "Pesen {n}",
+            "{n} pesen"
         ]
     },
     "actions": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Ngaran folder",
             "accept": "Nyipta",
             "cancel": "Ngabolaykeun"
+        }
+    },
+    "myAccount": {
+        "title": "Akun abdi",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "tina {gb} GB",
+            "storage": {
+                "title": "Neundeun"
+            },
+            "imapDownload": {
+                "title": "IMAP Unduh"
+            },
+            "imapUpload": {
+                "title": "Unggah IMAP"
+            },
+            "pop3Download": {
+                "title": "Download POP3"
+            }
         }
     }
 };

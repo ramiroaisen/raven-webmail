@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "সাইন আউট"
+        "logout": "সাইন আউট",
+        "myAccount": "আমার অ্যাকাউন্ট"
     },
     "compose": {
         "labels": {
@@ -73,9 +74,9 @@ const locale = {
     },
     "selection": {
         "title": [
-            "। n} বার্তা",
-            "। n} বার্তা",
-            "। n} বার্তা"
+            "{n} বার্তা",
+            "{n} বার্তা",
+            "{n} বার্তা"
         ]
     },
     "actions": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "ফোল্ডারের নাম",
             "accept": "সৃষ্টি",
             "cancel": "বাতিল"
+        }
+    },
+    "myAccount": {
+        "title": "আমার অ্যাকাউন্ট",
+        "limits": {
+            "gbUsed": "{gb} জিবি",
+            "gbTotal": "{gb} গিগাবাইট",
+            "storage": {
+                "title": "সংগ্রহস্থল"
+            },
+            "imapDownload": {
+                "title": "IMAP ডাউনলোড করুন"
+            },
+            "imapUpload": {
+                "title": "IMAP আপলোড"
+            },
+            "pop3Download": {
+                "title": "পিওপি 3 ডাউনলোড করুন"
+            }
         }
     }
 };

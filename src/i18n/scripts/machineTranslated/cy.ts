@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Cofrestrwch allan"
+    "logout": "Cofrestrwch allan",
+    "myAccount": "Fy nghyfrif"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      "{n} negeseuon",
-      "neges {n}",
-      "{n} negeseuon"
+      "{n} neges",
+      "Neges {n}",
+      "{n} neges"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Enw'r ffolder",
       "accept": "Creu",
       "cancel": "Canslo"
+    }
+  },
+  "myAccount": {
+    "title": "Fy nghyfrif",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "o {gb} GB",
+      "storage": {
+        "title": "Storio"
+      },
+      "imapDownload": {
+        "title": "Lawrlwytho IMAP"
+      },
+      "imapUpload": {
+        "title": "Llwythiad IMAP"
+      },
+      "pop3Download": {
+        "title": "Llwytho i lawr POP3"
+      }
     }
   }
 };

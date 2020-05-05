@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "התנתק"
+        "logout": "התנתק",
+        "myAccount": "החשבון שלי"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "שם התיקיה",
             "accept": "צור",
             "cancel": "בטל"
+        }
+    },
+    "myAccount": {
+        "title": "החשבון שלי",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "מתוך {gb} GB",
+            "storage": {
+                "title": "אחסון"
+            },
+            "imapDownload": {
+                "title": "הורדת IMAP"
+            },
+            "imapUpload": {
+                "title": "העלאת IMAP"
+            },
+            "pop3Download": {
+                "title": "הורדת POP3"
+            }
         }
     }
 };

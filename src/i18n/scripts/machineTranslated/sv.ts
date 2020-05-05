@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Logga ut"
+    "logout": "Logga ut",
+    "myAccount": "Mitt konto"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Mapp namn",
       "accept": "Skapa",
       "cancel": "Avbryt"
+    }
+  },
+  "myAccount": {
+    "title": "Mitt konto",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "av {gb} GB",
+      "storage": {
+        "title": "Lagring"
+      },
+      "imapDownload": {
+        "title": "IMAP-nedladdning"
+      },
+      "imapUpload": {
+        "title": "IMAP Upload"
+      },
+      "pop3Download": {
+        "title": "POP3 nedladdning"
+      }
     }
   }
 };

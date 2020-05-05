@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "වරන්න"
+        "logout": "වරන්න",
+        "myAccount": "මගේ ගිණුම"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "ෆෝල්ඩරයේ නම",
             "accept": "සාදන්න",
             "cancel": "අවලංගු කරන්න"
+        }
+    },
+    "myAccount": {
+        "title": "මගේ ගිණුම",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "{gb} GB",
+            "storage": {
+                "title": "ගබඞා"
+            },
+            "imapDownload": {
+                "title": "IMAP බාගත කිරීම"
+            },
+            "imapUpload": {
+                "title": "IMAP උඩුගත කිරීම"
+            },
+            "pop3Download": {
+                "title": "POP3 බාගත කරන්න"
+            }
         }
     }
 };

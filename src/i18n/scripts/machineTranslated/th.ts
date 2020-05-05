@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "ออกจากระบบ"
+    "logout": "ออกจากระบบ",
+    "myAccount": "บัญชีของฉัน"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      "{n} ข้อความ",
+      "ข้อความ {n} ข้อความ",
       "ข้อความ {n}",
-      "{n} ข้อความ"
+      "ข้อความ {n} ข้อความ"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "ชื่อโฟลเดอร์",
       "accept": "สร้าง",
       "cancel": "ยกเลิก"
+    }
+  },
+  "myAccount": {
+    "title": "บัญชีของฉัน",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "จาก {gb} GB",
+      "storage": {
+        "title": "การเก็บรักษา"
+      },
+      "imapDownload": {
+        "title": "ดาวน์โหลด IMAP"
+      },
+      "imapUpload": {
+        "title": "การอัปโหลด IMAP"
+      },
+      "pop3Download": {
+        "title": "ดาวน์โหลด POP3"
+      }
     }
   }
 };

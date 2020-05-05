@@ -65,7 +65,8 @@ export const createRouter = (inp = {}, session = writable(null), { dev = true } 
                     const redirect = (code, url) => {
                         redirected = true;
                         log("[ROUTER] [REDIRECT] ", code, url);
-                        location.hash = url || String(code);
+                        // if no url then code is string (url)
+                        location.replace(url || String(code));
                     };
                     const error = (args) => {
                         errored = true;

@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Waitohu mai"
+    "logout": "Waitohu mai",
+    "myAccount": "Kei taku kaute"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      "{n) karere",
       "{n} karere",
-      "{n) karere"
+      "{n} panui",
+      "{n} karere"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Ingoa Kōpaki",
       "accept": "Te Hanga",
       "cancel": "Whakakore"
+    }
+  },
+  "myAccount": {
+    "title": "Kei taku kaute",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "o {gb} GB",
+      "storage": {
+        "title": "Rokiroki"
+      },
+      "imapDownload": {
+        "title": "Tukua IMAP"
+      },
+      "imapUpload": {
+        "title": "Tukunga IMAP"
+      },
+      "pop3Download": {
+        "title": "POP3 Tango mai"
+      }
     }
   }
 };

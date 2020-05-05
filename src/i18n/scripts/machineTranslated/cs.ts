@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Odhlásit se"
+    "logout": "Odhlásit se",
+    "myAccount": "Můj účet"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Název složky",
       "accept": "Vytvořit",
       "cancel": "zrušení"
+    }
+  },
+  "myAccount": {
+    "title": "Můj účet",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "z {gb} GB",
+      "storage": {
+        "title": "Úložný prostor"
+      },
+      "imapDownload": {
+        "title": "Stáhnout IMAP"
+      },
+      "imapUpload": {
+        "title": "Nahrávání IMAP"
+      },
+      "pop3Download": {
+        "title": "Stáhnout POP3"
+      }
     }
   }
 };

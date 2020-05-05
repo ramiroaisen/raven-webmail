@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Keluar"
+        "logout": "Keluar",
+        "myAccount": "Akaun saya"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Nama folder",
             "accept": "Buat",
             "cancel": "Batal"
+        }
+    },
+    "myAccount": {
+        "title": "Akaun saya",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "daripada {gb} GB",
+            "storage": {
+                "title": "Penyimpanan"
+            },
+            "imapDownload": {
+                "title": "Muat turun IMAP"
+            },
+            "imapUpload": {
+                "title": "Muat Naik IMAP"
+            },
+            "pop3Download": {
+                "title": "Muat turun POP3"
+            }
         }
     }
 };

@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "баромадан"
+    "logout": "баромадан",
+    "myAccount": "Ҳисоби ман"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      "паёмҳои {n}",
-      "паём {n}",
-      "паёмҳои {n}"
+      "{n} паёмҳо",
+      "{n} паём",
+      "{n} паёмҳо"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Номи папка",
       "accept": "Эҷод",
       "cancel": "Бекор кардан"
+    }
+  },
+  "myAccount": {
+    "title": "Ҳисоби ман",
+    "limits": {
+      "gbUsed": "{gb} ГБ",
+      "gbTotal": "аз {gb} ГБ",
+      "storage": {
+        "title": "Захира"
+      },
+      "imapDownload": {
+        "title": "IMAP зеркашӣ кунед"
+      },
+      "imapUpload": {
+        "title": "Боркунии IMAP"
+      },
+      "pop3Download": {
+        "title": "POP3 зеркашӣ"
+      }
     }
   }
 };

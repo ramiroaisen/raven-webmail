@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Դուրս գալ"
+        "logout": "Դուրս գալ",
+        "myAccount": "Իմ հաշիվը"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Թղթապանակի անունը",
             "accept": "Ստեղծել",
             "cancel": "Չեղարկել"
+        }
+    },
+    "myAccount": {
+        "title": "Իմ հաշիվը",
+        "limits": {
+            "gbUsed": "1} ԳԲ",
+            "gbTotal": "{gb} ԳԲ-ից",
+            "storage": {
+                "title": "Պահեստավորում"
+            },
+            "imapDownload": {
+                "title": "IMAP ներբեռնումը"
+            },
+            "imapUpload": {
+                "title": "IMAP- ի վերբեռնումը"
+            },
+            "pop3Download": {
+                "title": "POP3 ներբեռնումը"
+            }
         }
     }
 };

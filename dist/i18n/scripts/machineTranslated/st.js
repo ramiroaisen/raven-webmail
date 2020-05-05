@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "tsoaha"
+        "logout": "tsoaha",
+        "myAccount": "Akhaonte Ea Hau"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Lebitso la lifoldara",
             "accept": "Bopa",
             "cancel": "Hlakola"
+        }
+    },
+    "myAccount": {
+        "title": "Akhaonte Ea Hau",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "ho {gb} GB",
+            "storage": {
+                "title": "Boloka"
+            },
+            "imapDownload": {
+                "title": "Khoasolla IMAP"
+            },
+            "imapUpload": {
+                "title": "IMAP Tlanya"
+            },
+            "pop3Download": {
+                "title": "POP3 Khoasolla"
+            }
         }
     }
 };

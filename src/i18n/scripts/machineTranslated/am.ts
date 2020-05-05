@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "ዛግተ ውጣ"
+    "logout": "ዛግተ ውጣ",
+    "myAccount": "አካውንቴ"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "የአቃፊ ስም",
       "accept": "ፍጠር",
       "cancel": "ይቅር"
+    }
+  },
+  "myAccount": {
+    "title": "አካውንቴ",
+    "limits": {
+      "gbUsed": "{gb} ጊባ",
+      "gbTotal": "ከ {gb} ጊባ",
+      "storage": {
+        "title": "ማከማቻ"
+      },
+      "imapDownload": {
+        "title": "IMAP ማውረድ"
+      },
+      "imapUpload": {
+        "title": "IMAP ጭነት"
+      },
+      "pop3Download": {
+        "title": "POP3 ማውረድ"
+      }
     }
   }
 };

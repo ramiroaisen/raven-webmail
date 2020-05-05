@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Sorte"
+    "logout": "Sorte",
+    "myAccount": "U mo contu"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Nome cartulare",
       "accept": "Crea",
       "cancel": "Annulla"
+    }
+  },
+  "myAccount": {
+    "title": "U mo contu",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "di {gb} GB",
+      "storage": {
+        "title": "Storage"
+      },
+      "imapDownload": {
+        "title": "Scaricamentu di IMAP"
+      },
+      "imapUpload": {
+        "title": "Caricatu IMAP"
+      },
+      "pop3Download": {
+        "title": "Scaricà POP3"
+      }
     }
   }
 };

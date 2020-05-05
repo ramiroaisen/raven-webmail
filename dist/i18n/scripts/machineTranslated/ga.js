@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Logáil Amach"
+        "logout": "Logáil Amach",
+        "myAccount": "Mo chuntas"
     },
     "compose": {
         "labels": {
@@ -74,7 +75,7 @@ const locale = {
     "selection": {
         "title": [
             "{n} teachtaireacht",
-            "teachtaireacht {n}",
+            "{n} teachtaireacht",
             "{n} teachtaireacht"
         ]
     },
@@ -132,6 +133,25 @@ const locale = {
             "label": "Ainm an fhillteáin",
             "accept": "Cruthaigh",
             "cancel": "Cealaigh"
+        }
+    },
+    "myAccount": {
+        "title": "Mo chuntas",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "de {gb} GB",
+            "storage": {
+                "title": "Stóráil"
+            },
+            "imapDownload": {
+                "title": "Íoslódáil IMAP"
+            },
+            "imapUpload": {
+                "title": "Uaslódáil IMAP"
+            },
+            "pop3Download": {
+                "title": "Íoslódáil POP3"
+            }
         }
     }
 };

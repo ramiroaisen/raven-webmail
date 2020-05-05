@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Odjava"
+        "logout": "Odjava",
+        "myAccount": "Moj račun"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Ime mape",
             "accept": "Ustvari",
             "cancel": "Prekliči"
+        }
+    },
+    "myAccount": {
+        "title": "Moj račun",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "od {gb} GB",
+            "storage": {
+                "title": "Skladiščenje"
+            },
+            "imapDownload": {
+                "title": "Prenos IMAP"
+            },
+            "imapUpload": {
+                "title": "Prenos IMAP"
+            },
+            "pop3Download": {
+                "title": "Prenos POP3"
+            }
         }
     }
 };

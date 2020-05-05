@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "サインアウト"
+    "logout": "サインアウト",
+    "myAccount": "マイアカウント"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "フォルダ名",
       "accept": "作成する",
       "cancel": "キャンセル"
+    }
+  },
+  "myAccount": {
+    "title": "マイアカウント",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "{gb} GB",
+      "storage": {
+        "title": "ストレージ"
+      },
+      "imapDownload": {
+        "title": "IMAPダウンロード"
+      },
+      "imapUpload": {
+        "title": "IMAPアップロード"
+      },
+      "pop3Download": {
+        "title": "POP3ダウンロード"
+      }
     }
   }
 };

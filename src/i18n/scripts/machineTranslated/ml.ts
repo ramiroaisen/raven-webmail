@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "സൈൻ ഔട്ട്"
+    "logout": "സൈൻ ഔട്ട്",
+    "myAccount": "എന്റെ അക്കൗണ്ട്"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "ഫോൾഡറിന്റെ പേര്",
       "accept": "സൃഷ്ടിക്കാൻ",
       "cancel": "റദ്ദാക്കുക"
+    }
+  },
+  "myAccount": {
+    "title": "എന്റെ അക്കൗണ്ട്",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "{gb} GB",
+      "storage": {
+        "title": "സംഭരണം"
+      },
+      "imapDownload": {
+        "title": "IMAP ഡൗൺലോഡ്"
+      },
+      "imapUpload": {
+        "title": "IMAP അപ്‌ലോഡ്"
+      },
+      "pop3Download": {
+        "title": "POP3 ഡൗൺലോഡ്"
+      }
     }
   }
 };

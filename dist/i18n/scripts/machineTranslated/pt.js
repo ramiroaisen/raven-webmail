@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Sair"
+        "logout": "Sair",
+        "myAccount": "Minha conta"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Nome da pasta",
             "accept": "Crio",
             "cancel": "Cancelar"
+        }
+    },
+    "myAccount": {
+        "title": "Minha conta",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "de {gb} GB",
+            "storage": {
+                "title": "Armazenamento"
+            },
+            "imapDownload": {
+                "title": "Download IMAP"
+            },
+            "imapUpload": {
+                "title": "Upload IMAP"
+            },
+            "pop3Download": {
+                "title": "Baixar POP3"
+            }
         }
     }
 };

@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "выход"
+    "logout": "выход",
+    "myAccount": "Мой счет"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      "{n} сообщений",
+      "{n} сообщения",
       "{n} сообщение",
-      "{n} сообщений"
+      "{n} сообщения"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Имя папки",
       "accept": "Создайте",
       "cancel": "Отмена"
+    }
+  },
+  "myAccount": {
+    "title": "Мой счет",
+    "limits": {
+      "gbUsed": "{gb} ГБ",
+      "gbTotal": "{gb} ГБ",
+      "storage": {
+        "title": "Место хранения"
+      },
+      "imapDownload": {
+        "title": "IMAP Скачать"
+      },
+      "imapUpload": {
+        "title": "IMAP Загрузить"
+      },
+      "pop3Download": {
+        "title": "POP3 Скачать"
+      }
     }
   }
 };

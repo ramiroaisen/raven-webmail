@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Dekonekte"
+        "logout": "Dekonekte",
+        "myAccount": "Kont mwen"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Non Dosye an",
             "accept": "Kreye",
             "cancel": "Anile"
+        }
+    },
+    "myAccount": {
+        "title": "Kont mwen",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "nan {gb} GB",
+            "storage": {
+                "title": "Depo"
+            },
+            "imapDownload": {
+                "title": "Download IMAP"
+            },
+            "imapUpload": {
+                "title": "IMAP Upload"
+            },
+            "pop3Download": {
+                "title": "POP3 Download"
+            }
         }
     }
 };

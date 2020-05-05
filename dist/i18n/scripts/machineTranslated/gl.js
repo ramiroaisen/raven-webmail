@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Pechar sesión"
+        "logout": "Pechar sesión",
+        "myAccount": "A miña conta"
     },
     "compose": {
         "labels": {
@@ -74,7 +75,7 @@ const locale = {
     "selection": {
         "title": [
             "{n} mensaxes",
-            "mensaxe {n}",
+            "{n} mensaxe",
             "{n} mensaxes"
         ]
     },
@@ -132,6 +133,25 @@ const locale = {
             "label": "Nome de carpeta",
             "accept": "Crear",
             "cancel": "Cancelar"
+        }
+    },
+    "myAccount": {
+        "title": "A miña conta",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "de {gb} GB",
+            "storage": {
+                "title": "Almacenamento"
+            },
+            "imapDownload": {
+                "title": "Descarga IMAP"
+            },
+            "imapUpload": {
+                "title": "Cargar IMAP"
+            },
+            "pop3Download": {
+                "title": "Descarga POP3"
+            }
         }
     }
 };

@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Kirjaudu ulos"
+    "logout": "Kirjaudu ulos",
+    "myAccount": "Tilini"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Kansion nimi",
       "accept": "Luoda",
       "cancel": "Peruuttaa"
+    }
+  },
+  "myAccount": {
+    "title": "Tilini",
+    "limits": {
+      "gbUsed": "{gb} Gt",
+      "gbTotal": "/ {gb} Gt",
+      "storage": {
+        "title": "varastointi"
+      },
+      "imapDownload": {
+        "title": "IMAP Lataa"
+      },
+      "imapUpload": {
+        "title": "IMAP-lähetys"
+      },
+      "pop3Download": {
+        "title": "Lataa POP3"
+      }
     }
   }
 };

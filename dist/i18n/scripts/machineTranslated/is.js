@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Útskrá"
+        "logout": "Útskrá",
+        "myAccount": "Minn reikningur"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Mappanafn",
             "accept": "Búa til",
             "cancel": "Hætta við"
+        }
+    },
+    "myAccount": {
+        "title": "Minn reikningur",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "af {gb} GB",
+            "storage": {
+                "title": "Geymsla"
+            },
+            "imapDownload": {
+                "title": "IMAP niðurhal"
+            },
+            "imapUpload": {
+                "title": "IMAP upphleðsla"
+            },
+            "pop3Download": {
+                "title": "POP3 niðurhal"
+            }
         }
     }
 };

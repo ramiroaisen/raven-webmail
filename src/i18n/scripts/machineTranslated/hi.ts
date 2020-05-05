@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "प्रस्थान करें"
+    "logout": "प्रस्थान करें",
+    "myAccount": "मेरा खाता"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
+      "{undefined} संदेश",
       "{n} संदेश",
-      "{n} संदेश",
-      "{n} संदेश"
+      "{undefined} संदेश"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "फोल्डर का नाम",
       "accept": "सृजन करना",
       "cancel": "रद्द करना"
+    }
+  },
+  "myAccount": {
+    "title": "मेरा खाता",
+    "limits": {
+      "gbUsed": "{undefined} जीबी",
+      "gbTotal": "{gb} GB का",
+      "storage": {
+        "title": "भंडारण"
+      },
+      "imapDownload": {
+        "title": "IMAP डाउनलोड करें"
+      },
+      "imapUpload": {
+        "title": "IMAP अपलोड"
+      },
+      "pop3Download": {
+        "title": "POP3 डाउनलोड करें"
+      }
     }
   }
 };

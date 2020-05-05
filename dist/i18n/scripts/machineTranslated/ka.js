@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Სისტემიდან გამოსვლა"
+        "logout": "Სისტემიდან გამოსვლა",
+        "myAccount": "Ჩემი ანგარიში"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Საქაღალდის სახელი",
             "accept": "Შექმნა",
             "cancel": "გაუქმება"
+        }
+    },
+    "myAccount": {
+        "title": "Ჩემი ანგარიში",
+        "limits": {
+            "gbUsed": "1} GB",
+            "gbTotal": "{gb} GB",
+            "storage": {
+                "title": "შენახვა"
+            },
+            "imapDownload": {
+                "title": "IMAP ჩამოტვირთვა"
+            },
+            "imapUpload": {
+                "title": "IMAP ატვირთვა"
+            },
+            "pop3Download": {
+                "title": "POP3 ჩამოტვირთვა"
+            }
         }
     }
 };

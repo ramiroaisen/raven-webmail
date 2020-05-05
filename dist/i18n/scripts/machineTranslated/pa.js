@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "ਸਾਇਨ ਆਉਟ"
+        "logout": "ਸਾਇਨ ਆਉਟ",
+        "myAccount": "ਮੇਰਾ ਖਾਤਾ"
     },
     "compose": {
         "labels": {
@@ -73,9 +74,9 @@ const locale = {
     },
     "selection": {
         "title": [
-            "} n} ਸੁਨੇਹੇ",
-            "} n} ਸੁਨੇਹਾ",
-            "} n} ਸੁਨੇਹੇ"
+            "{n} ਸੁਨੇਹੇ",
+            "{n} ਸੁਨੇਹਾ",
+            "{n} ਸੁਨੇਹੇ"
         ]
     },
     "actions": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "ਫੋਲਡਰ ਦਾ ਨਾਮ",
             "accept": "ਬਣਾਓ",
             "cancel": "ਰੱਦ ਕਰੋ"
+        }
+    },
+    "myAccount": {
+        "title": "ਮੇਰਾ ਖਾਤਾ",
+        "limits": {
+            "gbUsed": "{gb} ਜੀ.ਬੀ.",
+            "gbTotal": "{gb} ਜੀਬੀ ਦਾ",
+            "storage": {
+                "title": "ਸਟੋਰੇਜ"
+            },
+            "imapDownload": {
+                "title": "IMAP ਡਾ .ਨਲੋਡ"
+            },
+            "imapUpload": {
+                "title": "IMAP ਅਪਲੋਡ"
+            },
+            "pop3Download": {
+                "title": "ਪੀਓਪੀ 3 ਡਾ .ਨਲੋਡ ਕਰੋ"
+            }
         }
     }
 };

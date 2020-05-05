@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Mlebu"
+        "logout": "Mlebu",
+        "myAccount": "Pendhaftaran"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Jeneng folder",
             "accept": "Nggawe",
             "cancel": "Batal"
+        }
+    },
+    "myAccount": {
+        "title": "Pendhaftaran",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "saka {gb} GB",
+            "storage": {
+                "title": "Lumbung"
+            },
+            "imapDownload": {
+                "title": "Download IMAP"
+            },
+            "imapUpload": {
+                "title": "Upload Upload IMAP"
+            },
+            "pop3Download": {
+                "title": "Download POP3"
+            }
         }
     }
 };

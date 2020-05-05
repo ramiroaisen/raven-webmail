@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "خروج"
+        "logout": "خروج",
+        "myAccount": "حسابي"
     },
     "compose": {
         "labels": {
@@ -73,9 +74,9 @@ const locale = {
     },
     "selection": {
         "title": [
-            "{n} رسائل",
-            "{n} رسالة",
-            "{n} رسائل"
+            "{1 رسائل",
+            "رسالة {n}",
+            "{1 رسائل"
         ]
     },
     "actions": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "إسم الملف",
             "accept": "خلق",
             "cancel": "إلغاء"
+        }
+    },
+    "myAccount": {
+        "title": "حسابي",
+        "limits": {
+            "gbUsed": "{gb} جيجابايت",
+            "gbTotal": "من {gb} جيجابايت",
+            "storage": {
+                "title": "تخزين"
+            },
+            "imapDownload": {
+                "title": "تنزيل IMAP"
+            },
+            "imapUpload": {
+                "title": "تحميل IMAP"
+            },
+            "pop3Download": {
+                "title": "تنزيل POP3"
+            }
         }
     }
 };

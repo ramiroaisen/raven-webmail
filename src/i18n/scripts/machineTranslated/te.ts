@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "సైన్ అవుట్ చేయండి"
+    "logout": "సైన్ అవుట్ చేయండి",
+    "myAccount": "నా ఖాతా"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "ఫోల్డర్ పేరు",
       "accept": "సృష్టించు",
       "cancel": "రద్దు చేయండి"
+    }
+  },
+  "myAccount": {
+    "title": "నా ఖాతా",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "{gb} GB",
+      "storage": {
+        "title": "నిల్వ"
+      },
+      "imapDownload": {
+        "title": "IMAP డౌన్‌లోడ్"
+      },
+      "imapUpload": {
+        "title": "IMAP అప్‌లోడ్"
+      },
+      "pop3Download": {
+        "title": "POP3 డౌన్‌లోడ్"
+      }
     }
   }
 };

@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Одјава"
+    "logout": "Одјава",
+    "myAccount": "Мој налог"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      "{н} поруке",
-      "{н} порука",
-      "{н} поруке"
+      "{n} поруке",
+      "{n} порука",
+      "{n} поруке"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Име фасцикле",
       "accept": "Креирај",
       "cancel": "Поништити, отказати"
+    }
+  },
+  "myAccount": {
+    "title": "Мој налог",
+    "limits": {
+      "gbUsed": "{gb} ГБ",
+      "gbTotal": "од {gb} ГБ",
+      "storage": {
+        "title": "Складиште"
+      },
+      "imapDownload": {
+        "title": "Довнлоад ИМАП"
+      },
+      "imapUpload": {
+        "title": "ИМАП уплоад"
+      },
+      "pop3Download": {
+        "title": "ПОП3 Довнлоад"
+      }
     }
   }
 };

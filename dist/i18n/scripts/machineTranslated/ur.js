@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "باہر جائیں"
+        "logout": "باہر جائیں",
+        "myAccount": "میرا اکاونٹ"
     },
     "compose": {
         "labels": {
@@ -73,9 +74,9 @@ const locale = {
     },
     "selection": {
         "title": [
-            "n} پیغامات",
-            ". n} پیغام",
-            "n} پیغامات"
+            "{n} پیغامات",
+            "{n} پیغام",
+            "{n} پیغامات"
         ]
     },
     "actions": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "فولڈر کا نام",
             "accept": "بنانا",
             "cancel": "منسوخ کریں"
+        }
+    },
+    "myAccount": {
+        "title": "میرا اکاونٹ",
+        "limits": {
+            "gbUsed": "{gb} جی بی",
+            "gbTotal": "{gb} GB کا",
+            "storage": {
+                "title": "ذخیرہ"
+            },
+            "imapDownload": {
+                "title": "IMAP ڈاؤن لوڈ کریں"
+            },
+            "imapUpload": {
+                "title": "IMAP اپ لوڈ"
+            },
+            "pop3Download": {
+                "title": "POP3 ڈاؤن لوڈ"
+            }
         }
     }
 };

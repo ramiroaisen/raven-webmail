@@ -109,7 +109,8 @@ export const createRouter = (inp: Record<string, () => Promise<Component>> = {},
           const redirect = (code: number | string, url?: string) => {
             redirected = true;
             log("[ROUTER] [REDIRECT] ", code, url);
-            location.hash = url || String(code);
+            // if no url then code is string (url)
+            location.replace(url || String(code));
           };
 
           const error = (args: any) => {

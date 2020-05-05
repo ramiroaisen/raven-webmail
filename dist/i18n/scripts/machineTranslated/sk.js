@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Odhlásiť Sa"
+        "logout": "Odhlásiť Sa",
+        "myAccount": "Môj účet"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Názov priečinka",
             "accept": "vytvoriť",
             "cancel": "Zrušiť"
+        }
+    },
+    "myAccount": {
+        "title": "Môj účet",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "z {gb} GB",
+            "storage": {
+                "title": "skladovanie"
+            },
+            "imapDownload": {
+                "title": "Stiahnutie IMAP"
+            },
+            "imapUpload": {
+                "title": "Nahrávanie IMAP"
+            },
+            "pop3Download": {
+                "title": "Stiahnutie POP3"
+            }
         }
     }
 };

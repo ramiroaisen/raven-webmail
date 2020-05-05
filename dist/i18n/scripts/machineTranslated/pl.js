@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Wyloguj się"
+        "logout": "Wyloguj się",
+        "myAccount": "Moje konto"
     },
     "compose": {
         "labels": {
@@ -74,7 +75,7 @@ const locale = {
     "selection": {
         "title": [
             "{n} wiadomości",
-            "{n} wiadomość",
+            "Wiadomość {n}",
             "{n} wiadomości"
         ]
     },
@@ -132,6 +133,25 @@ const locale = {
             "label": "Nazwa folderu",
             "accept": "Stwórz",
             "cancel": "Anuluj"
+        }
+    },
+    "myAccount": {
+        "title": "Moje konto",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "z {gb} GB",
+            "storage": {
+                "title": "Przechowywanie"
+            },
+            "imapDownload": {
+                "title": "Pobieranie IMAP"
+            },
+            "imapUpload": {
+                "title": "Przesyłanie IMAP"
+            },
+            "pop3Download": {
+                "title": "Pobieranie POP3"
+            }
         }
     }
 };

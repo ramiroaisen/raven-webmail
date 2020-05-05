@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "ବାହାରି ଯାନ୍ତୁ"
+        "logout": "ବାହାରି ଯାନ୍ତୁ",
+        "myAccount": "ମୋ ଖାତା"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "ଫୋଲ୍ଡର ନାମ",
             "accept": "ସୃଷ୍ଟି କରନ୍ତୁ |",
             "cancel": "ବାତିଲ୍ କରନ୍ତୁ |"
+        }
+    },
+    "myAccount": {
+        "title": "ମୋ ଖାତା",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "{gb} GB ର |",
+            "storage": {
+                "title": "ଭଣ୍ଡାର"
+            },
+            "imapDownload": {
+                "title": "IMAP ଡାଉନଲୋଡ୍ |"
+            },
+            "imapUpload": {
+                "title": "IMAP ଅପଲୋଡ୍ |"
+            },
+            "pop3Download": {
+                "title": "POP3 ଡାଉନଲୋଡ୍ |"
+            }
         }
     }
 };

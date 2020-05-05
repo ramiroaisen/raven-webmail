@@ -80,7 +80,16 @@
     "Create new folder": "Skep 'n nuwe lêergids",
     "Folder name": "Gidsnaam",
     "Folder {n} created": "Gids {n} is geskep",
-    "Folder created": "Gids geskep"
+    "Folder created": "Gids geskep",
+    "My account": "My rekening",
+    "{1} messages": "{1} boodskappe",
+    "{1} message": "{1} boodskap",
+    "Storage": "stoor",
+    "IMAP Upload": "IMAP-oplaai",
+    "IMAP Download": "IMAP aflaai",
+    "POP3 Download": "POP3 aflaai",
+    "of {1} GB": "van {1} GB",
+    "{1} GB": "{1} GB"
   },
   "am": {
     "Inbox": "የገቢ መልእክት ሳጥን",
@@ -163,7 +172,16 @@
     "Create": "ፍጠር",
     "Create new folder": "አዲስ አቃፊ ፍጠር",
     "Folder {n} created": "አቃፊ {n} ተፈጥሯል",
-    "Folder created": "አቃፊ ተፈጥሯል"
+    "Folder created": "አቃፊ ተፈጥሯል",
+    "My account": "አካውንቴ",
+    "{1} messages": "{1} መልእክቶች",
+    "{1} message": "{1} መልእክት",
+    "Storage": "ማከማቻ",
+    "IMAP Download": "IMAP ማውረድ",
+    "IMAP Upload": "IMAP ጭነት",
+    "POP3 Download": "POP3 ማውረድ",
+    "{1} GB": "{1} ጊባ",
+    "of {1} GB": "ከ {1} ጊባ"
   },
   "ar": {
     "Inbox": "صندوق الوارد",
@@ -246,7 +264,16 @@
     "Cancel": "إلغاء",
     "Create": "خلق",
     "Folder {n} created": "تم إنشاء المجلد {n}",
-    "Folder created": "تم إنشاء المجلد"
+    "Folder created": "تم إنشاء المجلد",
+    "My account": "حسابي",
+    "{1} messages": "{1 رسائل",
+    "{1} message": "رسالة {1}",
+    "Storage": "تخزين",
+    "IMAP Upload": "تحميل IMAP",
+    "IMAP Download": "تنزيل IMAP",
+    "POP3 Download": "تنزيل POP3",
+    "{1} GB": "{1} جيجابايت",
+    "of {1} GB": "من {1} جيجابايت"
   },
   "az": {
     "Inbox": "Gələnlər qutusu",
@@ -329,7 +356,16 @@
     "Create new folder": "Yeni qovluq yaradın",
     "Create": "Yarat",
     "Folder {n} created": "Qovluq {n} yaradıldı",
-    "Folder created": "Qovluq yaradıldı"
+    "Folder created": "Qovluq yaradıldı",
+    "My account": "Mənim Hesabım",
+    "{1} message": "{1} mesajı",
+    "{1} messages": "{1} mesajlar",
+    "Storage": "Saxlama",
+    "IMAP Upload": "IMAP yüklə",
+    "IMAP Download": "IMAP yükləyin",
+    "POP3 Download": "POP3 Yüklə",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "of {1} GB"
   },
   "be": {
     "Inbox": "Уваходныя",
@@ -412,7 +448,16 @@
     "Folder name": "Назва тэчкі",
     "Create new folder": "Стварыце новую тэчку",
     "Folder {n} created": "Папка {n} створаная",
-    "Folder created": "Папка створана"
+    "Folder created": "Папка створана",
+    "My account": "Мой рахунак",
+    "{1} messages": "{1} паведамленні",
+    "{1} message": "{1} паведамленне",
+    "Storage": "Захоўванне",
+    "IMAP Download": "Загрузка IMAP",
+    "IMAP Upload": "Загрузка IMAP",
+    "POP3 Download": "Спампаваць POP3",
+    "{1} GB": "{1} ГБ",
+    "of {1} GB": "ад {1} ГБ"
   },
   "bg": {
     "Inbox": "Входящи",
@@ -495,7 +540,16 @@
     "Folder name": "Име на папка",
     "Cancel": "Отказ",
     "Folder {n} created": "Папка {n} е създадена",
-    "Folder created": "Създадена е папка"
+    "Folder created": "Създадена е папка",
+    "My account": "Моята сметка",
+    "{1} messages": "{1} съобщения",
+    "{1} message": "{1} съобщение",
+    "Storage": "съхранение",
+    "IMAP Download": "IMAP изтегляне",
+    "IMAP Upload": "IMAP качване",
+    "POP3 Download": "POP3 Изтегляне",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "от {1} GB"
   },
   "bn": {
     "Inbox": "ইনবক্স",
@@ -578,7 +632,16 @@
     "Cancel": "বাতিল",
     "Create": "সৃষ্টি",
     "Folder {n} created": "ফোল্ডার {n} তৈরি হয়েছে",
-    "Folder created": "ফোল্ডার তৈরি হয়েছে"
+    "Folder created": "ফোল্ডার তৈরি হয়েছে",
+    "My account": "আমার অ্যাকাউন্ট",
+    "{1} messages": "{1} বার্তা",
+    "{1} message": "{1} বার্তা",
+    "Storage": "সংগ্রহস্থল",
+    "IMAP Download": "IMAP ডাউনলোড করুন",
+    "IMAP Upload": "IMAP আপলোড",
+    "POP3 Download": "পিওপি 3 ডাউনলোড করুন",
+    "{1} GB": "{1} জিবি",
+    "of {1} GB": "{1} গিগাবাইট"
   },
   "bs": {
     "Inbox": "Inbox",
@@ -661,7 +724,16 @@
     "Folder name": "Naziv mape",
     "Create new folder": "Kreirajte novu mapu",
     "Folder {n} created": "Mapa {n} je kreirana",
-    "Folder created": "Mapa je kreirana"
+    "Folder created": "Mapa je kreirana",
+    "My account": "Moj račun",
+    "{1} messages": "{1} poruke",
+    "{1} message": "{1} poruka",
+    "IMAP Download": "Preuzmite IMAP",
+    "IMAP Upload": "IMAP upload",
+    "Storage": "Skladištenje",
+    "POP3 Download": "Preuzimanje POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "od {1} GB"
   },
   "ca": {
     "Inbox": "Safata d'entrada",
@@ -744,7 +816,16 @@
     "Folder name": "Nom de la carpeta",
     "Create new folder": "Crea una carpeta nova",
     "Folder {n} created": "S'ha creat una carpeta {n}",
-    "Folder created": "Carpeta creada"
+    "Folder created": "Carpeta creada",
+    "My account": "El meu compte",
+    "{1} messages": "{1} missatges",
+    "{1} message": "{1} missatge",
+    "Storage": "Emmagatzematge",
+    "IMAP Upload": "Carrega IMAP",
+    "IMAP Download": "Baixada IMAP",
+    "POP3 Download": "Baixada POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "de {1} GB"
   },
   "ceb": {
     "Inbox": "Inbox",
@@ -827,7 +908,16 @@
     "Create": "Paghimo",
     "Folder name": "Ngalan sa folder",
     "Folder {n} created": "Gibuhat ang Folder {n}",
-    "Folder created": "Gibuhat ang folder"
+    "Folder created": "Gibuhat ang folder",
+    "My account": "Akong account",
+    "{1} message": "{1} nga mensahe",
+    "{1} messages": "{1} nga mga mensahe",
+    "Storage": "Pagtipig",
+    "IMAP Upload": "Pag-upload sa IMAP",
+    "IMAP Download": "IMAP Pag-download",
+    "POP3 Download": "Pag-download sa POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "sa {1} GB"
   },
   "co": {
     "Inbox": "Inbox",
@@ -910,7 +1000,16 @@
     "Cancel": "Annulla",
     "Create new folder": "Crea un novu cartulare",
     "Folder {n} created": "Folder {n} creatu",
-    "Folder created": "Folder creatu"
+    "Folder created": "Folder creatu",
+    "My account": "U mo contu",
+    "{1} message": "{1} messagiu",
+    "{1} messages": "{1} missaghji",
+    "Storage": "Storage",
+    "IMAP Download": "Scaricamentu di IMAP",
+    "IMAP Upload": "Caricatu IMAP",
+    "POP3 Download": "Scaricà POP3",
+    "of {1} GB": "di {1} GB",
+    "{1} GB": "{1} GB"
   },
   "cs": {
     "Inbox": "Doručená pošta",
@@ -993,7 +1092,16 @@
     "Create": "Vytvořit",
     "Cancel": "zrušení",
     "Folder {n} created": "Složka {n} byla vytvořena",
-    "Folder created": "Složka byla vytvořena"
+    "Folder created": "Složka byla vytvořena",
+    "My account": "Můj účet",
+    "{1} messages": "{1} zprávy",
+    "{1} message": "{1} zpráva",
+    "Storage": "Úložný prostor",
+    "IMAP Upload": "Nahrávání IMAP",
+    "IMAP Download": "Stáhnout IMAP",
+    "POP3 Download": "Stáhnout POP3",
+    "of {1} GB": "z {1} GB",
+    "{1} GB": "{1} GB"
   },
   "cy": {
     "Inbox": "Mewnflwch",
@@ -1076,7 +1184,16 @@
     "Create new folder": "Creu ffolder newydd",
     "Cancel": "Canslo",
     "Folder {n} created": "Ffolder {n} wedi'i greu",
-    "Folder created": "Ffolder wedi'i chreu"
+    "Folder created": "Ffolder wedi'i chreu",
+    "My account": "Fy nghyfrif",
+    "{1} messages": "{1} neges",
+    "{1} message": "Neges {1}",
+    "Storage": "Storio",
+    "IMAP Download": "Lawrlwytho IMAP",
+    "IMAP Upload": "Llwythiad IMAP",
+    "POP3 Download": "Llwytho i lawr POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "o {1} GB"
   },
   "da": {
     "Inbox": "Indbakke",
@@ -1159,7 +1276,16 @@
     "Create new folder": "Opret ny mappe",
     "Create": "skab",
     "Folder {n} created": "Mappe {n} oprettet",
-    "Folder created": "Mappe oprettet"
+    "Folder created": "Mappe oprettet",
+    "My account": "Min konto",
+    "{1} messages": "{1} meddelelser",
+    "{1} message": "{1} besked",
+    "Storage": "Opbevaring",
+    "IMAP Download": "IMAP-download",
+    "IMAP Upload": "IMAP-upload",
+    "POP3 Download": "POP3-download",
+    "of {1} GB": "på {1} GB",
+    "{1} GB": "{1} GB"
   },
   "de": {
     "Inbox": "Posteingang",
@@ -1242,7 +1368,16 @@
     "Create": "Erstellen",
     "Cancel": "Stornieren",
     "Folder {n} created": "Ordner {n} erstellt",
-    "Folder created": "Ordner erstellt"
+    "Folder created": "Ordner erstellt",
+    "My account": "Mein Konto",
+    "{1} messages": "{1} Nachrichten",
+    "{1} message": "{1} Nachricht",
+    "Storage": "Lager",
+    "IMAP Download": "IMAP-Download",
+    "IMAP Upload": "IMAP-Upload",
+    "POP3 Download": "POP3 herunterladen",
+    "of {1} GB": "von {1} GB",
+    "{1} GB": "{1} GB"
   },
   "el": {
     "Inbox": "Inbox",
@@ -1325,7 +1460,16 @@
     "Create": "Δημιουργώ",
     "Create new folder": "Δημιουργία νέου φακέλου",
     "Folder {n} created": "Δημιουργήθηκε φάκελος {n}",
-    "Folder created": "Δημιουργήθηκε φάκελος"
+    "Folder created": "Δημιουργήθηκε φάκελος",
+    "My account": "Ο λογαριασμός μου",
+    "{1} messages": "{1} μηνύματα",
+    "{1} message": "{1} μήνυμα",
+    "Storage": "Αποθήκευση",
+    "IMAP Upload": "Μεταφόρτωση IMAP",
+    "IMAP Download": "Λήψη IMAP",
+    "POP3 Download": "Λήψη POP3",
+    "of {1} GB": "από {1} GB",
+    "{1} GB": "{1} GB"
   },
   "eo": {
     "Inbox": "Informkesto",
@@ -1408,7 +1552,16 @@
     "Folder name": "Nomo de dosierujo",
     "Create": "Krei",
     "Folder {n} created": "Dosierujo {n} kreita",
-    "Folder created": "Dosiero kreita"
+    "Folder created": "Dosiero kreita",
+    "My account": "Mia konto",
+    "{1} messages": "{1} mesaĝoj",
+    "{1} message": "{1} mesaĝo",
+    "Storage": "Stokado",
+    "IMAP Upload": "Alŝuto de IMAP",
+    "IMAP Download": "Elŝuta IMAP",
+    "POP3 Download": "Elŝuti POP3",
+    "of {1} GB": "de {1} GB",
+    "{1} GB": "{1} GB"
   },
   "es": {
     "Inbox": "Bandeja de entrada",
@@ -1491,7 +1644,16 @@
     "Create new folder": "Crear nueva carpeta",
     "Create": "Crear",
     "Folder {n} created": "Carpeta {n} creada",
-    "Folder created": "Carpeta creada"
+    "Folder created": "Carpeta creada",
+    "My account": "Mi cuenta",
+    "{1} messages": "{1} mensajes",
+    "{1} message": "{1} mensaje",
+    "Storage": "Almacenamiento",
+    "IMAP Download": "Descarga IMAP",
+    "IMAP Upload": "Carga de IMAP",
+    "POP3 Download": "Descarga POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "de {1} GB"
   },
   "et": {
     "Inbox": "Postkast",
@@ -1574,7 +1736,16 @@
     "Create": "Loo",
     "Create new folder": "Looge uus kaust",
     "Folder {n} created": "Kaust {n} loodud",
-    "Folder created": "Kaust on loodud"
+    "Folder created": "Kaust on loodud",
+    "My account": "Minu konto",
+    "{1} messages": "{1} sõnumit",
+    "{1} message": "{1} teade",
+    "IMAP Download": "IMAP-i allalaadimine",
+    "Storage": "Ladustamine",
+    "IMAP Upload": "IMAP-üleslaadimine",
+    "POP3 Download": "POP3 allalaadimine",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "{1} GB"
   },
   "eu": {
     "Inbox": "Sarrerako ontzia",
@@ -1657,7 +1828,16 @@
     "Folder name": "Karpetaren izena",
     "Create new folder": "Sortu karpeta berria",
     "Folder {n} created": "Karpeta {n} sortu da",
-    "Folder created": "Karpeta sortu da"
+    "Folder created": "Karpeta sortu da",
+    "My account": "Nire kontua",
+    "{1} message": "{1} mezua",
+    "{1} messages": "{1} mezuak",
+    "Storage": "Biltegiratzea",
+    "IMAP Download": "IMAP deskargatzea",
+    "IMAP Upload": "IMAP igoera",
+    "POP3 Download": "POP3 Deskargatu",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "de {1} GB"
   },
   "fa": {
     "Inbox": "صندوق ورودی",
@@ -1740,7 +1920,16 @@
     "Create": "ایجاد کردن",
     "Create new folder": "پوشه جدید ایجاد کنید",
     "Folder {n} created": "پوشه {n} ایجاد شد",
-    "Folder created": "پوشه ایجاد شده است"
+    "Folder created": "پوشه ایجاد شده است",
+    "My account": "حساب من",
+    "{1} message": "{1} پیام",
+    "{1} messages": "{1} پیام",
+    "Storage": "ذخیره سازی",
+    "IMAP Download": "بارگیری IMAP",
+    "IMAP Upload": "آپلود IMAP",
+    "POP3 Download": "بارگیری POP3",
+    "{1} GB": "{1} گیگابایت",
+    "of {1} GB": "از {1} گیگابایت"
   },
   "fi": {
     "Inbox": "Saapuneet",
@@ -1823,7 +2012,16 @@
     "Create new folder": "Luo uusi kansio",
     "Folder name": "Kansion nimi",
     "Folder {n} created": "Kansio {n} luotu",
-    "Folder created": "Kansio luotu"
+    "Folder created": "Kansio luotu",
+    "My account": "Tilini",
+    "{1} messages": "{1} viestiä",
+    "{1} message": "{1} viesti",
+    "Storage": "varastointi",
+    "IMAP Download": "IMAP Lataa",
+    "IMAP Upload": "IMAP-lähetys",
+    "POP3 Download": "Lataa POP3",
+    "of {1} GB": "/ {1} Gt",
+    "{1} GB": "{1} Gt"
   },
   "fr": {
     "Inbox": "Boîte de réception",
@@ -1906,7 +2104,16 @@
     "Folder name": "Nom de dossier",
     "Create new folder": "Créer un nouveau dossier",
     "Folder {n} created": "Dossier {n} créé",
-    "Folder created": "Dossier créé"
+    "Folder created": "Dossier créé",
+    "My account": "Mon compte",
+    "{1} message": "{1} message",
+    "{1} messages": "{1} messages",
+    "IMAP Download": "Téléchargement IMAP",
+    "IMAP Upload": "Téléchargement IMAP",
+    "Storage": "Espace de rangement",
+    "POP3 Download": "Téléchargement POP3",
+    "{1} GB": "{1} Go",
+    "of {1} GB": "de {1} Go"
   },
   "fy": {
     "Inbox": "Postfek YN",
@@ -1989,7 +2196,16 @@
     "Folder name": "Foldernamme",
     "Create new folder": "Meitsje nije map",
     "Folder {n} created": "Map {n} oanmakke",
-    "Folder created": "Map oanmakke"
+    "Folder created": "Map oanmakke",
+    "My account": "Myn account",
+    "{1} messages": "{1} berjochten",
+    "{1} message": "{1} berjocht",
+    "IMAP Upload": "IMAP Upload",
+    "Storage": "Opslach",
+    "IMAP Download": "IMAP Download",
+    "POP3 Download": "POP3 Download",
+    "of {1} GB": "fan {1} GB",
+    "{1} GB": "{1} GB"
   },
   "ga": {
     "Inbox": "Bosca Isteach",
@@ -2072,7 +2288,16 @@
     "Create new folder": "Cruthaigh fillteán nua",
     "Create": "Cruthaigh",
     "Folder {n} created": "Fillteán {n} cruthaithe",
-    "Folder created": "Fillteán cruthaithe"
+    "Folder created": "Fillteán cruthaithe",
+    "My account": "Mo chuntas",
+    "{1} messages": "{1} teachtaireacht",
+    "{1} message": "{1} teachtaireacht",
+    "IMAP Download": "Íoslódáil IMAP",
+    "Storage": "Stóráil",
+    "IMAP Upload": "Uaslódáil IMAP",
+    "POP3 Download": "Íoslódáil POP3",
+    "of {1} GB": "de {1} GB",
+    "{1} GB": "{1} GB"
   },
   "gd": {
     "Inbox": "Bogsa a-steach",
@@ -2155,7 +2380,16 @@
     "Folder name": "Ainm fillte",
     "Create new folder": "Cruthaich pasgan ùr",
     "Folder {n} created": "Folder {n} air a chruthachadh",
-    "Folder created": "Folder air a chruthachadh"
+    "Folder created": "Folder air a chruthachadh",
+    "My account": "Mo chunntas",
+    "{1} messages": "{1} teachdaireachdan",
+    "{1} message": "{1} teachdaireachd",
+    "Storage": "Stòradh",
+    "IMAP Download": "Luchdaich sìos IMAP",
+    "IMAP Upload": "Luchdaich suas IMAP",
+    "POP3 Download": "Luchdaich sìos POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "de {1} GB"
   },
   "gl": {
     "Inbox": "Caixa de entrada",
@@ -2238,7 +2472,16 @@
     "Folder name": "Nome de carpeta",
     "Create": "Crear",
     "Folder {n} created": "Creouse unha carpeta {n}",
-    "Folder created": "Carpeta creada"
+    "Folder created": "Carpeta creada",
+    "My account": "A miña conta",
+    "{1} message": "{1} mensaxe",
+    "{1} messages": "{1} mensaxes",
+    "IMAP Download": "Descarga IMAP",
+    "IMAP Upload": "Cargar IMAP",
+    "Storage": "Almacenamento",
+    "POP3 Download": "Descarga POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "de {1} GB"
   },
   "gu": {
     "Inbox": "ઇનબોક્સ",
@@ -2321,7 +2564,16 @@
     "Folder name": "ફોલ્ડર નામ",
     "Create new folder": "નવું ફોલ્ડર બનાવો",
     "Folder {n} created": "ફોલ્ડર {n} બનાવ્યું",
-    "Folder created": "ફોલ્ડર બનાવ્યું"
+    "Folder created": "ફોલ્ડર બનાવ્યું",
+    "My account": "મારું ખાતું",
+    "{1} messages": "{1} સંદેશા",
+    "{1} message": "{1} સંદેશ",
+    "IMAP Download": "IMAP ડાઉનલોડ કરો",
+    "IMAP Upload": "IMAP અપલોડ",
+    "Storage": "સંગ્રહ",
+    "POP3 Download": "પીઓપી 3 ડાઉનલોડ કરો",
+    "{1} GB": ". 1} જીબી",
+    "of {1} GB": "{1} જીબી"
   },
   "ha": {
     "Inbox": "Akwati",
@@ -2404,7 +2656,16 @@
     "Create": ".Irƙira",
     "Folder name": "Sunan babban fayil",
     "Folder {n} created": "Jaka {n} halitta",
-    "Folder created": "Jaka an kirkiro"
+    "Folder created": "Jaka an kirkiro",
+    "My account": "Asusun",
+    "{1} message": "{1} sakon",
+    "{1} messages": "{1} sakonni",
+    "IMAP Download": "Sauke IMAP",
+    "IMAP Upload": "Hoto IMAP",
+    "Storage": "Adanawa",
+    "POP3 Download": "POP3 Saukewa",
+    "of {1} GB": "na {1} GB",
+    "{1} GB": "{1} GB"
   },
   "haw": {
     "Inbox": "Kahu Inikua",
@@ -2487,7 +2748,16 @@
     "Create new folder": "E hana i kahi faila hou",
     "Create": "Hana",
     "Folder {n} created": "Kūkā ʻia {n} i hana",
-    "Folder created": "Hoʻokumu ʻia ka file"
+    "Folder created": "Hoʻokumu ʻia ka file",
+    "My account": "ʻO kaʻu moʻokāki",
+    "{1} message": "{1} memo",
+    "{1} messages": "{1} mau ʻelele",
+    "IMAP Download": "KāʻI IMAP",
+    "Storage": "Laki",
+    "IMAP Upload": "Hoʻopuka IMAP",
+    "POP3 Download": "Hoihoi i ka POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "o {1} GB"
   },
   "hi": {
     "Inbox": "इनबॉक्स",
@@ -2570,7 +2840,16 @@
     "Cancel": "रद्द करना",
     "Folder name": "फोल्डर का नाम",
     "Folder {n} created": "फ़ोल्डर {n} बनाया गया",
-    "Folder created": "फ़ोल्डर बनाया गया"
+    "Folder created": "फ़ोल्डर बनाया गया",
+    "My account": "मेरा खाता",
+    "{1} message": "{1} संदेश",
+    "{1} messages": "{१} संदेश",
+    "IMAP Download": "IMAP डाउनलोड करें",
+    "IMAP Upload": "IMAP अपलोड",
+    "Storage": "भंडारण",
+    "POP3 Download": "POP3 डाउनलोड करें",
+    "{1} GB": "{१} जीबी",
+    "of {1} GB": "{1} GB का"
   },
   "hmn": {
     "Inbox": "Cov Inbox",
@@ -2653,7 +2932,16 @@
     "Create": "Tsim",
     "Cancel": "Ntawv cia Suam teb",
     "Folder {n} created": "Thaub tsim {n} tsim",
-    "Folder created": "Tsim tsim nplaub tshev"
+    "Folder created": "Tsim tsim nplaub tshev",
+    "My account": "Kuv tus lej",
+    "{1} message": "{1} xov",
+    "{1} messages": "{1} xov",
+    "IMAP Download": "IMAP rub",
+    "Storage": "Cia",
+    "IMAP Upload": "IMAP Upload",
+    "POP3 Download": "POP3 Rub",
+    "of {1} GB": "ntawm {1} GB",
+    "{1} GB": "{1} GB"
   },
   "hr": {
     "Inbox": "Ulazni spremnik",
@@ -2736,7 +3024,16 @@
     "Create new folder": "Stvorite novu mapu",
     "Folder name": "Ime datoteke",
     "Folder {n} created": "Mapa {n} je kreirana",
-    "Folder created": "Mapa je stvorena"
+    "Folder created": "Mapa je stvorena",
+    "My account": "Moj račun",
+    "{1} messages": "{1} poruke",
+    "{1} message": "{1} poruka",
+    "IMAP Download": "Preuzmite IMAP",
+    "IMAP Upload": "Prijenos IMAP-a",
+    "Storage": "skladištenje",
+    "POP3 Download": "Preuzmite POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "od {1} GB"
   },
   "ht": {
     "Inbox": "Bwat resepsyon",
@@ -2819,7 +3116,16 @@
     "Create new folder": "Kreye nouvo katab",
     "Folder name": "Non Dosye an",
     "Folder {n} created": "Dosye {n} kreye",
-    "Folder created": "Dosye ki te kreye"
+    "Folder created": "Dosye ki te kreye",
+    "My account": "Kont mwen",
+    "{1} messages": "{1} mesaj",
+    "{1} message": "{1} mesaj",
+    "Storage": "Depo",
+    "IMAP Download": "Download IMAP",
+    "IMAP Upload": "IMAP Upload",
+    "POP3 Download": "POP3 Download",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "nan {1} GB"
   },
   "hu": {
     "Inbox": "Bejövő",
@@ -2902,7 +3208,16 @@
     "Folder name": "Mappa neve",
     "Cancel": "Megszünteti",
     "Folder {n} created": "A (z) {n} mappa létrehozva",
-    "Folder created": "A mappa létrehozva"
+    "Folder created": "A mappa létrehozva",
+    "My account": "Az én fiókom",
+    "{1} messages": "{1} üzenet",
+    "{1} message": "{1} üzenet",
+    "Storage": "Tárolás",
+    "IMAP Download": "IMAP letöltés",
+    "IMAP Upload": "IMAP feltöltés",
+    "POP3 Download": "POP3 letöltése",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "{1} GB"
   },
   "hy": {
     "Inbox": "Ներարկղ",
@@ -2985,7 +3300,16 @@
     "Folder name": "Թղթապանակի անունը",
     "Create": "Ստեղծել",
     "Folder {n} created": "Թղթապանակ {n} ստեղծվել է",
-    "Folder created": "Թղթապանակը ստեղծվել է"
+    "Folder created": "Թղթապանակը ստեղծվել է",
+    "My account": "Իմ հաշիվը",
+    "{1} messages": "{1} հաղորդագրություններ",
+    "{1} message": "{1} հաղորդագրություն",
+    "IMAP Upload": "IMAP- ի վերբեռնումը",
+    "Storage": "Պահեստավորում",
+    "IMAP Download": "IMAP ներբեռնումը",
+    "POP3 Download": "POP3 ներբեռնումը",
+    "{1} GB": "1} ԳԲ",
+    "of {1} GB": "{1} ԳԲ-ից"
   },
   "id": {
     "Inbox": "Kotak masuk",
@@ -3068,7 +3392,16 @@
     "Cancel": "Membatalkan",
     "Create new folder": "Buat folder baru",
     "Folder {n} created": "Folder {n} dibuat",
-    "Folder created": "Folder dibuat"
+    "Folder created": "Folder dibuat",
+    "My account": "Akun saya",
+    "{1} message": "{1} pesan",
+    "{1} messages": "{1} pesan",
+    "Storage": "Penyimpanan",
+    "IMAP Download": "Unduh IMAP",
+    "IMAP Upload": "Unggah IMAP",
+    "POP3 Download": "Unduh POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "dari {1} GB"
   },
   "ig": {
     "Inbox": "Igbe mbata",
@@ -3151,7 +3484,16 @@
     "Create": "Mepụta",
     "Cancel": "Kagbuo",
     "Folder {n} created": "Emebere folda",
-    "Folder created": "Emepụtara folda"
+    "Folder created": "Emepụtara folda",
+    "My account": "Akaụntụ M",
+    "{1} message": "{1} ozi",
+    "{1} messages": "{1} ozi",
+    "Storage": "Nchekwa",
+    "IMAP Download": "Budata IMAP",
+    "IMAP Upload": "Pinye IMAP",
+    "POP3 Download": "POP3 Download",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "nke {1} GB"
   },
   "is": {
     "Inbox": "Innhólf",
@@ -3234,7 +3576,16 @@
     "Folder name": "Mappanafn",
     "Create": "Búa til",
     "Folder {n} created": "Mappa {n} búin til",
-    "Folder created": "Mappa búin til"
+    "Folder created": "Mappa búin til",
+    "My account": "Minn reikningur",
+    "{1} messages": "{1} skilaboð",
+    "{1} message": "{1} skilaboð",
+    "Storage": "Geymsla",
+    "IMAP Download": "IMAP niðurhal",
+    "IMAP Upload": "IMAP upphleðsla",
+    "POP3 Download": "POP3 niðurhal",
+    "of {1} GB": "af {1} GB",
+    "{1} GB": "{1} GB"
   },
   "it": {
     "Inbox": "Posta in arrivo",
@@ -3317,7 +3668,16 @@
     "Create": "Creare",
     "Cancel": "Annulla",
     "Folder {n} created": "Cartella {n} creata",
-    "Folder created": "Cartella creata"
+    "Folder created": "Cartella creata",
+    "My account": "Il mio account",
+    "{1} messages": "{1} messaggi",
+    "{1} message": "{1} messaggio",
+    "IMAP Download": "Download IMAP",
+    "IMAP Upload": "Caricamento IMAP",
+    "Storage": "Conservazione",
+    "POP3 Download": "Download POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "di {1} GB"
   },
   "iw": {
     "Inbox": "תיבת הדואר הנכנס",
@@ -3400,7 +3760,16 @@
     "Cancel": "בטל",
     "Create": "צור",
     "Folder {n} created": "תיקיה {n} נוצרה",
-    "Folder created": "נוצרה תיקיה"
+    "Folder created": "נוצרה תיקיה",
+    "My account": "החשבון שלי",
+    "{1} messages": "{1} הודעות",
+    "{1} message": "{1} הודעה",
+    "IMAP Download": "הורדת IMAP",
+    "Storage": "אחסון",
+    "IMAP Upload": "העלאת IMAP",
+    "POP3 Download": "הורדת POP3",
+    "of {1} GB": "מתוך {1} GB",
+    "{1} GB": "{1} GB"
   },
   "ja": {
     "Inbox": "受信トレイ",
@@ -3483,7 +3852,16 @@
     "Folder name": "フォルダ名",
     "Cancel": "キャンセル",
     "Folder {n} created": "フォルダ{n}が作成されました",
-    "Folder created": "作成されたフォルダ"
+    "Folder created": "作成されたフォルダ",
+    "My account": "マイアカウント",
+    "{1} messages": "{1}メッセージ",
+    "{1} message": "{1}メッセージ",
+    "Storage": "ストレージ",
+    "IMAP Download": "IMAPダウンロード",
+    "IMAP Upload": "IMAPアップロード",
+    "POP3 Download": "POP3ダウンロード",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "{1} GB"
   },
   "jw": {
     "Inbox": "Kothak mlebu",
@@ -3566,7 +3944,16 @@
     "Create": "Nggawe",
     "Folder name": "Jeneng folder",
     "Folder {n} created": "Folder {n} digawe",
-    "Folder created": "Folder digawe"
+    "Folder created": "Folder digawe",
+    "My account": "Pendhaftaran",
+    "{1} messages": "{1} pesen",
+    "{1} message": "{1} pesen",
+    "IMAP Download": "Download IMAP",
+    "IMAP Upload": "Upload Upload IMAP",
+    "Storage": "Lumbung",
+    "POP3 Download": "Download POP3",
+    "of {1} GB": "saka {1} GB",
+    "{1} GB": "{1} GB"
   },
   "ka": {
     "Inbox": "Შემომავალი",
@@ -3649,7 +4036,16 @@
     "Cancel": "გაუქმება",
     "Create new folder": "შექმენით ახალი საქაღალდე",
     "Folder {n} created": "საქაღალდე {n} შექმნა",
-    "Folder created": "საქაღალდე შექმნა"
+    "Folder created": "საქაღალდე შექმნა",
+    "My account": "Ჩემი ანგარიში",
+    "{1} messages": "{1} შეტყობინებები",
+    "{1} message": "{1} გაგზავნა",
+    "Storage": "შენახვა",
+    "IMAP Download": "IMAP ჩამოტვირთვა",
+    "IMAP Upload": "IMAP ატვირთვა",
+    "POP3 Download": "POP3 ჩამოტვირთვა",
+    "of {1} GB": "{1} GB",
+    "{1} GB": "1} GB"
   },
   "kk": {
     "Inbox": "Кіріс жәшігі",
@@ -3732,7 +4128,16 @@
     "Create new folder": "Жаңа қалта жасау",
     "Create": "Жасау",
     "Folder {n} created": "{N} қалтасы жасалды",
-    "Folder created": "Қалта жасалды"
+    "Folder created": "Қалта жасалды",
+    "My account": "Менің аккаунтым",
+    "{1} messages": "{1} хабарлар",
+    "{1} message": "{1} хабары",
+    "Storage": "Сақтау",
+    "IMAP Download": "IMAP жүктеу",
+    "IMAP Upload": "IMAP жүктеу",
+    "POP3 Download": "POP3 жүктеу",
+    "of {1} GB": "{1} ГБ құрайды",
+    "{1} GB": "{1} ГБ"
   },
   "km": {
     "Inbox": "ប្រអប់ទទួល",
@@ -3815,7 +4220,16 @@
     "Create new folder": "បង្កើតថតឯកសារថ្មី",
     "Folder name": "ឈ្មោះថតឯកសារ",
     "Folder {n} created": "បានបង្កើតថត {n}",
-    "Folder created": "បានបង្កើតថត"
+    "Folder created": "បានបង្កើតថត",
+    "My account": "គណនី​របស់ខ្ញុំ",
+    "{1} messages": "{១} សារ",
+    "{1} message": "{១} សារ",
+    "IMAP Download": "ទាញយក IMAP",
+    "IMAP Upload": "ផ្ទុកឡើង IMAP",
+    "Storage": "ការផ្ទុក",
+    "POP3 Download": "ទាញយក POP3",
+    "{1} GB": "{១} ជីកាបៃ",
+    "of {1} GB": "នៃ {1} ជីកាបៃ"
   },
   "kn": {
     "Inbox": "ಇನ್‌ಬಾಕ್ಸ್",
@@ -3898,7 +4312,16 @@
     "Create": "ರಚಿಸಿ",
     "Cancel": "ರದ್ದುಮಾಡಿ",
     "Folder {n} created": "ಫೋಲ್ಡರ್ {n} ರಚಿಸಲಾಗಿದೆ",
-    "Folder created": "ಫೋಲ್ಡರ್ ರಚಿಸಲಾಗಿದೆ"
+    "Folder created": "ಫೋಲ್ಡರ್ ರಚಿಸಲಾಗಿದೆ",
+    "My account": "ನನ್ನ ಖಾತೆ",
+    "{1} message": "{1} ಸಂದೇಶ",
+    "{1} messages": "{1} ಸಂದೇಶಗಳು",
+    "IMAP Upload": "IMAP ಅಪ್‌ಲೋಡ್",
+    "IMAP Download": "IMAP ಡೌನ್‌ಲೋಡ್",
+    "Storage": "ಸಂಗ್ರಹಣೆ",
+    "POP3 Download": "POP3 ಡೌನ್‌ಲೋಡ್",
+    "of {1} GB": "{1} ಜಿಬಿ",
+    "{1} GB": "{1} ಜಿಬಿ"
   },
   "ko": {
     "Inbox": "받은 편지함",
@@ -3981,7 +4404,16 @@
     "Create": "창조하다",
     "Cancel": "취소",
     "Folder {n} created": "{n} 폴더가 생성되었습니다",
-    "Folder created": "폴더 생성"
+    "Folder created": "폴더 생성",
+    "My account": "내 계정",
+    "{1} message": "{1} 메시지",
+    "{1} messages": "{1} 메시지",
+    "Storage": "저장",
+    "IMAP Download": "IMAP 다운로드",
+    "IMAP Upload": "IMAP 업로드",
+    "POP3 Download": "POP3 다운로드",
+    "of {1} GB": "{1} GB",
+    "{1} GB": "{1} GB"
   },
   "ku": {
     "Inbox": "Inbox",
@@ -4064,7 +4496,16 @@
     "Create new folder": "Peldanka nû ava bikin",
     "Folder name": "Navê peldanka",
     "Folder {n} created": "Folder {n} afirandin",
-    "Folder created": "Folder afirandin"
+    "Folder created": "Folder afirandin",
+    "My account": "Hesabê min",
+    "{1} messages": "{1} peyamên",
+    "{1} message": "Peyamek {1",
+    "Storage": "Embarkirinî",
+    "IMAP Download": "Daxistin IMAP",
+    "IMAP Upload": "IMAP Barkirin",
+    "POP3 Download": "Daxistin POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "ji {1} GB"
   },
   "ky": {
     "Inbox": "Кирүү кутусу",
@@ -4147,7 +4588,16 @@
     "Folder name": "Куржундун аты",
     "Create": "түзүү",
     "Folder {n} created": "{N} папкасы түзүлдү",
-    "Folder created": "Папка түзүлдү"
+    "Folder created": "Папка түзүлдү",
+    "My account": "Менин эсебим",
+    "{1} messages": "{1} билдирүүлөр",
+    "{1} message": "{1} билдирүү",
+    "IMAP Download": "IMAP жүктөө",
+    "IMAP Upload": "IMAP жүктөө",
+    "Storage": "сактоочу жай",
+    "POP3 Download": "POP3 Жүктөө",
+    "{1} GB": "{1} ГБ",
+    "of {1} GB": "of {1} ГБ"
   },
   "la": {
     "Inbox": "inbuxo",
@@ -4230,7 +4680,16 @@
     "Create": "Create",
     "Folder name": "folder est nomen",
     "Folder {n} created": "Folder creatus est {n}",
-    "Folder created": "folder creata est"
+    "Folder created": "folder creata est",
+    "My account": "Propter me",
+    "{1} messages": "{I} epistulae",
+    "{1} message": "{I} nuntius",
+    "Storage": "storage",
+    "IMAP Download": "IMAP Download",
+    "IMAP Upload": "Index IMAP",
+    "POP3 Download": "POP3 Download",
+    "of {1} GB": "} {GB ex I",
+    "{1} GB": "{I} MB"
   },
   "lb": {
     "Inbox": "Inbox",
@@ -4313,7 +4772,16 @@
     "Cancel": "Ofbriechen",
     "Create": "Erstellt",
     "Folder {n} created": "Dossier {n} erstallt",
-    "Folder created": "Folder erstallt"
+    "Folder created": "Folder erstallt",
+    "My account": "Mäi Kont",
+    "{1} messages": "{1} Messagen",
+    "{1} message": "{1} Message",
+    "IMAP Download": "IMAP Luet",
+    "IMAP Upload": "IMAP Eroplueden",
+    "Storage": "Späicheren",
+    "POP3 Download": "POP3 Luet",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "vun {1} GB"
   },
   "lo": {
     "Inbox": "ກ່ອງຈົດ ໝາຍ",
@@ -4396,7 +4864,16 @@
     "Cancel": "ຍົກເລີກ",
     "Create": "ສ້າງ",
     "Folder {n} created": "ໂຟນເດີ {n} ສ້າງຂື້ນແລ້ວ",
-    "Folder created": "ແຟ້ມສ້າງ"
+    "Folder created": "ແຟ້ມສ້າງ",
+    "My account": "ບັນ​ຊີ​ຂອງ​ຂ້ອຍ",
+    "{1} messages": "{1} ຂໍ້ຄວາມ",
+    "{1} message": "{1} ຂໍ້ຄວາມ",
+    "IMAP Upload": "IMAP ອັບໂຫລດ",
+    "IMAP Download": "ດາວໂຫລດ IMAP",
+    "Storage": "ບ່ອນເກັບມ້ຽນ",
+    "POP3 Download": "POP3 ດາວໂຫລດ",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "ຂອງ {1} GB"
   },
   "lt": {
     "Inbox": "Pašto dėžutę",
@@ -4479,7 +4956,16 @@
     "Create": "Sukurti",
     "Folder name": "Aplanko pavadinimas",
     "Folder {n} created": "Aplankas {n} sukurtas",
-    "Folder created": "Sukurtas aplankas"
+    "Folder created": "Sukurtas aplankas",
+    "My account": "Mano sąskaita",
+    "{1} messages": "{1} pranešimai",
+    "{1} message": "{1} pranešimas",
+    "IMAP Download": "IMAP atsisiųsti",
+    "Storage": "Sandėliavimas",
+    "IMAP Upload": "IMAP įkėlimas",
+    "POP3 Download": "POP3 atsisiųsti",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "iš {1} GB"
   },
   "lv": {
     "Inbox": "Iesūtne",
@@ -4562,7 +5048,16 @@
     "Create": "Izveidot",
     "Folder name": "Mapes nosaukums",
     "Folder {n} created": "Mape {n} izveidota",
-    "Folder created": "Mape izveidota"
+    "Folder created": "Mape izveidota",
+    "My account": "Mans Konts",
+    "{1} message": "{1} ziņojums",
+    "{1} messages": "{1} ziņojumi",
+    "IMAP Download": "IMAP lejupielāde",
+    "IMAP Upload": "IMAP augšupielāde",
+    "Storage": "Uzglabāšana",
+    "POP3 Download": "POP3 lejupielāde",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "no {1} GB"
   },
   "mg": {
     "Inbox": "Inbox",
@@ -4645,7 +5140,16 @@
     "Folder name": "Anaran'ny folder",
     "Cancel": "hanafoana",
     "Folder {n} created": "Folder {n} noforonina",
-    "Folder created": "Famoronana noforonina"
+    "Folder created": "Famoronana noforonina",
+    "My account": "Ny kaontiko",
+    "{1} message": "Hafatra 1",
+    "{1} messages": "{1} hafatra",
+    "Storage": "Storage",
+    "IMAP Upload": "IMAP Upload",
+    "IMAP Download": "IMAP Download",
+    "POP3 Download": "POP3 Download",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "amin'ny {1} GB"
   },
   "mi": {
     "Inbox": "Pouakahu",
@@ -4728,7 +5232,16 @@
     "Cancel": "Whakakore",
     "Create": "Te Hanga",
     "Folder {n} created": "Kōpaki {n} i hangaia",
-    "Folder created": "I hanga te Kōpaki"
+    "Folder created": "I hanga te Kōpaki",
+    "My account": "Kei taku kaute",
+    "{1} message": "{1} panui",
+    "{1} messages": "{1} karere",
+    "IMAP Download": "Tukua IMAP",
+    "Storage": "Rokiroki",
+    "IMAP Upload": "Tukunga IMAP",
+    "POP3 Download": "POP3 Tango mai",
+    "of {1} GB": "o {1} GB",
+    "{1} GB": "{1} GB"
   },
   "mk": {
     "Inbox": "Инбокс",
@@ -4811,7 +5324,16 @@
     "Folder name": "Име на папка",
     "Create new folder": "Создадете нова папка",
     "Folder {n} created": "Фолдер {n} креирано",
-    "Folder created": "Фолдер е создаден"
+    "Folder created": "Фолдер е создаден",
+    "My account": "Мојот акаунт",
+    "{1} message": "{1} порака",
+    "{1} messages": "{1} пораки",
+    "Storage": "Складирање",
+    "IMAP Download": "Преземање IMAP",
+    "IMAP Upload": "Поставете IMAP",
+    "POP3 Download": "Преземи POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "од {1} GB"
   },
   "ml": {
     "Inbox": "ഇൻ‌ബോക്സ്",
@@ -4894,7 +5416,16 @@
     "Create new folder": "പുതിയ ഫോൾഡർ സൃഷ്ടിക്കുക",
     "Folder name": "ഫോൾഡറിന്റെ പേര്",
     "Folder {n} created": "ഫോൾഡർ {n} സൃഷ്‌ടിച്ചു",
-    "Folder created": "ഫോൾഡർ സൃഷ്‌ടിച്ചു"
+    "Folder created": "ഫോൾഡർ സൃഷ്‌ടിച്ചു",
+    "My account": "എന്റെ അക്കൗണ്ട്",
+    "{1} message": "{1} സന്ദേശം",
+    "{1} messages": "{1} സന്ദേശങ്ങൾ",
+    "IMAP Download": "IMAP ഡൗൺലോഡ്",
+    "IMAP Upload": "IMAP അപ്‌ലോഡ്",
+    "Storage": "സംഭരണം",
+    "POP3 Download": "POP3 ഡൗൺലോഡ്",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "{1} GB"
   },
   "mn": {
     "Inbox": "Ирсэн мэйл",
@@ -4977,7 +5508,16 @@
     "Folder name": "Фолдерын нэр",
     "Create new folder": "Шинэ хавтас үүсгэх",
     "Folder {n} created": "{N} хавтас үүсгэсэн",
-    "Folder created": "Хавтас үүсгэсэн байна"
+    "Folder created": "Хавтас үүсгэсэн байна",
+    "My account": "Миний данс",
+    "{1} messages": "{1} мессеж",
+    "{1} message": "{1} мессеж",
+    "IMAP Download": "IMAP татаж авах",
+    "Storage": "Хадгалалт",
+    "IMAP Upload": "IMAP Байршуулах",
+    "POP3 Download": "POP3 татаж авах",
+    "{1} GB": "{1} ГБ байна",
+    "of {1} GB": "нь {1} ГБ"
   },
   "mr": {
     "Inbox": "इनबॉक्स",
@@ -5060,7 +5600,16 @@
     "Create": "तयार करा",
     "Cancel": "रद्द करा",
     "Folder {n} created": "फोल्डर {n {तयार केले",
-    "Folder created": "फोल्डर तयार केला"
+    "Folder created": "फोल्डर तयार केला",
+    "My account": "माझे खाते",
+    "{1} messages": "{1} संदेश",
+    "{1} message": "{1} संदेश",
+    "IMAP Download": "IMAP डाउनलोड",
+    "IMAP Upload": "IMAP अपलोड",
+    "Storage": "साठवण",
+    "POP3 Download": "पीओपी 3 डाउनलोड करा",
+    "{1} GB": ". 1} जीबी",
+    "of {1} GB": "{1. जीबीचे"
   },
   "ms": {
     "Inbox": "Peti Masuk",
@@ -5143,7 +5692,16 @@
     "Cancel": "Batal",
     "Create": "Buat",
     "Folder {n} created": "Folder {n} dibuat",
-    "Folder created": "Folder dibuat"
+    "Folder created": "Folder dibuat",
+    "My account": "Akaun saya",
+    "{1} messages": "{1} mesej",
+    "{1} message": "{1} mesej",
+    "Storage": "Penyimpanan",
+    "IMAP Download": "Muat turun IMAP",
+    "IMAP Upload": "Muat Naik IMAP",
+    "POP3 Download": "Muat turun POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "daripada {1} GB"
   },
   "mt": {
     "Inbox": "Inbox",
@@ -5226,7 +5784,16 @@
     "Folder name": "Isem tal-Folder",
     "Cancel": "Ikkanċella",
     "Folder {n} created": "Folder {n} maħluqa",
-    "Folder created": "Folder maħluqa"
+    "Folder created": "Folder maħluqa",
+    "My account": "Kont tiegħi",
+    "{1} message": "Messaġġ {1}",
+    "{1} messages": "{1} messaġġi",
+    "IMAP Upload": "Tella IMAP",
+    "IMAP Download": "Niżżel IMAP",
+    "Storage": "Ħażna",
+    "POP3 Download": "Niżżel POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "ta '{1} GB"
   },
   "my": {
     "Inbox": "Inbox",
@@ -5309,7 +5876,16 @@
     "Cancel": "ပယ်ဖျက်ပါ",
     "Create": "ဖန်တီးပါ",
     "Folder {n} created": "ဖိုလ်ဒါ {n} ကိုဖန်တီးထားသည်",
-    "Folder created": "ဖိုလ်ဒါဖန်တီးထားသည်"
+    "Folder created": "ဖိုလ်ဒါဖန်တီးထားသည်",
+    "My account": "ငါ့အကောင့်",
+    "{1} messages": "{1} သတင်းစကား",
+    "{1} message": "{1} သတင်းစကား",
+    "Storage": "သိုလှောင်ခြင်း",
+    "IMAP Download": "IMAP ဒေါင်းလုပ်",
+    "IMAP Upload": "IMAP တင်ပါ",
+    "POP3 Download": "POP3 ဒေါင်းလုပ်",
+    "of {1} GB": "{1} GB ကို၏",
+    "{1} GB": "{1} GB"
   },
   "ne": {
     "Inbox": "इनबक्स",
@@ -5392,7 +5968,16 @@
     "Create new folder": "नयाँ फोल्डर सिर्जना गर्नुहोस्",
     "Cancel": "रद्द गर्नुहोस्",
     "Folder {n} created": "फोल्डर {n} सिर्जना गरियो",
-    "Folder created": "फोल्डर सिर्जना गरियो"
+    "Folder created": "फोल्डर सिर्जना गरियो",
+    "My account": "मेरो खाता",
+    "{1} message": "{१} सन्देश",
+    "{1} messages": "। १} सन्देशहरू",
+    "IMAP Download": "IMAP डाउनलोड गर्नुहोस्",
+    "Storage": "भण्डारण",
+    "IMAP Upload": "IMAP अपलोड",
+    "POP3 Download": "POP3 डाउनलोड गर्नुहोस्",
+    "{1} GB": "{१} जीबी",
+    "of {1} GB": "{१} जीबीको"
   },
   "nl": {
     "Inbox": "Postvak IN",
@@ -5475,7 +6060,16 @@
     "Cancel": "annuleren",
     "Create": "Creëer",
     "Folder {n} created": "Map {n} gemaakt",
-    "Folder created": "Map gemaakt"
+    "Folder created": "Map gemaakt",
+    "My account": "Mijn rekening",
+    "{1} messages": "{1} berichten",
+    "{1} message": "{1} bericht",
+    "Storage": "Opslag",
+    "IMAP Upload": "IMAP-upload",
+    "IMAP Download": "IMAP downloaden",
+    "POP3 Download": "POP3 downloaden",
+    "of {1} GB": "van {1} GB",
+    "{1} GB": "{1} GB"
   },
   "no": {
     "Inbox": "Innboks",
@@ -5558,7 +6152,16 @@
     "Cancel": "Avbryt",
     "Create new folder": "Lag ny mappe",
     "Folder {n} created": "Mappe {n} opprettet",
-    "Folder created": "Mappe opprettet"
+    "Folder created": "Mappe opprettet",
+    "My account": "Min konto",
+    "{1} messages": "{1} meldinger",
+    "{1} message": "{1} melding",
+    "Storage": "Oppbevaring",
+    "IMAP Download": "IMAP-nedlasting",
+    "IMAP Upload": "IMAP-opplasting",
+    "POP3 Download": "POP3 nedlasting",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "på {1} GB"
   },
   "ny": {
     "Inbox": "Makulidwe",
@@ -5641,7 +6244,16 @@
     "Cancel": "Patulani",
     "Create": "Pangani",
     "Folder {n} created": "Folder {n} idapangidwa",
-    "Folder created": "Fodaida idapangidwa"
+    "Folder created": "Fodaida idapangidwa",
+    "My account": "Akaunti Yanga",
+    "{1} messages": "{1} mauthenga",
+    "{1} message": "{1} uthenga",
+    "Storage": "Kusunga",
+    "IMAP Upload": "IMAP Kwezani",
+    "IMAP Download": "Tsitsani pa IMAP",
+    "POP3 Download": "Tsitsani POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "ya {1} GB"
   },
   "or": {
     "Inbox": "ଇନବକ୍ସ |",
@@ -5724,7 +6336,16 @@
     "Create": "ସୃଷ୍ଟି କରନ୍ତୁ |",
     "Cancel": "ବାତିଲ୍ କରନ୍ତୁ |",
     "Folder {n} created": "ଫୋଲ୍ଡର {n} ସୃଷ୍ଟି ହୋଇଛି |",
-    "Folder created": "ଫୋଲ୍ଡର ସୃଷ୍ଟି |"
+    "Folder created": "ଫୋଲ୍ଡର ସୃଷ୍ଟି |",
+    "My account": "ମୋ ଖାତା",
+    "{1} messages": "{1} ସନ୍ଦେଶ |",
+    "{1} message": "{1} ବାର୍ତ୍ତା |",
+    "IMAP Download": "IMAP ଡାଉନଲୋଡ୍ |",
+    "IMAP Upload": "IMAP ଅପଲୋଡ୍ |",
+    "Storage": "ଭଣ୍ଡାର",
+    "POP3 Download": "POP3 ଡାଉନଲୋଡ୍ |",
+    "of {1} GB": "{1} GB ର |",
+    "{1} GB": "{1} GB"
   },
   "pa": {
     "Inbox": "ਇਨਬਾਕਸ",
@@ -5807,7 +6428,16 @@
     "Folder name": "ਫੋਲਡਰ ਦਾ ਨਾਮ",
     "Cancel": "ਰੱਦ ਕਰੋ",
     "Folder {n} created": "ਫੋਲਡਰ {n} ਬਣਾਇਆ ਗਿਆ",
-    "Folder created": "ਫੋਲਡਰ ਬਣਾਇਆ ਗਿਆ"
+    "Folder created": "ਫੋਲਡਰ ਬਣਾਇਆ ਗਿਆ",
+    "My account": "ਮੇਰਾ ਖਾਤਾ",
+    "{1} message": "{1} ਸੁਨੇਹਾ",
+    "{1} messages": "{1} ਸੁਨੇਹੇ",
+    "Storage": "ਸਟੋਰੇਜ",
+    "IMAP Download": "IMAP ਡਾ .ਨਲੋਡ",
+    "IMAP Upload": "IMAP ਅਪਲੋਡ",
+    "POP3 Download": "ਪੀਓਪੀ 3 ਡਾ .ਨਲੋਡ ਕਰੋ",
+    "{1} GB": "{1} ਜੀ.ਬੀ.",
+    "of {1} GB": "{1} ਜੀਬੀ ਦਾ"
   },
   "pl": {
     "Inbox": "W pudełku",
@@ -5890,7 +6520,16 @@
     "Cancel": "Anuluj",
     "Create": "Stwórz",
     "Folder {n} created": "Utworzono folder {n}",
-    "Folder created": "Utworzono folder"
+    "Folder created": "Utworzono folder",
+    "My account": "Moje konto",
+    "{1} messages": "{1} wiadomości",
+    "{1} message": "Wiadomość {1}",
+    "Storage": "Przechowywanie",
+    "IMAP Upload": "Przesyłanie IMAP",
+    "IMAP Download": "Pobieranie IMAP",
+    "POP3 Download": "Pobieranie POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "z {1} GB"
   },
   "ps": {
     "Inbox": "Inbox",
@@ -5973,7 +6612,16 @@
     "Cancel": "لغوه کول",
     "Create": "جوړول",
     "Folder {n} created": "پوښی جوړ شو. n}",
-    "Folder created": "پوښی جوړ شو"
+    "Folder created": "پوښی جوړ شو",
+    "My account": "زما حساب",
+    "{1} messages": "{1} پېغامونه",
+    "{1} message": "{1} پیغام",
+    "Storage": "زېرمه",
+    "IMAP Download": "IMAP ډاونلوډ",
+    "IMAP Upload": "د IMAP اپلوډ",
+    "POP3 Download": "POP3 ډاونلوډ",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "د {1} جی بی"
   },
   "pt": {
     "Inbox": "Caixa de entrada",
@@ -6056,7 +6704,16 @@
     "Create": "Crio",
     "Cancel": "Cancelar",
     "Folder {n} created": "Pasta {n} criada",
-    "Folder created": "Pasta criada"
+    "Folder created": "Pasta criada",
+    "My account": "Minha conta",
+    "{1} messages": "{1} mensagens",
+    "{1} message": "{1} mensagem",
+    "Storage": "Armazenamento",
+    "IMAP Download": "Download IMAP",
+    "IMAP Upload": "Upload IMAP",
+    "POP3 Download": "Baixar POP3",
+    "of {1} GB": "de {1} GB",
+    "{1} GB": "{1} GB"
   },
   "ro": {
     "Inbox": "Inbox",
@@ -6139,7 +6796,16 @@
     "Cancel": "Anulare",
     "Create": "Crea",
     "Folder {n} created": "Folder {n} creat",
-    "Folder created": "Folder creat"
+    "Folder created": "Folder creat",
+    "My account": "Contul meu",
+    "{1} messages": "{1 Mesaje",
+    "{1} message": "{1} mesaj",
+    "IMAP Download": "Descărcare IMAP",
+    "Storage": "Depozitare",
+    "IMAP Upload": "Încărcare IMAP",
+    "POP3 Download": "Descărcare POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "din {1} GB"
   },
   "ru": {
     "Inbox": "входящие",
@@ -6222,7 +6888,16 @@
     "Create": "Создайте",
     "Cancel": "Отмена",
     "Folder {n} created": "Папка {n} создана",
-    "Folder created": "Папка создана"
+    "Folder created": "Папка создана",
+    "My account": "Мой счет",
+    "{1} messages": "{1} сообщения",
+    "{1} message": "{1} сообщение",
+    "Storage": "Место хранения",
+    "IMAP Download": "IMAP Скачать",
+    "IMAP Upload": "IMAP Загрузить",
+    "POP3 Download": "POP3 Скачать",
+    "{1} GB": "{1} ГБ",
+    "of {1} GB": "{1} ГБ"
   },
   "rw": {
     "Inbox": "Inbox",
@@ -6305,7 +6980,16 @@
     "Folder name": "Izina ry'ububiko",
     "Create new folder": "Kora ububiko bushya",
     "Folder {n} created": "Ububiko {n} bwakozwe",
-    "Folder created": "Ububiko bwakozwe"
+    "Folder created": "Ububiko bwakozwe",
+    "My account": "Konti yanjye",
+    "{1} messages": "{1} ubutumwa",
+    "{1} message": "{1} ubutumwa",
+    "Storage": "Ububiko",
+    "IMAP Upload": "Kuramo IMAP",
+    "IMAP Download": "Gukuramo IMAP",
+    "POP3 Download": "POP3 Gukuramo",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "ya {1} GB"
   },
   "sd": {
     "Inbox": "انباڪس",
@@ -6388,7 +7072,16 @@
     "Folder name": "فولڊر جو نالو",
     "Create": "ٺاهيو",
     "Folder {n} created": "فولڊر {n} ٺاھيو ويو",
-    "Folder created": "فولڊر ٺاھيو"
+    "Folder created": "فولڊر ٺاھيو",
+    "My account": "منهنجو اڪائونٽ",
+    "{1} messages": "{1} نياپا",
+    "{1} message": "{1} پيغام",
+    "IMAP Download": "IMAP ڊائون لوڊ ڪريو",
+    "Storage": "اسٽوريج",
+    "IMAP Upload": "IMAP اپ لوڊ",
+    "POP3 Download": "POP3 ڊائون لوڊ ڪريو",
+    "{1} GB": "{1} جي بي",
+    "of {1} GB": "{1} GB جو"
   },
   "si": {
     "Inbox": "එන ලිපි",
@@ -6471,7 +7164,16 @@
     "Create": "සාදන්න",
     "Folder name": "ෆෝල්ඩරයේ නම",
     "Folder {n} created": "ෆෝල්ඩරය {n} නිර්මාණය කරන ලදි",
-    "Folder created": "ෆෝල්ඩරය සාදන ලදි"
+    "Folder created": "ෆෝල්ඩරය සාදන ලදි",
+    "My account": "මගේ ගිණුම",
+    "{1} messages": "{1} පණිවිඩ",
+    "{1} message": "{1} පණිවිඩය",
+    "Storage": "ගබඞා",
+    "IMAP Download": "IMAP බාගත කිරීම",
+    "IMAP Upload": "IMAP උඩුගත කිරීම",
+    "POP3 Download": "POP3 බාගත කරන්න",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "{1} GB"
   },
   "sk": {
     "Inbox": "Doručená pošta",
@@ -6554,7 +7256,16 @@
     "Folder name": "Názov priečinka",
     "Cancel": "Zrušiť",
     "Folder {n} created": "Priečinok {n} bol vytvorený",
-    "Folder created": "Priečinok bol vytvorený"
+    "Folder created": "Priečinok bol vytvorený",
+    "My account": "Môj účet",
+    "{1} messages": "{1} správ",
+    "{1} message": "{1} správa",
+    "Storage": "skladovanie",
+    "IMAP Upload": "Nahrávanie IMAP",
+    "IMAP Download": "Stiahnutie IMAP",
+    "POP3 Download": "Stiahnutie POP3",
+    "of {1} GB": "z {1} GB",
+    "{1} GB": "{1} GB"
   },
   "sl": {
     "Inbox": "Prejeto",
@@ -6637,7 +7348,16 @@
     "Folder name": "Ime mape",
     "Cancel": "Prekliči",
     "Folder {n} created": "Mapa {n} je bila ustvarjena",
-    "Folder created": "Mapa je ustvarjena"
+    "Folder created": "Mapa je ustvarjena",
+    "My account": "Moj račun",
+    "{1} messages": "{1} sporočila",
+    "{1} message": "{1} sporočilo",
+    "IMAP Download": "Prenos IMAP",
+    "IMAP Upload": "Prenos IMAP",
+    "Storage": "Skladiščenje",
+    "POP3 Download": "Prenos POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "od {1} GB"
   },
   "sm": {
     "Inbox": "Falevalu",
@@ -6720,7 +7440,16 @@
     "Create": "Faia",
     "Create new folder": "Fausia se faila fou",
     "Folder {n} created": "Faila {n} faia",
-    "Folder created": "Fatu na fatuina"
+    "Folder created": "Fatu na fatuina",
+    "My account": "Lou tala",
+    "{1} messages": "{1} feau",
+    "{1} message": "{1} feʻau",
+    "IMAP Upload": "IMAP Faʻaopoopo",
+    "Storage": "Teuina o meaai",
+    "IMAP Download": "IMAP Sii mai",
+    "POP3 Download": "Download POP3",
+    "of {1} GB": "o le {1} GB",
+    "{1} GB": "{1} GB"
   },
   "sn": {
     "Inbox": "Inbox",
@@ -6803,7 +7532,16 @@
     "Create": "Gadzira",
     "Create new folder": "Gadzira nyowani nyowani",
     "Folder {n} created": "Folder {n} yakagadzirwa",
-    "Folder created": "Folda yakagadzirwa"
+    "Folder created": "Folda yakagadzirwa",
+    "My account": "Akaundi yangu",
+    "{1} messages": "{1} mameseji",
+    "{1} message": "{1} meseji",
+    "IMAP Download": "IMAP Download",
+    "Storage": "Kuchengetedza",
+    "IMAP Upload": "IMAP Kurodha",
+    "POP3 Download": "POP3 Download",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "ye {1} GB"
   },
   "so": {
     "Inbox": "Inbox",
@@ -6886,7 +7624,16 @@
     "Folder name": "Magaca faylka",
     "Cancel": "Tirtir",
     "Folder {n} created": "Feyl {n} waa la abuuray",
-    "Folder created": "Faylka waa la abuuray"
+    "Folder created": "Faylka waa la abuuray",
+    "My account": "Xisaabteyda",
+    "{1} messages": "{1} farriimaha",
+    "{1} message": "{1} farriin",
+    "IMAP Download": "Soo dejinta IMAP",
+    "Storage": "Kaydinta",
+    "IMAP Upload": "Soo dejinta IMAP",
+    "POP3 Download": "Soo dejiso POP3",
+    "of {1} GB": "ee {1} GB",
+    "{1} GB": "{1} GB"
   },
   "sq": {
     "Inbox": "Inbox",
@@ -6969,7 +7716,16 @@
     "Folder name": "Emri i dosjes",
     "Create": "krijoj",
     "Folder {n} created": "Dosje {n} krijuar",
-    "Folder created": "Dosja e krijuar"
+    "Folder created": "Dosja e krijuar",
+    "My account": "Llogaria ime",
+    "{1} messages": "{1} mesazhe",
+    "{1} message": "Mesazh {1",
+    "Storage": "ruajtje",
+    "IMAP Download": "Shkarkim IMAP",
+    "IMAP Upload": "Ngarko IMAP",
+    "POP3 Download": "Shkarkim POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "prej {1} GB"
   },
   "sr": {
     "Inbox": "Инбок",
@@ -7052,7 +7808,16 @@
     "Folder name": "Име фасцикле",
     "Create": "Креирај",
     "Folder {n} created": "Фолдер {н} је креиран",
-    "Folder created": "Фолдер је креиран"
+    "Folder created": "Фолдер је креиран",
+    "My account": "Мој налог",
+    "{1} messages": "{1} поруке",
+    "{1} message": "{1} порука",
+    "Storage": "Складиште",
+    "IMAP Download": "Довнлоад ИМАП",
+    "IMAP Upload": "ИМАП уплоад",
+    "POP3 Download": "ПОП3 Довнлоад",
+    "of {1} GB": "од {1} ГБ",
+    "{1} GB": "{1} ГБ"
   },
   "st": {
     "Inbox": "Inbox",
@@ -7135,7 +7900,16 @@
     "Create new folder": "Theha foldara e ncha",
     "Folder name": "Lebitso la lifoldara",
     "Folder {n} created": "Folder {n} e entsoe",
-    "Folder created": "Folder e thehiloe"
+    "Folder created": "Folder e thehiloe",
+    "My account": "Akhaonte Ea Hau",
+    "{1} messages": "{1} melaetsa",
+    "{1} message": "{1} molaetsa",
+    "IMAP Download": "Khoasolla IMAP",
+    "IMAP Upload": "IMAP Tlanya",
+    "Storage": "Boloka",
+    "POP3 Download": "POP3 Khoasolla",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "ho {1} GB"
   },
   "su": {
     "Inbox": "Koropak",
@@ -7218,7 +7992,16 @@
     "Folder name": "Ngaran folder",
     "Cancel": "Ngabolaykeun",
     "Folder {n} created": "Folder {n} diciptakeun",
-    "Folder created": "Polder nyiptakeun"
+    "Folder created": "Polder nyiptakeun",
+    "My account": "Akun abdi",
+    "{1} messages": "{1} pesen",
+    "{1} message": "Pesen {1}",
+    "Storage": "Neundeun",
+    "IMAP Download": "IMAP Unduh",
+    "IMAP Upload": "Unggah IMAP",
+    "POP3 Download": "Download POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "tina {1} GB"
   },
   "sv": {
     "Inbox": "Inkorg",
@@ -7301,7 +8084,16 @@
     "Create new folder": "Skapa ny mapp",
     "Cancel": "Avbryt",
     "Folder {n} created": "Mapp {n} skapad",
-    "Folder created": "Mapp skapad"
+    "Folder created": "Mapp skapad",
+    "My account": "Mitt konto",
+    "{1} messages": "{1} meddelanden",
+    "{1} message": "{1} meddelande",
+    "Storage": "Lagring",
+    "IMAP Upload": "IMAP Upload",
+    "IMAP Download": "IMAP-nedladdning",
+    "POP3 Download": "POP3 nedladdning",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "av {1} GB"
   },
   "sw": {
     "Inbox": "Kikasha",
@@ -7384,7 +8176,16 @@
     "Folder name": "Jina la folda",
     "Create": "Unda",
     "Folder {n} created": "Folda {n} imeundwa",
-    "Folder created": "Folda imeundwa"
+    "Folder created": "Folda imeundwa",
+    "My account": "Akaunti yangu",
+    "{1} messages": "Ujumbe wa {1}",
+    "{1} message": "Ujumbe wa {1}",
+    "IMAP Download": "Pakua IMAP",
+    "Storage": "Hifadhi",
+    "IMAP Upload": "Upakiaji wa IMAP",
+    "POP3 Download": "POP3 Pakua",
+    "of {1} GB": "ya {1} GB",
+    "{1} GB": "{1} GB"
   },
   "ta": {
     "Inbox": "உட்பெட்டி",
@@ -7467,7 +8268,16 @@
     "Create new folder": "புதிய கோப்புறையை உருவாக்கவும்",
     "Cancel": "ரத்துசெய்",
     "Folder {n} created": "கோப்புறை {n} உருவாக்கப்பட்டது",
-    "Folder created": "கோப்புறை உருவாக்கப்பட்டது"
+    "Folder created": "கோப்புறை உருவாக்கப்பட்டது",
+    "My account": "என் கணக்கு",
+    "{1} messages": "{1} செய்திகள்",
+    "{1} message": "{1} செய்தி",
+    "Storage": "சேமிப்பு",
+    "IMAP Upload": "IMAP பதிவேற்றம்",
+    "IMAP Download": "IMAP பதிவிறக்கம்",
+    "POP3 Download": "POP3 பதிவிறக்கம்",
+    "{1} GB": "{1} ஜிபி",
+    "of {1} GB": "{1} ஜிபி"
   },
   "te": {
     "Inbox": "ఇన్బాక్స్",
@@ -7550,7 +8360,16 @@
     "Create new folder": "క్రొత్త ఫోల్డర్‌ను సృష్టించండి",
     "Folder name": "ఫోల్డర్ పేరు",
     "Folder {n} created": "ఫోల్డర్ {n} సృష్టించబడింది",
-    "Folder created": "ఫోల్డర్ సృష్టించబడింది"
+    "Folder created": "ఫోల్డర్ సృష్టించబడింది",
+    "My account": "నా ఖాతా",
+    "{1} messages": "{1} సందేశాలు",
+    "{1} message": "{1} సందేశం",
+    "Storage": "నిల్వ",
+    "IMAP Download": "IMAP డౌన్‌లోడ్",
+    "IMAP Upload": "IMAP అప్‌లోడ్",
+    "POP3 Download": "POP3 డౌన్‌లోడ్",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "{1} GB"
   },
   "tg": {
     "Inbox": "Қуттии",
@@ -7633,7 +8452,16 @@
     "Create new folder": "Эҷоди ҷузвдони нав",
     "Create": "Эҷод",
     "Folder {n} created": "Папкаи {n} эҷод карда шуд",
-    "Folder created": "Папка офаридааст"
+    "Folder created": "Папка офаридааст",
+    "My account": "Ҳисоби ман",
+    "{1} messages": "{1} паёмҳо",
+    "{1} message": "{1} паём",
+    "IMAP Download": "IMAP зеркашӣ кунед",
+    "Storage": "Захира",
+    "IMAP Upload": "Боркунии IMAP",
+    "POP3 Download": "POP3 зеркашӣ",
+    "{1} GB": "{1} ГБ",
+    "of {1} GB": "аз {1} ГБ"
   },
   "th": {
     "Inbox": "กล่องขาเข้า",
@@ -7716,7 +8544,16 @@
     "Folder name": "ชื่อโฟลเดอร์",
     "Create new folder": "สร้างโฟลเดอร์ใหม่",
     "Folder {n} created": "สร้างโฟลเดอร์ {n} แล้ว",
-    "Folder created": "สร้างโฟลเดอร์แล้ว"
+    "Folder created": "สร้างโฟลเดอร์แล้ว",
+    "My account": "บัญชีของฉัน",
+    "{1} messages": "ข้อความ {1} ข้อความ",
+    "{1} message": "ข้อความ {1}",
+    "Storage": "การเก็บรักษา",
+    "IMAP Download": "ดาวน์โหลด IMAP",
+    "IMAP Upload": "การอัปโหลด IMAP",
+    "POP3 Download": "ดาวน์โหลด POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "จาก {1} GB"
   },
   "tk": {
     "Inbox": "Gelýän bukja",
@@ -7799,7 +8636,16 @@
     "Folder name": "Papkanyň ady",
     "Create new folder": "Täze bukja dörediň",
     "Folder {n} created": "Papka {n} döredildi",
-    "Folder created": "Papka döredildi"
+    "Folder created": "Papka döredildi",
+    "My account": "Hasabym",
+    "{1} messages": "{1} habarlar",
+    "{1} message": "{1} habar",
+    "IMAP Download": "IMAP ýüklemek",
+    "IMAP Upload": "IMAP ýüklemek",
+    "Storage": "Saklamak",
+    "POP3 Download": "POP3 göçürip al",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "{1} GB"
   },
   "tl": {
     "Inbox": "Inbox",
@@ -7882,7 +8728,16 @@
     "Create": "Lumikha",
     "Create new folder": "Lumikha ng bagong folder",
     "Folder {n} created": "Nilikha ang Folder {n}",
-    "Folder created": "Nilikha ang Folder"
+    "Folder created": "Nilikha ang Folder",
+    "My account": "Aking Account",
+    "{1} messages": "{1} mga mensahe",
+    "{1} message": "{1} mensahe",
+    "IMAP Download": "I-download ang IMAP",
+    "Storage": "Imbakan",
+    "IMAP Upload": "I-upload ang IMAP",
+    "POP3 Download": "I-download ang POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "ng {1} GB"
   },
   "tr": {
     "Inbox": "Gelen kutusu",
@@ -7965,7 +8820,16 @@
     "Create": "Oluşturmak",
     "Cancel": "İptal etmek",
     "Folder {n} created": "{N} klasörü oluşturuldu",
-    "Folder created": "Klasör oluşturuldu"
+    "Folder created": "Klasör oluşturuldu",
+    "My account": "Hesabım",
+    "{1} messages": "{1 Mesajlar",
+    "{1} message": "{1} mesajı",
+    "Storage": "Depolama",
+    "IMAP Download": "IMAP İndirme",
+    "IMAP Upload": "IMAP Yüklemesi",
+    "POP3 Download": "POP3 İndir",
+    "of {1} GB": "{1} GB",
+    "{1} GB": "{1} GB"
   },
   "tt": {
     "Inbox": "Керү",
@@ -8048,7 +8912,16 @@
     "Cancel": "Баш тарту",
     "Create new folder": "Яңа папка ясагыз",
     "Folder {n} created": "Папка {n} ясалган",
-    "Folder created": "Папка ясалган"
+    "Folder created": "Папка ясалган",
+    "My account": "Минем хисап язма",
+    "{1} messages": "{1} хәбәрләр",
+    "{1} message": "{1} хәбәр",
+    "Storage": "Саклау",
+    "IMAP Download": "IMAP йөкләү",
+    "IMAP Upload": "IMAP йөкләү",
+    "POP3 Download": "POP3 Йөкләү",
+    "{1} GB": "{1} ГБ",
+    "of {1} GB": "{1} ГБ"
   },
   "ug": {
     "Inbox": "خەت ساندۇقى",
@@ -8131,7 +9004,16 @@
     "Create new folder": "يېڭى ھۆججەت قىسقۇچ قۇر",
     "Create": "قۇرۇش",
     "Folder {n} created": "ھۆججەت قىسقۇچ {n} قۇرۇلدى",
-    "Folder created": "ھۆججەت قىسقۇچ قۇرۇلدى"
+    "Folder created": "ھۆججەت قىسقۇچ قۇرۇلدى",
+    "My account": "ھېساباتىم",
+    "{1} messages": "{1} ئۇچۇر",
+    "{1} message": "{1} ئۇچۇر",
+    "IMAP Upload": "IMAP يۈكلەش",
+    "IMAP Download": "IMAP چۈشۈرۈش",
+    "Storage": "ساقلاش",
+    "POP3 Download": "POP3 چۈشۈرۈش",
+    "of {1} GB": "of 1} GB",
+    "{1} GB": "{1} GB"
   },
   "uk": {
     "Inbox": "Вхідні",
@@ -8214,7 +9096,16 @@
     "Create new folder": "Створіть нову папку",
     "Folder name": "Назва папки",
     "Folder {n} created": "Папка {n} створена",
-    "Folder created": "Папка створена"
+    "Folder created": "Папка створена",
+    "My account": "Мій рахунок",
+    "{1} message": "{1} повідомлення",
+    "{1} messages": "{1} повідомлення",
+    "IMAP Upload": "Завантаження IMAP",
+    "IMAP Download": "Завантажити IMAP",
+    "Storage": "Зберігання",
+    "POP3 Download": "Завантажити POP3",
+    "{1} GB": "{1} Гб",
+    "of {1} GB": "від {1} Гб"
   },
   "ur": {
     "Inbox": "ان باکس",
@@ -8297,7 +9188,16 @@
     "Folder name": "فولڈر کا نام",
     "Create new folder": "نیا فولڈر بنائیں",
     "Folder {n} created": "فولڈر {n} تشکیل دیا گیا",
-    "Folder created": "فولڈر بنایا گیا"
+    "Folder created": "فولڈر بنایا گیا",
+    "My account": "میرا اکاونٹ",
+    "{1} message": "{1} پیغام",
+    "{1} messages": "{1} پیغامات",
+    "Storage": "ذخیرہ",
+    "IMAP Upload": "IMAP اپ لوڈ",
+    "IMAP Download": "IMAP ڈاؤن لوڈ کریں",
+    "POP3 Download": "POP3 ڈاؤن لوڈ",
+    "of {1} GB": "{1} GB کا",
+    "{1} GB": "{1} جی بی"
   },
   "uz": {
     "Inbox": "Xabarlar qutisi",
@@ -8380,7 +9280,16 @@
     "Create new folder": "Yangi jild yarating",
     "Cancel": "Bekor qilish",
     "Folder {n} created": "{N} jild yaratildi",
-    "Folder created": "Jild yaratildi"
+    "Folder created": "Jild yaratildi",
+    "My account": "Mening hisobim",
+    "{1} messages": "{1} habarlar",
+    "{1} message": "{1} habar",
+    "IMAP Upload": "IMAP yuklash",
+    "IMAP Download": "IMAP yuklab olish",
+    "Storage": "Saqlash",
+    "POP3 Download": "POP3 yuklab olish",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "{1} GB"
   },
   "vi": {
     "Inbox": "Hộp thư đến",
@@ -8463,7 +9372,16 @@
     "Create new folder": "Tạo thư mục mới",
     "Cancel": "Hủy bỏ",
     "Folder {n} created": "Thư mục {n} đã được tạo",
-    "Folder created": "Thư mục đã được tạo"
+    "Folder created": "Thư mục đã được tạo",
+    "My account": "Tài khoản của tôi",
+    "{1} messages": "{1} tin nhắn",
+    "{1} message": "Tin nhắn {1}",
+    "Storage": "Lưu trữ",
+    "IMAP Upload": "Tải lên IMAP",
+    "IMAP Download": "Tải xuống IMAP",
+    "POP3 Download": "Tải xuống POP3",
+    "of {1} GB": "của {1} GB",
+    "{1} GB": "{1} GB"
   },
   "xh": {
     "Inbox": "Inbox",
@@ -8546,7 +9464,16 @@
     "Create new folder": "Yenza incwadi entsha",
     "Folder name": "Igama lefolda",
     "Folder {n} created": "Ifolda {n} yenziwe",
-    "Folder created": "Ifolda yenziwe"
+    "Folder created": "Ifolda yenziwe",
+    "My account": "I-akhawunti yam",
+    "{1} message": "{1} umyalezo",
+    "{1} messages": "{1} imiyalezo",
+    "IMAP Upload": "Ukulayisha kwe-IMAP",
+    "Storage": "Ukugcina",
+    "IMAP Download": "Ukhuphelo lwe-IMAP",
+    "POP3 Download": "POP3 Khuphela",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "ye {1} GB"
   },
   "yi": {
     "Inbox": "Inbox",
@@ -8629,7 +9556,16 @@
     "Folder name": "טעקע נאָמען",
     "Cancel": "באָטל מאַכן",
     "Folder {n} created": "טעקע {n} באשאפן",
-    "Folder created": "טעקע באשאפן"
+    "Folder created": "טעקע באשאפן",
+    "My account": "מיין אקאונט",
+    "{1} messages": "{1} אַרטיקלען",
+    "{1} message": "{1} אָנזאָג",
+    "Storage": "סטאָרידזש",
+    "IMAP Download": "IMAP אראפקאפיע",
+    "IMAP Upload": "IMAP צופֿעליקער",
+    "POP3 Download": "POP3 אראפקאפיע",
+    "{1} GB": "{1} גיגאבייט",
+    "of {1} GB": "פון {1} גיגאבייט"
   },
   "yo": {
     "Inbox": "Apo-iwọle",
@@ -8712,7 +9648,16 @@
     "Create": "Ṣẹda",
     "Cancel": "Fagile",
     "Folder {n} created": "Ti a ṣẹda folda {n}",
-    "Folder created": "Ti ṣẹda folda"
+    "Folder created": "Ti ṣẹda folda",
+    "My account": "Akọọlẹ mi",
+    "{1} messages": "{1} awọn ifiranṣẹ",
+    "{1} message": "{1} ifiranṣẹ",
+    "Storage": "Ibi ipamọ",
+    "IMAP Download": "Igbasilẹ IMAP",
+    "IMAP Upload": "Ifiranṣẹ IMAP",
+    "POP3 Download": "Gbigba lati ayelujara POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "ti {1} GB"
   },
   "zh-TW": {
     "Inbox": "收件箱",
@@ -8795,7 +9740,16 @@
     "Create": "創建",
     "Folder name": "文件夾名稱",
     "Folder {n} created": "文件夾{n}已創建",
-    "Folder created": "資料夾已建立"
+    "Folder created": "資料夾已建立",
+    "My account": "我的帳戶",
+    "{1} messages": "{1}條消息",
+    "{1} message": "{1}條消息",
+    "Storage": "存儲",
+    "IMAP Download": "IMAP下載",
+    "IMAP Upload": "IMAP上傳",
+    "POP3 Download": "POP3下載",
+    "of {1} GB": "{1} GB",
+    "{1} GB": "{1} GB"
   },
   "zh": {
     "Inbox": "收件箱",
@@ -8878,7 +9832,16 @@
     "Create": "创建",
     "Folder name": "文件夹名称",
     "Folder {n} created": "文件夹{n}已创建",
-    "Folder created": "资料夹已建立"
+    "Folder created": "资料夹已建立",
+    "My account": "我的帐户",
+    "{1} messages": "{1}条消息",
+    "{1} message": "{1}条消息",
+    "Storage": "存储",
+    "IMAP Download": "IMAP下载",
+    "IMAP Upload": "IMAP上传",
+    "POP3 Download": "POP3下载",
+    "of {1} GB": "{1} GB",
+    "{1} GB": "{1} GB"
   },
   "zu": {
     "Inbox": "Ibhokisi lokungenayo",
@@ -8961,6 +9924,15 @@
     "Folder name": "Igama lefolda",
     "Create new folder": "Dala ifolda entsha",
     "Folder {n} created": "Ifolda {n} idaliwe",
-    "Folder created": "Kwenziwe ifolda"
+    "Folder created": "Kwenziwe ifolda",
+    "My account": "I-akhawunti yami",
+    "{1} messages": "{1} imilayezo",
+    "{1} message": "{1} umlayezo",
+    "Storage": "Isitoreji",
+    "IMAP Download": "Ukulanda i-IMAP",
+    "IMAP Upload": "Ukulayisha kwe-IMAP",
+    "POP3 Download": "Ukulanda i-POP3",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "ka - 1 1 GB"
   }
 }

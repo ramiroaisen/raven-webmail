@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "خروج از سیستم"
+        "logout": "خروج از سیستم",
+        "myAccount": "حساب من"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "نام پوشه",
             "accept": "ایجاد کردن",
             "cancel": "لغو"
+        }
+    },
+    "myAccount": {
+        "title": "حساب من",
+        "limits": {
+            "gbUsed": "{gb} گیگابایت",
+            "gbTotal": "از {gb} گیگابایت",
+            "storage": {
+                "title": "ذخیره سازی"
+            },
+            "imapDownload": {
+                "title": "بارگیری IMAP"
+            },
+            "imapUpload": {
+                "title": "آپلود IMAP"
+            },
+            "pop3Download": {
+                "title": "بارگیری POP3"
+            }
         }
     }
 };

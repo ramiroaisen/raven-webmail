@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Út logge"
+    "logout": "Út logge",
+    "myAccount": "Myn account"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Foldernamme",
       "accept": "Meitsje",
       "cancel": "Ofbrekke"
+    }
+  },
+  "myAccount": {
+    "title": "Myn account",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "fan {gb} GB",
+      "storage": {
+        "title": "Opslach"
+      },
+      "imapDownload": {
+        "title": "IMAP Download"
+      },
+      "imapUpload": {
+        "title": "IMAP Upload"
+      },
+      "pop3Download": {
+        "title": "POP3 Download"
+      }
     }
   }
 };

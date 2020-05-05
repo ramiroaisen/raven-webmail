@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Mag-sign out"
+    "logout": "Mag-sign out",
+    "myAccount": "Aking Account"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      "{n} na mensahe",
+      "{n} mga mensahe",
       "{n} mensahe",
-      "{n} na mensahe"
+      "{n} mga mensahe"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Pangalan ng folder",
       "accept": "Lumikha",
       "cancel": "Pagkansela"
+    }
+  },
+  "myAccount": {
+    "title": "Aking Account",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "ng {gb} GB",
+      "storage": {
+        "title": "Imbakan"
+      },
+      "imapDownload": {
+        "title": "I-download ang IMAP"
+      },
+      "imapUpload": {
+        "title": "I-upload ang IMAP"
+      },
+      "pop3Download": {
+        "title": "I-download ang POP3"
+      }
     }
   }
 };

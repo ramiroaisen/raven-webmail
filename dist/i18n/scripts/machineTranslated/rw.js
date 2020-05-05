@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Sohoka"
+        "logout": "Sohoka",
+        "myAccount": "Konti yanjye"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Izina ry'ububiko",
             "accept": "Kurema",
             "cancel": "Kureka"
+        }
+    },
+    "myAccount": {
+        "title": "Konti yanjye",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "ya {gb} GB",
+            "storage": {
+                "title": "Ububiko"
+            },
+            "imapDownload": {
+                "title": "Gukuramo IMAP"
+            },
+            "imapUpload": {
+                "title": "Kuramo IMAP"
+            },
+            "pop3Download": {
+                "title": "POP3 Gukuramo"
+            }
         }
     }
 };

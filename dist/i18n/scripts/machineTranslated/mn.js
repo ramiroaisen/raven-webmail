@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Гарах"
+        "logout": "Гарах",
+        "myAccount": "Миний данс"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Фолдерын нэр",
             "accept": "Үүсгэх",
             "cancel": "Цуцлах"
+        }
+    },
+    "myAccount": {
+        "title": "Миний данс",
+        "limits": {
+            "gbUsed": "{gb} ГБ байна",
+            "gbTotal": "нь {gb} ГБ",
+            "storage": {
+                "title": "Хадгалалт"
+            },
+            "imapDownload": {
+                "title": "IMAP татаж авах"
+            },
+            "imapUpload": {
+                "title": "IMAP Байршуулах"
+            },
+            "pop3Download": {
+                "title": "POP3 татаж авах"
+            }
         }
     }
 };

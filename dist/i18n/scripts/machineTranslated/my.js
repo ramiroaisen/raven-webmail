@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "ဆိုင်းအောက်"
+        "logout": "ဆိုင်းအောက်",
+        "myAccount": "ငါ့အကောင့်"
     },
     "compose": {
         "labels": {
@@ -73,9 +74,9 @@ const locale = {
     },
     "selection": {
         "title": [
-            "{n} စာတိုများ",
             "{n} သတင်းစကား",
-            "{n} စာတိုများ"
+            "{n} သတင်းစကား",
+            "{n} သတင်းစကား"
         ]
     },
     "actions": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "ဖိုလ်ဒါအမည်",
             "accept": "ဖန်တီးပါ",
             "cancel": "ပယ်ဖျက်ပါ"
+        }
+    },
+    "myAccount": {
+        "title": "ငါ့အကောင့်",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "{gb} GB ကို၏",
+            "storage": {
+                "title": "သိုလှောင်ခြင်း"
+            },
+            "imapDownload": {
+                "title": "IMAP ဒေါင်းလုပ်"
+            },
+            "imapUpload": {
+                "title": "IMAP တင်ပါ"
+            },
+            "pop3Download": {
+                "title": "POP3 ဒေါင်းလုပ်"
+            }
         }
     }
 };

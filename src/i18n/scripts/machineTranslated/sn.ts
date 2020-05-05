@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Buda"
+    "logout": "Buda",
+    "myAccount": "Akaundi yangu"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Folder zita",
       "accept": "Gadzira",
       "cancel": "Kanzura"
+    }
+  },
+  "myAccount": {
+    "title": "Akaundi yangu",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "ye {gb} GB",
+      "storage": {
+        "title": "Kuchengetedza"
+      },
+      "imapDownload": {
+        "title": "IMAP Download"
+      },
+      "imapUpload": {
+        "title": "IMAP Kurodha"
+      },
+      "pop3Download": {
+        "title": "POP3 Download"
+      }
     }
   }
 };

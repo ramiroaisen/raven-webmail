@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "سائن آئوٽ ڪريو"
+    "logout": "سائن آئوٽ ڪريو",
+    "myAccount": "منهنجو اڪائونٽ"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "فولڊر جو نالو",
       "accept": "ٺاهيو",
       "cancel": "رد ڪرڻ"
+    }
+  },
+  "myAccount": {
+    "title": "منهنجو اڪائونٽ",
+    "limits": {
+      "gbUsed": "{gb} جي بي",
+      "gbTotal": "{gb} GB جو",
+      "storage": {
+        "title": "اسٽوريج"
+      },
+      "imapDownload": {
+        "title": "IMAP ڊائون لوڊ ڪريو"
+      },
+      "imapUpload": {
+        "title": "IMAP اپ لوڊ"
+      },
+      "pop3Download": {
+        "title": "POP3 ڊائون لوڊ ڪريو"
+      }
     }
   }
 };

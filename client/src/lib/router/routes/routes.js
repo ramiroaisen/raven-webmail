@@ -21,5 +21,6 @@ export const routes = {
     "/mailbox/:mailbox": () => import("./Mailbox.svelte"),
     "/mailbox/:mailbox/message/:message": () => import("./Message.svelte"),
     "/storage": () => import("./Storage.svelte"),
+    "/account": () => import("./Account.svelte"),
     "(.*)": () => import("./404.svelte")
 };

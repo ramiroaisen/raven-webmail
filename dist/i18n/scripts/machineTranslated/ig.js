@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "pụọ"
+        "logout": "pụọ",
+        "myAccount": "Akaụntụ M"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Aha nchekwa",
             "accept": "Mepụta",
             "cancel": "Kagbuo"
+        }
+    },
+    "myAccount": {
+        "title": "Akaụntụ M",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "nke {gb} GB",
+            "storage": {
+                "title": "Nchekwa"
+            },
+            "imapDownload": {
+                "title": "Budata IMAP"
+            },
+            "imapUpload": {
+                "title": "Pinye IMAP"
+            },
+            "pop3Download": {
+                "title": "POP3 Download"
+            }
         }
     }
 };

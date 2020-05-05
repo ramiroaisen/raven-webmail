@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Đăng xuất"
+        "logout": "Đăng xuất",
+        "myAccount": "Tài khoản của tôi"
     },
     "compose": {
         "labels": {
@@ -74,7 +75,7 @@ const locale = {
     "selection": {
         "title": [
             "{n} tin nhắn",
-            "tin nhắn {n}",
+            "Tin nhắn {n}",
             "{n} tin nhắn"
         ]
     },
@@ -132,6 +133,25 @@ const locale = {
             "label": "Tên thư mục",
             "accept": "Tạo nên",
             "cancel": "Hủy bỏ"
+        }
+    },
+    "myAccount": {
+        "title": "Tài khoản của tôi",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "của {gb} GB",
+            "storage": {
+                "title": "Lưu trữ"
+            },
+            "imapDownload": {
+                "title": "Tải xuống IMAP"
+            },
+            "imapUpload": {
+                "title": "Tải lên IMAP"
+            },
+            "pop3Download": {
+                "title": "Tải xuống POP3"
+            }
         }
     }
 };

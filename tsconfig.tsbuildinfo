@@ -426,7 +426,7 @@
         "signature": "ed0a377b42878dbdcf450d60925172d34495ca972bffc2a6c330ee2c24bec0bb"
       },
       "./src/i18n/src/es.ts": {
-        "version": "0a2d2094e5072bf7e6a1c5d7d6d6b37bfecacc3682ab6ba49433f0ed191dec31"
+        "version": "133e982276d2c0d5654f1da904293ca200d31c8989bf78018a5d85ad0a046c79"
       },
       "./src/i18n/types.ts": {
         "version": "26b8ab6e64d0176cc894fd86b3dc7da0f03f42e965f21bf231320871f4967a0c"
@@ -501,334 +501,334 @@
         "signature": "f0f0fa01772a2d3baedca7341b361483e25bb275cb645bc3b52d9c8b569eb40f"
       },
       "./src/i18n/src/en.ts": {
-        "version": "48afbabce75e645b9111b6a17278c85b0b4a979e927a0c86b71a4949f462e93a"
+        "version": "6204afc0a75aed3140794f6d12070c647f767b30260f88b0ce9c360dcfd6ae13"
       },
       "./src/i18n/scripts/generate.ts": {
-        "version": "1855213a421167e0de5680c4047dd75662015a0d55779960e41b03eac42d16ca"
+        "version": "7d796e6ae17db093eed1e958e59ad6234d2d7443bdd567f02756e401be0bb523"
       },
       "./src/i18n/scripts/machineTranslated/af.ts": {
-        "version": "e6b2310483d4cdbcb6183e5cf665e3ad686b9ab605cdd549d52ef08e1bd20780"
+        "version": "31d365b910acd62fdbb449393f4ac1a38678eb66a1222684e5ad8140780aca35"
       },
       "./src/i18n/scripts/machineTranslated/am.ts": {
-        "version": "efd5a593d2114240e54985d0349a3412f8b6c378cea8611799e625bed1ceee65"
+        "version": "26536b1de944d62df4194a2baf63b7d1c4d6d7cc369679f9196eeb0145c4b92d"
       },
       "./src/i18n/scripts/machineTranslated/ar.ts": {
-        "version": "a0614177775b5260206597887cd1f5bf038f9af95627ef714abd271ba1e799c3"
+        "version": "0418138451cab54e93dbe581e8a7002218340ff07f974d30902a09a1b5d5c56a"
       },
       "./src/i18n/scripts/machineTranslated/az.ts": {
-        "version": "ec1031ea7304136274cbf3395eb88debdf94b92c2bc031b164a4389824da9056"
+        "version": "d681806ca489857ffa01f42b98d42ba7bde1f59175f5860a4820eb2a960d2585"
       },
       "./src/i18n/scripts/machineTranslated/be.ts": {
-        "version": "9b5db3be4ea594a25ada88299dce0584886536abeab92a8440afc070dbd61a68"
+        "version": "3216f63872b0570ef5b36320156843e4e518c61148c32b4b488654f29525de61"
       },
       "./src/i18n/scripts/machineTranslated/bg.ts": {
-        "version": "1b89fe3543962e7ca22d921f93438489478f2403a89bc0ee95e778e4e47c62b8"
+        "version": "f59315f3532409d90a525c3ba1ec4eff758463431d1adb4fe66deebf37ffc573"
       },
       "./src/i18n/scripts/machineTranslated/bn.ts": {
-        "version": "ae8cdd911baad699c4c00a3c1106e2f524812f55dfb4e00540a2f95a3b032486"
+        "version": "b65b7ada50e01c0f298f42deaeeab1093f926a8a596c4b952719d831fd5ab4aa"
       },
       "./src/i18n/scripts/machineTranslated/bs.ts": {
-        "version": "4c683859b3bf70924566522cdb13ea482d92253c0d6c1e98a9daae9a45ea9306"
+        "version": "5e97196517d70a389358d650cca3021efa44a8de83159e3d121486602b7feda2"
       },
       "./src/i18n/scripts/machineTranslated/ca.ts": {
-        "version": "ad9041e8b79a9d0768cfb87cafcc710989fabc255ec320c49e7fd8a59fe68fb6"
+        "version": "9acfe46301d646dd7852d569c429096521751ea246aece883c6c1ddf0d5a4dd7"
       },
       "./src/i18n/scripts/machineTranslated/ceb.ts": {
-        "version": "9c2a38e72a598a07583113a08a4033371e520ba65300f1a9bd7b412bc961bc6e"
+        "version": "0f0d639cf511eeb8177155e3ccb2a994483fccccca637d92a9cbc1bda0c85b2f"
       },
       "./src/i18n/scripts/machineTranslated/co.ts": {
-        "version": "d516eb8c26250010ae8caacfdb34b0b3d5630367135bebce2f845d2f40b6cdb7"
+        "version": "a076226f4fcf728eda289b9145009dc7da2503f7407f708450106f49f4c42121"
       },
       "./src/i18n/scripts/machineTranslated/cs.ts": {
-        "version": "bef42ed1cc38223f9b208ef177ba3e990683d6f0b57a45c35ff5aff1b9aa31bc"
+        "version": "c27aaaa63664126294d4266eb1d67b4ef7c8e63b9fedafdf9a18593138cb4c2c"
       },
       "./src/i18n/scripts/machineTranslated/cy.ts": {
-        "version": "7744340190d135969a5c37ba28e41ba01e98e2a69ccd81f7a4104bc15c4b5fe9"
+        "version": "04d8ef4490ecc1cf65f71dbb1aa62e78a1d87fea893a5caa21c98e6805aae964"
       },
       "./src/i18n/scripts/machineTranslated/da.ts": {
-        "version": "e19a054e446857e5a9ca2de1616ae68be4e3f02ba7e0dc13dd6d66d1b643295c"
+        "version": "905cced2676151bb3e725a1a0d4b9a3c20142825c83ec1cda8706c67d09eb228"
       },
       "./src/i18n/scripts/machineTranslated/de.ts": {
-        "version": "856244ce61f669f4c063e2354a7b72ed1e555405a5b2816eb2345e2a5d19c0f1"
+        "version": "562a45aff137c03d7195524858d9db74c4e7bc7b0f6530b8883a12ac4ff1ebc2"
       },
       "./src/i18n/scripts/machineTranslated/el.ts": {
-        "version": "4ab27fd0a2689b99ddcb8658df2a5ab27494c0023c15f4419f13415898c2627c"
+        "version": "b26350078be22ffbb32a5d291819fbc13a565b08ff25af6b0d4f663bc6cc5600"
       },
       "./src/i18n/scripts/machineTranslated/eo.ts": {
-        "version": "5ddc2fd754ddf07a11edc7968f0706b7a0b2fe05d373e865ec6718fdc5236e92"
+        "version": "ab9366f26d2e5c27885571fb4c292eec80b0f0651a9dc3d5bc45f92718af5a01"
       },
       "./src/i18n/scripts/machineTranslated/es.ts": {
-        "version": "329f4b61f27b260cf527e8e685036ce57ab65f2255be65d2003758724cfb85f5"
+        "version": "d7197210cb2af8f8a2036ec35ba816451829de73fa2590d8aa17876f802a3a0b"
       },
       "./src/i18n/scripts/machineTranslated/et.ts": {
-        "version": "87c4ec74bf1f3ca7332ae80482f4f5f74432e2e91149362dc39dd50330d67725"
+        "version": "7066c3f5e3393c0deeb810567d21e60982068b95c4e8b3131daa894d1c69a695"
       },
       "./src/i18n/scripts/machineTranslated/eu.ts": {
-        "version": "8b54e6c5ba53b1c43693c4fb4ac234b92a4802ad4bbc7578165916f0ca7f59a8"
+        "version": "aaa2da0eab052594aa441d4464d79db8f73de33e7c4fdfde7b5eb70342c997ba"
       },
       "./src/i18n/scripts/machineTranslated/fa.ts": {
-        "version": "db18b0406ff3995bc469dde961d7a6062ffdc63427ba20ceec0ba21c479869bb"
+        "version": "336650cb38a94d30fe9b632eb7f8fcc761775dff0c15c94c54a843eddd764880"
       },
       "./src/i18n/scripts/machineTranslated/fi.ts": {
-        "version": "c2d5ca264a451602c9d543d0dae6596be44683d0efc2c41307421388f86dff94"
+        "version": "a9d0c981ff31fc5375fa99eb1584f428a319f933e7b917026d5d79a3bf7556a7"
       },
       "./src/i18n/scripts/machineTranslated/fr.ts": {
-        "version": "2e3d37910ee231864cb99237dba88faf7d69d4e6922ecee4b3b333edb6f43d8f"
+        "version": "a6718e5e9b052c75b615bde9bfcf10e19bd1b30fa5cc9dd0e76ee659fbb9aa63"
       },
       "./src/i18n/scripts/machineTranslated/fy.ts": {
-        "version": "cc0c1220040da004a0a5541889f08598e8c1fa87e61b8c65587e968a2a708138"
+        "version": "e5b13a60b2dc06512e697dd9dec22e99da25a3640c9e763b97f5df8280a9f031"
       },
       "./src/i18n/scripts/machineTranslated/ga.ts": {
-        "version": "c9d9767db6bcc88b05c374d933af8b17734100219380796ebbb1a7086a012ceb"
+        "version": "bd4f6185db3d5be65f4a82be528713839b316f4eeb5543025d4d52174fe66558"
       },
       "./src/i18n/scripts/machineTranslated/gd.ts": {
-        "version": "41f08380612d6ac35dbf8d25ac8daec503a96fb5e4a6b96b611a3ee9e093b847"
+        "version": "7211c27812bf0c788649e6d678ae5b905cca9f9ba96704e288e1cd015e6f7850"
       },
       "./src/i18n/scripts/machineTranslated/gl.ts": {
-        "version": "c5ed77e46b6bd113656ad6b3b043154062cd402574a987add98baea77664354b"
+        "version": "fb8dbec5ecd2d690a97ae6bc3fe6f39243484627be8c6b3176bb2f3514a4cd46"
       },
       "./src/i18n/scripts/machineTranslated/gu.ts": {
-        "version": "94473ee57bc98d1b9a263cb3c0eb0281a9727dcb50fafb2c836e11e4efb81ec4"
+        "version": "4a4af16d2e7989a1c2feffb22dbc5cfa07bf05095243b698e417c14109bde385"
       },
       "./src/i18n/scripts/machineTranslated/ha.ts": {
-        "version": "0f7f8fc795c1117dbe30162ba66c7dcc5b736beb37d07120e32b0fcabb17b699"
+        "version": "83be1fe844d234347308f9d160154ed1765b905a68e88f4f9417f8a1829b24b8"
       },
       "./src/i18n/scripts/machineTranslated/haw.ts": {
-        "version": "c23a83d8e070fd34e885ba3dcb85fb78d5c301ee0b94b4fc12ca7ec69c9d8164"
+        "version": "51603708448fb7e7546dea6881f0587482d71db3f3e64545c63f3642e9afe451"
       },
       "./src/i18n/scripts/machineTranslated/hi.ts": {
-        "version": "97d912c610c20136f03fc77accce8c9b17b182ac8716a01423a6a8f9e9ee7b73"
+        "version": "9f35f5a3cd669f39391fb0e4a4a377e38d7ad6c8efb9bc72b468e86465007bd3"
       },
       "./src/i18n/scripts/machineTranslated/hmn.ts": {
-        "version": "d79c0a3288d7cc3101c7741dfdfc7d02dfeaa30d7056e1d6f46414854390ea3a"
+        "version": "e20988bb1b67f648ee06519776b06f9cbd0b0f53e77528f6307a379da50473f2"
       },
       "./src/i18n/scripts/machineTranslated/hr.ts": {
-        "version": "6266a60de5dc32d383eeb8c26be18eb68e623620b5f5df8a3e315a9219296dbc"
+        "version": "62818ecbf22fac9d7c76af3cba54b2e2febd2988d952d7b932d7ad383a4ebf4c"
       },
       "./src/i18n/scripts/machineTranslated/ht.ts": {
-        "version": "0f5d0de3e9478e86b9e1889af0a5708cd81749b6990ecb39d4e368e1f5bcbb4d"
+        "version": "20446301f608a503b0483c2d42adce15a133438dfd384e48e538059e89fb7f16"
       },
       "./src/i18n/scripts/machineTranslated/hu.ts": {
-        "version": "7ad3afa7916b8fdbc33aab48112f33b0dd0669015095c4a7357749ab218429cb"
+        "version": "a082d9c911a9d063caba21b1ce13a5e2bede6e002c296e7d9bd88a3badaa74ec"
       },
       "./src/i18n/scripts/machineTranslated/hy.ts": {
-        "version": "2ffdc08b5f938be7b217ec7cd815919021a28477bae4e61d2d225f7221dd88d3"
+        "version": "e74711b1ff3a1897bebd0b5136aa7c8a24afe9a7474954e810ff9a5ff1652d0d"
       },
       "./src/i18n/scripts/machineTranslated/id.ts": {
-        "version": "8158defe8ab174f5d9ad992d2c2dde0fd872df6b84ae6bff2bfb036f6174a24b"
+        "version": "5ae37f5663d617eee2d0009b3281f1f3fee570700ef4a5ec22fdcdb72c77037c"
       },
       "./src/i18n/scripts/machineTranslated/ig.ts": {
-        "version": "f64cb4d43ed4aec414213fd57c7a5ec9aba36a5a61607af3e7d3f269489ebf07"
+        "version": "3b411ebafa6d5ea00fa13400ba3500bff5f6edb3fc3c76843ff696e8a1a599f5"
       },
       "./src/i18n/scripts/machineTranslated/is.ts": {
-        "version": "128745053366195ba2a20e58adc7d4c46fbabc805b59f0e56a8a9faa6b20bf21"
+        "version": "9b76edb7d49522ae8c3e3a0ee41d1690f63fa9681cc96abbca4f3a4c061a7bc7"
       },
       "./src/i18n/scripts/machineTranslated/it.ts": {
-        "version": "2f21e9bec837ba20581d3c16b8786847cbe8d7d5c08617b36a6c2fc54d978015"
+        "version": "c7d6054bd9eebeefa6d9127ed69f69af009920225ab764a8d241163b14862ed2"
       },
       "./src/i18n/scripts/machineTranslated/iw.ts": {
-        "version": "31f1c81242dc869f9c7d5286a63ac006d77ef4af59ad03ec96778f1e0ba1397f"
+        "version": "4ed3003e23893d88adf7171c56089df05e362b89a3e2780d330868d7e6552f99"
       },
       "./src/i18n/scripts/machineTranslated/ja.ts": {
-        "version": "01ce448b49a167718ceab14356ee182a684b87b9a6c63e058d6a91b0b9874b2e"
+        "version": "dc10089cf7c5aa99ad15d881ff631bb0eb659884588648c041b2122fe954516d"
       },
       "./src/i18n/scripts/machineTranslated/jw.ts": {
-        "version": "0ecb7a9bc36b22fca7b2c3cd3fca6283cdfd27a697c21d19dd72906dd8d504b2"
+        "version": "aa88f5214eee1907bc0b74bb62ea24d2c246e3c09b1a960dc5af9b250039b47f"
       },
       "./src/i18n/scripts/machineTranslated/ka.ts": {
-        "version": "fa50b15deb30f73d51db4610f0fbef7551248bc7e424ce77ad75698e76595891"
+        "version": "57bba5e2ea259dae1c0e29733f7723654287b0e7f53c7416e3e24a6bb7c165c5"
       },
       "./src/i18n/scripts/machineTranslated/kk.ts": {
-        "version": "1c45860190b91a154d4287a3e4eb71429599d2bebc64376cb97bfa7a8cb4de01"
+        "version": "d87df8f1d0b264c387fec069c5c6fc659c427ef6f7f6152543fd69daa4180109"
       },
       "./src/i18n/scripts/machineTranslated/km.ts": {
-        "version": "6b3b779cc68ac44ca21228e475dc36a170ba695c617b7e2081d0bf232f8d0709"
+        "version": "0d7941e5ad6cd99f14f40a11895561b88d39a78724f8088186260952afd620bb"
       },
       "./src/i18n/scripts/machineTranslated/kn.ts": {
-        "version": "c5eaa2ef91028055c53e1ef6f515511f9379c275088f9aad9307bbba3753574b"
+        "version": "a4f6f4956edab8e11cf60b64a9293236094997ee9d0c3ae7e375c570d58e86b2"
       },
       "./src/i18n/scripts/machineTranslated/ko.ts": {
-        "version": "50503d5813c093be2ee779a42fe8a493333a027f07f43045d4929d0387c4697b"
+        "version": "0b1fda75a8ace9b2617fc83c9bcf66f4f5df3e22c67936dcc905cd04549bdc14"
       },
       "./src/i18n/scripts/machineTranslated/ku.ts": {
-        "version": "4b7d6505c8b15da94d4fb67530aa4ea1559150a506249123798469ead3d5b734"
+        "version": "f1bb8321a2a34e12e98f6fd54f5afc2a3aed00d363968d8965fc46954f3b5fad"
       },
       "./src/i18n/scripts/machineTranslated/ky.ts": {
-        "version": "5dbb3c6fe0fca93161db1a0486fe6ddbb5303091659e8537d1d619556f852de5"
+        "version": "2f1ed0532d2243a1d1f3d11febbce7f27121bbc7bb89348e2de33bed2df8f1d8"
       },
       "./src/i18n/scripts/machineTranslated/la.ts": {
-        "version": "7d4697abe62c6f069826214d4a8978df7bd05ffa0034121c98df3e240af46933"
+        "version": "aad1c0db1f91fbdcbfce0bbc122506945dd73b9016efc38746eeb343a4764e51"
       },
       "./src/i18n/scripts/machineTranslated/lb.ts": {
-        "version": "ca70a3c868ccdd5abc4825676780229e35f2fbe96c07f9f4bba69b67914cba7c"
+        "version": "ad5f0e9dfff084eef515582ca6cb003a83f1dffe4f8cbda521bb17f8e513289b"
       },
       "./src/i18n/scripts/machineTranslated/lo.ts": {
-        "version": "c7358812059fb737f639ec2506e74772e0e3eba9bfc2f48033b53acd74a80cc1"
+        "version": "1efcee935157b98ca5111a6fcac91e9ae4a8bcb99709437855205a650a20882c"
       },
       "./src/i18n/scripts/machineTranslated/lt.ts": {
-        "version": "656d083be5e659fe606bc869e66514581ca89a2b0c262d4c02ab9cff2b163361"
+        "version": "1a39b1f24247df7b33d7c871d83ed376e7bce00e950741757bd63e8ceffb461a"
       },
       "./src/i18n/scripts/machineTranslated/lv.ts": {
-        "version": "5442045a61d8a7423b903d4e393113a236a12bcd5179e4eb7a82760d0b875869"
+        "version": "ab3460fe3992d997a5069ebded0f0d13f13f962d6e3cf51e2d320a3e37a607a5"
       },
       "./src/i18n/scripts/machineTranslated/mg.ts": {
-        "version": "7cf1ba09cf808a5e62695ea0c7be69ecbabb9ac596f69cb39c47926b937e60f9"
+        "version": "73514a30ea517996785903c84a7988d74e8518e949909ae96622fcdcc281acd0"
       },
       "./src/i18n/scripts/machineTranslated/mi.ts": {
-        "version": "64d4036ac3a8c493d6ba042b36c4db8b3a71af6eed7d8d08128195cba7f0ba88"
+        "version": "9f1c65673c255eb55491bedc607caa168d9092bd6a5f88346840a33cff167755"
       },
       "./src/i18n/scripts/machineTranslated/mk.ts": {
-        "version": "a337ecd4275d1b796bf4e87868c29f7112658f5840e9200270dc9dd4d7e4b71b"
+        "version": "7889fe401281fbef1bc25a61ead2446450c325d7eabc9597160cf24f9f78b363"
       },
       "./src/i18n/scripts/machineTranslated/ml.ts": {
-        "version": "ec21330bd3f7b31d6b886f5d420887e212ba9e1e77de91a2dcd97453b9b32349"
+        "version": "8058e6ce4269f49275cf38c703f8c3ef9c8e6a9708a8559c5fa0acd1a6c19296"
       },
       "./src/i18n/scripts/machineTranslated/mn.ts": {
-        "version": "aa96e4a6ed90ddcc3e966990a099e2fd5bea51d4b475f8813345abfa82fd8ca8"
+        "version": "c3fdfa12b12ed21d75c9451bf5a35a654d6d008686db4673032ef4d57cd47f24"
       },
       "./src/i18n/scripts/machineTranslated/mr.ts": {
-        "version": "d496c1091cf8b9d98061de914e163811512d3f6fc333da44141f360043b0f416"
+        "version": "931b0f9ebd07e623f35a01c7decf12c41d40de17a9a95d178c781b21c6bef725"
       },
       "./src/i18n/scripts/machineTranslated/ms.ts": {
-        "version": "dfadffcd039485973951286418d458c56cc7a06aa7cc71dbe9eb59e9254b8e35"
+        "version": "72f89676910937b5105c159c083c9a3435806e635c0ef36629c24b6d08eed48d"
       },
       "./src/i18n/scripts/machineTranslated/mt.ts": {
-        "version": "dbe8e731bc6d53c9471a87958c51f626c33ffaa08524a16ca0bd784d48145847"
+        "version": "22b10cc0ed710af069838d043c2e23f30169c03a4d081a55a9eb3ce7e4f79070"
       },
       "./src/i18n/scripts/machineTranslated/my.ts": {
-        "version": "99dccaa8ba65d2f6a9a63c68389ab1c05b9cc2fe414505edd8f96eacf7e199fa"
+        "version": "0344f0446c919bfc2f8db60b325e3fa08b6b5cafb568fcc24dbf17251d5a6d1f"
       },
       "./src/i18n/scripts/machineTranslated/ne.ts": {
-        "version": "40628532465ca7e4a84ea6bb7ee467760f32b02fd7ac0d10fceb60f56a02373d"
+        "version": "9482de319b1e2ffe9e54acd7fa9ee3b316fec18a447281e1b841e5459aac7bf0"
       },
       "./src/i18n/scripts/machineTranslated/nl.ts": {
-        "version": "2f3cb852bca22f4682e4d271e940ed0c11991e491491301fbf928b2f98f3ed14"
+        "version": "f6bf2193f4de674cb05983b82459ffbdcb98a8538985c46afbcf7686688e4855"
       },
       "./src/i18n/scripts/machineTranslated/no.ts": {
-        "version": "51af02a6feb2425e2c7893fe81f373e2d975dcf54c90f2e43ba21b9ecdf63a73"
+        "version": "1beb44dddd2928c875e623b5a5d1489d4ca1db2059e0ac6e2f1a02fb0a3fa6d2"
       },
       "./src/i18n/scripts/machineTranslated/ny.ts": {
-        "version": "ee56d0ed655fe51761b46e1d813ab8c69f573267d734fac39cfd9b5fbb09cb34"
+        "version": "bb36c4500141ece777bbef2887e7616529cab0887df9deece41eaf8ef943dfdc"
       },
       "./src/i18n/scripts/machineTranslated/or.ts": {
-        "version": "8e5209f741ff5d220869b6c01c432c1532c562888838d4bf40636b7ebf8acd16"
+        "version": "2ec02d2fca44974ebe1f6dae5b45eee7bac3fb701f984a9119d762fc73216651"
       },
       "./src/i18n/scripts/machineTranslated/pa.ts": {
-        "version": "578a2d0d2459604732c7e00c4a2002a6adf79f717129682f3254dabb6e4114f5"
+        "version": "10c101ce43f7c920ab57766cd08eb41b032d066a53d3685c05d8ac972754d662"
       },
       "./src/i18n/scripts/machineTranslated/pl.ts": {
-        "version": "90332b5daa6a158c5735d008890acfb0e408485bff8212aa657dd26aa8eb7790"
+        "version": "c2bde0c76fe9851fe7c83875d70f9c7f7d5cdaaf031356c54f2f061d97e0f516"
       },
       "./src/i18n/scripts/machineTranslated/ps.ts": {
-        "version": "0021fad8e024f12d63f081c0087b7a5fa60be120c680be3f5b44509305991146"
+        "version": "6dcbf021e33395439998720110a399a1b331b285bb165def3c9c07279df3a39d"
       },
       "./src/i18n/scripts/machineTranslated/pt.ts": {
-        "version": "0a7fab885ab06981c9c87eba66f4331d68bdb3271e694da7433ad64c18c8763d"
+        "version": "77890d9cc54b4a29d869d4282fa018ec608809b8509916595905439a975a5d26"
       },
       "./src/i18n/scripts/machineTranslated/ro.ts": {
-        "version": "97387edd587affa55f60847e5d5a01ce3b8cb951cadfbc1c0858264d41470759"
+        "version": "3e20b314a083752662ccdd85ad1afda0189116b99f4a3eb3e650002bc87b706c"
       },
       "./src/i18n/scripts/machineTranslated/ru.ts": {
-        "version": "9bf773352d64e08f1a8c3adee5390a29719eff590eb3b526e70c015d545bc366"
+        "version": "71f50cbfaf2d8809fe3a5ccda9bff3a3c1aa8097b30b5cfe1014bb292f3ff816"
       },
       "./src/i18n/scripts/machineTranslated/rw.ts": {
-        "version": "4d31bded1c6c9cbcdd83cec87e589aa9f22796f212a03594e6f2b5e215f034a9"
+        "version": "78c1281630cc66e54c663546f8fca2a3e173037f1aaadb7de88d30f612aeb894"
       },
       "./src/i18n/scripts/machineTranslated/sd.ts": {
-        "version": "42f865d36ef2ae33aa9bd723163056a4dc3f3bb347aa764911f6077727d9ac42"
+        "version": "ec93fa257f28b3b778f8bc3fd9c1e67f3880c1d8af548f8b9693ba2a255e22d7"
       },
       "./src/i18n/scripts/machineTranslated/si.ts": {
-        "version": "592d39a2a9c7ee7461bd8e66943fab467eb739895b0c8bbbbd04c4458985b625"
+        "version": "543e736ecaf54ea2bf3ae40c518a7672bc87e68cd96c74002bf93b1cc1f86221"
       },
       "./src/i18n/scripts/machineTranslated/sk.ts": {
-        "version": "1cd9607bcdfac3bc048625bc0dafd4c87cf8d4a78e9460e03340ced0e7dd91b7"
+        "version": "831f85cce9129741e13bccecdbb8418249475ffb92e921a3dfdbe8d130273a72"
       },
       "./src/i18n/scripts/machineTranslated/sl.ts": {
-        "version": "4a79a195562b3e9ec5524242d43e49fb83a537d4ee32d97da995a875ef0e1394"
+        "version": "c05cf4e8186e505305b0fd6cdd6a43408d49da568dac171c7a10d1feb66dbe2e"
       },
       "./src/i18n/scripts/machineTranslated/sm.ts": {
-        "version": "454fcfbe7323f6d6ea9ecbff271236e45b1dfcade39fa09166f5dfcc4dfa68c6"
+        "version": "d9563592ea6ac32961d6f3fc1669f78572b382e33bc53f0ff868b974ec2e87da"
       },
       "./src/i18n/scripts/machineTranslated/sn.ts": {
-        "version": "c9054f519f6532056e24fa8951c1943dac16abb3de6a85345d12c7a78385841b"
+        "version": "653199be9a57187eb40e12baf6f1968798bba132c381a62042b6a0f65b56cc5f"
       },
       "./src/i18n/scripts/machineTranslated/so.ts": {
-        "version": "e53f02417d8f7de5e743d735ddb7c7e09aeaa1daf4b88c0d24400be2b77bce94"
+        "version": "10cb069866d518bc3e8998c00f3b7c97d0456d122428ff3959a263ea247923d0"
       },
       "./src/i18n/scripts/machineTranslated/sq.ts": {
-        "version": "19cbacf5e3ed01fc8996f44368d171f28051a33e9a41e87a50c5ee5397d71556"
+        "version": "790d23a4659d947c09341ee1edabbdf2a8c86b385f206539b11a919ab4c7435d"
       },
       "./src/i18n/scripts/machineTranslated/sr.ts": {
-        "version": "faa4bad71c93966eb5fd00f9cc699882f3e0bbd25268a77d6a07a78ae7dc84bc"
+        "version": "9e7886db299452ceb634cb5b472d1b14ac99e39f27626fc1495be428098ef8a0"
       },
       "./src/i18n/scripts/machineTranslated/st.ts": {
-        "version": "a995e382f494b2949a6553a3b087105c5ffe364e254a3ce53d0ba703ee3fc411"
+        "version": "b2317d236d8b7ed1fe5f9be02e00148f413895634336e98caa2331d5c08d16c4"
       },
       "./src/i18n/scripts/machineTranslated/su.ts": {
-        "version": "486067e402c35dc20c149c3e36701c88e1a1c7fa792ae2a1d3139ed395b1cd41"
+        "version": "e44b03259730b86e1fb3019c2da7865645611c98ebc5dc1a2783c686ccd3d224"
       },
       "./src/i18n/scripts/machineTranslated/sv.ts": {
-        "version": "8d5daa42f807f82674569085e3316fcc00b04dae5a31ab40b1251a446621b64d"
+        "version": "e451e14774a1e2e38af6d8d5ab451fde19b4fe798b9ccce8d1ac47e6a9ca99e9"
       },
       "./src/i18n/scripts/machineTranslated/sw.ts": {
-        "version": "b0141a7506d1971a053659b9d6841bd0fcd6074d4db8a16baba02a8767cfce2a"
+        "version": "d5d880bc48953d0b54a59f5a5bef7f2474ed7c247409d35ae3cbf81803f8ad32"
       },
       "./src/i18n/scripts/machineTranslated/ta.ts": {
-        "version": "42b68f11ad603da4f60728827c13b99a60332a142604fa6e70127a0cac3d146f"
+        "version": "a7d4c4f4519d7e8f32617bea0b4312f810a7010f15e4b694386cb9e2e29632f3"
       },
       "./src/i18n/scripts/machineTranslated/te.ts": {
-        "version": "52ad92a7685bd3561737cf6b8e9db9c9bae8d7838257966497d412c41b74b98a"
+        "version": "8250c5daa37ddcd116afa1d628cb24bc66ff502688226af4a8979211d353a640"
       },
       "./src/i18n/scripts/machineTranslated/tg.ts": {
-        "version": "6bb1943c389cb537a5a818f6f3ee675a6a91a38234bdbcd06c0e72f80fcadb70"
+        "version": "2df64ef77e193ad51d9e69b29a09cd49c95e45acc51442e430ac029535239925"
       },
       "./src/i18n/scripts/machineTranslated/th.ts": {
-        "version": "526a4a9d3ab469f38b0d67f76eaace3f9f1f95eae4a7dc4deef9e7544f23402c"
+        "version": "8183f031362fc2bd1be146138614eb29db251e7ca9922e82eb143126e0f879c0"
       },
       "./src/i18n/scripts/machineTranslated/tk.ts": {
-        "version": "c5f4cbf92adcd75e84fcd1700353bbfa3d85dac8f7ff7a88ddfacbf86067366a"
+        "version": "0273e928a199cb5d926920e5fd50d0a913f5893534e73f95558c009a15ef8282"
       },
       "./src/i18n/scripts/machineTranslated/tl.ts": {
-        "version": "e7c760bb0220199c2b3c5cf0a7447d6e0396eecae72bba220d69fbd92da26807"
+        "version": "cf5d4272582a6e3ba0d287b28284a89620f60c0626857a1327e43b8cfaa3aca3"
       },
       "./src/i18n/scripts/machineTranslated/tr.ts": {
-        "version": "c36fc1548caf17629a7da7ef34d7fc0292f956fbe408f513e6b072125b43172b"
+        "version": "21c291d5760a9af279f17b4541d79154a8ae296860f7f20e4f46ef3120a7ced7"
       },
       "./src/i18n/scripts/machineTranslated/tt.ts": {
-        "version": "0054aa461899dc471b0a3a6ae6efdf0848f3bfa1a3bda2ee4157a9fce6c83dff"
+        "version": "5f1ef464e87aae172ef8fc13f464f2d5e90ce6dda6491918029fd5af41efcfd0"
       },
       "./src/i18n/scripts/machineTranslated/ug.ts": {
-        "version": "2a2db7c467d04fa0934934897973ee8a8f2d4e8d634df35d639c5d9537a7d331"
+        "version": "94b0d70ae1d366a815a4444044659fcea41acd752f5b55773303c177a6a7a869"
       },
       "./src/i18n/scripts/machineTranslated/uk.ts": {
-        "version": "d2e98f933ab4c7e69574992185ba4c0b8e09389c0dd5b1eef323d0a0ff08ba8c"
+        "version": "c7d88bd7f1bb2a01ef63ad38e15650819c01c27036b9189ccfff4f03c881d9c0"
       },
       "./src/i18n/scripts/machineTranslated/ur.ts": {
-        "version": "40bf05787074e7a517ed8a1605234e6f9bcb3feaed49cd838b433f4e4f48d0af"
+        "version": "8c1d53e64d9e4dd23bf0c32e78390288bad443fa2d077ad38257e9e34e207d34"
       },
       "./src/i18n/scripts/machineTranslated/uz.ts": {
-        "version": "bf391a0cb9a05866d693334271e360c669069edee19705aadd728ea49eb8ba65"
+        "version": "181931db74dc08331ac0ae086f5408b2a7b9b181ce1181441b8fba5440e5b0cc"
       },
       "./src/i18n/scripts/machineTranslated/vi.ts": {
-        "version": "436b7634aca48afcf9319a63989c6b59103ffddd22a97ce7da4bd6ada24b27fe"
+        "version": "57d11ba2434110deba5208f12f5c4d3f8bdf27aecb82ed12184c58c0b4d68a15"
       },
       "./src/i18n/scripts/machineTranslated/xh.ts": {
-        "version": "087c3755a6f336e308ecd08ef6a0f10a9ad429f7f4549a1788a968a71a56b215"
+        "version": "045b352b89d0947da8ca5b476cc134d39bbcef01fd838fb97c47cf469a785bbe"
       },
       "./src/i18n/scripts/machineTranslated/yi.ts": {
-        "version": "5e81127d81452e94500b8547aeee9efd23a9207113d0298b1001b82867227a76"
+        "version": "92fbc838ef63c4fdfe1306e2c00a93c754a7af90a82919d4b3f22e502e5ba611"
       },
       "./src/i18n/scripts/machineTranslated/yo.ts": {
-        "version": "29863b651a80cdca40261cf071ad07fe5a5337e28755fe4325d29db878e07562"
+        "version": "e752c41db5d49b639192fc2c173f2fa66e8bf8699f7d965f0f676d0ce2981f06"
       },
       "./src/i18n/scripts/machineTranslated/zh-TW.ts": {
-        "version": "7addc5f137122c69b2e9a8b1634e41b91b0383169d5738fa8cddc0154935a8bb"
+        "version": "3001030627a2e1ddfe3b1ca40e021dcf4c8e1e231354e1f6d004040c3ef15d1b"
       },
       "./src/i18n/scripts/machineTranslated/zh.ts": {
-        "version": "c4806af9a5b63767d9794a53ed09c593906e808819c0bf1ca74c513ae327eff7"
+        "version": "1aff1096fa8d50732bcf641360d7c5777cf84876e4459b1f82aa90abfdd7d41c"
       },
       "./src/i18n/scripts/machineTranslated/zu.ts": {
-        "version": "651ff43b77135fb2bea9c741ca6f1f7ae6d9286fa6d012b7ebca07e73022bc8f"
+        "version": "6f7d142930b448fea1aacad1597207fcc12e73696cb7896cea90cbcdca53433c"
       }
     },
     "options": {

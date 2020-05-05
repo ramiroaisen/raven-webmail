@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "로그 아웃"
+    "logout": "로그 아웃",
+    "myAccount": "내 계정"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "폴더 이름",
       "accept": "창조하다",
       "cancel": "취소"
+    }
+  },
+  "myAccount": {
+    "title": "내 계정",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "{gb} GB",
+      "storage": {
+        "title": "저장"
+      },
+      "imapDownload": {
+        "title": "IMAP 다운로드"
+      },
+      "imapUpload": {
+        "title": "IMAP 업로드"
+      },
+      "pop3Download": {
+        "title": "POP3 다운로드"
+      }
     }
   }
 };

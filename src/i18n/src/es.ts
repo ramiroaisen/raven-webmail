@@ -34,7 +34,8 @@ export default {
     },
 
     accountButton: {
-        logout: "Cerrar sesión"
+        logout: "Cerrar sesión",
+        myAccount: "Mi cuenta"
     },
 
     compose: {
@@ -152,6 +153,29 @@ export default {
             label: "Nombre",
             accept: "Crear",
             cancel: "Cancelar",
+        }
+    },
+
+    myAccount: {
+        title: "Mi cuenta",
+
+        limits: {
+
+            gbUsed: "{gb} GB",
+            gbTotal: "de {gb} GB",
+
+            storage: {
+                title: "Almacenamiento"
+            },
+            imapDownload: {
+                title: "Descarga IMAP"
+            },
+            imapUpload: {
+                title: "Subida IMAP"
+            },
+            pop3Download: {
+                title: "Descarga POP3"
+            }
         }
     }
 }

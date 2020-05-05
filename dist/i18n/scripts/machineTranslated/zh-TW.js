@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "登出"
+        "logout": "登出",
+        "myAccount": "我的帳戶"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "文件夾名稱",
             "accept": "創建",
             "cancel": "取消"
+        }
+    },
+    "myAccount": {
+        "title": "我的帳戶",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "{gb} GB",
+            "storage": {
+                "title": "存儲"
+            },
+            "imapDownload": {
+                "title": "IMAP下載"
+            },
+            "imapUpload": {
+                "title": "IMAP上傳"
+            },
+            "pop3Download": {
+                "title": "POP3下載"
+            }
         }
     }
 };

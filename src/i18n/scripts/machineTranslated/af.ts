@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Teken uit"
+    "logout": "Teken uit",
+    "myAccount": "My rekening"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Gidsnaam",
       "accept": "Skep",
       "cancel": "kanselleer"
+    }
+  },
+  "myAccount": {
+    "title": "My rekening",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "van {gb} GB",
+      "storage": {
+        "title": "stoor"
+      },
+      "imapDownload": {
+        "title": "IMAP aflaai"
+      },
+      "imapUpload": {
+        "title": "IMAP-oplaai"
+      },
+      "pop3Download": {
+        "title": "POP3 aflaai"
+      }
     }
   }
 };

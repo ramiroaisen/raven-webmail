@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Ka bax"
+        "logout": "Ka bax",
+        "myAccount": "Xisaabteyda"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Magaca faylka",
             "accept": "Abuur",
             "cancel": "Tirtir"
+        }
+    },
+    "myAccount": {
+        "title": "Xisaabteyda",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "ee {gb} GB",
+            "storage": {
+                "title": "Kaydinta"
+            },
+            "imapDownload": {
+                "title": "Soo dejinta IMAP"
+            },
+            "imapUpload": {
+                "title": "Soo dejinta IMAP"
+            },
+            "pop3Download": {
+                "title": "Soo dejiso POP3"
+            }
         }
     }
 };

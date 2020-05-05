@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "צייכן אויס"
+        "logout": "צייכן אויס",
+        "myAccount": "מיין אקאונט"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "טעקע נאָמען",
             "accept": "שאַפֿן",
             "cancel": "באָטל מאַכן"
+        }
+    },
+    "myAccount": {
+        "title": "מיין אקאונט",
+        "limits": {
+            "gbUsed": "{gb} גיגאבייט",
+            "gbTotal": "פון {gb} גיגאבייט",
+            "storage": {
+                "title": "סטאָרידזש"
+            },
+            "imapDownload": {
+                "title": "IMAP אראפקאפיע"
+            },
+            "imapUpload": {
+                "title": "IMAP צופֿעליקער"
+            },
+            "pop3Download": {
+                "title": "POP3 אראפקאפיע"
+            }
         }
     }
 };

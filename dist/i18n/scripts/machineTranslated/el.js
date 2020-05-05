@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Αποσύνδεση"
+        "logout": "Αποσύνδεση",
+        "myAccount": "Ο λογαριασμός μου"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Ονομα φακέλου",
             "accept": "Δημιουργώ",
             "cancel": "Ματαίωση"
+        }
+    },
+    "myAccount": {
+        "title": "Ο λογαριασμός μου",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "από {gb} GB",
+            "storage": {
+                "title": "Αποθήκευση"
+            },
+            "imapDownload": {
+                "title": "Λήψη IMAP"
+            },
+            "imapUpload": {
+                "title": "Μεταφόρτωση IMAP"
+            },
+            "pop3Download": {
+                "title": "Λήψη POP3"
+            }
         }
     }
 };

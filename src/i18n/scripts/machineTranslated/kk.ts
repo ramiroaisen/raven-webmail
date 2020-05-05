@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Шығу"
+    "logout": "Шығу",
+    "myAccount": "Менің аккаунтым"
   },
   "compose": {
     "labels": {
@@ -74,7 +75,7 @@ const locale: Locale = {
   "selection": {
     "title": [
       "{n} хабарлар",
-      "{n} хабарламасы",
+      "{n} хабары",
       "{n} хабарлар"
     ]
   },
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Қалта атауы",
       "accept": "Жасау",
       "cancel": "Болдырмау"
+    }
+  },
+  "myAccount": {
+    "title": "Менің аккаунтым",
+    "limits": {
+      "gbUsed": "{gb} ГБ",
+      "gbTotal": "{gb} ГБ құрайды",
+      "storage": {
+        "title": "Сақтау"
+      },
+      "imapDownload": {
+        "title": "IMAP жүктеу"
+      },
+      "imapUpload": {
+        "title": "IMAP жүктеу"
+      },
+      "pop3Download": {
+        "title": "POP3 жүктеу"
+      }
     }
   }
 };

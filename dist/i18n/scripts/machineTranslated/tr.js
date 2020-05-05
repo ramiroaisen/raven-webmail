@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "oturumu Kapat"
+        "logout": "oturumu Kapat",
+        "myAccount": "Hesabım"
     },
     "compose": {
         "labels": {
@@ -73,9 +74,9 @@ const locale = {
     },
     "selection": {
         "title": [
-            "{n} mesaj",
-            "{n} mesaj",
-            "{n} mesaj"
+            "{1 Mesajlar",
+            "{n} mesajı",
+            "{1 Mesajlar"
         ]
     },
     "actions": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Klasör adı",
             "accept": "Oluşturmak",
             "cancel": "İptal etmek"
+        }
+    },
+    "myAccount": {
+        "title": "Hesabım",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "{gb} GB",
+            "storage": {
+                "title": "Depolama"
+            },
+            "imapDownload": {
+                "title": "IMAP İndirme"
+            },
+            "imapUpload": {
+                "title": "IMAP Yüklemesi"
+            },
+            "pop3Download": {
+                "title": "POP3 İndir"
+            }
         }
     }
 };

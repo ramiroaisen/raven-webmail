@@ -30,9 +30,36 @@ let totalRequests = 0;
 let doneRequests = 0;
 let cachedRequests = 0;
 
-const translateString = async ({src, to}: {src: string, to: string}): Promise<string> => {
+const processKeys = () => {
+    const keys: Record<number, string> = {};
+    let i = 0;
+    return {
+        pre: (src: string) => {
+            return src.replace(/\{(.+?)\}/g, (m, p1) => {
+                i++;
+                keys[i] = p1;
+                return "{" + i + "}";
+            })
+        },
+
+        pos: (out: string) => {
+            return out.replace(/\{(.+?)\}/g, (m, i) => {
+                return "{" + keys[+i] +  "}";
+            })
+        }
+    }
+}
+
+const translateString = async (input: {src: string, to: string}): Promise<string> => {
 
     totalRequests++;
+
+    const {to} = input;
+
+    const {pre, pos} = processKeys();
+
+
+    const src = pre(input.src)
 
     const cached = cache[to] && cache[to][src];
 
@@ -41,7 +68,7 @@ const translateString = async ({src, to}: {src: string, to: string}): Promise<st
         cachedRequests++;
         destCache[to] = destCache[to] || {};
         destCache[to][src] = cached;
-        return cached;
+        return pos(cached);
     }
 
     return queue(async () => {
@@ -64,7 +91,7 @@ const translateString = async ({src, to}: {src: string, to: string}): Promise<st
         destCache[to] = destCache[to] || {};
         destCache[to][src] = value;
 
-        return value;
+        return pos(value);
 
     })
 }

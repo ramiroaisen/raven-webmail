@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Pag-sign out"
+    "logout": "Pag-sign out",
+    "myAccount": "Akong account"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
+      "{n} nga mga mensahe",
       "{n} nga mensahe",
-      "{n} nga mensahe",
-      "{n} nga mensahe"
+      "{n} nga mga mensahe"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Ngalan sa folder",
       "accept": "Paghimo",
       "cancel": "Pagkansela"
+    }
+  },
+  "myAccount": {
+    "title": "Akong account",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "sa {gb} GB",
+      "storage": {
+        "title": "Pagtipig"
+      },
+      "imapDownload": {
+        "title": "IMAP Pag-download"
+      },
+      "imapUpload": {
+        "title": "Pag-upload sa IMAP"
+      },
+      "pop3Download": {
+        "title": "Pag-download sa POP3"
+      }
     }
   }
 };

@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Lele"
+        "logout": "Lele",
+        "myAccount": "ʻO kaʻu moʻokāki"
     },
     "compose": {
         "labels": {
@@ -74,7 +75,7 @@ const locale = {
     "selection": {
         "title": [
             "{n} mau ʻelele",
-            "{n} ʻolelo",
+            "{n} memo",
             "{n} mau ʻelele"
         ]
     },
@@ -132,6 +133,25 @@ const locale = {
             "label": "ʻAla inoa",
             "accept": "Hana",
             "cancel": "Hoʻopau"
+        }
+    },
+    "myAccount": {
+        "title": "ʻO kaʻu moʻokāki",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "o {gb} GB",
+            "storage": {
+                "title": "Laki"
+            },
+            "imapDownload": {
+                "title": "KāʻI IMAP"
+            },
+            "imapUpload": {
+                "title": "Hoʻopuka IMAP"
+            },
+            "pop3Download": {
+                "title": "Hoihoi i ka POP3"
+            }
         }
     }
 };

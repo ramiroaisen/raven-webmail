@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Fita fita"
+    "logout": "Fita fita",
+    "myAccount": "Asusun"
   },
   "compose": {
     "labels": {
@@ -74,7 +75,7 @@ const locale: Locale = {
   "selection": {
     "title": [
       "{n} sakonni",
-      "{n} saƙo",
+      "{n} sakon",
       "{n} sakonni"
     ]
   },
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Sunan babban fayil",
       "accept": ".Irƙira",
       "cancel": "Soke"
+    }
+  },
+  "myAccount": {
+    "title": "Asusun",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "na {gb} GB",
+      "storage": {
+        "title": "Adanawa"
+      },
+      "imapDownload": {
+        "title": "Sauke IMAP"
+      },
+      "imapUpload": {
+        "title": "Hoto IMAP"
+      },
+      "pop3Download": {
+        "title": "POP3 Saukewa"
+      }
     }
   }
 };

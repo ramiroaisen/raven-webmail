@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Itlaq"
+        "logout": "Itlaq",
+        "myAccount": "Kont tiegħi"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Isem tal-Folder",
             "accept": "Oħloq",
             "cancel": "Ikkanċella"
+        }
+    },
+    "myAccount": {
+        "title": "Kont tiegħi",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "ta '{gb} GB",
+            "storage": {
+                "title": "Ħażna"
+            },
+            "imapDownload": {
+                "title": "Niżżel IMAP"
+            },
+            "imapUpload": {
+                "title": "Tella IMAP"
+            },
+            "pop3Download": {
+                "title": "Niżżel POP3"
+            }
         }
     }
 };

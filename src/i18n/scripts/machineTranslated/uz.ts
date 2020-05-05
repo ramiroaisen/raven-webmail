@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Chiqish"
+    "logout": "Chiqish",
+    "myAccount": "Mening hisobim"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      "{n} xabarlar",
+      "{n} habarlar",
       "{n} habar",
-      "{n} xabarlar"
+      "{n} habarlar"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Jild nomi",
       "accept": "Yaratmoq",
       "cancel": "Bekor qilish"
+    }
+  },
+  "myAccount": {
+    "title": "Mening hisobim",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "{gb} GB",
+      "storage": {
+        "title": "Saqlash"
+      },
+      "imapDownload": {
+        "title": "IMAP yuklab olish"
+      },
+      "imapUpload": {
+        "title": "IMAP yuklash"
+      },
+      "pop3Download": {
+        "title": "POP3 yuklab olish"
+      }
     }
   }
 };

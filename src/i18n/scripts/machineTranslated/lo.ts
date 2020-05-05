@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "ອອກ​ຈາກ​ລະ​ບົບ"
+    "logout": "ອອກ​ຈາກ​ລະ​ບົບ",
+    "myAccount": "ບັນ​ຊີ​ຂອງ​ຂ້ອຍ"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "ຊື່ແຟ້ມ",
       "accept": "ສ້າງ",
       "cancel": "ຍົກເລີກ"
+    }
+  },
+  "myAccount": {
+    "title": "ບັນ​ຊີ​ຂອງ​ຂ້ອຍ",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "ຂອງ {gb} GB",
+      "storage": {
+        "title": "ບ່ອນເກັບມ້ຽນ"
+      },
+      "imapDownload": {
+        "title": "ດາວໂຫລດ IMAP"
+      },
+      "imapUpload": {
+        "title": "IMAP ອັບໂຫລດ"
+      },
+      "pop3Download": {
+        "title": "POP3 ດາວໂຫລດ"
+      }
     }
   }
 };

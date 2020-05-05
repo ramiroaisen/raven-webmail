@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Atsijungti"
+    "logout": "Atsijungti",
+    "myAccount": "Mano sąskaita"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      "{n} žinutės",
-      "{n} žinutė",
-      "{n} žinutės"
+      "{n} pranešimai",
+      "{n} pranešimas",
+      "{n} pranešimai"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Aplanko pavadinimas",
       "accept": "Sukurti",
       "cancel": "Atšaukti"
+    }
+  },
+  "myAccount": {
+    "title": "Mano sąskaita",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "iš {gb} GB",
+      "storage": {
+        "title": "Sandėliavimas"
+      },
+      "imapDownload": {
+        "title": "IMAP atsisiųsti"
+      },
+      "imapUpload": {
+        "title": "IMAP įkėlimas"
+      },
+      "pop3Download": {
+        "title": "POP3 atsisiųsti"
+      }
     }
   }
 };

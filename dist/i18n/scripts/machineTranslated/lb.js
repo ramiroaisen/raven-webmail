@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Ofmellen"
+        "logout": "Ofmellen",
+        "myAccount": "Mäi Kont"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Dossier Numm",
             "accept": "Erstellt",
             "cancel": "Ofbriechen"
+        }
+    },
+    "myAccount": {
+        "title": "Mäi Kont",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "vun {gb} GB",
+            "storage": {
+                "title": "Späicheren"
+            },
+            "imapDownload": {
+                "title": "IMAP Luet"
+            },
+            "imapUpload": {
+                "title": "IMAP Eroplueden"
+            },
+            "pop3Download": {
+                "title": "POP3 Luet"
+            }
         }
     }
 };

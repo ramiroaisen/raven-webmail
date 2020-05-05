@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Toka"
+        "logout": "Toka",
+        "myAccount": "Akaunti yangu"
     },
     "compose": {
         "labels": {
@@ -73,9 +74,9 @@ const locale = {
     },
     "selection": {
         "title": [
-            "ujumbe wa {n}",
-            "{n} ujumbe",
-            "ujumbe wa {n}"
+            "Ujumbe wa {n}",
+            "Ujumbe wa {n}",
+            "Ujumbe wa {n}"
         ]
     },
     "actions": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Jina la folda",
             "accept": "Unda",
             "cancel": "Ghairi"
+        }
+    },
+    "myAccount": {
+        "title": "Akaunti yangu",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "ya {gb} GB",
+            "storage": {
+                "title": "Hifadhi"
+            },
+            "imapDownload": {
+                "title": "Pakua IMAP"
+            },
+            "imapUpload": {
+                "title": "Upakiaji wa IMAP"
+            },
+            "pop3Download": {
+                "title": "POP3 Pakua"
+            }
         }
     }
 };

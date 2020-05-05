@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "வெளியேறு"
+        "logout": "வெளியேறு",
+        "myAccount": "என் கணக்கு"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "கோப்புறை பெயர்",
             "accept": "உருவாக்கு",
             "cancel": "ரத்துசெய்"
+        }
+    },
+    "myAccount": {
+        "title": "என் கணக்கு",
+        "limits": {
+            "gbUsed": "{gb} ஜிபி",
+            "gbTotal": "{gb} ஜிபி",
+            "storage": {
+                "title": "சேமிப்பு"
+            },
+            "imapDownload": {
+                "title": "IMAP பதிவிறக்கம்"
+            },
+            "imapUpload": {
+                "title": "IMAP பதிவேற்றம்"
+            },
+            "pop3Download": {
+                "title": "POP3 பதிவிறக்கம்"
+            }
         }
     }
 };

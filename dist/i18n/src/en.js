@@ -30,7 +30,8 @@ const locale = {
         }
     },
     accountButton: {
-        logout: "Sign out"
+        logout: "Sign out",
+        myAccount: "My account",
     },
     compose: {
         labels: {
@@ -132,6 +133,25 @@ const locale = {
             label: "Folder name",
             accept: "Create",
             cancel: "Cancel"
+        }
+    },
+    myAccount: {
+        title: "My account",
+        limits: {
+            gbUsed: "{gb} GB",
+            gbTotal: "of {gb} GB",
+            storage: {
+                title: "Storage"
+            },
+            imapDownload: {
+                title: "IMAP Download"
+            },
+            imapUpload: {
+                title: "IMAP Upload"
+            },
+            pop3Download: {
+                title: "POP3 Download"
+            }
         }
     }
 };

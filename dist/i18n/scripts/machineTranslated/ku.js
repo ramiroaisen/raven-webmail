@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Guhê xwe nedene"
+        "logout": "Guhê xwe nedene",
+        "myAccount": "Hesabê min"
     },
     "compose": {
         "labels": {
@@ -74,7 +75,7 @@ const locale = {
     "selection": {
         "title": [
             "{n} peyamên",
-            "{n} peyam",
+            "Peyamek {1",
             "{n} peyamên"
         ]
     },
@@ -132,6 +133,25 @@ const locale = {
             "label": "Navê peldanka",
             "accept": "Xûliqandin",
             "cancel": "Bişûndekirin"
+        }
+    },
+    "myAccount": {
+        "title": "Hesabê min",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "ji {gb} GB",
+            "storage": {
+                "title": "Embarkirinî"
+            },
+            "imapDownload": {
+                "title": "Daxistin IMAP"
+            },
+            "imapUpload": {
+                "title": "IMAP Barkirin"
+            },
+            "pop3Download": {
+                "title": "Daxistin POP3"
+            }
         }
     }
 };

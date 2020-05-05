@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "ಸೈನ್ .ಟ್ ಮಾಡಿ"
+    "logout": "ಸೈನ್ .ಟ್ ಮಾಡಿ",
+    "myAccount": "ನನ್ನ ಖಾತೆ"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "ಫೋಲ್ಡರ್ ಹೆಸರು",
       "accept": "ರಚಿಸಿ",
       "cancel": "ರದ್ದುಮಾಡಿ"
+    }
+  },
+  "myAccount": {
+    "title": "ನನ್ನ ಖಾತೆ",
+    "limits": {
+      "gbUsed": "{gb} ಜಿಬಿ",
+      "gbTotal": "{gb} ಜಿಬಿ",
+      "storage": {
+        "title": "ಸಂಗ್ರಹಣೆ"
+      },
+      "imapDownload": {
+        "title": "IMAP ಡೌನ್‌ಲೋಡ್"
+      },
+      "imapUpload": {
+        "title": "IMAP ಅಪ್‌ಲೋಡ್"
+      },
+      "pop3Download": {
+        "title": "POP3 ಡೌನ್‌ಲೋಡ್"
+      }
     }
   }
 };

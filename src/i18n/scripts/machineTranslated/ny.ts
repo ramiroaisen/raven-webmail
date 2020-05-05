@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Tulukani"
+    "logout": "Tulukani",
+    "myAccount": "Akaunti Yanga"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Foda",
       "accept": "Pangani",
       "cancel": "Patulani"
+    }
+  },
+  "myAccount": {
+    "title": "Akaunti Yanga",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "ya {gb} GB",
+      "storage": {
+        "title": "Kusunga"
+      },
+      "imapDownload": {
+        "title": "Tsitsani pa IMAP"
+      },
+      "imapUpload": {
+        "title": "IMAP Kwezani"
+      },
+      "pop3Download": {
+        "title": "Tsitsani POP3"
+      }
     }
   }
 };

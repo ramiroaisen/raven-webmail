@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Logi välja"
+        "logout": "Logi välja",
+        "myAccount": "Minu konto"
     },
     "compose": {
         "labels": {
@@ -74,7 +75,7 @@ const locale = {
     "selection": {
         "title": [
             "{n} sõnumit",
-            "{n} sõnum",
+            "{n} teade",
             "{n} sõnumit"
         ]
     },
@@ -132,6 +133,25 @@ const locale = {
             "label": "Kausta nimi",
             "accept": "Loo",
             "cancel": "Tühista"
+        }
+    },
+    "myAccount": {
+        "title": "Minu konto",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "{gb} GB",
+            "storage": {
+                "title": "Ladustamine"
+            },
+            "imapDownload": {
+                "title": "IMAP-i allalaadimine"
+            },
+            "imapUpload": {
+                "title": "IMAP-üleslaadimine"
+            },
+            "pop3Download": {
+                "title": "POP3 allalaadimine"
+            }
         }
     }
 };

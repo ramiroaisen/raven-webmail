@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Çıxış"
+    "logout": "Çıxış",
+    "myAccount": "Mənim Hesabım"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Qovluq adı",
       "accept": "Yarat",
       "cancel": "Ləğv et"
+    }
+  },
+  "myAccount": {
+    "title": "Mənim Hesabım",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "of {gb} GB",
+      "storage": {
+        "title": "Saxlama"
+      },
+      "imapDownload": {
+        "title": "IMAP yükləyin"
+      },
+      "imapUpload": {
+        "title": "IMAP yüklə"
+      },
+      "pop3Download": {
+        "title": "POP3 Yüklə"
+      }
     }
   }
 };

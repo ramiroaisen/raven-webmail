@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Odjaviti se"
+    "logout": "Odjaviti se",
+    "myAccount": "Moj račun"
   },
   "compose": {
     "labels": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Naziv mape",
       "accept": "Stvoriti",
       "cancel": "Otkaži"
+    }
+  },
+  "myAccount": {
+    "title": "Moj račun",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "od {gb} GB",
+      "storage": {
+        "title": "Skladištenje"
+      },
+      "imapDownload": {
+        "title": "Preuzmite IMAP"
+      },
+      "imapUpload": {
+        "title": "IMAP upload"
+      },
+      "pop3Download": {
+        "title": "Preuzimanje POP3"
+      }
     }
   }
 };

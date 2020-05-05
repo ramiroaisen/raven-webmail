@@ -28,15 +28,36 @@ const en_1 = __importDefault(require("../src/en"));
 let totalRequests = 0;
 let doneRequests = 0;
 let cachedRequests = 0;
-const translateString = async ({ src, to }) => {
+const processKeys = () => {
+    const keys = {};
+    let i = 0;
+    return {
+        pre: (src) => {
+            return src.replace(/\{(.+?)\}/g, (m, p1) => {
+                i++;
+                keys[i] = p1;
+                return "{" + i + "}";
+            });
+        },
+        pos: (out) => {
+            return out.replace(/\{(.+?)\}/g, (m, i) => {
+                return "{" + keys[+i] + "}";
+            });
+        }
+    };
+};
+const translateString = async (input) => {
     totalRequests++;
+    const { to } = input;
+    const { pre, pos } = processKeys();
+    const src = pre(input.src);
     const cached = cache[to] && cache[to][src];
     if (cached != null) {
         doneRequests++;
         cachedRequests++;
         destCache[to] = destCache[to] || {};
         destCache[to][src] = cached;
-        return cached;
+        return pos(cached);
     }
     return queue(async () => {
         const json = await node_fetch_1.default(`https://translation.googleapis.com/language/translate/v2?key=${key}`, {
@@ -52,7 +73,7 @@ const translateString = async ({ src, to }) => {
         const value = json.data.translations[0].translatedText;
         destCache[to] = destCache[to] || {};
         destCache[to][src] = value;
-        return value;
+        return pos(value);
     });
 };
 const translateArray = async ({ src, to }) => {

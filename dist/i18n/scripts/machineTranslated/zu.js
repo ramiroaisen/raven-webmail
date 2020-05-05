@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "sayinela ukuphuma"
+        "logout": "sayinela ukuphuma",
+        "myAccount": "I-akhawunti yami"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Igama lefolda",
             "accept": "Dala",
             "cancel": "Khansela"
+        }
+    },
+    "myAccount": {
+        "title": "I-akhawunti yami",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "ka - 1 1 GB",
+            "storage": {
+                "title": "Isitoreji"
+            },
+            "imapDownload": {
+                "title": "Ukulanda i-IMAP"
+            },
+            "imapUpload": {
+                "title": "Ukulayisha kwe-IMAP"
+            },
+            "pop3Download": {
+                "title": "Ukulanda i-POP3"
+            }
         }
     }
 };

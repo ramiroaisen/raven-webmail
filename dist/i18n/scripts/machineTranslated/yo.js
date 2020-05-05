@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "ifowosi jada"
+        "logout": "ifowosi jada",
+        "myAccount": "Akọọlẹ mi"
     },
     "compose": {
         "labels": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Orukọ folda",
             "accept": "Ṣẹda",
             "cancel": "Fagile"
+        }
+    },
+    "myAccount": {
+        "title": "Akọọlẹ mi",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "ti {gb} GB",
+            "storage": {
+                "title": "Ibi ipamọ"
+            },
+            "imapDownload": {
+                "title": "Igbasilẹ IMAP"
+            },
+            "imapUpload": {
+                "title": "Ifiranṣẹ IMAP"
+            },
+            "pop3Download": {
+                "title": "Gbigba lati ayelujara POP3"
+            }
         }
     }
 };

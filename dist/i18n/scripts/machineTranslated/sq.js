@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Shenja"
+        "logout": "Shenja",
+        "myAccount": "Llogaria ime"
     },
     "compose": {
         "labels": {
@@ -74,7 +75,7 @@ const locale = {
     "selection": {
         "title": [
             "{n} mesazhe",
-            "{n} mesazh",
+            "Mesazh {1",
             "{n} mesazhe"
         ]
     },
@@ -132,6 +133,25 @@ const locale = {
             "label": "Emri i dosjes",
             "accept": "krijoj",
             "cancel": "anuloj"
+        }
+    },
+    "myAccount": {
+        "title": "Llogaria ime",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "prej {gb} GB",
+            "storage": {
+                "title": "ruajtje"
+            },
+            "imapDownload": {
+                "title": "Shkarkim IMAP"
+            },
+            "imapUpload": {
+                "title": "Ngarko IMAP"
+            },
+            "pop3Download": {
+                "title": "Shkarkim POP3"
+            }
         }
     }
 };

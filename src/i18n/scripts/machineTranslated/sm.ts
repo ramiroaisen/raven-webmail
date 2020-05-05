@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Saini ese"
+    "logout": "Saini ese",
+    "myAccount": "Lou tala"
   },
   "compose": {
     "labels": {
@@ -74,7 +75,7 @@ const locale: Locale = {
   "selection": {
     "title": [
       "{n} feau",
-      "{n} feau",
+      "{n} feʻau",
       "{n} feau"
     ]
   },
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "Igoa o le igoa",
       "accept": "Faia",
       "cancel": "Soloia"
+    }
+  },
+  "myAccount": {
+    "title": "Lou tala",
+    "limits": {
+      "gbUsed": "{gb} GB",
+      "gbTotal": "o le {gb} GB",
+      "storage": {
+        "title": "Teuina o meaai"
+      },
+      "imapDownload": {
+        "title": "IMAP Sii mai"
+      },
+      "imapUpload": {
+        "title": "IMAP Faʻaopoopo"
+      },
+      "pop3Download": {
+        "title": "Download POP3"
+      }
     }
   }
 };

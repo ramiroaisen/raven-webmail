@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "ចាកចេញ"
+        "logout": "ចាកចេញ",
+        "myAccount": "គណនី​របស់ខ្ញុំ"
     },
     "compose": {
         "labels": {
@@ -73,9 +74,9 @@ const locale = {
     },
     "selection": {
         "title": [
-            "{n} សារ",
-            "{n} សារ",
-            "{n} សារ"
+            "{undefined} សារ",
+            "{undefined} សារ",
+            "{undefined} សារ"
         ]
     },
     "actions": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "ឈ្មោះថតឯកសារ",
             "accept": "បង្កើត",
             "cancel": "បោះបង់"
+        }
+    },
+    "myAccount": {
+        "title": "គណនី​របស់ខ្ញុំ",
+        "limits": {
+            "gbUsed": "{undefined} ជីកាបៃ",
+            "gbTotal": "នៃ {gb} ជីកាបៃ",
+            "storage": {
+                "title": "ការផ្ទុក"
+            },
+            "imapDownload": {
+                "title": "ទាញយក IMAP"
+            },
+            "imapUpload": {
+                "title": "ផ្ទុកឡើង IMAP"
+            },
+            "pop3Download": {
+                "title": "ទាញយក POP3"
+            }
         }
     }
 };

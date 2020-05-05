@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Sign out"
+        "logout": "Sign out",
+        "myAccount": "Contul meu"
     },
     "compose": {
         "labels": {
@@ -73,9 +74,9 @@ const locale = {
     },
     "selection": {
         "title": [
-            "{n} mesaje",
+            "{1 Mesaje",
             "{n} mesaj",
-            "{n} mesaje"
+            "{1 Mesaje"
         ]
     },
     "actions": {
@@ -132,6 +133,25 @@ const locale = {
             "label": "Numele fisierului",
             "accept": "Crea",
             "cancel": "Anulare"
+        }
+    },
+    "myAccount": {
+        "title": "Contul meu",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "din {gb} GB",
+            "storage": {
+                "title": "Depozitare"
+            },
+            "imapDownload": {
+                "title": "Descărcare IMAP"
+            },
+            "imapUpload": {
+                "title": "Încărcare IMAP"
+            },
+            "pop3Download": {
+                "title": "Descărcare POP3"
+            }
         }
     }
 };

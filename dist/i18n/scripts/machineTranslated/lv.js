@@ -30,7 +30,8 @@ const locale = {
         }
     },
     "accountButton": {
-        "logout": "Izrakstīties"
+        "logout": "Izrakstīties",
+        "myAccount": "Mans Konts"
     },
     "compose": {
         "labels": {
@@ -74,7 +75,7 @@ const locale = {
     "selection": {
         "title": [
             "{n} ziņojumi",
-            "{n} ziņa",
+            "{n} ziņojums",
             "{n} ziņojumi"
         ]
     },
@@ -132,6 +133,25 @@ const locale = {
             "label": "Mapes nosaukums",
             "accept": "Izveidot",
             "cancel": "Atcelt"
+        }
+    },
+    "myAccount": {
+        "title": "Mans Konts",
+        "limits": {
+            "gbUsed": "{gb} GB",
+            "gbTotal": "no {gb} GB",
+            "storage": {
+                "title": "Uzglabāšana"
+            },
+            "imapDownload": {
+                "title": "IMAP lejupielāde"
+            },
+            "imapUpload": {
+                "title": "IMAP augšupielāde"
+            },
+            "pop3Download": {
+                "title": "POP3 lejupielāde"
+            }
         }
     }
 };

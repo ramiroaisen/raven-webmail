@@ -30,7 +30,8 @@ const locale: Locale = {
     }
   },
   "accountButton": {
-    "logout": "Exscribe"
+    "logout": "Exscribe",
+    "myAccount": "Propter me"
   },
   "compose": {
     "labels": {
@@ -73,9 +74,9 @@ const locale: Locale = {
   },
   "selection": {
     "title": [
-      "{N} epistulae",
-      "{N} nuntius",
-      "{N} epistulae"
+      "{undefined} epistulae",
+      "{undefined} nuntius",
+      "{undefined} epistulae"
     ]
   },
   "actions": {
@@ -132,6 +133,25 @@ const locale: Locale = {
       "label": "folder est nomen",
       "accept": "Create",
       "cancel": "Cancel"
+    }
+  },
+  "myAccount": {
+    "title": "Propter me",
+    "limits": {
+      "gbUsed": "{undefined} MB",
+      "gbTotal": "} {GB ex I",
+      "storage": {
+        "title": "storage"
+      },
+      "imapDownload": {
+        "title": "IMAP Download"
+      },
+      "imapUpload": {
+        "title": "Index IMAP"
+      },
+      "pop3Download": {
+        "title": "POP3 Download"
+      }
     }
   }
 };
