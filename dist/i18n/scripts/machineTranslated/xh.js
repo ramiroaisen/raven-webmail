@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Kuthunyelwe",
                 "comment": "mihla le"
+            },
+            "forwards": {
+                "title": "Iqondiswe kwakhona",
+                "comment": "mihla le"
             }
         }
     }

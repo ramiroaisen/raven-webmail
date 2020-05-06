@@ -172,6 +172,10 @@ const locale = {
             recipients: {
                 title: "Sent",
                 comment: "daily"
+            },
+            forwards: {
+                title: "Redirected",
+                comment: "daily"
             }
         }
     }

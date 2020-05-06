@@ -170,6 +170,10 @@ export default {
             recipients: {
                 title: "Enviados",
                 comment: "por día"
+            },
+            forwards: {
+                title: "Redirigidos",
+                comment: "por día"
             }
         }
     }

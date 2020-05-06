@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Mibgħut",
                 "comment": "kuljum"
+            },
+            "forwards": {
+                "title": "Rindirizzat",
+                "comment": "kuljum"
             }
         }
     }

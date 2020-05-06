@@ -97,7 +97,8 @@
     "Received": "ontvang",
     "by minute": "per minuut",
     "of {1} message": "van {1} boodskap",
-    "of {1} messages": "van {1} boodskappe"
+    "of {1} messages": "van {1} boodskappe",
+    "Redirected": "getrek"
   },
   "am": {
     "Inbox": "የገቢ መልእክት ሳጥን",
@@ -197,7 +198,8 @@
     "of {1} message": "ከ {1} መልእክት",
     "of {1} messages": "ከ {1} መልእክቶች",
     "Received": "ተቀብሏል",
-    "by minute": "በደቂቃ"
+    "by minute": "በደቂቃ",
+    "Redirected": "አቅጣጫው ተመላልሷል"
   },
   "ar": {
     "Inbox": "صندوق الوارد",
@@ -297,7 +299,8 @@
     "of {1} messages": "من {1} من الرسائل",
     "by minute": "بالدقيقة",
     "Received": "تم الاستلام",
-    "of {1} message": "من {1} رسالة"
+    "of {1} message": "من {1} رسالة",
+    "Redirected": "معاد توجيهها"
   },
   "az": {
     "Inbox": "Gələnlər qutusu",
@@ -397,7 +400,8 @@
     "of {1} messages": "of {1} mesajları",
     "of {1} message": "of {1} mesajı",
     "Received": "Alinib",
-    "by minute": "dəqiqə ilə"
+    "by minute": "dəqiqə ilə",
+    "Redirected": "Yönləndirilir"
   },
   "be": {
     "Inbox": "Уваходныя",
@@ -497,7 +501,8 @@
     "of {1} messages": "з {1} паведамленняў",
     "Received": "Паступіла",
     "by minute": "за хвілінай",
-    "of {1} message": "паведамлення {1}"
+    "of {1} message": "паведамлення {1}",
+    "Redirected": "Перанакіравана"
   },
   "bg": {
     "Inbox": "Входящи",
@@ -597,7 +602,8 @@
     "of {1} message": "от {1} съобщение",
     "of {1} messages": "от {1} съобщения",
     "Received": "приет",
-    "by minute": "по минута"
+    "by minute": "по минута",
+    "Redirected": "Redirected"
   },
   "bn": {
     "Inbox": "ইনবক্স",
@@ -697,7 +703,8 @@
     "of {1} messages": "{1} বার্তাগুলির",
     "of {1} message": "{1} বার্তা",
     "Received": "গৃহীত",
-    "by minute": "মিনিট দ্বারা"
+    "by minute": "মিনিট দ্বারা",
+    "Redirected": "পুনঃপরিচালিত"
   },
   "bs": {
     "Inbox": "Inbox",
@@ -797,7 +804,8 @@
     "of {1} messages": "od {1} poruka",
     "of {1} message": "od {1} poruke",
     "Received": "Primljeno",
-    "by minute": "po minutu"
+    "by minute": "po minutu",
+    "Redirected": "Preusmjereno"
   },
   "ca": {
     "Inbox": "Safata d'entrada",
@@ -897,7 +905,8 @@
     "of {1} messages": "de {1} missatges",
     "of {1} message": "del missatge {1}",
     "by minute": "per minut",
-    "Received": "Rebut"
+    "Received": "Rebut",
+    "Redirected": "Redirigit"
   },
   "ceb": {
     "Inbox": "Inbox",
@@ -997,7 +1006,8 @@
     "of {1} messages": "sa {1} nga mga mensahe",
     "of {1} message": "sa {1} nga mensahe",
     "Received": "Gidawat",
-    "by minute": "sa minuto"
+    "by minute": "sa minuto",
+    "Redirected": "Gibalikbalik"
   },
   "co": {
     "Inbox": "Inbox",
@@ -1097,7 +1107,8 @@
     "of {1} messages": "di {1} missaghji",
     "of {1} message": "di {1} messagiu",
     "Received": "Ricevutu",
-    "by minute": "per minutu"
+    "by minute": "per minutu",
+    "Redirected": "Redirettu"
   },
   "cs": {
     "Inbox": "Doručená pošta",
@@ -1197,7 +1208,8 @@
     "of {1} message": "zprávy {1}",
     "of {1} messages": "z {1} zpráv",
     "Received": "Přijato",
-    "by minute": "za minutu"
+    "by minute": "za minutu",
+    "Redirected": "Přesměrováno"
   },
   "cy": {
     "Inbox": "Mewnflwch",
@@ -1297,7 +1309,8 @@
     "of {1} messages": "o {1} neges",
     "Received": "Derbyniwyd",
     "by minute": "erbyn munud",
-    "of {1} message": "o {1} neges"
+    "of {1} message": "o {1} neges",
+    "Redirected": "Ailgyfeirio"
   },
   "da": {
     "Inbox": "Indbakke",
@@ -1397,7 +1410,8 @@
     "Received": "Modtaget",
     "of {1} messages": "af {1} meddelelser",
     "by minute": "efter minut",
-    "of {1} message": "af {1} meddelelse"
+    "of {1} message": "af {1} meddelelse",
+    "Redirected": "Omdirigeret"
   },
   "de": {
     "Inbox": "Posteingang",
@@ -1497,7 +1511,8 @@
     "of {1} messages": "von {1} Nachrichten",
     "of {1} message": "von {1} Nachricht",
     "by minute": "pro Minute",
-    "Received": "Empfangen"
+    "Received": "Empfangen",
+    "Redirected": "Weitergeleitet"
   },
   "el": {
     "Inbox": "Inbox",
@@ -1597,7 +1612,8 @@
     "of {1} messages": "από {1} μηνύματα",
     "of {1} message": "από {1} μήνυμα",
     "by minute": "ανά λεπτό",
-    "Received": "Λήφθηκε"
+    "Received": "Λήφθηκε",
+    "Redirected": "Ανακατευθύνθηκε"
   },
   "eo": {
     "Inbox": "Informkesto",
@@ -1697,7 +1713,8 @@
     "of {1} messages": "de {1} mesaĝoj",
     "of {1} message": "de {1} mesaĝo",
     "Received": "Ricevita",
-    "by minute": "minuton"
+    "by minute": "minuton",
+    "Redirected": "Alidirektita"
   },
   "es": {
     "Inbox": "Bandeja de entrada",
@@ -1797,7 +1814,8 @@
     "of {1} messages": "de {1} mensajes",
     "of {1} message": "de {1} mensaje",
     "by minute": "por minuto",
-    "Received": "Recibido"
+    "Received": "Recibido",
+    "Redirected": "Redirigido"
   },
   "et": {
     "Inbox": "Postkast",
@@ -1897,7 +1915,8 @@
     "of {1} messages": "{1} sõnumist",
     "of {1} message": "{1} sõnumist",
     "Received": "Vastu võetud",
-    "by minute": "minutiga"
+    "by minute": "minutiga",
+    "Redirected": "Suunatud"
   },
   "eu": {
     "Inbox": "Sarrerako ontzia",
@@ -1997,7 +2016,8 @@
     "of {1} messages": "{1} mezuetako",
     "Received": "Jaso",
     "of {1} message": "{1} mezuaren",
-    "by minute": "minutuz"
+    "by minute": "minutuz",
+    "Redirected": "birzuzentzentzen"
   },
   "fa": {
     "Inbox": "صندوق ورودی",
@@ -2097,7 +2117,8 @@
     "by minute": "دقیقه",
     "of {1} messages": "از پیام {1",
     "of {1} message": "پیام 1 {",
-    "Received": "اخذ شده"
+    "Received": "اخذ شده",
+    "Redirected": "تغییر مسیر داد"
   },
   "fi": {
     "Inbox": "Saapuneet",
@@ -2197,7 +2218,8 @@
     "Received": "Otettu vastaan",
     "of {1} message": "{1} viestistä",
     "of {1} messages": "{1} viestistä",
-    "by minute": "minuutilla"
+    "by minute": "minuutilla",
+    "Redirected": "Uudelleenohjattu"
   },
   "fr": {
     "Inbox": "Boîte de réception",
@@ -2297,7 +2319,8 @@
     "of {1} messages": "de {1} messages",
     "Received": "Reçu",
     "of {1} message": "du {1} message",
-    "by minute": "par minute"
+    "by minute": "par minute",
+    "Redirected": "Redirigé"
   },
   "fy": {
     "Inbox": "Postfek YN",
@@ -2397,7 +2420,8 @@
     "of {1} messages": "fan {1} berjochten",
     "of {1} message": "fan {1} berjocht",
     "Received": "Untfongen",
-    "by minute": "per minuut"
+    "by minute": "per minuut",
+    "Redirected": "Omlieden"
   },
   "ga": {
     "Inbox": "Bosca Isteach",
@@ -2497,7 +2521,8 @@
     "Received": "Faighte",
     "of {1} messages": "de {1} teachtaireacht",
     "of {1} message": "de {1} teachtaireacht",
-    "by minute": "de réir nóiméid"
+    "by minute": "de réir nóiméid",
+    "Redirected": "Atreoraithe"
   },
   "gd": {
     "Inbox": "Bogsa a-steach",
@@ -2597,7 +2622,8 @@
     "of {1} messages": "de {1} teachdaireachdan",
     "by minute": "sa mhionaid",
     "Received": "Fhuair",
-    "of {1} message": "de {1} teachdaireachd"
+    "of {1} message": "de {1} teachdaireachd",
+    "Redirected": "Ath-stiùireadh"
   },
   "gl": {
     "Inbox": "Caixa de entrada",
@@ -2697,7 +2723,8 @@
     "of {1} messages": "de {1} mensaxes",
     "Received": "Recibido",
     "of {1} message": "da mensaxe {1}",
-    "by minute": "por minuto"
+    "by minute": "por minuto",
+    "Redirected": "Redireccionado"
   },
   "gu": {
     "Inbox": "ઇનબોક્સ",
@@ -2797,7 +2824,8 @@
     "of {1} messages": "{1} સંદેશાઓનો",
     "of {1} message": "{1} સંદેશનો",
     "Received": "પ્રાપ્ત થયો",
-    "by minute": "મિનિટ દ્વારા"
+    "by minute": "મિનિટ દ્વારા",
+    "Redirected": "રીડાયરેક્ટ"
   },
   "ha": {
     "Inbox": "Akwati",
@@ -2897,7 +2925,8 @@
     "of {1} messages": "daga sakonnin {1}",
     "of {1} message": "daga sakon {1}",
     "by minute": "by minti",
-    "Received": "Aka karba"
+    "Received": "Aka karba",
+    "Redirected": "An sake juyawa"
   },
   "haw": {
     "Inbox": "Kahu Inikua",
@@ -2997,7 +3026,8 @@
     "of {1} messages": "o nā leka {1}",
     "of {1} message": "o ka [1] memo",
     "Received": "Loaʻa",
-    "by minute": "i ka minuke"
+    "by minute": "i ka minuke",
+    "Redirected": "Hoʻohui ʻia"
   },
   "hi": {
     "Inbox": "इनबॉक्स",
@@ -3097,7 +3127,8 @@
     "Received": "प्राप्त किया",
     "of {1} messages": "{1} संदेशों के",
     "of {1} message": "{1} संदेश का",
-    "by minute": "मिनट के हिसाब से"
+    "by minute": "मिनट के हिसाब से",
+    "Redirected": "रीडायरेक्ट"
   },
   "hmn": {
     "Inbox": "Cov Inbox",
@@ -3197,7 +3228,8 @@
     "of {1} message": "ntawm {1} xov",
     "of {1} messages": "ntawm {1} xov",
     "by minute": "los ntawm feeb",
-    "Received": "Tau Txais"
+    "Received": "Tau Txais",
+    "Redirected": "Hloov kho"
   },
   "hr": {
     "Inbox": "Ulazni spremnik",
@@ -3297,7 +3329,8 @@
     "of {1} messages": "od {1} poruka",
     "Received": "primljen",
     "by minute": "po minutu",
-    "of {1} message": "od {1} poruke"
+    "of {1} message": "od {1} poruke",
+    "Redirected": "Preusmjereno"
   },
   "ht": {
     "Inbox": "Bwat resepsyon",
@@ -3397,7 +3430,8 @@
     "of {1} messages": "nan {1} mesaj",
     "Received": "Resevwa",
     "by minute": "pa minit",
-    "of {1} message": "nan {1} mesaj"
+    "of {1} message": "nan {1} mesaj",
+    "Redirected": "Reyiniyè"
   },
   "hu": {
     "Inbox": "Bejövő",
@@ -3497,7 +3531,8 @@
     "Received": "kapott",
     "of {1} messages": "{1} üzenet",
     "of {1} message": "{1} üzenet",
-    "by minute": "percekenként"
+    "by minute": "percekenként",
+    "Redirected": "átirányított"
   },
   "hy": {
     "Inbox": "Ներարկղ",
@@ -3597,7 +3632,8 @@
     "of {1} messages": "{1} հաղորդագրությունից",
     "Received": "Ստացվեց",
     "of {1} message": "{1} հաղորդագրությունից",
-    "by minute": "րոպեով"
+    "by minute": "րոպեով",
+    "Redirected": "Վերահղված"
   },
   "id": {
     "Inbox": "Kotak masuk",
@@ -3697,7 +3733,8 @@
     "of {1} messages": "dari {1} pesan",
     "by minute": "per menit",
     "Received": "Diterima",
-    "of {1} message": "dari {1} pesan"
+    "of {1} message": "dari {1} pesan",
+    "Redirected": "Diarahkan kembali"
   },
   "ig": {
     "Inbox": "Igbe mbata",
@@ -3797,7 +3834,8 @@
     "Received": "Anata",
     "of {1} messages": "nke ozi {1}",
     "by minute": "Site na nkeji",
-    "of {1} message": "nke ozi {1}"
+    "of {1} message": "nke ozi {1}",
+    "Redirected": "Emegharịrị"
   },
   "is": {
     "Inbox": "Innhólf",
@@ -3897,7 +3935,8 @@
     "of {1} messages": "af {1} skilaboðum",
     "of {1} message": "af {1} skilaboðum",
     "by minute": "eftir mínútu",
-    "Received": "Móttekið"
+    "Received": "Móttekið",
+    "Redirected": "Beint"
   },
   "it": {
     "Inbox": "Posta in arrivo",
@@ -3997,7 +4036,8 @@
     "Received": "ricevuto",
     "of {1} messages": "di {1} messaggi",
     "of {1} message": "di {1} messaggio",
-    "by minute": "al minuto"
+    "by minute": "al minuto",
+    "Redirected": "reindirizzate"
   },
   "iw": {
     "Inbox": "תיבת הדואר הנכנס",
@@ -4097,7 +4137,8 @@
     "Received": "קיבלו",
     "of {1} messages": "מתוך {1} הודעות",
     "of {1} message": "של ההודעה {1}",
-    "by minute": "לפי דקה"
+    "by minute": "לפי דקה",
+    "Redirected": "מופנה מחדש"
   },
   "ja": {
     "Inbox": "受信トレイ",
@@ -4197,7 +4238,8 @@
     "by minute": "分単位で",
     "of {1} messages": "{1}件のメッセージ",
     "Received": "受け取りました",
-    "of {1} message": "{1}メッセージ"
+    "of {1} message": "{1}メッセージ",
+    "Redirected": "リダイレクト"
   },
   "jw": {
     "Inbox": "Kothak mlebu",
@@ -4297,7 +4339,8 @@
     "of {1} messages": "saka {1} pesen",
     "Received": "Ditampa",
     "by minute": "dening menit",
-    "of {1} message": "pesen {1}"
+    "of {1} message": "pesen {1}",
+    "Redirected": "Redirected"
   },
   "ka": {
     "Inbox": "Შემომავალი",
@@ -4397,7 +4440,8 @@
     "of {1} message": "{1} გაგზავნისგან",
     "Received": "მიიღო",
     "by minute": "წუთით",
-    "of {1} messages": "{1} შეტყობინებიდან"
+    "of {1} messages": "{1} შეტყობინებიდან",
+    "Redirected": "გადამისამართება"
   },
   "kk": {
     "Inbox": "Кіріс жәшігі",
@@ -4497,7 +4541,8 @@
     "of {1} message": "{1} хабарынан",
     "of {1} messages": "хабарлар {1}",
     "Received": "Алынған",
-    "by minute": "минутына"
+    "by minute": "минутына",
+    "Redirected": "Қайта бағытталды"
   },
   "km": {
     "Inbox": "ប្រអប់ទទួល",
@@ -4597,7 +4642,8 @@
     "of {1} messages": "នៃ {១} សារ",
     "of {1} message": "នៃ {1} សារ",
     "Received": "បានទទួល",
-    "by minute": "ដោយនាទី"
+    "by minute": "ដោយនាទី",
+    "Redirected": "បញ្ជូនបន្ត"
   },
   "kn": {
     "Inbox": "ಇನ್‌ಬಾಕ್ಸ್",
@@ -4697,7 +4743,8 @@
     "of {1} messages": "{1} ಸಂದೇಶಗಳಲ್ಲಿ",
     "of {1} message": "{1} ಸಂದೇಶದ",
     "Received": "ಸ್ವೀಕರಿಸಲಾಗಿದೆ",
-    "by minute": "ನಿಮಿಷದಿಂದ"
+    "by minute": "ನಿಮಿಷದಿಂದ",
+    "Redirected": "ಮರುನಿರ್ದೇಶಿಸಲಾಗಿದೆ"
   },
   "ko": {
     "Inbox": "받은 편지함",
@@ -4797,7 +4844,8 @@
     "of {1} messages": "{1} 메시지 중",
     "of {1} message": "{1} 메시지 중",
     "Received": "받았습니다",
-    "by minute": "분 단위"
+    "by minute": "분 단위",
+    "Redirected": "리디렉션"
   },
   "ku": {
     "Inbox": "Inbox",
@@ -4897,7 +4945,8 @@
     "of {1} messages": "ji peyamên {1",
     "of {1} message": "peyama {1",
     "by minute": "bi deqîqe",
-    "Received": "Hatiye wergirtin"
+    "Received": "Hatiye wergirtin",
+    "Redirected": "Beralîkirin"
   },
   "ky": {
     "Inbox": "Кирүү кутусу",
@@ -4997,7 +5046,8 @@
     "of {1} messages": "билдирүүлөрүнүн {1}",
     "Received": "кабыл алынган",
     "of {1} message": "билдирүүсү {1}",
-    "by minute": "мүнөт менен"
+    "by minute": "мүнөт менен",
+    "Redirected": "Дареги алмаштырылганда"
   },
   "la": {
     "Inbox": "inbuxo",
@@ -5097,7 +5147,8 @@
     "of {1} message": "{est} I nuntius",
     "of {1} messages": "{I} ex epistulae",
     "by minute": "a minute",
-    "Received": "suscepit"
+    "Received": "suscepit",
+    "Redirected": "Redirigens"
   },
   "lb": {
     "Inbox": "Inbox",
@@ -5197,7 +5248,8 @@
     "of {1} message": "vum {1} Message",
     "of {1} messages": "vun {1} Messagen",
     "Received": "Krut",
-    "by minute": "pa Minutt"
+    "by minute": "pa Minutt",
+    "Redirected": "Viruleet"
   },
   "lo": {
     "Inbox": "ກ່ອງຈົດ ໝາຍ",
@@ -5297,7 +5349,8 @@
     "of {1} messages": "ຂອງ {1} ຂໍ້ຄວາມ",
     "of {1} message": "ຂອງ {1} ຂໍ້ຄວາມ",
     "by minute": "ໂດຍນາທີ",
-    "Received": "ໄດ້ຮັບ"
+    "Received": "ໄດ້ຮັບ",
+    "Redirected": "ປ່ຽນເສັ້ນທາງ"
   },
   "lt": {
     "Inbox": "Pašto dėžutę",
@@ -5397,7 +5450,8 @@
     "of {1} messages": "iš {1} pranešimų",
     "of {1} message": "iš {1} pranešimo",
     "Received": "Gauta",
-    "by minute": "per minutę"
+    "by minute": "per minutę",
+    "Redirected": "Peradresuotas"
   },
   "lv": {
     "Inbox": "Iesūtne",
@@ -5497,7 +5551,8 @@
     "of {1} messages": "no {1} ziņojumiem",
     "of {1} message": "no {1} ziņojuma",
     "by minute": "pa minūti",
-    "Received": "Saņemts"
+    "Received": "Saņemts",
+    "Redirected": "Novirzīts"
   },
   "mg": {
     "Inbox": "Inbox",
@@ -5597,7 +5652,8 @@
     "of {1} messages": "amin'ny {1} hafatra",
     "Received": "Received",
     "of {1} message": "hafatra {1}",
-    "by minute": "amin'ny minitra"
+    "by minute": "amin'ny minitra",
+    "Redirected": "Navily"
   },
   "mi": {
     "Inbox": "Pouakahu",
@@ -5697,7 +5753,8 @@
     "of {1} messages": "Tuhinga o mua",
     "of {1} message": "Tuhinga o mua",
     "by minute": "mā te meneti",
-    "Received": "Kua riro"
+    "Received": "Kua riro",
+    "Redirected": "Kua Hangaia"
   },
   "mk": {
     "Inbox": "Инбокс",
@@ -5797,7 +5854,8 @@
     "of {1} message": "од {1} порака",
     "of {1} messages": "од {1} пораки",
     "by minute": "од минута",
-    "Received": "Прими"
+    "Received": "Прими",
+    "Redirected": "Пренасочено"
   },
   "ml": {
     "Inbox": "ഇൻ‌ബോക്സ്",
@@ -5897,7 +5955,8 @@
     "of {1} message": "{1} സന്ദേശത്തിന്റെ",
     "of {1} messages": "{1} സന്ദേശങ്ങളുടെ",
     "Received": "ലഭിച്ചു",
-    "by minute": "മിനിറ്റിൽ"
+    "by minute": "മിനിറ്റിൽ",
+    "Redirected": "റീഡയറക്‌ട് ചെയ്‌തു"
   },
   "mn": {
     "Inbox": "Ирсэн мэйл",
@@ -5997,7 +6056,8 @@
     "of {1} message": "{1} мессеж",
     "of {1} messages": "{1} мессеж",
     "by minute": "минутанд",
-    "Received": "Хүлээн авсан"
+    "Received": "Хүлээн авсан",
+    "Redirected": "Дахин чиглүүлсэн"
   },
   "mr": {
     "Inbox": "इनबॉक्स",
@@ -6097,7 +6157,8 @@
     "Received": "मिळाले",
     "of {1} messages": "{1} संदेशांचे",
     "of {1} message": "{1} संदेशाचा",
-    "by minute": "मिनिटाने"
+    "by minute": "मिनिटाने",
+    "Redirected": "पुनर्निर्देशित"
   },
   "ms": {
     "Inbox": "Peti Masuk",
@@ -6197,7 +6258,8 @@
     "of {1} messages": "daripada {1} mesej",
     "of {1} message": "daripada {1} mesej",
     "by minute": "demi minit",
-    "Received": "Menerima"
+    "Received": "Menerima",
+    "Redirected": "Diarahkan semula"
   },
   "mt": {
     "Inbox": "Inbox",
@@ -6297,7 +6359,8 @@
     "of {1} messages": "messaġġi ta '{1}",
     "Received": "Waslu",
     "of {1} message": "messaġġ ta '{1}",
-    "by minute": "bil-minuta"
+    "by minute": "bil-minuta",
+    "Redirected": "Rindirizzat"
   },
   "my": {
     "Inbox": "Inbox",
@@ -6397,7 +6460,8 @@
     "of {1} message": "{1} မက်ဆေ့ခ်ျကို၏",
     "of {1} messages": "{1} မက်ဆေ့ခ်ျ၏",
     "by minute": "တစ်မိနစ်",
-    "Received": "လက်ခံရရှိခဲ့သည်"
+    "Received": "လက်ခံရရှိခဲ့သည်",
+    "Redirected": "ပြန်ညွှန်း"
   },
   "ne": {
     "Inbox": "इनबक्स",
@@ -6497,7 +6561,8 @@
     "of {1} message": "{1} सन्देश को",
     "of {1} messages": "{1} सन्देशहरूको",
     "Received": "प्राप्त भयो",
-    "by minute": "मिनेट द्वारा"
+    "by minute": "मिनेट द्वारा",
+    "Redirected": "पुनर्निर्देशित"
   },
   "nl": {
     "Inbox": "Postvak IN",
@@ -6597,7 +6662,8 @@
     "by minute": "per minuut",
     "of {1} messages": "van {1} berichten",
     "Received": "Ontvangen",
-    "of {1} message": "van {1} bericht"
+    "of {1} message": "van {1} bericht",
+    "Redirected": "Omgeleid"
   },
   "no": {
     "Inbox": "Innboks",
@@ -6697,7 +6763,8 @@
     "of {1} messages": "av {1} meldinger",
     "Received": "Mottatt",
     "of {1} message": "av {1} melding",
-    "by minute": "etter minutt"
+    "by minute": "etter minutt",
+    "Redirected": "Omdirigert"
   },
   "ny": {
     "Inbox": "Makulidwe",
@@ -6797,7 +6864,8 @@
     "of {1} messages": "mwa mauthenga a {1}",
     "by minute": "mwa mphindi",
     "of {1} message": "wa {1} uthenga",
-    "Received": "Zalandiridwa"
+    "Received": "Zalandiridwa",
+    "Redirected": "Kupitikiranso"
   },
   "or": {
     "Inbox": "ଇନବକ୍ସ |",
@@ -6897,7 +6965,8 @@
     "of {1} messages": "{1} ସନ୍ଦେଶଗୁଡ଼ିକର |",
     "by minute": "ମିନିଟ୍ ଦ୍ୱାରା",
     "of {1} message": "{1} ସନ୍ଦେଶର |",
-    "Received": "ପ୍ରାପ୍ତ"
+    "Received": "ପ୍ରାପ୍ତ",
+    "Redirected": "ପୁନ ir ନିର୍ଦ୍ଦେଶିତ |"
   },
   "pa": {
     "Inbox": "ਇਨਬਾਕਸ",
@@ -6997,7 +7066,8 @@
     "of {1} messages": "ਦੇ {1} ਸੁਨੇਹੇ ਹਨ",
     "of {1} message": "{1} ਸੁਨੇਹੇ ਦਾ",
     "by minute": "ਮਿੰਟ ਦੁਆਰਾ",
-    "Received": "ਪ੍ਰਾਪਤ ਹੋਇਆ"
+    "Received": "ਪ੍ਰਾਪਤ ਹੋਇਆ",
+    "Redirected": "ਰੀਡਾਇਰੈਕਟਡ"
   },
   "pl": {
     "Inbox": "W pudełku",
@@ -7097,7 +7167,8 @@
     "of {1} messages": "z {1} wiadomości",
     "of {1} message": "wiadomości {1}",
     "Received": "Odebrane",
-    "by minute": "za minutę"
+    "by minute": "za minutę",
+    "Redirected": "Przekierowano"
   },
   "ps": {
     "Inbox": "Inbox",
@@ -7197,7 +7268,8 @@
     "of {1} message": "د {1} پيغام",
     "of {1} messages": "د {1} پیغامونو",
     "by minute": "دقیقې لخوا",
-    "Received": "ترلاسه شوی"
+    "Received": "ترلاسه شوی",
+    "Redirected": "ورانول"
   },
   "pt": {
     "Inbox": "Caixa de entrada",
@@ -7297,7 +7369,8 @@
     "of {1} messages": "de {1} mensagens",
     "Received": "Recebido",
     "by minute": "por minuto",
-    "of {1} message": "de {1} mensagem"
+    "of {1} message": "de {1} mensagem",
+    "Redirected": "Redirecionado"
   },
   "ro": {
     "Inbox": "Inbox",
@@ -7397,7 +7470,8 @@
     "of {1} messages": "din {1} mesaje",
     "of {1} message": "din mesajul {1}",
     "Received": "Primit",
-    "by minute": "la minut"
+    "by minute": "la minut",
+    "Redirected": "redirecţionată"
   },
   "ru": {
     "Inbox": "входящие",
@@ -7497,7 +7571,8 @@
     "of {1} message": "из {1} сообщения",
     "of {1} messages": "из {1} сообщений",
     "Received": "Получил",
-    "by minute": "по минутам"
+    "by minute": "по минутам",
+    "Redirected": "Redirected"
   },
   "rw": {
     "Inbox": "Inbox",
@@ -7597,7 +7672,8 @@
     "of {1} message": "ya {1} ubutumwa",
     "of {1} messages": "ya {1} ubutumwa",
     "Received": "Yakiriwe",
-    "by minute": "ku munota"
+    "by minute": "ku munota",
+    "Redirected": "Yoherejwe"
   },
   "sd": {
     "Inbox": "انباڪس",
@@ -7697,7 +7773,8 @@
     "of {1} messages": "{1} پيغامن جو",
     "of {1} message": "{1} پيغام جو",
     "Received": "حاصل ڪيو",
-    "by minute": "منٽ کان"
+    "by minute": "منٽ کان",
+    "Redirected": "ري فيرڊ ويو"
   },
   "si": {
     "Inbox": "එන ලිපි",
@@ -7797,7 +7874,8 @@
     "of {1} messages": "of 1} පණිවිඩ",
     "Received": "ලැබුණි",
     "by minute": "විනාඩියෙන්",
-    "of {1} message": "{1} පණිවිඩයේ"
+    "of {1} message": "{1} පණිවිඩයේ",
+    "Redirected": "යළි හරවා යවන ලදි"
   },
   "sk": {
     "Inbox": "Doručená pošta",
@@ -7897,7 +7975,8 @@
     "of {1} message": "z {1} správy",
     "of {1} messages": "z {1} správ",
     "Received": "obdržané",
-    "by minute": "za minútu"
+    "by minute": "za minútu",
+    "Redirected": "Presmerované"
   },
   "sl": {
     "Inbox": "Prejeto",
@@ -7997,7 +8076,8 @@
     "of {1} message": "od {1} sporočila",
     "of {1} messages": "od {1} sporočil",
     "by minute": "za minuto",
-    "Received": "Prejeto"
+    "Received": "Prejeto",
+    "Redirected": "Preusmerjeno"
   },
   "sm": {
     "Inbox": "Falevalu",
@@ -8097,7 +8177,8 @@
     "Received": "Mauaina",
     "of {1} messages": "o {1} feau",
     "by minute": "i le minute",
-    "of {1} message": "o le {1} feʻau"
+    "of {1} message": "o le {1} feʻau",
+    "Redirected": "Toe Faʻasaʻo"
   },
   "sn": {
     "Inbox": "Inbox",
@@ -8197,7 +8278,8 @@
     "of {1} message": "ye {1} meseji",
     "of {1} messages": "ye {1} mameseji",
     "Received": "Takatambirwa",
-    "by minute": "neminiti"
+    "by minute": "neminiti",
+    "Redirected": "Kutungamirwa"
   },
   "so": {
     "Inbox": "Inbox",
@@ -8297,7 +8379,8 @@
     "of {1} messages": "ee {1} farriimaha",
     "of {1} message": "ee {1} farriinta",
     "Received": "Helay",
-    "by minute": "daqiiqad"
+    "by minute": "daqiiqad",
+    "Redirected": "Diidmo"
   },
   "sq": {
     "Inbox": "Inbox",
@@ -8397,7 +8480,8 @@
     "of {1} message": "me mesazh {1",
     "Received": "marrë",
     "of {1} messages": "me mesazhe {1",
-    "by minute": "për minutë"
+    "by minute": "për minutë",
+    "Redirected": "ridrejtuar"
   },
   "sr": {
     "Inbox": "Инбок",
@@ -8497,7 +8581,8 @@
     "of {1} messages": "од {1} порука",
     "Received": "Примљен",
     "of {1} message": "од {1} поруке",
-    "by minute": "по минуту"
+    "by minute": "по минуту",
+    "Redirected": "Преусмерено"
   },
   "st": {
     "Inbox": "Inbox",
@@ -8597,7 +8682,8 @@
     "of {1} messages": "tsa melaetsa e {1}",
     "of {1} message": "tsa {1} molaetsa",
     "by minute": "ka motsotso",
-    "Received": "E amohetse"
+    "Received": "E amohetse",
+    "Redirected": "E fetisetsoe"
   },
   "su": {
     "Inbox": "Koropak",
@@ -8697,7 +8783,8 @@
     "of {1} message": "pesen {1}",
     "of {1} messages": "tina {1} pesen",
     "by minute": "ku menit",
-    "Received": "Ditampi"
+    "Received": "Ditampi",
+    "Redirected": "Dipindahkeun"
   },
   "sv": {
     "Inbox": "Inkorg",
@@ -8797,7 +8884,8 @@
     "of {1} messages": "av {1} meddelanden",
     "of {1} message": "av {1} meddelandet",
     "Received": "Mottagen",
-    "by minute": "efter minut"
+    "by minute": "efter minut",
+    "Redirected": "Omdirigerad"
   },
   "sw": {
     "Inbox": "Kikasha",
@@ -8897,7 +8985,8 @@
     "of {1} messages": "ya {1} ujumbe",
     "of {1} message": "ya {1} ujumbe",
     "Received": "Imepokelewa",
-    "by minute": "kwa dakika"
+    "by minute": "kwa dakika",
+    "Redirected": "Imeelekezwa"
   },
   "ta": {
     "Inbox": "உட்பெட்டி",
@@ -8997,7 +9086,8 @@
     "of {1} message": "{1} செய்தியின்",
     "of {1} messages": "{1} செய்திகளில்",
     "by minute": "நிமிடத்தில்",
-    "Received": "பெறப்பட்டது"
+    "Received": "பெறப்பட்டது",
+    "Redirected": "திருப்பி விடப்பட்டது"
   },
   "te": {
     "Inbox": "ఇన్బాక్స్",
@@ -9097,7 +9187,8 @@
     "Received": "అందుకుంది",
     "by minute": "నిమిషానికి",
     "of {1} message": "{1} సందేశం",
-    "of {1} messages": "{1} సందేశాలలో"
+    "of {1} messages": "{1} సందేశాలలో",
+    "Redirected": "దారిమళ్ళించబడింది"
   },
   "tg": {
     "Inbox": "Қуттии",
@@ -9197,7 +9288,8 @@
     "of {1} message": "аз {1} паём",
     "of {1} messages": "аз паёмҳои {1}",
     "Received": "Гирифтанд",
-    "by minute": "бо дақиқа"
+    "by minute": "бо дақиқа",
+    "Redirected": "Аз нав ворид карда шуд"
   },
   "th": {
     "Inbox": "กล่องขาเข้า",
@@ -9297,7 +9389,8 @@
     "of {1} message": "จาก {1} ข้อความ",
     "of {1} messages": "จาก {1} ข้อความ",
     "by minute": "โดยนาที",
-    "Received": "ที่ได้รับ"
+    "Received": "ที่ได้รับ",
+    "Redirected": "เปลี่ยนเส้นทาง"
   },
   "tk": {
     "Inbox": "Gelýän bukja",
@@ -9397,7 +9490,8 @@
     "of {1} messages": "{1} habarlardan",
     "by minute": "minutda",
     "Received": "Alnan",
-    "of {1} message": "{1} habary"
+    "of {1} message": "{1} habary",
+    "Redirected": "Gaýtadan gönükdirildi"
   },
   "tl": {
     "Inbox": "Inbox",
@@ -9497,7 +9591,8 @@
     "of {1} message": "ng {1} mensahe",
     "of {1} messages": "ng {1} na mensahe",
     "Received": "Natanggap",
-    "by minute": "sa pamamagitan ng minuto"
+    "by minute": "sa pamamagitan ng minuto",
+    "Redirected": "Nai-redirect"
   },
   "tr": {
     "Inbox": "Gelen kutusu",
@@ -9597,7 +9692,8 @@
     "of {1} message": "{1} iletiden",
     "of {1} messages": "{1} mesajdan",
     "by minute": "dakikaya kadar",
-    "Received": "Alınan"
+    "Received": "Alınan",
+    "Redirected": "Yeniden yönlendirildi"
   },
   "tt": {
     "Inbox": "Керү",
@@ -9697,7 +9793,8 @@
     "of {1} message": "{1} хәбәр",
     "of {1} messages": "{1} хәбәрләр",
     "Received": "Кабул ителде",
-    "by minute": "минутка"
+    "by minute": "минутка",
+    "Redirected": "Күрсәтелгән"
   },
   "ug": {
     "Inbox": "خەت ساندۇقى",
@@ -9797,7 +9894,8 @@
     "of {1} messages": "of {1} ئۇچۇرلىرى",
     "of {1} message": "of {1} ئۇچۇر",
     "Received": "قوبۇل قىلىندى",
-    "by minute": "by minute"
+    "by minute": "by minute",
+    "Redirected": "قايتا نىشانلاندى"
   },
   "uk": {
     "Inbox": "Вхідні",
@@ -9897,7 +9995,8 @@
     "of {1} message": "повідомлення {1}",
     "of {1} messages": "з {1} повідомлень",
     "by minute": "за хвилиною",
-    "Received": "Отримано"
+    "Received": "Отримано",
+    "Redirected": "Перенаправлено"
   },
   "ur": {
     "Inbox": "ان باکس",
@@ -9997,7 +10096,8 @@
     "of {1} messages": "{1} پیغامات کا",
     "of {1} message": "{1} پیغام کا",
     "Received": "موصول ہوا",
-    "by minute": "منٹ سے"
+    "by minute": "منٹ سے",
+    "Redirected": "ری ڈائریکٹ"
   },
   "uz": {
     "Inbox": "Xabarlar qutisi",
@@ -10097,7 +10197,8 @@
     "of {1} messages": "{1} xabarlaridan",
     "Received": "Qabul qildi",
     "of {1} message": "{1} habaridan",
-    "by minute": "daqiqada"
+    "by minute": "daqiqada",
+    "Redirected": "Qayta yo'naltirildi"
   },
   "vi": {
     "Inbox": "Hộp thư đến",
@@ -10197,7 +10298,8 @@
     "Received": "Nhận",
     "of {1} messages": "trong số {1} tin nhắn",
     "by minute": "theo phút",
-    "of {1} message": "của {1} tin nhắn"
+    "of {1} message": "của {1} tin nhắn",
+    "Redirected": "Chuyển hướng"
   },
   "xh": {
     "Inbox": "Inbox",
@@ -10297,7 +10399,8 @@
     "of {1} messages": "yemiyalezo eyi- (1)",
     "by minute": "ngomzuzu",
     "Received": "Ifunyenwe",
-    "of {1} message": "yomyalezo {1}"
+    "of {1} message": "yomyalezo {1}",
+    "Redirected": "Iqondiswe kwakhona"
   },
   "yi": {
     "Inbox": "Inbox",
@@ -10397,7 +10500,8 @@
     "of {1} messages": "פון {1} אַרטיקלען",
     "by minute": "דורך מינוט",
     "of {1} message": "פון {1} אָנזאָג",
-    "Received": "באקומען"
+    "Received": "באקומען",
+    "Redirected": "רידערעקטיד"
   },
   "yo": {
     "Inbox": "Apo-iwọle",
@@ -10497,7 +10601,8 @@
     "of {1} messages": "ti {1} awọn ifiranṣẹ",
     "Received": "Gba",
     "of {1} message": "ti ifiranṣẹ {1}",
-    "by minute": "nipa iseju"
+    "by minute": "nipa iseju",
+    "Redirected": "Darí"
   },
   "zh-TW": {
     "Inbox": "收件箱",
@@ -10597,7 +10702,8 @@
     "of {1} messages": "{1}條消息中",
     "of {1} message": "的{1}條消息",
     "Received": "已收到",
-    "by minute": "按分鐘"
+    "by minute": "按分鐘",
+    "Redirected": "重新導向"
   },
   "zh": {
     "Inbox": "收件箱",
@@ -10697,7 +10803,8 @@
     "of {1} messages": "{1}条消息中",
     "Received": "已收到",
     "of {1} message": "的{1}条消息",
-    "by minute": "按分钟"
+    "by minute": "按分钟",
+    "Redirected": "重新导向"
   },
   "zu": {
     "Inbox": "Ibhokisi lokungenayo",
@@ -10797,6 +10904,7 @@
     "of {1} messages": "yemilayezo engu- {1}",
     "by minute": "ngomzuzu",
     "of {1} message": "komyalezo {1}",
-    "Received": "Kwamukelwe"
+    "Received": "Kwamukelwe",
+    "Redirected": "Iqondiswe kabusha"
   }
 }

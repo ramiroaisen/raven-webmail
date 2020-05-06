@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Απεσταλμένα",
                 "comment": "καθημερινά"
+            },
+            "forwards": {
+                "title": "Ανακατευθύνθηκε",
+                "comment": "καθημερινά"
             }
         }
     }

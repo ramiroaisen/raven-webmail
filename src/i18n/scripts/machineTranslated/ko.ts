@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "보냄",
         "comment": "매일"
+      },
+      "forwards": {
+        "title": "리디렉션",
+        "comment": "매일"
       }
     }
   }

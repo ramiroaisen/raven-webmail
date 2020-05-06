@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "ສົ່ງແລ້ວ",
                 "comment": "ປະຈໍາວັນ"
+            },
+            "forwards": {
+                "title": "ປ່ຽນເສັ້ນທາງ",
+                "comment": "ປະຈໍາວັນ"
             }
         }
     }

@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Жіберілді",
                 "comment": "күнделікті"
+            },
+            "forwards": {
+                "title": "Қайта бағытталды",
+                "comment": "күнделікті"
             }
         }
     }

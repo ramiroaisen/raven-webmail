@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "I tukuna",
         "comment": "ia rā"
+      },
+      "forwards": {
+        "title": "Kua Hangaia",
+        "comment": "ia rā"
       }
     }
   }

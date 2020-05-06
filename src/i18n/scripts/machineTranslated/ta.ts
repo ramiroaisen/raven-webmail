@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "அனுப்பப்பட்டது",
         "comment": "தினசரி"
+      },
+      "forwards": {
+        "title": "திருப்பி விடப்பட்டது",
+        "comment": "தினசரி"
       }
     }
   }

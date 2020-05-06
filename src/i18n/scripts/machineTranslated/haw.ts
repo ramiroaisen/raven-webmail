@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "Hoʻouna ʻia",
         "comment": "i kēlā me kēia lā"
+      },
+      "forwards": {
+        "title": "Hoʻohui ʻia",
+        "comment": "i kēlā me kēia lā"
       }
     }
   }

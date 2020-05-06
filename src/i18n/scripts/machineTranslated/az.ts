@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "Göndərilib",
         "comment": "gündəlik"
+      },
+      "forwards": {
+        "title": "Yönləndirilir",
+        "comment": "gündəlik"
       }
     }
   }

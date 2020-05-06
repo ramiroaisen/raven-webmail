@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Sent",
                 "comment": "i përditshëm"
+            },
+            "forwards": {
+                "title": "ridrejtuar",
+                "comment": "i përditshëm"
             }
         }
     }

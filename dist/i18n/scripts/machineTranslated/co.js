@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Mandatu",
                 "comment": "ogni ghjornu"
+            },
+            "forwards": {
+                "title": "Redirettu",
+                "comment": "ogni ghjornu"
             }
         }
     }

@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Gởi",
                 "comment": "hằng ngày"
+            },
+            "forwards": {
+                "title": "Chuyển hướng",
+                "comment": "hằng ngày"
             }
         }
     }

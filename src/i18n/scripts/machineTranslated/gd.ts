@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "Air a chuir",
         "comment": "gach latha"
+      },
+      "forwards": {
+        "title": "Ath-stiùireadh",
+        "comment": "gach latha"
       }
     }
   }

@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "ተልኳል",
                 "comment": "በየቀኑ"
+            },
+            "forwards": {
+                "title": "አቅጣጫው ተመላልሷል",
+                "comment": "በየቀኑ"
             }
         }
     }

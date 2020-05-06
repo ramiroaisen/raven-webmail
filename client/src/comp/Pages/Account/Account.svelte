@@ -283,6 +283,24 @@
                 </div>
             </div>
 
+            <div class="box quota received-quota">
+                <div class="box-title">
+                    {locale.limits.forwards.title}
+                    <span class="comment">{locale.limits.forwards.comment}</span>
+                </div>
+                <div class="quota-body">
+                    <CircularGraph>
+                        <Arc start={0} end={0.99} stroke="rgba(0,0,0,0.075)" />
+                        <Arc start={0} end={user.limits.forwards.used / user.limits.forwards.allowed} stroke="var(--pc)" />
+                    </CircularGraph>
+                    <div class="quota-desc">
+                        <div class="percent">{Math.round(user.limits.forwards.used / user.limits.forwards.allowed * 100)}%</div>
+                        <div class="used">{$trans("myAccount.limits.messagesUsed", {n: user.limits.forwards.used})}</div>
+                        <div class="total">{$trans("myAccount.limits.messagesTotal", {n: user.limits.forwards.allowed})}</div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 

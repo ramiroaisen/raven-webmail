@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "पठाइयो",
                 "comment": "दैनिक"
+            },
+            "forwards": {
+                "title": "पुनर्निर्देशित",
+                "comment": "दैनिक"
             }
         }
     }

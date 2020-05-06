@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "لیږل شوی",
         "comment": "هره ورځ"
+      },
+      "forwards": {
+        "title": "ورانول",
+        "comment": "هره ورځ"
       }
     }
   }

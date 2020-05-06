@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "Küldött",
         "comment": "napi"
+      },
+      "forwards": {
+        "title": "átirányított",
+        "comment": "napi"
       }
     }
   }

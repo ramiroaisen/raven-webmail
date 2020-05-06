@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Nosūtīts",
                 "comment": "katru dienu"
+            },
+            "forwards": {
+                "title": "Novirzīts",
+                "comment": "katru dienu"
             }
         }
     }

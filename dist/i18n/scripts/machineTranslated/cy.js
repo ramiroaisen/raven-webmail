@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Anfonwyd",
                 "comment": "yn ddyddiol"
+            },
+            "forwards": {
+                "title": "Ailgyfeirio",
+                "comment": "yn ddyddiol"
             }
         }
     }

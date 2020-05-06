@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "bidalia",
                 "comment": "eguneroko"
+            },
+            "forwards": {
+                "title": "birzuzentzentzen",
+                "comment": "eguneroko"
             }
         }
     }

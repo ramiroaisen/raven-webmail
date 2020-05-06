@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Zigara",
                 "comment": "kwa ụbọchị"
+            },
+            "forwards": {
+                "title": "Emegharịrị",
+                "comment": "kwa ụbọchị"
             }
         }
     }

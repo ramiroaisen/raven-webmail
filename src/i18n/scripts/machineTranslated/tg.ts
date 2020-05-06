@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "Фиристода",
         "comment": "ҳаррӯза"
+      },
+      "forwards": {
+        "title": "Аз нав ворид карда шуд",
+        "comment": "ҳаррӯза"
       }
     }
   }

@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "Ipinadala",
         "comment": "araw-araw"
+      },
+      "forwards": {
+        "title": "Nai-redirect",
+        "comment": "araw-araw"
       }
     }
   }

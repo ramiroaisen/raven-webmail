@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "Გაგზავნილი",
         "comment": "ყოველდღიურად"
+      },
+      "forwards": {
+        "title": "გადამისამართება",
+        "comment": "ყოველდღიურად"
       }
     }
   }

@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "ئەۋەتىلدى",
         "comment": "ھەر كۈنى"
+      },
+      "forwards": {
+        "title": "قايتا نىشانلاندى",
+        "comment": "ھەر كۈنى"
       }
     }
   }

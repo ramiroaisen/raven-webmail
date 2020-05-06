@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Sendita",
                 "comment": "ĉiutage"
+            },
+            "forwards": {
+                "title": "Alidirektita",
+                "comment": "ĉiutage"
             }
         }
     }

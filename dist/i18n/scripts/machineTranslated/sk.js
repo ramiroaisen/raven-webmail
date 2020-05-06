@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "odoslané",
                 "comment": "denná"
+            },
+            "forwards": {
+                "title": "Presmerované",
+                "comment": "denná"
             }
         }
     }

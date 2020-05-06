@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "送信しました",
         "comment": "毎日"
+      },
+      "forwards": {
+        "title": "リダイレクト",
+        "comment": "毎日"
       }
     }
   }

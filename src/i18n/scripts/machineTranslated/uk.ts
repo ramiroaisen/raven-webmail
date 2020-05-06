@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "Надісланий",
         "comment": "щодня"
+      },
+      "forwards": {
+        "title": "Перенаправлено",
+        "comment": "щодня"
       }
     }
   }

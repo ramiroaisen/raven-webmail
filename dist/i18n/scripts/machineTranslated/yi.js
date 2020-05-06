@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "געשיקט",
                 "comment": "טעגלעך"
+            },
+            "forwards": {
+                "title": "רידערעקטיד",
+                "comment": "טעגלעך"
             }
         }
     }

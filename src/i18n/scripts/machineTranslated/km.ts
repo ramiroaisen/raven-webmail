@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "បានផ្ញើ",
         "comment": "រាល់ថ្ងៃ"
+      },
+      "forwards": {
+        "title": "បញ្ជូនបន្ត",
+        "comment": "រាល់ថ្ងៃ"
       }
     }
   }

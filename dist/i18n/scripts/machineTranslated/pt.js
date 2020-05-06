@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Enviei",
                 "comment": "diariamente"
+            },
+            "forwards": {
+                "title": "Redirecionado",
+                "comment": "diariamente"
             }
         }
     }

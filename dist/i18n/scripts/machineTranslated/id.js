@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Terkirim",
                 "comment": "harian"
+            },
+            "forwards": {
+                "title": "Diarahkan kembali",
+                "comment": "harian"
             }
         }
     }

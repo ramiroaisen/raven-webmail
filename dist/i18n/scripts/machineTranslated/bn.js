@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "প্রেরিত",
                 "comment": "দৈনন্দিন"
+            },
+            "forwards": {
+                "title": "পুনঃপরিচালিত",
+                "comment": "দৈনন্দিন"
             }
         }
     }

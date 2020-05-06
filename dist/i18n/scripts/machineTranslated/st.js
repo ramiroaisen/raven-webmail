@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "E rometsoe",
                 "comment": "letsatsi le letsatsi"
+            },
+            "forwards": {
+                "title": "E fetisetsoe",
+                "comment": "letsatsi le letsatsi"
             }
         }
     }

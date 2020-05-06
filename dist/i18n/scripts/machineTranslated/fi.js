@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Lähetetyt",
                 "comment": "päivittäin"
+            },
+            "forwards": {
+                "title": "Uudelleenohjattu",
+                "comment": "päivittäin"
             }
         }
     }

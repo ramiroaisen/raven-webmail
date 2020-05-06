@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "已发送",
                 "comment": "日常"
+            },
+            "forwards": {
+                "title": "重新导向",
+                "comment": "日常"
             }
         }
     }

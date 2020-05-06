@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "موڪليل",
                 "comment": "روزانو"
+            },
+            "forwards": {
+                "title": "ري فيرڊ ويو",
+                "comment": "روزانو"
             }
         }
     }

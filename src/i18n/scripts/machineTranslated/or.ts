@@ -172,6 +172,10 @@ const locale: Locale = {
       "recipients": {
         "title": "ପଠାଯାଇଛି",
         "comment": "ପ୍ରତିଦିନ |"
+      },
+      "forwards": {
+        "title": "ପୁନ ir ନିର୍ଦ୍ଦେଶିତ |",
+        "comment": "ପ୍ରତିଦିନ |"
       }
     }
   }

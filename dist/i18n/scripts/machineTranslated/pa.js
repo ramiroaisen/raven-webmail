@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "ਭੇਜਿਆ",
                 "comment": "ਰੋਜ਼ਾਨਾ"
+            },
+            "forwards": {
+                "title": "ਰੀਡਾਇਰੈਕਟਡ",
+                "comment": "ਰੋਜ਼ਾਨਾ"
             }
         }
     }

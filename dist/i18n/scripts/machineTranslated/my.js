@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "ပို့ခဲ့သည်",
                 "comment": "နေ့စဉ်"
+            },
+            "forwards": {
+                "title": "ပြန်ညွှန်း",
+                "comment": "နေ့စဉ်"
             }
         }
     }

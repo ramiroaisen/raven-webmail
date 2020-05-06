@@ -172,6 +172,10 @@ const locale = {
             "recipients": {
                 "title": "Auina",
                 "comment": "i aso uma"
+            },
+            "forwards": {
+                "title": "Toe Faʻasaʻo",
+                "comment": "i aso uma"
             }
         }
     }
