@@ -205,8 +205,8 @@
                     </CircularGraph>
                     <div class="quota-desc">
                         <div class="percent">{Math.round(user.limits.imapDownload.used / user.limits.imapDownload.allowed * 100)}%</div>
-                        <div class="used">{$trans("myAccount.limits.gbUsed", {gb: GB(user.limits.imapDownload.used / 8)})}</div>
-                        <div class="total">{$trans("myAccount.limits.gbTotal", {gb: GB(user.limits.imapDownload.allowed / 8)})}</div>
+                        <div class="used">{$trans("myAccount.limits.gbUsed", {gb: GB(user.limits.imapDownload.used)})}</div>
+                        <div class="total">{$trans("myAccount.limits.gbTotal", {gb: GB(user.limits.imapDownload.allowed)})}</div>
                     </div>
                 </div>
             </div>
@@ -223,8 +223,8 @@
                     </CircularGraph>
                     <div class="quota-desc">
                         <div class="percent">{Math.round(user.limits.imapUpload.used / user.limits.imapUpload.allowed * 100)}%</div>
-                        <div class="used">{$trans("myAccount.limits.gbUsed", {gb: GB(user.limits.imapUpload.used / 8)})}</div>
-                        <div class="total">{$trans("myAccount.limits.gbTotal", {gb: GB(user.limits.imapUpload.allowed / 8)})}</div>
+                        <div class="used">{$trans("myAccount.limits.gbUsed", {gb: GB(user.limits.imapUpload.used)})}</div>
+                        <div class="total">{$trans("myAccount.limits.gbTotal", {gb: GB(user.limits.imapUpload.allowed)})}</div>
                     </div>
                 </div>
             </div>
@@ -241,8 +241,8 @@
                     </CircularGraph>
                     <div class="quota-desc">
                         <div class="percent">{Math.round(user.limits.pop3Download.used / user.limits.pop3Download.allowed * 100)}%</div>
-                        <div class="used">{$trans("myAccount.limits.gbUsed", {gb: GB(user.limits.pop3Download.used / 8)})}</div>
-                        <div class="total">{$trans("myAccount.limits.gbTotal", {gb: GB(user.limits.pop3Download.allowed / 8)})}</div>
+                        <div class="used">{$trans("myAccount.limits.gbUsed", {gb: GB(user.limits.pop3Download.used)})}</div>
+                        <div class="total">{$trans("myAccount.limits.gbTotal", {gb: GB(user.limits.pop3Download.allowed)})}</div>
                     </div>
                 </div>
             </div>
