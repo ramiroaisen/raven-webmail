@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Zinyalala",
       "junk": "Sipamu"
     },
+    "delete": "Chotsani chikwatu",
     "empty": "Bokosi ili ndilopanda kanthu"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Disembala"
   },
   "notifier": {
-    "messageSent": "Mauthenga atumizidwa"
+    "messageSent": "Mauthenga atumizidwa",
+    "mailboxDeleted": "Foda yachotsedwa"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Pangani foda yatsopano",
       "label": "Foda",
       "accept": "Pangani",
+      "cancel": "Patulani"
+    },
+    "deleteMailbox": {
+      "title": "Fufutani chikwatu \"{mailbox}\"",
+      "desc": "Chenjezo. Kuchita izi kudzachotsa mauthenga onse achikwama",
+      "accept": "Chotsani",
       "cancel": "Patulani"
     }
   },

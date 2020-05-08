@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "垃圾",
       "junk": "垃圾郵件"
     },
+    "delete": "刪除資料夾",
     "empty": "這個郵箱是空的"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "十二月"
   },
   "notifier": {
-    "messageSent": "訊息已發送"
+    "messageSent": "訊息已發送",
+    "mailboxDeleted": "資料夾已刪除"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "建立新資料夾",
       "label": "文件夾名稱",
       "accept": "創建",
+      "cancel": "取消"
+    },
+    "deleteMailbox": {
+      "title": "刪除文件夾“ {mailbox}”",
+      "desc": "警告。此操作將永久刪除文件夾中的所有郵件",
+      "accept": "刪除",
       "cancel": "取消"
     }
   },

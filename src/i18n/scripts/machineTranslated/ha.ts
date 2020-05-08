@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Shara",
       "junk": "Wasikun Banza"
     },
+    "delete": "Share babban fayil",
     "empty": "Wannan akwatin gidan waya fanko ne"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Disamba"
   },
   "notifier": {
-    "messageSent": "An aika da sako"
+    "messageSent": "An aika da sako",
+    "mailboxDeleted": "An cire babban fayil"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Newirƙiri sabon babban fayil",
       "label": "Sunan babban fayil",
       "accept": ".Irƙira",
+      "cancel": "Soke"
+    },
+    "deleteMailbox": {
+      "title": "Share babban fayil \"{mailbox}\"",
+      "desc": "Tsanani. Wannan aikin zai share har abada duk saƙonni a cikin fayil",
+      "accept": "Share",
       "cancel": "Soke"
     }
   },

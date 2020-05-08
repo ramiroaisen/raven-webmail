@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Müll",
       "junk": "Spam"
     },
+    "delete": "Lösche Ordner",
     "empty": "Dieses Postfach ist leer"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Dezember"
   },
   "notifier": {
-    "messageSent": "Nachricht gesendet"
+    "messageSent": "Nachricht gesendet",
+    "mailboxDeleted": "Ordner gelöscht"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Neuen Ordner erstellen",
       "label": "Ordnernamen",
       "accept": "Erstellen",
+      "cancel": "Stornieren"
+    },
+    "deleteMailbox": {
+      "title": "Ordner \"{mailbox}\" löschen",
+      "desc": "Vorsicht. Diese Aktion löscht dauerhaft alle Nachrichten im Ordner",
+      "accept": "Löschen",
       "cancel": "Stornieren"
     }
   },

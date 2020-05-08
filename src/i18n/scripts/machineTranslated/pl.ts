@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Śmieci",
       "junk": "spam"
     },
+    "delete": "Usunięty folder",
     "empty": "Ta skrzynka pocztowa jest pusta"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "grudzień"
   },
   "notifier": {
-    "messageSent": "Wiadomość wysłana"
+    "messageSent": "Wiadomość wysłana",
+    "mailboxDeleted": "Folder usunięty"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Stwórz nowy folder",
       "label": "Nazwa folderu",
       "accept": "Stwórz",
+      "cancel": "Anuluj"
+    },
+    "deleteMailbox": {
+      "title": "Usuń folder „{mailbox}”",
+      "desc": "Uwaga. Ta czynność spowoduje trwałe usunięcie wszystkich wiadomości w folderze",
+      "accept": "Usunąć",
       "cancel": "Anuluj"
     }
   },

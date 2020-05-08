@@ -9,6 +9,7 @@ const locale = {
             "trash": "Zibil",
             "junk": "Spam"
         },
+        "delete": "Peldanka hilweşîne",
         "empty": "Ev sifrê vala ye"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Berfanbar"
     },
     "notifier": {
-        "messageSent": "Mesaj şandin"
+        "messageSent": "Mesaj şandin",
+        "mailboxDeleted": "Folder jêbirin"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Peldanka nû ava bikin",
             "label": "Navê peldanka",
             "accept": "Xûliqandin",
+            "cancel": "Bişûndekirin"
+        },
+        "deleteMailbox": {
+            "title": "Peldanka \"{mailbox}\" jêbirin",
+            "desc": "Baldaynî. Ev çalakî dê hemî peyamên di peldankê de bi domdarî jêbirin",
+            "accept": "Jêkirin",
             "cancel": "Bişûndekirin"
         }
     },

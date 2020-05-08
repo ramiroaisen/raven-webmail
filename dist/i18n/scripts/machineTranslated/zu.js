@@ -9,6 +9,7 @@ const locale = {
             "trash": "Udoti",
             "junk": "Ogaxekile"
         },
+        "delete": "Susa ifolda",
         "empty": "Leli bhokisi leposi alinalutho"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Disemba"
     },
     "notifier": {
-        "messageSent": "Kuthunyelwe umyalezo"
+        "messageSent": "Kuthunyelwe umyalezo",
+        "mailboxDeleted": "Ifolda isusiwe"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Dala ifolda entsha",
             "label": "Igama lefolda",
             "accept": "Dala",
+            "cancel": "Khansela"
+        },
+        "deleteMailbox": {
+            "title": "Susa ifolda \"{mailbox}\"",
+            "desc": "Ukuqapha. Lesi senzo sizosusa unaphakade yonke imilayezo kwifolda",
+            "accept": "Susa",
             "cancel": "Khansela"
         }
     },

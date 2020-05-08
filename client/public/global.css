@@ -94,11 +94,13 @@ body{
 	transition: background-color 200ms ease;
 }
 
-.btn-dark:hover:after {
+.btn-dark:hover:after,
+.btn-dark.hover:after {
 	background-color: rgba(0,0,0,0.08)
 }
 
-.btn-light:hover:after {
+.btn-light:hover:after,
+.btn-light.hover:after {
 	background-color: rgba(255,255,255,0.15);
 }
 
@@ -229,6 +231,7 @@ body{
 }
 
 /* overlay */
+
 x-overlay {
 	position: fixed;
 	z-index: 100;
@@ -238,7 +241,6 @@ x-overlay {
 	height: 100%;
 	background: rgba(0,0,0,0.5);
 }
-
 .text-btn {
 	padding: 0.75em 1em;
 	border-radius: 0.25em;

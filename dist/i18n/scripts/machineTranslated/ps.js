@@ -9,6 +9,7 @@ const locale = {
             "trash": "کثافات",
             "junk": "سپیم"
         },
+        "delete": "پوښی ړنګ کړئ",
         "empty": "دا میل بکس خالي دی"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "دسمبر"
     },
     "notifier": {
-        "messageSent": "پیغام ولیږل شو"
+        "messageSent": "پیغام ولیږل شو",
+        "mailboxDeleted": "پوښی ړنګ شو"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "نوی فولډر جوړ کړئ",
             "label": "د پوښی نوم",
             "accept": "جوړول",
+            "cancel": "لغوه کول"
+        },
+        "deleteMailbox": {
+            "title": "پوښۍ \"{mailbox}\" ړنګ کړئ",
+            "desc": "احتیاط. دا عمل به په فولډر کې د تل لپاره ټول پیغامونه حذف کړي",
+            "accept": "ړنګول",
             "cancel": "لغوه کول"
         }
     },

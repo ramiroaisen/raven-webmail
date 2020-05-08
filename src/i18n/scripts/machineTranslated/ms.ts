@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Sampah",
       "junk": "Spam"
     },
+    "delete": "Padamkan folder",
     "empty": "Peti mel ini kosong"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Disember"
   },
   "notifier": {
-    "messageSent": "Pesanan dihantar"
+    "messageSent": "Pesanan dihantar",
+    "mailboxDeleted": "Folder dipadamkan"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Buat folder baru",
       "label": "Nama folder",
       "accept": "Buat",
+      "cancel": "Batal"
+    },
+    "deleteMailbox": {
+      "title": "Padamkan folder \"{mailbox}\"",
+      "desc": "Awas. Tindakan ini akan menghapus semua mesej dalam folder secara kekal",
+      "accept": "Padam",
       "cancel": "Batal"
     }
   },

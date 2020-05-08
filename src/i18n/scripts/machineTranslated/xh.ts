@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Inkunkuma",
       "junk": "Ispemu"
     },
+    "delete": "Cima ifolda",
     "empty": "Le bhokisi yeposi ayinanto"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "EtiMnga"
   },
   "notifier": {
-    "messageSent": "Umyalezo uthunyelwe"
+    "messageSent": "Umyalezo uthunyelwe",
+    "mailboxDeleted": "Ifolda isusiwe"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Yenza incwadi entsha",
       "label": "Igama lefolda",
       "accept": "Yenza",
+      "cancel": "Rhoxisa"
+    },
+    "deleteMailbox": {
+      "title": "Cima ifolda \"{mailbox}\"",
+      "desc": "Isilumkiso. Intshukumo iyakucima ngokufihlakeleyo yonke imiyalezo kwifolda",
+      "accept": "Cima",
       "cancel": "Rhoxisa"
     }
   },

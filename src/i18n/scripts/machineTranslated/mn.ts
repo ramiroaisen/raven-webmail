@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Хог",
       "junk": "Спам"
     },
+    "delete": "Фолдерыг устгах",
     "empty": "Энэ шуудангийн хайрцаг хоосон байна"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Арванхоёрдугаар сар"
   },
   "notifier": {
-    "messageSent": "Мессеж илгээгдсэн байна"
+    "messageSent": "Мессеж илгээгдсэн байна",
+    "mailboxDeleted": "Фолдерийг устгасан байна"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Шинэ хавтас үүсгэх",
       "label": "Фолдерын нэр",
       "accept": "Үүсгэх",
+      "cancel": "Цуцлах"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\" фолдерыг устгах",
+      "desc": "Анхааруулга. Энэ үйлдэл нь хавтас доторх бүх мессежүүдийг бүрмөсөн устгах болно",
+      "accept": "Устгах",
       "cancel": "Цуцлах"
     }
   },

@@ -9,6 +9,7 @@ const locale = {
             "trash": "Rubo",
             "junk": "Spamo"
         },
+        "delete": "Forigi dosierujon",
         "empty": "Ĉi tiu retpoŝto estas malplena"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Decembro"
     },
     "notifier": {
-        "messageSent": "Mesaĝo sendita"
+        "messageSent": "Mesaĝo sendita",
+        "mailboxDeleted": "Dosierujo forigita"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Krei novan dosierujon",
             "label": "Nomo de dosierujo",
             "accept": "Krei",
+            "cancel": "Nuligi"
+        },
+        "deleteMailbox": {
+            "title": "Forigi dosierujon \"{mailbox}\"",
+            "desc": "Singardemo. Ĉi tiu ago forigos konstante ĉiujn mesaĝojn en la dosierujo",
+            "accept": "Forigi",
             "cancel": "Nuligi"
         }
     },

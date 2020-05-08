@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Lixo",
       "junk": "Spam"
     },
+    "delete": "Excluir pasta",
     "empty": "Esta caixa de correio está vazia"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "dezembro"
   },
   "notifier": {
-    "messageSent": "Mensagem enviada"
+    "messageSent": "Mensagem enviada",
+    "mailboxDeleted": "Pasta excluída"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Criar nova pasta",
       "label": "Nome da pasta",
       "accept": "Crio",
+      "cancel": "Cancelar"
+    },
+    "deleteMailbox": {
+      "title": "Excluir pasta \"{mailbox}\"",
+      "desc": "Cuidado. Esta ação excluirá permanentemente todas as mensagens da pasta",
+      "accept": "Excluir",
       "cancel": "Cancelar"
     }
   },

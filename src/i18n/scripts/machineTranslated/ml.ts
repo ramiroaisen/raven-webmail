@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "ചവറ്റുകുട്ട",
       "junk": "സ്പാം"
     },
+    "delete": "ഫോൾഡർ ഇല്ലാതാക്കുക",
     "empty": "ഈ മെയിൽ‌ബോക്സ് ശൂന്യമാണ്"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "ഡിസംബർ"
   },
   "notifier": {
-    "messageSent": "സന്ദേശം അയച്ചു"
+    "messageSent": "സന്ദേശം അയച്ചു",
+    "mailboxDeleted": "ഫോൾഡർ ഇല്ലാതാക്കി"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "പുതിയ ഫോൾഡർ സൃഷ്ടിക്കുക",
       "label": "ഫോൾഡറിന്റെ പേര്",
       "accept": "സൃഷ്ടിക്കാൻ",
+      "cancel": "റദ്ദാക്കുക"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\" ഫോൾഡർ ഇല്ലാതാക്കുക",
+      "desc": "ജാഗ്രത. ഈ പ്രവർത്തനം ഫോൾഡറിലെ എല്ലാ സന്ദേശങ്ങളും ശാശ്വതമായി ഇല്ലാതാക്കും",
+      "accept": "ഇല്ലാതാക്കുക",
       "cancel": "റദ്ദാക്കുക"
     }
   },

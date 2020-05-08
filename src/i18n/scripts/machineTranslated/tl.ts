@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Basura",
       "junk": "Spam"
     },
+    "delete": "Tanggalin ang folder",
     "empty": "Walang laman ang mailbox na ito"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Disyembre"
   },
   "notifier": {
-    "messageSent": "Nagpadala ng mensahe"
+    "messageSent": "Nagpadala ng mensahe",
+    "mailboxDeleted": "Tinanggal ang folder"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Lumikha ng bagong folder",
       "label": "Pangalan ng folder",
       "accept": "Lumikha",
+      "cancel": "Pagkansela"
+    },
+    "deleteMailbox": {
+      "title": "Tanggalin ang folder na \"{mailbox}\"",
+      "desc": "Pag-iingat. Ang pagkilos na ito ay tatangging permanenteng lahat ng mga mensahe sa folder",
+      "accept": "Tanggalin",
       "cancel": "Pagkansela"
     }
   },

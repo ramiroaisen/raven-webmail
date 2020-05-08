@@ -9,6 +9,7 @@ const locale = {
             "trash": "Šiukšlių dėžė",
             "junk": "Šlamštas"
         },
+        "delete": "Ištrinti aplanką",
         "empty": "Ši pašto dėžutė tuščia"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Gruodį"
     },
     "notifier": {
-        "messageSent": "Žinutė išsiųsta"
+        "messageSent": "Žinutė išsiųsta",
+        "mailboxDeleted": "Aplankas ištrintas"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Sukurkite naują aplanką",
             "label": "Aplanko pavadinimas",
             "accept": "Sukurti",
+            "cancel": "Atšaukti"
+        },
+        "deleteMailbox": {
+            "title": "Ištrinti aplanką „{mailbox}“",
+            "desc": "Atsargiai. Šis veiksmas visam laikui panaikins visus aplanke esančius pranešimus",
+            "accept": "Ištrinti",
             "cancel": "Atšaukti"
         }
     },

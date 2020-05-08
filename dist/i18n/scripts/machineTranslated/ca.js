@@ -9,6 +9,7 @@ const locale = {
             "trash": "Paperera",
             "junk": "Correu brossa"
         },
+        "delete": "Elimina la carpeta",
         "empty": "Aquesta bústia està buida"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Desembre"
     },
     "notifier": {
-        "messageSent": "Missatge enviat"
+        "messageSent": "Missatge enviat",
+        "mailboxDeleted": "S'ha suprimit una carpeta"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Crea una carpeta nova",
             "label": "Nom de la carpeta",
             "accept": "Crear",
+            "cancel": "Cancel · lar"
+        },
+        "deleteMailbox": {
+            "title": "Suprimeix la carpeta \"{mailbox}\"",
+            "desc": "Precaució. Aquesta acció eliminarà de manera permanent tots els missatges de la carpeta",
+            "accept": "Suprimeix",
             "cancel": "Cancel · lar"
         }
     },

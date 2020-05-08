@@ -9,6 +9,7 @@ const locale = {
             "trash": "Jarian",
             "junk": "EMAIL sampah"
         },
+        "delete": "Hapus folder",
         "empty": "Kotak surat ieu kosong"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Désémber"
     },
     "notifier": {
-        "messageSent": "Pesen dikirim"
+        "messageSent": "Pesen dikirim",
+        "mailboxDeleted": "Polder dihapus"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Jieun folder anyar",
             "label": "Ngaran folder",
             "accept": "Nyipta",
+            "cancel": "Ngabolaykeun"
+        },
+        "deleteMailbox": {
+            "title": "Hapus folder \"{mailbox}\"",
+            "desc": "Awas. Aksi ieu bakal ngahapus sadayana pesen dina polder",
+            "accept": "Mupus",
             "cancel": "Ngabolaykeun"
         }
     },

@@ -9,6 +9,7 @@ const locale = {
             "trash": "roska",
             "junk": "roskapostin"
         },
+        "delete": "Poista kansio",
         "empty": "Tämä postilaatikko on tyhjä"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "joulukuu"
     },
     "notifier": {
-        "messageSent": "Viesti lähetetty"
+        "messageSent": "Viesti lähetetty",
+        "mailboxDeleted": "Kansio poistettu"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Luo uusi kansio",
             "label": "Kansion nimi",
             "accept": "Luoda",
+            "cancel": "Peruuttaa"
+        },
+        "deleteMailbox": {
+            "title": "Poista kansio \"{mailbox}\"",
+            "desc": "Varoitus. Tämä toimenpide poistaa pysyvästi kaikki kansion viestit",
+            "accept": "Poistaa",
             "cancel": "Peruuttaa"
         }
     },

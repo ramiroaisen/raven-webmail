@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Basura",
       "junk": "Correo no deseado"
     },
+    "delete": "Eliminar carpeta",
     "empty": "Este buzón está vacío"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "diciembre"
   },
   "notifier": {
-    "messageSent": "Mensaje enviado"
+    "messageSent": "Mensaje enviado",
+    "mailboxDeleted": "Carpeta eliminada"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Crear nueva carpeta",
       "label": "Nombre de la carpeta",
       "accept": "Crear",
+      "cancel": "Cancelar"
+    },
+    "deleteMailbox": {
+      "title": "Eliminar carpeta \"{mailbox}\"",
+      "desc": "Precaución. Esta acción eliminará permanentemente todos los mensajes en la carpeta",
+      "accept": "Eliminar",
       "cancel": "Cancelar"
     }
   },

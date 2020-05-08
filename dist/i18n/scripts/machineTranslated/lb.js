@@ -9,6 +9,7 @@ const locale = {
             "trash": "Trash",
             "junk": "Spam"
         },
+        "delete": "Läschen Dossier",
         "empty": "Dës Mailbox ass eidel"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Dezember"
     },
     "notifier": {
-        "messageSent": "Message geschéckt"
+        "messageSent": "Message geschéckt",
+        "mailboxDeleted": "Folder geläscht"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Neie Dossier erstellen",
             "label": "Dossier Numm",
             "accept": "Erstellt",
+            "cancel": "Ofbriechen"
+        },
+        "deleteMailbox": {
+            "title": "Läschen Dossier \"{mailbox}\"",
+            "desc": "Opgepasst Dës Aktioun wäert permanent all Messagen am Dossier läschen",
+            "accept": "Läschen",
             "cancel": "Ofbriechen"
         }
     },

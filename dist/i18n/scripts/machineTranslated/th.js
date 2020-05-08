@@ -9,6 +9,7 @@ const locale = {
             "trash": "ขยะ",
             "junk": "สแปม"
         },
+        "delete": "ลบโฟลเดอร์",
         "empty": "กล่องจดหมายนี้ว่างเปล่า"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "ธันวาคม"
     },
     "notifier": {
-        "messageSent": "ส่งข้อความ"
+        "messageSent": "ส่งข้อความ",
+        "mailboxDeleted": "ลบโฟลเดอร์แล้ว"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "สร้างโฟลเดอร์ใหม่",
             "label": "ชื่อโฟลเดอร์",
             "accept": "สร้าง",
+            "cancel": "ยกเลิก"
+        },
+        "deleteMailbox": {
+            "title": "ลบโฟลเดอร์ \"{mailbox}\"",
+            "desc": "ความระมัดระวัง การกระทำนี้จะลบข้อความทั้งหมดในโฟลเดอร์อย่างถาวร",
+            "accept": "ลบ",
             "cancel": "ยกเลิก"
         }
     },

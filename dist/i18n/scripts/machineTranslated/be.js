@@ -9,6 +9,7 @@ const locale = {
             "trash": "Хлам",
             "junk": "Спам"
         },
+        "delete": "Выдаліць тэчку",
         "empty": "Гэты паштовы скрыню пусты"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Снежань"
     },
     "notifier": {
-        "messageSent": "Паведамленне адпраўлена"
+        "messageSent": "Паведамленне адпраўлена",
+        "mailboxDeleted": "Папка выдаленая"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Стварыце новую тэчку",
             "label": "Назва тэчкі",
             "accept": "Ствары",
+            "cancel": "Адмяніць"
+        },
+        "deleteMailbox": {
+            "title": "Выдаліць тэчку \"{mailbox}\"",
+            "desc": "Асцярожна. Гэта дзеянне назаўсёды выдаліць усе паведамленні ў тэчцы",
+            "accept": "Выдаліць",
             "cancel": "Адмяніць"
         }
     },

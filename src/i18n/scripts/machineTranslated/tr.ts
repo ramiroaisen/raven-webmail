@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Çöp",
       "junk": "İstenmeyen e"
     },
+    "delete": "Klasörü sil",
     "empty": "Bu posta kutusu boş"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Aralık"
   },
   "notifier": {
-    "messageSent": "Mesajı gönderildi"
+    "messageSent": "Mesajı gönderildi",
+    "mailboxDeleted": "Klasör silindi"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Yeni klasör Oluştur",
       "label": "Klasör adı",
       "accept": "Oluşturmak",
+      "cancel": "İptal etmek"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\" klasörünü sil",
+      "desc": "Dikkat. Bu eylem klasördeki tüm iletileri kalıcı olarak silecek",
+      "accept": "Sil",
       "cancel": "İptal etmek"
     }
   },

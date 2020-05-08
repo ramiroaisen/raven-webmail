@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Prügikast",
       "junk": "Spämm"
     },
+    "delete": "Kustuta kaust",
     "empty": "See postkast on tühi"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Detsembril"
   },
   "notifier": {
-    "messageSent": "Sõnum saadetud"
+    "messageSent": "Sõnum saadetud",
+    "mailboxDeleted": "Kaust kustutatud"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Looge uus kaust",
       "label": "Kausta nimi",
       "accept": "Loo",
+      "cancel": "Tühista"
+    },
+    "deleteMailbox": {
+      "title": "Kustuta kaust „{mailbox}“",
+      "desc": "Ettevaatust. See toiming kustutab jäädavalt kõik kaustas olevad kirjad",
+      "accept": "Kustuta",
       "cancel": "Tühista"
     }
   },

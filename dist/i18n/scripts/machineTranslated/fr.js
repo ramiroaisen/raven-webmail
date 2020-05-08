@@ -9,6 +9,7 @@ const locale = {
             "trash": "Poubelle",
             "junk": "Spam"
         },
+        "delete": "Supprimer le dossier",
         "empty": "Cette boîte aux lettres est vide"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "décembre"
     },
     "notifier": {
-        "messageSent": "Message envoyé"
+        "messageSent": "Message envoyé",
+        "mailboxDeleted": "Dossier supprimé"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Créer un nouveau dossier",
             "label": "Nom de dossier",
             "accept": "Créer",
+            "cancel": "Annuler"
+        },
+        "deleteMailbox": {
+            "title": "Supprimer le dossier \"{mailbox}\"",
+            "desc": "Mise en garde. Cette action supprimera définitivement tous les messages du dossier",
+            "accept": "Supprimer",
             "cancel": "Annuler"
         }
     },

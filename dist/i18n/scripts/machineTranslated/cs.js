@@ -9,6 +9,7 @@ const locale = {
             "trash": "Odpadky",
             "junk": "Spam"
         },
+        "delete": "Odstranit složku",
         "empty": "Tato schránka je prázdná"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "prosinec"
     },
     "notifier": {
-        "messageSent": "Zpráva odeslána"
+        "messageSent": "Zpráva odeslána",
+        "mailboxDeleted": "Složka byla smazána"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Vytvořit novou složku",
             "label": "Název složky",
             "accept": "Vytvořit",
+            "cancel": "zrušení"
+        },
+        "deleteMailbox": {
+            "title": "Smazat složku „{mailbox}“",
+            "desc": "Pozor. Tato akce trvale odstraní všechny zprávy ve složce",
+            "accept": "Odstranit",
             "cancel": "zrušení"
         }
     },

@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Zibil",
       "junk": "Spam"
     },
+    "delete": "Papkany pozuň",
     "empty": "Bu poçta gutusy boş"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Dekabr"
   },
   "notifier": {
-    "messageSent": "Habar iberildi"
+    "messageSent": "Habar iberildi",
+    "mailboxDeleted": "Papka öçürildi"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Täze bukja dörediň",
       "label": "Papkanyň ady",
       "accept": "Dörediň",
+      "cancel": "Elatyr"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\" bukjasyny pozuň",
+      "desc": "Seresap boluň. Bu amal, bukjadaky ähli habarlary hemişelik ýok eder",
+      "accept": "Öçür",
       "cancel": "Elatyr"
     }
   },

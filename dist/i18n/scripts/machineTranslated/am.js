@@ -9,6 +9,7 @@ const locale = {
             "trash": "መጣያ",
             "junk": "አይፈለጌ መልእክት"
         },
+        "delete": "አቃፊ ሰርዝ",
         "empty": "ይህ የመልእክት ሳጥን ባዶ ነው"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "ታህሳስ"
     },
     "notifier": {
-        "messageSent": "መልእክት ተልኳል"
+        "messageSent": "መልእክት ተልኳል",
+        "mailboxDeleted": "አቃፊ ተሰር .ል"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "አዲስ አቃፊ ፍጠር",
             "label": "የአቃፊ ስም",
             "accept": "ፍጠር",
+            "cancel": "ይቅር"
+        },
+        "deleteMailbox": {
+            "title": "አቃፊ ሰርዝ \"{mailbox}\"",
+            "desc": "ጥንቃቄ. ይህ እርምጃ በፋይሉ ውስጥ ያሉትን ሁሉንም መልእክቶች በቋሚነት ይሰርዛል",
+            "accept": "ሰርዝ",
             "cancel": "ይቅር"
         }
     },

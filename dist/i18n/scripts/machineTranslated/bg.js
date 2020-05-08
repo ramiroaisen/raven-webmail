@@ -9,6 +9,7 @@ const locale = {
             "trash": "боклук",
             "junk": "Спам"
         },
+        "delete": "Изтриване на папка",
         "empty": "Тази пощенска кутия е празна"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "декември"
     },
     "notifier": {
-        "messageSent": "Съобщението е изпратено"
+        "messageSent": "Съобщението е изпратено",
+        "mailboxDeleted": "Папката е изтрита"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Създайте нова папка",
             "label": "Име на папка",
             "accept": "създавам",
+            "cancel": "Отказ"
+        },
+        "deleteMailbox": {
+            "title": "Изтриване на папката \"{mailbox}\"",
+            "desc": "Внимание. Това действие ще изтрие трайно всички съобщения в папката",
+            "accept": "Изтрий",
             "cancel": "Отказ"
         }
     },

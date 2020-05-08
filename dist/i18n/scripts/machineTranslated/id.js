@@ -9,6 +9,7 @@ const locale = {
             "trash": "Sampah",
             "junk": "Spam"
         },
+        "delete": "Hapus folder",
         "empty": "Kotak surat ini kosong"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Desember"
     },
     "notifier": {
-        "messageSent": "Pesan terkirim"
+        "messageSent": "Pesan terkirim",
+        "mailboxDeleted": "Folder dihapus"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Buat folder baru",
             "label": "Nama folder",
             "accept": "Membuat",
+            "cancel": "Membatalkan"
+        },
+        "deleteMailbox": {
+            "title": "Hapus folder \"{mailbox}\"",
+            "desc": "Peringatan. Tindakan ini akan menghapus semua pesan di folder secara permanen",
+            "accept": "Menghapus",
             "cancel": "Membatalkan"
         }
     },

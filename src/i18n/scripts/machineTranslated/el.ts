@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Σκουπίδια",
       "junk": "Ανεπιθυμητη αλληλογραφια"
     },
+    "delete": "Διαγραφή φακέλου",
     "empty": "Αυτό το γραμματοκιβώτιο είναι κενό"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Δεκέμβριος"
   },
   "notifier": {
-    "messageSent": "Το μήνυμα στάλθηκε"
+    "messageSent": "Το μήνυμα στάλθηκε",
+    "mailboxDeleted": "Ο φάκελος διαγράφηκε"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Δημιουργία νέου φακέλου",
       "label": "Ονομα φακέλου",
       "accept": "Δημιουργώ",
+      "cancel": "Ματαίωση"
+    },
+    "deleteMailbox": {
+      "title": "Διαγραφή φακέλου \"{mailbox}\"",
+      "desc": "Προσοχή. Αυτή η ενέργεια θα διαγράψει οριστικά όλα τα μηνύματα στο φάκελο",
+      "accept": "Διαγράφω",
       "cancel": "Ματαίωση"
     }
   },

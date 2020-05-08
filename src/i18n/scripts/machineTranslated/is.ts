@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Rusl",
       "junk": "Ruslpóstur"
     },
+    "delete": "Eyða möppu",
     "empty": "Þetta pósthólf er tómt"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Desember"
   },
   "notifier": {
-    "messageSent": "Skilaboð send"
+    "messageSent": "Skilaboð send",
+    "mailboxDeleted": "Mappa eytt"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Búðu til nýja möppu",
       "label": "Mappanafn",
       "accept": "Búa til",
+      "cancel": "Hætta við"
+    },
+    "deleteMailbox": {
+      "title": "Eyða möppunni „{mailbox}“",
+      "desc": "Varúð. Þessi aðgerð mun eyða öllum skilaboðum í möppunni varanlega",
+      "accept": "Eyða",
       "cancel": "Hætta við"
     }
   },

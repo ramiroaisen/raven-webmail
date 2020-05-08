@@ -9,6 +9,7 @@ const locale = {
             "trash": "Ruka",
             "junk": "Korero"
         },
+        "delete": "Mukua kōpaki",
         "empty": "Kua waatea tenei pouaka pouaka"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Hakihea"
     },
     "notifier": {
-        "messageSent": "Karere i tukuna"
+        "messageSent": "Karere i tukuna",
+        "mailboxDeleted": "Kua mukua te Kōpaki"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Waihangahia te kōpaki hou",
             "label": "Ingoa Kōpaki",
             "accept": "Te Hanga",
+            "cancel": "Whakakore"
+        },
+        "deleteMailbox": {
+            "title": "Mukua te kōpaki \"{mailbox}\"",
+            "desc": "Kia tupato. Ma tenei mahi ka muku katoa nga karere katoa i roto i te kōpaki",
+            "accept": "Muputu",
             "cancel": "Whakakore"
         }
     },

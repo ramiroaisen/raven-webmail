@@ -9,6 +9,7 @@ const locale = {
             "trash": "Spazzatura",
             "junk": "Spam"
         },
+        "delete": "Elimina cartella",
         "empty": "Questa cassetta postale è vuota"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "dicembre"
     },
     "notifier": {
-        "messageSent": "Messaggio inviato"
+        "messageSent": "Messaggio inviato",
+        "mailboxDeleted": "Cartella eliminata"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Crea una nuova cartella",
             "label": "Nome della cartella",
             "accept": "Creare",
+            "cancel": "Annulla"
+        },
+        "deleteMailbox": {
+            "title": "Elimina la cartella \"{mailbox}\"",
+            "desc": "Attenzione. Questa azione eliminerà permanentemente tutti i messaggi nella cartella",
+            "accept": "Elimina",
             "cancel": "Annulla"
         }
     },

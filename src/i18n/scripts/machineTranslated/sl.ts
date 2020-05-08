@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Smeti",
       "junk": "Nezaželena pošta"
     },
+    "delete": "Izbriši mapo",
     "empty": "Ta nabiralnik je prazen"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "December"
   },
   "notifier": {
-    "messageSent": "Sporočilo poslano"
+    "messageSent": "Sporočilo poslano",
+    "mailboxDeleted": "Mapa je izbrisana"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Ustvari novo mapo",
       "label": "Ime mape",
       "accept": "Ustvari",
+      "cancel": "Prekliči"
+    },
+    "deleteMailbox": {
+      "title": "Brisanje mape \"{mailbox}\"",
+      "desc": "Pozor! S tem dejanjem bodo trajno izbrisana vsa sporočila v mapi",
+      "accept": "Izbriši",
       "cancel": "Prekliči"
     }
   },

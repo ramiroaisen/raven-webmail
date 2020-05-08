@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Idọti",
       "junk": "Àwúrúju"
     },
+    "delete": "Paarẹ folda",
     "empty": "Apoti meeli yii ti ṣofo"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Oṣu kejila"
   },
   "notifier": {
-    "messageSent": "Ti firanṣẹ ranṣẹ"
+    "messageSent": "Ti firanṣẹ ranṣẹ",
+    "mailboxDeleted": "Ti paarẹ folda"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Ṣẹda folda tuntun",
       "label": "Orukọ folda",
       "accept": "Ṣẹda",
+      "cancel": "Fagile"
+    },
+    "deleteMailbox": {
+      "title": "Paarẹ folda \"{mailbox}\"",
+      "desc": "Išọra. Iṣe yii yoo paarẹ gbogbo awọn ifiranṣẹ inu folda naa",
+      "accept": "Paarẹ",
       "cancel": "Fagile"
     }
   },

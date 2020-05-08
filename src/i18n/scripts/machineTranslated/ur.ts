@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "کوڑے دان",
       "junk": "فضول کے"
     },
+    "delete": "فولڈر حذف کریں",
     "empty": "یہ میل باکس خالی ہے"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "دسمبر"
   },
   "notifier": {
-    "messageSent": "پیغام چلا گیا"
+    "messageSent": "پیغام چلا گیا",
+    "mailboxDeleted": "فولڈر حذف ہوگیا"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "نیا فولڈر بنائیں",
       "label": "فولڈر کا نام",
       "accept": "بنانا",
+      "cancel": "منسوخ کریں"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\" فولڈر کو حذف کریں",
+      "desc": "احتیاط. اس کارروائی سے فولڈر میں موجود تمام پیغامات مستقل طور پر حذف ہوجائیں گے",
+      "accept": "حذف کریں",
       "cancel": "منسوخ کریں"
     }
   },

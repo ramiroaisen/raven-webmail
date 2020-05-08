@@ -9,6 +9,7 @@ const locale = {
             "trash": "Қоқыс",
             "junk": "Спам"
         },
+        "delete": "Қалтаны жою",
         "empty": "Бұл пошта жәшігі бос"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Желтоқсан"
     },
     "notifier": {
-        "messageSent": "Хабар жіберілді"
+        "messageSent": "Хабар жіберілді",
+        "mailboxDeleted": "Қалта жойылды"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Жаңа қалта жасау",
             "label": "Қалта атауы",
             "accept": "Жасау",
+            "cancel": "Болдырмау"
+        },
+        "deleteMailbox": {
+            "title": "«{mailbox}» қалтасын жою",
+            "desc": "Абайлаңыз. Бұл әрекет қалтадағы барлық хабарларды толығымен жояды",
+            "accept": "Жою",
             "cancel": "Болдырмау"
         }
     },

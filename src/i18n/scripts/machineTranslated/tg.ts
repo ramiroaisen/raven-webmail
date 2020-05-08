@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Ахлот",
       "junk": "Ангалнома"
     },
+    "delete": "Нобуд сохтани ҷузвдон",
     "empty": "Ин паёмдони холӣ холӣ аст"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Декабр"
   },
   "notifier": {
-    "messageSent": "Хабар фиристода шуд"
+    "messageSent": "Хабар фиристода шуд",
+    "mailboxDeleted": "Папка нест карда шуд"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Эҷоди ҷузвдони нав",
       "label": "Номи папка",
       "accept": "Эҷод",
+      "cancel": "Бекор кардан"
+    },
+    "deleteMailbox": {
+      "title": "Нобуд кардани ҷузвдони \"{mailbox}\"",
+      "desc": "Огоҳӣ. Ин амал тамоми паёмҳои ҷузвдонро ба пуррагӣ нест мекунад",
+      "accept": "Нест кардан",
       "cancel": "Бекор кардан"
     }
   },

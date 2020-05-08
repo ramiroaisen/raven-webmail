@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "ਰੱਦੀ",
       "junk": "ਸਪੈਮ"
     },
+    "delete": "ਫੋਲਡਰ ਹਟਾਓ",
     "empty": "ਇਹ ਮੇਲਬਾਕਸ ਖਾਲੀ ਹੈ"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "ਦਸੰਬਰ"
   },
   "notifier": {
-    "messageSent": "ਸੁਨੇਹਾ ਭੇਜਿਆ ਗਿਆ"
+    "messageSent": "ਸੁਨੇਹਾ ਭੇਜਿਆ ਗਿਆ",
+    "mailboxDeleted": "ਫੋਲਡਰ ਮਿਟਾ ਦਿੱਤਾ ਗਿਆ"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "ਨਵਾਂ ਫੋਲਡਰ ਬਣਾਓ",
       "label": "ਫੋਲਡਰ ਦਾ ਨਾਮ",
       "accept": "ਬਣਾਓ",
+      "cancel": "ਰੱਦ ਕਰੋ"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\" ਫੋਲਡਰ ਨੂੰ ਮਿਟਾਓ",
+      "desc": "ਸਾਵਧਾਨ. ਇਹ ਕਾਰਵਾਈ ਫੋਲਡਰ ਵਿੱਚਲੇ ਸਾਰੇ ਸੁਨੇਹਿਆਂ ਨੂੰ ਪੱਕੇ ਤੌਰ ਤੇ ਮਿਟਾ ਦੇਵੇਗੀ",
+      "accept": "ਮਿਟਾਓ",
       "cancel": "ਰੱਦ ਕਰੋ"
     }
   },

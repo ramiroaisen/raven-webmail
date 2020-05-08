@@ -9,6 +9,7 @@ const locale = {
             "trash": "Gunoi",
             "junk": "Spam"
         },
+        "delete": "Ștergeți folderul",
         "empty": "Această căsuță poștală este goală"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "decembrie"
     },
     "notifier": {
-        "messageSent": "Mesaj trimis"
+        "messageSent": "Mesaj trimis",
+        "mailboxDeleted": "Folder șters"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Creati un folder nou",
             "label": "Numele fisierului",
             "accept": "Crea",
+            "cancel": "Anulare"
+        },
+        "deleteMailbox": {
+            "title": "Ștergeți folderul „{mailbox}”",
+            "desc": "Prudență. Această acțiune va șterge permanent toate mesajele din folder",
+            "accept": "Șterge",
             "cancel": "Anulare"
         }
     },

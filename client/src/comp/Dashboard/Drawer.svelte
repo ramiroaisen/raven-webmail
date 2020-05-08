@@ -7,6 +7,8 @@
     flex: none;
     overflow-x: hidden;
     overflow-y: auto;
+    position: relative;
+    z-index: 200;
   }
 
   x-overlay {

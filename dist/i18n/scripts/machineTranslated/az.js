@@ -9,6 +9,7 @@ const locale = {
             "trash": "Zibil",
             "junk": "Spam"
         },
+        "delete": "Qovluğu silin",
         "empty": "Bu poçt qutusu boşdur"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Dekabr"
     },
     "notifier": {
-        "messageSent": "Mesaj göndərildi"
+        "messageSent": "Mesaj göndərildi",
+        "mailboxDeleted": "Qovluq silindi"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Yeni qovluq yaradın",
             "label": "Qovluq adı",
             "accept": "Yarat",
+            "cancel": "Ləğv et"
+        },
+        "deleteMailbox": {
+            "title": "\"{mailbox}\" qovluğunu silin",
+            "desc": "Diqqət. Bu hərəkət qovluqdakı bütün mesajları qalıcı bir şəkildə siləcəkdir",
+            "accept": "Silin",
             "cancel": "Ləğv et"
         }
     },

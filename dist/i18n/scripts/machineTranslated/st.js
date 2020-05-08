@@ -9,6 +9,7 @@ const locale = {
             "trash": "Litšila",
             "junk": "Spam"
         },
+        "delete": "Tlosa foldara",
         "empty": "Lebokose lena la poso ha le na letho"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Mots'eanong"
     },
     "notifier": {
-        "messageSent": "Ho romelletsoe molaetsa"
+        "messageSent": "Ho romelletsoe molaetsa",
+        "mailboxDeleted": "Folder e tlositsoe"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Theha foldara e ncha",
             "label": "Lebitso la lifoldara",
             "accept": "Bopa",
+            "cancel": "Hlakola"
+        },
+        "deleteMailbox": {
+            "title": "Tlosa foldara \"{mailbox}\"",
+            "desc": "Tlhokomeliso. Ketso ena e tla hlakola melaetsa eohle e foldareng",
+            "accept": "Tlosa",
             "cancel": "Hlakola"
         }
     },

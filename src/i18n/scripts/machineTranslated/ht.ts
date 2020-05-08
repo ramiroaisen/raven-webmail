@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Fatra",
       "junk": "Spam"
     },
+    "delete": "Efase katab",
     "empty": "Bwat lèt sa a vid"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Desanm"
   },
   "notifier": {
-    "messageSent": "Mesaj voye"
+    "messageSent": "Mesaj voye",
+    "mailboxDeleted": "Dosye efase"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Kreye nouvo katab",
       "label": "Non Dosye an",
       "accept": "Kreye",
+      "cancel": "Anile"
+    },
+    "deleteMailbox": {
+      "title": "Efase folder \"{mailbox}\"",
+      "desc": "Atansyon. Aksyon sa a pral efase nèt tout mesaj nan katab la",
+      "accept": "Efase",
       "cancel": "Anile"
     }
   },

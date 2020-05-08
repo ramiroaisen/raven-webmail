@@ -9,6 +9,7 @@ const locale = {
             "trash": "Trash",
             "junk": "Spam"
         },
+        "delete": "Famafa ny fampirimana",
         "empty": "Tsy misy na inona na inona ity boaty mailaka ity"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Desambra"
     },
     "notifier": {
-        "messageSent": "Hafatra nandefa"
+        "messageSent": "Hafatra nandefa",
+        "mailboxDeleted": "Voafafa ny folder"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Mamorona fampirimana vaovao",
             "label": "Anaran'ny folder",
             "accept": "mamorona",
+            "cancel": "hanafoana"
+        },
+        "deleteMailbox": {
+            "title": "Famafa ny \"folder\" {mailbox} \"",
+            "desc": "Mitandrina. Ity hetsika ity dia hamafa ireo hafatra rehetra ao anaty fampirimana",
+            "accept": "Mamafa",
             "cancel": "hanafoana"
         }
     },

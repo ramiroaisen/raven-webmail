@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "זבל",
       "junk": "ספאם"
     },
+    "delete": "מחק תיקיה",
     "empty": "תיבת דואר זו ריקה"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "דצמבר"
   },
   "notifier": {
-    "messageSent": "הודעה נשלחה"
+    "messageSent": "הודעה נשלחה",
+    "mailboxDeleted": "התיקיה נמחקה"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "צור תיקיה חדשה",
       "label": "שם התיקיה",
       "accept": "צור",
+      "cancel": "בטל"
+    },
+    "deleteMailbox": {
+      "title": "מחק את התיקיה \"{mailbox}\"",
+      "desc": "זהירות. פעולה זו תמחק לצמיתות את כל ההודעות בתיקיה",
+      "accept": "מחק",
       "cancel": "בטל"
     }
   },

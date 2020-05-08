@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Tọkpa",
       "junk": "Amgha"
     },
+    "delete": "Hichapụ folda",
     "empty": "Akwụkwọ ozi a bụ ihe efu"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Disemba"
   },
   "notifier": {
-    "messageSent": "Ozi zitere"
+    "messageSent": "Ozi zitere",
+    "mailboxDeleted": "Gbanyụọ folda"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Mepụta folda ọhụrụ",
       "label": "Aha nchekwa",
       "accept": "Mepụta",
+      "cancel": "Kagbuo"
+    },
+    "deleteMailbox": {
+      "title": "Hichapụ folda \"{mailbox}\"",
+      "desc": "Utionkpachara anya. Ihe a ga - ehichapụ ozi niile dị na folda ahụ kpamkpam",
+      "accept": "Hichapụ",
       "cancel": "Kagbuo"
     }
   },

@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Imyanda",
       "junk": "Spam"
     },
+    "delete": "Siba ububiko",
     "empty": "Agasanduku k'iposita karimo ubusa"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Kigarama"
   },
   "notifier": {
-    "messageSent": "Ubutumwa bwoherejwe"
+    "messageSent": "Ubutumwa bwoherejwe",
+    "mailboxDeleted": "Ububiko bwasibwe"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Kora ububiko bushya",
       "label": "Izina ry'ububiko",
       "accept": "Kurema",
+      "cancel": "Kureka"
+    },
+    "deleteMailbox": {
+      "title": "Siba ububiko \"{mailbox}\"",
+      "desc": "Icyitonderwa. Igikorwa kizasiba burundu ubutumwa bwose mububiko",
+      "accept": "Siba",
       "cancel": "Kureka"
     }
   },

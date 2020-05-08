@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Сміття",
       "junk": "Спам"
     },
+    "delete": "Видалити папку",
     "empty": "Ця поштова скринька порожня"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Грудень"
   },
   "notifier": {
-    "messageSent": "Повідомлення надіслано"
+    "messageSent": "Повідомлення надіслано",
+    "mailboxDeleted": "Папка видалена"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Створіть нову папку",
       "label": "Назва папки",
       "accept": "Створіть",
+      "cancel": "Скасувати"
+    },
+    "deleteMailbox": {
+      "title": "Видалити папку \"{mailbox}\"",
+      "desc": "Обережність. Ця дія назавжди видалить усі повідомлення в папці",
+      "accept": "Видалити",
       "cancel": "Скасувати"
     }
   },

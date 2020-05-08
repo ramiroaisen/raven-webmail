@@ -9,6 +9,7 @@ const locale = {
             "trash": "Trash",
             "junk": "Spam"
         },
+        "delete": "Ezabatu karpeta",
         "empty": "Postontzi hau hutsik dago"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "abendua"
     },
     "notifier": {
-        "messageSent": "Mezua bidali da"
+        "messageSent": "Mezua bidali da",
+        "mailboxDeleted": "Karpeta ezabatu da"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Sortu karpeta berria",
             "label": "Karpetaren izena",
             "accept": "Sortu",
+            "cancel": "Utzi"
+        },
+        "deleteMailbox": {
+            "title": "Ezabatu \"{mailbox}\" karpeta",
+            "desc": "Kontuz. Ekintza honek karpetako mezu guztiak behin betiko ezabatuko ditu",
+            "accept": "Ezabatu",
             "cancel": "Utzi"
         }
     },

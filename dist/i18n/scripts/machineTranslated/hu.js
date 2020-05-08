@@ -9,6 +9,7 @@ const locale = {
             "trash": "Szemét",
             "junk": "Spam"
         },
+        "delete": "Mappa törlése",
         "empty": "Ez a postafiók üres"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "december"
     },
     "notifier": {
-        "messageSent": "Üzenet elküldve"
+        "messageSent": "Üzenet elküldve",
+        "mailboxDeleted": "A mappa törölve"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Hozzon létre új mappát",
             "label": "Mappa neve",
             "accept": "teremt",
+            "cancel": "Megszünteti"
+        },
+        "deleteMailbox": {
+            "title": "A (z) \"{mailbox}\" mappa törlése",
+            "desc": "Vigyázat. Ez a művelet véglegesen törli a mappában lévő összes üzenetet",
+            "accept": "Töröl",
             "cancel": "Megszünteti"
         }
     },

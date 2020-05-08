@@ -9,6 +9,7 @@ const locale = {
             "trash": "quisquiliae",
             "junk": "spam"
         },
+        "delete": "Delete folder",
         "empty": "Hic est mailbox inanis"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "December"
     },
     "notifier": {
-        "messageSent": "nuntium misit"
+        "messageSent": "nuntium misit",
+        "mailboxDeleted": "folder delevit"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Create novi folder",
             "label": "folder est nomen",
             "accept": "Create",
+            "cancel": "Cancel"
+        },
+        "deleteMailbox": {
+            "title": "Delete folder \"{undefined} '",
+            "desc": "Scribitur. Haec actio in perpetuum Omnes epistulae in folder mos delete",
+            "accept": "Delete",
             "cancel": "Cancel"
         }
     },

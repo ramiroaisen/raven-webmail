@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Smeti",
       "junk": "Nevyžiadaná pošta"
     },
+    "delete": "Odstrániť priečinok",
     "empty": "Táto poštová schránka je prázdna"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "December"
   },
   "notifier": {
-    "messageSent": "Správa poslaná"
+    "messageSent": "Správa poslaná",
+    "mailboxDeleted": "Priečinok bol odstránený"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Vytvorte nový priečinok",
       "label": "Názov priečinka",
       "accept": "vytvoriť",
+      "cancel": "Zrušiť"
+    },
+    "deleteMailbox": {
+      "title": "Odstrániť priečinok „{mailbox}“",
+      "desc": "Opatrnosť. Táto akcia natrvalo odstráni všetky správy v priečinku",
+      "accept": "delete",
       "cancel": "Zrušiť"
     }
   },

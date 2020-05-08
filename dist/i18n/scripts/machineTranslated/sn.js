@@ -9,6 +9,7 @@ const locale = {
             "trash": "Marara",
             "junk": "Spam"
         },
+        "delete": "Delete folda",
         "empty": "Iri bhokisi retsamba harina chinhu"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Zvita"
     },
     "notifier": {
-        "messageSent": "Message yatumirwa"
+        "messageSent": "Message yatumirwa",
+        "mailboxDeleted": "Folda yabviswa"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Gadzira nyowani nyowani",
             "label": "Folder zita",
             "accept": "Gadzira",
+            "cancel": "Kanzura"
+        },
+        "deleteMailbox": {
+            "title": "Delete folda \"{mailbox}\"",
+            "desc": "Kuchenjerera. Ichi chiito chinodzima zvachose mese ma meseji mufolda",
+            "accept": "Delete",
             "cancel": "Kanzura"
         }
     },

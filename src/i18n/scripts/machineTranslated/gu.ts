@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "કચરો",
       "junk": "સ્પામ"
     },
+    "delete": "ફોલ્ડર કા Deleteી નાખો",
     "empty": "આ મેઇલબોક્સ ખાલી છે"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "ડિસેમ્બર"
   },
   "notifier": {
-    "messageSent": "સંદેશ મોકલ્યો"
+    "messageSent": "સંદેશ મોકલ્યો",
+    "mailboxDeleted": "ફોલ્ડર કા deletedી નાખ્યું"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "નવું ફોલ્ડર બનાવો",
       "label": "ફોલ્ડર નામ",
       "accept": "બનાવો",
+      "cancel": "રદ કરો"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\" ફોલ્ડર કા Deleteી નાખો",
+      "desc": "સાવધાની. આ ક્રિયા ફોલ્ડરમાંના બધા સંદેશા કાયમીરૂપે કા .ી નાખશે",
+      "accept": "કા .ી નાખો",
       "cancel": "રદ કરો"
     }
   },

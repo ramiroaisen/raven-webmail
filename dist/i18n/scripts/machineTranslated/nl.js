@@ -9,6 +9,7 @@ const locale = {
             "trash": "Prullenbak",
             "junk": "Spam"
         },
+        "delete": "Verwijder map",
         "empty": "Deze mailbox is leeg"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "december"
     },
     "notifier": {
-        "messageSent": "Bericht verzonden"
+        "messageSent": "Bericht verzonden",
+        "mailboxDeleted": "Map verwijderd"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Maak een nieuwe map",
             "label": "Naam van de map",
             "accept": "Creëer",
+            "cancel": "annuleren"
+        },
+        "deleteMailbox": {
+            "title": "Map '{mailbox}' verwijderen",
+            "desc": "Voorzichtigheid. Met deze actie worden alle berichten in de map definitief verwijderd",
+            "accept": "Verwijderen",
             "cancel": "annuleren"
         }
     },

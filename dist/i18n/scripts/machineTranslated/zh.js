@@ -9,6 +9,7 @@ const locale = {
             "trash": "垃圾",
             "junk": "垃圾邮件"
         },
+        "delete": "删除资料夹",
         "empty": "这个邮箱是空的"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "十二月"
     },
     "notifier": {
-        "messageSent": "讯息已发送"
+        "messageSent": "讯息已发送",
+        "mailboxDeleted": "资料夹已删除"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "建立新资料夹",
             "label": "文件夹名称",
             "accept": "创建",
+            "cancel": "取消"
+        },
+        "deleteMailbox": {
+            "title": "删除文件夹“ {mailbox}”",
+            "desc": "警告。此操作将永久删除文件夹中的所有邮件",
+            "accept": "删除",
             "cancel": "取消"
         }
     },

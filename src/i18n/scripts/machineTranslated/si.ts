@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "කුණු කූඩය",
       "junk": "ආයාචිත තැපැල්"
     },
+    "delete": "ෆෝල්ඩරය මකන්න",
     "empty": "මෙම තැපැල් පෙට්ටිය හිස් ය"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "දෙසැම්බර්"
   },
   "notifier": {
-    "messageSent": "පණිවිඩය යැව්වා"
+    "messageSent": "පණිවිඩය යැව්වා",
+    "mailboxDeleted": "ෆෝල්ඩරය මකා දමන ලදි"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "නව ෆෝල්ඩරයක් සාදන්න",
       "label": "ෆෝල්ඩරයේ නම",
       "accept": "සාදන්න",
+      "cancel": "අවලංගු කරන්න"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\" ෆෝල්ඩරය මකන්න",
+      "desc": "අවවාදයයි. මෙම ක්‍රියාව ෆෝල්ඩරයේ ඇති සියලුම පණිවිඩ ස්ථිරවම මකා දමනු ඇත",
+      "accept": "මකන්න",
       "cancel": "අවලංගු කරන්න"
     }
   },

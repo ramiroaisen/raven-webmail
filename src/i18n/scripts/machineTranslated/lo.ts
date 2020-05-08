@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "ຂີ້ເຫຍື້ອ",
       "junk": "ສະແປມ"
     },
+    "delete": "ລຶບໂຟນເດີ",
     "empty": "ກ່ອງຈົດ ໝາຍ ນີ້ແມ່ນຫວ່າງເປົ່າ"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "ທັນວາ"
   },
   "notifier": {
-    "messageSent": "ຂໍ້ຄວາມຖືກສົ່ງແລ້ວ"
+    "messageSent": "ຂໍ້ຄວາມຖືກສົ່ງແລ້ວ",
+    "mailboxDeleted": "ໂຟນເດີຖືກລຶບແລ້ວ"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "ສ້າງໂຟນເດີ ໃໝ່",
       "label": "ຊື່ແຟ້ມ",
       "accept": "ສ້າງ",
+      "cancel": "ຍົກເລີກ"
+    },
+    "deleteMailbox": {
+      "title": "ລຶບໂຟເດີ \"{mailbox}\"",
+      "desc": "ຂໍ້ຄວນລະວັງ. ການກະ ທຳ ນີ້ຈະລຶບຂໍ້ຄວາມທັງ ໝົດ ໃນໂຟນເດີຖາວອນ",
+      "accept": "ລົບ",
       "cancel": "ຍົກເລີກ"
     }
   },

@@ -9,6 +9,7 @@ const locale = {
             "trash": "قمامة، يدمر، يهدم",
             "junk": "بريد مؤذي"
         },
+        "delete": "احذف المجلد",
         "empty": "صندوق البريد هذا فارغ"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "ديسمبر"
     },
     "notifier": {
-        "messageSent": "تم الارسال"
+        "messageSent": "تم الارسال",
+        "mailboxDeleted": "تم حذف المجلد"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "إنشاء مجلد جديد",
             "label": "إسم الملف",
             "accept": "خلق",
+            "cancel": "إلغاء"
+        },
+        "deleteMailbox": {
+            "title": "حذف المجلد \"{mailbox}\"",
+            "desc": "الحذر. سيؤدي هذا الإجراء إلى حذف جميع الرسائل الموجودة في المجلد نهائيًا",
+            "accept": "حذف",
             "cancel": "إلغاء"
         }
     },

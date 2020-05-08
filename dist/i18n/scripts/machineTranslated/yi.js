@@ -9,6 +9,7 @@ const locale = {
             "trash": "אָפּפאַל",
             "junk": "ספּאַם"
         },
+        "delete": "ויסמעקן טעקע",
         "empty": "דעם בריווקאַסטן איז ליידיק"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "דעצעמבער"
     },
     "notifier": {
-        "messageSent": "אָנזאָג געשיקט"
+        "messageSent": "אָנזאָג געשיקט",
+        "mailboxDeleted": "טעקע אויסגעמעקט"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "שאַפֿן נייַע טעקע",
             "label": "טעקע נאָמען",
             "accept": "שאַפֿן",
+            "cancel": "באָטל מאַכן"
+        },
+        "deleteMailbox": {
+            "title": "ויסמעקן טעקע \"{mailbox}\"",
+            "desc": "וואָרענען. די אַקציע וועט פּערמאַנאַנטלי ויסמעקן אַלע אַרטיקלען אין דער טעקע",
+            "accept": "ויסמעקן",
             "cancel": "באָטל מאַכן"
         }
     },

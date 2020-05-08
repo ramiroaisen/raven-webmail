@@ -9,6 +9,7 @@ const locale = {
             "trash": "O lapisi",
             "junk": "Spam"
         },
+        "delete": "Tapēina le faila",
         "empty": "E gaogao le pusameli lea"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Tesema"
     },
     "notifier": {
-        "messageSent": "Savali auina"
+        "messageSent": "Savali auina",
+        "mailboxDeleted": "Faila ua tape"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Fausia se faila fou",
             "label": "Igoa o le igoa",
             "accept": "Faia",
+            "cancel": "Soloia"
+        },
+        "deleteMailbox": {
+            "title": "Tapē le faila \"{mailbox}\"",
+            "desc": "Lapatai. Lenei gaioiga o le a soloia tumau uma savali i totonu o le faila",
+            "accept": "Tapē",
             "cancel": "Soloia"
         }
     },

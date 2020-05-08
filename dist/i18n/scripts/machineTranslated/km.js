@@ -9,6 +9,7 @@ const locale = {
             "trash": "សំរាម",
             "junk": "សារ​ឥត​បាន​ការ"
         },
+        "delete": "លុបថតឯកសារ",
         "empty": "ប្រអប់សំបុត្រនេះទទេ"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "ធ្នូ"
     },
     "notifier": {
-        "messageSent": "បានផ្ញើសារ"
+        "messageSent": "បានផ្ញើសារ",
+        "mailboxDeleted": "បានលុបថតឯកសារ"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "បង្កើតថតឯកសារថ្មី",
             "label": "ឈ្មោះថតឯកសារ",
             "accept": "បង្កើត",
+            "cancel": "បោះបង់"
+        },
+        "deleteMailbox": {
+            "title": "លុបថតឯកសារ \"{mailbox}\"",
+            "desc": "ការប្រុងប្រយ័ត្ន។ សកម្មភាពនេះនឹងលុបសារទាំងអស់នៅក្នុងថតឯកសារជាអចិន្ត្រៃយ៍",
+            "accept": "លុប",
             "cancel": "បោះបង់"
         }
     },

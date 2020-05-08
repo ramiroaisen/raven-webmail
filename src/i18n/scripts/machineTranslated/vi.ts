@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Rác",
       "junk": "Thư rác"
     },
+    "delete": "Xóa thư mục",
     "empty": "Hộp thư này trống"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Tháng 12"
   },
   "notifier": {
-    "messageSent": "Tin nhắn đã gửi"
+    "messageSent": "Tin nhắn đã gửi",
+    "mailboxDeleted": "Thư mục đã bị xóa"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Tạo thư mục mới",
       "label": "Tên thư mục",
       "accept": "Tạo nên",
+      "cancel": "Hủy bỏ"
+    },
+    "deleteMailbox": {
+      "title": "Xóa thư mục \"{mailbox}\"",
+      "desc": "Chú ý. Hành động này sẽ xóa vĩnh viễn tất cả các tin nhắn trong thư mục",
+      "accept": "Xóa bỏ",
       "cancel": "Hủy bỏ"
     }
   },

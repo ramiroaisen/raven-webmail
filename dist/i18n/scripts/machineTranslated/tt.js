@@ -9,6 +9,7 @@ const locale = {
             "trash": "Чүп",
             "junk": "Спам"
         },
+        "delete": "Папканы бетерегез",
         "empty": "Бу почта тартмасы буш"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Декабрь"
     },
     "notifier": {
-        "messageSent": "Хәбәр җибәрелде"
+        "messageSent": "Хәбәр җибәрелде",
+        "mailboxDeleted": "Папка бетерелде"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Яңа папка ясагыз",
             "label": "Папка исеме",
             "accept": "Ярат",
+            "cancel": "Баш тарту"
+        },
+        "deleteMailbox": {
+            "title": "\"{mailbox}\" папкасын бетерегез",
+            "desc": "Сак булыгыз. Бу гамәл папкадагы барлык хәбәрләрне мәңгегә бетерәчәк",
+            "accept": "Бетерү",
             "cancel": "Баш тарту"
         }
     },

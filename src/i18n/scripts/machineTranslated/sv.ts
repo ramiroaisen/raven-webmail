@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Skräp",
       "junk": "spam"
     },
+    "delete": "Radera mapp",
     "empty": "Den här brevlådan är tom"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "december"
   },
   "notifier": {
-    "messageSent": "Meddelande skickat"
+    "messageSent": "Meddelande skickat",
+    "mailboxDeleted": "Mappen raderad"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Skapa ny mapp",
       "label": "Mapp namn",
       "accept": "Skapa",
+      "cancel": "Avbryt"
+    },
+    "deleteMailbox": {
+      "title": "Radera mappen \"{mailbox}\"",
+      "desc": "Varning. Den här åtgärden tar bort alla meddelanden i mappen permanent",
+      "accept": "Radera",
       "cancel": "Avbryt"
     }
   },

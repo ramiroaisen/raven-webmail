@@ -9,6 +9,7 @@ const locale = {
             trash: "Trash",
             junk: "Spam",
         },
+        delete: "Delete folder",
         empty: "This mailbox is empty",
     },
     message: {
@@ -119,7 +120,8 @@ const locale = {
         11: "December",
     },
     notifier: {
-        messageSent: "Message sent"
+        messageSent: "Message sent",
+        mailboxDeleted: "Folder deleted"
     },
     drawerActions: {
         createMailbox: {
@@ -132,6 +134,12 @@ const locale = {
             title: "Create new folder",
             label: "Folder name",
             accept: "Create",
+            cancel: "Cancel"
+        },
+        deleteMailbox: {
+            title: 'Delete folder "{mailbox}"',
+            desc: "Caution. This action will delete permanently all messages in the folder",
+            accept: "Delete",
             cancel: "Cancel"
         }
     },

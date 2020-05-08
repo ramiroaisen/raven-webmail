@@ -9,6 +9,7 @@ const locale = {
             "trash": "Смеће",
             "junk": "Спам"
         },
+        "delete": "Избриши фасциклу",
         "empty": "Овај поштански сандучић је празан"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Децембар"
     },
     "notifier": {
-        "messageSent": "Порука послата"
+        "messageSent": "Порука послата",
+        "mailboxDeleted": "Мапа је избрисана"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Креирајте нову фасциклу",
             "label": "Име фасцикле",
             "accept": "Креирај",
+            "cancel": "Поништити, отказати"
+        },
+        "deleteMailbox": {
+            "title": "Избриши директоријум „{mailbox}“",
+            "desc": "Опрез. Ова акција ће трајно избрисати све поруке у мапи",
+            "accept": "Избриши",
             "cancel": "Поништити, отказати"
         }
     },

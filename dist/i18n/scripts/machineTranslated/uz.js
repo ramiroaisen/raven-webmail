@@ -9,6 +9,7 @@ const locale = {
             "trash": "Axlat",
             "junk": "Spam"
         },
+        "delete": "Jildni o'chirish",
         "empty": "Ushbu pochta qutisi bo'sh"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Dekabr"
     },
     "notifier": {
-        "messageSent": "Xabar yuborildi"
+        "messageSent": "Xabar yuborildi",
+        "mailboxDeleted": "Jild o'chirildi"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Yangi jild yarating",
             "label": "Jild nomi",
             "accept": "Yaratmoq",
+            "cancel": "Bekor qilish"
+        },
+        "deleteMailbox": {
+            "title": "\"{mailbox}\" jildini o'chirish",
+            "desc": "Diqqat. Ushbu amal jilddagi barcha xabarlarni butunlay yo'q qiladi",
+            "accept": "Yo'q qilish",
             "cancel": "Bekor qilish"
         }
     },

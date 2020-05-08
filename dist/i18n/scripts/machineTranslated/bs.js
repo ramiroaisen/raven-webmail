@@ -9,6 +9,7 @@ const locale = {
             "trash": "Otpad",
             "junk": "Neželjena pošta"
         },
+        "delete": "Izbriši mapu",
         "empty": "Ovaj poštanski sandučić je prazan"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Prosinca"
     },
     "notifier": {
-        "messageSent": "Poruka poslana"
+        "messageSent": "Poruka poslana",
+        "mailboxDeleted": "Mapa je izbrisana"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Kreirajte novu mapu",
             "label": "Naziv mape",
             "accept": "Stvoriti",
+            "cancel": "Otkaži"
+        },
+        "deleteMailbox": {
+            "title": "Izbriši mapu \"{mailbox}\"",
+            "desc": "Oprez. Ovom radnjom trajno će se izbrisati sve poruke u mapi",
+            "accept": "Izbriši",
             "cancel": "Otkaži"
         }
     },

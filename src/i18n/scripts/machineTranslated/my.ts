@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "အမှိုက်ပုံး",
       "junk": "Spam များကို"
     },
+    "delete": "ဖိုလ်ဒါကိုဖျက်ပါ",
     "empty": "ဤစာတိုက်ပုံးသည်ဗလာဖြစ်သည်"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "ဒီဇင်ဘာ"
   },
   "notifier": {
-    "messageSent": "မက်ဆေ့ခ်ျပို့ခဲ့သည်"
+    "messageSent": "မက်ဆေ့ခ်ျပို့ခဲ့သည်",
+    "mailboxDeleted": "ဖိုလ်ဒါကိုဖျက်လိုက်သည်"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "ဖိုင်တွဲအသစ်ဖန်တီးပါ",
       "label": "ဖိုလ်ဒါအမည်",
       "accept": "ဖန်တီးပါ",
+      "cancel": "ပယ်ဖျက်ပါ"
+    },
+    "deleteMailbox": {
+      "title": "ဖိုလ်ဒါကိုဖျက်ရန် \"{mailbox}\"",
+      "desc": "သတိ။ ဤလုပ်ဆောင်ချက်သည်ဖိုင်တွဲရှိစာများအားလုံးကိုအမြဲတမ်းဖျက်ပစ်လိမ့်မည်",
+      "accept": "ဖျက်ပါ",
       "cancel": "ပယ်ဖျက်ပါ"
     }
   },

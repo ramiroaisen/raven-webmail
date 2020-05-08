@@ -9,6 +9,7 @@ const locale = {
             "trash": "Pov tseg",
             "junk": "Spam"
         },
+        "delete": "Rho tawm nplaub tshev",
         "empty": "Lub thawv xa ntawv no tsis muaj dab tsi"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Lub Kaum Ob Hlis"
     },
     "notifier": {
-        "messageSent": "Xa xov"
+        "messageSent": "Xa xov",
+        "mailboxDeleted": "Tus muab rho tawm"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Tsim daim nplaub tshev tshiab",
             "label": "Cim npe",
             "accept": "Tsim",
+            "cancel": "Ntawv cia Suam teb"
+        },
+        "deleteMailbox": {
+            "title": "Rho tawm cov nplaub tshev \"{mailbox}\"",
+            "desc": "Ceev Faj. Qhov kev txiav txim no yuav rho tawm tas nrho cov lus nyob hauv daim nplaub tshev",
+            "accept": "Rho tawm",
             "cancel": "Ntawv cia Suam teb"
         }
     },

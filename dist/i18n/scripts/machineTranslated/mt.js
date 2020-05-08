@@ -9,6 +9,7 @@ const locale = {
             "trash": "Trash",
             "junk": "Spam"
         },
+        "delete": "Ħassar il-fowlder",
         "empty": "Din il-kaxxa tal-posta hija vojta"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Diċembru"
     },
     "notifier": {
-        "messageSent": "Messaġġ mibgħut"
+        "messageSent": "Messaġġ mibgħut",
+        "mailboxDeleted": "Folder imħassar"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Oħloq folder ġdid",
             "label": "Isem tal-Folder",
             "accept": "Oħloq",
+            "cancel": "Ikkanċella"
+        },
+        "deleteMailbox": {
+            "title": "Ħassar il-fowlder \"{mailbox}\"",
+            "desc": "Attenzjoni. Din l-azzjoni se tħassar b'mod permanenti l-messaġġi kollha fil-fowlder",
+            "accept": "Ħassar",
             "cancel": "Ikkanċella"
         }
     },

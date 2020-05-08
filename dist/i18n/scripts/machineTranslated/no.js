@@ -9,6 +9,7 @@ const locale = {
             "trash": "Søppel",
             "junk": "spam"
         },
+        "delete": "Slett mappe",
         "empty": "Denne postkassen er tom"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "desember"
     },
     "notifier": {
-        "messageSent": "Melding sendt"
+        "messageSent": "Melding sendt",
+        "mailboxDeleted": "Mappen slettet"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Lag ny mappe",
             "label": "Mappenavn",
             "accept": "Skape",
+            "cancel": "Avbryt"
+        },
+        "deleteMailbox": {
+            "title": "Slett mappen \"{mailbox}\"",
+            "desc": "Forsiktighet. Denne handlingen vil slette alle meldinger i mappen permanent",
+            "accept": "Slett",
             "cancel": "Avbryt"
         }
     },

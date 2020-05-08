@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Sampah",
       "junk": "Spam"
     },
+    "delete": "Mbusak folder",
     "empty": "Kothak layang iki kosong"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Desember"
   },
   "notifier": {
-    "messageSent": "Pesen dikirim"
+    "messageSent": "Pesen dikirim",
+    "mailboxDeleted": "Folder dibusak"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Gawe folder anyar",
       "label": "Jeneng folder",
       "accept": "Nggawe",
+      "cancel": "Batal"
+    },
+    "deleteMailbox": {
+      "title": "Delete folder \"{mailbox}\"",
+      "desc": "Ati-ati. Tumindak iki bakal mbusak kabeh pesen ing folder kasebut",
+      "accept": "Mbusak",
       "cancel": "Batal"
     }
   },

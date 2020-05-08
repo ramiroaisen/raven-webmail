@@ -9,6 +9,7 @@ const locale = {
             "trash": "Rommel",
             "junk": "Spam"
         },
+        "delete": "Map wiskje",
         "empty": "Dizze postfak is leech"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "desimber"
     },
     "notifier": {
-        "messageSent": "Berjocht ferstjoerd"
+        "messageSent": "Berjocht ferstjoerd",
+        "mailboxDeleted": "Map wiske"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Meitsje nije map",
             "label": "Foldernamme",
             "accept": "Meitsje",
+            "cancel": "Ofbrekke"
+        },
+        "deleteMailbox": {
+            "title": "Map wiskje \"{mailbox}\"",
+            "desc": "Foarsichtigens. Dizze aksje sil alle berjochten yn 'e map permanint wiskje",
+            "accept": "Ferwiderje",
             "cancel": "Ofbrekke"
         }
     },

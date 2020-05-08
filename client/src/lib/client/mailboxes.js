@@ -1,4 +1,4 @@
-import { get, post, watch } from "./client";
+import { get, post, del, watch } from "./client";
 import { writable } from "../store";
 export const inbox = writable(null);
 export const sent = writable(null);
@@ -68,4 +68,12 @@ export const createMailbox = async (path) => {
     await post("/users/me/mailboxes", { path });
     await load();
 };
+const _del = async (id) => {
+    await del(`/users/me/mailboxes/${id}`);
+    const $m = _get(id);
+    others.update(others => {
+        return others.filter(m => m !== $m);
+    });
+};
+export { _del as del };
 export { _get as get };

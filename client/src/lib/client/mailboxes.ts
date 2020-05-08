@@ -83,4 +83,13 @@ export const createMailbox = async (path: string) => {
   await load();
 }
 
+const _del = async (id: string) => {
+  await del(`/users/me/mailboxes/${id}`)
+  const $m = _get(id);
+  others.update(others => {
+    return others.filter(m => m !== $m);
+  })
+}
+
+export {_del as del};
 export {_get as get};

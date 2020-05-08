@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Sbwriel",
       "junk": "Sbam"
     },
+    "delete": "Dileu ffolder",
     "empty": "Mae'r blwch post hwn yn wag"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Rhagfyr"
   },
   "notifier": {
-    "messageSent": "Anfonwyd neges"
+    "messageSent": "Anfonwyd neges",
+    "mailboxDeleted": "Ffolder wedi'i dileu"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Creu ffolder newydd",
       "label": "Enw'r ffolder",
       "accept": "Creu",
+      "cancel": "Canslo"
+    },
+    "deleteMailbox": {
+      "title": "Dileu ffolder \"{mailbox}\"",
+      "desc": "Rhybudd. Bydd y weithred hon yn dileu pob neges yn y ffolder yn barhaol",
+      "accept": "Dileu",
       "cancel": "Canslo"
     }
   },

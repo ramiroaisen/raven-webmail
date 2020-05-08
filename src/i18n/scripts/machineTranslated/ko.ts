@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "폐물",
       "junk": "스팸"
     },
+    "delete": "폴더 삭제",
     "empty": "이 편지함이 비어 있습니다"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "12 월"
   },
   "notifier": {
-    "messageSent": "메시지 전송 됨"
+    "messageSent": "메시지 전송 됨",
+    "mailboxDeleted": "폴더가 삭제되었습니다"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "새 폴더 만들기",
       "label": "폴더 이름",
       "accept": "창조하다",
+      "cancel": "취소"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\"폴더 삭제",
+      "desc": "주의. 이 작업은 폴더의 모든 메시지를 영구적으로 삭제합니다.",
+      "accept": "지우다",
       "cancel": "취소"
     }
   },

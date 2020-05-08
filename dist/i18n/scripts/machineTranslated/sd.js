@@ -9,6 +9,7 @@ const locale = {
             "trash": "ترڪيب",
             "junk": "اسپام"
         },
+        "delete": "فولڊر ختم ڪريو",
         "empty": "هي ميل بڪس خالي آهي"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "ڊسمبر"
     },
     "notifier": {
-        "messageSent": "پيغام موڪليو ويو"
+        "messageSent": "پيغام موڪليو ويو",
+        "mailboxDeleted": "فولڊر ختم ڪئي وئي"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "نئون فولڊر ٺاھيو",
             "label": "فولڊر جو نالو",
             "accept": "ٺاهيو",
+            "cancel": "رد ڪرڻ"
+        },
+        "deleteMailbox": {
+            "title": "فولڊر کي ختم ڪريو \"{mailbox}\"",
+            "desc": "احتياط. اهو عمل فولڊر ۾ موجود سڀئي پيغام مستقل طور تي خارج ڪري ڇڏيندو آهي",
+            "accept": "ختم ڪريو",
             "cancel": "رد ڪرڻ"
         }
     },

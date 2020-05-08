@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "O lixo",
       "junk": "Correo non desexado"
     },
+    "delete": "Eliminar o cartafol",
     "empty": "Esta caixa de correo está baleira"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Decembro"
   },
   "notifier": {
-    "messageSent": "Mensaxe enviada"
+    "messageSent": "Mensaxe enviada",
+    "mailboxDeleted": "Eliminouse carpeta"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Crear un novo cartafol",
       "label": "Nome de carpeta",
       "accept": "Crear",
+      "cancel": "Cancelar"
+    },
+    "deleteMailbox": {
+      "title": "Eliminar o cartafol \"{mailbox}\"",
+      "desc": "Precaución. Esta acción eliminará permanentemente todas as mensaxes do cartafol",
+      "accept": "Eliminar",
       "cancel": "Cancelar"
     }
   },

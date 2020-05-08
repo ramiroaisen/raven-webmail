@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "asblik",
       "junk": "Gemorspos"
     },
+    "delete": "Vee die lêergids uit",
     "empty": "Hierdie posbus is leeg"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Desember"
   },
   "notifier": {
-    "messageSent": "Boodskap gestuur"
+    "messageSent": "Boodskap gestuur",
+    "mailboxDeleted": "Gids is uitgevee"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Skep 'n nuwe lêergids",
       "label": "Gidsnaam",
       "accept": "Skep",
+      "cancel": "kanselleer"
+    },
+    "deleteMailbox": {
+      "title": "Vee gids \"{mailbox}\" uit",
+      "desc": "Waarsku. Hierdie aksie sal alle boodskappe in die gids permanent uitvee",
+      "accept": "Delete",
       "cancel": "kanselleer"
     }
   },

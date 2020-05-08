@@ -9,6 +9,7 @@ const locale = {
             "trash": "Atkritumi",
             "junk": "Spams"
         },
+        "delete": "Dzēst mapi",
         "empty": "Šī pastkaste ir tukša"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Decembrī"
     },
     "notifier": {
-        "messageSent": "Ziņa nosūtīta"
+        "messageSent": "Ziņa nosūtīta",
+        "mailboxDeleted": "Mape ir izdzēsta"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Izveidot jaunu mapi",
             "label": "Mapes nosaukums",
             "accept": "Izveidot",
+            "cancel": "Atcelt"
+        },
+        "deleteMailbox": {
+            "title": "Dzēst mapi “{mailbox}”",
+            "desc": "Uzmanību. Šī darbība neatgriezeniski izdzēsīs visus mapē esošos ziņojumus",
+            "accept": "Dzēst",
             "cancel": "Atcelt"
         }
     },

@@ -9,6 +9,7 @@ exports.default = {
             trash: "Papelera",
             junk: "Spam",
         },
+        delete: "Eliminar carpeta",
         empty: "No hay mensajes en esta carpeta",
     },
     mailboxMessage: {
@@ -119,7 +120,8 @@ exports.default = {
         11: "Dociembre",
     },
     notifier: {
-        messageSent: "Mensaje enviado"
+        messageSent: "Mensaje enviado",
+        mailboxDeleted: "Carpeta eliminada"
     },
     drawerActions: {
         createMailbox: {
@@ -133,6 +135,12 @@ exports.default = {
             label: "Nombre",
             accept: "Crear",
             cancel: "Cancelar",
+        },
+        deleteMailbox: {
+            title: 'Eliminar capeta "{mailbox}"',
+            desc: "Cuidado. Esta acción eliminará permanentemente todos los mensajes de la carpeta",
+            accept: "Eliminar",
+            cancel: "Cancelar"
         }
     },
     myAccount: {

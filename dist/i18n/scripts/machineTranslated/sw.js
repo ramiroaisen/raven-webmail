@@ -9,6 +9,7 @@ const locale = {
             "trash": "Takataka",
             "junk": "Spam"
         },
+        "delete": "Futa folda",
         "empty": "Sanduku la barua ni tupu"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Desemba"
     },
     "notifier": {
-        "messageSent": "Ujumbe umetumwa"
+        "messageSent": "Ujumbe umetumwa",
+        "mailboxDeleted": "Folda imefutwa"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Unda folda mpya",
             "label": "Jina la folda",
             "accept": "Unda",
+            "cancel": "Ghairi"
+        },
+        "deleteMailbox": {
+            "title": "Futa folda \"{mailbox}\"",
+            "desc": "Tahadhari. Kitendo hiki kitafuta kabisa ujumbe wote kwenye folda",
+            "accept": "Futa",
             "cancel": "Ghairi"
         }
     },

@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "ゴミ",
       "junk": "スパム"
     },
+    "delete": "フォルダを削除",
     "empty": "このメールボックスは空です"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "12月"
   },
   "notifier": {
-    "messageSent": "メッセージを送信しました"
+    "messageSent": "メッセージを送信しました",
+    "mailboxDeleted": "フォルダを削除しました"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "新しいフォルダを作成",
       "label": "フォルダ名",
       "accept": "作成する",
+      "cancel": "キャンセル"
+    },
+    "deleteMailbox": {
+      "title": "フォルダ「{mailbox}」を削除",
+      "desc": "注意。この操作により、フォルダ内のすべてのメッセージが完全に削除されます",
+      "accept": "削除する",
       "cancel": "キャンセル"
     }
   },

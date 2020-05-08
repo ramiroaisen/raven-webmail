@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "ಅನುಪಯುಕ್ತ",
       "junk": "ಸ್ಪ್ಯಾಮ್"
     },
+    "delete": "ಫೋಲ್ಡರ್ ಅಳಿಸಿ",
     "empty": "ಈ ಮೇಲ್ಬಾಕ್ಸ್ ಖಾಲಿಯಾಗಿದೆ"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "ಡಿಸೆಂಬರ್"
   },
   "notifier": {
-    "messageSent": "ಸಂದೇಶ ಕಳುಹಿಸಲಾಗಿದೆ"
+    "messageSent": "ಸಂದೇಶ ಕಳುಹಿಸಲಾಗಿದೆ",
+    "mailboxDeleted": "ಫೋಲ್ಡರ್ ಅಳಿಸಲಾಗಿದೆ"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "ಹೊಸ ಫೋಲ್ಡರ್ ರಚಿಸಿ",
       "label": "ಫೋಲ್ಡರ್ ಹೆಸರು",
       "accept": "ರಚಿಸಿ",
+      "cancel": "ರದ್ದುಮಾಡಿ"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\" ಫೋಲ್ಡರ್ ಅಳಿಸಿ",
+      "desc": "ಎಚ್ಚರಿಕೆ. ಈ ಕ್ರಿಯೆಯು ಫೋಲ್ಡರ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಸಂದೇಶಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುತ್ತದೆ",
+      "accept": "ಅಳಿಸಿ",
       "cancel": "ರದ್ದುಮಾಡಿ"
     }
   },

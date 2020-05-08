@@ -9,6 +9,7 @@ const locale = {
             "trash": "Trasgressioni",
             "junk": "Spam"
         },
+        "delete": "Sguassà cartulare",
         "empty": "Questa mailbox hè viota"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Dicembre"
     },
     "notifier": {
-        "messageSent": "Missaghju mandatu"
+        "messageSent": "Missaghju mandatu",
+        "mailboxDeleted": "U cartulare eliminatu"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Crea un novu cartulare",
             "label": "Nome cartulare",
             "accept": "Crea",
+            "cancel": "Annulla"
+        },
+        "deleteMailbox": {
+            "title": "Sguassà cartulare \"{mailbox}\"",
+            "desc": "Attenzione. Questa azione serà eliminatu permanentemente tutti i messagi in u cartulare",
+            "accept": "Elimina",
             "cancel": "Annulla"
         }
     },

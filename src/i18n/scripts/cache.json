@@ -98,7 +98,11 @@
     "by minute": "per minuut",
     "of {1} message": "van {1} boodskap",
     "of {1} messages": "van {1} boodskappe",
-    "Redirected": "getrek"
+    "Redirected": "getrek",
+    "Delete folder": "Vee die lêergids uit",
+    "Delete folder \"{1}\"": "Vee gids \"{1}\" uit",
+    "Caution. This action will delete permanently all messages in the folder": "Waarsku. Hierdie aksie sal alle boodskappe in die gids permanent uitvee",
+    "Folder deleted": "Gids is uitgevee"
   },
   "am": {
     "Inbox": "የገቢ መልእክት ሳጥን",
@@ -199,7 +203,11 @@
     "of {1} messages": "ከ {1} መልእክቶች",
     "Received": "ተቀብሏል",
     "by minute": "በደቂቃ",
-    "Redirected": "አቅጣጫው ተመላልሷል"
+    "Redirected": "አቅጣጫው ተመላልሷል",
+    "Delete folder": "አቃፊ ሰርዝ",
+    "Delete folder \"{1}\"": "አቃፊ ሰርዝ \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "ጥንቃቄ. ይህ እርምጃ በፋይሉ ውስጥ ያሉትን ሁሉንም መልእክቶች በቋሚነት ይሰርዛል",
+    "Folder deleted": "አቃፊ ተሰር .ል"
   },
   "ar": {
     "Inbox": "صندوق الوارد",
@@ -300,7 +308,11 @@
     "by minute": "بالدقيقة",
     "Received": "تم الاستلام",
     "of {1} message": "من {1} رسالة",
-    "Redirected": "معاد توجيهها"
+    "Redirected": "معاد توجيهها",
+    "Delete folder": "احذف المجلد",
+    "Delete folder \"{1}\"": "حذف المجلد \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "الحذر. سيؤدي هذا الإجراء إلى حذف جميع الرسائل الموجودة في المجلد نهائيًا",
+    "Folder deleted": "تم حذف المجلد"
   },
   "az": {
     "Inbox": "Gələnlər qutusu",
@@ -401,7 +413,11 @@
     "of {1} message": "of {1} mesajı",
     "Received": "Alinib",
     "by minute": "dəqiqə ilə",
-    "Redirected": "Yönləndirilir"
+    "Redirected": "Yönləndirilir",
+    "Delete folder": "Qovluğu silin",
+    "Caution. This action will delete permanently all messages in the folder": "Diqqət. Bu hərəkət qovluqdakı bütün mesajları qalıcı bir şəkildə siləcəkdir",
+    "Delete folder \"{1}\"": "\"{1}\" qovluğunu silin",
+    "Folder deleted": "Qovluq silindi"
   },
   "be": {
     "Inbox": "Уваходныя",
@@ -502,7 +518,11 @@
     "Received": "Паступіла",
     "by minute": "за хвілінай",
     "of {1} message": "паведамлення {1}",
-    "Redirected": "Перанакіравана"
+    "Redirected": "Перанакіравана",
+    "Delete folder": "Выдаліць тэчку",
+    "Delete folder \"{1}\"": "Выдаліць тэчку \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Асцярожна. Гэта дзеянне назаўсёды выдаліць усе паведамленні ў тэчцы",
+    "Folder deleted": "Папка выдаленая"
   },
   "bg": {
     "Inbox": "Входящи",
@@ -603,7 +623,11 @@
     "of {1} messages": "от {1} съобщения",
     "Received": "приет",
     "by minute": "по минута",
-    "Redirected": "Redirected"
+    "Redirected": "Redirected",
+    "Delete folder": "Изтриване на папка",
+    "Delete folder \"{1}\"": "Изтриване на папката \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Внимание. Това действие ще изтрие трайно всички съобщения в папката",
+    "Folder deleted": "Папката е изтрита"
   },
   "bn": {
     "Inbox": "ইনবক্স",
@@ -704,7 +728,11 @@
     "of {1} message": "{1} বার্তা",
     "Received": "গৃহীত",
     "by minute": "মিনিট দ্বারা",
-    "Redirected": "পুনঃপরিচালিত"
+    "Redirected": "পুনঃপরিচালিত",
+    "Delete folder": "ফোল্ডার মুছুন",
+    "Delete folder \"{1}\"": "\"{1}\" ফোল্ডারটি মুছুন",
+    "Caution. This action will delete permanently all messages in the folder": "সতর্ক করা. এই ক্রিয়াটি ফোল্ডারে থাকা সমস্ত বার্তাকে স্থায়ীভাবে মুছে ফেলবে",
+    "Folder deleted": "ফোল্ডার মোছা হয়েছে"
   },
   "bs": {
     "Inbox": "Inbox",
@@ -805,7 +833,11 @@
     "of {1} message": "od {1} poruke",
     "Received": "Primljeno",
     "by minute": "po minutu",
-    "Redirected": "Preusmjereno"
+    "Redirected": "Preusmjereno",
+    "Delete folder": "Izbriši mapu",
+    "Delete folder \"{1}\"": "Izbriši mapu \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Oprez. Ovom radnjom trajno će se izbrisati sve poruke u mapi",
+    "Folder deleted": "Mapa je izbrisana"
   },
   "ca": {
     "Inbox": "Safata d'entrada",
@@ -906,7 +938,11 @@
     "of {1} message": "del missatge {1}",
     "by minute": "per minut",
     "Received": "Rebut",
-    "Redirected": "Redirigit"
+    "Redirected": "Redirigit",
+    "Delete folder": "Elimina la carpeta",
+    "Caution. This action will delete permanently all messages in the folder": "Precaució. Aquesta acció eliminarà de manera permanent tots els missatges de la carpeta",
+    "Delete folder \"{1}\"": "Suprimeix la carpeta \"{1}\"",
+    "Folder deleted": "S'ha suprimit una carpeta"
   },
   "ceb": {
     "Inbox": "Inbox",
@@ -1007,7 +1043,11 @@
     "of {1} message": "sa {1} nga mensahe",
     "Received": "Gidawat",
     "by minute": "sa minuto",
-    "Redirected": "Gibalikbalik"
+    "Redirected": "Gibalikbalik",
+    "Delete folder": "Pagwagtang folder",
+    "Delete folder \"{1}\"": "Pagwagtang folder nga \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Pag-amping. Kini nga aksyon magtangtang sa tanan nga mga mensahe sa folder",
+    "Folder deleted": "Ang Folder natangtang"
   },
   "co": {
     "Inbox": "Inbox",
@@ -1108,7 +1148,11 @@
     "of {1} message": "di {1} messagiu",
     "Received": "Ricevutu",
     "by minute": "per minutu",
-    "Redirected": "Redirettu"
+    "Redirected": "Redirettu",
+    "Delete folder": "Sguassà cartulare",
+    "Caution. This action will delete permanently all messages in the folder": "Attenzione. Questa azione serà eliminatu permanentemente tutti i messagi in u cartulare",
+    "Delete folder \"{1}\"": "Sguassà cartulare \"{1}\"",
+    "Folder deleted": "U cartulare eliminatu"
   },
   "cs": {
     "Inbox": "Doručená pošta",
@@ -1209,7 +1253,11 @@
     "of {1} messages": "z {1} zpráv",
     "Received": "Přijato",
     "by minute": "za minutu",
-    "Redirected": "Přesměrováno"
+    "Redirected": "Přesměrováno",
+    "Delete folder": "Odstranit složku",
+    "Caution. This action will delete permanently all messages in the folder": "Pozor. Tato akce trvale odstraní všechny zprávy ve složce",
+    "Delete folder \"{1}\"": "Smazat složku „{1}“",
+    "Folder deleted": "Složka byla smazána"
   },
   "cy": {
     "Inbox": "Mewnflwch",
@@ -1310,7 +1358,11 @@
     "Received": "Derbyniwyd",
     "by minute": "erbyn munud",
     "of {1} message": "o {1} neges",
-    "Redirected": "Ailgyfeirio"
+    "Redirected": "Ailgyfeirio",
+    "Delete folder": "Dileu ffolder",
+    "Delete folder \"{1}\"": "Dileu ffolder \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Rhybudd. Bydd y weithred hon yn dileu pob neges yn y ffolder yn barhaol",
+    "Folder deleted": "Ffolder wedi'i dileu"
   },
   "da": {
     "Inbox": "Indbakke",
@@ -1411,7 +1463,11 @@
     "of {1} messages": "af {1} meddelelser",
     "by minute": "efter minut",
     "of {1} message": "af {1} meddelelse",
-    "Redirected": "Omdirigeret"
+    "Redirected": "Omdirigeret",
+    "Delete folder": "Slet mappe",
+    "Delete folder \"{1}\"": "Slet mappen \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Advarsel. Denne handling sletter alle meddelelser i mappen permanent",
+    "Folder deleted": "Mappe slettet"
   },
   "de": {
     "Inbox": "Posteingang",
@@ -1512,7 +1568,11 @@
     "of {1} message": "von {1} Nachricht",
     "by minute": "pro Minute",
     "Received": "Empfangen",
-    "Redirected": "Weitergeleitet"
+    "Redirected": "Weitergeleitet",
+    "Delete folder": "Lösche Ordner",
+    "Delete folder \"{1}\"": "Ordner \"{1}\" löschen",
+    "Caution. This action will delete permanently all messages in the folder": "Vorsicht. Diese Aktion löscht dauerhaft alle Nachrichten im Ordner",
+    "Folder deleted": "Ordner gelöscht"
   },
   "el": {
     "Inbox": "Inbox",
@@ -1613,7 +1673,11 @@
     "of {1} message": "από {1} μήνυμα",
     "by minute": "ανά λεπτό",
     "Received": "Λήφθηκε",
-    "Redirected": "Ανακατευθύνθηκε"
+    "Redirected": "Ανακατευθύνθηκε",
+    "Delete folder": "Διαγραφή φακέλου",
+    "Delete folder \"{1}\"": "Διαγραφή φακέλου \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Προσοχή. Αυτή η ενέργεια θα διαγράψει οριστικά όλα τα μηνύματα στο φάκελο",
+    "Folder deleted": "Ο φάκελος διαγράφηκε"
   },
   "eo": {
     "Inbox": "Informkesto",
@@ -1714,7 +1778,11 @@
     "of {1} message": "de {1} mesaĝo",
     "Received": "Ricevita",
     "by minute": "minuton",
-    "Redirected": "Alidirektita"
+    "Redirected": "Alidirektita",
+    "Delete folder": "Forigi dosierujon",
+    "Delete folder \"{1}\"": "Forigi dosierujon \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Singardemo. Ĉi tiu ago forigos konstante ĉiujn mesaĝojn en la dosierujo",
+    "Folder deleted": "Dosierujo forigita"
   },
   "es": {
     "Inbox": "Bandeja de entrada",
@@ -1815,7 +1883,11 @@
     "of {1} message": "de {1} mensaje",
     "by minute": "por minuto",
     "Received": "Recibido",
-    "Redirected": "Redirigido"
+    "Redirected": "Redirigido",
+    "Delete folder": "Eliminar carpeta",
+    "Caution. This action will delete permanently all messages in the folder": "Precaución. Esta acción eliminará permanentemente todos los mensajes en la carpeta",
+    "Delete folder \"{1}\"": "Eliminar carpeta \"{1}\"",
+    "Folder deleted": "Carpeta eliminada"
   },
   "et": {
     "Inbox": "Postkast",
@@ -1916,7 +1988,11 @@
     "of {1} message": "{1} sõnumist",
     "Received": "Vastu võetud",
     "by minute": "minutiga",
-    "Redirected": "Suunatud"
+    "Redirected": "Suunatud",
+    "Delete folder": "Kustuta kaust",
+    "Delete folder \"{1}\"": "Kustuta kaust „{1}“",
+    "Caution. This action will delete permanently all messages in the folder": "Ettevaatust. See toiming kustutab jäädavalt kõik kaustas olevad kirjad",
+    "Folder deleted": "Kaust kustutatud"
   },
   "eu": {
     "Inbox": "Sarrerako ontzia",
@@ -2017,7 +2093,11 @@
     "Received": "Jaso",
     "of {1} message": "{1} mezuaren",
     "by minute": "minutuz",
-    "Redirected": "birzuzentzentzen"
+    "Redirected": "birzuzentzentzen",
+    "Delete folder": "Ezabatu karpeta",
+    "Delete folder \"{1}\"": "Ezabatu \"{1}\" karpeta",
+    "Caution. This action will delete permanently all messages in the folder": "Kontuz. Ekintza honek karpetako mezu guztiak behin betiko ezabatuko ditu",
+    "Folder deleted": "Karpeta ezabatu da"
   },
   "fa": {
     "Inbox": "صندوق ورودی",
@@ -2118,7 +2198,11 @@
     "of {1} messages": "از پیام {1",
     "of {1} message": "پیام 1 {",
     "Received": "اخذ شده",
-    "Redirected": "تغییر مسیر داد"
+    "Redirected": "تغییر مسیر داد",
+    "Delete folder": "پوشه را حذف کنید",
+    "Delete folder \"{1}\"": "حذف پوشه \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "احتیاط با این اقدام دائماً تمام پیام های پوشه حذف می شود",
+    "Folder deleted": "پوشه حذف شد"
   },
   "fi": {
     "Inbox": "Saapuneet",
@@ -2219,7 +2303,11 @@
     "of {1} message": "{1} viestistä",
     "of {1} messages": "{1} viestistä",
     "by minute": "minuutilla",
-    "Redirected": "Uudelleenohjattu"
+    "Redirected": "Uudelleenohjattu",
+    "Delete folder": "Poista kansio",
+    "Delete folder \"{1}\"": "Poista kansio \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Varoitus. Tämä toimenpide poistaa pysyvästi kaikki kansion viestit",
+    "Folder deleted": "Kansio poistettu"
   },
   "fr": {
     "Inbox": "Boîte de réception",
@@ -2320,7 +2408,11 @@
     "Received": "Reçu",
     "of {1} message": "du {1} message",
     "by minute": "par minute",
-    "Redirected": "Redirigé"
+    "Redirected": "Redirigé",
+    "Delete folder": "Supprimer le dossier",
+    "Delete folder \"{1}\"": "Supprimer le dossier \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Mise en garde. Cette action supprimera définitivement tous les messages du dossier",
+    "Folder deleted": "Dossier supprimé"
   },
   "fy": {
     "Inbox": "Postfek YN",
@@ -2421,7 +2513,11 @@
     "of {1} message": "fan {1} berjocht",
     "Received": "Untfongen",
     "by minute": "per minuut",
-    "Redirected": "Omlieden"
+    "Redirected": "Omlieden",
+    "Delete folder": "Map wiskje",
+    "Caution. This action will delete permanently all messages in the folder": "Foarsichtigens. Dizze aksje sil alle berjochten yn 'e map permanint wiskje",
+    "Delete folder \"{1}\"": "Map wiskje \"{1}\"",
+    "Folder deleted": "Map wiske"
   },
   "ga": {
     "Inbox": "Bosca Isteach",
@@ -2522,7 +2618,11 @@
     "of {1} messages": "de {1} teachtaireacht",
     "of {1} message": "de {1} teachtaireacht",
     "by minute": "de réir nóiméid",
-    "Redirected": "Atreoraithe"
+    "Redirected": "Atreoraithe",
+    "Delete folder": "Scrios fillteán",
+    "Caution. This action will delete permanently all messages in the folder": "Rabhadh. Scriosfaidh an gníomh seo gach teachtaireacht san fhillteán go buan",
+    "Delete folder \"{1}\"": "Scrios fillteán \"{1}\"",
+    "Folder deleted": "Fillteán scriosta"
   },
   "gd": {
     "Inbox": "Bogsa a-steach",
@@ -2623,7 +2723,11 @@
     "by minute": "sa mhionaid",
     "Received": "Fhuair",
     "of {1} message": "de {1} teachdaireachd",
-    "Redirected": "Ath-stiùireadh"
+    "Redirected": "Ath-stiùireadh",
+    "Delete folder": "Cuir às do phasgan",
+    "Caution. This action will delete permanently all messages in the folder": "Rabhadh. Sguabaidh an gnìomh seo às gu buan gach teachdaireachd sa phasgan",
+    "Delete folder \"{1}\"": "Cuir às do phasgan \"{1}\"",
+    "Folder deleted": "Folder air a dhubhadh às"
   },
   "gl": {
     "Inbox": "Caixa de entrada",
@@ -2724,7 +2828,11 @@
     "Received": "Recibido",
     "of {1} message": "da mensaxe {1}",
     "by minute": "por minuto",
-    "Redirected": "Redireccionado"
+    "Redirected": "Redireccionado",
+    "Delete folder": "Eliminar o cartafol",
+    "Delete folder \"{1}\"": "Eliminar o cartafol \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Precaución. Esta acción eliminará permanentemente todas as mensaxes do cartafol",
+    "Folder deleted": "Eliminouse carpeta"
   },
   "gu": {
     "Inbox": "ઇનબોક્સ",
@@ -2825,7 +2933,11 @@
     "of {1} message": "{1} સંદેશનો",
     "Received": "પ્રાપ્ત થયો",
     "by minute": "મિનિટ દ્વારા",
-    "Redirected": "રીડાયરેક્ટ"
+    "Redirected": "રીડાયરેક્ટ",
+    "Delete folder": "ફોલ્ડર કા Deleteી નાખો",
+    "Caution. This action will delete permanently all messages in the folder": "સાવધાની. આ ક્રિયા ફોલ્ડરમાંના બધા સંદેશા કાયમીરૂપે કા .ી નાખશે",
+    "Delete folder \"{1}\"": "\"{1}\" ફોલ્ડર કા Deleteી નાખો",
+    "Folder deleted": "ફોલ્ડર કા deletedી નાખ્યું"
   },
   "ha": {
     "Inbox": "Akwati",
@@ -2926,7 +3038,11 @@
     "of {1} message": "daga sakon {1}",
     "by minute": "by minti",
     "Received": "Aka karba",
-    "Redirected": "An sake juyawa"
+    "Redirected": "An sake juyawa",
+    "Delete folder": "Share babban fayil",
+    "Caution. This action will delete permanently all messages in the folder": "Tsanani. Wannan aikin zai share har abada duk saƙonni a cikin fayil",
+    "Delete folder \"{1}\"": "Share babban fayil \"{1}\"",
+    "Folder deleted": "An cire babban fayil"
   },
   "haw": {
     "Inbox": "Kahu Inikua",
@@ -3027,7 +3143,11 @@
     "of {1} message": "o ka [1] memo",
     "Received": "Loaʻa",
     "by minute": "i ka minuke",
-    "Redirected": "Hoʻohui ʻia"
+    "Redirected": "Hoʻohui ʻia",
+    "Delete folder": "Holoi i ka laka",
+    "Caution. This action will delete permanently all messages in the folder": "Polokalamu. E hoʻopau koke kēia hana i nā leka āpau i ka faila",
+    "Delete folder \"{1}\"": "Holoi i ka loulou \"{1}\"",
+    "Folder deleted": "Pōmaʻomaʻo Folder"
   },
   "hi": {
     "Inbox": "इनबॉक्स",
@@ -3128,7 +3248,11 @@
     "of {1} messages": "{1} संदेशों के",
     "of {1} message": "{1} संदेश का",
     "by minute": "मिनट के हिसाब से",
-    "Redirected": "रीडायरेक्ट"
+    "Redirected": "रीडायरेक्ट",
+    "Delete folder": "फोल्डर हटा दें",
+    "Delete folder \"{1}\"": "फ़ोल्डर हटाएं \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "सावधान। यह क्रिया फ़ोल्डर के सभी संदेशों को स्थायी रूप से हटा देगी",
+    "Folder deleted": "फ़ोल्डर हटाया गया"
   },
   "hmn": {
     "Inbox": "Cov Inbox",
@@ -3229,7 +3353,11 @@
     "of {1} messages": "ntawm {1} xov",
     "by minute": "los ntawm feeb",
     "Received": "Tau Txais",
-    "Redirected": "Hloov kho"
+    "Redirected": "Hloov kho",
+    "Delete folder": "Rho tawm nplaub tshev",
+    "Delete folder \"{1}\"": "Rho tawm cov nplaub tshev \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Ceev Faj. Qhov kev txiav txim no yuav rho tawm tas nrho cov lus nyob hauv daim nplaub tshev",
+    "Folder deleted": "Tus muab rho tawm"
   },
   "hr": {
     "Inbox": "Ulazni spremnik",
@@ -3330,7 +3458,11 @@
     "Received": "primljen",
     "by minute": "po minutu",
     "of {1} message": "od {1} poruke",
-    "Redirected": "Preusmjereno"
+    "Redirected": "Preusmjereno",
+    "Delete folder": "Izbriši mapu",
+    "Delete folder \"{1}\"": "Izbriši mapu \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Oprez. Ova će akcija trajno izbrisati sve poruke u mapi",
+    "Folder deleted": "Mapa je izbrisana"
   },
   "ht": {
     "Inbox": "Bwat resepsyon",
@@ -3431,7 +3563,11 @@
     "Received": "Resevwa",
     "by minute": "pa minit",
     "of {1} message": "nan {1} mesaj",
-    "Redirected": "Reyiniyè"
+    "Redirected": "Reyiniyè",
+    "Delete folder": "Efase katab",
+    "Caution. This action will delete permanently all messages in the folder": "Atansyon. Aksyon sa a pral efase nèt tout mesaj nan katab la",
+    "Delete folder \"{1}\"": "Efase folder \"{1}\"",
+    "Folder deleted": "Dosye efase"
   },
   "hu": {
     "Inbox": "Bejövő",
@@ -3532,7 +3668,11 @@
     "of {1} messages": "{1} üzenet",
     "of {1} message": "{1} üzenet",
     "by minute": "percekenként",
-    "Redirected": "átirányított"
+    "Redirected": "átirányított",
+    "Delete folder": "Mappa törlése",
+    "Caution. This action will delete permanently all messages in the folder": "Vigyázat. Ez a művelet véglegesen törli a mappában lévő összes üzenetet",
+    "Delete folder \"{1}\"": "A (z) \"{1}\" mappa törlése",
+    "Folder deleted": "A mappa törölve"
   },
   "hy": {
     "Inbox": "Ներարկղ",
@@ -3633,7 +3773,11 @@
     "Received": "Ստացվեց",
     "of {1} message": "{1} հաղորդագրությունից",
     "by minute": "րոպեով",
-    "Redirected": "Վերահղված"
+    "Redirected": "Վերահղված",
+    "Delete folder": "Deleteնջել թղթապանակը",
+    "Delete folder \"{1}\"": "Deleteնջել թղթապանակը «{1}»",
+    "Caution. This action will delete permanently all messages in the folder": "Զգուշություն. Այս գործողությունը մշտապես կջնջի թղթապանակում բոլոր հաղորդագրությունները",
+    "Folder deleted": "Թղթապանակը ջնջվել է"
   },
   "id": {
     "Inbox": "Kotak masuk",
@@ -3734,7 +3878,11 @@
     "by minute": "per menit",
     "Received": "Diterima",
     "of {1} message": "dari {1} pesan",
-    "Redirected": "Diarahkan kembali"
+    "Redirected": "Diarahkan kembali",
+    "Delete folder": "Hapus folder",
+    "Caution. This action will delete permanently all messages in the folder": "Peringatan. Tindakan ini akan menghapus semua pesan di folder secara permanen",
+    "Delete folder \"{1}\"": "Hapus folder \"{1}\"",
+    "Folder deleted": "Folder dihapus"
   },
   "ig": {
     "Inbox": "Igbe mbata",
@@ -3835,7 +3983,11 @@
     "of {1} messages": "nke ozi {1}",
     "by minute": "Site na nkeji",
     "of {1} message": "nke ozi {1}",
-    "Redirected": "Emegharịrị"
+    "Redirected": "Emegharịrị",
+    "Delete folder": "Hichapụ folda",
+    "Delete folder \"{1}\"": "Hichapụ folda \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Utionkpachara anya. Ihe a ga - ehichapụ ozi niile dị na folda ahụ kpamkpam",
+    "Folder deleted": "Gbanyụọ folda"
   },
   "is": {
     "Inbox": "Innhólf",
@@ -3936,7 +4088,11 @@
     "of {1} message": "af {1} skilaboðum",
     "by minute": "eftir mínútu",
     "Received": "Móttekið",
-    "Redirected": "Beint"
+    "Redirected": "Beint",
+    "Delete folder": "Eyða möppu",
+    "Caution. This action will delete permanently all messages in the folder": "Varúð. Þessi aðgerð mun eyða öllum skilaboðum í möppunni varanlega",
+    "Delete folder \"{1}\"": "Eyða möppunni „{1}“",
+    "Folder deleted": "Mappa eytt"
   },
   "it": {
     "Inbox": "Posta in arrivo",
@@ -4037,7 +4193,11 @@
     "of {1} messages": "di {1} messaggi",
     "of {1} message": "di {1} messaggio",
     "by minute": "al minuto",
-    "Redirected": "reindirizzate"
+    "Redirected": "reindirizzate",
+    "Delete folder": "Elimina cartella",
+    "Delete folder \"{1}\"": "Elimina la cartella \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Attenzione. Questa azione eliminerà permanentemente tutti i messaggi nella cartella",
+    "Folder deleted": "Cartella eliminata"
   },
   "iw": {
     "Inbox": "תיבת הדואר הנכנס",
@@ -4138,7 +4298,11 @@
     "of {1} messages": "מתוך {1} הודעות",
     "of {1} message": "של ההודעה {1}",
     "by minute": "לפי דקה",
-    "Redirected": "מופנה מחדש"
+    "Redirected": "מופנה מחדש",
+    "Delete folder": "מחק תיקיה",
+    "Delete folder \"{1}\"": "מחק את התיקיה \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "זהירות. פעולה זו תמחק לצמיתות את כל ההודעות בתיקיה",
+    "Folder deleted": "התיקיה נמחקה"
   },
   "ja": {
     "Inbox": "受信トレイ",
@@ -4239,7 +4403,11 @@
     "of {1} messages": "{1}件のメッセージ",
     "Received": "受け取りました",
     "of {1} message": "{1}メッセージ",
-    "Redirected": "リダイレクト"
+    "Redirected": "リダイレクト",
+    "Delete folder": "フォルダを削除",
+    "Delete folder \"{1}\"": "フォルダ「{1}」を削除",
+    "Caution. This action will delete permanently all messages in the folder": "注意。この操作により、フォルダ内のすべてのメッセージが完全に削除されます",
+    "Folder deleted": "フォルダを削除しました"
   },
   "jw": {
     "Inbox": "Kothak mlebu",
@@ -4340,7 +4508,11 @@
     "Received": "Ditampa",
     "by minute": "dening menit",
     "of {1} message": "pesen {1}",
-    "Redirected": "Redirected"
+    "Redirected": "Redirected",
+    "Delete folder": "Mbusak folder",
+    "Caution. This action will delete permanently all messages in the folder": "Ati-ati. Tumindak iki bakal mbusak kabeh pesen ing folder kasebut",
+    "Delete folder \"{1}\"": "Delete folder \"{1}\"",
+    "Folder deleted": "Folder dibusak"
   },
   "ka": {
     "Inbox": "Შემომავალი",
@@ -4441,7 +4613,11 @@
     "Received": "მიიღო",
     "by minute": "წუთით",
     "of {1} messages": "{1} შეტყობინებიდან",
-    "Redirected": "გადამისამართება"
+    "Redirected": "გადამისამართება",
+    "Delete folder": "საქაღალდის წაშლა",
+    "Caution. This action will delete permanently all messages in the folder": "Სიფრთხილით. ეს მოქმედება სამუდამოდ წაშლის საქაღალდეში არსებულ ყველა შეტყობინებას",
+    "Delete folder \"{1}\"": "საქაღალდის წაშლა \"{1}\"",
+    "Folder deleted": "საქაღალდე წაიშალა"
   },
   "kk": {
     "Inbox": "Кіріс жәшігі",
@@ -4542,7 +4718,11 @@
     "of {1} messages": "хабарлар {1}",
     "Received": "Алынған",
     "by minute": "минутына",
-    "Redirected": "Қайта бағытталды"
+    "Redirected": "Қайта бағытталды",
+    "Delete folder": "Қалтаны жою",
+    "Delete folder \"{1}\"": "«{1}» қалтасын жою",
+    "Caution. This action will delete permanently all messages in the folder": "Абайлаңыз. Бұл әрекет қалтадағы барлық хабарларды толығымен жояды",
+    "Folder deleted": "Қалта жойылды"
   },
   "km": {
     "Inbox": "ប្រអប់ទទួល",
@@ -4643,7 +4823,11 @@
     "of {1} message": "នៃ {1} សារ",
     "Received": "បានទទួល",
     "by minute": "ដោយនាទី",
-    "Redirected": "បញ្ជូនបន្ត"
+    "Redirected": "បញ្ជូនបន្ត",
+    "Delete folder": "លុបថតឯកសារ",
+    "Delete folder \"{1}\"": "លុបថតឯកសារ \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "ការប្រុងប្រយ័ត្ន។ សកម្មភាពនេះនឹងលុបសារទាំងអស់នៅក្នុងថតឯកសារជាអចិន្ត្រៃយ៍",
+    "Folder deleted": "បានលុបថតឯកសារ"
   },
   "kn": {
     "Inbox": "ಇನ್‌ಬಾಕ್ಸ್",
@@ -4744,7 +4928,11 @@
     "of {1} message": "{1} ಸಂದೇಶದ",
     "Received": "ಸ್ವೀಕರಿಸಲಾಗಿದೆ",
     "by minute": "ನಿಮಿಷದಿಂದ",
-    "Redirected": "ಮರುನಿರ್ದೇಶಿಸಲಾಗಿದೆ"
+    "Redirected": "ಮರುನಿರ್ದೇಶಿಸಲಾಗಿದೆ",
+    "Delete folder": "ಫೋಲ್ಡರ್ ಅಳಿಸಿ",
+    "Delete folder \"{1}\"": "\"{1}\" ಫೋಲ್ಡರ್ ಅಳಿಸಿ",
+    "Caution. This action will delete permanently all messages in the folder": "ಎಚ್ಚರಿಕೆ. ಈ ಕ್ರಿಯೆಯು ಫೋಲ್ಡರ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಸಂದೇಶಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುತ್ತದೆ",
+    "Folder deleted": "ಫೋಲ್ಡರ್ ಅಳಿಸಲಾಗಿದೆ"
   },
   "ko": {
     "Inbox": "받은 편지함",
@@ -4845,7 +5033,11 @@
     "of {1} message": "{1} 메시지 중",
     "Received": "받았습니다",
     "by minute": "분 단위",
-    "Redirected": "리디렉션"
+    "Redirected": "리디렉션",
+    "Delete folder": "폴더 삭제",
+    "Delete folder \"{1}\"": "\"{1}\"폴더 삭제",
+    "Caution. This action will delete permanently all messages in the folder": "주의. 이 작업은 폴더의 모든 메시지를 영구적으로 삭제합니다.",
+    "Folder deleted": "폴더가 삭제되었습니다"
   },
   "ku": {
     "Inbox": "Inbox",
@@ -4946,7 +5138,11 @@
     "of {1} message": "peyama {1",
     "by minute": "bi deqîqe",
     "Received": "Hatiye wergirtin",
-    "Redirected": "Beralîkirin"
+    "Redirected": "Beralîkirin",
+    "Delete folder": "Peldanka hilweşîne",
+    "Delete folder \"{1}\"": "Peldanka \"{1}\" jêbirin",
+    "Caution. This action will delete permanently all messages in the folder": "Baldaynî. Ev çalakî dê hemî peyamên di peldankê de bi domdarî jêbirin",
+    "Folder deleted": "Folder jêbirin"
   },
   "ky": {
     "Inbox": "Кирүү кутусу",
@@ -5047,7 +5243,11 @@
     "Received": "кабыл алынган",
     "of {1} message": "билдирүүсү {1}",
     "by minute": "мүнөт менен",
-    "Redirected": "Дареги алмаштырылганда"
+    "Redirected": "Дареги алмаштырылганда",
+    "Delete folder": "Папканы жок кылуу",
+    "Delete folder \"{1}\"": "\"{1}\" папкасын жок кылуу",
+    "Caution. This action will delete permanently all messages in the folder": "САК БОЛУЪУЗ. Бул аракет папкадагы бардык билдирүүлөрдү биротоло жок кылат",
+    "Folder deleted": "Папка жок кылынды"
   },
   "la": {
     "Inbox": "inbuxo",
@@ -5148,7 +5348,11 @@
     "of {1} messages": "{I} ex epistulae",
     "by minute": "a minute",
     "Received": "suscepit",
-    "Redirected": "Redirigens"
+    "Redirected": "Redirigens",
+    "Delete folder": "Delete folder",
+    "Delete folder \"{1}\"": "Delete folder \"{I} '",
+    "Caution. This action will delete permanently all messages in the folder": "Scribitur. Haec actio in perpetuum Omnes epistulae in folder mos delete",
+    "Folder deleted": "folder delevit"
   },
   "lb": {
     "Inbox": "Inbox",
@@ -5249,7 +5453,11 @@
     "of {1} messages": "vun {1} Messagen",
     "Received": "Krut",
     "by minute": "pa Minutt",
-    "Redirected": "Viruleet"
+    "Redirected": "Viruleet",
+    "Delete folder": "Läschen Dossier",
+    "Delete folder \"{1}\"": "Läschen Dossier \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Opgepasst Dës Aktioun wäert permanent all Messagen am Dossier läschen",
+    "Folder deleted": "Folder geläscht"
   },
   "lo": {
     "Inbox": "ກ່ອງຈົດ ໝາຍ",
@@ -5350,7 +5558,11 @@
     "of {1} message": "ຂອງ {1} ຂໍ້ຄວາມ",
     "by minute": "ໂດຍນາທີ",
     "Received": "ໄດ້ຮັບ",
-    "Redirected": "ປ່ຽນເສັ້ນທາງ"
+    "Redirected": "ປ່ຽນເສັ້ນທາງ",
+    "Delete folder": "ລຶບໂຟນເດີ",
+    "Delete folder \"{1}\"": "ລຶບໂຟເດີ \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "ຂໍ້ຄວນລະວັງ. ການກະ ທຳ ນີ້ຈະລຶບຂໍ້ຄວາມທັງ ໝົດ ໃນໂຟນເດີຖາວອນ",
+    "Folder deleted": "ໂຟນເດີຖືກລຶບແລ້ວ"
   },
   "lt": {
     "Inbox": "Pašto dėžutę",
@@ -5451,7 +5663,11 @@
     "of {1} message": "iš {1} pranešimo",
     "Received": "Gauta",
     "by minute": "per minutę",
-    "Redirected": "Peradresuotas"
+    "Redirected": "Peradresuotas",
+    "Delete folder": "Ištrinti aplanką",
+    "Delete folder \"{1}\"": "Ištrinti aplanką „{1}“",
+    "Caution. This action will delete permanently all messages in the folder": "Atsargiai. Šis veiksmas visam laikui panaikins visus aplanke esančius pranešimus",
+    "Folder deleted": "Aplankas ištrintas"
   },
   "lv": {
     "Inbox": "Iesūtne",
@@ -5552,7 +5768,11 @@
     "of {1} message": "no {1} ziņojuma",
     "by minute": "pa minūti",
     "Received": "Saņemts",
-    "Redirected": "Novirzīts"
+    "Redirected": "Novirzīts",
+    "Delete folder": "Dzēst mapi",
+    "Caution. This action will delete permanently all messages in the folder": "Uzmanību. Šī darbība neatgriezeniski izdzēsīs visus mapē esošos ziņojumus",
+    "Delete folder \"{1}\"": "Dzēst mapi “{1}”",
+    "Folder deleted": "Mape ir izdzēsta"
   },
   "mg": {
     "Inbox": "Inbox",
@@ -5653,7 +5873,11 @@
     "Received": "Received",
     "of {1} message": "hafatra {1}",
     "by minute": "amin'ny minitra",
-    "Redirected": "Navily"
+    "Redirected": "Navily",
+    "Delete folder": "Famafa ny fampirimana",
+    "Delete folder \"{1}\"": "Famafa ny \"folder\" {1} \"",
+    "Caution. This action will delete permanently all messages in the folder": "Mitandrina. Ity hetsika ity dia hamafa ireo hafatra rehetra ao anaty fampirimana",
+    "Folder deleted": "Voafafa ny folder"
   },
   "mi": {
     "Inbox": "Pouakahu",
@@ -5754,7 +5978,11 @@
     "of {1} message": "Tuhinga o mua",
     "by minute": "mā te meneti",
     "Received": "Kua riro",
-    "Redirected": "Kua Hangaia"
+    "Redirected": "Kua Hangaia",
+    "Delete folder": "Mukua kōpaki",
+    "Delete folder \"{1}\"": "Mukua te kōpaki \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Kia tupato. Ma tenei mahi ka muku katoa nga karere katoa i roto i te kōpaki",
+    "Folder deleted": "Kua mukua te Kōpaki"
   },
   "mk": {
     "Inbox": "Инбокс",
@@ -5855,7 +6083,11 @@
     "of {1} messages": "од {1} пораки",
     "by minute": "од минута",
     "Received": "Прими",
-    "Redirected": "Пренасочено"
+    "Redirected": "Пренасочено",
+    "Delete folder": "Избриши папка",
+    "Delete folder \"{1}\"": "Избришете ја папката \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Внимание. Оваа акција ќе ги избрише трајно сите пораки во папката",
+    "Folder deleted": "Папката е избришана"
   },
   "ml": {
     "Inbox": "ഇൻ‌ബോക്സ്",
@@ -5956,7 +6188,11 @@
     "of {1} messages": "{1} സന്ദേശങ്ങളുടെ",
     "Received": "ലഭിച്ചു",
     "by minute": "മിനിറ്റിൽ",
-    "Redirected": "റീഡയറക്‌ട് ചെയ്‌തു"
+    "Redirected": "റീഡയറക്‌ട് ചെയ്‌തു",
+    "Delete folder": "ഫോൾഡർ ഇല്ലാതാക്കുക",
+    "Caution. This action will delete permanently all messages in the folder": "ജാഗ്രത. ഈ പ്രവർത്തനം ഫോൾഡറിലെ എല്ലാ സന്ദേശങ്ങളും ശാശ്വതമായി ഇല്ലാതാക്കും",
+    "Delete folder \"{1}\"": "\"{1}\" ഫോൾഡർ ഇല്ലാതാക്കുക",
+    "Folder deleted": "ഫോൾഡർ ഇല്ലാതാക്കി"
   },
   "mn": {
     "Inbox": "Ирсэн мэйл",
@@ -6057,7 +6293,11 @@
     "of {1} messages": "{1} мессеж",
     "by minute": "минутанд",
     "Received": "Хүлээн авсан",
-    "Redirected": "Дахин чиглүүлсэн"
+    "Redirected": "Дахин чиглүүлсэн",
+    "Delete folder": "Фолдерыг устгах",
+    "Caution. This action will delete permanently all messages in the folder": "Анхааруулга. Энэ үйлдэл нь хавтас доторх бүх мессежүүдийг бүрмөсөн устгах болно",
+    "Delete folder \"{1}\"": "\"{1}\" фолдерыг устгах",
+    "Folder deleted": "Фолдерийг устгасан байна"
   },
   "mr": {
     "Inbox": "इनबॉक्स",
@@ -6158,7 +6398,11 @@
     "of {1} messages": "{1} संदेशांचे",
     "of {1} message": "{1} संदेशाचा",
     "by minute": "मिनिटाने",
-    "Redirected": "पुनर्निर्देशित"
+    "Redirected": "पुनर्निर्देशित",
+    "Delete folder": "फोल्डर हटवा",
+    "Delete folder \"{1}\"": "\"{1}\" फोल्डर हटवा",
+    "Caution. This action will delete permanently all messages in the folder": "सावधगिरी. ही क्रिया फोल्डरमधील सर्व संदेश कायमचे हटवेल",
+    "Folder deleted": "फोल्डर हटविला"
   },
   "ms": {
     "Inbox": "Peti Masuk",
@@ -6259,7 +6503,11 @@
     "of {1} message": "daripada {1} mesej",
     "by minute": "demi minit",
     "Received": "Menerima",
-    "Redirected": "Diarahkan semula"
+    "Redirected": "Diarahkan semula",
+    "Delete folder": "Padamkan folder",
+    "Delete folder \"{1}\"": "Padamkan folder \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Awas. Tindakan ini akan menghapus semua mesej dalam folder secara kekal",
+    "Folder deleted": "Folder dipadamkan"
   },
   "mt": {
     "Inbox": "Inbox",
@@ -6360,7 +6608,11 @@
     "Received": "Waslu",
     "of {1} message": "messaġġ ta '{1}",
     "by minute": "bil-minuta",
-    "Redirected": "Rindirizzat"
+    "Redirected": "Rindirizzat",
+    "Delete folder": "Ħassar il-fowlder",
+    "Delete folder \"{1}\"": "Ħassar il-fowlder \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Attenzjoni. Din l-azzjoni se tħassar b'mod permanenti l-messaġġi kollha fil-fowlder",
+    "Folder deleted": "Folder imħassar"
   },
   "my": {
     "Inbox": "Inbox",
@@ -6461,7 +6713,11 @@
     "of {1} messages": "{1} မက်ဆေ့ခ်ျ၏",
     "by minute": "တစ်မိနစ်",
     "Received": "လက်ခံရရှိခဲ့သည်",
-    "Redirected": "ပြန်ညွှန်း"
+    "Redirected": "ပြန်ညွှန်း",
+    "Delete folder": "ဖိုလ်ဒါကိုဖျက်ပါ",
+    "Caution. This action will delete permanently all messages in the folder": "သတိ။ ဤလုပ်ဆောင်ချက်သည်ဖိုင်တွဲရှိစာများအားလုံးကိုအမြဲတမ်းဖျက်ပစ်လိမ့်မည်",
+    "Delete folder \"{1}\"": "ဖိုလ်ဒါကိုဖျက်ရန် \"{1}\"",
+    "Folder deleted": "ဖိုလ်ဒါကိုဖျက်လိုက်သည်"
   },
   "ne": {
     "Inbox": "इनबक्स",
@@ -6562,7 +6818,11 @@
     "of {1} messages": "{1} सन्देशहरूको",
     "Received": "प्राप्त भयो",
     "by minute": "मिनेट द्वारा",
-    "Redirected": "पुनर्निर्देशित"
+    "Redirected": "पुनर्निर्देशित",
+    "Delete folder": "फोल्डर मेटाउनुहोस्",
+    "Delete folder \"{1}\"": "\"{1}\" फोल्डर मेटाउनुहोस्",
+    "Caution. This action will delete permanently all messages in the folder": "सावधानी। यस कार्यले फोल्डरमा स्थायी रूपमा सबै सन्देशहरू मेटाउनेछ",
+    "Folder deleted": "फोल्डर मेटाईयो"
   },
   "nl": {
     "Inbox": "Postvak IN",
@@ -6663,7 +6923,11 @@
     "of {1} messages": "van {1} berichten",
     "Received": "Ontvangen",
     "of {1} message": "van {1} bericht",
-    "Redirected": "Omgeleid"
+    "Redirected": "Omgeleid",
+    "Delete folder": "Verwijder map",
+    "Delete folder \"{1}\"": "Map '{1}' verwijderen",
+    "Caution. This action will delete permanently all messages in the folder": "Voorzichtigheid. Met deze actie worden alle berichten in de map definitief verwijderd",
+    "Folder deleted": "Map verwijderd"
   },
   "no": {
     "Inbox": "Innboks",
@@ -6764,7 +7028,11 @@
     "Received": "Mottatt",
     "of {1} message": "av {1} melding",
     "by minute": "etter minutt",
-    "Redirected": "Omdirigert"
+    "Redirected": "Omdirigert",
+    "Delete folder": "Slett mappe",
+    "Delete folder \"{1}\"": "Slett mappen \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Forsiktighet. Denne handlingen vil slette alle meldinger i mappen permanent",
+    "Folder deleted": "Mappen slettet"
   },
   "ny": {
     "Inbox": "Makulidwe",
@@ -6865,7 +7133,11 @@
     "by minute": "mwa mphindi",
     "of {1} message": "wa {1} uthenga",
     "Received": "Zalandiridwa",
-    "Redirected": "Kupitikiranso"
+    "Redirected": "Kupitikiranso",
+    "Delete folder": "Chotsani chikwatu",
+    "Delete folder \"{1}\"": "Fufutani chikwatu \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Chenjezo. Kuchita izi kudzachotsa mauthenga onse achikwama",
+    "Folder deleted": "Foda yachotsedwa"
   },
   "or": {
     "Inbox": "ଇନବକ୍ସ |",
@@ -6966,7 +7238,11 @@
     "by minute": "ମିନିଟ୍ ଦ୍ୱାରା",
     "of {1} message": "{1} ସନ୍ଦେଶର |",
     "Received": "ପ୍ରାପ୍ତ",
-    "Redirected": "ପୁନ ir ନିର୍ଦ୍ଦେଶିତ |"
+    "Redirected": "ପୁନ ir ନିର୍ଦ୍ଦେଶିତ |",
+    "Delete folder": "ଫୋଲ୍ଡର୍ ଡିଲିଟ୍ କରନ୍ତୁ |",
+    "Delete folder \"{1}\"": "ଫୋଲ୍ଡର୍ ଡିଲିଟ୍ କରନ୍ତୁ \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "ସାବଧାନ। ଏହି କ୍ରିୟା ଫୋଲ୍ଡରରେ ଥିବା ସମସ୍ତ ସନ୍ଦେଶକୁ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ କରିବ |",
+    "Folder deleted": "ଫୋଲ୍ଡର୍ ଡିଲିଟ୍ ହୋଇଛି |"
   },
   "pa": {
     "Inbox": "ਇਨਬਾਕਸ",
@@ -7067,7 +7343,11 @@
     "of {1} message": "{1} ਸੁਨੇਹੇ ਦਾ",
     "by minute": "ਮਿੰਟ ਦੁਆਰਾ",
     "Received": "ਪ੍ਰਾਪਤ ਹੋਇਆ",
-    "Redirected": "ਰੀਡਾਇਰੈਕਟਡ"
+    "Redirected": "ਰੀਡਾਇਰੈਕਟਡ",
+    "Delete folder": "ਫੋਲਡਰ ਹਟਾਓ",
+    "Caution. This action will delete permanently all messages in the folder": "ਸਾਵਧਾਨ. ਇਹ ਕਾਰਵਾਈ ਫੋਲਡਰ ਵਿੱਚਲੇ ਸਾਰੇ ਸੁਨੇਹਿਆਂ ਨੂੰ ਪੱਕੇ ਤੌਰ ਤੇ ਮਿਟਾ ਦੇਵੇਗੀ",
+    "Delete folder \"{1}\"": "\"{1}\" ਫੋਲਡਰ ਨੂੰ ਮਿਟਾਓ",
+    "Folder deleted": "ਫੋਲਡਰ ਮਿਟਾ ਦਿੱਤਾ ਗਿਆ"
   },
   "pl": {
     "Inbox": "W pudełku",
@@ -7168,7 +7448,11 @@
     "of {1} message": "wiadomości {1}",
     "Received": "Odebrane",
     "by minute": "za minutę",
-    "Redirected": "Przekierowano"
+    "Redirected": "Przekierowano",
+    "Delete folder": "Usunięty folder",
+    "Delete folder \"{1}\"": "Usuń folder „{1}”",
+    "Caution. This action will delete permanently all messages in the folder": "Uwaga. Ta czynność spowoduje trwałe usunięcie wszystkich wiadomości w folderze",
+    "Folder deleted": "Folder usunięty"
   },
   "ps": {
     "Inbox": "Inbox",
@@ -7269,7 +7553,11 @@
     "of {1} messages": "د {1} پیغامونو",
     "by minute": "دقیقې لخوا",
     "Received": "ترلاسه شوی",
-    "Redirected": "ورانول"
+    "Redirected": "ورانول",
+    "Delete folder": "پوښی ړنګ کړئ",
+    "Delete folder \"{1}\"": "پوښۍ \"{1}\" ړنګ کړئ",
+    "Caution. This action will delete permanently all messages in the folder": "احتیاط. دا عمل به په فولډر کې د تل لپاره ټول پیغامونه حذف کړي",
+    "Folder deleted": "پوښی ړنګ شو"
   },
   "pt": {
     "Inbox": "Caixa de entrada",
@@ -7370,7 +7658,11 @@
     "Received": "Recebido",
     "by minute": "por minuto",
     "of {1} message": "de {1} mensagem",
-    "Redirected": "Redirecionado"
+    "Redirected": "Redirecionado",
+    "Delete folder": "Excluir pasta",
+    "Caution. This action will delete permanently all messages in the folder": "Cuidado. Esta ação excluirá permanentemente todas as mensagens da pasta",
+    "Delete folder \"{1}\"": "Excluir pasta \"{1}\"",
+    "Folder deleted": "Pasta excluída"
   },
   "ro": {
     "Inbox": "Inbox",
@@ -7471,7 +7763,11 @@
     "of {1} message": "din mesajul {1}",
     "Received": "Primit",
     "by minute": "la minut",
-    "Redirected": "redirecţionată"
+    "Redirected": "redirecţionată",
+    "Delete folder": "Ștergeți folderul",
+    "Caution. This action will delete permanently all messages in the folder": "Prudență. Această acțiune va șterge permanent toate mesajele din folder",
+    "Delete folder \"{1}\"": "Ștergeți folderul „{1}”",
+    "Folder deleted": "Folder șters"
   },
   "ru": {
     "Inbox": "входящие",
@@ -7572,7 +7868,11 @@
     "of {1} messages": "из {1} сообщений",
     "Received": "Получил",
     "by minute": "по минутам",
-    "Redirected": "Redirected"
+    "Redirected": "Redirected",
+    "Delete folder": "Удалить папку",
+    "Delete folder \"{1}\"": "Удалить папку \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Внимание. Это действие навсегда удалит все сообщения в папке",
+    "Folder deleted": "Папка удалена"
   },
   "rw": {
     "Inbox": "Inbox",
@@ -7673,7 +7973,11 @@
     "of {1} messages": "ya {1} ubutumwa",
     "Received": "Yakiriwe",
     "by minute": "ku munota",
-    "Redirected": "Yoherejwe"
+    "Redirected": "Yoherejwe",
+    "Delete folder": "Siba ububiko",
+    "Caution. This action will delete permanently all messages in the folder": "Icyitonderwa. Igikorwa kizasiba burundu ubutumwa bwose mububiko",
+    "Delete folder \"{1}\"": "Siba ububiko \"{1}\"",
+    "Folder deleted": "Ububiko bwasibwe"
   },
   "sd": {
     "Inbox": "انباڪس",
@@ -7774,7 +8078,11 @@
     "of {1} message": "{1} پيغام جو",
     "Received": "حاصل ڪيو",
     "by minute": "منٽ کان",
-    "Redirected": "ري فيرڊ ويو"
+    "Redirected": "ري فيرڊ ويو",
+    "Delete folder": "فولڊر ختم ڪريو",
+    "Delete folder \"{1}\"": "فولڊر کي ختم ڪريو \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "احتياط. اهو عمل فولڊر ۾ موجود سڀئي پيغام مستقل طور تي خارج ڪري ڇڏيندو آهي",
+    "Folder deleted": "فولڊر ختم ڪئي وئي"
   },
   "si": {
     "Inbox": "එන ලිපි",
@@ -7875,7 +8183,11 @@
     "Received": "ලැබුණි",
     "by minute": "විනාඩියෙන්",
     "of {1} message": "{1} පණිවිඩයේ",
-    "Redirected": "යළි හරවා යවන ලදි"
+    "Redirected": "යළි හරවා යවන ලදි",
+    "Delete folder": "ෆෝල්ඩරය මකන්න",
+    "Delete folder \"{1}\"": "\"{1}\" ෆෝල්ඩරය මකන්න",
+    "Caution. This action will delete permanently all messages in the folder": "අවවාදයයි. මෙම ක්‍රියාව ෆෝල්ඩරයේ ඇති සියලුම පණිවිඩ ස්ථිරවම මකා දමනු ඇත",
+    "Folder deleted": "ෆෝල්ඩරය මකා දමන ලදි"
   },
   "sk": {
     "Inbox": "Doručená pošta",
@@ -7976,7 +8288,11 @@
     "of {1} messages": "z {1} správ",
     "Received": "obdržané",
     "by minute": "za minútu",
-    "Redirected": "Presmerované"
+    "Redirected": "Presmerované",
+    "Delete folder": "Odstrániť priečinok",
+    "Delete folder \"{1}\"": "Odstrániť priečinok „{1}“",
+    "Caution. This action will delete permanently all messages in the folder": "Opatrnosť. Táto akcia natrvalo odstráni všetky správy v priečinku",
+    "Folder deleted": "Priečinok bol odstránený"
   },
   "sl": {
     "Inbox": "Prejeto",
@@ -8077,7 +8393,11 @@
     "of {1} messages": "od {1} sporočil",
     "by minute": "za minuto",
     "Received": "Prejeto",
-    "Redirected": "Preusmerjeno"
+    "Redirected": "Preusmerjeno",
+    "Delete folder": "Izbriši mapo",
+    "Caution. This action will delete permanently all messages in the folder": "Pozor! S tem dejanjem bodo trajno izbrisana vsa sporočila v mapi",
+    "Delete folder \"{1}\"": "Brisanje mape \"{1}\"",
+    "Folder deleted": "Mapa je izbrisana"
   },
   "sm": {
     "Inbox": "Falevalu",
@@ -8178,7 +8498,11 @@
     "of {1} messages": "o {1} feau",
     "by minute": "i le minute",
     "of {1} message": "o le {1} feʻau",
-    "Redirected": "Toe Faʻasaʻo"
+    "Redirected": "Toe Faʻasaʻo",
+    "Delete folder": "Tapēina le faila",
+    "Caution. This action will delete permanently all messages in the folder": "Lapatai. Lenei gaioiga o le a soloia tumau uma savali i totonu o le faila",
+    "Delete folder \"{1}\"": "Tapē le faila \"{1}\"",
+    "Folder deleted": "Faila ua tape"
   },
   "sn": {
     "Inbox": "Inbox",
@@ -8279,7 +8603,11 @@
     "of {1} messages": "ye {1} mameseji",
     "Received": "Takatambirwa",
     "by minute": "neminiti",
-    "Redirected": "Kutungamirwa"
+    "Redirected": "Kutungamirwa",
+    "Delete folder": "Delete folda",
+    "Delete folder \"{1}\"": "Delete folda \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Kuchenjerera. Ichi chiito chinodzima zvachose mese ma meseji mufolda",
+    "Folder deleted": "Folda yabviswa"
   },
   "so": {
     "Inbox": "Inbox",
@@ -8380,7 +8708,11 @@
     "of {1} message": "ee {1} farriinta",
     "Received": "Helay",
     "by minute": "daqiiqad",
-    "Redirected": "Diidmo"
+    "Redirected": "Diidmo",
+    "Delete folder": "Tirtir faylka",
+    "Caution. This action will delete permanently all messages in the folder": "Digniin. Tallaabadani waxay tirtireysaa si joogto ah dhammaan fariimaha kujira galka",
+    "Delete folder \"{1}\"": "Tirtir faylka \"{1}\"",
+    "Folder deleted": "Faylka waa la tirtiray"
   },
   "sq": {
     "Inbox": "Inbox",
@@ -8481,7 +8813,11 @@
     "Received": "marrë",
     "of {1} messages": "me mesazhe {1",
     "by minute": "për minutë",
-    "Redirected": "ridrejtuar"
+    "Redirected": "ridrejtuar",
+    "Delete folder": "Fshi dosjen",
+    "Delete folder \"{1}\"": "Fshij dosjen \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Kujdes. Ky veprim do të fshijë përgjithmonë të gjitha mesazhet në dosje",
+    "Folder deleted": "Dosja është fshirë"
   },
   "sr": {
     "Inbox": "Инбок",
@@ -8582,7 +8918,11 @@
     "Received": "Примљен",
     "of {1} message": "од {1} поруке",
     "by minute": "по минуту",
-    "Redirected": "Преусмерено"
+    "Redirected": "Преусмерено",
+    "Delete folder": "Избриши фасциклу",
+    "Delete folder \"{1}\"": "Избриши директоријум „{1}“",
+    "Caution. This action will delete permanently all messages in the folder": "Опрез. Ова акција ће трајно избрисати све поруке у мапи",
+    "Folder deleted": "Мапа је избрисана"
   },
   "st": {
     "Inbox": "Inbox",
@@ -8683,7 +9023,11 @@
     "of {1} message": "tsa {1} molaetsa",
     "by minute": "ka motsotso",
     "Received": "E amohetse",
-    "Redirected": "E fetisetsoe"
+    "Redirected": "E fetisetsoe",
+    "Delete folder": "Tlosa foldara",
+    "Delete folder \"{1}\"": "Tlosa foldara \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Tlhokomeliso. Ketso ena e tla hlakola melaetsa eohle e foldareng",
+    "Folder deleted": "Folder e tlositsoe"
   },
   "su": {
     "Inbox": "Koropak",
@@ -8784,7 +9128,11 @@
     "of {1} messages": "tina {1} pesen",
     "by minute": "ku menit",
     "Received": "Ditampi",
-    "Redirected": "Dipindahkeun"
+    "Redirected": "Dipindahkeun",
+    "Delete folder": "Hapus folder",
+    "Caution. This action will delete permanently all messages in the folder": "Awas. Aksi ieu bakal ngahapus sadayana pesen dina polder",
+    "Delete folder \"{1}\"": "Hapus folder \"{1}\"",
+    "Folder deleted": "Polder dihapus"
   },
   "sv": {
     "Inbox": "Inkorg",
@@ -8885,7 +9233,11 @@
     "of {1} message": "av {1} meddelandet",
     "Received": "Mottagen",
     "by minute": "efter minut",
-    "Redirected": "Omdirigerad"
+    "Redirected": "Omdirigerad",
+    "Delete folder": "Radera mapp",
+    "Delete folder \"{1}\"": "Radera mappen \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Varning. Den här åtgärden tar bort alla meddelanden i mappen permanent",
+    "Folder deleted": "Mappen raderad"
   },
   "sw": {
     "Inbox": "Kikasha",
@@ -8986,7 +9338,11 @@
     "of {1} message": "ya {1} ujumbe",
     "Received": "Imepokelewa",
     "by minute": "kwa dakika",
-    "Redirected": "Imeelekezwa"
+    "Redirected": "Imeelekezwa",
+    "Delete folder": "Futa folda",
+    "Delete folder \"{1}\"": "Futa folda \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Tahadhari. Kitendo hiki kitafuta kabisa ujumbe wote kwenye folda",
+    "Folder deleted": "Folda imefutwa"
   },
   "ta": {
     "Inbox": "உட்பெட்டி",
@@ -9087,7 +9443,11 @@
     "of {1} messages": "{1} செய்திகளில்",
     "by minute": "நிமிடத்தில்",
     "Received": "பெறப்பட்டது",
-    "Redirected": "திருப்பி விடப்பட்டது"
+    "Redirected": "திருப்பி விடப்பட்டது",
+    "Delete folder": "கோப்புறையை நீக்கு",
+    "Delete folder \"{1}\"": "\"{1}\" கோப்புறையை நீக்கு",
+    "Caution. This action will delete permanently all messages in the folder": "எச்சரிக்கை. இந்த செயல் கோப்புறையில் உள்ள எல்லா செய்திகளையும் நிரந்தரமாக நீக்கும்",
+    "Folder deleted": "கோப்புறை நீக்கப்பட்டது"
   },
   "te": {
     "Inbox": "ఇన్బాక్స్",
@@ -9188,7 +9548,11 @@
     "by minute": "నిమిషానికి",
     "of {1} message": "{1} సందేశం",
     "of {1} messages": "{1} సందేశాలలో",
-    "Redirected": "దారిమళ్ళించబడింది"
+    "Redirected": "దారిమళ్ళించబడింది",
+    "Delete folder": "ఫోల్డర్‌ను తొలగించండి",
+    "Caution. This action will delete permanently all messages in the folder": "చెబుతున్నాయి. ఈ చర్య ఫోల్డర్‌లోని అన్ని సందేశాలను శాశ్వతంగా తొలగిస్తుంది",
+    "Delete folder \"{1}\"": "\"{1}\" ఫోల్డర్‌ను తొలగించండి",
+    "Folder deleted": "ఫోల్డర్ తొలగించబడింది"
   },
   "tg": {
     "Inbox": "Қуттии",
@@ -9289,7 +9653,11 @@
     "of {1} messages": "аз паёмҳои {1}",
     "Received": "Гирифтанд",
     "by minute": "бо дақиқа",
-    "Redirected": "Аз нав ворид карда шуд"
+    "Redirected": "Аз нав ворид карда шуд",
+    "Delete folder": "Нобуд сохтани ҷузвдон",
+    "Delete folder \"{1}\"": "Нобуд кардани ҷузвдони \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Огоҳӣ. Ин амал тамоми паёмҳои ҷузвдонро ба пуррагӣ нест мекунад",
+    "Folder deleted": "Папка нест карда шуд"
   },
   "th": {
     "Inbox": "กล่องขาเข้า",
@@ -9390,7 +9758,11 @@
     "of {1} messages": "จาก {1} ข้อความ",
     "by minute": "โดยนาที",
     "Received": "ที่ได้รับ",
-    "Redirected": "เปลี่ยนเส้นทาง"
+    "Redirected": "เปลี่ยนเส้นทาง",
+    "Delete folder": "ลบโฟลเดอร์",
+    "Delete folder \"{1}\"": "ลบโฟลเดอร์ \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "ความระมัดระวัง การกระทำนี้จะลบข้อความทั้งหมดในโฟลเดอร์อย่างถาวร",
+    "Folder deleted": "ลบโฟลเดอร์แล้ว"
   },
   "tk": {
     "Inbox": "Gelýän bukja",
@@ -9491,7 +9863,11 @@
     "by minute": "minutda",
     "Received": "Alnan",
     "of {1} message": "{1} habary",
-    "Redirected": "Gaýtadan gönükdirildi"
+    "Redirected": "Gaýtadan gönükdirildi",
+    "Delete folder": "Papkany pozuň",
+    "Caution. This action will delete permanently all messages in the folder": "Seresap boluň. Bu amal, bukjadaky ähli habarlary hemişelik ýok eder",
+    "Delete folder \"{1}\"": "\"{1}\" bukjasyny pozuň",
+    "Folder deleted": "Papka öçürildi"
   },
   "tl": {
     "Inbox": "Inbox",
@@ -9592,7 +9968,11 @@
     "of {1} messages": "ng {1} na mensahe",
     "Received": "Natanggap",
     "by minute": "sa pamamagitan ng minuto",
-    "Redirected": "Nai-redirect"
+    "Redirected": "Nai-redirect",
+    "Delete folder": "Tanggalin ang folder",
+    "Delete folder \"{1}\"": "Tanggalin ang folder na \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Pag-iingat. Ang pagkilos na ito ay tatangging permanenteng lahat ng mga mensahe sa folder",
+    "Folder deleted": "Tinanggal ang folder"
   },
   "tr": {
     "Inbox": "Gelen kutusu",
@@ -9693,7 +10073,11 @@
     "of {1} messages": "{1} mesajdan",
     "by minute": "dakikaya kadar",
     "Received": "Alınan",
-    "Redirected": "Yeniden yönlendirildi"
+    "Redirected": "Yeniden yönlendirildi",
+    "Delete folder": "Klasörü sil",
+    "Delete folder \"{1}\"": "\"{1}\" klasörünü sil",
+    "Caution. This action will delete permanently all messages in the folder": "Dikkat. Bu eylem klasördeki tüm iletileri kalıcı olarak silecek",
+    "Folder deleted": "Klasör silindi"
   },
   "tt": {
     "Inbox": "Керү",
@@ -9794,7 +10178,11 @@
     "of {1} messages": "{1} хәбәрләр",
     "Received": "Кабул ителде",
     "by minute": "минутка",
-    "Redirected": "Күрсәтелгән"
+    "Redirected": "Күрсәтелгән",
+    "Delete folder": "Папканы бетерегез",
+    "Delete folder \"{1}\"": "\"{1}\" папкасын бетерегез",
+    "Caution. This action will delete permanently all messages in the folder": "Сак булыгыз. Бу гамәл папкадагы барлык хәбәрләрне мәңгегә бетерәчәк",
+    "Folder deleted": "Папка бетерелде"
   },
   "ug": {
     "Inbox": "خەت ساندۇقى",
@@ -9895,7 +10283,11 @@
     "of {1} message": "of {1} ئۇچۇر",
     "Received": "قوبۇل قىلىندى",
     "by minute": "by minute",
-    "Redirected": "قايتا نىشانلاندى"
+    "Redirected": "قايتا نىشانلاندى",
+    "Delete folder": "ھۆججەت قىسقۇچنى ئۆچۈرۈڭ",
+    "Caution. This action will delete permanently all messages in the folder": "ئېھتىيات. بۇ ھەرىكەت ھۆججەت قىسقۇچتىكى بارلىق ئۇچۇرلارنى مەڭگۈلۈك ئۆچۈرۈۋېتىدۇ",
+    "Delete folder \"{1}\"": "ھۆججەت قىسقۇچنى ئۆچۈرۈڭ \"{1}\"",
+    "Folder deleted": "ھۆججەت قىسقۇچ ئۆچۈرۈلدى"
   },
   "uk": {
     "Inbox": "Вхідні",
@@ -9996,7 +10388,11 @@
     "of {1} messages": "з {1} повідомлень",
     "by minute": "за хвилиною",
     "Received": "Отримано",
-    "Redirected": "Перенаправлено"
+    "Redirected": "Перенаправлено",
+    "Delete folder": "Видалити папку",
+    "Delete folder \"{1}\"": "Видалити папку \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Обережність. Ця дія назавжди видалить усі повідомлення в папці",
+    "Folder deleted": "Папка видалена"
   },
   "ur": {
     "Inbox": "ان باکس",
@@ -10097,7 +10493,11 @@
     "of {1} message": "{1} پیغام کا",
     "Received": "موصول ہوا",
     "by minute": "منٹ سے",
-    "Redirected": "ری ڈائریکٹ"
+    "Redirected": "ری ڈائریکٹ",
+    "Delete folder": "فولڈر حذف کریں",
+    "Delete folder \"{1}\"": "\"{1}\" فولڈر کو حذف کریں",
+    "Caution. This action will delete permanently all messages in the folder": "احتیاط. اس کارروائی سے فولڈر میں موجود تمام پیغامات مستقل طور پر حذف ہوجائیں گے",
+    "Folder deleted": "فولڈر حذف ہوگیا"
   },
   "uz": {
     "Inbox": "Xabarlar qutisi",
@@ -10198,7 +10598,11 @@
     "Received": "Qabul qildi",
     "of {1} message": "{1} habaridan",
     "by minute": "daqiqada",
-    "Redirected": "Qayta yo'naltirildi"
+    "Redirected": "Qayta yo'naltirildi",
+    "Delete folder": "Jildni o'chirish",
+    "Delete folder \"{1}\"": "\"{1}\" jildini o'chirish",
+    "Caution. This action will delete permanently all messages in the folder": "Diqqat. Ushbu amal jilddagi barcha xabarlarni butunlay yo'q qiladi",
+    "Folder deleted": "Jild o'chirildi"
   },
   "vi": {
     "Inbox": "Hộp thư đến",
@@ -10299,7 +10703,11 @@
     "of {1} messages": "trong số {1} tin nhắn",
     "by minute": "theo phút",
     "of {1} message": "của {1} tin nhắn",
-    "Redirected": "Chuyển hướng"
+    "Redirected": "Chuyển hướng",
+    "Delete folder": "Xóa thư mục",
+    "Delete folder \"{1}\"": "Xóa thư mục \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Chú ý. Hành động này sẽ xóa vĩnh viễn tất cả các tin nhắn trong thư mục",
+    "Folder deleted": "Thư mục đã bị xóa"
   },
   "xh": {
     "Inbox": "Inbox",
@@ -10400,7 +10808,11 @@
     "by minute": "ngomzuzu",
     "Received": "Ifunyenwe",
     "of {1} message": "yomyalezo {1}",
-    "Redirected": "Iqondiswe kwakhona"
+    "Redirected": "Iqondiswe kwakhona",
+    "Delete folder": "Cima ifolda",
+    "Delete folder \"{1}\"": "Cima ifolda \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Isilumkiso. Intshukumo iyakucima ngokufihlakeleyo yonke imiyalezo kwifolda",
+    "Folder deleted": "Ifolda isusiwe"
   },
   "yi": {
     "Inbox": "Inbox",
@@ -10501,7 +10913,11 @@
     "by minute": "דורך מינוט",
     "of {1} message": "פון {1} אָנזאָג",
     "Received": "באקומען",
-    "Redirected": "רידערעקטיד"
+    "Redirected": "רידערעקטיד",
+    "Delete folder": "ויסמעקן טעקע",
+    "Delete folder \"{1}\"": "ויסמעקן טעקע \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "וואָרענען. די אַקציע וועט פּערמאַנאַנטלי ויסמעקן אַלע אַרטיקלען אין דער טעקע",
+    "Folder deleted": "טעקע אויסגעמעקט"
   },
   "yo": {
     "Inbox": "Apo-iwọle",
@@ -10602,7 +11018,11 @@
     "Received": "Gba",
     "of {1} message": "ti ifiranṣẹ {1}",
     "by minute": "nipa iseju",
-    "Redirected": "Darí"
+    "Redirected": "Darí",
+    "Delete folder": "Paarẹ folda",
+    "Delete folder \"{1}\"": "Paarẹ folda \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Išọra. Iṣe yii yoo paarẹ gbogbo awọn ifiranṣẹ inu folda naa",
+    "Folder deleted": "Ti paarẹ folda"
   },
   "zh-TW": {
     "Inbox": "收件箱",
@@ -10703,7 +11123,11 @@
     "of {1} message": "的{1}條消息",
     "Received": "已收到",
     "by minute": "按分鐘",
-    "Redirected": "重新導向"
+    "Redirected": "重新導向",
+    "Delete folder": "刪除資料夾",
+    "Delete folder \"{1}\"": "刪除文件夾“ {1}”",
+    "Caution. This action will delete permanently all messages in the folder": "警告。此操作將永久刪除文件夾中的所有郵件",
+    "Folder deleted": "資料夾已刪除"
   },
   "zh": {
     "Inbox": "收件箱",
@@ -10804,7 +11228,11 @@
     "Received": "已收到",
     "of {1} message": "的{1}条消息",
     "by minute": "按分钟",
-    "Redirected": "重新导向"
+    "Redirected": "重新导向",
+    "Delete folder": "删除资料夹",
+    "Delete folder \"{1}\"": "删除文件夹“ {1}”",
+    "Caution. This action will delete permanently all messages in the folder": "警告。此操作将永久删除文件夹中的所有邮件",
+    "Folder deleted": "资料夹已删除"
   },
   "zu": {
     "Inbox": "Ibhokisi lokungenayo",
@@ -10905,6 +11333,10 @@
     "by minute": "ngomzuzu",
     "of {1} message": "komyalezo {1}",
     "Received": "Kwamukelwe",
-    "Redirected": "Iqondiswe kabusha"
+    "Redirected": "Iqondiswe kabusha",
+    "Delete folder": "Susa ifolda",
+    "Delete folder \"{1}\"": "Susa ifolda \"{1}\"",
+    "Caution. This action will delete permanently all messages in the folder": "Ukuqapha. Lesi senzo sizosusa unaphakade yonke imilayezo kwifolda",
+    "Folder deleted": "Ifolda isusiwe"
   }
 }

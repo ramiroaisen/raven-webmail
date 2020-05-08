@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Bruscar",
       "junk": "Spam"
     },
+    "delete": "Scrios fillteán",
     "empty": "Tá an bosca poist seo folamh"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Nollaig"
   },
   "notifier": {
-    "messageSent": "Teachtaireacht seolta"
+    "messageSent": "Teachtaireacht seolta",
+    "mailboxDeleted": "Fillteán scriosta"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Cruthaigh fillteán nua",
       "label": "Ainm an fhillteáin",
       "accept": "Cruthaigh",
+      "cancel": "Cealaigh"
+    },
+    "deleteMailbox": {
+      "title": "Scrios fillteán \"{mailbox}\"",
+      "desc": "Rabhadh. Scriosfaidh an gníomh seo gach teachtaireacht san fhillteán go buan",
+      "accept": "Scrios",
       "cancel": "Cealaigh"
     }
   },

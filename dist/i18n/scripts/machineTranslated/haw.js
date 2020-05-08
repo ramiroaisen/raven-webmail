@@ -9,6 +9,7 @@ const locale = {
             "trash": "Lāiʻi",
             "junk": "Pūnaewele"
         },
+        "delete": "Holoi i ka laka",
         "empty": "Poepona kēia leka uila"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Kekemapa"
     },
     "notifier": {
-        "messageSent": "Hoʻouna ʻia ka leka"
+        "messageSent": "Hoʻouna ʻia ka leka",
+        "mailboxDeleted": "Pōmaʻomaʻo Folder"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "E hana i kahi faila hou",
             "label": "ʻAla inoa",
             "accept": "Hana",
+            "cancel": "Hoʻopau"
+        },
+        "deleteMailbox": {
+            "title": "Holoi i ka loulou \"{mailbox}\"",
+            "desc": "Polokalamu. E hoʻopau koke kēia hana i nā leka āpau i ka faila",
+            "accept": "Hoʻopau",
             "cancel": "Hoʻopau"
         }
     },

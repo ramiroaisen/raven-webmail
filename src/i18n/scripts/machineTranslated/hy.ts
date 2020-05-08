@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Աղբարկղ",
       "junk": "Սպամ"
     },
+    "delete": "Deleteնջել թղթապանակը",
     "empty": "Այս փոստարկղը դատարկ է"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Դեկտեմբեր"
   },
   "notifier": {
-    "messageSent": "Նամակը ուղարկված է"
+    "messageSent": "Նամակը ուղարկված է",
+    "mailboxDeleted": "Թղթապանակը ջնջվել է"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Ստեղծեք նոր թղթապանակ",
       "label": "Թղթապանակի անունը",
       "accept": "Ստեղծել",
+      "cancel": "Չեղարկել"
+    },
+    "deleteMailbox": {
+      "title": "Deleteնջել թղթապանակը «{mailbox}»",
+      "desc": "Զգուշություն. Այս գործողությունը մշտապես կջնջի թղթապանակում բոլոր հաղորդագրությունները",
+      "accept": "Նջել",
       "cancel": "Չեղարկել"
     }
   },

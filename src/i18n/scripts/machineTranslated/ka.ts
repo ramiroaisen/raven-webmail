@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "ნაგავი",
       "junk": "Სპამი"
     },
+    "delete": "საქაღალდის წაშლა",
     "empty": "ეს საფოსტო ყუთი ცარიელია"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "დეკემბერი"
   },
   "notifier": {
-    "messageSent": "Შეტყობინება გაგზავნილია"
+    "messageSent": "Შეტყობინება გაგზავნილია",
+    "mailboxDeleted": "საქაღალდე წაიშალა"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "შექმენით ახალი საქაღალდე",
       "label": "Საქაღალდის სახელი",
       "accept": "Შექმნა",
+      "cancel": "გაუქმება"
+    },
+    "deleteMailbox": {
+      "title": "საქაღალდის წაშლა \"{mailbox}\"",
+      "desc": "Სიფრთხილით. ეს მოქმედება სამუდამოდ წაშლის საქაღალდეში არსებულ ყველა შეტყობინებას",
+      "accept": "წაშლა",
       "cancel": "გაუქმება"
     }
   },

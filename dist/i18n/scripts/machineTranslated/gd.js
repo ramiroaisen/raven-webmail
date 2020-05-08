@@ -9,6 +9,7 @@ const locale = {
             "trash": "Sgudal",
             "junk": "Spama"
         },
+        "delete": "Cuir às do phasgan",
         "empty": "Tha am bogsa puist seo falamh"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "An Dùbhlachd"
     },
     "notifier": {
-        "messageSent": "Teachdaireachd air a chuir"
+        "messageSent": "Teachdaireachd air a chuir",
+        "mailboxDeleted": "Folder air a dhubhadh às"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Cruthaich pasgan ùr",
             "label": "Ainm fillte",
             "accept": "Cruthaich",
+            "cancel": "Sguir dheth"
+        },
+        "deleteMailbox": {
+            "title": "Cuir às do phasgan \"{mailbox}\"",
+            "desc": "Rabhadh. Sguabaidh an gnìomh seo às gu buan gach teachdaireachd sa phasgan",
+            "accept": "Cuir às",
             "cancel": "Sguir dheth"
         }
     },

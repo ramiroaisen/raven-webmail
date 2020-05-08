@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "ట్రాష్",
       "junk": "స్పామ్"
     },
+    "delete": "ఫోల్డర్‌ను తొలగించండి",
     "empty": "ఈ మెయిల్‌బాక్స్ ఖాళీగా ఉంది"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "డిసెంబర్"
   },
   "notifier": {
-    "messageSent": "సందేశం పంపబడింది"
+    "messageSent": "సందేశం పంపబడింది",
+    "mailboxDeleted": "ఫోల్డర్ తొలగించబడింది"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "క్రొత్త ఫోల్డర్‌ను సృష్టించండి",
       "label": "ఫోల్డర్ పేరు",
       "accept": "సృష్టించు",
+      "cancel": "రద్దు చేయండి"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\" ఫోల్డర్‌ను తొలగించండి",
+      "desc": "చెబుతున్నాయి. ఈ చర్య ఫోల్డర్‌లోని అన్ని సందేశాలను శాశ్వతంగా తొలగిస్తుంది",
+      "accept": "తొలగించు",
       "cancel": "రద్దు చేయండి"
     }
   },

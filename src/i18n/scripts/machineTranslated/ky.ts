@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "таштанды",
       "junk": "Спам"
     },
+    "delete": "Папканы жок кылуу",
     "empty": "Бул почта ящиги бош"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Декабрь"
   },
   "notifier": {
-    "messageSent": "Билдирүү жөнөтүлдү"
+    "messageSent": "Билдирүү жөнөтүлдү",
+    "mailboxDeleted": "Папка жок кылынды"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Жаңы Папканы түзүү",
       "label": "Куржундун аты",
       "accept": "түзүү",
+      "cancel": "жокко чыгаруу"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\" папкасын жок кылуу",
+      "desc": "САК БОЛУЪУЗ. Бул аракет папкадагы бардык билдирүүлөрдү биротоло жок кылат",
+      "accept": "Delete",
       "cancel": "жокко чыгаруу"
     }
   },

@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "कचरा",
       "junk": "स्पैम"
     },
+    "delete": "फोल्डर हटा दें",
     "empty": "यह मेलबॉक्स खाली है"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "दिसंबर"
   },
   "notifier": {
-    "messageSent": "मैसेज बेजा गया"
+    "messageSent": "मैसेज बेजा गया",
+    "mailboxDeleted": "फ़ोल्डर हटाया गया"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "नया फ़ोल्डर बनाओ",
       "label": "फोल्डर का नाम",
       "accept": "सृजन करना",
+      "cancel": "रद्द करना"
+    },
+    "deleteMailbox": {
+      "title": "फ़ोल्डर हटाएं \"{mailbox}\"",
+      "desc": "सावधान। यह क्रिया फ़ोल्डर के सभी संदेशों को स्थायी रूप से हटा देगी",
+      "accept": "हटाएं",
       "cancel": "रद्द करना"
     }
   },

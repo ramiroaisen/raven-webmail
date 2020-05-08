@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "Basur",
       "junk": "Spam"
     },
+    "delete": "Pagwagtang folder",
     "empty": "Wala’y sulod ang kini nga mailbox"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "Disyembre"
   },
   "notifier": {
-    "messageSent": "Gipadala ang mensahe"
+    "messageSent": "Gipadala ang mensahe",
+    "mailboxDeleted": "Ang Folder natangtang"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Paghimo bag-ong folder",
       "label": "Ngalan sa folder",
       "accept": "Paghimo",
+      "cancel": "Pagkansela"
+    },
+    "deleteMailbox": {
+      "title": "Pagwagtang folder nga \"{mailbox}\"",
+      "desc": "Pag-amping. Kini nga aksyon magtangtang sa tanan nga mga mensahe sa folder",
+      "accept": "Pagwagtang",
       "cancel": "Pagkansela"
     }
   },

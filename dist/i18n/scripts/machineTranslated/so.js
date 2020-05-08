@@ -9,6 +9,7 @@ const locale = {
             "trash": "Qashinka",
             "junk": "Khayaamo"
         },
+        "delete": "Tirtir faylka",
         "empty": "Sanduuqa boosta waa faaruq"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "Diseembar"
     },
     "notifier": {
-        "messageSent": "Farriin baa la diray"
+        "messageSent": "Farriin baa la diray",
+        "mailboxDeleted": "Faylka waa la tirtiray"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "Abuur fayl cusub",
             "label": "Magaca faylka",
             "accept": "Abuur",
+            "cancel": "Tirtir"
+        },
+        "deleteMailbox": {
+            "title": "Tirtir faylka \"{mailbox}\"",
+            "desc": "Digniin. Tallaabadani waxay tirtireysaa si joogto ah dhammaan fariimaha kujira galka",
+            "accept": "Tirtir",
             "cancel": "Tirtir"
         }
     },

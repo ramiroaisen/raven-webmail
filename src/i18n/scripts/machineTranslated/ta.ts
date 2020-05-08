@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "குப்பை",
       "junk": "ஸ்பேம்"
     },
+    "delete": "கோப்புறையை நீக்கு",
     "empty": "இந்த அஞ்சல் பெட்டி காலியாக உள்ளது"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "டிசம்பர்"
   },
   "notifier": {
-    "messageSent": "செய்தி அனுப்பப்பட்டது"
+    "messageSent": "செய்தி அனுப்பப்பட்டது",
+    "mailboxDeleted": "கோப்புறை நீக்கப்பட்டது"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "புதிய கோப்புறையை உருவாக்கவும்",
       "label": "கோப்புறை பெயர்",
       "accept": "உருவாக்கு",
+      "cancel": "ரத்துசெய்"
+    },
+    "deleteMailbox": {
+      "title": "\"{mailbox}\" கோப்புறையை நீக்கு",
+      "desc": "எச்சரிக்கை. இந்த செயல் கோப்புறையில் உள்ள எல்லா செய்திகளையும் நிரந்தரமாக நீக்கும்",
+      "accept": "அழி",
       "cancel": "ரத்துசெய்"
     }
   },

@@ -9,6 +9,7 @@ const locale = {
             "trash": "زباله ها",
             "junk": "هرزنامه ها"
         },
+        "delete": "پوشه را حذف کنید",
         "empty": "این صندوق پستی خالی است"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "دسامبر"
     },
     "notifier": {
-        "messageSent": "پیغام فرستاده شد"
+        "messageSent": "پیغام فرستاده شد",
+        "mailboxDeleted": "پوشه حذف شد"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "پوشه جدید ایجاد کنید",
             "label": "نام پوشه",
             "accept": "ایجاد کردن",
+            "cancel": "لغو"
+        },
+        "deleteMailbox": {
+            "title": "حذف پوشه \"{mailbox}\"",
+            "desc": "احتیاط با این اقدام دائماً تمام پیام های پوشه حذف می شود",
+            "accept": "حذف",
             "cancel": "لغو"
         }
     },

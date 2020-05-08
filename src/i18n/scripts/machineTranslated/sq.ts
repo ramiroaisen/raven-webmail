@@ -9,6 +9,7 @@ const locale: Locale = {
       "trash": "plehra",
       "junk": "Të bllokuara"
     },
+    "delete": "Fshi dosjen",
     "empty": "Kjo kuti postare është bosh"
   },
   "message": {
@@ -119,7 +120,8 @@ const locale: Locale = {
     "11": "dhjetor"
   },
   "notifier": {
-    "messageSent": "Mesazhi u Dergua"
+    "messageSent": "Mesazhi u Dergua",
+    "mailboxDeleted": "Dosja është fshirë"
   },
   "drawerActions": {
     "createMailbox": {
@@ -132,6 +134,12 @@ const locale: Locale = {
       "title": "Krijoni një dosje të re",
       "label": "Emri i dosjes",
       "accept": "krijoj",
+      "cancel": "anuloj"
+    },
+    "deleteMailbox": {
+      "title": "Fshij dosjen \"{mailbox}\"",
+      "desc": "Kujdes. Ky veprim do të fshijë përgjithmonë të gjitha mesazhet në dosje",
+      "accept": "fshini",
       "cancel": "anuloj"
     }
   },

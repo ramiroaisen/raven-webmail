@@ -9,6 +9,7 @@ const locale = {
             "trash": "আবর্জনা",
             "junk": "স্প্যাম"
         },
+        "delete": "ফোল্ডার মুছুন",
         "empty": "এই মেলবক্সটি খালি আছে"
     },
     "message": {
@@ -119,7 +120,8 @@ const locale = {
         "11": "ডিসেম্বর"
     },
     "notifier": {
-        "messageSent": "বার্তা প্রদান"
+        "messageSent": "বার্তা প্রদান",
+        "mailboxDeleted": "ফোল্ডার মোছা হয়েছে"
     },
     "drawerActions": {
         "createMailbox": {
@@ -132,6 +134,12 @@ const locale = {
             "title": "নতুন ফোল্ডার তৈরি কর",
             "label": "ফোল্ডারের নাম",
             "accept": "সৃষ্টি",
+            "cancel": "বাতিল"
+        },
+        "deleteMailbox": {
+            "title": "\"{mailbox}\" ফোল্ডারটি মুছুন",
+            "desc": "সতর্ক করা. এই ক্রিয়াটি ফোল্ডারে থাকা সমস্ত বার্তাকে স্থায়ীভাবে মুছে ফেলবে",
+            "accept": "মুছে ফেলা",
             "cancel": "বাতিল"
         }
     },
