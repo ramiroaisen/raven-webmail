@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "సైన్ అవుట్ చేయండి",
-        "myAccount": "నా ఖాతా"
+        "myAccount": "నా ఖాతా",
+        "filters": "వడపోతలు"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "రోజువారీ"
             }
         }
+    },
+    "filters": {
+        "title": "వడపోతలు",
+        "commingSoon": "త్వరలో"
     }
 };
 exports.default = locale;

@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Hasi saioa",
-    "myAccount": "Nire kontua"
+    "myAccount": "Nire kontua",
+    "filters": "iragazkiak"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "eguneroko"
       }
     }
+  },
+  "filters": {
+    "title": "iragazkiak",
+    "commingSoon": "Laister"
   }
 };
 

@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "وتون",
-        "myAccount": "زما حساب"
+        "myAccount": "زما حساب",
+        "filters": "فلټرونه"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "هره ورځ"
             }
         }
+    },
+    "filters": {
+        "title": "فلټرونه",
+        "commingSoon": "ډېر ژر"
     }
 };
 exports.default = locale;

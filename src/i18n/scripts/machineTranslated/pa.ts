@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "ਸਾਇਨ ਆਉਟ",
-    "myAccount": "ਮੇਰਾ ਖਾਤਾ"
+    "myAccount": "ਮੇਰਾ ਖਾਤਾ",
+    "filters": "ਫਿਲਟਰ"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "ਰੋਜ਼ਾਨਾ"
       }
     }
+  },
+  "filters": {
+    "title": "ਫਿਲਟਰ",
+    "commingSoon": "ਆਨ ਵਾਲੀ"
   }
 };
 

@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Buda",
-        "myAccount": "Akaundi yangu"
+        "myAccount": "Akaundi yangu",
+        "filters": "Mafirita"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "zuva nezuva"
             }
         }
+    },
+    "filters": {
+        "title": "Mafirita",
+        "commingSoon": "Kuuya manje manje"
     }
 };
 exports.default = locale;

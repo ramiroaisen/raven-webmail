@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Útskrá",
-        "myAccount": "Minn reikningur"
+        "myAccount": "Minn reikningur",
+        "filters": "Síur"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "daglega"
             }
         }
+    },
+    "filters": {
+        "title": "Síur",
+        "commingSoon": "Væntanlegt"
     }
 };
 exports.default = locale;

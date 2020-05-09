@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "баромадан",
-        "myAccount": "Ҳисоби ман"
+        "myAccount": "Ҳисоби ман",
+        "filters": "Филтрҳо"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "ҳаррӯза"
             }
         }
+    },
+    "filters": {
+        "title": "Филтрҳо",
+        "commingSoon": "Ба зудӣ"
     }
 };
 exports.default = locale;

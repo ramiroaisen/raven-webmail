@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "sayinela ukuphuma",
-        "myAccount": "I-akhawunti yami"
+        "myAccount": "I-akhawunti yami",
+        "filters": "Izihlungi"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "nsuku zonke"
             }
         }
+    },
+    "filters": {
+        "title": "Izihlungi",
+        "commingSoon": "Kuyeza maduze"
     }
 };
 exports.default = locale;

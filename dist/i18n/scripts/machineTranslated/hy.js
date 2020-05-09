@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Դուրս գալ",
-        "myAccount": "Իմ հաշիվը"
+        "myAccount": "Իմ հաշիվը",
+        "filters": "Զտիչներ"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "ամեն օր"
             }
         }
+    },
+    "filters": {
+        "title": "Զտիչներ",
+        "commingSoon": "Շուտով"
     }
 };
 exports.default = locale;

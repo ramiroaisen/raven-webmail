@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "サインアウト",
-        "myAccount": "マイアカウント"
+        "myAccount": "マイアカウント",
+        "filters": "フィルター"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "毎日"
             }
         }
+    },
+    "filters": {
+        "title": "フィルター",
+        "commingSoon": "近日公開"
     }
 };
 exports.default = locale;

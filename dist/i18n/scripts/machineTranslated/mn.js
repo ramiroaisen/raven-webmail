@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Гарах",
-        "myAccount": "Миний данс"
+        "myAccount": "Миний данс",
+        "filters": "Шүүлтүүрүүд"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "өдөр бүр"
             }
         }
+    },
+    "filters": {
+        "title": "Шүүлтүүрүүд",
+        "commingSoon": "Тун удахгүй"
     }
 };
 exports.default = locale;

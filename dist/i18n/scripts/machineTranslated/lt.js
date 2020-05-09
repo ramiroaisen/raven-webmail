@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Atsijungti",
-        "myAccount": "Mano sąskaita"
+        "myAccount": "Mano sąskaita",
+        "filters": "Filtrai"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "kasdien"
             }
         }
+    },
+    "filters": {
+        "title": "Filtrai",
+        "commingSoon": "Netrukus"
     }
 };
 exports.default = locale;

@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "kaluar",
-        "myAccount": "Akun abdi"
+        "myAccount": "Akun abdi",
+        "filters": "Saringan"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "sapopoe"
             }
         }
+    },
+    "filters": {
+        "title": "Saringan",
+        "commingSoon": "Geura sumping"
     }
 };
 exports.default = locale;

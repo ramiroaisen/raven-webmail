@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Guhê xwe nedene",
-        "myAccount": "Hesabê min"
+        "myAccount": "Hesabê min",
+        "filters": "Filters"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "rojane"
             }
         }
+    },
+    "filters": {
+        "title": "Filters",
+        "commingSoon": "Ji nêzda"
     }
 };
 exports.default = locale;

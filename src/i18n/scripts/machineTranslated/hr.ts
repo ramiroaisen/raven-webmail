@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Odjavi se",
-    "myAccount": "Moj račun"
+    "myAccount": "Moj račun",
+    "filters": "filteri"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "dnevno"
       }
     }
+  },
+  "filters": {
+    "title": "filteri",
+    "commingSoon": "Dolazi uskoro"
   }
 };
 

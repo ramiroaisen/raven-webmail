@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Kirjaudu ulos",
-        "myAccount": "Tilini"
+        "myAccount": "Tilini",
+        "filters": "Suodattimet"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "päivittäin"
             }
         }
+    },
+    "filters": {
+        "title": "Suodattimet",
+        "commingSoon": "Tulossa pian"
     }
 };
 exports.default = locale;

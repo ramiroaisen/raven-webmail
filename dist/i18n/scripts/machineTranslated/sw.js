@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Toka",
-        "myAccount": "Akaunti yangu"
+        "myAccount": "Akaunti yangu",
+        "filters": "Vichungi"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "kila siku"
             }
         }
+    },
+    "filters": {
+        "title": "Vichungi",
+        "commingSoon": "Inakuja hivi karibuni"
     }
 };
 exports.default = locale;

@@ -26,3 +26,12 @@ export const mailboxMeta = (mailbox, labels) => {
 };
 export const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 export const tick = () => sleep(0);
+export const once = (fn) => {
+    let called = false;
+    return (function (...args) {
+        if (called)
+            return;
+        called = true;
+        return fn.call(this, ...args);
+    });
+};

@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "צייכן אויס",
-    "myAccount": "מיין אקאונט"
+    "myAccount": "מיין אקאונט",
+    "filters": "פילטערס"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "טעגלעך"
       }
     }
+  },
+  "filters": {
+    "title": "פילטערס",
+    "commingSoon": "קומענדיק באַלד"
   }
 };
 

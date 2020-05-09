@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Αποσύνδεση",
-        "myAccount": "Ο λογαριασμός μου"
+        "myAccount": "Ο λογαριασμός μου",
+        "filters": "Φίλτρα"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "καθημερινά"
             }
         }
+    },
+    "filters": {
+        "title": "Φίλτρα",
+        "commingSoon": "Ερχομαι συντομα"
     }
 };
 exports.default = locale;

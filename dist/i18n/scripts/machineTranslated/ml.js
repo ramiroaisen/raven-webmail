@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "സൈൻ ഔട്ട്",
-        "myAccount": "എന്റെ അക്കൗണ്ട്"
+        "myAccount": "എന്റെ അക്കൗണ്ട്",
+        "filters": "ഫിൽട്ടറുകൾ"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "ദിവസേന"
             }
         }
+    },
+    "filters": {
+        "title": "ഫിൽട്ടറുകൾ",
+        "commingSoon": "ഉടൻ വരുന്നു"
     }
 };
 exports.default = locale;

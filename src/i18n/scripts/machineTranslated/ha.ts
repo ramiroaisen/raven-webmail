@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Fita fita",
-    "myAccount": "Asusun"
+    "myAccount": "Asusun",
+    "filters": "Tace"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "kullun"
       }
     }
+  },
+  "filters": {
+    "title": "Tace",
+    "commingSoon": "Bada jimawa ba"
   }
 };
 

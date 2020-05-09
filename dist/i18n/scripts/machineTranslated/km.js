@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "ចាកចេញ",
-        "myAccount": "គណនី​របស់ខ្ញុំ"
+        "myAccount": "គណនី​របស់ខ្ញុំ",
+        "filters": "តម្រង"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "រាល់ថ្ងៃ"
             }
         }
+    },
+    "filters": {
+        "title": "តម្រង",
+        "commingSoon": "នឹងមកដល់ឆាប់ៗនេះ"
     }
 };
 exports.default = locale;

@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Đăng xuất",
-    "myAccount": "Tài khoản của tôi"
+    "myAccount": "Tài khoản của tôi",
+    "filters": "Bộ lọc"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "hằng ngày"
       }
     }
+  },
+  "filters": {
+    "title": "Bộ lọc",
+    "commingSoon": "Sắp có"
   }
 };
 

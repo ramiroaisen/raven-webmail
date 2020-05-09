@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Sair",
-        "myAccount": "Minha conta"
+        "myAccount": "Minha conta",
+        "filters": "Filtros"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "diariamente"
             }
         }
+    },
+    "filters": {
+        "title": "Filtros",
+        "commingSoon": "Em breve"
     }
 };
 exports.default = locale;

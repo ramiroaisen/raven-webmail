@@ -87,16 +87,26 @@
     export let current = false;
     export let menu = false;
     export let menuOpen = false;
+
+    const prevent = event => {
+        event.preventDefault();
+        event.stopPropagation()
+    }
+
+    const click = event => {
+        drawerOpenMobile.set(false);
+        console.log(event.defaultPrevented);
+    }
 </script>
 
-<a {href} class="na item btn-dark" class:current class:menu-open={menuOpen} on:click on:click={(e) => drawerOpenMobile.set(false)}>
-  <span class="icon">
-    <svelte:component this={icon} />
-  </span>
+<a {href} class="na item btn-dark" class:current class:menu-open={menuOpen} on:click on:click={click}>
+    <span class="icon">
+        <svelte:component this={icon} />
+    </span>
     <span class="label">{label}</span>
     <div class="count-menu">
         {#if menu}
-            <div class="menu" on:click|stopPropagation|preventDefault>
+            <div class="menu" on:click={prevent}>
                 <slot name="menu"></slot>
             </div>
         {/if}

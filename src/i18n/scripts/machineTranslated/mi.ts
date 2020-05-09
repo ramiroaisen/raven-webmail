@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Waitohu mai",
-    "myAccount": "Kei taku kaute"
+    "myAccount": "Kei taku kaute",
+    "filters": "Tātari"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "ia rā"
       }
     }
+  },
+  "filters": {
+    "title": "Tātari",
+    "commingSoon": "Ka haere mai"
   }
 };
 

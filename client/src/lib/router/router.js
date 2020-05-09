@@ -1,5 +1,12 @@
 import { writable } from "../../lib/store";
 import { match as _match } from "path-to-regexp";
+let preventers = new Set();
+export const registerPreventer = (fn) => {
+    preventers.add(fn);
+    return () => {
+        preventers.delete(fn);
+    };
+};
 export const createRouter = (inp = {}, session = writable(null), { dev = true } = { dev: true }) => {
     //const log = dev ? console.log : () => {};
     const log = (...args) => { };
@@ -98,7 +105,14 @@ export const createRouter = (inp = {}, session = writable(null), { dev = true } 
             _render.set(null);
             resolve();
         });
-        window.onhashchange = () => hash.set(location.hash);
+        window.onhashchange = (event) => {
+            for (const fn of preventers) {
+                if (fn(event) === false) {
+                    return;
+                }
+            }
+            hash.set(location.hash);
+        };
     });
     const link = (node) => {
         node.onclick = (event) => {

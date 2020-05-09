@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Ofmellen",
-    "myAccount": "Mäi Kont"
+    "myAccount": "Mäi Kont",
+    "filters": "Filteren"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "deeglech"
       }
     }
+  },
+  "filters": {
+    "title": "Filteren",
+    "commingSoon": "Kënnt geschwënn"
   }
 };
 

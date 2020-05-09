@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Çıxış",
-    "myAccount": "Mənim Hesabım"
+    "myAccount": "Mənim Hesabım",
+    "filters": "Filtrlər"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "gündəlik"
       }
     }
+  },
+  "filters": {
+    "title": "Filtrlər",
+    "commingSoon": "Tezliklə"
   }
 };
 

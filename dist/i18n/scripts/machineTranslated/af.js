@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Teken uit",
-        "myAccount": "My rekening"
+        "myAccount": "My rekening",
+        "filters": "filters"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "daaglikse"
             }
         }
+    },
+    "filters": {
+        "title": "filters",
+        "commingSoon": "Kom binnekort"
     }
 };
 exports.default = locale;

@@ -2,7 +2,12 @@
   x-color{
     display: flex;
     flex-direction: row;
-    margin: -8px 0;
+  }
+
+  .anchor {
+    position: absolute;
+    top: 0;
+    left: 50%;
   }
 </style>
 
@@ -11,27 +16,30 @@
   const {cmd, has} = getContext("editor");
 
   import Fill from "svelte-material-icons/FormatColorFill.svelte"
-  
   import ColorGroup from "./ColorGroup.svelte";
 
-  import Menu from "svelte-mui/src/Menu.svelte";
-
   export let locale;
+
+  export let open = false;
+  const toggle = () => open = !open;
+
+  import Popup from "comp@Popup.svelte";
 </script>
 
 <x-command-group>
-  <Menu origin="bottom left" dy={25}>
-    <x-command slot="activator" class="multiple" data-tooltip={locale.tooltip}>
-      <Fill />
-    </x-command>
-
-    <x-color>
-      {#if has("foreColor")}
-        <ColorGroup variant="foreColor" label={locale.foreColor} />
-      {/if}
-      {#if has("backColor")}
-        <ColorGroup variant="backColor" label={locale.backColor} />
-      {/if}
-    </x-color>
-  </Menu>
+  <x-command class="multiple" class:hover={open} data-tooltip={open ? null : locale.tooltip} on:click={toggle}>
+    <Fill />
+    <div class="anchor">
+      <Popup anchor="bottom-center" bind:open>
+        <x-color>
+          {#if has("foreColor")}
+            <ColorGroup variant="foreColor" label={locale.foreColor} />
+          {/if}
+          {#if has("backColor")}
+            <ColorGroup variant="backColor" label={locale.backColor} />
+          {/if}
+        </x-color>
+      </Popup>
+    </div>
+  </x-command>
 </x-command-group>

@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Вийти з аккаунта",
-        "myAccount": "Мій рахунок"
+        "myAccount": "Мій рахунок",
+        "filters": "Фільтри"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "щодня"
             }
         }
+    },
+    "filters": {
+        "title": "Фільтри",
+        "commingSoon": "Незабаром"
     }
 };
 exports.default = locale;

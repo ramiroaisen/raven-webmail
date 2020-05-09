@@ -1,35 +1,30 @@
 <style>
-  .account-button :global(button){
-    text-transform: none !important;
-    font-size: 1em !important;
-    line-height: 1em !important;
-    height: 2.5em !important;
-    padding: 0 1em !important;
-    display: flex !important;
-    align-content: center !important;
-    justify-content: center !important;
-  }
-
-  .item {
+  .account-button {
+    position: relative;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    min-width: 10em;
-    pointer-events: none;
+    z-index: 100;
+    flex: none;
   }
 
-  .item > :global(svg) {
-    width: 1.5em;
-    height: 1.5em;
-    flex: none;
-    margin-inline-end: 0.5em;
+  .anchor {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .button{
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    padding: 0.65em 1em;
+    display: flex;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 0.25em;
   }
 </style>
 
 <script>
-  import {Button, Menuitem} from "svelte-mui";
-  import Menu from "svelte-mui/src/Menu.svelte";
-
   export let user;
 
   import {getContext} from "svelte";
@@ -38,24 +33,37 @@
 
   import Account from "svelte-material-icons/AccountEditOutline.svelte";
   import Logout from "svelte-material-icons/Logout.svelte";
+  import Filters from "svelte-material-icons/FilterOutline.svelte";
 
+  import {Ripple} from "svelte-mui";
+  import Popup from "comp@Popup.svelte";
+  import Menu from "comp@Menu/Menu.svelte";
+  import MenuItem from "comp@Menu/MenuItem.svelte";
+
+  export let menuOpen = false;
+  const toggle = () => menuOpen = !menuOpen;
 </script>
 
-<Menu origin="top right" dy={40}>
-  <div slot="activator" class="account-button">
-    <Button color="#fff">{user.address}</Button>
+<div class="account-button">
+  <div class="button btn-light" class:hover={menuOpen} on:click={toggle}>
+    {user.address}
+    <Ripple />
   </div>
+  <div class="anchor">
+      <Popup anchor="top-right" bind:open={menuOpen} >
+        <Menu>
+          <MenuItem href="#!/account" icon={Account}>
+            {locale.myAccount}
+          </MenuItem>
 
-  <Menuitem href="#!/account">
-    <div class="item">
-      <Account />
-      {locale.myAccount}
-    </div>
-  </Menuitem>
-  <Menuitem on:click={() => location.replace("/logout")}>
-    <div class="item">
-      <Logout />
-      {locale.logout}
-    </div>
-  </Menuitem>
-</Menu>
+          <MenuItem href="#!/filters" icon={Filters}>
+            {locale.filters}
+          </MenuItem>
+
+          <MenuItem on:click={() => location.replace("/logout")} icon={Logout}>
+            {locale.logout}
+          </MenuItem>
+        </Menu>
+      </Popup>
+  </div>
+</div>

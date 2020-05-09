@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Sohoka",
-        "myAccount": "Konti yanjye"
+        "myAccount": "Konti yanjye",
+        "filters": "Muyunguruzi"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "buri munsi"
             }
         }
+    },
+    "filters": {
+        "title": "Muyunguruzi",
+        "commingSoon": "Kuza vuba"
     }
 };
 exports.default = locale;

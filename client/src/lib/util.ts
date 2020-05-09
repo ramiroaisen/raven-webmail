@@ -41,3 +41,13 @@ export const mailboxMeta = (mailbox: Mailbox, labels: Record<id, string>): Meta 
 
 export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 export const tick = () => sleep(0);
+
+export const once = <T extends (this: any, ...args: any[]) => any>(fn: T): T => {
+    let called = false;
+    return (function(this: any, ...args: any[]): any {
+        if(called)
+            return;
+        called = true;
+        return fn.call(this, ...args);
+    }) as T;
+}

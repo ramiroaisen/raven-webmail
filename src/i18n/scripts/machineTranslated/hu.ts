@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Kijelentkezés",
-    "myAccount": "Az én fiókom"
+    "myAccount": "Az én fiókom",
+    "filters": "Szűrők"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "napi"
       }
     }
+  },
+  "filters": {
+    "title": "Szűrők",
+    "commingSoon": "Hamarosan"
   }
 };
 

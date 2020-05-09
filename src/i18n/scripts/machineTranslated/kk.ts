@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Шығу",
-    "myAccount": "Менің аккаунтым"
+    "myAccount": "Менің аккаунтым",
+    "filters": "Сүзгілер"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "күнделікті"
       }
     }
+  },
+  "filters": {
+    "title": "Сүзгілер",
+    "commingSoon": "Жақында шығады"
   }
 };
 

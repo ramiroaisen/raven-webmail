@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Logáil Amach",
-        "myAccount": "Mo chuntas"
+        "myAccount": "Mo chuntas",
+        "filters": "Scagairí"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "go laethúil"
             }
         }
+    },
+    "filters": {
+        "title": "Scagairí",
+        "commingSoon": "Ag teacht go luath"
     }
 };
 exports.default = locale;

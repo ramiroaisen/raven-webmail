@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "چېكىنىش",
-        "myAccount": "ھېساباتىم"
+        "myAccount": "ھېساباتىم",
+        "filters": "سۈزگۈچ"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "ھەر كۈنى"
             }
         }
+    },
+    "filters": {
+        "title": "سۈزگۈچ",
+        "commingSoon": "پات يېقىندا كېلىدۇ"
     }
 };
 exports.default = locale;

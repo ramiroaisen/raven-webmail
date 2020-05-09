@@ -52,7 +52,9 @@
   import {del} from "lib@client/mailboxes.js";
   import {getNotifier} from "comp@Notify/notify.js";
 
-  const deleteMailbox = async () => {
+  const deleteMailbox = async (event) => {
+    event.preventDefault();
+    event.stopPropagation();
     const args = {...$locale.dialogs.deleteMailbox, title: $trans("dialogs.deleteMailbox.title", {mailbox: $mailbox.path})};
     if(await confirm(args)) {
       try {

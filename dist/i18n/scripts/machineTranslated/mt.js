@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Itlaq",
-        "myAccount": "Kont tiegħi"
+        "myAccount": "Kont tiegħi",
+        "filters": "Filtri"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "kuljum"
             }
         }
+    },
+    "filters": {
+        "title": "Filtri",
+        "commingSoon": "Ġej dalwaqt"
     }
 };
 exports.default = locale;

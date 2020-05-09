@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "ออกจากระบบ",
-        "myAccount": "บัญชีของฉัน"
+        "myAccount": "บัญชีของฉัน",
+        "filters": "ฟิลเตอร์"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "ประจำวัน"
             }
         }
+    },
+    "filters": {
+        "title": "ฟิลเตอร์",
+        "commingSoon": "เร็ว ๆ นี้"
     }
 };
 exports.default = locale;

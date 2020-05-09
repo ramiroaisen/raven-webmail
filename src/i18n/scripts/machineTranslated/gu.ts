@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "સાઇન આઉટ",
-    "myAccount": "મારું ખાતું"
+    "myAccount": "મારું ખાતું",
+    "filters": "ગાળકો"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "દૈનિક"
       }
     }
+  },
+  "filters": {
+    "title": "ગાળકો",
+    "commingSoon": "ટૂક સમયમાં આવી રહ્યું છે"
   }
 };
 

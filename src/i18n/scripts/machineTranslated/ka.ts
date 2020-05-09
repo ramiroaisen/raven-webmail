@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Სისტემიდან გამოსვლა",
-    "myAccount": "Ჩემი ანგარიში"
+    "myAccount": "Ჩემი ანგარიში",
+    "filters": "ფილტრები"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "ყოველდღიურად"
       }
     }
+  },
+  "filters": {
+    "title": "ფილტრები",
+    "commingSoon": "Მალე"
   }
 };
 

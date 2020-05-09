@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "disconnessione",
-    "myAccount": "Il mio account"
+    "myAccount": "Il mio account",
+    "filters": "filtri"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "quotidiano"
       }
     }
+  },
+  "filters": {
+    "title": "filtri",
+    "commingSoon": "Prossimamente"
   }
 };
 

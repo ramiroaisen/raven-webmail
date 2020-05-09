@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "로그 아웃",
-        "myAccount": "내 계정"
+        "myAccount": "내 계정",
+        "filters": "필터"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "매일"
             }
         }
+    },
+    "filters": {
+        "title": "필터",
+        "commingSoon": "출시 예정"
     }
 };
 exports.default = locale;

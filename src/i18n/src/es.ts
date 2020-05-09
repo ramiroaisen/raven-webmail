@@ -37,7 +37,8 @@ export default {
 
     accountButton: {
         logout: "Cerrar sesión",
-        myAccount: "Mi cuenta"
+        myAccount: "Mi cuenta",
+        filters: "Filtros",
     },
 
     compose: {
@@ -217,5 +218,10 @@ export default {
                 comment: "por día"
             }
         }
+    },
+
+    filters: {
+        title: "Filtros",
+        commingSoon: "Proximamente"
     }
 }

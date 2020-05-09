@@ -75,7 +75,8 @@
     flex: none;
   }
 
-  x-toolbar :global(x-command:hover) {
+  x-toolbar :global(x-command:hover),
+  x-toolbar :global(x-command.hover) {
     color: #111;
     background-color: rgba(0,0,0,0.15);
   }

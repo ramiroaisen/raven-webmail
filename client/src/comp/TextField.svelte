@@ -125,6 +125,8 @@ const handleChange = (event) => {
     on:blur
     on:change
     on:keypress
+    on:keydown
+    on:keyup
     />
     {#if label != null}
       <span class="label">{label}</span>
@@ -144,6 +146,8 @@ const handleChange = (event) => {
     on:blur
     on:change
     on:keypress
+    on:keydown
+    on:keyup
     style={resize ? `resize: " ${resize}` : ''}
     />
     {#if label != null}

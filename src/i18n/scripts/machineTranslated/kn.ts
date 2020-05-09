@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "ಸೈನ್ .ಟ್ ಮಾಡಿ",
-    "myAccount": "ನನ್ನ ಖಾತೆ"
+    "myAccount": "ನನ್ನ ಖಾತೆ",
+    "filters": "ಫಿಲ್ಟರ್‌ಗಳು"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "ದೈನಂದಿನ"
       }
     }
+  },
+  "filters": {
+    "title": "ಫಿಲ್ಟರ್‌ಗಳು",
+    "commingSoon": "ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ"
   }
 };
 

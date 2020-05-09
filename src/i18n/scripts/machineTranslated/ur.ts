@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "باہر جائیں",
-    "myAccount": "میرا اکاونٹ"
+    "myAccount": "میرا اکاونٹ",
+    "filters": "فلٹرز"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "روزانہ"
       }
     }
+  },
+  "filters": {
+    "title": "فلٹرز",
+    "commingSoon": "جلد آرہا ہے"
   }
 };
 

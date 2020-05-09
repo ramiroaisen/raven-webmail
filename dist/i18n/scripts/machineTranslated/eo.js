@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Elsaluti",
-        "myAccount": "Mia konto"
+        "myAccount": "Mia konto",
+        "filters": "Filtriloj"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "ĉiutage"
             }
         }
+    },
+    "filters": {
+        "title": "Filtriloj",
+        "commingSoon": "Baldaŭ"
     }
 };
 exports.default = locale;

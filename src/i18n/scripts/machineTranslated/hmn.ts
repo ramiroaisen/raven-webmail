@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Sau npe tawm",
-    "myAccount": "Kuv tus lej"
+    "myAccount": "Kuv tus lej",
+    "filters": "Ntxaij lim dej"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "txhua hnub"
       }
     }
+  },
+  "filters": {
+    "title": "Ntxaij lim dej",
+    "commingSoon": "Tab tom yuav tuaj"
   }
 };
 

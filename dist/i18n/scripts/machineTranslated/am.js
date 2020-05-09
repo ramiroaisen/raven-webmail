@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "ዛግተ ውጣ",
-        "myAccount": "አካውንቴ"
+        "myAccount": "አካውንቴ",
+        "filters": "ማጣሪያዎች"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "በየቀኑ"
             }
         }
+    },
+    "filters": {
+        "title": "ማጣሪያዎች",
+        "commingSoon": "በቅርብ ቀን"
     }
 };
 exports.default = locale;

@@ -33,6 +33,7 @@ const locale = {
     accountButton: {
         logout: "Sign out",
         myAccount: "My account",
+        filters: "Filters",
     },
     compose: {
         labels: {
@@ -186,6 +187,10 @@ const locale = {
                 comment: "daily"
             }
         }
+    },
+    filters: {
+        title: "Filters",
+        commingSoon: "Coming soon"
     }
 };
 exports.default = locale;

@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "tsoaha",
-        "myAccount": "Akhaonte Ea Hau"
+        "myAccount": "Akhaonte Ea Hau",
+        "filters": "Metlhotlo"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "letsatsi le letsatsi"
             }
         }
+    },
+    "filters": {
+        "title": "Metlhotlo",
+        "commingSoon": "E fihla haufinyane"
     }
 };
 exports.default = locale;

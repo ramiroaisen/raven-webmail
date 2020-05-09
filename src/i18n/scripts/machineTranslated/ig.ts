@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "pụọ",
-    "myAccount": "Akaụntụ M"
+    "myAccount": "Akaụntụ M",
+    "filters": "Iyo"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "kwa ụbọchị"
       }
     }
+  },
+  "filters": {
+    "title": "Iyo",
+    "commingSoon": "Na-abịa oge adịghị anya"
   }
 };
 

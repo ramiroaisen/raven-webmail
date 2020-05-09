@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "登出",
-        "myAccount": "我的帐户"
+        "myAccount": "我的帐户",
+        "filters": "筛选器"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "日常"
             }
         }
+    },
+    "filters": {
+        "title": "筛选器",
+        "commingSoon": "快来了"
     }
 };
 exports.default = locale;

@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Phuma",
-        "myAccount": "I-akhawunti yam"
+        "myAccount": "I-akhawunti yam",
+        "filters": "Iifilitha"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "mihla le"
             }
         }
+    },
+    "filters": {
+        "title": "Iifilitha",
+        "commingSoon": "Kuza ngokukhawuleza"
     }
 };
 exports.default = locale;

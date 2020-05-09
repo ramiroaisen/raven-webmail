@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Logi välja",
-        "myAccount": "Minu konto"
+        "myAccount": "Minu konto",
+        "filters": "Filtrid"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "iga päev"
             }
         }
+    },
+    "filters": {
+        "title": "Filtrid",
+        "commingSoon": "Tulekul"
     }
 };
 exports.default = locale;

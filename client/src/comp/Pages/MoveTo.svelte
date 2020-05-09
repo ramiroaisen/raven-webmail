@@ -1,15 +1,9 @@
 <style>
-  x-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-inline-end: 3em;
-  }
-
-  x-icon {
-    font-size: 1.25em;
-    margin-inline-end: 0.8em;
-    display: flex;
+  .anchor {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 1rem;
   }
 </style>
 
@@ -24,8 +18,6 @@
   import {inbox, trash, junk, sent, drafts, others} from "lib@client/mailboxes.js";
   import {moveTo} from "lib@client/messages.js";
   import MoveTo from "svelte-material-icons/FolderMoveOutline.svelte";
-  import {Menuitem, Ripple} from "svelte-mui";
-  import Menu from "svelte-mui/src/Menu.svelte";
 
   import {getContext} from "svelte";
   const {locale: l} = getContext("app");
@@ -64,25 +56,31 @@
     moveTo(mailbox.get().id, ids, to.get().id);
     dispatch("moved", {to, messages: $selection})
   }
+
+  export let menuOpen = false;
+
+  import {Ripple} from "svelte-mui";
+  import Popup from "comp@Popup.svelte";
+  import Menu from "comp@Menu/Menu.svelte";
+  import MenuItem from "comp@Menu/MenuItem.svelte";
+
+  const toggle = () => menuOpen = !menuOpen;
 </script>
 
 {#if folders.length}
-  <Menu origin="top right" class="move-to-menu">
-    <x-action slot="activator" class="btn-dark" data-tooltip={locale.actions.moveTo}>
-      <MoveTo/>
-      <Ripple />
-    </x-action>
-    {#each folders as box, i}
-      <Menuitem on:click={() => to(box)}>
-        <x-item>
-          <x-icon>
-            <svelte:component this={metas[i].icon}/>
-          </x-icon>
-          <x-label>
-            {metas[i].label}
-          </x-label>
-        </x-item>
-      </Menuitem>
-    {/each}
-  </Menu>
+  <x-action class="btn-dark" class:hover={menuOpen} on:click={toggle} data-tooltip={locale.actions.moveTo}>
+    <MoveTo/>
+    <div class="anchor">
+      <Popup anchor="top-left" bind:open={menuOpen}>
+        <Menu>
+          {#each folders as box, i}
+            <MenuItem icon={metas[i].icon} on:click={() => to(box)}>
+              {metas[i].label}
+            </MenuItem>
+          {/each}
+        </Menu>
+      </Popup>
+    </div>
+    <Ripple />
+  </x-action>
 {/if}

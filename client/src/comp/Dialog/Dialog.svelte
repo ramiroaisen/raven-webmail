@@ -36,36 +36,55 @@
 <script>
     import {fade} from "svelte/transition";
 
+    import {onceBackButton} from "lib@onceBackButton.js";
+    import {once} from "lib@util.js";
+
     let isOpen = false;
 
     let title;
     let onClose;
     let modal
 
+    let close;
 
-    const noop = () => {};
     // args:
     // title: string
     // onClose: function (if modal)
     // modal: boolean (false)
+
     export const open = (args = {}) => {
         title = args.title || null;
-        onClose = args.onClose || null;
         modal = modal || false;
         isOpen = true;
-    }
 
-    export const close = () => {
-        modal = false;
-        onClose = null;
-        title = null;
-        isOpen = false;
-    }
+        let trigger = true;
 
+        let remove;
+
+        const _close = () => {
+            modal = false;
+            title = null;
+            isOpen = false;
+            remove && remove();
+            trigger && args.onClose && args.onClose();
+        }
+
+        if(!modal) {
+            remove = onceBackButton(_close);
+            close = once(() => history.back())
+        } else {
+            close = once(_close);
+        }
+
+        return () => {
+            trigger = false;
+            close();
+        }
+    }
 
     const keydown = event => {
-        if(isOpen && !modal && onClose && event.key === "Escape") {
-            onClose();
+        if(isOpen && !modal && event.key === "Escape") {
+            close();
         }
     }
 
@@ -74,7 +93,7 @@
 <svelte:window on:keydown|capture={keydown} />
 
 {#if isOpen}
-    <x-overlay class:modal transition:fade={{duration: 200}} on:click={() => !modal && onClose && onClose()}>
+    <x-overlay class:modal transition:fade={{duration: 200}} on:click={() => !modal && close()}>
         <x-dialog class="elevation-4" on:click|stopPropagation>
             {#if title != null}
                 <x-title>{title}</x-title>

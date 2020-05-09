@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "ବାହାରି ଯାନ୍ତୁ",
-        "myAccount": "ମୋ ଖାତା"
+        "myAccount": "ମୋ ଖାତା",
+        "filters": "ଫିଲ୍ଟର୍ |"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "ପ୍ରତିଦିନ |"
             }
         }
+    },
+    "filters": {
+        "title": "ଫିଲ୍ଟର୍ |",
+        "commingSoon": "ଶୀଘ୍ର ଆସୁଅଛି"
     }
 };
 exports.default = locale;

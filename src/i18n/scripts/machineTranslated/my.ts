@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "ဆိုင်းအောက်",
-    "myAccount": "ငါ့အကောင့်"
+    "myAccount": "ငါ့အကောင့်",
+    "filters": "စစ်ထုတ်ရန်"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "နေ့စဉ်"
       }
     }
+  },
+  "filters": {
+    "title": "စစ်ထုတ်ရန်",
+    "commingSoon": "မကြာမှီလာမည်"
   }
 };
 

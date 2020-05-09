@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Ka bax",
-        "myAccount": "Xisaabteyda"
+        "myAccount": "Xisaabteyda",
+        "filters": "Miirayaasha"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "maalin kasta"
             }
         }
+    },
+    "filters": {
+        "title": "Miirayaasha",
+        "commingSoon": "Soo dhowaada"
     }
 };
 exports.default = locale;

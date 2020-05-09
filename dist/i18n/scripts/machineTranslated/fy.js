@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Út logge",
-        "myAccount": "Myn account"
+        "myAccount": "Myn account",
+        "filters": "Filters"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "deistich"
             }
         }
+    },
+    "filters": {
+        "title": "Filters",
+        "commingSoon": "Meikoarten"
     }
 };
 exports.default = locale;

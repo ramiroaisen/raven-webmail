@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "ອອກ​ຈາກ​ລະ​ບົບ",
-    "myAccount": "ບັນ​ຊີ​ຂອງ​ຂ້ອຍ"
+    "myAccount": "ບັນ​ຊີ​ຂອງ​ຂ້ອຍ",
+    "filters": "ຕົວກອງ"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "ປະຈໍາວັນ"
       }
     }
+  },
+  "filters": {
+    "title": "ຕົວກອງ",
+    "commingSoon": "ໃກ້ເຂົ້າມາແລ້ວ"
   }
 };
 

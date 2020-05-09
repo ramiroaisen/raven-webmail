@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Keluar",
-        "myAccount": "Akun saya"
+        "myAccount": "Akun saya",
+        "filters": "Filter"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "harian"
             }
         }
+    },
+    "filters": {
+        "title": "Filter",
+        "commingSoon": "Segera akan datang"
     }
 };
 exports.default = locale;

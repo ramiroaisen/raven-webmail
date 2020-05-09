@@ -1,6 +1,5 @@
 <script>
     import Dialog from "./Dialog.svelte";
-    import {writable} from "lib@store.js";
 
     // @args
     // title: string
@@ -16,25 +15,28 @@
 
     export const open = async (_args) => {
 
-        args = _args
-
         return new Promise(resolve => {
 
+            const close = dialog.open({
+                title: _args.title,
+                modal: false,
+                onClose: () => {
+                    console.log("onClose");
+                    resolve(false);
+                }
+            });
+
+            args = _args;
+
             accept = () => {
-                dialog.close();
+                close();
                 resolve(true);
             }
 
             cancel = () => {
-                dialog.close();
+                close();
                 resolve(false)
             }
-
-            dialog.open({
-                title: args.title,
-                modal: false,
-                onClose: cancel
-            });
         })
     }
 

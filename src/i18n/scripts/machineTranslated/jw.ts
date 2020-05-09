@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Mlebu",
-    "myAccount": "Pendhaftaran"
+    "myAccount": "Pendhaftaran",
+    "filters": "Saringan"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "saben dina"
       }
     }
+  },
+  "filters": {
+    "title": "Saringan",
+    "commingSoon": "Bakal rauh"
   }
 };
 

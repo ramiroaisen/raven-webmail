@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Exscribe",
-    "myAccount": "Propter me"
+    "myAccount": "Propter me",
+    "filters": "Filtra"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "cotidie"
       }
     }
+  },
+  "filters": {
+    "title": "Filtra",
+    "commingSoon": "Mox adventu"
   }
 };
 

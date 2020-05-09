@@ -8,7 +8,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;
-    z-index: 200;
+    z-index: 10;
   }
 
   x-overlay {

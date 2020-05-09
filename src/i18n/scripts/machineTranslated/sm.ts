@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Saini ese",
-    "myAccount": "Lou tala"
+    "myAccount": "Lou tala",
+    "filters": "Faamama"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "i aso uma"
       }
     }
+  },
+  "filters": {
+    "title": "Faamama",
+    "commingSoon": "Toetiti sau"
   }
 };
 

@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "साइन आउट गर्नुहोस्",
-    "myAccount": "मेरो खाता"
+    "myAccount": "मेरो खाता",
+    "filters": "फिल्टरहरू"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "दैनिक"
       }
     }
+  },
+  "filters": {
+    "title": "फिल्टरहरू",
+    "commingSoon": "आउदैछ"
   }
 };
 

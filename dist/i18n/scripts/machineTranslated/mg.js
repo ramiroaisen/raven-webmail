@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "hivoaka",
-        "myAccount": "Ny kaontiko"
+        "myAccount": "Ny kaontiko",
+        "filters": "sivana"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "isan'andro"
             }
         }
+    },
+    "filters": {
+        "title": "sivana",
+        "commingSoon": "Ho avy tsy ho ela"
     }
 };
 exports.default = locale;

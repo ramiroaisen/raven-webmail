@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Shenja",
-    "myAccount": "Llogaria ime"
+    "myAccount": "Llogaria ime",
+    "filters": "Filters"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "i përditshëm"
       }
     }
+  },
+  "filters": {
+    "title": "Filters",
+    "commingSoon": "Vjen së shpejti"
   }
 };
 

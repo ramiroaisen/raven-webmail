@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Mag-sign out",
-    "myAccount": "Aking Account"
+    "myAccount": "Aking Account",
+    "filters": "Mga Filter"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "araw-araw"
       }
     }
+  },
+  "filters": {
+    "title": "Mga Filter",
+    "commingSoon": "Malapit na"
   }
 };
 

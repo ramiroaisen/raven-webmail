@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "வெளியேறு",
-        "myAccount": "என் கணக்கு"
+        "myAccount": "என் கணக்கு",
+        "filters": "வடிப்பான்கள்"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "தினசரி"
             }
         }
+    },
+    "filters": {
+        "title": "வடிப்பான்கள்",
+        "commingSoon": "விரைவில்"
     }
 };
 exports.default = locale;

@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "ifowosi jada",
-    "myAccount": "Akọọlẹ mi"
+    "myAccount": "Akọọlẹ mi",
+    "filters": "Ajọ"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "ojoojumo"
       }
     }
+  },
+  "filters": {
+    "title": "Ajọ",
+    "commingSoon": "Nbọ laipẹ"
   }
 };
 

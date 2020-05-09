@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Dekonekte",
-        "myAccount": "Kont mwen"
+        "myAccount": "Kont mwen",
+        "filters": "Filtè yo"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "chak jou"
             }
         }
+    },
+    "filters": {
+        "title": "Filtè yo",
+        "commingSoon": "Vini byento"
     }
 };
 exports.default = locale;

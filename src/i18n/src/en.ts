@@ -40,6 +40,7 @@ const locale: Locale = {
     accountButton: {
         logout: "Sign out",
         myAccount: "My account",
+        filters: "Filters",
     },
 
     compose: {
@@ -214,6 +215,11 @@ const locale: Locale = {
                 comment: "daily"
             }
         }
+    },
+
+    filters: {
+        title: "Filters",
+        commingSoon: "Coming soon"
     }
 };
 

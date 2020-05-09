@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Hasabyňyzdan çykyň",
-    "myAccount": "Hasabym"
+    "myAccount": "Hasabym",
+    "filters": "Süzgüçler"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "her gün"
       }
     }
+  },
+  "filters": {
+    "title": "Süzgüçler",
+    "commingSoon": "Soonakynda"
   }
 };
 

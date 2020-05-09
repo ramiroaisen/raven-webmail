@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Izrakstīties",
-        "myAccount": "Mans Konts"
+        "myAccount": "Mans Konts",
+        "filters": "Filtri"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "katru dienu"
             }
         }
+    },
+    "filters": {
+        "title": "Filtri",
+        "commingSoon": "Drīzumā"
     }
 };
 exports.default = locale;

@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "خروج",
-        "myAccount": "حسابي"
+        "myAccount": "حسابي",
+        "filters": "مرشحات"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "اليومي"
             }
         }
+    },
+    "filters": {
+        "title": "مرشحات",
+        "commingSoon": "قريبا"
     }
 };
 exports.default = locale;

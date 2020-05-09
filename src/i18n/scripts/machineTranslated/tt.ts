@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Чыгарга",
-    "myAccount": "Минем хисап язма"
+    "myAccount": "Минем хисап язма",
+    "filters": "Фильтрлар"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "көн саен"
       }
     }
+  },
+  "filters": {
+    "title": "Фильтрлар",
+    "commingSoon": "Килә тиздән"
   }
 };
 

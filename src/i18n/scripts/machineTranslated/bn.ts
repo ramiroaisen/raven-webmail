@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "সাইন আউট",
-    "myAccount": "আমার অ্যাকাউন্ট"
+    "myAccount": "আমার অ্যাকাউন্ট",
+    "filters": "ফিল্টার"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "দৈনন্দিন"
       }
     }
+  },
+  "filters": {
+    "title": "ফিল্টার",
+    "commingSoon": "শীঘ্রই আসছে"
   }
 };
 

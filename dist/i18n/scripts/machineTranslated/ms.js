@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Keluar",
-        "myAccount": "Akaun saya"
+        "myAccount": "Akaun saya",
+        "filters": "Penapis"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "setiap hari"
             }
         }
+    },
+    "filters": {
+        "title": "Penapis",
+        "commingSoon": "Akan datang"
     }
 };
 exports.default = locale;

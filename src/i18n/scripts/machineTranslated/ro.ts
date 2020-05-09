@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Sign out",
-    "myAccount": "Contul meu"
+    "myAccount": "Contul meu",
+    "filters": "Filtre"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "zilnic"
       }
     }
+  },
+  "filters": {
+    "title": "Filtre",
+    "commingSoon": "In curand"
   }
 };
 

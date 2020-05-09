@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Chiqish",
-    "myAccount": "Mening hisobim"
+    "myAccount": "Mening hisobim",
+    "filters": "Filtrlar"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "kunlik"
       }
     }
+  },
+  "filters": {
+    "title": "Filtrlar",
+    "commingSoon": "Tez kunda"
   }
 };
 

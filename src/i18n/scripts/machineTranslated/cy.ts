@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Cofrestrwch allan",
-    "myAccount": "Fy nghyfrif"
+    "myAccount": "Fy nghyfrif",
+    "filters": "Hidlau"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "yn ddyddiol"
       }
     }
+  },
+  "filters": {
+    "title": "Hidlau",
+    "commingSoon": "Dod yn fuan"
   }
 };
 

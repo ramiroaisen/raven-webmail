@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Pag-sign out",
-    "myAccount": "Akong account"
+    "myAccount": "Akong account",
+    "filters": "Mga filter"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "adlaw-adlaw"
       }
     }
+  },
+  "filters": {
+    "title": "Mga filter",
+    "commingSoon": "Malapit na"
   }
 };
 

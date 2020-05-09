@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Exscribe",
-        "myAccount": "Propter me"
+        "myAccount": "Propter me",
+        "filters": "Filtra"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "cotidie"
             }
         }
+    },
+    "filters": {
+        "title": "Filtra",
+        "commingSoon": "Mox adventu"
     }
 };
 exports.default = locale;

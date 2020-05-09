@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Lele",
-        "myAccount": "ʻO kaʻu moʻokāki"
+        "myAccount": "ʻO kaʻu moʻokāki",
+        "filters": "Nā kānga"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "i kēlā me kēia lā"
             }
         }
+    },
+    "filters": {
+        "title": "Nā kānga",
+        "commingSoon": "Hiki koke"
     }
 };
 exports.default = locale;

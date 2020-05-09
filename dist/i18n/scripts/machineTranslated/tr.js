@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "oturumu Kapat",
-        "myAccount": "Hesabım"
+        "myAccount": "Hesabım",
+        "filters": "Filtreler"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "günlük"
             }
         }
+    },
+    "filters": {
+        "title": "Filtreler",
+        "commingSoon": "Çok yakında"
     }
 };
 exports.default = locale;

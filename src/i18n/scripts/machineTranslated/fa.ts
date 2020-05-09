@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "خروج از سیستم",
-    "myAccount": "حساب من"
+    "myAccount": "حساب من",
+    "filters": "فیلترها"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "روزانه"
       }
     }
+  },
+  "filters": {
+    "title": "فیلترها",
+    "commingSoon": "به زودی"
   }
 };
 

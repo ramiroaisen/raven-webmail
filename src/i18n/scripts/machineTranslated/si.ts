@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "වරන්න",
-    "myAccount": "මගේ ගිණුම"
+    "myAccount": "මගේ ගිණුම",
+    "filters": "පෙරහන්"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "දිනපතා"
       }
     }
+  },
+  "filters": {
+    "title": "පෙරහන්",
+    "commingSoon": "ඉක්මණින් පැමිණෙන"
   }
 };
 

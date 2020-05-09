@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "התנתק",
-        "myAccount": "החשבון שלי"
+        "myAccount": "החשבון שלי",
+        "filters": "מסננים"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "יום יומי"
             }
         }
+    },
+    "filters": {
+        "title": "מסננים",
+        "commingSoon": "בקרוב"
     }
 };
 exports.default = locale;

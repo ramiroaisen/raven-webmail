@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "سائن آئوٽ ڪريو",
-        "myAccount": "منهنجو اڪائونٽ"
+        "myAccount": "منهنجو اڪائونٽ",
+        "filters": "فلٽر"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "روزانو"
             }
         }
+    },
+    "filters": {
+        "title": "فلٽر",
+        "commingSoon": "جلد ايندو"
     }
 };
 exports.default = locale;

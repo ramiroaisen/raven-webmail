@@ -32,7 +32,8 @@ const locale = {
     },
     "accountButton": {
         "logout": "Soidhnig a-mach",
-        "myAccount": "Mo chunntas"
+        "myAccount": "Mo chunntas",
+        "filters": "Filters"
     },
     "compose": {
         "labels": {
@@ -186,6 +187,10 @@ const locale = {
                 "comment": "gach latha"
             }
         }
+    },
+    "filters": {
+        "title": "Filters",
+        "commingSoon": "A 'tighinn a dh'aithgheàrr"
     }
 };
 exports.default = locale;

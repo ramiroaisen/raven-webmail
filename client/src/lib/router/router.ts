@@ -1,6 +1,7 @@
 import { Writable, Readable, readable, writable, readonly } from "../../lib/store";
 import { match as _match } from "path-to-regexp";
 import {SvelteComponent} from "*.svelte";
+import {once} from "../util";
 
 export type Component = {
   preload?: (page: Page, session: any) => any, 
@@ -22,6 +23,14 @@ export type Page = {
 export type Match = {
   params: Record<string, string>
   get: () => Promise<Component>
+}
+
+let preventers = new Set<((event: HashChangeEvent) => boolean)>();
+export const registerPreventer = (fn: (event: HashChangeEvent) => boolean) => {
+  preventers.add(fn);
+  return () => {
+    preventers.delete(fn);
+  }
 }
 
 
@@ -149,7 +158,14 @@ export const createRouter = (inp: Record<string, () => Promise<Component>> = {},
       resolve();
     })
 
-    window.onhashchange = () => hash.set(location.hash);
+    window.onhashchange = (event: HashChangeEvent) => {
+      for(const fn of preventers) {
+        if(fn(event) === false) {
+          return;
+        }
+      }
+      hash.set(location.hash);
+    }
   })
 
   const link = (node: HTMLAnchorElement) => {

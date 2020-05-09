@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Sorte",
-    "myAccount": "U mo contu"
+    "myAccount": "U mo contu",
+    "filters": "Filtri"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "ogni ghjornu"
       }
     }
+  },
+  "filters": {
+    "title": "Filtri",
+    "commingSoon": "Prestu"
   }
 };
 

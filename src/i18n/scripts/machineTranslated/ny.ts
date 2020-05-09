@@ -32,7 +32,8 @@ const locale: Locale = {
   },
   "accountButton": {
     "logout": "Tulukani",
-    "myAccount": "Akaunti Yanga"
+    "myAccount": "Akaunti Yanga",
+    "filters": "Zosefera"
   },
   "compose": {
     "labels": {
@@ -186,6 +187,10 @@ const locale: Locale = {
         "comment": "tsiku ndi tsiku"
       }
     }
+  },
+  "filters": {
+    "title": "Zosefera",
+    "commingSoon": "Zikubwera posachedwa"
   }
 };
 
