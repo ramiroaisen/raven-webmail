@@ -62,7 +62,6 @@ Please if you create a locale for your language make a PR or an issue and I will
 - [x] Better page titles
 - [x] Localization 
 - [x] Create / Remove folders
-- [ ] Create / Remove aliases
 - [ ] Create / Remove filters
 - [ ] Choose sender address (currently uses user default address)
 
@@ -107,3 +106,7 @@ node raven start
 ---
 
 ##### If you find a bug or have a feature request start an issue in this repo
+
+----
+
+##### Are you using raven-webmail in production? Let me know!
