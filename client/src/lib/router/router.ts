@@ -41,11 +41,15 @@ export const createRouter = (inp: Record<string, () => Promise<Component>> = {},
 
   const routes: Route[] = [];
 
+
   const page = writable<Page>(null as unknown as Page);
   
   const _render = writable<{component: SvelteComponent, args: Record<string, any>} | null>(null);
 
   const hash = writable<string>(location.hash);
+
+  const preloading = writable(false);
+  preloading.subscribe(v => console.log("preloading", v));
 
   const add = (url: string, get: () => Promise<Component>) => {
     routes.push({
@@ -77,6 +81,8 @@ export const createRouter = (inp: Record<string, () => Promise<Component>> = {},
     hash.subscribe(async () => {
       
       console.log("[ROUTER] [HASHCHANGE]", location.hash);
+
+      preloading.set(true);
 
       const h = location.hash;
       const hash = h.replace(/^#!?\//, "/") || "/";
@@ -147,6 +153,7 @@ export const createRouter = (inp: Record<string, () => Promise<Component>> = {},
           log("[ROUTER] [PRELOADED]", args)
         }
 
+        preloading.set(false);
         page.set({ path, query, host, params })
         _render.set({component, args})
         return resolve();
@@ -184,5 +191,5 @@ export const createRouter = (inp: Record<string, () => Promise<Component>> = {},
     }
   }
 
-  return {start, add, match, page, hash, _render, link}
+  return {start, add, match, page, hash, _render, link, preloading}
 }

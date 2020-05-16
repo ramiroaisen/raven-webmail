@@ -14,6 +14,8 @@ export const createRouter = (inp = {}, session = writable(null), { dev = true } 
     const page = writable(null);
     const _render = writable(null);
     const hash = writable(location.hash);
+    const preloading = writable(false);
+    preloading.subscribe(v => console.log("preloading", v));
     const add = (url, get) => {
         routes.push({
             get,
@@ -38,6 +40,7 @@ export const createRouter = (inp = {}, session = writable(null), { dev = true } 
     const start = () => new Promise(resolve => {
         hash.subscribe(async () => {
             console.log("[ROUTER] [HASHCHANGE]", location.hash);
+            preloading.set(true);
             const h = location.hash;
             const hash = h.replace(/^#!?\//, "/") || "/";
             const url = new URL(hash, location.href);
@@ -97,6 +100,7 @@ export const createRouter = (inp = {}, session = writable(null), { dev = true } 
                     }
                     log("[ROUTER] [PRELOADED]", args);
                 }
+                preloading.set(false);
                 page.set({ path, query, host, params });
                 _render.set({ component, args });
                 return resolve();
@@ -127,5 +131,5 @@ export const createRouter = (inp = {}, session = writable(null), { dev = true } 
             }
         };
     };
-    return { start, add, match, page, hash, _render, link };
+    return { start, add, match, page, hash, _render, link, preloading };
 };

@@ -1,4 +1,6 @@
 <script>
+  import Preloading from "./Preloading.svelte";
+
   export let router;
   $: render = router._render;
   $: page = router.page;
