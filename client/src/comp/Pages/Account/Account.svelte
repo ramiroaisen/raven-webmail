@@ -136,11 +136,6 @@
         font-size: 1.15em;
         color: #666;
     }
-
-
-    .unimplemented {
-        height: 25em;
-    }
 </style>
 
 <script>
@@ -265,7 +260,7 @@
                 </div>
             </div>
 
-            <div class="box quota received-quota">
+            <div class="box quota recipients-quota">
                 <div class="box-title">
                     {locale.limits.recipients.title}
                     <span class="comment">{locale.limits.recipients.comment}</span>
@@ -283,7 +278,7 @@
                 </div>
             </div>
 
-            <div class="box quota received-quota">
+            <div class="box quota forwards-quota">
                 <div class="box-title">
                     {locale.limits.forwards.title}
                     <span class="comment">{locale.limits.forwards.comment}</span>
