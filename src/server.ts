@@ -66,8 +66,11 @@ export const start = async (config: Config) => {
     const json = (vars: any) => `JSON.parse(${JSON.stringify(JSON.stringify(vars)).replace(/<\//g, "<\\/")})`;
     const scripts = `<script>__RAVEN__=${json(vars)};</script>`;
 
+    const html = template
+        .replace("%raven.scripts%", scripts)
+        .replace("%raven.lang%", req.lang!);
 
-    res.end(template.replace("%raven.scripts%", scripts));
+    res.end(html);
   })
 
   app.use(serve(path.resolve(__dirname, "../client/public")));

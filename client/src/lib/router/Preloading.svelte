@@ -60,7 +60,7 @@
     onMount(() => {
         setTimeout(() => {
             mounted = true;
-        }, 500)
+        }, 1000)
     })
 
 </script>

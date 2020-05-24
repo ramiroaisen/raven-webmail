@@ -54,7 +54,10 @@ exports.start = async (config) => {
         };
         const json = (vars) => `JSON.parse(${JSON.stringify(JSON.stringify(vars)).replace(/<\//g, "<\\/")})`;
         const scripts = `<script>__RAVEN__=${json(vars)};</script>`;
-        res.end(template.replace("%raven.scripts%", scripts));
+        const html = template
+            .replace("%raven.scripts%", scripts)
+            .replace("%raven.lang%", req.lang);
+        res.end(html);
     });
     app.use(serve_static_1.default(path_1.default.resolve(__dirname, "../client/public")));
     app.use(body_parser_1.default.json());
