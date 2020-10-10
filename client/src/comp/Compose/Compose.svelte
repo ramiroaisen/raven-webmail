@@ -283,8 +283,8 @@
       $self.id = await saveDraft($self);
     }
 
-    timer = setTimeout(function fn(){
-      saveIf();
+    timer = setTimeout(async function fn(){
+      await saveIf()
       timer = setTimeout(fn, ms);
     }, ms);
   })
@@ -322,7 +322,8 @@
       return;
 
     sending = true;
-
+    await saveIf();
+  
     try {
       await submitDraft($self.id);
       getNotifier().add({variant: "success", text: locale.notifier.messageSent});
@@ -331,6 +332,7 @@
       getNotifier().add({variant: "error", text: e.message});
     } finally {
       sending = false;
+      afterSave = null;
     }
   }
 
