@@ -277,6 +277,8 @@
     }
   }
 
+  let currentSaving;
+
   onMount(async () => {
 
     if(!$self.id) {
@@ -284,7 +286,8 @@
     }
 
     timer = setTimeout(async function fn(){
-      await saveIf()
+      currentSaving = saveIf()
+      await currentSaving;
       timer = setTimeout(fn, ms);
     }, ms);
   })
@@ -322,6 +325,7 @@
       return;
 
     sending = true;
+    await currentSaving;
     await saveIf();
   
     try {

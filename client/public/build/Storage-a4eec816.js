@@ -1,2 +1,0 @@
-import{az as s,S as r,a,s as e,k as t,E as n,d as i,e as u,F as o,n as c,f}from"./main-42c9a9ac.js";function l(s){let r,a,e=JSON.stringify(s[0],null,2)+"";return{c(){r=t("pre"),a=n(e)},m(s,e){i(s,r,e),u(r,a)},p(s,[r]){1&r&&e!==(e=JSON.stringify(s[0],null,2)+"")&&o(a,e)},i:c,o:c,d(s){s&&f(r)}}}async function p(r,a){return{res:await s("/users/me/storage")}}function m(s,r,a){let{res:e}=r;return s.$set=s=>{"res"in s&&a(0,e=s.res)},[e]}export default class extends r{constructor(s){super(),a(this,s,m,l,e,{res:0})}}export{p as preload};
-//# sourceMappingURL=Storage-a4eec816.js.map
