@@ -5,7 +5,7 @@
 
 html{
 	
-	--font-family: "Source Sans Pro", Lato, Roboto, Muli, system-ui, Spartan, system-ui, sans-serif;
+	--font-family: "Source Sans Pro", Lato, Roboto, Muli, Mulish, Spartan, system-ui, sans-serif;
 	--button-font-family: var(--font-family);
 	
 	font-family: var(--font-family);
