@@ -22,7 +22,7 @@ exports.download = async (config) => {
         }).then(inc => {
             res.writeHead(inc.status, inc.statusText, {
                 ...Object.fromEntries(inc.headers.entries()),
-                "content-disposition": `attachment; filename=${JSON.stringify(req.query.filename || "unnamed")}`
+                "content-disposition": `attachment; filename="${encodeURIComponent(String(req.query.filename)) || "unnamed"}"`
             });
             inc.body.pipe(res);
         }).catch(err => {

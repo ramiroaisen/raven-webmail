@@ -411,7 +411,7 @@
         "version": "52462caf946f39fc8666b5279fdea48919c93484e9a773872550a2bd5be8b448"
       },
       "./src/download.ts": {
-        "version": "25e21ec2758c3164a0e06f9c12f31936a56961b32677674aa2b4f0369c73bf1d"
+        "version": "e2cf35bed974f3b7bb98d44366528a3dd956bdbbf4290920205df8ce5fa52bdd"
       },
       "./node_modules/commander/typings/index.d.ts": {
         "version": "c72b982add26c5ddf410899bcafe3f47253a5d274d4b93d2ef67850d4af4545b",
@@ -3559,7 +3559,6 @@
       "./node_modules/chalk/index.d.ts",
       "./src/config.ts",
       "./src/auth.ts",
-      "./src/download.ts",
       "./node_modules/commander/typings/index.d.ts",
       "./node_modules/@types/mkdirp/index.d.ts",
       "./node_modules/@types/accept-language-parser/index.d.ts",
@@ -3693,6 +3692,7 @@
       "./src/i18n/scripts/machineTranslated/zh-TW.ts",
       "./src/i18n/scripts/machineTranslated/zh.ts",
       "./src/i18n/scripts/machineTranslated/zu.ts",
+      "./src/download.ts",
       "./src/server.ts"
     ]
   },
