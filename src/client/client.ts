@@ -20,10 +20,6 @@ export type ClientOptions = {
   apiToken: string
 }
 
-const agentOpts = {keepAlive: true};
-
-const local = true;
-
 const httpAgent = new http.Agent({keepAlive: true});
 const httpsAgent = new https.Agent({keepAlive: true});
 
@@ -50,7 +46,7 @@ export class Client {
     opts.method = opts.method || "GET";
 
     opts.headers = opts.headers || {};
-    opts.headers["Content-Type"] = "application/json";
+    opts.headers["content-type"] = "application/json";
 
     if (path === "/authenticate") {
       opts.headers!["x-access-token"] = this.opts.apiToken;
@@ -88,7 +84,6 @@ export class Client {
     return await this.fetch(path, {method: "POST", body: JSON.stringify(body)})
   }
 
-  // (update)
   async put<T=any>(path: string, body: any): Promise<T> {
     return await this.fetch(path, {method: "PUT", body: JSON.stringify(body)})
   }

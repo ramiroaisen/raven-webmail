@@ -46,6 +46,9 @@ import ProgressButton from "root@comp/ProgressButton.svelte";
                 existingPassword: currentPassword,
                 password: newPassword,
             });
+            currentPassword = "";
+            newPassword = "";
+            confirmPassword = "";
             getNotifier().add({ variant: "normal", text: "Password updated" });
             passwordDialogOpen = false;
         } catch (e) {
@@ -459,7 +462,7 @@ import ProgressButton from "root@comp/ProgressButton.svelte";
     <Dialog2
         bind:open={passwordDialogOpen}
         title={locale.commonActions.updatePassword}>
-        <div class="password-dialog">
+        <form class="password-dialog" on:submit|preventDefault={updatePassword}>
             <div class="field">
                 <Password
                     label={locale.commonActions.currentPassword}
@@ -477,10 +480,10 @@ import ProgressButton from "root@comp/ProgressButton.svelte";
             </div>
 
             <div class="send">
-                <ProgressButton color="#4273e8" progress={{size: "1.5em"}} raised inprogress={updatingPassword} on:click={updatePassword}>
+                <ProgressButton color="#4273e8" progress={{size: "1.5em"}} raised inprogress={updatingPassword}>
                     <span style="text-transform: none; font-size:1.1em">{locale.commonActions.updatePassword}</span>
                 </ProgressButton>
             </div>
-        </div>
+        </form>
     </Dialog2>
 {/if}

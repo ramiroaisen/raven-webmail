@@ -44,7 +44,9 @@ export const session = (config: Config) => {
           next();
 
         } catch(e){
-          next(e)
+          // ignore invalidated access tokens
+          // next(e)
+          next();
         }
       } else {
         next();

@@ -7,8 +7,6 @@ const node_fetch_1 = __importDefault(require("node-fetch"));
 const eventsource_1 = __importDefault(require("eventsource"));
 const http_1 = __importDefault(require("http"));
 const https_1 = __importDefault(require("https"));
-const agentOpts = { keepAlive: true };
-const local = true;
 const httpAgent = new http_1.default.Agent({ keepAlive: true });
 const httpsAgent = new https_1.default.Agent({ keepAlive: true });
 class Client {
@@ -22,7 +20,7 @@ class Client {
         const url = this.opts.host + path;
         opts.method = opts.method || "GET";
         opts.headers = opts.headers || {};
-        opts.headers["Content-Type"] = "application/json";
+        opts.headers["content-type"] = "application/json";
         if (path === "/authenticate") {
             opts.headers["x-access-token"] = this.opts.apiToken;
         }
@@ -53,7 +51,6 @@ class Client {
     async post(path, body) {
         return await this.fetch(path, { method: "POST", body: JSON.stringify(body) });
     }
-    // (update)
     async put(path, body) {
         return await this.fetch(path, { method: "PUT", body: JSON.stringify(body) });
     }
