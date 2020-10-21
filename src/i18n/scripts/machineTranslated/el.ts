@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Ο λογαριασμός μου",
+    "commonActions": {
+      "title": "Κοινές δράσεις",
+      "updatePassword": "Ενημέρωση κωδικού πρόσβασης",
+      "currentPassword": "Τρέχων κωδικός πρόσβασης",
+      "newPassword": "Νέος Κωδικός",
+      "confirmPassword": "Επιβεβαιώστε τον καινούριο σας κωδικό"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "από {gb} GB",

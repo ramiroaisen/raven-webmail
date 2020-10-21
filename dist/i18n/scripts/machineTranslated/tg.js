@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Ҳисоби ман",
+        "commonActions": {
+            "title": "Амалҳои маъмул",
+            "updatePassword": "Паролро навсозӣ кунед",
+            "currentPassword": "Калидвожаи Феълӣ",
+            "newPassword": "Калидвожаи Нав",
+            "confirmPassword": "Гузарвожаи навро тасдиқ кунед"
+        },
         "limits": {
             "gbUsed": "{gb} ГБ",
             "gbTotal": "аз {gb} ГБ",

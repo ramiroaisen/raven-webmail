@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "マイアカウント",
+    "commonActions": {
+      "title": "一般的なアクション",
+      "updatePassword": "パスワードを更新する",
+      "currentPassword": "現在のパスワード",
+      "newPassword": "新しいパスワード",
+      "confirmPassword": "新しいパスワードを確認"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "{gb} GB",

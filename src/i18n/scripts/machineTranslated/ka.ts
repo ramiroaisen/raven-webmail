@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Ჩემი ანგარიში",
+    "commonActions": {
+      "title": "საერთო მოქმედებები",
+      "updatePassword": "განაახლეთ პაროლი",
+      "currentPassword": "Მიმდინარე პაროლი",
+      "newPassword": "Ახალი პაროლი",
+      "confirmPassword": "Დაადასტურეთ ახალი პაროლი"
+    },
     "limits": {
       "gbUsed": "1} GB",
       "gbTotal": "{gb} GB",

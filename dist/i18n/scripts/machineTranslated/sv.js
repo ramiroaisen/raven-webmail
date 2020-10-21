@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Mitt konto",
+        "commonActions": {
+            "title": "Vanliga åtgärder",
+            "updatePassword": "Uppdatera lösenord",
+            "currentPassword": "Nuvarande lösenord",
+            "newPassword": "Nytt lösenord",
+            "confirmPassword": "Bekräfta nytt lösenord"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "av {gb} GB",

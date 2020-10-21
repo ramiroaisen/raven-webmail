@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Aking Account",
+    "commonActions": {
+      "title": "Mga karaniwang pagkilos",
+      "updatePassword": "I-update ang password",
+      "currentPassword": "Kasalukuyang password",
+      "newPassword": "Bagong password",
+      "confirmPassword": "Kumpirmahin ang bagong password"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "ng {gb} GB",

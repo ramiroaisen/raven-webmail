@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "ငါ့အကောင့်",
+    "commonActions": {
+      "title": "ဘုံလုပ်ရပ်များ",
+      "updatePassword": "စကားဝှက်ကိုမွမ်းမံပါ",
+      "currentPassword": "လက်ရှိစကားဝှက်",
+      "newPassword": "စကားဝှကိအသစ်",
+      "confirmPassword": "စကားဝှက်အသစ်ကိုအတည်ပြုပါ"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "{gb} GB ကို၏",

@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Kuv tus lej",
+        "commonActions": {
+            "title": "Kev ua",
+            "updatePassword": "Hloov password",
+            "currentPassword": "Lo lus zais tam sim no",
+            "newPassword": "Lo lus zais tshiab",
+            "confirmPassword": "Paub meej tus password tshiab"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "ntawm {gb} GB",

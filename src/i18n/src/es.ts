@@ -170,6 +170,14 @@ export default {
     myAccount: {
         title: "Mi cuenta",
 
+        commonActions: {
+            title: "Acciones comunes",
+            updatePassword: "Actualizar contraseña",
+            currentPassword: "Contraseña actual",
+            newPassword: "Nueva contraseña",
+            confirmPassword: "Confirmar nueva contraseña",
+        },
+
         limits: {
 
             gbUsed: "{gb} GB",

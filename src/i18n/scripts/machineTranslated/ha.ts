@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Asusun",
+    "commonActions": {
+      "title": "Ayyuka gama gari",
+      "updatePassword": "Sabunta kalmar wucewa",
+      "currentPassword": "Kalmar shiga na halin yanzu",
+      "newPassword": "Sabuwar kalmar shiga",
+      "confirmPassword": "Tabbatar da sabuwar kalmar shiga"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "na {gb} GB",

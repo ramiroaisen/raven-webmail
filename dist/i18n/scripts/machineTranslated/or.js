@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "ମୋ ଖାତା",
+        "commonActions": {
+            "title": "ସାଧାରଣ କାର୍ଯ୍ୟ |",
+            "updatePassword": "ପାସୱାର୍ଡ ଅଦ୍ୟତନ କରନ୍ତୁ |",
+            "currentPassword": "ଏବେକାର ପାସୱାର୍ଡ଼",
+            "newPassword": "ନୁତନ ପାସ୍ୱାର୍ଡ",
+            "confirmPassword": "ନୂତନ ପାସୱାର୍ଡ ନିଶ୍ଚିତ କରନ୍ତୁ |"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "{gb} GB ର |",

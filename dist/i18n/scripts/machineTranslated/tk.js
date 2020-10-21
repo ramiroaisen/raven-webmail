@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Hasabym",
+        "commonActions": {
+            "title": "Umumy hereketler",
+            "updatePassword": "Paroly täzeläň",
+            "currentPassword": "Hazirki parolynyz",
+            "newPassword": "Täze parol",
+            "confirmPassword": "Täze paroly tassyklaň"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "{gb} GB",

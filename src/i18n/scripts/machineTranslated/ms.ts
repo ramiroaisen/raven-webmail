@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Akaun saya",
+    "commonActions": {
+      "title": "Tindakan biasa",
+      "updatePassword": "Kemas kini kata laluan",
+      "currentPassword": "Kata laluan semasa",
+      "newPassword": "Kata laluan baharu",
+      "confirmPassword": "Sahkan kata laluan baru"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "daripada {gb} GB",

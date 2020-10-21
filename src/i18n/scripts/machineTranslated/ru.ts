@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Мой счет",
+    "commonActions": {
+      "title": "Общие действия",
+      "updatePassword": "Обновить пароль",
+      "currentPassword": "Текущий пароль",
+      "newPassword": "Новый пароль",
+      "confirmPassword": "Подтвердите новый пароль"
+    },
     "limits": {
       "gbUsed": "{gb} ГБ",
       "gbTotal": "{gb} ГБ",

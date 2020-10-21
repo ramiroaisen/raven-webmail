@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Akun abdi",
+        "commonActions": {
+            "title": "Kalakuan biasa",
+            "updatePassword": "Perbarui sandi",
+            "currentPassword": "Kecap konci Ayeuna",
+            "newPassword": "Kecap konci Énggal",
+            "confirmPassword": "Konpirmasi sandi anyar"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "tina {gb} GB",

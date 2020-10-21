@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Akaunti Yanga",
+        "commonActions": {
+            "title": "Zochita zodziwika",
+            "updatePassword": "Sinthani mawu achinsinsi",
+            "currentPassword": "Mawu Achinsinsi Apano",
+            "newPassword": "Mawu Achinsinsi Atsopano",
+            "confirmPassword": "Tsimikizani chinsinsi chatsopano"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "ya {gb} GB",

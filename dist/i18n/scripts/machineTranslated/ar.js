@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "حسابي",
+        "commonActions": {
+            "title": "الإجراءات المشتركة",
+            "updatePassword": "تطوير كلمة السر",
+            "currentPassword": "كلمة السر الحالية",
+            "newPassword": "كلمة مرور جديدة",
+            "confirmPassword": "تأكيد كلمة المرور الجديدة"
+        },
         "limits": {
             "gbUsed": "{gb} جيجابايت",
             "gbTotal": "من {gb} جيجابايت",

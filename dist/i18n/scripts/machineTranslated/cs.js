@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Můj účet",
+        "commonActions": {
+            "title": "Společné akce",
+            "updatePassword": "Aktualizujte heslo",
+            "currentPassword": "Aktuální heslo",
+            "newPassword": "Nové heslo",
+            "confirmPassword": "Potvrďte nové heslo"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "z {gb} GB",

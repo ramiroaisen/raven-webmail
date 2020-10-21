@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "میرا اکاونٹ",
+    "commonActions": {
+      "title": "مشترکہ اقدامات",
+      "updatePassword": "پاس ورڈ کو اپ ڈیٹ کریں",
+      "currentPassword": "موجودہ خفیہ لفظ",
+      "newPassword": "نیا پاس ورڈ",
+      "confirmPassword": "نئے پاس ورڈ کی توثیق کریں"
+    },
     "limits": {
       "gbUsed": "{gb} جی بی",
       "gbTotal": "{gb} GB کا",

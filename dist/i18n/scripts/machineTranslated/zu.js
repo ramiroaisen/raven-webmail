@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "I-akhawunti yami",
+        "commonActions": {
+            "title": "Izenzo ezivamile",
+            "updatePassword": "Buyekeza iphasiwedi",
+            "currentPassword": "I-password Yamanje",
+            "newPassword": "Iphasiwedi Entsha",
+            "confirmPassword": "Qinisekisa iphasiwedi entsha"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "ka - 1 1 GB",

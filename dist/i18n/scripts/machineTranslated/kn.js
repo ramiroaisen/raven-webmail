@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "ನನ್ನ ಖಾತೆ",
+        "commonActions": {
+            "title": "ಸಾಮಾನ್ಯ ಕ್ರಿಯೆಗಳು",
+            "updatePassword": "ಪಾಸ್ವರ್ಡ್ ನವೀಕರಿಸಿ",
+            "currentPassword": "ಪ್ರಸ್ತುತ ಗುಪ್ತಪದ",
+            "newPassword": "ಹೊಸ ಪಾಸ್‌ವರ್ಡ್",
+            "confirmPassword": "ಹೊಸ ಗುಪ್ತಪದವನ್ನು ಖಚಿತಪಡಿಸಿ"
+        },
         "limits": {
             "gbUsed": "{gb} ಜಿಬಿ",
             "gbTotal": "{gb} ಜಿಬಿ",

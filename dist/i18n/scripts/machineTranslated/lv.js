@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Mans Konts",
+        "commonActions": {
+            "title": "Kopīgas darbības",
+            "updatePassword": "Atjaunināt paroli",
+            "currentPassword": "Pašreizējā parole",
+            "newPassword": "Jauna parole",
+            "confirmPassword": "Apstipriniet jauno paroli"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "no {gb} GB",

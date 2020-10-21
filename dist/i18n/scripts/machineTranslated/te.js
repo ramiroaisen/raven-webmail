@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "నా ఖాతా",
+        "commonActions": {
+            "title": "సాధారణ చర్యలు",
+            "updatePassword": "పాస్వర్డ్ను నవీకరించండి",
+            "currentPassword": "ప్రస్తుత పాస్వర్డ్",
+            "newPassword": "కొత్త పాస్వర్డ్",
+            "confirmPassword": "క్రొత్త పాస్‌వర్డ్‌ను నిర్ధారించండి"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "{gb} GB",

@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Akaundi yangu",
+    "commonActions": {
+      "title": "Zviito zvakajairika",
+      "updatePassword": "Gadziridza password",
+      "currentPassword": "Pasiwedhi yazvino",
+      "newPassword": "Nyowani nyowani",
+      "confirmPassword": "Simbisa nyowani nyowani"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "ye {gb} GB",

@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Akaụntụ M",
+        "commonActions": {
+            "title": "Omume ndị a na-ahụkarị",
+            "updatePassword": "Melite okwuntughe",
+            "currentPassword": "Okwuntughe Ugbu a",
+            "newPassword": "Okwuntughe Ọhụrụ",
+            "confirmPassword": "Kwenye okwuntughe ohuru"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "nke {gb} GB",

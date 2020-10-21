@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Mijn rekening",
+        "commonActions": {
+            "title": "Gemeenschappelijke acties",
+            "updatePassword": "Vernieuw wachtwoord",
+            "currentPassword": "Huidig wachtwoord",
+            "newPassword": "Nieuw paswoord",
+            "confirmPassword": "Bevestig nieuw wachtwoord"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "van {gb} GB",

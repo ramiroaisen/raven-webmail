@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Mia konto",
+        "commonActions": {
+            "title": "Oftaj agoj",
+            "updatePassword": "Ĝisdatigi pasvorton",
+            "currentPassword": "Aktuala Pasvorto",
+            "newPassword": "Nova pasvorto",
+            "confirmPassword": "Konfirmu novan pasvorton"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "de {gb} GB",

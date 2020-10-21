@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Myn account",
+    "commonActions": {
+      "title": "Algemiene aksjes",
+      "updatePassword": "Wachtwurd bywurkje",
+      "currentPassword": "Hjoeddeistich wachtwurd",
+      "newPassword": "Nij Wachtwurd",
+      "confirmPassword": "Befêstigje nij wachtwurd"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "fan {gb} GB",

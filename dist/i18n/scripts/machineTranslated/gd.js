@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Mo chunntas",
+        "commonActions": {
+            "title": "Gnìomhan cumanta",
+            "updatePassword": "Ùraich facal-faire",
+            "currentPassword": "Facal-faire gnàthaichte",
+            "newPassword": "Facal-faire ùr",
+            "confirmPassword": "Dearbhaich facal-faire ùr"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "de {gb} GB",

@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Lou tala",
+        "commonActions": {
+            "title": "Gaioiga masani",
+            "updatePassword": "Faʻalauiloa le faʻaupuga",
+            "currentPassword": "Upu tuanai o le taimi nei",
+            "newPassword": "Upu fou",
+            "confirmPassword": "Faʻamaonia le faʻaupuga fou"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "o le {gb} GB",

@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "ʻO kaʻu moʻokāki",
+    "commonActions": {
+      "title": "Nā hana maʻamau",
+      "updatePassword": "Hoʻohou i ka ʻōlelo huna",
+      "currentPassword": "Ōlelo huna i kēia manawa",
+      "newPassword": "Palapala ʻōlelo huna hou",
+      "confirmPassword": "E hōʻoia i ka ʻōlelo huna hou"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "o {gb} GB",

@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Konti yanjye",
+    "commonActions": {
+      "title": "Ibikorwa bisanzwe",
+      "updatePassword": "Kuvugurura ijambo ryibanga",
+      "currentPassword": "Ijambobanga ryubu",
+      "newPassword": "Ijambobanga rishya",
+      "confirmPassword": "Emeza ijambo ryibanga rishya"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "ya {gb} GB",

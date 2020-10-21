@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Mano sąskaita",
+    "commonActions": {
+      "title": "Bendri veiksmai",
+      "updatePassword": "Atnaujinkite slaptažodį",
+      "currentPassword": "Dabartinis slaptažodis",
+      "newPassword": "Naujas Slaptažodis",
+      "confirmPassword": "Patvirtinti naują slaptažodį"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "iš {gb} GB",

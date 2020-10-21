@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Hesabım",
+    "commonActions": {
+      "title": "Ortak eylemler",
+      "updatePassword": "Şifreyi güncelle",
+      "currentPassword": "Şimdiki Şifre",
+      "newPassword": "Yeni Şifre",
+      "confirmPassword": "Yeni şifreyi onayla"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "{gb} GB",

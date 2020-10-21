@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "U mo contu",
+        "commonActions": {
+            "title": "Azzioni cumuni",
+            "updatePassword": "Aghjurnà a parolla d'intesa",
+            "currentPassword": "Parolla d'intesa attuale",
+            "newPassword": "Nova password",
+            "confirmPassword": "Cunfirmà a nova password"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "di {gb} GB",

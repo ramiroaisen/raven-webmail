@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Contul meu",
+    "commonActions": {
+      "title": "Acțiuni comune",
+      "updatePassword": "Actualizați parola",
+      "currentPassword": "Parola actuală",
+      "newPassword": "Parolă Nouă",
+      "confirmPassword": "Confirmă noua parolă"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "din {gb} GB",

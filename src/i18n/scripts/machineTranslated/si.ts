@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "මගේ ගිණුම",
+    "commonActions": {
+      "title": "පොදු ක්රියාවන්",
+      "updatePassword": "මුරපදය යාවත්කාලීන කරන්න",
+      "currentPassword": "වත්මන් මුරපදය",
+      "newPassword": "නව මුරපදය",
+      "confirmPassword": "නව මුරපදය තහවුරු කරන්න"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "{gb} GB",

@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Llogaria ime",
+    "commonActions": {
+      "title": "Veprimet e zakonshme",
+      "updatePassword": "Përditëso fjalëkalimin",
+      "currentPassword": "Fjalëkalimi aktual",
+      "newPassword": "Fjalëkalim i ri",
+      "confirmPassword": "Konfirmoni fjalëkalimin e ri"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "prej {gb} GB",

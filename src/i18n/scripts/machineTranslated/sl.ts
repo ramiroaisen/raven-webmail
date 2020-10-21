@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Moj račun",
+    "commonActions": {
+      "title": "Skupna dejanja",
+      "updatePassword": "Posodobi geslo",
+      "currentPassword": "Trenutno geslo",
+      "newPassword": "Novo geslo",
+      "confirmPassword": "Potrdite novo geslo"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "od {gb} GB",

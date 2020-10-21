@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Mening hisobim",
+    "commonActions": {
+      "title": "Umumiy harakatlar",
+      "updatePassword": "Parolni yangilang",
+      "currentPassword": "Hozirgi maxfiy so'z",
+      "newPassword": "Yangi Parol",
+      "confirmPassword": "Yangi parolni tasdiqlang"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "{gb} GB",

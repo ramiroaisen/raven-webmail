@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "החשבון שלי",
+    "commonActions": {
+      "title": "פעולות נפוצות",
+      "updatePassword": "עדכן סיסמה",
+      "currentPassword": "סיסמה נוכחית",
+      "newPassword": "סיסמה חדשה",
+      "confirmPassword": "תאשר סיסמא חדשה"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "מתוך {gb} GB",

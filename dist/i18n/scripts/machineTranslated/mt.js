@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Kont tiegħi",
+        "commonActions": {
+            "title": "Azzjonijiet komuni",
+            "updatePassword": "Aġġorna l-password",
+            "currentPassword": "Password kurrenti",
+            "newPassword": "Password gdida",
+            "confirmPassword": "Ikkonferma password ġdida"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "ta '{gb} GB",

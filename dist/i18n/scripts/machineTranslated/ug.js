@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "ھېساباتىم",
+        "commonActions": {
+            "title": "ئورتاق ھەرىكەت",
+            "updatePassword": "پارولنى يېڭىلاش",
+            "currentPassword": "نۆۋەتتىكى پارول",
+            "newPassword": "يېڭى پارول",
+            "confirmPassword": "يېڭى پارولنى جەزملەشتۈرۈڭ"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "of 1} GB",

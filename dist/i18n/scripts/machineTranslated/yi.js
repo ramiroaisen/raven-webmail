@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "מיין אקאונט",
+        "commonActions": {
+            "title": "פּראָסט אַקשאַנז",
+            "updatePassword": "דערהייַנטיקן פּאַראָל",
+            "currentPassword": "קראַנט פּאַראָל",
+            "newPassword": "ניו פּאַראָל",
+            "confirmPassword": "באַשטעטיקן נייַ פּאַראָל"
+        },
         "limits": {
             "gbUsed": "{gb} גיגאבייט",
             "gbTotal": "פון {gb} גיגאבייט",

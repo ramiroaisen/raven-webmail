@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Minu konto",
+        "commonActions": {
+            "title": "Ühised tegevused",
+            "updatePassword": "Parooli värskendamine",
+            "currentPassword": "Praegune salasõna",
+            "newPassword": "Uus salasõna",
+            "confirmPassword": "Kinnita Uus salasõna"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "{gb} GB",

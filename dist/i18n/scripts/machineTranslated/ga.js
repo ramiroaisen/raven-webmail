@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Mo chuntas",
+        "commonActions": {
+            "title": "Gníomhartha comónta",
+            "updatePassword": "Pasfhocal a nuashonrú",
+            "currentPassword": "Pasfhocal reatha",
+            "newPassword": "Focal Faire Nua",
+            "confirmPassword": "Deimhnigh pasfhocal nua"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "de {gb} GB",

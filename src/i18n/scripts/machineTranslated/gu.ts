@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "મારું ખાતું",
+    "commonActions": {
+      "title": "સામાન્ય ક્રિયાઓ",
+      "updatePassword": "પાસવર્ડ અપડેટ કરો",
+      "currentPassword": "અત્યારનો પાસવર્ડ",
+      "newPassword": "નવો પાસવર્ડ",
+      "confirmPassword": "નવાપાસવર્ડની પુષ્ટી કરો"
+    },
     "limits": {
       "gbUsed": ". 1} જીબી",
       "gbTotal": "{gb} જીબી",

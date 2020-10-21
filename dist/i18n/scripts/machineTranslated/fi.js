@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Tilini",
+        "commonActions": {
+            "title": "Yhteiset toimet",
+            "updatePassword": "Päivitä salasana",
+            "currentPassword": "Nykyinen salasana",
+            "newPassword": "Uusi salasana",
+            "confirmPassword": "Vahvista uusi salasana"
+        },
         "limits": {
             "gbUsed": "{gb} Gt",
             "gbTotal": "/ {gb} Gt",

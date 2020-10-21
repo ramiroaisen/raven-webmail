@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "मेरो खाता",
+        "commonActions": {
+            "title": "साझा कार्यहरू",
+            "updatePassword": "पासवर्ड अपडेट गर्नुहोस्",
+            "currentPassword": "वर्तमान पासवर्ड",
+            "newPassword": "नया पासवर्ड",
+            "confirmPassword": "नयाँ पासवर्ड निश्चित गर्नुहोस्"
+        },
         "limits": {
             "gbUsed": "{undefined} जीबी",
             "gbTotal": "{undefined} जीबीको",

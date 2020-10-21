@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Fy nghyfrif",
+        "commonActions": {
+            "title": "Camau gweithredu cyffredin",
+            "updatePassword": "Diweddaru cyfrinair",
+            "currentPassword": "Cyfrinair cyfredol",
+            "newPassword": "Cyfrinair newydd",
+            "confirmPassword": "Cadarnhau cyfrinair Newydd"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "o {gb} GB",

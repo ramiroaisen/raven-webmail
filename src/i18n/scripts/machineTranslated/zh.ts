@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "我的帐户",
+    "commonActions": {
+      "title": "常见动作",
+      "updatePassword": "更新密码",
+      "currentPassword": "当前密码",
+      "newPassword": "新密码",
+      "confirmPassword": "确认新密码"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "{gb} GB",

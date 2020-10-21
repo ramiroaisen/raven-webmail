@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Миний данс",
+    "commonActions": {
+      "title": "Нийтлэг үйлдлүүд",
+      "updatePassword": "Нууц үгээ шинэчлэх",
+      "currentPassword": "Одоогын Нууц Үг",
+      "newPassword": "Шинэ нууц үг",
+      "confirmPassword": "Шинэ нууц үг баталгаажуулах"
+    },
     "limits": {
       "gbUsed": "{gb} ГБ байна",
       "gbTotal": "нь {gb} ГБ",

@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "บัญชีของฉัน",
+        "commonActions": {
+            "title": "การกระทำทั่วไป",
+            "updatePassword": "อัปเดตรหัสผ่าน",
+            "currentPassword": "รหัสผ่านปัจจุบัน",
+            "newPassword": "รหัสผ่านใหม่",
+            "confirmPassword": "ยืนยันรหัสผ่านใหม่"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "จาก {gb} GB",

@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "ਮੇਰਾ ਖਾਤਾ",
+        "commonActions": {
+            "title": "ਆਮ ਕਾਰਵਾਈਆਂ",
+            "updatePassword": "ਪਾਸਵਰਡ ਅਪਡੇਟ ਕਰੋ",
+            "currentPassword": "ਵਰਤਮਾਨ ਪਾਸਵਰਡ",
+            "newPassword": "ਨਵਾਂ ਪਾਸਵਰਡ",
+            "confirmPassword": "ਨਵੇਂ ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
+        },
         "limits": {
             "gbUsed": "{gb} ਜੀ.ਬੀ.",
             "gbTotal": "{gb} ਜੀਬੀ ਦਾ",

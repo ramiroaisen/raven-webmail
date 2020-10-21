@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "我的帳戶",
+        "commonActions": {
+            "title": "常見動作",
+            "updatePassword": "更新密碼",
+            "currentPassword": "當前密碼",
+            "newPassword": "新密碼",
+            "confirmPassword": "確認新密碼"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "{gb} GB",

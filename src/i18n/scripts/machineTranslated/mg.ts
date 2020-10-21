@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Ny kaontiko",
+    "commonActions": {
+      "title": "Fihetsika mahazatra",
+      "updatePassword": "Fanavaozana ny teny miafina",
+      "currentPassword": "Tenimiafina ankehitriny",
+      "newPassword": "Tenimiafina vaovao",
+      "confirmPassword": "Hamafiso ny teny miafina vaovao"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "amin'ny {gb} GB",

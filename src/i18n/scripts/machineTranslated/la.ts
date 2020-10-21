@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Propter me",
+    "commonActions": {
+      "title": "communis actus",
+      "updatePassword": "Update password",
+      "currentPassword": "Tessera hicce",
+      "newPassword": "novus absconditus verbem",
+      "confirmPassword": "Confirmare New password"
+    },
     "limits": {
       "gbUsed": "{undefined} MB",
       "gbTotal": "} {GB ex I",

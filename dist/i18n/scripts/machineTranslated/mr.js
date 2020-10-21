@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "माझे खाते",
+        "commonActions": {
+            "title": "सामान्य क्रिया",
+            "updatePassword": "संकेतशब्द अद्यतनित करा",
+            "currentPassword": "सध्याचा गुप्त शब्द",
+            "newPassword": "नवीन संकेतशब्द",
+            "confirmPassword": "नवीन परवलीच्या शब्दाची खात्री करा"
+        },
         "limits": {
             "gbUsed": ". 1} जीबी",
             "gbTotal": "{1. जीबीचे",

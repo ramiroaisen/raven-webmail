@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "زما حساب",
+    "commonActions": {
+      "title": "عام کړنې",
+      "updatePassword": "رمز تازه کړئ",
+      "currentPassword": "اوسنی رمز",
+      "newPassword": "نوئ پټ نوم",
+      "confirmPassword": "نوی رمز تایید کړئ"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "د {gb} جی بی",

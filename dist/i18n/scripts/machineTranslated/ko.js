@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "내 계정",
+        "commonActions": {
+            "title": "일반적인 행동",
+            "updatePassword": "비밀번호 업데이트",
+            "currentPassword": "현재 비밀번호",
+            "newPassword": "새 비밀번호",
+            "confirmPassword": "새 암호를 확인합니다"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "{gb} GB",

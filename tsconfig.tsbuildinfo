@@ -426,7 +426,7 @@
         "signature": "ed0a377b42878dbdcf450d60925172d34495ca972bffc2a6c330ee2c24bec0bb"
       },
       "./src/i18n/src/es.ts": {
-        "version": "34896c8bfc5ad5acb55c2f9491a22e035ce12699bc3de6c2b50cb6d246a14867"
+        "version": "7e8e609a20a16a2eabb0b7c69579ec02532c3ef6b4a87aebad7c2f47c1535d9c"
       },
       "./src/i18n/types.ts": {
         "version": "26b8ab6e64d0176cc894fd86b3dc7da0f03f42e965f21bf231320871f4967a0c"
@@ -501,334 +501,340 @@
         "signature": "f0f0fa01772a2d3baedca7341b361483e25bb275cb645bc3b52d9c8b569eb40f"
       },
       "./src/i18n/src/en.ts": {
-        "version": "a32cb2cff8ed7c43064ca1c22d9cadb68964c8b4161934e896995432a67672ad"
+        "version": "eac9746bbc28738a79ce440852dbbd240a44bc0a0936ec033b43487b6a3ff119"
       },
       "./src/i18n/scripts/generate.ts": {
         "version": "7d796e6ae17db093eed1e958e59ad6234d2d7443bdd567f02756e401be0bb523"
       },
       "./src/i18n/scripts/machineTranslated/af.ts": {
-        "version": "4617cc462378e644373ddd80fda931d5e747c29102431832a859104c74fee207"
+        "version": "861b3ce930dc8ff085fc3eb7911604eeb80f65886d813a875fe27ea4b57a5208"
       },
       "./src/i18n/scripts/machineTranslated/am.ts": {
-        "version": "cb476e9f0d16c28f4aebe4914ff17771b54d5ae0958dab07b76fae5d034b3601"
+        "version": "febf97474a71014a6d20b0b31872fb108826cab8f36dd85342af54f9d5245b4e"
       },
       "./src/i18n/scripts/machineTranslated/ar.ts": {
-        "version": "ebdb6188ea015cea730acd8c53190bc6aff4fd1e2c2cd7b0d20054263c82d777"
+        "version": "bb26785b9c784b6609a263b37b3815c299bc73ed4ecfb6773ab76d0adba2c85e"
       },
       "./src/i18n/scripts/machineTranslated/az.ts": {
-        "version": "10f002ea8bea7ad505fe48807532a0e4eb0a971cb97bb929c28eb8fe32050fd7"
+        "version": "7cdfb87240931a11fbc5c98edfbec8289c0afa73e2649d17831511ad2c6eed2f"
       },
       "./src/i18n/scripts/machineTranslated/be.ts": {
-        "version": "bf7f7fa16608d3cf0d624ae156925a00a2a6c31d2dd8bdd8ac811ed8edeaa9aa"
+        "version": "0533a92a0bcd49d3d8d0017a84e158f28e73689864c3a5a49535b342c1b11c65"
       },
       "./src/i18n/scripts/machineTranslated/bg.ts": {
-        "version": "bc5cf45633ebad8e305f27c94a29acd4bcb275be6ee6a81d55bb7fbd82575532"
+        "version": "a6737984ca5955ae0093c9232bb9a7fa387c0bd41a87877bcb76e916376e81c3"
       },
       "./src/i18n/scripts/machineTranslated/bn.ts": {
-        "version": "71d74bce2ac3510a718c5d8975c28058e4d89786aae70df8e42ad86118f2b7a9"
+        "version": "f61fcaf96d8ccdd308b3cc11a9cfbdfaefa2d00dacecb2b44f6e4461f88bd049"
       },
       "./src/i18n/scripts/machineTranslated/bs.ts": {
-        "version": "f1a2a9f8d4eb69dd8fae297afc40cf7bf888b0b166e78a98bf5ca74f283649b7"
+        "version": "fe8144d35da088e8181767bd607bf3120b4c48f3214a338f28d183032a5a1b22"
       },
       "./src/i18n/scripts/machineTranslated/ca.ts": {
-        "version": "67ff808e2216cf38706018dac0be30b557a891ec2f4c3ace68dc7cf4d7c5362e"
+        "version": "461beca5d10de1b731abbeb83273d312c546bb5bea3f0e1a4185514c8a1818f1"
       },
       "./src/i18n/scripts/machineTranslated/ceb.ts": {
-        "version": "3e499616c988be1ebb5de01a3b463a4cb1c968ca785b226d2d34dbce6f2f9ff4"
+        "version": "e093143e243384212661eca1da7a9ea707634d92313050ef51d0313ab7f7eafb"
       },
       "./src/i18n/scripts/machineTranslated/co.ts": {
-        "version": "c9348ae737aabc8cbd870076d3b85b3f81320716783d86d8f3f02a93339de346"
+        "version": "79eff51b77be177ab6f5c16f37a8ce44421b99b6c079dead9c385357e4870fb6"
       },
       "./src/i18n/scripts/machineTranslated/cs.ts": {
-        "version": "b412245c59752a8858968a007f148896de597c87c681686666663b65427cf6b6"
+        "version": "59ed2338b9c1615b1d1d3aa37ae62a04502a3f349a8e27f7c9ea378707e4bb3a"
       },
       "./src/i18n/scripts/machineTranslated/cy.ts": {
-        "version": "ffd1bdb38bcb4233c7ffbe82e0498e33a9d6c49dc06e68343f6dc6b321ecc876"
+        "version": "098bc4b04539d5722e26c1291f05ed5ead49ce3ac381c999b182ffbfad9e2476"
       },
       "./src/i18n/scripts/machineTranslated/da.ts": {
-        "version": "c4c1821e9d225dfdb45207d5709787a801ef63ae6a4a20558a6aabc2a82b8760"
+        "version": "620b11df05a1a00d5e1e85b38537fb1146a1554913fef6573b519b8dab716a21"
       },
       "./src/i18n/scripts/machineTranslated/de.ts": {
-        "version": "633e7c357cf2693462a920ed5a741c2e37566719e8e4623fb3045e5c09e24965"
+        "version": "01d2d3d29772cb7f80fe25a610fe9083665d6198bf7d9b4705e325587cedd147"
       },
       "./src/i18n/scripts/machineTranslated/el.ts": {
-        "version": "7512659ffd154eedc92616f2242ccc081ca6e13819dfc801fe0541ac421e2dc6"
+        "version": "289a3df0b87780bb4617be7933a9ec454160df66a425e4ae715da0b290cdfefd"
       },
       "./src/i18n/scripts/machineTranslated/eo.ts": {
-        "version": "c95260ada24297ba3e062179bfec876d72a1c238e06ca4805e917d2e582deab9"
+        "version": "6008ba3afda393c9f3b825e0927c3ff302a17ad8b26aa9aea19d3011f782339b"
       },
       "./src/i18n/scripts/machineTranslated/es.ts": {
-        "version": "2f82210fc4a15438b6533daca62104e803a7fc3f8ad345598e42c290622175bf"
+        "version": "c7fdf0dd0e479688be650f44333d5a65e8dbbc2215d52c7969b22e5c4e97234d"
       },
       "./src/i18n/scripts/machineTranslated/et.ts": {
-        "version": "60a701b30d408ad48174e8e7a29ab0cbad82b2d792105a0033bd7c41231ffb36"
+        "version": "2aff42386fcd0b50354ade96109ae893e9882de780e6b7fdb3109ce275c958e9"
       },
       "./src/i18n/scripts/machineTranslated/eu.ts": {
-        "version": "3938259a0cfbcd6feae1cca14c7c648a1b63219a34451c35d1656ddcc1101522"
+        "version": "89d32df076ce6eb971378ceef51681c80b5e33f2e42f49ad058fceed7cede86b"
       },
       "./src/i18n/scripts/machineTranslated/fa.ts": {
-        "version": "22ee1911213c1566380c1134672b79f347df5527b809e6ae869782899781dfdb"
+        "version": "653765a193dad0c5ee6f820d3f701ea2d515fc6adb99f022b525060229d0c3e7"
       },
       "./src/i18n/scripts/machineTranslated/fi.ts": {
-        "version": "89056f00c927fbc8006f942e08e750e373f657afd5652c4c82de89d6bb6b74fe"
+        "version": "09a8b30da3b6b4aec4432b7667b0072f1a36c8f06c7f19942046e33753e88fb3"
       },
       "./src/i18n/scripts/machineTranslated/fr.ts": {
-        "version": "f9c4fbaa95109b441b61f7136655191f5de710d749ea36bae322a00cbf115e9f"
+        "version": "d470b336ec41c01dcb15ea493ee3976ea81fa7683fe4022d4bbce4ca90a41761"
       },
       "./src/i18n/scripts/machineTranslated/fy.ts": {
-        "version": "1546a27bf5a7b877259fcb15a1126b55d846dbea06750aded9bf71b057b0c249"
+        "version": "13c5855360b3bbd5b9272f20c72dc2d4976ee689589a496aa53f6f7f78cbaf59"
       },
       "./src/i18n/scripts/machineTranslated/ga.ts": {
-        "version": "0057b7a8991c36002c6a6c550bdc5c2acd7af0b538921f07ff07b13fbbc59e69"
+        "version": "94fec6e1b407531bb3bb0e123f0707c0fe7687988fbdbf125aad16c5929809da"
       },
       "./src/i18n/scripts/machineTranslated/gd.ts": {
-        "version": "9388ab41294bfd283d3e47d8fdef5f527ba692b30795d0cc0e6cbd48516f2e79"
+        "version": "60312520ea5770fc5c4c09a3361b8bfe89696b009d65bb1d9c35d98b23a6678f"
       },
       "./src/i18n/scripts/machineTranslated/gl.ts": {
-        "version": "a363817dd8d8c81f0145bb04e84ac4b81e9c87842781fb831d5bd64cd1bf0edf"
+        "version": "23316d6a30364f8d673cc4225ce29f981109f5e7abde5f28c1a42144e96596fc"
       },
       "./src/i18n/scripts/machineTranslated/gu.ts": {
-        "version": "cdd9abe21e3d625e15284012a0f6b1c13975b29092214a2493109029357a16f8"
+        "version": "3af672a80df2b3bb1dc9f34556abe55442878602e9060625917a960d726198a9"
       },
       "./src/i18n/scripts/machineTranslated/ha.ts": {
-        "version": "8ac04bf0877d536a12d1190da729bc41f85652c3f626147bf0fed86a8898428f"
+        "version": "0287a2c3c2d41dae21ee864691aba709620f06b0333f3964f2a9fff2bd65fc1a"
       },
       "./src/i18n/scripts/machineTranslated/haw.ts": {
-        "version": "ee941e5399b7d5433c08df07ad09168bb7cce2642070a98a65ac474aeaccf4dc"
+        "version": "26018910d6340ae975cd24d443ba493b2f03cb6faf6ba0b34388736a54d3249a"
+      },
+      "./src/i18n/scripts/machineTranslated/he.ts": {
+        "version": "5647f12c7a80ad26236d41ac67d3a431ed4345c1c5b934582a4a6a7307f7ee86"
       },
       "./src/i18n/scripts/machineTranslated/hi.ts": {
-        "version": "aa8fe1354ecd94536d312d97ff4057c56fce848a96d0612c121bff276baf0783"
+        "version": "53cd111c3886c14f77446099f3bf89f49445296bd716cdb41b76bec37bb16beb"
       },
       "./src/i18n/scripts/machineTranslated/hmn.ts": {
-        "version": "2ab4bbf421b8d612d90a4d3f581fd6b9f7c3d2ac675f2f6166ce91365c60001c"
+        "version": "b1fa8ca930c4fb04957e905ba34d4c227fc38f4819e3d4c0bfea2f062211c4d7"
       },
       "./src/i18n/scripts/machineTranslated/hr.ts": {
-        "version": "e5a89ca497b15f3803fc163d46b9bfdfa8d65e9b5e5cc1739f6e65d68cb4289b"
+        "version": "49af65f2ff1242fe2477a8c45487e258eb636bb52fddc0875065ab6024c38e5e"
       },
       "./src/i18n/scripts/machineTranslated/ht.ts": {
-        "version": "33dd3ab789db60718534d227907a2e66e442d79539a9fd220a8c329a15a0069f"
+        "version": "e10e6ea9f17e8f9fd7c0db0f6b5d895c0537e5ecb6811f766acd8acf0a7485d0"
       },
       "./src/i18n/scripts/machineTranslated/hu.ts": {
-        "version": "18f73b67dbe0e289fa9be16f1301fcddca48d9ef8243772467a2a6693b89eb8f"
+        "version": "1c414273e876796a06a0f2fd840da06331ff057a474c088d16c1621d412ff3d4"
       },
       "./src/i18n/scripts/machineTranslated/hy.ts": {
-        "version": "5fbe5efa6115e36fe375f945a5e0e7187065b99ce5ac40a9b44cb16d98ddde68"
+        "version": "823ef2780ee318350d7a4c4e6cbad810543459ccb6c2c721e94ab32fa590cd04"
       },
       "./src/i18n/scripts/machineTranslated/id.ts": {
-        "version": "051b67294d21644da110742812d61d759d626f195186e97f71b4ebd98ccee151"
+        "version": "1163f31d0664c0c878a01232ddde3fbf25c2668024ce7ef6ad62aebee816d022"
       },
       "./src/i18n/scripts/machineTranslated/ig.ts": {
-        "version": "f5cf21775fbaf6708ad14ccde3872515f9d0a875d5e32d8a23e52fc96c9b1a96"
+        "version": "b1f36757d5d5d47039ed49accb829205d6997cb03b7c7a52b0f8adb118a037b6"
       },
       "./src/i18n/scripts/machineTranslated/is.ts": {
-        "version": "55a951763665e5f544e27c31457e774cc05945f42165f0e60cdf0b740e318795"
+        "version": "341b41d3c0739d0f6993712ad0306bac84b55a79a247a74b6019b096d5cd45de"
       },
       "./src/i18n/scripts/machineTranslated/it.ts": {
-        "version": "cc73d807289843e1dc05d20bcaa6742186acea0355bd529e4a238b66d0c4ee0d"
+        "version": "506641c5a1015501d78c78f6624d64a836f8accc7fe762d61795457b4bb61979"
       },
       "./src/i18n/scripts/machineTranslated/iw.ts": {
-        "version": "2446f9e6ce9b266b5e6d512829440941f10542b16d01aff0ce89af81234bbc57"
+        "version": "a94f29ad71606a663eaa35c610ae1fd3bb360b0faf0cdadb03169d1a6eea14e4"
       },
       "./src/i18n/scripts/machineTranslated/ja.ts": {
-        "version": "e6e59a994e256d965561f507a8641f59022c404d137a89e4470c3e5efb288af3"
+        "version": "5b13b9c60712dbf6a63024c412cc83117bf989b7ba430abe19d29cd786799bad"
       },
       "./src/i18n/scripts/machineTranslated/jw.ts": {
-        "version": "d448e55fad903c090fbe0721d728612a4ff783340eb57447d00188c22c2b9af9"
+        "version": "18b7f5faa6c7ad60581fc717c7fabfa4051646b7325a62055f87a8bc7a4e37b1"
       },
       "./src/i18n/scripts/machineTranslated/ka.ts": {
-        "version": "c4f0fb3ae8b4c6f10631bf4487680b123abb44dbb70593afaf5195c955930d41"
+        "version": "d79bd0e588285a2696370ddd3d475f48cc1351fa3731f4b5c34446a44e1fa683"
       },
       "./src/i18n/scripts/machineTranslated/kk.ts": {
-        "version": "272012f46afbdcbb2a074b921ee5eec42c195febdb6d2346edce256bee1f0fab"
+        "version": "c39aa9a3660d64a6648d94dd68795f80ef5c6185521aa1bd552cdb9c1343a897"
       },
       "./src/i18n/scripts/machineTranslated/km.ts": {
-        "version": "d5bf56b52e90e56a11c317ecd917d94b54d008aac2c1951abfeb63a4a8cbbf95"
+        "version": "37d1fd23e474f5ffd15efe448d8495e2f7dcf2ff9d9a590c8d511360817faf6a"
       },
       "./src/i18n/scripts/machineTranslated/kn.ts": {
-        "version": "1046236b358c3d2b53417022fe0ee59e5cc21aba33c74a942a5e05aa5d5fc85b"
+        "version": "cd880d1eb0f8cdcab1c370d6f0b0f868319512989f3bc6bc7ec12e0cf347cc53"
       },
       "./src/i18n/scripts/machineTranslated/ko.ts": {
-        "version": "79c35946793ff0e541788022a60ee5c4e2f23396801ed0560a31d52bda9adbc5"
+        "version": "abecbd35679b7f2c9c4dfbba07adca6df3afa7587ecf4b6e35736ef5ea46c9a9"
       },
       "./src/i18n/scripts/machineTranslated/ku.ts": {
-        "version": "03be189e11f9a9b39d9c150b588b8a7e98d7942d92e16723cfb11afef291dcda"
+        "version": "0f7a6726adab5318e9549d1c48e25ca357be5cec37446fc18e74df9ca4787a1d"
       },
       "./src/i18n/scripts/machineTranslated/ky.ts": {
-        "version": "da869d71727b13fc5131ad0ecd7b84e155375f0be1c1150db9b427ed75a73a37"
+        "version": "5eaf80fbcec12dce21f89d08df8432e16ab5f127751896799671b83ac04e49f1"
       },
       "./src/i18n/scripts/machineTranslated/la.ts": {
-        "version": "19ac54d40d9d5b24cbd31f4875f35e77f719f03c305b8a8286686e77c48c9647"
+        "version": "40a469e9da09ab9309fddb00a95307165ce39c5856db33a471c2679a1a5840d6"
       },
       "./src/i18n/scripts/machineTranslated/lb.ts": {
-        "version": "b73b4da5ac62d82f1162d1e2c38152cd70917af4cd43e7f9c7570eaa3e516bb4"
+        "version": "6bbb277d3a684d1021a3ae354a6e1b76ef4eea4b5a848cb4513771c994071799"
       },
       "./src/i18n/scripts/machineTranslated/lo.ts": {
-        "version": "a7a1c0382e46c5f4f83083a4400008ab250a5c19dccdae16f4d9a280cffb9330"
+        "version": "5c12ec20fc4e59f293a9a745ad446634c1d0d6d1bacaf0451fa836f861261e99"
       },
       "./src/i18n/scripts/machineTranslated/lt.ts": {
-        "version": "de0b76bdcb3a1f99d2abdeaceb7177510f4fd773c013cf8f36cdafdfc846bcb8"
+        "version": "475ea647fbaee7aba4732f9aa6f3ec1bfa9d9f28a7c5e9bbade5677fcbf6ff24"
       },
       "./src/i18n/scripts/machineTranslated/lv.ts": {
-        "version": "3638b45c6aab028dba586ef2674e26081ac605a77e10c0320f57cc77dffb87f1"
+        "version": "9553c2f8df69365ebf5ea56306b14ce5f12ceb28efc7d926b266f975890f2029"
       },
       "./src/i18n/scripts/machineTranslated/mg.ts": {
-        "version": "0d1ddeb350490b6c4c5f9322ece7fc0aac2cdad9aa01f2d0f3a55678d1390101"
+        "version": "20adbc1174e0434485557a8f39fa3d9cec42b9fe57f716647b6be325e17d4fc1"
       },
       "./src/i18n/scripts/machineTranslated/mi.ts": {
-        "version": "76f1355603a4501c8b32cd8712cac7b7f96032750605be618f916fbc60b13603"
+        "version": "37d7efe4a2947eb9f96366da91c84094ee53c3b4c848f70019a9957035db68ce"
       },
       "./src/i18n/scripts/machineTranslated/mk.ts": {
-        "version": "2e9d0811f42dcdeca1fa5d79bf48e3cfab34a5b23a3d60f794960d813430d5ca"
+        "version": "1068aca90808270ab8d2bd9d18157d5c02eb5314ae7d2382f2f3447656e4e71b"
       },
       "./src/i18n/scripts/machineTranslated/ml.ts": {
-        "version": "cd4a507e990b23195d0ec9c3fb85c0f2a51060cb7a34e2064319d671f919c0d7"
+        "version": "48a3523e103e79192d1212b35a209f4a71d48a9b4e2da273dc55b14122f11ef3"
       },
       "./src/i18n/scripts/machineTranslated/mn.ts": {
-        "version": "60c4d2d3349efa1afd0c387b9006c7bd97b418cb69e3a9c535715dd1d1e8143f"
+        "version": "59ff089e6f9326084f445f4f77f220e02fda153b8e29f1fcd793ab241df077c2"
       },
       "./src/i18n/scripts/machineTranslated/mr.ts": {
-        "version": "cf6bafb5ee14041f7bc7d1469519e0dba61096af47a3a9e0eb2bb01b4d0e528e"
+        "version": "0c89fa87d0549678500369667047f77f0f3270ef0cdf7c08d1c9fece0fcd74ba"
       },
       "./src/i18n/scripts/machineTranslated/ms.ts": {
-        "version": "56404682947991b0de642793ba9c0e9d72c49a55da77df57ea145322d19e528f"
+        "version": "303f363f1c74f714e84e81cc4f2230adf8dbc89545807aca807014e1e65d11d9"
       },
       "./src/i18n/scripts/machineTranslated/mt.ts": {
-        "version": "038490b48df0695ce2d2721a910a93b03c0aafeac747976403c78e9e05c6c919"
+        "version": "c8981334a8638ca1fa79caa09bb694be4a550db079e832f1d25fbb625139f33c"
       },
       "./src/i18n/scripts/machineTranslated/my.ts": {
-        "version": "67dc73bd51f0e7cec55d25a2a0f0fc1fd79a929a689e57a1337f952ffcd19fc9"
+        "version": "0c054d911f007fbeb289270801b30185163e6a358bcf268038bd0ac7053a9c3e"
       },
       "./src/i18n/scripts/machineTranslated/ne.ts": {
-        "version": "9a7f1b018a1aa102acc48c3b0e5a083f5538472d33b297e83bde0ce66c86f6e6"
+        "version": "13835de10ad61b8ed0ffc14a288a47121ababd41d1dc76b5fe6bf8176c601329"
       },
       "./src/i18n/scripts/machineTranslated/nl.ts": {
-        "version": "20de12dadde3625480f238b03634c521d723807246e6aacfd64a38002ffc390b"
+        "version": "75c295322bd2b53ae32989953a4fc75c640294d43a3aaf47101c6522c2d9ce8f"
       },
       "./src/i18n/scripts/machineTranslated/no.ts": {
-        "version": "6a2bde2b4c0720c5addf9e1a34dd038773aee89d8d8309f028dcc6038d334925"
+        "version": "9056e5f99baf4017a7a0d645247d27b2c2f80c5262c1b17a96830367d5531ee1"
       },
       "./src/i18n/scripts/machineTranslated/ny.ts": {
-        "version": "8454cc61bfb62326953abc1b2be83da6a8444827ff4df32833712ffd1c1d5d68"
+        "version": "939c53e1151911c1d70257f247ef8210e739614c3ce9b5fc05b128b9e803f4b7"
       },
       "./src/i18n/scripts/machineTranslated/or.ts": {
-        "version": "3050ee0097d74039e2dec17f86594dad5f9f326c283c70f73d67d4ba36a9e3c4"
+        "version": "2a4329c8beda5764081d4928894ab4eb6ef0e9b661a97627937e9bffa349ccb4"
       },
       "./src/i18n/scripts/machineTranslated/pa.ts": {
-        "version": "2b94721752ca675796a562afcda60d528c0c12eab31724d016c730a9239ca03e"
+        "version": "fa8ed3a321dcaf1788093a4b1a6443b90079a2ff5440372dd826c891b3997514"
       },
       "./src/i18n/scripts/machineTranslated/pl.ts": {
-        "version": "8aa6e54c804e95956bf54786ffe55fd92610d9867efb5c1cfc99c738049aaec7"
+        "version": "8238881e413f6eed775d13a1d008490bf9bab87e7ae265b27506efbdc421f3fc"
       },
       "./src/i18n/scripts/machineTranslated/ps.ts": {
-        "version": "9845e373bab6c205cd6d22ce9d8e42136976a7e0386e4c2d7779566e647462da"
+        "version": "55713455de0be25673416d687f05cb24693bac89b7142ee837ac0fbdcdd5c150"
       },
       "./src/i18n/scripts/machineTranslated/pt.ts": {
-        "version": "5aa46a4435bb623b0a60d8e8cc1357ddaf48349409a721803963bf0768aa5318"
+        "version": "1d9dbbef35da0ce1366cb97f7ed3f1665a0af6cde6c52d0e9787d0703f18fd43"
       },
       "./src/i18n/scripts/machineTranslated/ro.ts": {
-        "version": "109c675cfd75609d6c66a5cc3b554b405e25e5d50f6205bae0215b23923caa50"
+        "version": "b8cc5158bdcda07918256126921d46446f27c22a60d2db3f97fc11cf47312fb9"
       },
       "./src/i18n/scripts/machineTranslated/ru.ts": {
-        "version": "d479df6365046b20d3bc0b613bf7f44908f22fcade25d606e8469aa4706bcdff"
+        "version": "df9343d4851e16389088beedbb71574cbcf6f97aa4156da8105e89c891fce36f"
       },
       "./src/i18n/scripts/machineTranslated/rw.ts": {
-        "version": "cbd6fe01f879982a7921edef7402bd420ecefe3b86e4e8766308cbf63e268061"
+        "version": "340acc4e391986c9d8d2d9fd36d38c9b700b4a4e03089b661314b9b43cf45649"
       },
       "./src/i18n/scripts/machineTranslated/sd.ts": {
-        "version": "39ed1f2ef7d37e91c95385d1001cd7cdbdb034a9ef89d988ec553d1820cd184f"
+        "version": "863e8159582ab96f421dd33c458c7526a5eed1ade96efeb962618e2165f9005d"
       },
       "./src/i18n/scripts/machineTranslated/si.ts": {
-        "version": "dee380b96678b31f5f0eacb9bd948023b488bbd456383596f8445984ddd88475"
+        "version": "c59d50da96bc53c24012fbf824e556b17eed2069799951f3525b6576ed61a844"
       },
       "./src/i18n/scripts/machineTranslated/sk.ts": {
-        "version": "ae56a66801d06067033db879e261944309218760183afbc31844e3a169339839"
+        "version": "f0644d573e5509423bfaedf137a13b9962545499fdcb5ea4dab9f11b074d416a"
       },
       "./src/i18n/scripts/machineTranslated/sl.ts": {
-        "version": "cb88598fbf745bd9d9c40e5e2678b0e8b8bf4b247d13ec79f19779c6a3fab36a"
+        "version": "025bfe907d953614d7cea2732c1a40920ad8a0eb4d494f923eb4bab99ffef54f"
       },
       "./src/i18n/scripts/machineTranslated/sm.ts": {
-        "version": "82ae932bbe067ba0082e48a222c075e0806e10ea10d5ace28f3eff805835dcb9"
+        "version": "a271e3061177f8dac2294e0e3b1ec1b40c84b0fca9a3c657822b5cd6a606ffc1"
       },
       "./src/i18n/scripts/machineTranslated/sn.ts": {
-        "version": "b2ecb422e331dde88f8fdf229895b4249315830ffd83b1d0451e8397e41a41da"
+        "version": "a916a5d75d14b47563d125391f3204036b9f665b2f3c8780b3104ea3140dfa6f"
       },
       "./src/i18n/scripts/machineTranslated/so.ts": {
-        "version": "b6fca862f816cbe3200610193afd7fc8d5a72d91fba0442fb29c72fce87fb63d"
+        "version": "6334b94ff419c4feba77775e0bb3b17d76645f9368f233a8a6060fb42fd6c22b"
       },
       "./src/i18n/scripts/machineTranslated/sq.ts": {
-        "version": "8e9ebd0d2591e524155c85145c6aa816b5a6be14dc51f81647ad4b498750cec6"
+        "version": "1de83d0bf2dbf9bfb366fba2bb84311f205554236923e83c19f5c2ae46734297"
       },
       "./src/i18n/scripts/machineTranslated/sr.ts": {
-        "version": "fac3c62b26aa646dd3ef7d689cb8c7753f721a6d653c2350c418410b5a9683d3"
+        "version": "7f6a49f7fe1afe32de5b201d6c05b05e859b2da84a63add0c5ac8d8700a6fff7"
       },
       "./src/i18n/scripts/machineTranslated/st.ts": {
-        "version": "9366749a026945a37ad6b72139712acc6d0c3d9aaed681cdfe24b52914da4f95"
+        "version": "1cd961453560edc6b57d3b34961f5ac6a1b94b2f9121021913bbe64b86d0bb20"
       },
       "./src/i18n/scripts/machineTranslated/su.ts": {
-        "version": "e4314b22e690daddc4ee7c149dde0c0e748293deb0b47fe11ceccd9c2f76b6e5"
+        "version": "323089820d291622eda1bee3876a9bdc6080b1ec6c9215548d2dd919107a88aa"
       },
       "./src/i18n/scripts/machineTranslated/sv.ts": {
-        "version": "92b553133bd78477a99b0017a299572b7a5d04f93165db0e3f85e2e758ba72ec"
+        "version": "363f094b9b673c36406137e6d14ce82fa87e801a2ef70c6ae5204f17c53014ba"
       },
       "./src/i18n/scripts/machineTranslated/sw.ts": {
-        "version": "9ef0a267c472a0d51ad4aa8b633ec0af7ca7f3996599bd40a6d6b53dce0e9754"
+        "version": "75799544a7c2312ef8c25987ccd2ed502e128f6aee4ac3c672b0b084527d26ca"
       },
       "./src/i18n/scripts/machineTranslated/ta.ts": {
-        "version": "d36cb0a3191a9ceb80a89d243fe2b1cc57e67a6d8221fe9a1ffbf4707de49073"
+        "version": "3441638c2ef43b302f176ebaa9146a46e8f11509ecaf8c8ba4f3d13b8bf017b7"
       },
       "./src/i18n/scripts/machineTranslated/te.ts": {
-        "version": "998bd2a28d9441fe321e9967b6f7e9a7d5efb7c13302dbe79541bcf1bcfbcd4a"
+        "version": "608b7b90d43808f64fb434ac1ff506ff0348d3f51fa1df0d54cecd779e010c46"
       },
       "./src/i18n/scripts/machineTranslated/tg.ts": {
-        "version": "167d1d20fc85227d7da97aefe2add7a3b33e269d2a81413fdd3924fa9b3549d3"
+        "version": "bd6f903138cccf155b38dac0a61eb8b583f15864a0bf257eeb68adfc3762b99b"
       },
       "./src/i18n/scripts/machineTranslated/th.ts": {
-        "version": "fbd39cf3e7b68e9f6058abe3bc604d3d8c318ed934291546304d17c12d7ec56d"
+        "version": "dc77a1ce329ed75c3baf82c055b4ef93b1eee05781e84c423f3ec0720b0ebd09"
       },
       "./src/i18n/scripts/machineTranslated/tk.ts": {
-        "version": "a3539fbc5dac92181dd89d600fd6c5a5404641e338ce96210430ee47a1f94876"
+        "version": "6de134bf2c5a402af6618aa49ce73703f7d55b1f18f1ae9025ed462b7ec6d89e"
       },
       "./src/i18n/scripts/machineTranslated/tl.ts": {
-        "version": "3d921491a61efc8cdf708f819aae40682093bf1cd0f9c1dd4f696d378daf1f4c"
+        "version": "08f1645bc411005c4c34f69c2291f3f90c91c5421779e99f955c917e45924ee8"
       },
       "./src/i18n/scripts/machineTranslated/tr.ts": {
-        "version": "dc08b07e1ef8270ccd63137f1d3482c2e0caa325cc07e22ab11f45b18017b0b8"
+        "version": "318aecbcc07c56e3e8c08cefbcfaf00677bfe62d963b497b2a8062059fcd6e35"
       },
       "./src/i18n/scripts/machineTranslated/tt.ts": {
-        "version": "5e62989b6520a578cf4d5af887c7a167cdaf59ab80bf924f5b682ef2489e00f9"
+        "version": "d21260fae7d7d95543344e1bfc557acd5e1db8198382ec2d5bce21d4607a1b3a"
       },
       "./src/i18n/scripts/machineTranslated/ug.ts": {
-        "version": "75b8c171f20113ef2632c3a051a51bf15f6f40f5cd31fec9cd842151eba3c244"
+        "version": "42007050b0c6f29a6a84978641eb416d5166d996a94563c5dafa9a42f230e039"
       },
       "./src/i18n/scripts/machineTranslated/uk.ts": {
-        "version": "df999c2158bb67c01a45afa71ae49a5573bcdf2f2f58357fb455388476ec606c"
+        "version": "4697fd355058694ee651fdc67a5e08dd0507b1422b460bb4a3f8f7c94997a5b9"
       },
       "./src/i18n/scripts/machineTranslated/ur.ts": {
-        "version": "af576611811312c7bcf1568d10c508d8401834ec2340fc9c936e5a99a5d3a463"
+        "version": "cdf824326bce905a2567dda80fbf419aaf6aebdfce7cfeec7d6f022d4064b829"
       },
       "./src/i18n/scripts/machineTranslated/uz.ts": {
-        "version": "604ccffe301b80e35cf46c2e8d36da9175aa3148f943499d7194d7d434404847"
+        "version": "d5622c500fb180e0f7bac609145f3c098ff9dcc6aec2972e58e236adba26f029"
       },
       "./src/i18n/scripts/machineTranslated/vi.ts": {
-        "version": "1e034a46d5fc93cbcbde8365e809c85bb8ff59b4746394b301b56e7495fb6e8f"
+        "version": "de31a7fc7d7a7dee904d5a9e85327bdeeca6a48ef6550a9ce1ec38583c476226"
       },
       "./src/i18n/scripts/machineTranslated/xh.ts": {
-        "version": "c7e99c6797a651434754b1de0e306740ea1a8d5e2bb3f53b9bf921a3426e1452"
+        "version": "51ab13034363049b41698834ec0d58cb526607fa0d4da4a5623bc697da52d939"
       },
       "./src/i18n/scripts/machineTranslated/yi.ts": {
-        "version": "2792145b3d7b357a40d6b8dbeacd3393d65ef61786b22b825d3cd1bbedf68f95"
+        "version": "cc04ef12620ad6c053a2ed944f62702b02610069a4b8881a73db21b460e09d80"
       },
       "./src/i18n/scripts/machineTranslated/yo.ts": {
-        "version": "a01d5955b989321be03918f2496230a8e804c1d92be23434420a1cccb7baf4c9"
+        "version": "0ea92816adac3dba33f90391926f5e2b99522b27a0491e1836772cff8433981f"
+      },
+      "./src/i18n/scripts/machineTranslated/zh-CN.ts": {
+        "version": "2e583f30f7143eb36aefa6eac4cdde83410ee083bd7bf21e60b6fcfb910103ca"
       },
       "./src/i18n/scripts/machineTranslated/zh-TW.ts": {
-        "version": "3999c79065a05285671e0af221590d2e93cfb88274cbd2857ec2af3623a2abd4"
+        "version": "3c94319d9509941599854a534d69136447474ffb15e1f067805db07a0a617a76"
       },
       "./src/i18n/scripts/machineTranslated/zh.ts": {
-        "version": "49b1e0f3a6bf6127980d3c2c04028fd9e1845ef483bb9562c8ca75bd7c56950c"
+        "version": "b219ebfb5f2dbe54b3104f274f54c969373bdd5de4cce38fc15c8f4e2204d71c"
       },
       "./src/i18n/scripts/machineTranslated/zu.ts": {
-        "version": "149f2685e3781e23163be1b9ea6cd73f2e8eac47bb4f73d4043991eff465f9bb"
+        "version": "ab96088e5c8497b507f29d0b50909f803448c04ecab764ea95b8542e45aebceb"
       }
     },
     "options": {
@@ -2071,6 +2077,13 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/i18n/scripts/machineTranslated/he.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/i18n/scripts/machineTranslated/hi.ts": [
         "./src/i18n/types.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -2590,6 +2603,13 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/i18n/scripts/machineTranslated/yo.ts": [
+        "./src/i18n/types.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/i18n/scripts/machineTranslated/zh-CN.ts": [
         "./src/i18n/types.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -3559,13 +3579,10 @@
       "./node_modules/chalk/index.d.ts",
       "./src/config.ts",
       "./src/auth.ts",
+      "./src/download.ts",
       "./node_modules/commander/typings/index.d.ts",
       "./node_modules/@types/mkdirp/index.d.ts",
       "./node_modules/@types/accept-language-parser/index.d.ts",
-      "./src/i18n/src/es.ts",
-      "./src/i18n/types.ts",
-      "./src/i18n/i18n.ts",
-      "./src/raven.ts",
       "./node_modules/@types/morgan/index.d.ts",
       "./node_modules/@types/helmet/index.d.ts",
       "./node_modules/@types/ws/index.d.ts",
@@ -3574,126 +3591,131 @@
       "./node_modules/@types/bson/index.d.ts",
       "./node_modules/@types/mongodb/index.d.ts",
       "./node_modules/@types/connect-mongodb-session/index.d.ts",
-      "./src/session.ts",
-      "./src/client/ws.ts",
       "./src/upload.ts",
       "./node_modules/@types/compression/index.d.ts",
       "./node_modules/@types/minimatch/index.d.ts",
       "./node_modules/@types/glob/index.d.ts",
       "./node_modules/@types/rimraf/index.d.ts",
       "./node_modules/p-limit/index.d.ts",
-      "./src/i18n/src/en.ts",
-      "./src/i18n/scripts/generate.ts",
-      "./src/i18n/scripts/machineTranslated/af.ts",
-      "./src/i18n/scripts/machineTranslated/am.ts",
-      "./src/i18n/scripts/machineTranslated/ar.ts",
-      "./src/i18n/scripts/machineTranslated/az.ts",
-      "./src/i18n/scripts/machineTranslated/be.ts",
-      "./src/i18n/scripts/machineTranslated/bg.ts",
-      "./src/i18n/scripts/machineTranslated/bn.ts",
-      "./src/i18n/scripts/machineTranslated/bs.ts",
-      "./src/i18n/scripts/machineTranslated/ca.ts",
-      "./src/i18n/scripts/machineTranslated/ceb.ts",
-      "./src/i18n/scripts/machineTranslated/co.ts",
-      "./src/i18n/scripts/machineTranslated/cs.ts",
-      "./src/i18n/scripts/machineTranslated/cy.ts",
-      "./src/i18n/scripts/machineTranslated/da.ts",
-      "./src/i18n/scripts/machineTranslated/de.ts",
-      "./src/i18n/scripts/machineTranslated/el.ts",
-      "./src/i18n/scripts/machineTranslated/eo.ts",
-      "./src/i18n/scripts/machineTranslated/es.ts",
-      "./src/i18n/scripts/machineTranslated/et.ts",
-      "./src/i18n/scripts/machineTranslated/eu.ts",
-      "./src/i18n/scripts/machineTranslated/fa.ts",
-      "./src/i18n/scripts/machineTranslated/fi.ts",
-      "./src/i18n/scripts/machineTranslated/fr.ts",
-      "./src/i18n/scripts/machineTranslated/fy.ts",
-      "./src/i18n/scripts/machineTranslated/ga.ts",
-      "./src/i18n/scripts/machineTranslated/gd.ts",
-      "./src/i18n/scripts/machineTranslated/gl.ts",
-      "./src/i18n/scripts/machineTranslated/gu.ts",
-      "./src/i18n/scripts/machineTranslated/ha.ts",
-      "./src/i18n/scripts/machineTranslated/haw.ts",
-      "./src/i18n/scripts/machineTranslated/hi.ts",
-      "./src/i18n/scripts/machineTranslated/hmn.ts",
-      "./src/i18n/scripts/machineTranslated/hr.ts",
-      "./src/i18n/scripts/machineTranslated/ht.ts",
-      "./src/i18n/scripts/machineTranslated/hu.ts",
-      "./src/i18n/scripts/machineTranslated/hy.ts",
-      "./src/i18n/scripts/machineTranslated/id.ts",
-      "./src/i18n/scripts/machineTranslated/ig.ts",
-      "./src/i18n/scripts/machineTranslated/is.ts",
-      "./src/i18n/scripts/machineTranslated/it.ts",
-      "./src/i18n/scripts/machineTranslated/iw.ts",
-      "./src/i18n/scripts/machineTranslated/ja.ts",
-      "./src/i18n/scripts/machineTranslated/jw.ts",
-      "./src/i18n/scripts/machineTranslated/ka.ts",
-      "./src/i18n/scripts/machineTranslated/kk.ts",
-      "./src/i18n/scripts/machineTranslated/km.ts",
-      "./src/i18n/scripts/machineTranslated/kn.ts",
-      "./src/i18n/scripts/machineTranslated/ko.ts",
-      "./src/i18n/scripts/machineTranslated/ku.ts",
-      "./src/i18n/scripts/machineTranslated/ky.ts",
-      "./src/i18n/scripts/machineTranslated/la.ts",
-      "./src/i18n/scripts/machineTranslated/lb.ts",
-      "./src/i18n/scripts/machineTranslated/lo.ts",
-      "./src/i18n/scripts/machineTranslated/lt.ts",
-      "./src/i18n/scripts/machineTranslated/lv.ts",
-      "./src/i18n/scripts/machineTranslated/mg.ts",
-      "./src/i18n/scripts/machineTranslated/mi.ts",
-      "./src/i18n/scripts/machineTranslated/mk.ts",
-      "./src/i18n/scripts/machineTranslated/ml.ts",
-      "./src/i18n/scripts/machineTranslated/mn.ts",
-      "./src/i18n/scripts/machineTranslated/mr.ts",
-      "./src/i18n/scripts/machineTranslated/ms.ts",
-      "./src/i18n/scripts/machineTranslated/mt.ts",
-      "./src/i18n/scripts/machineTranslated/my.ts",
-      "./src/i18n/scripts/machineTranslated/ne.ts",
-      "./src/i18n/scripts/machineTranslated/nl.ts",
-      "./src/i18n/scripts/machineTranslated/no.ts",
-      "./src/i18n/scripts/machineTranslated/ny.ts",
-      "./src/i18n/scripts/machineTranslated/or.ts",
-      "./src/i18n/scripts/machineTranslated/pa.ts",
-      "./src/i18n/scripts/machineTranslated/pl.ts",
-      "./src/i18n/scripts/machineTranslated/ps.ts",
-      "./src/i18n/scripts/machineTranslated/pt.ts",
-      "./src/i18n/scripts/machineTranslated/ro.ts",
-      "./src/i18n/scripts/machineTranslated/ru.ts",
-      "./src/i18n/scripts/machineTranslated/rw.ts",
-      "./src/i18n/scripts/machineTranslated/sd.ts",
-      "./src/i18n/scripts/machineTranslated/si.ts",
-      "./src/i18n/scripts/machineTranslated/sk.ts",
-      "./src/i18n/scripts/machineTranslated/sl.ts",
-      "./src/i18n/scripts/machineTranslated/sm.ts",
-      "./src/i18n/scripts/machineTranslated/sn.ts",
-      "./src/i18n/scripts/machineTranslated/so.ts",
-      "./src/i18n/scripts/machineTranslated/sq.ts",
-      "./src/i18n/scripts/machineTranslated/sr.ts",
-      "./src/i18n/scripts/machineTranslated/st.ts",
-      "./src/i18n/scripts/machineTranslated/su.ts",
-      "./src/i18n/scripts/machineTranslated/sv.ts",
-      "./src/i18n/scripts/machineTranslated/sw.ts",
-      "./src/i18n/scripts/machineTranslated/ta.ts",
-      "./src/i18n/scripts/machineTranslated/te.ts",
-      "./src/i18n/scripts/machineTranslated/tg.ts",
-      "./src/i18n/scripts/machineTranslated/th.ts",
-      "./src/i18n/scripts/machineTranslated/tk.ts",
-      "./src/i18n/scripts/machineTranslated/tl.ts",
-      "./src/i18n/scripts/machineTranslated/tr.ts",
-      "./src/i18n/scripts/machineTranslated/tt.ts",
-      "./src/i18n/scripts/machineTranslated/ug.ts",
-      "./src/i18n/scripts/machineTranslated/uk.ts",
-      "./src/i18n/scripts/machineTranslated/ur.ts",
-      "./src/i18n/scripts/machineTranslated/uz.ts",
-      "./src/i18n/scripts/machineTranslated/vi.ts",
-      "./src/i18n/scripts/machineTranslated/xh.ts",
-      "./src/i18n/scripts/machineTranslated/yi.ts",
-      "./src/i18n/scripts/machineTranslated/yo.ts",
-      "./src/i18n/scripts/machineTranslated/zh-TW.ts",
-      "./src/i18n/scripts/machineTranslated/zh.ts",
+      "./src/i18n/src/es.ts",
+      "./src/i18n/types.ts",
       "./src/i18n/scripts/machineTranslated/zu.ts",
-      "./src/download.ts",
-      "./src/server.ts"
+      "./src/i18n/scripts/machineTranslated/zh.ts",
+      "./src/i18n/scripts/machineTranslated/zh-TW.ts",
+      "./src/i18n/scripts/machineTranslated/zh-CN.ts",
+      "./src/i18n/scripts/machineTranslated/yo.ts",
+      "./src/i18n/scripts/machineTranslated/yi.ts",
+      "./src/i18n/scripts/machineTranslated/xh.ts",
+      "./src/i18n/scripts/machineTranslated/vi.ts",
+      "./src/i18n/scripts/machineTranslated/uz.ts",
+      "./src/i18n/scripts/machineTranslated/ur.ts",
+      "./src/i18n/scripts/machineTranslated/uk.ts",
+      "./src/i18n/scripts/machineTranslated/ug.ts",
+      "./src/i18n/scripts/machineTranslated/tt.ts",
+      "./src/i18n/scripts/machineTranslated/tr.ts",
+      "./src/i18n/scripts/machineTranslated/tl.ts",
+      "./src/i18n/scripts/machineTranslated/tk.ts",
+      "./src/i18n/scripts/machineTranslated/th.ts",
+      "./src/i18n/scripts/machineTranslated/tg.ts",
+      "./src/i18n/scripts/machineTranslated/te.ts",
+      "./src/i18n/scripts/machineTranslated/ta.ts",
+      "./src/i18n/scripts/machineTranslated/sw.ts",
+      "./src/i18n/scripts/machineTranslated/sv.ts",
+      "./src/i18n/scripts/machineTranslated/su.ts",
+      "./src/i18n/scripts/machineTranslated/st.ts",
+      "./src/i18n/scripts/machineTranslated/sr.ts",
+      "./src/i18n/scripts/machineTranslated/sq.ts",
+      "./src/i18n/scripts/machineTranslated/so.ts",
+      "./src/i18n/scripts/machineTranslated/sn.ts",
+      "./src/i18n/scripts/machineTranslated/sm.ts",
+      "./src/i18n/scripts/machineTranslated/sl.ts",
+      "./src/i18n/scripts/machineTranslated/sk.ts",
+      "./src/i18n/scripts/machineTranslated/si.ts",
+      "./src/i18n/scripts/machineTranslated/sd.ts",
+      "./src/i18n/scripts/machineTranslated/rw.ts",
+      "./src/i18n/scripts/machineTranslated/ru.ts",
+      "./src/i18n/scripts/machineTranslated/ro.ts",
+      "./src/i18n/scripts/machineTranslated/pt.ts",
+      "./src/i18n/scripts/machineTranslated/ps.ts",
+      "./src/i18n/scripts/machineTranslated/pl.ts",
+      "./src/i18n/scripts/machineTranslated/pa.ts",
+      "./src/i18n/scripts/machineTranslated/or.ts",
+      "./src/i18n/scripts/machineTranslated/ny.ts",
+      "./src/i18n/scripts/machineTranslated/no.ts",
+      "./src/i18n/scripts/machineTranslated/nl.ts",
+      "./src/i18n/scripts/machineTranslated/ne.ts",
+      "./src/i18n/scripts/machineTranslated/my.ts",
+      "./src/i18n/scripts/machineTranslated/mt.ts",
+      "./src/i18n/scripts/machineTranslated/ms.ts",
+      "./src/i18n/scripts/machineTranslated/mr.ts",
+      "./src/i18n/scripts/machineTranslated/mn.ts",
+      "./src/i18n/scripts/machineTranslated/ml.ts",
+      "./src/i18n/scripts/machineTranslated/mk.ts",
+      "./src/i18n/scripts/machineTranslated/mi.ts",
+      "./src/i18n/scripts/machineTranslated/mg.ts",
+      "./src/i18n/scripts/machineTranslated/lv.ts",
+      "./src/i18n/scripts/machineTranslated/lt.ts",
+      "./src/i18n/scripts/machineTranslated/lo.ts",
+      "./src/i18n/scripts/machineTranslated/lb.ts",
+      "./src/i18n/scripts/machineTranslated/la.ts",
+      "./src/i18n/scripts/machineTranslated/ky.ts",
+      "./src/i18n/scripts/machineTranslated/ku.ts",
+      "./src/i18n/scripts/machineTranslated/ko.ts",
+      "./src/i18n/scripts/machineTranslated/kn.ts",
+      "./src/i18n/scripts/machineTranslated/km.ts",
+      "./src/i18n/scripts/machineTranslated/kk.ts",
+      "./src/i18n/scripts/machineTranslated/ka.ts",
+      "./src/i18n/scripts/machineTranslated/jw.ts",
+      "./src/i18n/scripts/machineTranslated/ja.ts",
+      "./src/i18n/scripts/machineTranslated/iw.ts",
+      "./src/i18n/scripts/machineTranslated/it.ts",
+      "./src/i18n/scripts/machineTranslated/is.ts",
+      "./src/i18n/scripts/machineTranslated/ig.ts",
+      "./src/i18n/scripts/machineTranslated/id.ts",
+      "./src/i18n/scripts/machineTranslated/hy.ts",
+      "./src/i18n/scripts/machineTranslated/hu.ts",
+      "./src/i18n/scripts/machineTranslated/ht.ts",
+      "./src/i18n/scripts/machineTranslated/hr.ts",
+      "./src/i18n/scripts/machineTranslated/hmn.ts",
+      "./src/i18n/scripts/machineTranslated/hi.ts",
+      "./src/i18n/scripts/machineTranslated/he.ts",
+      "./src/i18n/scripts/machineTranslated/haw.ts",
+      "./src/i18n/scripts/machineTranslated/ha.ts",
+      "./src/i18n/scripts/machineTranslated/gu.ts",
+      "./src/i18n/scripts/machineTranslated/gl.ts",
+      "./src/i18n/scripts/machineTranslated/gd.ts",
+      "./src/i18n/scripts/machineTranslated/ga.ts",
+      "./src/i18n/scripts/machineTranslated/fy.ts",
+      "./src/i18n/scripts/machineTranslated/fr.ts",
+      "./src/i18n/scripts/machineTranslated/fi.ts",
+      "./src/i18n/scripts/machineTranslated/fa.ts",
+      "./src/i18n/scripts/machineTranslated/eu.ts",
+      "./src/i18n/scripts/machineTranslated/et.ts",
+      "./src/i18n/scripts/machineTranslated/es.ts",
+      "./src/i18n/scripts/machineTranslated/eo.ts",
+      "./src/i18n/scripts/machineTranslated/el.ts",
+      "./src/i18n/scripts/machineTranslated/de.ts",
+      "./src/i18n/scripts/machineTranslated/da.ts",
+      "./src/i18n/scripts/machineTranslated/cy.ts",
+      "./src/i18n/scripts/machineTranslated/cs.ts",
+      "./src/i18n/scripts/machineTranslated/co.ts",
+      "./src/i18n/scripts/machineTranslated/ceb.ts",
+      "./src/i18n/scripts/machineTranslated/ca.ts",
+      "./src/i18n/scripts/machineTranslated/bs.ts",
+      "./src/i18n/scripts/machineTranslated/bn.ts",
+      "./src/i18n/scripts/machineTranslated/bg.ts",
+      "./src/i18n/scripts/machineTranslated/be.ts",
+      "./src/i18n/scripts/machineTranslated/az.ts",
+      "./src/i18n/scripts/machineTranslated/ar.ts",
+      "./src/i18n/scripts/machineTranslated/am.ts",
+      "./src/i18n/scripts/machineTranslated/af.ts",
+      "./src/i18n/scripts/generate.ts",
+      "./src/i18n/src/en.ts",
+      "./src/i18n/i18n.ts",
+      "./src/server.ts",
+      "./src/session.ts",
+      "./src/client/ws.ts",
+      "./src/raven.ts"
     ]
   },
   "version": "3.8.3"

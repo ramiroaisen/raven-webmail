@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "ບັນ​ຊີ​ຂອງ​ຂ້ອຍ",
+    "commonActions": {
+      "title": "ການກະ ທຳ ທົ່ວໄປ",
+      "updatePassword": "ປັບປຸງລະຫັດຜ່ານ",
+      "currentPassword": "ລະ​ຫັດ​ປັດ​ຈຸ​ບັນ",
+      "newPassword": "ລະຫັດລັບ ໃໝ່",
+      "confirmPassword": "ຢືນ​ຢັນ​ລະ​ຫັດ​ຜ່ານ​ໃຫມ່"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "ຂອງ {gb} GB",

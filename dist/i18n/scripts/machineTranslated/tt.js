@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Минем хисап язма",
+        "commonActions": {
+            "title": "Гомуми чаралар",
+            "updatePassword": "Серсүзне яңарту",
+            "currentPassword": "Хәзер кулланыла торган серсүз",
+            "newPassword": "Яңа серсүз",
+            "confirmPassword": "Яңа серсүзне раслагыз"
+        },
         "limits": {
             "gbUsed": "{gb} ГБ",
             "gbTotal": "{gb} ГБ",

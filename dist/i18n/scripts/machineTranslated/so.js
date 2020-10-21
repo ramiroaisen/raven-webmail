@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Xisaabteyda",
+        "commonActions": {
+            "title": "Falalka guud",
+            "updatePassword": "Cusbooneysii ereyga sirta ah",
+            "currentPassword": "Magaca Sirta Hadda",
+            "newPassword": "Furaha cusub",
+            "confirmPassword": "Xaqiiji ereyga cusub"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "ee {gb} GB",

@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "አካውንቴ",
+        "commonActions": {
+            "title": "የተለመዱ ድርጊቶች",
+            "updatePassword": "የይለፍ ቃል ያዘምኑ",
+            "currentPassword": "የአሁኑ ሚስጥራዊ ማለፊያ ቁልፍ",
+            "newPassword": "አዲስ የይለፍ ቃል",
+            "confirmPassword": "አዲሱን የይለፍ ቃል አረጋግጥ"
+        },
         "limits": {
             "gbUsed": "{gb} ጊባ",
             "gbTotal": "ከ {gb} ጊባ",

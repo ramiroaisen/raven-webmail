@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "منهنجو اڪائونٽ",
+    "commonActions": {
+      "title": "عام ڪارناما",
+      "updatePassword": "پاسورڊ کي تازو ڪريو",
+      "currentPassword": "موجوده پاس ورڊ",
+      "newPassword": "نئون پاسورڊ",
+      "confirmPassword": "نئين پاسورڊ جي تصديق ڪريو"
+    },
     "limits": {
       "gbUsed": "{gb} جي بي",
       "gbTotal": "{gb} GB جو",

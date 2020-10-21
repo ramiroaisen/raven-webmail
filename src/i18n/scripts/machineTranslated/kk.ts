@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Менің аккаунтым",
+    "commonActions": {
+      "title": "Жалпы әрекеттер",
+      "updatePassword": "Құпия сөзді жаңартыңыз",
+      "currentPassword": "Ағымдағы Құпия сөз",
+      "newPassword": "Жаңа Құпия Сөз",
+      "confirmPassword": "Жаңа құпиясөзді растаңыз"
+    },
     "limits": {
       "gbUsed": "{gb} ГБ",
       "gbTotal": "{gb} ГБ құрайды",

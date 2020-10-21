@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Minn reikningur",
+    "commonActions": {
+      "title": "Algengar aðgerðir",
+      "updatePassword": "Uppfærðu lykilorð",
+      "currentPassword": "Núverandi lykilorð",
+      "newPassword": "Nýtt lykilorð",
+      "confirmPassword": "Staðfestu nýtt lykilorð"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "af {gb} GB",

@@ -104,7 +104,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Waarsku. Hierdie aksie sal alle boodskappe in die gids permanent uitvee",
     "Folder deleted": "Gids is uitgevee",
     "Filters": "filters",
-    "Coming soon": "Kom binnekort"
+    "Coming soon": "Kom binnekort",
+    "Common actions": "Algemene aksies",
+    "Update password": "Wagwoord op te dateer",
+    "New password": "Nuwe Wagwoord",
+    "Confirm new password": "Bevestig nuwe wagwoord",
+    "Current password": "Huidige Sleutelwoord"
   },
   "am": {
     "Inbox": "የገቢ መልእክት ሳጥን",
@@ -211,7 +216,12 @@
     "Caution. This action will delete permanently all messages in the folder": "ጥንቃቄ. ይህ እርምጃ በፋይሉ ውስጥ ያሉትን ሁሉንም መልእክቶች በቋሚነት ይሰርዛል",
     "Folder deleted": "አቃፊ ተሰር .ል",
     "Filters": "ማጣሪያዎች",
-    "Coming soon": "በቅርብ ቀን"
+    "Coming soon": "በቅርብ ቀን",
+    "Common actions": "የተለመዱ ድርጊቶች",
+    "Update password": "የይለፍ ቃል ያዘምኑ",
+    "New password": "አዲስ የይለፍ ቃል",
+    "Current password": "የአሁኑ ሚስጥራዊ ማለፊያ ቁልፍ",
+    "Confirm new password": "አዲሱን የይለፍ ቃል አረጋግጥ"
   },
   "ar": {
     "Inbox": "صندوق الوارد",
@@ -318,7 +328,12 @@
     "Caution. This action will delete permanently all messages in the folder": "الحذر. سيؤدي هذا الإجراء إلى حذف جميع الرسائل الموجودة في المجلد نهائيًا",
     "Folder deleted": "تم حذف المجلد",
     "Filters": "مرشحات",
-    "Coming soon": "قريبا"
+    "Coming soon": "قريبا",
+    "Common actions": "الإجراءات المشتركة",
+    "Update password": "تطوير كلمة السر",
+    "Confirm new password": "تأكيد كلمة المرور الجديدة",
+    "New password": "كلمة مرور جديدة",
+    "Current password": "كلمة السر الحالية"
   },
   "az": {
     "Inbox": "Gələnlər qutusu",
@@ -425,7 +440,12 @@
     "Delete folder \"{1}\"": "\"{1}\" qovluğunu silin",
     "Folder deleted": "Qovluq silindi",
     "Filters": "Filtrlər",
-    "Coming soon": "Tezliklə"
+    "Coming soon": "Tezliklə",
+    "Common actions": "Ümumi tədbirlər",
+    "Update password": "Şifrəni yeniləyin",
+    "New password": "Yeni şifrə",
+    "Current password": "Hazırkı şifrə",
+    "Confirm new password": "Yeni Şifrəni təsdiq"
   },
   "be": {
     "Inbox": "Уваходныя",
@@ -532,7 +552,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Асцярожна. Гэта дзеянне назаўсёды выдаліць усе паведамленні ў тэчцы",
     "Folder deleted": "Папка выдаленая",
     "Filters": "Фільтры",
-    "Coming soon": "Хутка"
+    "Coming soon": "Хутка",
+    "Common actions": "Агульныя дзеянні",
+    "Update password": "Абнавіце пароль",
+    "New password": "Новы пароль",
+    "Current password": "Бягучы пароль",
+    "Confirm new password": "Пацвердзіце новы пароль"
   },
   "bg": {
     "Inbox": "Входящи",
@@ -639,7 +664,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Внимание. Това действие ще изтрие трайно всички съобщения в папката",
     "Folder deleted": "Папката е изтрита",
     "Filters": "Филтри",
-    "Coming soon": "Очаквайте скоро"
+    "Coming soon": "Очаквайте скоро",
+    "Common actions": "Общи действия",
+    "Update password": "Актуализирайте паролата",
+    "New password": "Нова парола",
+    "Current password": "Настояща парола",
+    "Confirm new password": "Потвърждение на новата парола"
   },
   "bn": {
     "Inbox": "ইনবক্স",
@@ -746,7 +776,12 @@
     "Caution. This action will delete permanently all messages in the folder": "সতর্ক করা. এই ক্রিয়াটি ফোল্ডারে থাকা সমস্ত বার্তাকে স্থায়ীভাবে মুছে ফেলবে",
     "Folder deleted": "ফোল্ডার মোছা হয়েছে",
     "Filters": "ফিল্টার",
-    "Coming soon": "শীঘ্রই আসছে"
+    "Coming soon": "শীঘ্রই আসছে",
+    "Common actions": "সাধারণ ক্রিয়া",
+    "Update password": "পাসওয়ার্ড আপডেট করুন",
+    "Current password": "বর্তমান পাসওয়ার্ড",
+    "Confirm new password": "নিশ্চিত কর নতুন গোপননম্বর",
+    "New password": "নতুন পাসওয়ার্ড"
   },
   "bs": {
     "Inbox": "Inbox",
@@ -853,7 +888,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Oprez. Ovom radnjom trajno će se izbrisati sve poruke u mapi",
     "Folder deleted": "Mapa je izbrisana",
     "Filters": "Filteri",
-    "Coming soon": "Uskoro dolazi"
+    "Coming soon": "Uskoro dolazi",
+    "Common actions": "Uobičajene akcije",
+    "Update password": "Ažurirajte lozinku",
+    "Confirm new password": "Potvrdili novu lozinku",
+    "Current password": "Trenutna šifra",
+    "New password": "Nova šifra"
   },
   "ca": {
     "Inbox": "Safata d'entrada",
@@ -960,7 +1000,12 @@
     "Delete folder \"{1}\"": "Suprimeix la carpeta \"{1}\"",
     "Folder deleted": "S'ha suprimit una carpeta",
     "Filters": "Filtres",
-    "Coming soon": "Pròximament"
+    "Coming soon": "Pròximament",
+    "Common actions": "Accions comunes",
+    "Update password": "Actualitzeu la contrasenya",
+    "New password": "Nova contrasenya",
+    "Current password": "Contrasenya actual",
+    "Confirm new password": "Confirmar nova contrasenya"
   },
   "ceb": {
     "Inbox": "Inbox",
@@ -1067,7 +1112,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Pag-amping. Kini nga aksyon magtangtang sa tanan nga mga mensahe sa folder",
     "Folder deleted": "Ang Folder natangtang",
     "Filters": "Mga filter",
-    "Coming soon": "Malapit na"
+    "Coming soon": "Malapit na",
+    "Common actions": "Kasagaran nga mga lihok",
+    "Update password": "Pagbag-o sa password",
+    "Current password": "Karon nga password",
+    "New password": "Bag-ong password",
+    "Confirm new password": "Gikumpirma ang bag-ong password"
   },
   "co": {
     "Inbox": "Inbox",
@@ -1174,7 +1224,12 @@
     "Delete folder \"{1}\"": "Sguassà cartulare \"{1}\"",
     "Folder deleted": "U cartulare eliminatu",
     "Filters": "Filtri",
-    "Coming soon": "Prestu"
+    "Coming soon": "Prestu",
+    "Common actions": "Azzioni cumuni",
+    "Update password": "Aghjurnà a parolla d'intesa",
+    "New password": "Nova password",
+    "Confirm new password": "Cunfirmà a nova password",
+    "Current password": "Parolla d'intesa attuale"
   },
   "cs": {
     "Inbox": "Doručená pošta",
@@ -1281,7 +1336,12 @@
     "Delete folder \"{1}\"": "Smazat složku „{1}“",
     "Folder deleted": "Složka byla smazána",
     "Filters": "Filtry",
-    "Coming soon": "Již brzy"
+    "Coming soon": "Již brzy",
+    "Common actions": "Společné akce",
+    "Update password": "Aktualizujte heslo",
+    "Current password": "Aktuální heslo",
+    "New password": "Nové heslo",
+    "Confirm new password": "Potvrďte nové heslo"
   },
   "cy": {
     "Inbox": "Mewnflwch",
@@ -1388,7 +1448,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Rhybudd. Bydd y weithred hon yn dileu pob neges yn y ffolder yn barhaol",
     "Folder deleted": "Ffolder wedi'i dileu",
     "Filters": "Hidlau",
-    "Coming soon": "Dod yn fuan"
+    "Coming soon": "Dod yn fuan",
+    "Common actions": "Camau gweithredu cyffredin",
+    "Update password": "Diweddaru cyfrinair",
+    "Confirm new password": "Cadarnhau cyfrinair Newydd",
+    "New password": "Cyfrinair newydd",
+    "Current password": "Cyfrinair cyfredol"
   },
   "da": {
     "Inbox": "Indbakke",
@@ -1495,7 +1560,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Advarsel. Denne handling sletter alle meddelelser i mappen permanent",
     "Folder deleted": "Mappe slettet",
     "Filters": "filtre",
-    "Coming soon": "Kommer snart"
+    "Coming soon": "Kommer snart",
+    "Common actions": "Almindelige handlinger",
+    "Update password": "Opdater adgangskode",
+    "Current password": "Nuværende kodeord",
+    "New password": "Nyt kodeord",
+    "Confirm new password": "Bekræft ny adgangskode"
   },
   "de": {
     "Inbox": "Posteingang",
@@ -1602,7 +1672,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Vorsicht. Diese Aktion löscht dauerhaft alle Nachrichten im Ordner",
     "Folder deleted": "Ordner gelöscht",
     "Filters": "Filter",
-    "Coming soon": "Demnächst"
+    "Coming soon": "Demnächst",
+    "Common actions": "Gemeinsame Aktionen",
+    "Update password": "Passwort erneuern",
+    "Confirm new password": "Bestätige neues Passwort",
+    "Current password": "Derzeitiges Passwort",
+    "New password": "Neues Kennwort"
   },
   "el": {
     "Inbox": "Inbox",
@@ -1709,7 +1784,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Προσοχή. Αυτή η ενέργεια θα διαγράψει οριστικά όλα τα μηνύματα στο φάκελο",
     "Folder deleted": "Ο φάκελος διαγράφηκε",
     "Filters": "Φίλτρα",
-    "Coming soon": "Ερχομαι συντομα"
+    "Coming soon": "Ερχομαι συντομα",
+    "Common actions": "Κοινές δράσεις",
+    "Update password": "Ενημέρωση κωδικού πρόσβασης",
+    "Current password": "Τρέχων κωδικός πρόσβασης",
+    "New password": "Νέος Κωδικός",
+    "Confirm new password": "Επιβεβαιώστε τον καινούριο σας κωδικό"
   },
   "eo": {
     "Inbox": "Informkesto",
@@ -1816,7 +1896,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Singardemo. Ĉi tiu ago forigos konstante ĉiujn mesaĝojn en la dosierujo",
     "Folder deleted": "Dosierujo forigita",
     "Filters": "Filtriloj",
-    "Coming soon": "Baldaŭ"
+    "Coming soon": "Baldaŭ",
+    "Common actions": "Oftaj agoj",
+    "Update password": "Ĝisdatigi pasvorton",
+    "Current password": "Aktuala Pasvorto",
+    "New password": "Nova pasvorto",
+    "Confirm new password": "Konfirmu novan pasvorton"
   },
   "es": {
     "Inbox": "Bandeja de entrada",
@@ -1923,7 +2008,12 @@
     "Delete folder \"{1}\"": "Eliminar carpeta \"{1}\"",
     "Folder deleted": "Carpeta eliminada",
     "Filters": "Filtros",
-    "Coming soon": "Próximamente"
+    "Coming soon": "Próximamente",
+    "Common actions": "Acciones comunes",
+    "Update password": "Actualiza contraseña",
+    "Current password": "Contraseña actual",
+    "New password": "Nueva contraseña",
+    "Confirm new password": "Confirmar nueva contraseña"
   },
   "et": {
     "Inbox": "Postkast",
@@ -2030,7 +2120,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Ettevaatust. See toiming kustutab jäädavalt kõik kaustas olevad kirjad",
     "Folder deleted": "Kaust kustutatud",
     "Filters": "Filtrid",
-    "Coming soon": "Tulekul"
+    "Coming soon": "Tulekul",
+    "Common actions": "Ühised tegevused",
+    "Update password": "Parooli värskendamine",
+    "Current password": "Praegune salasõna",
+    "Confirm new password": "Kinnita Uus salasõna",
+    "New password": "Uus salasõna"
   },
   "eu": {
     "Inbox": "Sarrerako ontzia",
@@ -2137,7 +2232,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Kontuz. Ekintza honek karpetako mezu guztiak behin betiko ezabatuko ditu",
     "Folder deleted": "Karpeta ezabatu da",
     "Filters": "iragazkiak",
-    "Coming soon": "Laister"
+    "Coming soon": "Laister",
+    "Common actions": "Ekintza arruntak",
+    "Update password": "Eguneratu pasahitza",
+    "Current password": "Oraingo pasahitza",
+    "Confirm new password": "Berretsi pasahitz berria",
+    "New password": "Pasahitz berria"
   },
   "fa": {
     "Inbox": "صندوق ورودی",
@@ -2244,7 +2344,12 @@
     "Caution. This action will delete permanently all messages in the folder": "احتیاط با این اقدام دائماً تمام پیام های پوشه حذف می شود",
     "Folder deleted": "پوشه حذف شد",
     "Filters": "فیلترها",
-    "Coming soon": "به زودی"
+    "Coming soon": "به زودی",
+    "Common actions": "اقدامات مشترک",
+    "Update password": "رمز عبور را به روز کنید",
+    "New password": "رمز عبور جدید",
+    "Current password": "رمز عبور فعلی",
+    "Confirm new password": "رمز ورود جدید را تأیید کنید"
   },
   "fi": {
     "Inbox": "Saapuneet",
@@ -2351,7 +2456,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Varoitus. Tämä toimenpide poistaa pysyvästi kaikki kansion viestit",
     "Folder deleted": "Kansio poistettu",
     "Filters": "Suodattimet",
-    "Coming soon": "Tulossa pian"
+    "Coming soon": "Tulossa pian",
+    "Common actions": "Yhteiset toimet",
+    "Update password": "Päivitä salasana",
+    "Current password": "Nykyinen salasana",
+    "New password": "Uusi salasana",
+    "Confirm new password": "Vahvista uusi salasana"
   },
   "fr": {
     "Inbox": "Boîte de réception",
@@ -2458,7 +2568,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Mise en garde. Cette action supprimera définitivement tous les messages du dossier",
     "Folder deleted": "Dossier supprimé",
     "Filters": "Filtres",
-    "Coming soon": "Bientôt disponible"
+    "Coming soon": "Bientôt disponible",
+    "Common actions": "Actions communes",
+    "Update password": "Mettre à jour le mot de passe",
+    "Current password": "Mot de passe actuel",
+    "New password": "Nouveau mot de passe",
+    "Confirm new password": "Confirmer le nouveau mot de passe"
   },
   "fy": {
     "Inbox": "Postfek YN",
@@ -2565,7 +2680,12 @@
     "Delete folder \"{1}\"": "Map wiskje \"{1}\"",
     "Folder deleted": "Map wiske",
     "Filters": "Filters",
-    "Coming soon": "Meikoarten"
+    "Coming soon": "Meikoarten",
+    "Common actions": "Algemiene aksjes",
+    "Update password": "Wachtwurd bywurkje",
+    "Current password": "Hjoeddeistich wachtwurd",
+    "New password": "Nij Wachtwurd",
+    "Confirm new password": "Befêstigje nij wachtwurd"
   },
   "ga": {
     "Inbox": "Bosca Isteach",
@@ -2672,7 +2792,12 @@
     "Delete folder \"{1}\"": "Scrios fillteán \"{1}\"",
     "Folder deleted": "Fillteán scriosta",
     "Filters": "Scagairí",
-    "Coming soon": "Ag teacht go luath"
+    "Coming soon": "Ag teacht go luath",
+    "Common actions": "Gníomhartha comónta",
+    "Update password": "Pasfhocal a nuashonrú",
+    "Current password": "Pasfhocal reatha",
+    "New password": "Focal Faire Nua",
+    "Confirm new password": "Deimhnigh pasfhocal nua"
   },
   "gd": {
     "Inbox": "Bogsa a-steach",
@@ -2779,7 +2904,12 @@
     "Delete folder \"{1}\"": "Cuir às do phasgan \"{1}\"",
     "Folder deleted": "Folder air a dhubhadh às",
     "Filters": "Filters",
-    "Coming soon": "A 'tighinn a dh'aithgheàrr"
+    "Coming soon": "A 'tighinn a dh'aithgheàrr",
+    "Common actions": "Gnìomhan cumanta",
+    "Update password": "Ùraich facal-faire",
+    "Current password": "Facal-faire gnàthaichte",
+    "New password": "Facal-faire ùr",
+    "Confirm new password": "Dearbhaich facal-faire ùr"
   },
   "gl": {
     "Inbox": "Caixa de entrada",
@@ -2886,7 +3016,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Precaución. Esta acción eliminará permanentemente todas as mensaxes do cartafol",
     "Folder deleted": "Eliminouse carpeta",
     "Filters": "Filtros",
-    "Coming soon": "Proximamente"
+    "Coming soon": "Proximamente",
+    "Common actions": "Accións comúns",
+    "Update password": "Actualizar contrasinal",
+    "New password": "Novo contrasinal",
+    "Confirm new password": "Confirma o novo contrasinal",
+    "Current password": "Contrasinal actual"
   },
   "gu": {
     "Inbox": "ઇનબોક્સ",
@@ -2993,7 +3128,12 @@
     "Delete folder \"{1}\"": "\"{1}\" ફોલ્ડર કા Deleteી નાખો",
     "Folder deleted": "ફોલ્ડર કા deletedી નાખ્યું",
     "Filters": "ગાળકો",
-    "Coming soon": "ટૂક સમયમાં આવી રહ્યું છે"
+    "Coming soon": "ટૂક સમયમાં આવી રહ્યું છે",
+    "Common actions": "સામાન્ય ક્રિયાઓ",
+    "Update password": "પાસવર્ડ અપડેટ કરો",
+    "Current password": "અત્યારનો પાસવર્ડ",
+    "New password": "નવો પાસવર્ડ",
+    "Confirm new password": "નવાપાસવર્ડની પુષ્ટી કરો"
   },
   "ha": {
     "Inbox": "Akwati",
@@ -3100,7 +3240,12 @@
     "Delete folder \"{1}\"": "Share babban fayil \"{1}\"",
     "Folder deleted": "An cire babban fayil",
     "Filters": "Tace",
-    "Coming soon": "Bada jimawa ba"
+    "Coming soon": "Bada jimawa ba",
+    "Common actions": "Ayyuka gama gari",
+    "Update password": "Sabunta kalmar wucewa",
+    "Current password": "Kalmar shiga na halin yanzu",
+    "Confirm new password": "Tabbatar da sabuwar kalmar shiga",
+    "New password": "Sabuwar kalmar shiga"
   },
   "haw": {
     "Inbox": "Kahu Inikua",
@@ -3207,7 +3352,12 @@
     "Delete folder \"{1}\"": "Holoi i ka loulou \"{1}\"",
     "Folder deleted": "Pōmaʻomaʻo Folder",
     "Filters": "Nā kānga",
-    "Coming soon": "Hiki koke"
+    "Coming soon": "Hiki koke",
+    "Common actions": "Nā hana maʻamau",
+    "Update password": "Hoʻohou i ka ʻōlelo huna",
+    "Current password": "Ōlelo huna i kēia manawa",
+    "New password": "Palapala ʻōlelo huna hou",
+    "Confirm new password": "E hōʻoia i ka ʻōlelo huna hou"
   },
   "hi": {
     "Inbox": "इनबॉक्स",
@@ -3314,7 +3464,12 @@
     "Caution. This action will delete permanently all messages in the folder": "सावधान। यह क्रिया फ़ोल्डर के सभी संदेशों को स्थायी रूप से हटा देगी",
     "Folder deleted": "फ़ोल्डर हटाया गया",
     "Filters": "फिल्टर",
-    "Coming soon": "जल्द आ रहा है"
+    "Coming soon": "जल्द आ रहा है",
+    "Common actions": "सामान्य क्रियाएं",
+    "Update password": "पासवर्ड अपडेट करें",
+    "Current password": "वर्तमान पासवर्ड",
+    "New password": "नया पासवर्ड",
+    "Confirm new password": "नए पासवर्ड की पुष्टि करें"
   },
   "hmn": {
     "Inbox": "Cov Inbox",
@@ -3421,7 +3576,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Ceev Faj. Qhov kev txiav txim no yuav rho tawm tas nrho cov lus nyob hauv daim nplaub tshev",
     "Folder deleted": "Tus muab rho tawm",
     "Filters": "Ntxaij lim dej",
-    "Coming soon": "Tab tom yuav tuaj"
+    "Coming soon": "Tab tom yuav tuaj",
+    "Common actions": "Kev ua",
+    "Update password": "Hloov password",
+    "New password": "Lo lus zais tshiab",
+    "Confirm new password": "Paub meej tus password tshiab",
+    "Current password": "Lo lus zais tam sim no"
   },
   "hr": {
     "Inbox": "Ulazni spremnik",
@@ -3528,7 +3688,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Oprez. Ova će akcija trajno izbrisati sve poruke u mapi",
     "Folder deleted": "Mapa je izbrisana",
     "Filters": "filteri",
-    "Coming soon": "Dolazi uskoro"
+    "Coming soon": "Dolazi uskoro",
+    "Common actions": "Uobičajene radnje",
+    "Update password": "Ažurirajte lozinku",
+    "Current password": "Trenutna lozinka",
+    "New password": "Nova lozinka",
+    "Confirm new password": "Potvrdi novu lozinku"
   },
   "ht": {
     "Inbox": "Bwat resepsyon",
@@ -3635,7 +3800,12 @@
     "Delete folder \"{1}\"": "Efase folder \"{1}\"",
     "Folder deleted": "Dosye efase",
     "Filters": "Filtè yo",
-    "Coming soon": "Vini byento"
+    "Coming soon": "Vini byento",
+    "Common actions": "Aksyon komen",
+    "Update password": "Mizajou modpas",
+    "New password": "Nouvo modpas",
+    "Confirm new password": "Konfime nouvo modpas",
+    "Current password": "Modpas kouran"
   },
   "hu": {
     "Inbox": "Bejövő",
@@ -3742,7 +3912,12 @@
     "Delete folder \"{1}\"": "A (z) \"{1}\" mappa törlése",
     "Folder deleted": "A mappa törölve",
     "Filters": "Szűrők",
-    "Coming soon": "Hamarosan"
+    "Coming soon": "Hamarosan",
+    "Common actions": "Közös cselekvések",
+    "Update password": "Jelszó frissítése",
+    "Current password": "Jelenlegi jelszó",
+    "New password": "Új jelszó",
+    "Confirm new password": "Erősítse meg az új jelszavát"
   },
   "hy": {
     "Inbox": "Ներարկղ",
@@ -3849,7 +4024,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Զգուշություն. Այս գործողությունը մշտապես կջնջի թղթապանակում բոլոր հաղորդագրությունները",
     "Folder deleted": "Թղթապանակը ջնջվել է",
     "Filters": "Զտիչներ",
-    "Coming soon": "Շուտով"
+    "Coming soon": "Շուտով",
+    "Common actions": "Ընդհանուր գործողություններ",
+    "Update password": "Թարմացրեք գաղտնաբառը",
+    "New password": "Նոր ծածկագիր",
+    "Current password": "Ընթացիկ գաղտնաբառ",
+    "Confirm new password": "Հաստատեք նոր գաղտնաբառը"
   },
   "id": {
     "Inbox": "Kotak masuk",
@@ -3956,7 +4136,12 @@
     "Delete folder \"{1}\"": "Hapus folder \"{1}\"",
     "Folder deleted": "Folder dihapus",
     "Filters": "Filter",
-    "Coming soon": "Segera akan datang"
+    "Coming soon": "Segera akan datang",
+    "Common actions": "Tindakan umum",
+    "Update password": "Perbarui sandi",
+    "Current password": "Kata sandi saat ini",
+    "Confirm new password": "Konfirmasi password baru",
+    "New password": "Kata sandi baru"
   },
   "ig": {
     "Inbox": "Igbe mbata",
@@ -4063,7 +4248,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Utionkpachara anya. Ihe a ga - ehichapụ ozi niile dị na folda ahụ kpamkpam",
     "Folder deleted": "Gbanyụọ folda",
     "Filters": "Iyo",
-    "Coming soon": "Na-abịa oge adịghị anya"
+    "Coming soon": "Na-abịa oge adịghị anya",
+    "Common actions": "Omume ndị a na-ahụkarị",
+    "Update password": "Melite okwuntughe",
+    "Current password": "Okwuntughe Ugbu a",
+    "New password": "Okwuntughe Ọhụrụ",
+    "Confirm new password": "Kwenye okwuntughe ohuru"
   },
   "is": {
     "Inbox": "Innhólf",
@@ -4170,7 +4360,12 @@
     "Delete folder \"{1}\"": "Eyða möppunni „{1}“",
     "Folder deleted": "Mappa eytt",
     "Filters": "Síur",
-    "Coming soon": "Væntanlegt"
+    "Coming soon": "Væntanlegt",
+    "Common actions": "Algengar aðgerðir",
+    "Update password": "Uppfærðu lykilorð",
+    "New password": "Nýtt lykilorð",
+    "Current password": "Núverandi lykilorð",
+    "Confirm new password": "Staðfestu nýtt lykilorð"
   },
   "it": {
     "Inbox": "Posta in arrivo",
@@ -4277,7 +4472,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Attenzione. Questa azione eliminerà permanentemente tutti i messaggi nella cartella",
     "Folder deleted": "Cartella eliminata",
     "Filters": "filtri",
-    "Coming soon": "Prossimamente"
+    "Coming soon": "Prossimamente",
+    "Common actions": "Azioni comuni",
+    "Update password": "Aggiorna password",
+    "Current password": "Password attuale",
+    "New password": "Nuova password",
+    "Confirm new password": "Conferma la nuova password"
   },
   "iw": {
     "Inbox": "תיבת הדואר הנכנס",
@@ -4384,7 +4584,12 @@
     "Caution. This action will delete permanently all messages in the folder": "זהירות. פעולה זו תמחק לצמיתות את כל ההודעות בתיקיה",
     "Folder deleted": "התיקיה נמחקה",
     "Filters": "מסננים",
-    "Coming soon": "בקרוב"
+    "Coming soon": "בקרוב",
+    "Common actions": "פעולות נפוצות",
+    "Update password": "עדכן סיסמה",
+    "Current password": "סיסמה נוכחית",
+    "New password": "סיסמה חדשה",
+    "Confirm new password": "תאשר סיסמא חדשה"
   },
   "ja": {
     "Inbox": "受信トレイ",
@@ -4491,7 +4696,12 @@
     "Caution. This action will delete permanently all messages in the folder": "注意。この操作により、フォルダ内のすべてのメッセージが完全に削除されます",
     "Folder deleted": "フォルダを削除しました",
     "Filters": "フィルター",
-    "Coming soon": "近日公開"
+    "Coming soon": "近日公開",
+    "Common actions": "一般的なアクション",
+    "Update password": "パスワードを更新する",
+    "Current password": "現在のパスワード",
+    "Confirm new password": "新しいパスワードを確認",
+    "New password": "新しいパスワード"
   },
   "jw": {
     "Inbox": "Kothak mlebu",
@@ -4598,7 +4808,12 @@
     "Delete folder \"{1}\"": "Delete folder \"{1}\"",
     "Folder deleted": "Folder dibusak",
     "Filters": "Saringan",
-    "Coming soon": "Bakal rauh"
+    "Coming soon": "Bakal rauh",
+    "Common actions": "Tumindak umum",
+    "Update password": "Nganyari tembung sandhi",
+    "Current password": "Sandi saiki",
+    "Confirm new password": "Konfirmasi sandhi anyar",
+    "New password": "Sandi anyar"
   },
   "ka": {
     "Inbox": "Შემომავალი",
@@ -4705,7 +4920,12 @@
     "Delete folder \"{1}\"": "საქაღალდის წაშლა \"{1}\"",
     "Folder deleted": "საქაღალდე წაიშალა",
     "Filters": "ფილტრები",
-    "Coming soon": "Მალე"
+    "Coming soon": "Მალე",
+    "Common actions": "საერთო მოქმედებები",
+    "Update password": "განაახლეთ პაროლი",
+    "New password": "Ახალი პაროლი",
+    "Confirm new password": "Დაადასტურეთ ახალი პაროლი",
+    "Current password": "Მიმდინარე პაროლი"
   },
   "kk": {
     "Inbox": "Кіріс жәшігі",
@@ -4812,7 +5032,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Абайлаңыз. Бұл әрекет қалтадағы барлық хабарларды толығымен жояды",
     "Folder deleted": "Қалта жойылды",
     "Filters": "Сүзгілер",
-    "Coming soon": "Жақында шығады"
+    "Coming soon": "Жақында шығады",
+    "Common actions": "Жалпы әрекеттер",
+    "Update password": "Құпия сөзді жаңартыңыз",
+    "Current password": "Ағымдағы Құпия сөз",
+    "Confirm new password": "Жаңа құпиясөзді растаңыз",
+    "New password": "Жаңа Құпия Сөз"
   },
   "km": {
     "Inbox": "ប្រអប់ទទួល",
@@ -4919,7 +5144,12 @@
     "Caution. This action will delete permanently all messages in the folder": "ការប្រុងប្រយ័ត្ន។ សកម្មភាពនេះនឹងលុបសារទាំងអស់នៅក្នុងថតឯកសារជាអចិន្ត្រៃយ៍",
     "Folder deleted": "បានលុបថតឯកសារ",
     "Filters": "តម្រង",
-    "Coming soon": "នឹងមកដល់ឆាប់ៗនេះ"
+    "Coming soon": "នឹងមកដល់ឆាប់ៗនេះ",
+    "Common actions": "សកម្មភាពទូទៅ",
+    "Update password": "ធ្វើបច្ចុប្បន្នភាពពាក្យសម្ងាត់",
+    "Current password": "លេខសំងាត់​បច្ចុប្បន្ន",
+    "New password": "ពាក្យសម្ងាត់​ថ្មី",
+    "Confirm new password": "បញ្ជាក់​លេខសំងាត់​ថ្មី"
   },
   "kn": {
     "Inbox": "ಇನ್‌ಬಾಕ್ಸ್",
@@ -5026,7 +5256,12 @@
     "Caution. This action will delete permanently all messages in the folder": "ಎಚ್ಚರಿಕೆ. ಈ ಕ್ರಿಯೆಯು ಫೋಲ್ಡರ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಸಂದೇಶಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುತ್ತದೆ",
     "Folder deleted": "ಫೋಲ್ಡರ್ ಅಳಿಸಲಾಗಿದೆ",
     "Filters": "ಫಿಲ್ಟರ್‌ಗಳು",
-    "Coming soon": "ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ"
+    "Coming soon": "ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ",
+    "Common actions": "ಸಾಮಾನ್ಯ ಕ್ರಿಯೆಗಳು",
+    "Update password": "ಪಾಸ್ವರ್ಡ್ ನವೀಕರಿಸಿ",
+    "Current password": "ಪ್ರಸ್ತುತ ಗುಪ್ತಪದ",
+    "New password": "ಹೊಸ ಪಾಸ್‌ವರ್ಡ್",
+    "Confirm new password": "ಹೊಸ ಗುಪ್ತಪದವನ್ನು ಖಚಿತಪಡಿಸಿ"
   },
   "ko": {
     "Inbox": "받은 편지함",
@@ -5133,7 +5368,12 @@
     "Caution. This action will delete permanently all messages in the folder": "주의. 이 작업은 폴더의 모든 메시지를 영구적으로 삭제합니다.",
     "Folder deleted": "폴더가 삭제되었습니다",
     "Filters": "필터",
-    "Coming soon": "출시 예정"
+    "Coming soon": "출시 예정",
+    "Common actions": "일반적인 행동",
+    "Update password": "비밀번호 업데이트",
+    "Current password": "현재 비밀번호",
+    "New password": "새 비밀번호",
+    "Confirm new password": "새 암호를 확인합니다"
   },
   "ku": {
     "Inbox": "Inbox",
@@ -5240,7 +5480,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Baldaynî. Ev çalakî dê hemî peyamên di peldankê de bi domdarî jêbirin",
     "Folder deleted": "Folder jêbirin",
     "Filters": "Filters",
-    "Coming soon": "Ji nêzda"
+    "Coming soon": "Ji nêzda",
+    "Common actions": "Kiryarên hevpar",
+    "Update password": ".Îfreya xwe nûve bikin",
+    "Current password": "Şîfreya heyî",
+    "New password": "Passwordîfreya nû",
+    "Confirm new password": ".Îfreya nû piştrast bikin"
   },
   "ky": {
     "Inbox": "Кирүү кутусу",
@@ -5347,7 +5592,12 @@
     "Caution. This action will delete permanently all messages in the folder": "САК БОЛУЪУЗ. Бул аракет папкадагы бардык билдирүүлөрдү биротоло жок кылат",
     "Folder deleted": "Папка жок кылынды",
     "Filters": "Чыпкалар",
-    "Coming soon": "Келе жакында"
+    "Coming soon": "Келе жакында",
+    "Common actions": "Жалпы иш-аракеттер",
+    "Update password": "Сырсөздү жаңыртыңыз",
+    "Current password": "Учурдагы Сырсөз",
+    "New password": "Жаңы Сыр сөз",
+    "Confirm new password": "Жаңы сырсөздү ырастаңыз"
   },
   "la": {
     "Inbox": "inbuxo",
@@ -5454,7 +5704,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Scribitur. Haec actio in perpetuum Omnes epistulae in folder mos delete",
     "Folder deleted": "folder delevit",
     "Filters": "Filtra",
-    "Coming soon": "Mox adventu"
+    "Coming soon": "Mox adventu",
+    "Common actions": "communis actus",
+    "Update password": "Update password",
+    "Current password": "Tessera hicce",
+    "New password": "novus absconditus verbem",
+    "Confirm new password": "Confirmare New password"
   },
   "lb": {
     "Inbox": "Inbox",
@@ -5561,7 +5816,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Opgepasst Dës Aktioun wäert permanent all Messagen am Dossier läschen",
     "Folder deleted": "Folder geläscht",
     "Filters": "Filteren",
-    "Coming soon": "Kënnt geschwënn"
+    "Coming soon": "Kënnt geschwënn",
+    "Common actions": "Gemeinsam Aktiounen",
+    "Update password": "Passwuert aktualiséieren",
+    "Current password": "Aktuellt Passwuert",
+    "New password": "Neit Passwuert",
+    "Confirm new password": "Neit Passwuert bestätegen"
   },
   "lo": {
     "Inbox": "ກ່ອງຈົດ ໝາຍ",
@@ -5668,7 +5928,12 @@
     "Caution. This action will delete permanently all messages in the folder": "ຂໍ້ຄວນລະວັງ. ການກະ ທຳ ນີ້ຈະລຶບຂໍ້ຄວາມທັງ ໝົດ ໃນໂຟນເດີຖາວອນ",
     "Folder deleted": "ໂຟນເດີຖືກລຶບແລ້ວ",
     "Filters": "ຕົວກອງ",
-    "Coming soon": "ໃກ້ເຂົ້າມາແລ້ວ"
+    "Coming soon": "ໃກ້ເຂົ້າມາແລ້ວ",
+    "Common actions": "ການກະ ທຳ ທົ່ວໄປ",
+    "Update password": "ປັບປຸງລະຫັດຜ່ານ",
+    "Current password": "ລະ​ຫັດ​ປັດ​ຈຸ​ບັນ",
+    "Confirm new password": "ຢືນ​ຢັນ​ລະ​ຫັດ​ຜ່ານ​ໃຫມ່",
+    "New password": "ລະຫັດລັບ ໃໝ່"
   },
   "lt": {
     "Inbox": "Pašto dėžutę",
@@ -5775,7 +6040,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Atsargiai. Šis veiksmas visam laikui panaikins visus aplanke esančius pranešimus",
     "Folder deleted": "Aplankas ištrintas",
     "Filters": "Filtrai",
-    "Coming soon": "Netrukus"
+    "Coming soon": "Netrukus",
+    "Common actions": "Bendri veiksmai",
+    "Update password": "Atnaujinkite slaptažodį",
+    "Current password": "Dabartinis slaptažodis",
+    "Confirm new password": "Patvirtinti naują slaptažodį",
+    "New password": "Naujas Slaptažodis"
   },
   "lv": {
     "Inbox": "Iesūtne",
@@ -5882,7 +6152,12 @@
     "Delete folder \"{1}\"": "Dzēst mapi “{1}”",
     "Folder deleted": "Mape ir izdzēsta",
     "Filters": "Filtri",
-    "Coming soon": "Drīzumā"
+    "Coming soon": "Drīzumā",
+    "Common actions": "Kopīgas darbības",
+    "Update password": "Atjaunināt paroli",
+    "Current password": "Pašreizējā parole",
+    "New password": "Jauna parole",
+    "Confirm new password": "Apstipriniet jauno paroli"
   },
   "mg": {
     "Inbox": "Inbox",
@@ -5989,7 +6264,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Mitandrina. Ity hetsika ity dia hamafa ireo hafatra rehetra ao anaty fampirimana",
     "Folder deleted": "Voafafa ny folder",
     "Filters": "sivana",
-    "Coming soon": "Ho avy tsy ho ela"
+    "Coming soon": "Ho avy tsy ho ela",
+    "Common actions": "Fihetsika mahazatra",
+    "Update password": "Fanavaozana ny teny miafina",
+    "New password": "Tenimiafina vaovao",
+    "Current password": "Tenimiafina ankehitriny",
+    "Confirm new password": "Hamafiso ny teny miafina vaovao"
   },
   "mi": {
     "Inbox": "Pouakahu",
@@ -6096,7 +6376,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Kia tupato. Ma tenei mahi ka muku katoa nga karere katoa i roto i te kōpaki",
     "Folder deleted": "Kua mukua te Kōpaki",
     "Filters": "Tātari",
-    "Coming soon": "Ka haere mai"
+    "Coming soon": "Ka haere mai",
+    "Common actions": "Nga mahi noa",
+    "Update password": "Whakahoutia te kupuhipa",
+    "Current password": "Kupuhipa onāianei",
+    "New password": "Kupuhipa Hou",
+    "Confirm new password": "Whakaūngia te kupuhipa hōu"
   },
   "mk": {
     "Inbox": "Инбокс",
@@ -6203,7 +6488,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Внимание. Оваа акција ќе ги избрише трајно сите пораки во папката",
     "Folder deleted": "Папката е избришана",
     "Filters": "Филтри",
-    "Coming soon": "Наскоро"
+    "Coming soon": "Наскоро",
+    "Common actions": "Заеднички активности",
+    "Update password": "Ажурирајте ја лозинката",
+    "Current password": "Сегашна лозинка",
+    "New password": "Нова лозинка",
+    "Confirm new password": "Потврди Нова лозинка"
   },
   "ml": {
     "Inbox": "ഇൻ‌ബോക്സ്",
@@ -6310,7 +6600,12 @@
     "Delete folder \"{1}\"": "\"{1}\" ഫോൾഡർ ഇല്ലാതാക്കുക",
     "Folder deleted": "ഫോൾഡർ ഇല്ലാതാക്കി",
     "Filters": "ഫിൽട്ടറുകൾ",
-    "Coming soon": "ഉടൻ വരുന്നു"
+    "Coming soon": "ഉടൻ വരുന്നു",
+    "Common actions": "സാധാരണ പ്രവർത്തനങ്ങൾ",
+    "Update password": "പാസ്‌വേഡ് അപ്‌ഡേറ്റുചെയ്യുക",
+    "Current password": "ഇപ്പോഴത്തെ പാസ്സ്വേർഡ്",
+    "New password": "പുതിയ പാസ്വേഡ്",
+    "Confirm new password": "പുതിയ പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക"
   },
   "mn": {
     "Inbox": "Ирсэн мэйл",
@@ -6417,7 +6712,12 @@
     "Delete folder \"{1}\"": "\"{1}\" фолдерыг устгах",
     "Folder deleted": "Фолдерийг устгасан байна",
     "Filters": "Шүүлтүүрүүд",
-    "Coming soon": "Тун удахгүй"
+    "Coming soon": "Тун удахгүй",
+    "Common actions": "Нийтлэг үйлдлүүд",
+    "Update password": "Нууц үгээ шинэчлэх",
+    "Current password": "Одоогын Нууц Үг",
+    "New password": "Шинэ нууц үг",
+    "Confirm new password": "Шинэ нууц үг баталгаажуулах"
   },
   "mr": {
     "Inbox": "इनबॉक्स",
@@ -6524,7 +6824,12 @@
     "Caution. This action will delete permanently all messages in the folder": "सावधगिरी. ही क्रिया फोल्डरमधील सर्व संदेश कायमचे हटवेल",
     "Folder deleted": "फोल्डर हटविला",
     "Filters": "फिल्टर",
-    "Coming soon": "लवकरच येत आहे"
+    "Coming soon": "लवकरच येत आहे",
+    "Common actions": "सामान्य क्रिया",
+    "Update password": "संकेतशब्द अद्यतनित करा",
+    "Current password": "सध्याचा गुप्त शब्द",
+    "Confirm new password": "नवीन परवलीच्या शब्दाची खात्री करा",
+    "New password": "नवीन संकेतशब्द"
   },
   "ms": {
     "Inbox": "Peti Masuk",
@@ -6631,7 +6936,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Awas. Tindakan ini akan menghapus semua mesej dalam folder secara kekal",
     "Folder deleted": "Folder dipadamkan",
     "Filters": "Penapis",
-    "Coming soon": "Akan datang"
+    "Coming soon": "Akan datang",
+    "Common actions": "Tindakan biasa",
+    "Update password": "Kemas kini kata laluan",
+    "New password": "Kata laluan baharu",
+    "Current password": "Kata laluan semasa",
+    "Confirm new password": "Sahkan kata laluan baru"
   },
   "mt": {
     "Inbox": "Inbox",
@@ -6738,7 +7048,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Attenzjoni. Din l-azzjoni se tħassar b'mod permanenti l-messaġġi kollha fil-fowlder",
     "Folder deleted": "Folder imħassar",
     "Filters": "Filtri",
-    "Coming soon": "Ġej dalwaqt"
+    "Coming soon": "Ġej dalwaqt",
+    "Common actions": "Azzjonijiet komuni",
+    "Update password": "Aġġorna l-password",
+    "New password": "Password gdida",
+    "Current password": "Password kurrenti",
+    "Confirm new password": "Ikkonferma password ġdida"
   },
   "my": {
     "Inbox": "Inbox",
@@ -6845,7 +7160,12 @@
     "Delete folder \"{1}\"": "ဖိုလ်ဒါကိုဖျက်ရန် \"{1}\"",
     "Folder deleted": "ဖိုလ်ဒါကိုဖျက်လိုက်သည်",
     "Filters": "စစ်ထုတ်ရန်",
-    "Coming soon": "မကြာမှီလာမည်"
+    "Coming soon": "မကြာမှီလာမည်",
+    "Common actions": "ဘုံလုပ်ရပ်များ",
+    "Update password": "စကားဝှက်ကိုမွမ်းမံပါ",
+    "New password": "စကားဝှကိအသစ်",
+    "Confirm new password": "စကားဝှက်အသစ်ကိုအတည်ပြုပါ",
+    "Current password": "လက်ရှိစကားဝှက်"
   },
   "ne": {
     "Inbox": "इनबक्स",
@@ -6952,7 +7272,12 @@
     "Caution. This action will delete permanently all messages in the folder": "सावधानी। यस कार्यले फोल्डरमा स्थायी रूपमा सबै सन्देशहरू मेटाउनेछ",
     "Folder deleted": "फोल्डर मेटाईयो",
     "Filters": "फिल्टरहरू",
-    "Coming soon": "आउदैछ"
+    "Coming soon": "आउदैछ",
+    "Common actions": "साझा कार्यहरू",
+    "Update password": "पासवर्ड अपडेट गर्नुहोस्",
+    "New password": "नया पासवर्ड",
+    "Confirm new password": "नयाँ पासवर्ड निश्चित गर्नुहोस्",
+    "Current password": "वर्तमान पासवर्ड"
   },
   "nl": {
     "Inbox": "Postvak IN",
@@ -7059,7 +7384,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Voorzichtigheid. Met deze actie worden alle berichten in de map definitief verwijderd",
     "Folder deleted": "Map verwijderd",
     "Filters": "Filters",
-    "Coming soon": "Komt binnenkort"
+    "Coming soon": "Komt binnenkort",
+    "Common actions": "Gemeenschappelijke acties",
+    "Update password": "Vernieuw wachtwoord",
+    "Current password": "Huidig wachtwoord",
+    "New password": "Nieuw paswoord",
+    "Confirm new password": "Bevestig nieuw wachtwoord"
   },
   "no": {
     "Inbox": "Innboks",
@@ -7166,7 +7496,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Forsiktighet. Denne handlingen vil slette alle meldinger i mappen permanent",
     "Folder deleted": "Mappen slettet",
     "Filters": "filtre",
-    "Coming soon": "Kommer snart"
+    "Coming soon": "Kommer snart",
+    "Common actions": "Vanlige handlinger",
+    "Update password": "Oppdater passord",
+    "Current password": "Nåværende passord",
+    "New password": "Nytt passord",
+    "Confirm new password": "Bekrefte nytt passord"
   },
   "ny": {
     "Inbox": "Makulidwe",
@@ -7273,7 +7608,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Chenjezo. Kuchita izi kudzachotsa mauthenga onse achikwama",
     "Folder deleted": "Foda yachotsedwa",
     "Filters": "Zosefera",
-    "Coming soon": "Zikubwera posachedwa"
+    "Coming soon": "Zikubwera posachedwa",
+    "Common actions": "Zochita zodziwika",
+    "Update password": "Sinthani mawu achinsinsi",
+    "Current password": "Mawu Achinsinsi Apano",
+    "New password": "Mawu Achinsinsi Atsopano",
+    "Confirm new password": "Tsimikizani chinsinsi chatsopano"
   },
   "or": {
     "Inbox": "ଇନବକ୍ସ |",
@@ -7380,7 +7720,12 @@
     "Caution. This action will delete permanently all messages in the folder": "ସାବଧାନ। ଏହି କ୍ରିୟା ଫୋଲ୍ଡରରେ ଥିବା ସମସ୍ତ ସନ୍ଦେଶକୁ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ କରିବ |",
     "Folder deleted": "ଫୋଲ୍ଡର୍ ଡିଲିଟ୍ ହୋଇଛି |",
     "Filters": "ଫିଲ୍ଟର୍ |",
-    "Coming soon": "ଶୀଘ୍ର ଆସୁଅଛି"
+    "Coming soon": "ଶୀଘ୍ର ଆସୁଅଛି",
+    "Common actions": "ସାଧାରଣ କାର୍ଯ୍ୟ |",
+    "Update password": "ପାସୱାର୍ଡ ଅଦ୍ୟତନ କରନ୍ତୁ |",
+    "New password": "ନୁତନ ପାସ୍ୱାର୍ଡ",
+    "Current password": "ଏବେକାର ପାସୱାର୍ଡ଼",
+    "Confirm new password": "ନୂତନ ପାସୱାର୍ଡ ନିଶ୍ଚିତ କରନ୍ତୁ |"
   },
   "pa": {
     "Inbox": "ਇਨਬਾਕਸ",
@@ -7487,7 +7832,12 @@
     "Delete folder \"{1}\"": "\"{1}\" ਫੋਲਡਰ ਨੂੰ ਮਿਟਾਓ",
     "Folder deleted": "ਫੋਲਡਰ ਮਿਟਾ ਦਿੱਤਾ ਗਿਆ",
     "Filters": "ਫਿਲਟਰ",
-    "Coming soon": "ਆਨ ਵਾਲੀ"
+    "Coming soon": "ਆਨ ਵਾਲੀ",
+    "Common actions": "ਆਮ ਕਾਰਵਾਈਆਂ",
+    "Update password": "ਪਾਸਵਰਡ ਅਪਡੇਟ ਕਰੋ",
+    "Current password": "ਵਰਤਮਾਨ ਪਾਸਵਰਡ",
+    "New password": "ਨਵਾਂ ਪਾਸਵਰਡ",
+    "Confirm new password": "ਨਵੇਂ ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
   },
   "pl": {
     "Inbox": "W pudełku",
@@ -7594,7 +7944,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Uwaga. Ta czynność spowoduje trwałe usunięcie wszystkich wiadomości w folderze",
     "Folder deleted": "Folder usunięty",
     "Filters": "Filtry",
-    "Coming soon": "Wkrótce"
+    "Coming soon": "Wkrótce",
+    "Common actions": "Wspólne działania",
+    "Update password": "Aktualizować hasło",
+    "Current password": "Aktualne hasło",
+    "New password": "Nowe hasło",
+    "Confirm new password": "Potwierdź nowe hasło"
   },
   "ps": {
     "Inbox": "Inbox",
@@ -7701,7 +8056,12 @@
     "Caution. This action will delete permanently all messages in the folder": "احتیاط. دا عمل به په فولډر کې د تل لپاره ټول پیغامونه حذف کړي",
     "Folder deleted": "پوښی ړنګ شو",
     "Filters": "فلټرونه",
-    "Coming soon": "ډېر ژر"
+    "Coming soon": "ډېر ژر",
+    "Common actions": "عام کړنې",
+    "Update password": "رمز تازه کړئ",
+    "Current password": "اوسنی رمز",
+    "New password": "نوئ پټ نوم",
+    "Confirm new password": "نوی رمز تایید کړئ"
   },
   "pt": {
     "Inbox": "Caixa de entrada",
@@ -7808,7 +8168,12 @@
     "Delete folder \"{1}\"": "Excluir pasta \"{1}\"",
     "Folder deleted": "Pasta excluída",
     "Filters": "Filtros",
-    "Coming soon": "Em breve"
+    "Coming soon": "Em breve",
+    "Common actions": "Ações comuns",
+    "Update password": "Atualizar senha",
+    "New password": "Nova senha",
+    "Current password": "Senha atual",
+    "Confirm new password": "Confirme a nova senha"
   },
   "ro": {
     "Inbox": "Inbox",
@@ -7915,7 +8280,12 @@
     "Delete folder \"{1}\"": "Ștergeți folderul „{1}”",
     "Folder deleted": "Folder șters",
     "Filters": "Filtre",
-    "Coming soon": "In curand"
+    "Coming soon": "In curand",
+    "Common actions": "Acțiuni comune",
+    "Update password": "Actualizați parola",
+    "Current password": "Parola actuală",
+    "Confirm new password": "Confirmă noua parolă",
+    "New password": "Parolă Nouă"
   },
   "ru": {
     "Inbox": "входящие",
@@ -8022,7 +8392,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Внимание. Это действие навсегда удалит все сообщения в папке",
     "Folder deleted": "Папка удалена",
     "Filters": "фильтры",
-    "Coming soon": "Скоро будет"
+    "Coming soon": "Скоро будет",
+    "Common actions": "Общие действия",
+    "Update password": "Обновить пароль",
+    "Current password": "Текущий пароль",
+    "New password": "Новый пароль",
+    "Confirm new password": "Подтвердите новый пароль"
   },
   "rw": {
     "Inbox": "Inbox",
@@ -8129,7 +8504,12 @@
     "Delete folder \"{1}\"": "Siba ububiko \"{1}\"",
     "Folder deleted": "Ububiko bwasibwe",
     "Filters": "Muyunguruzi",
-    "Coming soon": "Kuza vuba"
+    "Coming soon": "Kuza vuba",
+    "Common actions": "Ibikorwa bisanzwe",
+    "Update password": "Kuvugurura ijambo ryibanga",
+    "Current password": "Ijambobanga ryubu",
+    "New password": "Ijambobanga rishya",
+    "Confirm new password": "Emeza ijambo ryibanga rishya"
   },
   "sd": {
     "Inbox": "انباڪس",
@@ -8236,7 +8616,12 @@
     "Caution. This action will delete permanently all messages in the folder": "احتياط. اهو عمل فولڊر ۾ موجود سڀئي پيغام مستقل طور تي خارج ڪري ڇڏيندو آهي",
     "Folder deleted": "فولڊر ختم ڪئي وئي",
     "Filters": "فلٽر",
-    "Coming soon": "جلد ايندو"
+    "Coming soon": "جلد ايندو",
+    "Common actions": "عام ڪارناما",
+    "Update password": "پاسورڊ کي تازو ڪريو",
+    "New password": "نئون پاسورڊ",
+    "Current password": "موجوده پاس ورڊ",
+    "Confirm new password": "نئين پاسورڊ جي تصديق ڪريو"
   },
   "si": {
     "Inbox": "එන ලිපි",
@@ -8343,7 +8728,12 @@
     "Caution. This action will delete permanently all messages in the folder": "අවවාදයයි. මෙම ක්‍රියාව ෆෝල්ඩරයේ ඇති සියලුම පණිවිඩ ස්ථිරවම මකා දමනු ඇත",
     "Folder deleted": "ෆෝල්ඩරය මකා දමන ලදි",
     "Filters": "පෙරහන්",
-    "Coming soon": "ඉක්මණින් පැමිණෙන"
+    "Coming soon": "ඉක්මණින් පැමිණෙන",
+    "Common actions": "පොදු ක්රියාවන්",
+    "Update password": "මුරපදය යාවත්කාලීන කරන්න",
+    "Current password": "වත්මන් මුරපදය",
+    "New password": "නව මුරපදය",
+    "Confirm new password": "නව මුරපදය තහවුරු කරන්න"
   },
   "sk": {
     "Inbox": "Doručená pošta",
@@ -8450,7 +8840,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Opatrnosť. Táto akcia natrvalo odstráni všetky správy v priečinku",
     "Folder deleted": "Priečinok bol odstránený",
     "Filters": "filtre",
-    "Coming soon": "Už čoskoro"
+    "Coming soon": "Už čoskoro",
+    "Common actions": "Spoločné akcie",
+    "Update password": "Aktualizujte heslo",
+    "New password": "Nové heslo",
+    "Confirm new password": "Potvrďte nové heslo",
+    "Current password": "Aktuálne heslo"
   },
   "sl": {
     "Inbox": "Prejeto",
@@ -8557,7 +8952,12 @@
     "Delete folder \"{1}\"": "Brisanje mape \"{1}\"",
     "Folder deleted": "Mapa je izbrisana",
     "Filters": "Filtri",
-    "Coming soon": "Prihaja kmalu"
+    "Coming soon": "Prihaja kmalu",
+    "Common actions": "Skupna dejanja",
+    "Update password": "Posodobi geslo",
+    "Current password": "Trenutno geslo",
+    "New password": "Novo geslo",
+    "Confirm new password": "Potrdite novo geslo"
   },
   "sm": {
     "Inbox": "Falevalu",
@@ -8664,7 +9064,12 @@
     "Delete folder \"{1}\"": "Tapē le faila \"{1}\"",
     "Folder deleted": "Faila ua tape",
     "Filters": "Faamama",
-    "Coming soon": "Toetiti sau"
+    "Coming soon": "Toetiti sau",
+    "Common actions": "Gaioiga masani",
+    "Update password": "Faʻalauiloa le faʻaupuga",
+    "Current password": "Upu tuanai o le taimi nei",
+    "Confirm new password": "Faʻamaonia le faʻaupuga fou",
+    "New password": "Upu fou"
   },
   "sn": {
     "Inbox": "Inbox",
@@ -8771,7 +9176,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Kuchenjerera. Ichi chiito chinodzima zvachose mese ma meseji mufolda",
     "Folder deleted": "Folda yabviswa",
     "Filters": "Mafirita",
-    "Coming soon": "Kuuya manje manje"
+    "Coming soon": "Kuuya manje manje",
+    "Common actions": "Zviito zvakajairika",
+    "Update password": "Gadziridza password",
+    "Current password": "Pasiwedhi yazvino",
+    "Confirm new password": "Simbisa nyowani nyowani",
+    "New password": "Nyowani nyowani"
   },
   "so": {
     "Inbox": "Inbox",
@@ -8878,7 +9288,12 @@
     "Delete folder \"{1}\"": "Tirtir faylka \"{1}\"",
     "Folder deleted": "Faylka waa la tirtiray",
     "Filters": "Miirayaasha",
-    "Coming soon": "Soo dhowaada"
+    "Coming soon": "Soo dhowaada",
+    "Common actions": "Falalka guud",
+    "Update password": "Cusbooneysii ereyga sirta ah",
+    "Current password": "Magaca Sirta Hadda",
+    "Confirm new password": "Xaqiiji ereyga cusub",
+    "New password": "Furaha cusub"
   },
   "sq": {
     "Inbox": "Inbox",
@@ -8985,7 +9400,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Kujdes. Ky veprim do të fshijë përgjithmonë të gjitha mesazhet në dosje",
     "Folder deleted": "Dosja është fshirë",
     "Filters": "Filters",
-    "Coming soon": "Vjen së shpejti"
+    "Coming soon": "Vjen së shpejti",
+    "Common actions": "Veprimet e zakonshme",
+    "Update password": "Përditëso fjalëkalimin",
+    "Current password": "Fjalëkalimi aktual",
+    "Confirm new password": "Konfirmoni fjalëkalimin e ri",
+    "New password": "Fjalëkalim i ri"
   },
   "sr": {
     "Inbox": "Инбок",
@@ -9092,7 +9512,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Опрез. Ова акција ће трајно избрисати све поруке у мапи",
     "Folder deleted": "Мапа је избрисана",
     "Filters": "Филтери",
-    "Coming soon": "Долази ускоро"
+    "Coming soon": "Долази ускоро",
+    "Common actions": "Уобичајене акције",
+    "Update password": "Ажурирај лозинку",
+    "Current password": "Тренутна лозинка",
+    "Confirm new password": "Потврдите нову лозинку",
+    "New password": "Нова лозинка"
   },
   "st": {
     "Inbox": "Inbox",
@@ -9199,7 +9624,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Tlhokomeliso. Ketso ena e tla hlakola melaetsa eohle e foldareng",
     "Folder deleted": "Folder e tlositsoe",
     "Filters": "Metlhotlo",
-    "Coming soon": "E fihla haufinyane"
+    "Coming soon": "E fihla haufinyane",
+    "Common actions": "Liketso tse tloaelehileng",
+    "Update password": "Nchafatsa phasewete",
+    "Current password": "Senotlolo sa Hajoale",
+    "New password": "Phasewete e Ntjha",
+    "Confirm new password": "Netefatsa phasewete e ncha"
   },
   "su": {
     "Inbox": "Koropak",
@@ -9306,7 +9736,12 @@
     "Delete folder \"{1}\"": "Hapus folder \"{1}\"",
     "Folder deleted": "Polder dihapus",
     "Filters": "Saringan",
-    "Coming soon": "Geura sumping"
+    "Coming soon": "Geura sumping",
+    "Common actions": "Kalakuan biasa",
+    "Update password": "Perbarui sandi",
+    "Current password": "Kecap konci Ayeuna",
+    "New password": "Kecap konci Énggal",
+    "Confirm new password": "Konpirmasi sandi anyar"
   },
   "sv": {
     "Inbox": "Inkorg",
@@ -9413,7 +9848,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Varning. Den här åtgärden tar bort alla meddelanden i mappen permanent",
     "Folder deleted": "Mappen raderad",
     "Filters": "filter",
-    "Coming soon": "Kommer snart"
+    "Coming soon": "Kommer snart",
+    "Common actions": "Vanliga åtgärder",
+    "Update password": "Uppdatera lösenord",
+    "Current password": "Nuvarande lösenord",
+    "Confirm new password": "Bekräfta nytt lösenord",
+    "New password": "Nytt lösenord"
   },
   "sw": {
     "Inbox": "Kikasha",
@@ -9520,7 +9960,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Tahadhari. Kitendo hiki kitafuta kabisa ujumbe wote kwenye folda",
     "Folder deleted": "Folda imefutwa",
     "Filters": "Vichungi",
-    "Coming soon": "Inakuja hivi karibuni"
+    "Coming soon": "Inakuja hivi karibuni",
+    "Common actions": "Vitendo vya kawaida",
+    "Update password": "Sasisha nywila",
+    "Current password": "Nenosiri la sasa",
+    "New password": "Nenosiri mpya",
+    "Confirm new password": "Thibitisha nywila mpya"
   },
   "ta": {
     "Inbox": "உட்பெட்டி",
@@ -9627,7 +10072,12 @@
     "Caution. This action will delete permanently all messages in the folder": "எச்சரிக்கை. இந்த செயல் கோப்புறையில் உள்ள எல்லா செய்திகளையும் நிரந்தரமாக நீக்கும்",
     "Folder deleted": "கோப்புறை நீக்கப்பட்டது",
     "Filters": "வடிப்பான்கள்",
-    "Coming soon": "விரைவில்"
+    "Coming soon": "விரைவில்",
+    "Common actions": "பொதுவான செயல்கள்",
+    "Update password": "கடவுச்சொல்லைப் புதுப்பிக்கவும்",
+    "Confirm new password": "புதிய கடவு சொல்லை உறுதி செய்",
+    "Current password": "தற்போதைய கடவுச்சொல்",
+    "New password": "புதிய கடவுச்சொல்"
   },
   "te": {
     "Inbox": "ఇన్బాక్స్",
@@ -9734,7 +10184,12 @@
     "Delete folder \"{1}\"": "\"{1}\" ఫోల్డర్‌ను తొలగించండి",
     "Folder deleted": "ఫోల్డర్ తొలగించబడింది",
     "Filters": "వడపోతలు",
-    "Coming soon": "త్వరలో"
+    "Coming soon": "త్వరలో",
+    "Common actions": "సాధారణ చర్యలు",
+    "Update password": "పాస్వర్డ్ను నవీకరించండి",
+    "Current password": "ప్రస్తుత పాస్వర్డ్",
+    "New password": "కొత్త పాస్వర్డ్",
+    "Confirm new password": "క్రొత్త పాస్‌వర్డ్‌ను నిర్ధారించండి"
   },
   "tg": {
     "Inbox": "Қуттии",
@@ -9841,7 +10296,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Огоҳӣ. Ин амал тамоми паёмҳои ҷузвдонро ба пуррагӣ нест мекунад",
     "Folder deleted": "Папка нест карда шуд",
     "Filters": "Филтрҳо",
-    "Coming soon": "Ба зудӣ"
+    "Coming soon": "Ба зудӣ",
+    "Common actions": "Амалҳои маъмул",
+    "Update password": "Паролро навсозӣ кунед",
+    "Current password": "Калидвожаи Феълӣ",
+    "New password": "Калидвожаи Нав",
+    "Confirm new password": "Гузарвожаи навро тасдиқ кунед"
   },
   "th": {
     "Inbox": "กล่องขาเข้า",
@@ -9948,7 +10408,12 @@
     "Caution. This action will delete permanently all messages in the folder": "ความระมัดระวัง การกระทำนี้จะลบข้อความทั้งหมดในโฟลเดอร์อย่างถาวร",
     "Folder deleted": "ลบโฟลเดอร์แล้ว",
     "Filters": "ฟิลเตอร์",
-    "Coming soon": "เร็ว ๆ นี้"
+    "Coming soon": "เร็ว ๆ นี้",
+    "Common actions": "การกระทำทั่วไป",
+    "Update password": "อัปเดตรหัสผ่าน",
+    "New password": "รหัสผ่านใหม่",
+    "Current password": "รหัสผ่านปัจจุบัน",
+    "Confirm new password": "ยืนยันรหัสผ่านใหม่"
   },
   "tk": {
     "Inbox": "Gelýän bukja",
@@ -10055,7 +10520,12 @@
     "Delete folder \"{1}\"": "\"{1}\" bukjasyny pozuň",
     "Folder deleted": "Papka öçürildi",
     "Filters": "Süzgüçler",
-    "Coming soon": "Soonakynda"
+    "Coming soon": "Soonakynda",
+    "Common actions": "Umumy hereketler",
+    "Update password": "Paroly täzeläň",
+    "Current password": "Hazirki parolynyz",
+    "Confirm new password": "Täze paroly tassyklaň",
+    "New password": "Täze parol"
   },
   "tl": {
     "Inbox": "Inbox",
@@ -10162,7 +10632,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Pag-iingat. Ang pagkilos na ito ay tatangging permanenteng lahat ng mga mensahe sa folder",
     "Folder deleted": "Tinanggal ang folder",
     "Filters": "Mga Filter",
-    "Coming soon": "Malapit na"
+    "Coming soon": "Malapit na",
+    "Common actions": "Mga karaniwang pagkilos",
+    "Update password": "I-update ang password",
+    "Confirm new password": "Kumpirmahin ang bagong password",
+    "New password": "Bagong password",
+    "Current password": "Kasalukuyang password"
   },
   "tr": {
     "Inbox": "Gelen kutusu",
@@ -10269,7 +10744,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Dikkat. Bu eylem klasördeki tüm iletileri kalıcı olarak silecek",
     "Folder deleted": "Klasör silindi",
     "Filters": "Filtreler",
-    "Coming soon": "Çok yakında"
+    "Coming soon": "Çok yakında",
+    "Common actions": "Ortak eylemler",
+    "Update password": "Şifreyi güncelle",
+    "New password": "Yeni Şifre",
+    "Confirm new password": "Yeni şifreyi onayla",
+    "Current password": "Şimdiki Şifre"
   },
   "tt": {
     "Inbox": "Керү",
@@ -10376,7 +10856,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Сак булыгыз. Бу гамәл папкадагы барлык хәбәрләрне мәңгегә бетерәчәк",
     "Folder deleted": "Папка бетерелде",
     "Filters": "Фильтрлар",
-    "Coming soon": "Килә тиздән"
+    "Coming soon": "Килә тиздән",
+    "Common actions": "Гомуми чаралар",
+    "Update password": "Серсүзне яңарту",
+    "New password": "Яңа серсүз",
+    "Current password": "Хәзер кулланыла торган серсүз",
+    "Confirm new password": "Яңа серсүзне раслагыз"
   },
   "ug": {
     "Inbox": "خەت ساندۇقى",
@@ -10483,7 +10968,12 @@
     "Delete folder \"{1}\"": "ھۆججەت قىسقۇچنى ئۆچۈرۈڭ \"{1}\"",
     "Folder deleted": "ھۆججەت قىسقۇچ ئۆچۈرۈلدى",
     "Filters": "سۈزگۈچ",
-    "Coming soon": "پات يېقىندا كېلىدۇ"
+    "Coming soon": "پات يېقىندا كېلىدۇ",
+    "Common actions": "ئورتاق ھەرىكەت",
+    "Update password": "پارولنى يېڭىلاش",
+    "Confirm new password": "يېڭى پارولنى جەزملەشتۈرۈڭ",
+    "Current password": "نۆۋەتتىكى پارول",
+    "New password": "يېڭى پارول"
   },
   "uk": {
     "Inbox": "Вхідні",
@@ -10590,7 +11080,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Обережність. Ця дія назавжди видалить усі повідомлення в папці",
     "Folder deleted": "Папка видалена",
     "Filters": "Фільтри",
-    "Coming soon": "Незабаром"
+    "Coming soon": "Незабаром",
+    "Common actions": "Поширені дії",
+    "Update password": "Оновити пароль",
+    "Confirm new password": "Підтвердити новий пароль",
+    "Current password": "Поточний пароль",
+    "New password": "Новий пароль"
   },
   "ur": {
     "Inbox": "ان باکس",
@@ -10697,7 +11192,12 @@
     "Caution. This action will delete permanently all messages in the folder": "احتیاط. اس کارروائی سے فولڈر میں موجود تمام پیغامات مستقل طور پر حذف ہوجائیں گے",
     "Folder deleted": "فولڈر حذف ہوگیا",
     "Filters": "فلٹرز",
-    "Coming soon": "جلد آرہا ہے"
+    "Coming soon": "جلد آرہا ہے",
+    "Common actions": "مشترکہ اقدامات",
+    "Update password": "پاس ورڈ کو اپ ڈیٹ کریں",
+    "Current password": "موجودہ خفیہ لفظ",
+    "New password": "نیا پاس ورڈ",
+    "Confirm new password": "نئے پاس ورڈ کی توثیق کریں"
   },
   "uz": {
     "Inbox": "Xabarlar qutisi",
@@ -10804,7 +11304,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Diqqat. Ushbu amal jilddagi barcha xabarlarni butunlay yo'q qiladi",
     "Folder deleted": "Jild o'chirildi",
     "Filters": "Filtrlar",
-    "Coming soon": "Tez kunda"
+    "Coming soon": "Tez kunda",
+    "Common actions": "Umumiy harakatlar",
+    "Update password": "Parolni yangilang",
+    "Current password": "Hozirgi maxfiy so'z",
+    "New password": "Yangi Parol",
+    "Confirm new password": "Yangi parolni tasdiqlang"
   },
   "vi": {
     "Inbox": "Hộp thư đến",
@@ -10911,7 +11416,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Chú ý. Hành động này sẽ xóa vĩnh viễn tất cả các tin nhắn trong thư mục",
     "Folder deleted": "Thư mục đã bị xóa",
     "Filters": "Bộ lọc",
-    "Coming soon": "Sắp có"
+    "Coming soon": "Sắp có",
+    "Common actions": "Các hành động phổ biến",
+    "Update password": "Cập nhật mật khẩu",
+    "Current password": "Mật khẩu hiện tại",
+    "New password": "Mật khẩu mới",
+    "Confirm new password": "Xác nhận mật khẩu mới"
   },
   "xh": {
     "Inbox": "Inbox",
@@ -11018,7 +11528,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Isilumkiso. Intshukumo iyakucima ngokufihlakeleyo yonke imiyalezo kwifolda",
     "Folder deleted": "Ifolda isusiwe",
     "Filters": "Iifilitha",
-    "Coming soon": "Kuza ngokukhawuleza"
+    "Coming soon": "Kuza ngokukhawuleza",
+    "Common actions": "Izenzo eziqhelekileyo",
+    "Update password": "Hlaziya iphasiwedi",
+    "Current password": "Iphasiwedi yangoku",
+    "New password": "Iphasiwedi entsha",
+    "Confirm new password": "Qinisekisa iphasiwedi entsha"
   },
   "yi": {
     "Inbox": "Inbox",
@@ -11125,7 +11640,12 @@
     "Caution. This action will delete permanently all messages in the folder": "וואָרענען. די אַקציע וועט פּערמאַנאַנטלי ויסמעקן אַלע אַרטיקלען אין דער טעקע",
     "Folder deleted": "טעקע אויסגעמעקט",
     "Filters": "פילטערס",
-    "Coming soon": "קומענדיק באַלד"
+    "Coming soon": "קומענדיק באַלד",
+    "Common actions": "פּראָסט אַקשאַנז",
+    "Update password": "דערהייַנטיקן פּאַראָל",
+    "Current password": "קראַנט פּאַראָל",
+    "Confirm new password": "באַשטעטיקן נייַ פּאַראָל",
+    "New password": "ניו פּאַראָל"
   },
   "yo": {
     "Inbox": "Apo-iwọle",
@@ -11232,7 +11752,12 @@
     "Caution. This action will delete permanently all messages in the folder": "Išọra. Iṣe yii yoo paarẹ gbogbo awọn ifiranṣẹ inu folda naa",
     "Folder deleted": "Ti paarẹ folda",
     "Filters": "Ajọ",
-    "Coming soon": "Nbọ laipẹ"
+    "Coming soon": "Nbọ laipẹ",
+    "Common actions": "Awọn iṣe ti o wọpọ",
+    "Update password": "Imudojuiwọn ọrọigbaniwọle",
+    "Confirm new password": "Jẹrisi ọrọigbaniwọle titun",
+    "Current password": "Ọrọ igbaniwọle lọwọlọwọ",
+    "New password": "Ọrọ aṣina Tuntun"
   },
   "zh-TW": {
     "Inbox": "收件箱",
@@ -11339,7 +11864,12 @@
     "Caution. This action will delete permanently all messages in the folder": "警告。此操作將永久刪除文件夾中的所有郵件",
     "Folder deleted": "資料夾已刪除",
     "Filters": "篩選器",
-    "Coming soon": "快來了"
+    "Coming soon": "快來了",
+    "Common actions": "常見動作",
+    "Update password": "更新密碼",
+    "New password": "新密碼",
+    "Confirm new password": "確認新密碼",
+    "Current password": "當前密碼"
   },
   "zh": {
     "Inbox": "收件箱",
@@ -11446,7 +11976,12 @@
     "Caution. This action will delete permanently all messages in the folder": "警告。此操作将永久删除文件夹中的所有邮件",
     "Folder deleted": "资料夹已删除",
     "Filters": "筛选器",
-    "Coming soon": "快来了"
+    "Coming soon": "快来了",
+    "Common actions": "常见动作",
+    "Update password": "更新密码",
+    "Current password": "当前密码",
+    "New password": "新密码",
+    "Confirm new password": "确认新密码"
   },
   "zu": {
     "Inbox": "Ibhokisi lokungenayo",
@@ -11553,6 +12088,221 @@
     "Caution. This action will delete permanently all messages in the folder": "Ukuqapha. Lesi senzo sizosusa unaphakade yonke imilayezo kwifolda",
     "Folder deleted": "Ifolda isusiwe",
     "Filters": "Izihlungi",
-    "Coming soon": "Kuyeza maduze"
+    "Coming soon": "Kuyeza maduze",
+    "Common actions": "Izenzo ezivamile",
+    "Update password": "Buyekeza iphasiwedi",
+    "Current password": "I-password Yamanje",
+    "New password": "Iphasiwedi Entsha",
+    "Confirm new password": "Qinisekisa iphasiwedi entsha"
+  },
+  "he": {
+    "Inbox": "תיבת הדואר הנכנס",
+    "Drafts": "דַמקָה",
+    "Sent": "נשלח",
+    "Spam": "ספאם",
+    "Trash": "אַשׁפָּה",
+    "From:": "מ:",
+    "To:": "ל:",
+    "Sign in": "להתחבר",
+    "Username": "שם משתמש",
+    "Password": "סיסמה",
+    "My account": "החשבון שלי",
+    "Delete folder": "מחק תיקיה",
+    "This mailbox is empty": "תיבת דואר זו ריקה",
+    "Sent:": "נשלח:",
+    "Filters": "מסננים",
+    "Subject:": "נושא:",
+    "New message": "הודעה חדשה",
+    "Undo": "לבטל",
+    "Redo": "לַעֲשׂוֹת שׁוּב",
+    "Font type": "סוג גופן",
+    "Font size": "גודל גופן",
+    "Cc:": "עותק:",
+    "Bcc:": "עותק מוסתר:",
+    "Underline": "לָשִׂים דָגֵשׁ",
+    "Align right": "ליישור מימין",
+    "List": "רשימה",
+    "Color": "צֶבַע",
+    "Italic": "נטוי",
+    "Text": "טֶקסט",
+    "Align left": "יישר שמאלה",
+    "Align middle": "יישר אמצע",
+    "Attach": "לְצַרֵף",
+    "Numbered list": "רשימה ממוספרת",
+    "Background": "רקע כללי",
+    "Remove format": "הסר פורמט",
+    "Add": "לְהוֹסִיף",
+    "Remove": "לְהַסִיר",
+    "Refresh": "לְרַעֲנֵן",
+    "Select": "בחר",
+    "{1} messages": "{1} הודעות",
+    "{1} message": "הודעה {1}",
+    "Back to mailbox": "חזרה לתיבת הדואר",
+    "Mark as read": "סמן כנקרא",
+    "Move to": "לעבור ל",
+    "Delete": "לִמְחוֹק",
+    "Mark as not read": "סמן כלא נקרא",
+    "Mark as spam": "סמן כספאם",
+    "Forward": "קָדִימָה",
+    "Reply": "תשובה",
+    "Sign out": "התנתק",
+    "Sunday": "יוֹם רִאשׁוֹן",
+    "Monday": "יוֹם שֵׁנִי",
+    "Delete permanently": "מחק לצמיתות",
+    "This is not spam": "זה לא דואר זבל",
+    "Tuesday": "יוֹם שְׁלִישִׁי",
+    "Wednesday": "יום רביעי",
+    "Thursday": "יוֹם חֲמִישִׁי",
+    "Friday": "יוֹם שִׁישִׁי",
+    "January": "יָנוּאָר",
+    "Attachments": "קבצים מצורפים",
+    "Saturday": "יום שבת",
+    "March": "מרץ",
+    "February": "פברואר",
+    "Bold": "נוֹעָז",
+    "April": "אַפּרִיל",
+    "May": "מאי",
+    "August": "אוגוסט",
+    "September": "סֶפּטֶמבֶּר",
+    "October": "אוֹקְטוֹבֶּר",
+    "December": "דֵצֶמבֶּר",
+    "Message sent": "הודעה נשלחה",
+    "New folder": "תיקייה חדשה",
+    "Jun": "יוני",
+    "Create": "לִיצוֹר",
+    "Cancel": "לְבַטֵל",
+    "Folder name": "שם התיקיה",
+    "Folder created": "תיקיה נוצרה",
+    "Folder deleted": "התיקיה נמחקה",
+    "Create new folder": "צור תיקיה חדשה",
+    "Send": "לִשְׁלוֹחַ",
+    "Caution. This action will delete permanently all messages in the folder": "זְהִירוּת. פעולה זו תמחק לצמיתות את כל ההודעות בתיקיה",
+    "Delete folder \"{1}\"": "מחק את התיקייה \"{1}\"",
+    "of {1} GB": "מתוך {1} GB",
+    "{1} GB": "{1} GB",
+    "Storage": "אִחסוּן",
+    "daily": "יומי",
+    "of {1} messages": "מתוך {1} הודעות",
+    "Discard drafts": "מחק טיוטות",
+    "Received": "קיבלו",
+    "POP3 Download": "הורדת POP3",
+    "IMAP Upload": "העלאת IMAP",
+    "IMAP Download": "הורדת IMAP",
+    "Coming soon": "בקרוב",
+    "by minute": "לפי דקה",
+    "July": "יולי",
+    "November": "נוֹבֶמבֶּר",
+    "Common actions": "פעולות נפוצות",
+    "of {1} message": "מתוך ההודעה {1}",
+    "Redirected": "הופנה מחדש",
+    "Update password": "עדכן סיסמה",
+    "Current password": "סיסמה נוכחית",
+    "Confirm new password": "תאשר סיסמא חדשה",
+    "New password": "סיסמה חדשה"
+  },
+  "zh-CN": {
+    "Inbox": "收件箱",
+    "Trash": "垃圾",
+    "Sent": "已发送",
+    "Spam": "垃圾邮件",
+    "Drafts": "草稿",
+    "Delete folder": "删除资料夹",
+    "From:": "从：",
+    "To:": "至：",
+    "This mailbox is empty": "这个邮箱是空的",
+    "Sent:": "发送：",
+    "Sign in": "登入",
+    "Password": "密码",
+    "Sign out": "登出",
+    "My account": "我的帐户",
+    "Subject:": "学科：",
+    "New message": "新消息",
+    "Filters": "筛选器",
+    "Redo": "重做",
+    "Font size": "字体大小",
+    "Font type": "字体类型",
+    "Bcc:": "密件副本：",
+    "Cc:": "抄送：",
+    "Underline": "强调",
+    "Align left": "左对齐",
+    "Color": "颜色",
+    "Align middle": "中间对齐",
+    "Align right": "右对齐",
+    "Italic": "斜体",
+    "Text": "文本",
+    "Attach": "连接",
+    "Numbered list": "编号清单",
+    "Remove format": "删除格式",
+    "Remove": "去掉",
+    "Send": "发送",
+    "{1} messages": "{1}条消息",
+    "Select": "选择",
+    "Back to mailbox": "返回信箱",
+    "{1} message": "{1}条消息",
+    "Mark as not read": "标记为未读",
+    "Refresh": "刷新",
+    "Mark as read": "标记为已读",
+    "Delete": "删除",
+    "Move to": "搬去",
+    "Mark as spam": "标记为垃圾邮件",
+    "Reply": "回复",
+    "Sunday": "星期日",
+    "Delete permanently": "永久删除",
+    "This is not spam": "这不是垃圾邮件",
+    "Username": "用户名",
+    "Discard drafts": "丢弃草稿",
+    "Monday": "星期一",
+    "Wednesday": "星期三",
+    "Attachments": "附件",
+    "Thursday": "星期四",
+    "Saturday": "星期六",
+    "January": "一月",
+    "March": "游行",
+    "February": "二月",
+    "April": "四月",
+    "Bold": "胆大",
+    "Undo": "撤消",
+    "May": "可能",
+    "July": "七月",
+    "List": "清单",
+    "August": "八月",
+    "September": "九月",
+    "November": "十一月",
+    "December": "十二月",
+    "Jun": "君",
+    "Background": "背景",
+    "New folder": "新建文件夹",
+    "Folder deleted": "资料夹已删除",
+    "Folder name": "文件夹名称",
+    "Add": "加",
+    "Message sent": "讯息已发送",
+    "Create": "创造",
+    "Cancel": "取消",
+    "Create new folder": "建立新资料夹",
+    "Folder created": "资料夹已建立",
+    "Delete folder \"{1}\"": "删除文件夹“ {1}”",
+    "Caution. This action will delete permanently all messages in the folder": "警告。此操作将永久删除文件夹中的所有邮件",
+    "Common actions": "常见动作",
+    "{1} GB": "{1} GB",
+    "of {1} GB": "{1} GB",
+    "of {1} messages": "的{1}条消息中",
+    "Forward": "前锋",
+    "Storage": "存储",
+    "daily": "日常",
+    "of {1} message": "的{1}条消息",
+    "IMAP Upload": "IMAP上传",
+    "IMAP Download": "IMAP下载",
+    "Tuesday": "星期二",
+    "by minute": "按分钟",
+    "Received": "已收到",
+    "Friday": "星期五",
+    "POP3 Download": "POP3下载",
+    "Coming soon": "快来了",
+    "October": "十月",
+    "Redirected": "重新导向",
+    "Update password": "更新密码",
+    "Current password": "当前密码",
+    "Confirm new password": "确认新密码",
+    "New password": "新密码"
   }
 }

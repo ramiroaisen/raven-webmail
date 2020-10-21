@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "என் கணக்கு",
+        "commonActions": {
+            "title": "பொதுவான செயல்கள்",
+            "updatePassword": "கடவுச்சொல்லைப் புதுப்பிக்கவும்",
+            "currentPassword": "தற்போதைய கடவுச்சொல்",
+            "newPassword": "புதிய கடவுச்சொல்",
+            "confirmPassword": "புதிய கடவு சொல்லை உறுதி செய்"
+        },
         "limits": {
             "gbUsed": "{gb} ஜிபி",
             "gbTotal": "{gb} ஜிபி",

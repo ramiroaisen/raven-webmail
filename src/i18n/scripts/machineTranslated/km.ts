@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "គណនី​របស់ខ្ញុំ",
+    "commonActions": {
+      "title": "សកម្មភាពទូទៅ",
+      "updatePassword": "ធ្វើបច្ចុប្បន្នភាពពាក្យសម្ងាត់",
+      "currentPassword": "លេខសំងាត់​បច្ចុប្បន្ន",
+      "newPassword": "ពាក្យសម្ងាត់​ថ្មី",
+      "confirmPassword": "បញ្ជាក់​លេខសំងាត់​ថ្មី"
+    },
     "limits": {
       "gbUsed": "{undefined} ជីកាបៃ",
       "gbTotal": "នៃ {gb} ជីកាបៃ",

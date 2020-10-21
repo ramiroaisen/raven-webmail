@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "حساب من",
+    "commonActions": {
+      "title": "اقدامات مشترک",
+      "updatePassword": "رمز عبور را به روز کنید",
+      "currentPassword": "رمز عبور فعلی",
+      "newPassword": "رمز عبور جدید",
+      "confirmPassword": "رمز ورود جدید را تأیید کنید"
+    },
     "limits": {
       "gbUsed": "{gb} گیگابایت",
       "gbTotal": "از {gb} گیگابایت",

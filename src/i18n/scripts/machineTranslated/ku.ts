@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Hesabê min",
+    "commonActions": {
+      "title": "Kiryarên hevpar",
+      "updatePassword": ".Îfreya xwe nûve bikin",
+      "currentPassword": "Şîfreya heyî",
+      "newPassword": "Passwordîfreya nû",
+      "confirmPassword": ".Îfreya nû piştrast bikin"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "ji {gb} GB",

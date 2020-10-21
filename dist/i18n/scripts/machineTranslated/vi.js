@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Tài khoản của tôi",
+        "commonActions": {
+            "title": "Các hành động phổ biến",
+            "updatePassword": "Cập nhật mật khẩu",
+            "currentPassword": "Mật khẩu hiện tại",
+            "newPassword": "Mật khẩu mới",
+            "confirmPassword": "Xác nhận mật khẩu mới"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "của {gb} GB",

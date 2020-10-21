@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Мой рахунак",
+        "commonActions": {
+            "title": "Агульныя дзеянні",
+            "updatePassword": "Абнавіце пароль",
+            "currentPassword": "Бягучы пароль",
+            "newPassword": "Новы пароль",
+            "confirmPassword": "Пацвердзіце новы пароль"
+        },
         "limits": {
             "gbUsed": "{gb} ГБ",
             "gbTotal": "ад {gb} ГБ",

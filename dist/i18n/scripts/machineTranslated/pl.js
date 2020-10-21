@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Moje konto",
+        "commonActions": {
+            "title": "Wspólne działania",
+            "updatePassword": "Aktualizować hasło",
+            "currentPassword": "Aktualne hasło",
+            "newPassword": "Nowe hasło",
+            "confirmPassword": "Potwierdź nowe hasło"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "z {gb} GB",

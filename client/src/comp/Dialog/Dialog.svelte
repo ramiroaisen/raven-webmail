@@ -20,7 +20,6 @@
         display: flex;
         flex-direction: column;
         border-radius: 0.25em;
-        //border-top: var(--pc) 4px solid;
         overflow: hidden;
     }
 
@@ -29,7 +28,6 @@
         font-weight: 600;
         padding: 1em;
         background: rgba(0,0,0,0.1dialog);
-        //border-bottom: var(--border-gray) 1px solid;
     }
 </style>
 
@@ -40,12 +38,8 @@
     import {once} from "lib@util.js";
 
     let isOpen = false;
-
-    let title;
-    let onClose;
-    let modal
-
-    let close;
+    let title = null;
+    let modal = false;
 
     // args:
     // title: string
@@ -53,7 +47,7 @@
     // modal: boolean (false)
 
     export const open = (args = {}) => {
-        title = args.title || null;
+        title = args.title || title;
         modal = modal || false;
         isOpen = true;
 

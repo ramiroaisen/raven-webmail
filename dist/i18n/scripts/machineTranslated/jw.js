@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Pendhaftaran",
+        "commonActions": {
+            "title": "Tumindak umum",
+            "updatePassword": "Nganyari tembung sandhi",
+            "currentPassword": "Sandi saiki",
+            "newPassword": "Sandi anyar",
+            "confirmPassword": "Konfirmasi sandhi anyar"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "saka {gb} GB",

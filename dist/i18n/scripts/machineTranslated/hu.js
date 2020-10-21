@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Az én fiókom",
+        "commonActions": {
+            "title": "Közös cselekvések",
+            "updatePassword": "Jelszó frissítése",
+            "currentPassword": "Jelenlegi jelszó",
+            "newPassword": "Új jelszó",
+            "confirmPassword": "Erősítse meg az új jelszavát"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "{gb} GB",

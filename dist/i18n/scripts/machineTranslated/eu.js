@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Nire kontua",
+        "commonActions": {
+            "title": "Ekintza arruntak",
+            "updatePassword": "Eguneratu pasahitza",
+            "currentPassword": "Oraingo pasahitza",
+            "newPassword": "Pasahitz berria",
+            "confirmPassword": "Berretsi pasahitz berria"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "de {gb} GB",

@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Kont mwen",
+        "commonActions": {
+            "title": "Aksyon komen",
+            "updatePassword": "Mizajou modpas",
+            "currentPassword": "Modpas kouran",
+            "newPassword": "Nouvo modpas",
+            "confirmPassword": "Konfime nouvo modpas"
+        },
         "limits": {
             "gbUsed": "{gb} GB",
             "gbTotal": "nan {gb} GB",

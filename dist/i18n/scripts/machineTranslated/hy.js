@@ -146,6 +146,13 @@ const locale = {
     },
     "myAccount": {
         "title": "Իմ հաշիվը",
+        "commonActions": {
+            "title": "Ընդհանուր գործողություններ",
+            "updatePassword": "Թարմացրեք գաղտնաբառը",
+            "currentPassword": "Ընթացիկ գաղտնաբառ",
+            "newPassword": "Նոր ծածկագիր",
+            "confirmPassword": "Հաստատեք նոր գաղտնաբառը"
+        },
         "limits": {
             "gbUsed": "1} ԳԲ",
             "gbTotal": "{gb} ԳԲ-ից",

@@ -146,6 +146,13 @@ const locale: Locale = {
   },
   "myAccount": {
     "title": "Akhaonte Ea Hau",
+    "commonActions": {
+      "title": "Liketso tse tloaelehileng",
+      "updatePassword": "Nchafatsa phasewete",
+      "currentPassword": "Senotlolo sa Hajoale",
+      "newPassword": "Phasewete e Ntjha",
+      "confirmPassword": "Netefatsa phasewete e ncha"
+    },
     "limits": {
       "gbUsed": "{gb} GB",
       "gbTotal": "ho {gb} GB",
