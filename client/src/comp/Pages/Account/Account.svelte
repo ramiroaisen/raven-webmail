@@ -7,8 +7,10 @@
 
     console.log(user);
 
+    $: name = user.name || "Unnamed";
+
     let clientWidth = 0;
-    let letter = user.name[0] || "";
+    $: letter = name[0] || "";
 
     let narrow, wide;
     $: narrow = clientWidth < 900;
@@ -216,7 +218,7 @@ import ProgressButton from "root@comp/ProgressButton.svelte";
     <div class="main">
         <div class="letter">{letter}</div>
         <div class="end">
-            <div class="name">{user.name}</div>
+            <div class="name">{name}</div>
             <div class="username">{user.username}</div>
             <div class="address">{user.address}</div>
         </div>
