@@ -25,6 +25,21 @@ export const ws = (srv: Server, config: Config, session: any) => {
 
   server.on("connection", (ws: Ws, req: IncomingMessage, session: Express.Session) => {
     
+    // keep alive
+    let interval = setInterval(() => {
+      try {
+        ws.ping(void 0, void 0, err => {
+          if(err) ws.terminate();
+        })
+      } catch(e) {
+        ws.terminate();
+      }
+    }, 5000)
+
+    ws.on("close", () => {
+      clearInterval(interval);
+    })
+
     const client = new Client({
       host: config.wildduck_api_url,
       accessToken: session.accessToken,

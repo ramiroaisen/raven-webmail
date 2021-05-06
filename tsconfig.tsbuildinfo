@@ -472,7 +472,7 @@
         "version": "67862f40738f6a9729d77a1e49c5b78ecce12422134c5e2f5b0c630d3d90bdf3"
       },
       "./src/client/ws.ts": {
-        "version": "ca4c954484c1a3e9949909e93532720d2cc3941f527fca3fafaa33d330be92ea"
+        "version": "c1866da19666c0b5a38579d23936f6f40116e4b2e944a67918fe9bdac6638209"
       },
       "./src/upload.ts": {
         "version": "14ffbf4ad12c522f115cb09c77f0937e02d914f752830455964becacace06a55"
@@ -3585,6 +3585,8 @@
       "./node_modules/@types/accept-language-parser/index.d.ts",
       "./src/i18n/src/es.ts",
       "./src/i18n/types.ts",
+      "./src/i18n/i18n.ts",
+      "./src/raven.ts",
       "./node_modules/@types/morgan/index.d.ts",
       "./node_modules/@types/helmet/index.d.ts",
       "./node_modules/@types/ws/index.d.ts",
@@ -3593,6 +3595,7 @@
       "./node_modules/@types/bson/index.d.ts",
       "./node_modules/@types/mongodb/index.d.ts",
       "./node_modules/@types/connect-mongodb-session/index.d.ts",
+      "./src/session.ts",
       "./src/upload.ts",
       "./node_modules/@types/compression/index.d.ts",
       "./node_modules/@types/minimatch/index.d.ts",
@@ -3711,11 +3714,8 @@
       "./src/i18n/scripts/machineTranslated/zh-TW.ts",
       "./src/i18n/scripts/machineTranslated/zh.ts",
       "./src/i18n/scripts/machineTranslated/zu.ts",
-      "./src/session.ts",
-      "./src/server.ts",
       "./src/client/ws.ts",
-      "./src/i18n/i18n.ts",
-      "./src/raven.ts"
+      "./src/server.ts"
     ]
   },
   "version": "3.8.3"
