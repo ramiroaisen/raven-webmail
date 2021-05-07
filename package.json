@@ -1,8 +1,8 @@
 {
   "name": "raven-webmail",
-  "version": "0.0.14",
+  "version": "0.0.16",
   "description": "A webmail for the wildduck mail server",
-  "main": "./dist/server.js",
+  "main": "./raven.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ttsc",

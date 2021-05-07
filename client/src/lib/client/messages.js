@@ -150,7 +150,7 @@ export const createForward = async (mailbox, message) => {
     }
     return createDraft({
         html,
-        subject: "Re: " + (ref.subject || ""),
+        subject: "Fwd: " + (ref.subject || ""),
         to,
         files,
         reference: {
