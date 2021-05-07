@@ -201,7 +201,7 @@ export const createForward = async (mailbox: string, message: number): Promise<D
 
   return createDraft({
     html,
-    subject: "Re: " + (ref.subject || ""),
+    subject: "Fwd: " + (ref.subject || ""),
     to,
     files,
     reference: {
