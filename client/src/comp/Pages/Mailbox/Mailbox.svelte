@@ -36,6 +36,21 @@
   export let selection;
   export let scroll;
 
+  let timer;
+  let prevUnseen = $mailbox.unseen;
+  $: onMailbox($mailbox)
+  const onMailbox = mailbox => {
+    if(prevUnseen === mailbox.unseen) return;
+    if(prevUnseen > mailbox.unseen) {
+      prevUnseen = mailbox.unseen;
+      return
+    }
+
+    prevUnseen = mailbox.unseen;
+    clearTimeout(timer);
+    timer = setTimeout(loadPrev, 1000);
+  } 
+  
   setContext("mailbox-selection", selection);
 
   import {junk, trash, drafts, sent} from "../../../lib/client/mailboxes";
@@ -87,6 +102,19 @@
 
   import {list} from "lib@client/messages.js";
   
+  const loadPrev = async () => {
+    const json = await list($mailbox.id);
+    const toAdd = [];
+    for(const message of json.messages) {
+      const prev = messages.get().find(store => store.get().id === message.id);
+      if(prev == null) toAdd.push(writable(message));
+    }
+
+    if(toAdd.length) {
+      messages.update(messages => [...toAdd, ...messages]);
+    }
+  }
+
   let reloading = false;
   let reloadTimes = 0;
   const reload = async () => {
