@@ -1,107 +1,6 @@
-<style>
-  x-tab-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-    padding-bottom: 3em;
-  }
-
-  x-mailbox-empty {
-    flex: none;
-    margin: 2em auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #333;
-    font-size: 1.1em;
-  }
-
-  .label {
-    font-weight: 500;
-    margin-top: 1em;
-  }
-
-  .select {
-    margin-inline-start: -0.15em;
-  }
-
-  .only-when-selection{
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  x-selection-info {
-    display: flex;
-    flex: none;
-    flex-direction: row-reverse;
-    align-items: center;
-    margin-inline-start: auto;
-    background: #c2dbff;
-    padding: 0.4em 0.5em;
-    border-radius: 100px;
-    color: #555;
-  }
-  
-  x-selection-info > :global(svg) {
-    font-size: 1.1em;
-  }
-
-  x-selection-info > span {
-    font-size: 0.8em;
-    margin: 0 0.5em;
-  }
-
-  x-loadmore {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--pc);
-    padding: 0.5em;
-    font-size: 2.5em;
-    min-height: auto;
-  }
-
-  x-loadmore-loading, x-loadmore-button {
-    display: flex;
-    flex: none;
-    width: 1em;
-    height: 1em;
-    align-items: center;
-    justify-content: center;
-  }
-
-  x-loadmore-button {
-    cursor: pointer;
-    border-radius: 50%;
-  }
-
-  x-mailbox-message {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    flex: none;
-    justify-items: stretch;
-    align-items: stretch;
-    background: #fff;
-    transition: opacity 150ms ease, margin 150ms ease;
-  }
-
-  x-tab-content > :global(.removed) {
-    z-index: 1;
-    margin-block-end: -3.0625rem;
-    opacity: 0;
-  }
-</style>
-
 <script>
   import {getContext, setContext, onMount} from "svelte";
   import {fade} from "svelte/transition";
-  import {flip} from "svelte/animate";
 
   import {writable} from "../../../lib/store";
 
@@ -117,10 +16,6 @@
   import MarkSeen from "svelte-material-icons/EmailOpenOutline.svelte";
   import MarkSpam from "svelte-material-icons/AlertDecagramOutline.svelte";
   import UnMarkSpam from "svelte-material-icons/EmailCheckOutline.svelte";
-  import Resend from "svelte-material-icons/EmailSendOutline.svelte";
-  import Reply from "svelte-material-icons/EmailReceiveOutline.svelte";
-  //import MoveTo from "svelte-material-icons/FolderMoveOutline.svelte";
-  //import GoBack from "svelte-material-icons/ArrowLeft.svelte";  
   import CheckAll from "svelte-material-icons/CheckboxMarked.svelte";
   import CheckNone from "svelte-material-icons/CheckboxBlankOutline.svelte";
   import CheckSome from "svelte-material-icons/CheckboxIntermediate.svelte";
@@ -220,20 +115,12 @@
     loadingMore = false;
   }
 
-  import {quadOut} from "svelte/easing";
   const flyInsert = (node, params) => {
     node.classList.add("removed");
     node.style.zIndex = "1";
     setTimeout(() => node.classList.remove("removed"), 1);
     setTimeout(() => node.style.zIndex = null, 150)
     return {duration: 150}
-    /*
-    return {
-      easing: quadOut,
-      ...params,
-      css: (t, u) => `z-index: 1; opacity: ${t}; margin-block-end: -${u * h}px;`
-    }
-    */
   }
 
   const flyRemove = (node) => {
@@ -245,9 +132,179 @@
   export let locale = $l;
 
   import {mailboxMeta} from "../../../lib/util";
+
   let meta;
   $: meta = mailboxMeta($mailbox, locale.mailbox.title);
+
+  // shell: You can use this from chrome console
+  const shell = {
+    matchKeys: [ "from", "subject", "intro" ],
+    sleep: (ms) => new Promise(resolve => setTimeout(resolve, ms)),
+    loadMore: async (n = 1) => {
+      for(let i = 0; i < n; i++) {
+        console.log(`loading page ${i + 1}`);
+        await loadMore();
+        await shell.sleep(250);
+      }
+    },
+    select: (query) => {
+      console.log(selection);
+      let count = 0;
+      for(const message of $messages) {
+        if(matchMessage(query, message.get())) {
+          count++;
+          selection.add(message);
+        }
+      }
+      console.log(`selected ${count} messages`);
+    }   
+  }
+
+  const matchMessage = (query, message) => {
+    console.log(query, message, false);
+  
+    if(query.from) {
+      if(query.from instanceof RegExp) {
+        if(query.from.test(message.from.address || "") || query.from.test(message.from.name || "")) {
+          return true;
+        }
+      } else if((message.from.address || "").includes(query.from) || (message.from.name || "").includes(query.from)) {
+        return true;
+      }
+    }
+
+    if(query.subject) {
+      if(query.subject instanceof RegExp) {
+        if(query.subject.test(message.subject)) {
+          return true;
+        }
+      } else if(message.subject.includes(query.subject)) {
+        return true;
+      }
+    }
+
+    if(query.intro) {
+      if(query.intro instanceof RegExp) {
+        if(query.intro.test(message.intro)) {
+          return true;
+        }
+      } else if(message.intro.includes(query.intro)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  onMount(() => {
+    window.mailbox = shell;
+    return () => {
+      if(window.mailbox === shell) window.mailbox = null;
+    }
+  })
+
+  console.log($messages);
 </script>
+
+<style>
+  x-tab-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding-bottom: 3em;
+  }
+
+  x-mailbox-empty {
+    flex: none;
+    margin: 2em auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    font-size: 1.1em;
+  }
+
+  .label {
+    font-weight: 500;
+    margin-top: 1em;
+  }
+
+  .select {
+    margin-inline-start: -0.15em;
+  }
+
+  .only-when-selection {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  x-selection-info {
+    display: flex;
+    flex: none;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-inline-start: auto;
+    background: #c2dbff;
+    padding: 0.4em 0.5em;
+    border-radius: 100px;
+    color: #555;
+  }
+
+  x-selection-info > :global(svg) {
+    font-size: 1.1em;
+  }
+
+  x-selection-info > span {
+    font-size: 0.8em;
+    margin: 0 0.5em;
+  }
+
+  x-loadmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--pc);
+    padding: 0.5em;
+    font-size: 2.5em;
+    min-height: auto;
+  }
+
+  x-loadmore-loading,
+  x-loadmore-button {
+    display: flex;
+    flex: none;
+    width: 1em;
+    height: 1em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  x-loadmore-button {
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  x-mailbox-message {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    flex: none;
+    justify-items: stretch;
+    align-items: stretch;
+    background: #fff;
+    transition: opacity 150ms ease, margin 150ms ease;
+  }
+
+  x-tab-content > :global(.removed) {
+    z-index: 1;
+    margin-block-end: -3.0625rem;
+    opacity: 0;
+  }
+</style>
 
 <svelte:head>
   <title>{$mailbox.unseen ? `(${$mailbox.unseen}) ` : ""}{meta.label}</title>
@@ -255,9 +312,12 @@
 
 <Tab>
   <Topbar scrolled={$scroll !== 0}>
-
     <x-action-group class="select">
-      <x-action class="btn-dark" data-tooltip={locale.actions.select} on:click={handleSelection}>
+      <x-action
+        class="btn-dark"
+        data-tooltip={locale.actions.select}
+        on:click={handleSelection}
+      >
         <Ripple />
         {#if $selection.length === 0}
           <CheckNone />
@@ -268,70 +328,101 @@
         {/if}
       </x-action>
 
-      <x-action class="btn-dark reload" data-tooltip={locale.actions.reload} on:click={reload}>
-        <div style="display: flex; transition: transform 300ms ease; transform: rotate({360 * reloadTimes}deg)">
-          <Refresh  />
+      <x-action
+        class="btn-dark reload"
+        data-tooltip={locale.actions.reload}
+        on:click={reload}
+      >
+        <div
+          style="display: flex; transition: transform 300ms ease; transform: rotate({360 *
+            reloadTimes}deg)"
+        >
+          <Refresh />
         </div>
         <Ripple />
       </x-action>
     </x-action-group>
 
     {#if $selection.length !== 0}
-      <div class="only-when-selection" transition:fade|local={{duration: 150}}>
+      <div
+        class="only-when-selection"
+        transition:fade|local={{ duration: 150 }}
+      >
         <x-action-group>
-          {#if $selection.every(m => !m.get().seen)}
-            <x-action  class="btn-dark" data-tooltip={locale.actions.markAsRead} on:click={() => updateSeen(true)}>
+          {#if $selection.every((m) => !m.get().seen)}
+            <x-action
+              class="btn-dark"
+              data-tooltip={locale.actions.markAsRead}
+              on:click={() => updateSeen(true)}
+            >
               <MarkSeen />
               <Ripple />
             </x-action>
           {:else}
-            <x-action class="btn-dark" data-tooltip={locale.actions.markAsUnread} on:click={() => updateSeen(false)}>
+            <x-action
+              class="btn-dark"
+              data-tooltip={locale.actions.markAsUnread}
+              on:click={() => updateSeen(false)}
+            >
               <MarkUnSeen />
               <Ripple />
             </x-action>
           {/if}
 
           {#if isJunk}
-            <x-action class="btn-dark" data-tooltip={locale.actions.unMarkAsSpam} on:click={() => markAsSpam(false)}>
+            <x-action
+              class="btn-dark"
+              data-tooltip={locale.actions.unMarkAsSpam}
+              on:click={() => markAsSpam(false)}
+            >
               <UnMarkSpam />
               <Ripple />
             </x-action>
           {:else if !isDraft && !isSent && !isTrash}
-            <x-action class="btn-dark" data-tooltip={locale.actions.markAsSpam} on:click={() => markAsSpam(true)}>
+            <x-action
+              class="btn-dark"
+              data-tooltip={locale.actions.markAsSpam}
+              on:click={() => markAsSpam(true)}
+            >
               <MarkSpam />
               <Ripple />
             </x-action>
           {/if}
 
-          <x-action class="btn-dark" data-tooltip={
-              isTrash ? locale.actions.deletePermanently :
-              isDraft ? locale.actions.discardDrafts :
-              locale.actions.delete
-          } on:click={() => del()}>
+          <x-action
+            class="btn-dark"
+            data-tooltip={isTrash
+              ? locale.actions.deletePermanently
+              : isDraft
+              ? locale.actions.discardDrafts
+              : locale.actions.delete}
+            on:click={() => del()}
+          >
             <Delete />
             <Ripple />
           </x-action>
         </x-action-group>
 
-
         <x-action-group>
-          <MoveTo {mailbox} {selection} on:moved={onSelectionMoved}/>
+          <MoveTo {mailbox} {selection} on:moved={onSelectionMoved} />
         </x-action-group>
-  
+
         <x-selection-info>
           <Check />
-          <span>{$trans("selection.title", {n: $selection.length})}</span>
+          <span>{$trans("selection.title", { n: $selection.length })}</span>
         </x-selection-info>
       </div>
     {/if}
-
   </Topbar>
-  
-  <x-tab-content on:scroll={event => $scroll = event.target.scrollTop}>
+
+  <x-tab-content on:scroll={(event) => ($scroll = event.target.scrollTop)}>
     {#each $messages as message (`${$mailbox.id}-${message.get().id}`)}
-        <x-mailbox-message out:flyRemove|local={{}} in:flyInsert|local={{duration: 150}}>
-          <Item {message} {mailbox} />
-        </x-mailbox-message>
+      <x-mailbox-message
+        out:flyRemove|local={{}}
+        in:flyInsert|local={{ duration: 150 }}
+      >
+        <Item {message} {mailbox} />
+      </x-mailbox-message>
     {:else}
       {#if !loadingMore}
         <x-mailbox-empty>
@@ -339,15 +430,19 @@
         </x-mailbox-empty>
       {/if}
     {/each}
-    
+
     {#if loadingMore || $next}
       <x-loadmore>
         {#if loadingMore}
-          <x-loadmore-loading in:fade|local={{delay: 150, duration: 150}}>
-            <CircularProgress size="0.75em"/>
+          <x-loadmore-loading in:fade|local={{ delay: 150, duration: 150 }}>
+            <CircularProgress size="0.75em" />
           </x-loadmore-loading>
         {:else if $next}
-          <x-loadmore-button in:fade|local={{delay: 150, duration: 150}} class="btn-dark" on:click={loadMore}>
+          <x-loadmore-button
+            in:fade|local={{ delay: 150, duration: 150 }}
+            class="btn-dark"
+            on:click={loadMore}
+          >
             <More />
             <Ripple />
           </x-loadmore-button>
