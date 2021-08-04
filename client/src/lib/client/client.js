@@ -14,6 +14,7 @@ const ws = new Promise((resolve, reject) => {
         console.log("[WS] open");
         setInterval(() => send({ id: uid(), type: "ping" }), 30000);
     };
+    ws.onclose = () => window.location.reload();
     ws.onmessage = (m) => {
         console.log("[WS] first message received");
         const { user: $user } = JSON.parse(m.data);

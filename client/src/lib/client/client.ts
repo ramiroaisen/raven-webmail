@@ -28,6 +28,8 @@ const ws = new Promise<WebSocket>((resolve, reject) => {
     console.log("[WS] open");
     setInterval(() => send({id: uid(), type: "ping"}), 30_000) 
   }
+
+  ws.onclose = () => window.location.reload();
   
   ws.onmessage = (m) => {
     
