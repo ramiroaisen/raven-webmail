@@ -33,7 +33,7 @@ const { mkdir } = fs_2.promises;
 const config = __importStar(require("./config"));
 const createConfig = (opts) => {
     console.log("> Creating config file in " + chalk_1.default.yellow(opts.output));
-    const sample = path_1.default.resolve(__dirname, "../config.sample.toml");
+    const sample = path_1.default.resolve(__dirname, "../../config.sample.toml");
     const dest = path_1.default.resolve(process.cwd(), opts.output);
     if (fs_1.default.existsSync(dest)) {
         console.error(chalk_1.default.red(`> Aborting: file ${dest} already exists`));
