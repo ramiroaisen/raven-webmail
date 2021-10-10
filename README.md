@@ -1,7 +1,7 @@
 # Raven Webmail
 #### A webmail for wildduck mailserver
 
-![Raven Webmail](./raven-webmail.png)
+![Raven Webmail](https://github.com/ramiroaisen/raven-webmail/raw/master/raven-webmail.png)
 
 ---
 
