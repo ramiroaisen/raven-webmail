@@ -1,0 +1,36 @@
+.editor-content {
+  font-family: Calibri, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+.editor-content > body {
+  height: 100%;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.editor-content {
+  scrollbar-width: thin;
+}
+
+.editor-content::-webkit-scrollbar{
+  width: 0.5rem;
+}
+
+.editor-content::-webkit-scrollbar-track{
+  background: #ddd;
+}
+
+.editor-content::-webkit-scrollbar-thumb{
+  background: #aaa;
+}
+
+.editor-content::-webkit-scrollbar-thumb:hover{
+  background: #888;
+}

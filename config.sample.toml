@@ -1,4 +1,4 @@
-# Port to run the server on
+# port to run the server on
 # @number (required)
 port=8635
 
@@ -6,11 +6,11 @@ port=8635
 # @boolean (required)
 ssl=false
 
-# Path to ssl cert
+# path to ssl cert
 # @string (required if ssl=true)
 # ssl_certificate="/path/to/ssl/cert.pem"
 
-# Path to ssl public key
+# path to ssl public key
 # @string (required if ssl=true)
 # ssl_certificate_key="/path/to/ssl/key.pem"
 
@@ -26,14 +26,18 @@ mongodb_url="mongodb://localhost:27017/raven-webmail"
 # @string (required)
 wildduck_api_url="http://localhost:8080"
 
-# wildduck api token
+# wildduck api token, same as in wildduck config
 # @string (required)
 wildduck_api_token="same as in wildduck config"
 
+# use express compression middleware
+# @boolean (optional default=false)
+# set this to false if you use a reverse proxy like nginx
+compression=false 
 
 # extra locales directories
 # @string[] (optional)
-# By removing this comment you can add custom locales
-# Run `raven create-locale --code "ISO Code" to create a default locale file
-# Directories are relative to this file
+# by removing this comment you can add custom locales
+# run `raven create-locale --code "ISO-CODE"` to create a default locale file that you can edit
+# directories are relative to this file
 # extra_locales_dirs=["./locales"]

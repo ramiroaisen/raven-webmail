@@ -1,0 +1,1 @@
+export const sessMap = new WeakMap<object, { cookie?: string | undefined, userAgent?: string | undefined }>();
