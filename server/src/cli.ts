@@ -14,7 +14,7 @@ import * as config from "./config";
 
 const createConfig = (opts: {output: string}) => {
   console.log("> Creating config file in " + chalk.yellow(opts.output));
-  const sample = path.join(__dirname, "../config.sample.toml");
+  const sample = path.resolve(__dirname, "../config.sample.toml");
   const dest = path.resolve(process.cwd(), opts.output);
   if(fs.existsSync(dest)) {
     console.error(chalk.red(`> Aborting: file ${dest} already exists`))
