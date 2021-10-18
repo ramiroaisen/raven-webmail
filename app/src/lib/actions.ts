@@ -138,7 +138,11 @@ export const purify = (node: HTMLElement, html?: string | null | undefined) => {
   for(const $a of [].slice.call(fragment.querySelectorAll("a"))) {
     const a = $a as HTMLAnchorElement;
     a.target = "_blank";
-    a.relList.add("external");
+    a.relList?.add("external");
+  }
+
+  for(const $el of [].slice.call(fragment.querySelectorAll("style, link, script, meta, object"))) {
+    $el.parentNode?.removeChild($el);
   }
 
   node.appendChild(fragment);

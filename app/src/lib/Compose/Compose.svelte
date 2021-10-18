@@ -53,13 +53,16 @@
   import DOMPurify from "dompurify";
   import { onMount } from "svelte";
   import { add } from "$lib/actions";
-import { locale } from "$lib/locale";
+  import { locale } from "$lib/locale";
 
   const sanitize = (src: string | string[] | null) => {
     if(src instanceof Array) src = src.join("");
-    const fragment = DOMPurify.sanitize(src || "", { RETURN_DOM_FRAGMENT: true });
-    const div = document.createElement("div");
-    div.appendChild(fragment);
+    const div = DOMPurify.sanitize(src || "", { RETURN_DOM: true });
+    const toRemove = div.querySelectorAll("style, script, link, meta, object");
+    for(let i = 0; i < toRemove.length; i++) {
+      const el = toRemove[i];
+      el.parentNode?.removeChild(el);
+    }
     const html = div.innerHTML;
     const text = div.textContent;
     return { html, text }
