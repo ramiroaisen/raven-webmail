@@ -129,20 +129,40 @@ export const clickOut = (node: Node) => {
 }
 
 import dompurify from "dompurify";
+import type { FullMessage, Message } from "./types";
 
-export const purify = (node: HTMLElement, html?: string | null | undefined) => {
+export const purify = (node: HTMLElement, opts?: string | { html: string, message: FullMessage }) => {
   
-  if(html == null || html.trim() === "") return; 
+  let html = typeof opts === "string" ? opts : opts?.html || "";
+  html = html.trim();
 
-  const fragment = dompurify.sanitize(html, { RETURN_DOM_FRAGMENT: true });
+  const message = typeof opts === "string" ? null : opts.message;
+
+  const fragment = dompurify.sanitize(html, { RETURN_DOM_FRAGMENT: true, ALLOWED_URI_REGEXP: /^mailto|https?|cid|attachment\:/i });
   for(const $a of [].slice.call(fragment.querySelectorAll("a"))) {
     const a = $a as HTMLAnchorElement;
     a.target = "_blank";
     a.relList?.add("external");
   }
 
-  for(const $el of [].slice.call(fragment.querySelectorAll("style, link, script, meta, object"))) {
+  for(const $el of [].slice.call(fragment.querySelectorAll("style, link, script, meta, object, head, title")) as HTMLElement[]) {
     $el.parentNode?.removeChild($el);
+  }
+
+  if(message) {
+    const imgs = [].slice.call(fragment.querySelectorAll("img")) as HTMLImageElement[];
+    for(const img of imgs) {
+      const src = img.getAttribute("src");
+      if(!src) continue;
+      const m = src.trim().match(/^(cid|attachment):(.+)/i);
+      img.removeAttribute("src");
+      if(!m) continue;
+      const cid = m[2];
+      if(!cid) continue;
+      const att = message.attachments?.find(att => att.id === cid);
+      if(!att) continue;
+      img.setAttribute("src", `/api/mailboxes/${message.mailbox}/messages/${message.id}/attachments/${att.id}`)
+    }
   }
 
   node.appendChild(fragment);

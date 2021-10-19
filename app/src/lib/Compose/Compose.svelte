@@ -58,7 +58,7 @@
   const sanitize = (src: string | string[] | null) => {
     if(src instanceof Array) src = src.join("");
     const div = DOMPurify.sanitize(src || "", { RETURN_DOM: true });
-    const toRemove = div.querySelectorAll("style, script, link, meta, object");
+    const toRemove = div.querySelectorAll("style, link, script, meta, object, head, title");
     for(let i = 0; i < toRemove.length; i++) {
       const el = toRemove[i];
       el.parentNode?.removeChild(el);

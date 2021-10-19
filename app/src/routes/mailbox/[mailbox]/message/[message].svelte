@@ -11,6 +11,8 @@
   export let mailbox: Mailbox;
   export let message: FullMessage;
 
+  $: browser && console.log({message});
+
   import type { FullMessage, Mailbox } from "$lib/types";
   
   import { action, isDrafts, isInbox, isJunk, isSent, isTrash, mailboxName, _delete, _put } from "$lib/util";
@@ -43,6 +45,7 @@
   import { fly } from "svelte/transition";
   import { _forward, _replyAll } from "$lib/Compose/compose";
   import { locale } from "$lib/locale";
+  import { browser } from "$app/env";
   const { user, mailboxes } = getContext("dash") as DashContext;
 
   const seen = action(async () => {
@@ -262,7 +265,7 @@
             {message.text || ""}
           </div>
         {:else}
-          <div class="html" use:purify={html} />
+          <div class="html" use:purify={{html, message}} />
         {/if}
       </div>
     </div>
