@@ -1,9 +1,14 @@
 <script>
-
-import { locale } from "$lib/locale";
-
+  import { locale } from "$lib/locale";
 </script>
+
 <style>
+  .dash {
+    width: 100%;
+    min-height: 100%;
+    background: #fff;
+  }
+
   .top {
     height: var(--top-h);
     background: var(--red);/*  */

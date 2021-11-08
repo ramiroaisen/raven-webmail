@@ -2,6 +2,7 @@
   import type { ErrorLoad } from "@sveltejs/kit";
   export const load: ErrorLoad = ({ error, status }) => {
     return {
+      status,
       props: {
         error,
         status,

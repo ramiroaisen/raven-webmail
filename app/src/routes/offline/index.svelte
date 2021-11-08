@@ -1,6 +1,10 @@
-<script lang="ts">
-import { locale } from "$lib/locale";
+<script lang="ts" context="module">
+  export const ssr = true;
+  export const router = false;
+</script>
 
+<script lang="ts">
+  import { locale } from "$lib/locale";
   import Ripple from "$lib/Ripple.svelte";
 </script>
 

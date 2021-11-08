@@ -1,11 +1,17 @@
 <script>
   import { watchAuth } from "$lib/util";
   import { onMount } from "svelte";
-import { fly } from "svelte/transition";
+  import { fly } from "svelte/transition";
   onMount(() => watchAuth(null));
 </script>
 
 <style>
+  .dash {
+    width: 100%;
+    min-height: 100%;
+    background: #fff;
+  }
+
   .top {
     height: var(--top-h);
     background: var(--red);
