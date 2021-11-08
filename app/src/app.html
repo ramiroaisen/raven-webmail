@@ -25,6 +25,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" /> %svelte.head%
 </head>
 
+<script>
+    window.addEventListener("sveltekit:start", () => {
+        setTimeout(() => {
+            const loading = document.getElementById("loading");
+            loading.parentElement.removeChild(loading);
+        }, 2000);
+    })
+</script>
+
 <body>
     <div id="loading">
         <div id="loading-icon"></div>

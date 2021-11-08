@@ -117,8 +117,7 @@
   }
 </style>
 
-
-<div class="dashboard" in:fly|local|intro={{duration: 400, y: -25}}>
+<div class="dashboard" in:fly={{duration: 400, y: -25}}>
   <Navigating />
   <Top {username} />
   <div class="main">
