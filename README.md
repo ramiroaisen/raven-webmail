@@ -65,7 +65,12 @@ Please if you create a locale for your language make a PR or an issue and I will
 - Machine generated locales were removed.
 - Raven Webmail is now a [SvelteKit](https://kit.svelte.dev) app, with SSR, service-worker support and it's installable in modern browsers.
 - Added compression optional config option
+#### Version 1.1
+- SSR has been disabled to avoid memory leaks when executing client side javascript in the server, you can enable SSR again if you want, you'll have to edit `app/svelte.config.js` and rebuild the app with `npm run build`
+
 ---
+
+
 
 ### Development
 `./src` contains server side and cli typescript code that get compiled to `./dist`
