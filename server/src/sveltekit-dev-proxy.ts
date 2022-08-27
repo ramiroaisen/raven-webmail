@@ -22,7 +22,7 @@ export const sveltekitDevProxy = (port: number) => {
       }
 
       let back: Response;
-      const url = `http://localhost:${port}${req.url}`;
+      const url = `http://127.0.0.1:${port}${req.url}`;
       if(req.method === "GET" || req.method === "HEAD" || req.method === "DELETE") {
         back = await fetch(url, {
           method: req.method,

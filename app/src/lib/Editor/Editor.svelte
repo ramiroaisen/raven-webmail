@@ -37,42 +37,48 @@
   
   const contents = (node: HTMLElement) => {
     iframe = document.createElement("iframe");
-    iframe.src = "about:blank";
+    iframe.setAttribute("sandbox", "allow-forms allow-same-origin");
+    iframe.srcdoc = "<!doctype html><html><head></head><body></body></html>";
+
+    let obs: MutationObserver | null = null;
 
     node.appendChild(iframe);
 
-    const _document = iframe.contentDocument;
-    const _window = iframe.contentWindow;
+    Promise.resolve().then(async () => {
+      await new Promise(resolve => iframe.onload = resolve);
+      
+      const _document = iframe.contentDocument;
+      const _window = iframe.contentWindow;
 
-    context._document.set(_document);
-    context._window.set(_window);
+      context._document.set(_document);
+      context._window.set(_window);
 
-    _document.documentElement.classList.add("editor-content");
+      _document.documentElement.classList.add("editor-content");
 
-    const style = _document.createElement("style");
-    style.textContent = css;
-    _document.head.appendChild(style);
+      const style = _document.createElement("style");
+      style.textContent = css;
+      _document.head.appendChild(style);
 
-    _document.body.contentEditable = "true";
-    _document.body.innerHTML = draft.html;
-    
-    const obs = new MutationObserver(() => {
-      draft.html = _document.body.innerHTML;
-      draft.text = _document.body.textContent;
-    });
+      _document.body.contentEditable = "true";
+      _document.body.innerHTML = draft.html;
+      
+      const obs = new MutationObserver(() => {
+        draft.html = _document.body.innerHTML;
+        draft.text = _document.body.textContent;
+      });
 
-    obs.observe(_document.body, {
-      childList: true,
-      characterData: true,
-      attributes: true,
-      subtree: true,
-    });
-    
+      obs.observe(_document.body, {
+        childList: true,
+        characterData: true,
+        attributes: true,
+        subtree: true,
+      });
+    })
 
     return {
       destroy: () => {
         node.removeChild(iframe);
-        obs.disconnect();
+        obs?.disconnect();
       },
     }
   }
