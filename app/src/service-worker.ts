@@ -7,7 +7,7 @@ import { ExpirationPlugin } from "workbox-expiration";
 
 const revision = timestamp.toString(32);
 
-precacheAndRoute(build);
+precacheAndRoute(build.map(url => ({ url, revision: "0" })));
 precacheAndRoute(files.map(url => ({ url, revision })));
 precacheAndRoute([{ url: "/offline", revision }]);
 
