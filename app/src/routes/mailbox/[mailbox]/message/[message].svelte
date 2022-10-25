@@ -17,7 +17,7 @@
   
   import { action, isDrafts, isInbox, isJunk, isSent, isTrash, mailboxName, _delete, _put } from "$lib/util";
   
-  import { purify, tooltip } from "$lib/actions";
+  import { messageHTML, purify, tooltip } from "$lib/actions";
   import TabTop from "$lib/Tab/TabTop.svelte";
   
   import Delete from "svelte-material-icons/DeleteOutline.svelte";
@@ -144,6 +144,17 @@
   .from-name, .from-only-address, .to-address {
     font-weight: 500;
   }
+
+  /*
+  .html {
+    display: flex;
+  }
+
+  .html > :global(iframe) {
+    flex: 1;
+    border: none;
+  }
+  */
 </style>
 
 <svelte:head>
@@ -266,6 +277,7 @@
           </div>
         {:else}
           <div class="html" use:purify={{html, message}} />
+          <!--<div class="html" use:messageHTML={{ html, message }} />-->
         {/if}
       </div>
     </div>

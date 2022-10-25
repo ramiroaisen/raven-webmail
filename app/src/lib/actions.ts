@@ -131,6 +131,70 @@ export const clickOut = (node: Node) => {
 import dompurify from "dompurify";
 import type { FullMessage, Message } from "./types";
 
+export const messageHTML = (node: HTMLElement, opts: string | { html: string, message: FullMessage }) => {
+  
+  let html = typeof opts === "string" ? opts : opts?.html || "";
+  html = html.trim();
+
+  const message = typeof opts === "string" ? null : opts.message;
+
+  const fragment = dompurify.sanitize(html, {
+    RETURN_DOM_FRAGMENT: true,
+    ALLOWED_URI_REGEXP: /^(mailto|https?|cid|tel|attachment):/i,
+  });
+  
+  for(const $a of [].slice.call(fragment.querySelectorAll("a"))) {
+    const a = $a as HTMLAnchorElement;
+    a.target = "_blank";
+  }
+
+  for(const $el of [].slice.call(fragment.querySelectorAll("style, link, script, meta, object, head, title")) as HTMLElement[]) {
+    $el.remove();
+  }
+
+  if(message) {
+    const imgs = [].slice.call(fragment.querySelectorAll("img")) as HTMLImageElement[];
+    for(const img of imgs) {
+      const src = img.getAttribute("src");
+      if(!src) continue;
+      const m = src.trim().match(/^(cid|attachment):(.+)/i);
+      if(m) {
+        img.removeAttribute("src");
+        const cid = m[2];
+        if(!cid) continue;
+        const att = message.attachments?.find(att => att.id === cid);
+        if(!att) continue;
+        img.setAttribute("src", `/api/mailboxes/${message.mailbox}/messages/${message.id}/attachments/${att.id}`)
+      }
+    }
+  }
+
+  const iframe = document.createElement("iframe");
+  
+  iframe.setAttribute("sandbox", "allow-same-origin");
+  iframe.srcdoc = "";
+  iframe.onload = () => {
+
+    const doc = iframe.contentDocument;
+    doc.body.appendChild(fragment);
+
+    const win = iframe.contentWindow;
+    const resize = () => {  
+      node.style.height = `${doc.documentElement.scrollHeight}px`;
+    };
+
+    win.onresize = resize;
+
+    resize();
+  }
+
+  node.appendChild(iframe);
+
+  return {
+    destroy: () => iframe.remove()
+  }
+}
+
 export const purify = (node: HTMLElement, opts?: string | { html: string, message: FullMessage }) => {
   
   let html = typeof opts === "string" ? opts : opts?.html || "";
@@ -138,7 +202,11 @@ export const purify = (node: HTMLElement, opts?: string | { html: string, messag
 
   const message = typeof opts === "string" ? null : opts.message;
 
-  const fragment = dompurify.sanitize(html, { RETURN_DOM_FRAGMENT: true, ALLOWED_URI_REGEXP: /^mailto|https?|cid|attachment\:/i });
+  const fragment = dompurify.sanitize(html, {
+    RETURN_DOM_FRAGMENT: true,
+    ALLOWED_URI_REGEXP: /^(mailto|https?|tel|cid|attachment):/i,
+  });
+  
   for(const $a of [].slice.call(fragment.querySelectorAll("a"))) {
     const a = $a as HTMLAnchorElement;
     a.target = "_blank";
@@ -155,8 +223,8 @@ export const purify = (node: HTMLElement, opts?: string | { html: string, messag
       const src = img.getAttribute("src");
       if(!src) continue;
       const m = src.trim().match(/^(cid|attachment):(.+)/i);
-      img.removeAttribute("src");
       if(!m) continue;
+      img.removeAttribute("src");
       const cid = m[2];
       if(!cid) continue;
       const att = message.attachments?.find(att => att.id === cid);
