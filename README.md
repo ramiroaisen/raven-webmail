@@ -60,13 +60,18 @@ Please if you create a locale for your language make a PR or an issue and I will
 ---
 
 ### Changelog
+
+#### Version 1.1.3
+- Raven will now allow users to customize their signature. The signature is stored in the wildduck user under `metaData.ravenSignatureHTML`. New entries were added to the base locales to support this feature.
+
+#### Version 1.1
+- SSR has been disabled to avoid memory leaks when executing client side javascript in the server, you can enable SSR again if you want, you'll have to edit `app/svelte.config.js` and rebuild the app with `npm run build`
+
 #### Version 1.0
 - Locale entries changed completely, if you created a custom locale you have to rewrite it.
 - Machine generated locales were removed.
 - Raven Webmail is now a [SvelteKit](https://kit.svelte.dev) app, with SSR, service-worker support and it's installable in modern browsers.
 - Added compression optional config option
-#### Version 1.1
-- SSR has been disabled to avoid memory leaks when executing client side javascript in the server, you can enable SSR again if you want, you'll have to edit `app/svelte.config.js` and rebuild the app with `npm run build`
 
 ---
 
