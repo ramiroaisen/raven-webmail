@@ -10,6 +10,7 @@ import { DISPLAY_ERRORS } from "./env";
 import qs from "qs";
 import { Config } from "./config";
 import * as i18n from "./i18n/i18n";
+import { RAVEN_SIGNATURE_META_KEY } from "./metadata";
 
 export const api = (config: Config) => {
   const api = Router();
@@ -74,6 +75,13 @@ export const api = (config: Config) => {
 
   api.put("/me", handler(async (req, res) => {
     const json = await put(`/users/${userId(req)}`, token(req), req.body);
+    res.json(json);
+  }))
+
+  api.put("/signature", handler(async (req, res) => {
+    const { html } = assertType<{ html: string }>(req.body);
+    const body = { metaData: {[RAVEN_SIGNATURE_META_KEY]: html } };
+    const json = await put(`/users/${userId(req)}`, token(req), body);
     res.json(json);
   }))
 
@@ -223,6 +231,11 @@ export const api = (config: Config) => {
   }))
 
   pages.get("/me", pageHandler(async (req, res) => {
+    const user = await get(`/users/${userId(req)}`, token(req));
+    res.json({ props: { user }})
+  }))
+
+  pages.get("/signature", pageHandler(async (req, res) => {
     const user = await get(`/users/${userId(req)}`, token(req));
     res.json({ props: { user }})
   }))

@@ -147,6 +147,9 @@ const locale: Locale = {
 
   Error_message: "Asegurate de tener una conexión a internet",
   Take_me_to_my_inbox: "Ir al inicio",
+
+  Toggle_code_view: "Vista de código",
+  Edit_your_signature: "Editar mi firma",
 }
 
 export default locale;

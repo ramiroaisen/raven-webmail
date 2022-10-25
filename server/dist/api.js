@@ -34,6 +34,7 @@ const node_fetch_1 = __importDefault(require("node-fetch"));
 const env_1 = require("./env");
 const qs_1 = __importDefault(require("qs"));
 const i18n = __importStar(require("./i18n/i18n"));
+const metadata_1 = require("./metadata");
 const api = (config) => {
     const api = (0, express_1.Router)();
     api.use((0, body_parser_1.json)());
@@ -42,7 +43,7 @@ const api = (config) => {
         const { username, password } = (0, util_1.validate)(() => (0, typescript_is_1.assertType)(req.body, object => { var path = ["$"]; function _string(object) { ; if (typeof object !== "string")
             return { message: "validation failed at " + path.join(".") + ": expected a string", path: path.slice(), reason: { type: "string" } };
         else
-            return null; } function _3333(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+            return null; } function _3337(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
             return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
             if ("username" in object) {
                 path.push("username");
@@ -63,7 +64,7 @@ const api = (config) => {
             }
             else
                 return { message: "validation failed at " + path.join(".") + ": expected 'password' in object", path: path.slice(), reason: { type: "missing-property", property: "password" } };
-        } return null; } var error = _3333(object); return error; }));
+        } return null; } var error = _3337(object); return error; }));
         const v = await (0, client_1.authenticate)(username, password);
         req.session.authentication = v;
         req.session.save(() => {
@@ -111,6 +112,26 @@ const api = (config) => {
     }));
     api.put("/me", (0, util_1.handler)(async (req, res) => {
         const json = await (0, client_1.put)(`/users/${(0, exports.userId)(req)}`, (0, exports.token)(req), req.body);
+        res.json(json);
+    }));
+    api.put("/signature", (0, util_1.handler)(async (req, res) => {
+        const { html } = (0, typescript_is_1.assertType)(req.body, object => { var path = ["$"]; function _string(object) { ; if (typeof object !== "string")
+            return { message: "validation failed at " + path.join(".") + ": expected a string", path: path.slice(), reason: { type: "string" } };
+        else
+            return null; } function _3831(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+            return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
+            if ("html" in object) {
+                path.push("html");
+                var error = _string(object["html"]);
+                path.pop();
+                if (error)
+                    return error;
+            }
+            else
+                return { message: "validation failed at " + path.join(".") + ": expected 'html' in object", path: path.slice(), reason: { type: "missing-property", property: "html" } };
+        } return null; } var error = _3831(object); return error; });
+        const body = { metaData: { [metadata_1.RAVEN_SIGNATURE_META_KEY]: html } };
+        const json = await (0, client_1.put)(`/users/${(0, exports.userId)(req)}`, (0, exports.token)(req), body);
         res.json(json);
     }));
     api.get("/mailboxes", (0, util_1.handler)(async (req, res) => {
@@ -237,6 +258,10 @@ const api = (config) => {
         });
     }));
     pages.get("/me", (0, util_1.pageHandler)(async (req, res) => {
+        const user = await (0, client_1.get)(`/users/${(0, exports.userId)(req)}`, (0, exports.token)(req));
+        res.json({ props: { user } });
+    }));
+    pages.get("/signature", (0, util_1.pageHandler)(async (req, res) => {
         const user = await (0, client_1.get)(`/users/${(0, exports.userId)(req)}`, (0, exports.token)(req));
         res.json({ props: { user } });
     }));

@@ -143,4 +143,7 @@ export default {
 
   Error_message: "Make sure you have an active connection",
   Take_me_to_my_inbox: "Take me to my inbox",
+
+  Toggle_code_view: "Toggle code view",
+  Edit_your_signature: "Edit your signature",
 }

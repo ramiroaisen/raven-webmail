@@ -54,6 +54,8 @@
   import { onMount } from "svelte";
   import { add } from "$lib/actions";
   import { locale } from "$lib/locale";
+	import { signature } from "$lib/signature";
+	import { get } from "svelte/store";
 
   const sanitize = (src: string | string[] | null) => {
     if(src instanceof Array) src = src.join("");
@@ -69,8 +71,11 @@
   }
 
   const createBody = (action: "re" | "fwd", ref: FullMessage) => {
+
     return [
-        "<br/>".repeat(4),
+      "<br />".repeat(6),
+      get(signature),    
+      "<br/>".repeat(2),
         "-".repeat(10) + " " + (action === "re" ? "Reply message" : "Forwarded message") + " " + "-".repeat(10),
         ref.from && (`From: <b>${s(ref.from.name) || ""}</b> ${s("<" + ref.from.address + ">")}`),
         ref.to && ref.to.length && (`To: ${ref.to.map(to => s(to.address)).join(", ")}`),
@@ -81,9 +86,9 @@
   }
 
   export const blank = async (drafts: Mailbox) => {
-    const html = "";
-    const text = "";
+    const content = `${"<br />".repeat(6)}${get(signature)}`;
     const subject = "";
+    const { html, text } = sanitize(content);
 
     const body = createMessageBody({ subject, html, text })
     const res: any = await _post(`/api/mailboxes/${drafts.id}/messages`, body);

@@ -11,8 +11,15 @@
   export let user: User;
   export let username: string;
   export let mailboxes: Mailbox[]
+
   import Dashboard from "$lib/Dashboard/Dashboard.svelte";
   import type { Mailbox, User } from "$lib/types";
+	import { onMount } from "svelte";
+	import { RAVEN_SIGNATURE_META_KEY, signature } from "$lib/signature";
+
+  onMount(() => {
+    signature.set(user?.metaData?.[RAVEN_SIGNATURE_META_KEY] || "");
+  })
 </script>
 
 <Dashboard bind:username bind:user bind:mailboxes>

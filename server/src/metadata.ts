@@ -1,0 +1,1 @@
+export const RAVEN_SIGNATURE_META_KEY = "ravenSignatureHTML";
