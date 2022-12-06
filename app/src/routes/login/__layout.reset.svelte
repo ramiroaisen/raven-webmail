@@ -2,6 +2,7 @@
   import { watchAuth } from "$lib/util";
   import { onMount } from "svelte";
   import { fly } from "svelte/transition";
+  import { locale } from '$lib/locale';
   onMount(() => watchAuth(null));
 </script>
 
