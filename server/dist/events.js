@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Auth = exports.Event = void 0;
+exports.Event = void 0;
 const Event = () => {
     let _id = 0;
     const map = new Map();
@@ -19,5 +19,6 @@ const Event = () => {
     return { on, dispatch };
 };
 exports.Event = Event;
-exports.Auth = (0, exports.Event)();
+// see api /watch comment
+// export const Auth = Event<AuthEvent>();
 //# sourceMappingURL=events.js.map

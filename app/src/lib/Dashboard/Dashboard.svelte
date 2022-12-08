@@ -82,7 +82,7 @@
           $mailboxes = $mailboxes;
         }
       }),
-      watchAuth(username),
+      watchAuth(user?.id ?? null),
       () => stream.close(),
       () => destroyComposer(),
     ]

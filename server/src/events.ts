@@ -28,4 +28,5 @@ export type AuthEvent = {
   username: string | null
 }
 
-export const Auth = Event<AuthEvent>();
+// see api /watch comment
+// export const Auth = Event<AuthEvent>();

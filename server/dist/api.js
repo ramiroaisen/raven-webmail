@@ -28,7 +28,6 @@ const typescript_is_1 = require("typescript-is");
 const util_1 = require("./util");
 const client_1 = require("./client");
 const body_parser_1 = require("body-parser");
-const events_1 = require("./events");
 const http_status_codes_1 = require("http-status-codes");
 const node_fetch_1 = __importDefault(require("node-fetch"));
 const env_1 = require("./env");
@@ -43,7 +42,7 @@ const api = (config) => {
         const { username, password } = (0, util_1.validate)(() => (0, typescript_is_1.assertType)(req.body, object => { var path = ["$"]; function _string(object) { ; if (typeof object !== "string")
             return { message: "validation failed at " + path.join(".") + ": expected a string", path: path.slice(), reason: { type: "string" } };
         else
-            return null; } function _3337(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+            return null; } function _3305(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
             return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
             if ("username" in object) {
                 path.push("username");
@@ -64,47 +63,58 @@ const api = (config) => {
             }
             else
                 return { message: "validation failed at " + path.join(".") + ": expected 'password' in object", path: path.slice(), reason: { type: "missing-property", property: "password" } };
-        } return null; } var error = _3337(object); return error; }));
+        } return null; } var error = _3305(object); return error; }));
         const v = await (0, client_1.authenticate)(username, password);
         req.session.authentication = v;
         req.session.save(() => {
             res.json({});
-            events_1.Auth.dispatch({ sid: req.sessionID, username: v.username });
+            // see /auth comment
+            // Auth.dispatch({ sid: req.sessionID, username: v.username });
         });
     }));
     api.post("/logout", (0, util_1.handler)(async (req, res) => {
         req.session.authentication = null;
         req.session.save(() => {
             res.json({});
-            events_1.Auth.dispatch({ sid: req.sessionID, username: null });
+            // see /auth comment
+            // Auth.dispatch({ sid: req.sessionID, username: null })
         });
     }));
-    api.get("/auth", (0, util_1.handler)(async (req, res) => {
-        var _a;
-        res.type("text/event-stream");
-        const send = (data) => {
-            try {
-                res.write("data: " + JSON.stringify(data) + "\n\n", () => { });
-            }
-            catch (e) { }
-        };
-        send({ username: ((_a = req.session.authentication) === null || _a === void 0 ? void 0 : _a.username) || null });
-        const off = events_1.Auth.on(event => {
-            if (event.sid === req.sessionID) {
-                send({ username: event.username });
-            }
-        });
-        let keepalive = setInterval(() => {
-            try {
-                res.write(": keepalive\n\n", () => { });
-            }
-            catch (e) { }
-        }, 5000);
-        req.on("close", () => {
-            clearInterval(keepalive);
-            off();
-        });
-    }));
+    /**
+     * changed to use intertab with localStorage
+     * this change makes raven-webmail fully stateless
+     *  */
+    /*
+    api.get("/auth", handler(async (req, res) => {
+  
+      res.type("text/event-stream");
+  
+      const send = (data: {username: string | null}) => {
+        try {
+          res.write("data: " + JSON.stringify(data) + "\n\n", () => {})
+        } catch(e) {}
+      }
+  
+      send({ username: req.session.authentication?.username || null })
+  
+      const off = Auth.on(event => {
+        if(event.sid === req.sessionID) {
+          send({ username: event.username });
+        }
+      })
+  
+      let keepalive = setInterval(() => {
+        try {
+          res.write(": keepalive\n\n", () => {})
+        } catch(e) {}
+      }, 5000)
+  
+      req.on("close", () => {
+        clearInterval(keepalive);
+        off();
+      })
+    }))
+    */
     api.get("/updates", (0, util_1.handler)(async (req, res) => {
         const stream = await (0, client_1.watch)((0, exports.userId)(req), (0, exports.token)(req));
         res.type("text/event-stream");
@@ -118,7 +128,7 @@ const api = (config) => {
         const { html } = (0, typescript_is_1.assertType)(req.body, object => { var path = ["$"]; function _string(object) { ; if (typeof object !== "string")
             return { message: "validation failed at " + path.join(".") + ": expected a string", path: path.slice(), reason: { type: "string" } };
         else
-            return null; } function _3831(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+            return null; } function _3723(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
             return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
             if ("html" in object) {
                 path.push("html");
@@ -129,7 +139,7 @@ const api = (config) => {
             }
             else
                 return { message: "validation failed at " + path.join(".") + ": expected 'html' in object", path: path.slice(), reason: { type: "missing-property", property: "html" } };
-        } return null; } var error = _3831(object); return error; });
+        } return null; } var error = _3723(object); return error; });
         const body = { metaData: { [metadata_1.RAVEN_SIGNATURE_META_KEY]: html } };
         const json = await (0, client_1.put)(`/users/${(0, exports.userId)(req)}`, (0, exports.token)(req), body);
         res.json(json);

@@ -1,9 +1,8 @@
-import { Request, Response, NextFunction, Router } from "express"
+import { Request, Router } from "express"
 import { assertType } from "typescript-is";
 import { validate, handler, ApiError, pageHandler } from "./util";
 import { authenticate, del, get, post, put, url, watch } from "./client";
 import { json } from "body-parser";
-import { Auth } from "./events";
 import { StatusCodes } from "http-status-codes";
 import fetch from "node-fetch";
 import { DISPLAY_ERRORS } from "./env";
@@ -25,7 +24,8 @@ export const api = (config: Config) => {
     req.session.authentication = v;
     req.session.save(() => {
       res.json({})
-      Auth.dispatch({ sid: req.sessionID, username: v.username });
+      // see /auth comment
+      // Auth.dispatch({ sid: req.sessionID, username: v.username });
     })
   }))
 
@@ -33,10 +33,16 @@ export const api = (config: Config) => {
     req.session.authentication = null;
     req.session.save(() => {
       res.json({})
-      Auth.dispatch({ sid: req.sessionID, username: null })
+      // see /auth comment
+      // Auth.dispatch({ sid: req.sessionID, username: null })
     })
   }))
 
+  /**
+   * changed to use intertab with localStorage
+   * this change makes raven-webmail fully stateless
+   *  */ 
+  /*
   api.get("/auth", handler(async (req, res) => {
 
     res.type("text/event-stream");
@@ -66,6 +72,7 @@ export const api = (config: Config) => {
       off();
     })
   }))
+  */
 
   api.get("/updates", handler(async (req, res) => {
     const stream = await watch(userId(req), token(req));

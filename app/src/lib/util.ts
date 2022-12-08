@@ -248,7 +248,9 @@ import { sessMap } from  "../sessMap";
 import { _error } from "./Notify/notify";
 import { get } from "svelte/store";
 import { locale } from "./locale";
+import { intertab } from "./intertab";
 
+/*
 export const watchAuth = (username: string | null) => {
   const stream = new EventSource("/api/auth");
   stream.onmessage = (event) => {
@@ -264,6 +266,21 @@ export const watchAuth = (username: string | null) => {
   }
 
   return () => stream.close();
+}
+*/
+
+export const watchAuth = (userId: string | null) => {
+  const watcher = intertab<string | null>("intertab.auth.watch");
+  watcher.set(userId);
+  const unwatch = watcher.watch(value => {
+    if(value === userId) return;
+    if(value == null) {
+      goto("/login")
+    } else {
+      goto("/")
+    }
+  });
+  return unwatch;
 }
 
 const p = (n: number) => n.toString().padStart(2, "0");
