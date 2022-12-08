@@ -63,7 +63,7 @@ Please if you create a locale for your language make a PR or an issue and I will
 ### Changelog
 
 #### Version 1.2.0
-- Raven now uses inter-tab notifications to broadcast login and logout from the same session and doesn't use the server for this. This change makes Raven now fully stateless.
+- Raven now uses inter-tab notifications to broadcast login and logout from the same session and doesn't use the server for this any more. This change makes Raven now fully stateless.
 - Added community provided Italian locale, special thanks to [@ValoreAreaIT](https://github.com/ValoreAreaIT) for sharing their locale configuration.
 
 #### Version 1.1.3
