@@ -10,6 +10,7 @@ const fs_1 = require("fs");
 const path_1 = require("path");
 const en_1 = __importDefault(require("./src/en"));
 const es_1 = __importDefault(require("./src/es"));
+const it_1 = __importDefault(require("./src/it"));
 const chalk_1 = __importDefault(require("chalk"));
 const clone = (src) => {
     if (src instanceof Array) {
@@ -124,6 +125,10 @@ const loadLocales = (config) => {
     if (locales.es == null) {
         console.log(`> adding locale ${chalk_1.default.yellow("es")} from source`);
         locales.es = es_1.default;
+    }
+    if (locales.it == null) {
+        console.log(`> adding locale ${chalk_1.default.yellow("it")} from source`);
+        locales.it = it_1.default;
     }
     console.log(`> locales loaded, available locales: ${Object.keys(locales).map(s => chalk_1.default.yellow(s)).join(", ")}`);
     return locales;

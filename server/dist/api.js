@@ -42,7 +42,7 @@ const api = (config) => {
         const { username, password } = (0, util_1.validate)(() => (0, typescript_is_1.assertType)(req.body, object => { var path = ["$"]; function _string(object) { ; if (typeof object !== "string")
             return { message: "validation failed at " + path.join(".") + ": expected a string", path: path.slice(), reason: { type: "string" } };
         else
-            return null; } function _3305(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+            return null; } function _3307(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
             return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
             if ("username" in object) {
                 path.push("username");
@@ -63,7 +63,7 @@ const api = (config) => {
             }
             else
                 return { message: "validation failed at " + path.join(".") + ": expected 'password' in object", path: path.slice(), reason: { type: "missing-property", property: "password" } };
-        } return null; } var error = _3305(object); return error; }));
+        } return null; } var error = _3307(object); return error; }));
         const v = await (0, client_1.authenticate)(username, password);
         req.session.authentication = v;
         req.session.save(() => {
@@ -128,7 +128,7 @@ const api = (config) => {
         const { html } = (0, typescript_is_1.assertType)(req.body, object => { var path = ["$"]; function _string(object) { ; if (typeof object !== "string")
             return { message: "validation failed at " + path.join(".") + ": expected a string", path: path.slice(), reason: { type: "string" } };
         else
-            return null; } function _3723(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
+            return null; } function _3725(object) { ; if (typeof object !== "object" || object === null || Array.isArray(object))
             return { message: "validation failed at " + path.join(".") + ": expected an object", path: path.slice(), reason: { type: "object" } }; {
             if ("html" in object) {
                 path.push("html");
@@ -139,7 +139,7 @@ const api = (config) => {
             }
             else
                 return { message: "validation failed at " + path.join(".") + ": expected 'html' in object", path: path.slice(), reason: { type: "missing-property", property: "html" } };
-        } return null; } var error = _3723(object); return error; });
+        } return null; } var error = _3725(object); return error; });
         const body = { metaData: { [metadata_1.RAVEN_SIGNATURE_META_KEY]: html } };
         const json = await (0, client_1.put)(`/users/${(0, exports.userId)(req)}`, (0, exports.token)(req), body);
         res.json(json);

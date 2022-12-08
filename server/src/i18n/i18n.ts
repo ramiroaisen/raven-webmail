@@ -13,6 +13,7 @@ import { get } from "object-path";
 
 import en from "./src/en";
 import es from "./src/es";
+import it from "./src/it";
 import chalk from "chalk";
 
 declare module "express" {
@@ -151,6 +152,11 @@ export const loadLocales = (config: Config): Locales => {
   if(locales.es == null) {
     console.log(`> adding locale ${chalk.yellow("es")} from source`);
     locales.es = es;
+  }
+
+  if(locales.it == null) {
+    console.log(`> adding locale ${chalk.yellow("it")} from source`);
+    locales.it = it;  
   }
 
   console.log(`> locales loaded, available locales: ${Object.keys(locales).map(s => chalk.yellow(s)).join(", ")}`);

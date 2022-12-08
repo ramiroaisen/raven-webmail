@@ -36,6 +36,7 @@ raven start [-c --config="./config.toml"]
 
 - ✓ en, English (default)
 - ✓ es, Spanish
+- ✓ it, Italian (comunity) [@ValoreAreaIT](https://github.com/ValoreAreaIT)
 
 ##### Machine generated locales
 Machine generated locales were removed in version 1.0.
@@ -60,6 +61,10 @@ Please if you create a locale for your language make a PR or an issue and I will
 ---
 
 ### Changelog
+
+#### Version 1.2.0
+- Raven now uses inter-tab notifications to broadcast login and logout from the same session and doesn't use the server for this. This change makes Raven now fully stateless.
+- Added community provided Italian locale, special thanks to [@ValoreAreaIT](https://github.com/ValoreAreaIT) for sharing their locale configuration.
 
 #### Version 1.1.3
 - Raven will now allow users to customize their signature. The signature is stored in the wildduck user under `metaData.ravenSignatureHTML`. New entries were added to the base locales to support this feature.
