@@ -2,6 +2,7 @@
   "name": "raven-webmail-client",
   "version": "1.0.0",
   "scripts": {
+    "test": "echo 'Test configuration pending'",
     "dev": "svelte-kit dev --port 3000",
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",
