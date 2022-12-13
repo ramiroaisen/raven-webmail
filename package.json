@@ -4,6 +4,7 @@
     "description": "A webmail for the wildduck mail server",
     "main": "./raven.js",
     "scripts": {
+        "prepare": "ts-patch install -s",
         "test": "echo \"Test configuration pending\"",
         "start": "node raven.js start",
         "dev": "run-p 'dev:*'",
@@ -12,7 +13,7 @@
         "dev:app": "cd app && npm run dev",
         "build": "run-p 'build:*'",
         "build:app": "cd app && npm run build && cd ..",
-        "build:server": "npx ttsc --project ./server/tsconfig.json"
+        "build:server": "tsc --project ./server/tsconfig.json"
     },
     "bin": {
         "raven": "./raven.js"
@@ -27,6 +28,7 @@
     "license": "ISC",
     "dependencies": {
         "abort-controller": "^3.0.0",
+        "accept-language-parser": "^1.5.0",
         "body-parser": "^1.19.0",
         "chalk": "^4.1.2",
         "commander": "^8.2.0",
@@ -40,22 +42,22 @@
         "object-path": "^0.11.8",
         "qs": "^6.10.1",
         "source-map-support": "^0.5.20",
-        "toml": "^3.0.0",
-        "accept-language-parser": "^1.5.0"
+        "toml": "^3.0.0"
     },
     "devDependencies": {
-        "typescript-is": "^0.18.3",
-        "ttypescript": "^1.5.12",
-        "typescript": "4.6.4",
-        "@types/connect-mongodb-session": "^2.4.2",
-        "@types/node-fetch": "2.5",
+        "ts-patch": "^2.1.0",
         "@types/accept-language-parser": "^1.5.2",
         "@types/compression": "^1.7.2",
+        "@types/connect-mongodb-session": "^2.4.2",
         "@types/cors": "^2.8.12",
         "@types/express": "^4.17.13",
         "@types/express-session": "^1.17.4",
+        "@types/node-fetch": "2.5",
         "@types/object-path": "^0.11.1",
         "nodemon": "^2.0.13",
-        "npm-run-all": "^4.1.5"
+        "npm-run-all": "^4.1.5",
+        "ttypescript": "^1.5.12",
+        "typescript": "4.6.4",
+        "typescript-is": "^0.18.3"
     }
 }
