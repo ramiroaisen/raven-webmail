@@ -12,7 +12,7 @@
         "dev:app": "cd app && npm run dev",
         "build": "run-p 'build:*'",
         "build:app": "cd app && npm run build && cd ..",
-        "build:server": "cd server && ttsc && cd .."
+        "build:server": "cd server && npx ttsc && cd .."
     },
     "bin": {
         "raven": "./raven.js"
