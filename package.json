@@ -4,7 +4,7 @@
     "description": "A webmail for the wildduck mail server",
     "main": "./raven.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "echo \"Test configuration pending\"",
         "start": "node raven.js start",
         "dev": "run-p 'dev:*'",
         "dev:typescript": "cd server && ttsc -w",
