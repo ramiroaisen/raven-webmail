@@ -2,6 +2,7 @@
   import { watchAuth } from "$lib/util";
   import { onMount } from "svelte";
   import { fly } from "svelte/transition";
+  import { locale } from '$lib/locale';
   onMount(() => watchAuth(null));
 </script>
 
@@ -30,7 +31,9 @@
 
 <div class="dash" in:fly|local={{duration: 400, y: -25}}>
   <div class="top">
-    <div class="logo">Raven</div>
+    <div class="logo">
+      {$locale.Raven}
+    </div>
   </div>
 
   <div class="page">
