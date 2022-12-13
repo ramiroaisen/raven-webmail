@@ -9,7 +9,7 @@ import { join } from "path";
 
 export type Locales = Record<string, Locale>;
 
-import { get } from "object-path";
+// import { get } from "object-path";
 
 import en from "./src/en";
 import es from "./src/es";
@@ -100,6 +100,7 @@ const normalize = (code: string, src: Record<string, any>): Locale => {
 
     } else {
       const target: T = Object.create(null);
+      // @ts-ignore
       for(const [key, value] of Object.entries(base)) {
         // @ts-ignore
         target[key] = merge(src[key], value, [...path, key])
