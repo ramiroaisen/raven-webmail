@@ -12,7 +12,7 @@
         "dev:app": "cd app && npm run dev",
         "build": "run-p 'build:*'",
         "build:app": "cd app && npm run build && cd ..",
-        "build:server": "cd server && npx ttsc && cd .."
+        "build:server": "npx ttsc --project ./server/tsconfig.json"
     },
     "bin": {
         "raven": "./raven.js"
@@ -46,7 +46,7 @@
     "devDependencies": {
         "typescript-is": "^0.18.3",
         "ttypescript": "^1.5.12",
-        "typescript": "4.6",
+        "typescript": "4.6.4",
         "@types/connect-mongodb-session": "^2.4.2",
         "@types/node-fetch": "2.5",
         "@types/accept-language-parser": "^1.5.2",
