@@ -23,6 +23,7 @@ export const getSession: GetSession = async ({ locals })  => {
     headers: { "accept-language": locals.acceptLanguage || "" }
   }).catch(e => { 
     console.log(`error fetching ${url}: ${String(e)}`) 
+    console.error(e);
     throw new HttpError(502, "Cannot connect to backend") 
   }).then(async res => {
     if(!res.ok) {
