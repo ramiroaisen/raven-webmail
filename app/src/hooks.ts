@@ -16,13 +16,32 @@ export const getSession: GetSession = async ({ locals })  => {
 
   const data = { cookie: locals.cookie, userAgent: locals.userAgent };
   
-  const { lang, locale } = await fetch(`${proto}://localhost:${port}/api/locale`, {
+  let url = `${proto}://localhost:${port}/api/locale`
+  console.log("fetching", url)
+  
+  const { lang, locale } = await fetch(url, {
     headers: { "accept-language": locals.acceptLanguage || "" }
   }).catch(e => { 
+    console.log(`error fetching ${url}: ${String(e)}`) 
     throw new HttpError(502, "Cannot connect to backend") 
-  }).then(res => {
-    if(!res.ok) throw new HttpError(502, "Cannot get session, invalid response status code");
-    return res.json()
+  }).then(async res => {
+    if(!res.ok) {
+      Promise.resolve()
+        .then(() => res.text())
+        .then(text => {
+          console.log(`invalid response status code for ${url}`, res.status, text);
+        }).catch(e => {
+          console.log(`invalid response status code for ${url}`, res.status, e);
+        })
+      throw new HttpError(502, "Cannot get session, invalid response status code");
+    }
+    const text = await res.text();
+    try {
+      return JSON.parse(text);
+    } catch(e) {
+      console.log(`invalid JSON from ${url}`, text);
+      throw new HttpError(502, "Cannot get session, invalid JSON from backend");
+    }
   }).catch(e => { 
     throw new HttpError(502, "Cannot get session, invalid JSON from backend") 
   })
