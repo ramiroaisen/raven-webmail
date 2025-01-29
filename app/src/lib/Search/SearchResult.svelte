@@ -1,12 +1,4 @@
 <script lang="ts" context="module">
-  const from = (mailbox: Mailbox, message: Message): string => {
-    if(mailbox.specialUse === "\\Drafts" || mailbox.specialUse === "\\Sent") {
-      return `To: ${message.to[0]?.name || message.to[0]?.address || ""}`;
-    }
-
-    return message.from.name || message.from.address || "";
-  }  
-
   import { toString } from "diacritic-regex";
   const diac = toString();
 </script>
@@ -55,6 +47,7 @@
   })
 
   import regexEscape from "regex-escape";
+	import { locale } from "$lib/locale";
 
   const highlight = (node: HTMLElement, query: string) => {
 
@@ -84,6 +77,14 @@
     update(query);
     
     return { update }
+  }
+
+  const from = (mailbox: Mailbox, message: Message): string => {
+    if(mailbox.specialUse === "\\Drafts" || mailbox.specialUse === "\\Sent") {
+      return `${$locale["To:"]} ${message.to[0]?.name || message.to[0]?.address || ""}`;
+    }
+
+    return message.from.name || message.from.address || "";
   }
 </script>
 

@@ -1,13 +1,3 @@
-<script lang="ts" context="module">
-  const from = (mailbox: Mailbox, message: Message): string => {
-    if(mailbox.specialUse === "\\Drafts" || mailbox.specialUse === "\\Sent") {
-      return `To: ${message.to[0]?.name || message.to[0]?.address || ""}`;
-    }
-
-    return message.from.name || message.from.address || "";
-  }  
-</script>
-
 <script lang="ts">
   export let mailbox: Mailbox;
   export let message: Message;
@@ -32,6 +22,7 @@
   
   import { action, isDrafts, messageDate, _put } from "$lib/util";
   import { _open } from "$lib/Compose/compose";
+	import { locale } from "$lib/locale";
   const flag = action(async () => {
     message.flagged = !message.flagged;
     await _put(`/api/mailboxes/${mailbox.id}/messages/${message.id}/flag`, {
@@ -49,6 +40,15 @@
       await _open(mailbox, message.id);
     }
   })
+
+  const from = (mailbox: Mailbox, message: Message): string => {
+    if(mailbox.specialUse === "\\Drafts" || mailbox.specialUse === "\\Sent") {
+      return `${$locale["To:"]} ${message.to[0]?.name || message.to[0]?.address || ""}`;
+    }
+
+    return message.from.name || message.from.address || "";
+  }  
+
 </script>
 
 <style>

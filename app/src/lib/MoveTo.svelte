@@ -26,37 +26,47 @@
 
   let folders: Mailbox[] = [];
   $: {
-    if(mailbox.id === inbox.id) {
-      folders = [
-        ...others,
-        junk,
-        trash,
-      ];
-    } else if (mailbox.id === trash.id) {
-      folders = [
-        inbox,
-        ...others,
-        junk
-      ]
-    } else if(mailbox.id === junk.id) {
-      folders = [
-        inbox,
-        ...others,
-        trash
-      ]
-    } else if(mailbox.id === sent.id) {
-      folders = [
-        trash
-      ]
-    } else if (others.some(item => item.id === mailbox.id)) {
-      folders = [
-        inbox,
-        ...others.filter(item => item.id !== mailbox.id),
-        junk,
-        trash,
-      ]
-    }
+    folders = [
+      inbox,
+      ...others,
+      sent,
+      junk,
+      trash,
+    ].filter(item => item.id !== mailbox.id)
   }
+
+  // $: {
+  //   if(mailbox.id === inbox.id) {
+  //     folders = [
+  //       ...others,
+  //       junk,
+  //       trash,
+  //     ];
+  //   } else if (mailbox.id === trash.id) {
+  //     folders = [
+  //       inbox,
+  //       ...others,
+  //       junk
+  //     ]
+  //   } else if(mailbox.id === junk.id) {
+  //     folders = [
+  //       inbox,
+  //       ...others,
+  //       trash
+  //     ]
+  //   } else if(mailbox.id === sent.id) {
+  //     folders = [
+  //       trash
+  //     ]
+  //   } else if (others.some(item => item.id === mailbox.id)) {
+  //     folders = [
+  //       inbox,
+  //       ...others.filter(item => item.id !== mailbox.id),
+  //       junk,
+  //       trash,
+  //     ]
+  //   }
+  // }
 
 
   import MoveTo from "svelte-material-icons/FolderMoveOutline.svelte";
