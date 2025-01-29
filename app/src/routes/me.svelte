@@ -327,10 +327,10 @@
             {Math.round((user.limits.received.used / user.limits.received.allowed) * 100)}%
           </div>
           <div class="used">
-            {user.limits.received.used} {user.limits.received.used === 1 ? "message" : "messages"}
+            {user.limits.received.used} {user.limits.received.used === 1 ? $locale.message : $locale.messages}
           </div>
           <div class="total">
-            {$locale.of} {user.limits.received.allowed} {user.limits.received.allowed === 1 ? "message" : "messages"}
+            {$locale.of} {user.limits.received.allowed} {user.limits.received.allowed === 1 ? $locale.message : $locale.messages}
           </div>
         </div>
       </div>
