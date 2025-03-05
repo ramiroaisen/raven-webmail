@@ -14,7 +14,9 @@ import { RAVEN_SIGNATURE_META_KEY } from "./metadata";
 export const api = (config: Config) => {
   const api = Router();
 
-  api.use(json());
+  api.use(json({
+    limit: "25mb",
+  }));
 
   api.use(i18n.middleware(config));
 
