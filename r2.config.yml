@@ -1,0 +1,10 @@
+apps:
+  - name: raven-webmail
+    arg0: node
+    args: raven.js start
+    instances: 1
+    wait_ready: true
+    max_memory_restart: 300mb
+    kill_timeout : 10s
+    env:
+      NODE_ENV: production
