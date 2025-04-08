@@ -54,6 +54,8 @@ export const start = async (config: Config) => {
   }
 
   const server = createServer(config, app);
-  server.listen(config.port);
-  console.log(`> ${chalk.yellow(config.ssl ? "https" : "http")} server listening at port ${chalk.yellow(config.port)}`);
+  server.listen(config.port, () => {;
+    console.log(`> ${chalk.yellow(config.ssl ? "https" : "http")} server listening at port ${chalk.yellow(config.port)}`);
+    console.log("#r2.READY");
+  })
 }
