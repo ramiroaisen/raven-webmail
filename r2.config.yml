@@ -4,6 +4,7 @@ apps:
     args: [raven.js, start]
     instances: 1
     wait_ready: true
+    wait_ready_timeout: 5s
     max_memory_restart: 300mb
     kill_timeout : 10s
     env:
